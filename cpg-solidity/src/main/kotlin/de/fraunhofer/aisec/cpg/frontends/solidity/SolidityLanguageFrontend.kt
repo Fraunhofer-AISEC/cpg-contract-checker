@@ -31,24 +31,33 @@ class SolidityLanguageFrontend(
     }
 
     fun handleSourceUnit(unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
-        var tu = TranslationUnitDeclaration(
-        )
+        var tu = TranslationUnitDeclaration()
 
-        unit.contractDefinition()
+        // reset global scope to this translation unit
+        this.scopeManager.resetToGlobal(tu)
+
+        var handler = DeclarationHandler(this)
+
+        for(contract in unit.contractDefinition()) {
+            var decl = handler.handle(contract)
+
+            // add contract declaration to TU
+            this.scopeManager.addDeclaration(decl)
+        }
 
         return tu
     }
 
     override fun <T : Any?> getCodeFromRawNode(astNode: T): String? {
-        TODO("Not yet implemented")
+        return null
     }
 
     override fun <T : Any?> getLocationFromRawNode(astNode: T): PhysicalLocation? {
-        TODO("Not yet implemented")
+        return null
     }
 
     override fun <S : Any?, T : Any?> setComment(s: S, ctx: T) {
-        TODO("Not yet implemented")
+        
     }
 
 }
