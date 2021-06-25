@@ -33,15 +33,13 @@ dependencies {
     api("com.github.Fraunhofer-AISEC", "cpg", "e4ea0e38b0")
     antlr("org.antlr:antlr4:4.5")
 
-    testImplementation("org.junit.jupiter", "junit-jupiter-api", versions["junit5"])
-    testImplementation("org.junit.jupiter", "junit-jupiter-params", versions["junit5"])
-    testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", versions["junit5"])
+    testImplementation(kotlin("test"))
 }
 
 tasks.withType<JavaCompile> {
     dependsOn("generateGrammarSource")
 }
 
-tasks.withType<Test> {
+tasks.test {
     useJUnitPlatform()
 }
