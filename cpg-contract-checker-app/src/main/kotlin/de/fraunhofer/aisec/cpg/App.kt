@@ -3,6 +3,50 @@
  */
 package de.fraunhofer.aisec.cpg;
 
+import de.fraunhofer.aisec.analysis.server.AnalysisServer
+import de.fraunhofer.aisec.analysis.structures.AnalysisContext
+import de.fraunhofer.aisec.analysis.structures.ServerConfiguration
+import de.fraunhofer.aisec.analysis.structures.TypestateMode
+import org.slf4j.LoggerFactory
+import java.time.Duration
+import java.time.Instant
+import java.util.concurrent.TimeUnit
+
+class App{
+    companion object {
+        val log = LoggerFactory.getLogger(App::class.java)
+    }
+
+    fun start() {
+        val start = Instant.now()
+
+        val server = AnalysisServer.builder()
+            .config(
+                ServerConfiguration.builder()
+                    .launchLsp(false)
+                    .launchConsole(false)
+                    .typestateAnalysis(TypestateMode.NFA)
+                    .disableGoodFindings(false)
+                    .analyzeIncludes(false)
+                    .markFiles("cpg-contract-checker-app/src/main/resources/mark/")
+                    .build()
+            )
+            .build()
+
+        server.start()
+
+        log.info("Analysis server started in {} in ms.", Duration.between(start, Instant.now()).toMillis())
+
+        val ctx: AnalysisContext = server.analyze("cpg-solidity/src/test/resources/")
+            .get(5, TimeUnit.MINUTES)
+
+        val findings = ctx.findings
+        println(findings)
+    }
+}
+
 fun main() {
-    println("Hallo Blockchain")
+    val app = App()
+    app.start()
+    System.exit(0)
 }

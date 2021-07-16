@@ -25,6 +25,10 @@ repositories {
 
 dependencies {
     implementation(project(":cpg-solidity"))
+
+    implementation("com.github.Fraunhofer-AISEC:codyze:2.0.0-alpha2")
+    // is needed, but somehow not exported by codyze
+    implementation("org.eclipse.xtext:org.eclipse.xtext:2.14.0")
 }
 
 application {
