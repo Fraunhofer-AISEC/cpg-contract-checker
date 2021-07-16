@@ -18,6 +18,8 @@ class SolidityLanguageFrontend(
     config: @NonNull TranslationConfiguration,
     scopeManager: ScopeManager?,
 ) : LanguageFrontend(config, scopeManager, ".") {
+    val statementHandler = StatementHandler(this)
+    val expressionHandler = ExpressionHandler(this)
     val typeHandler = TypeHandler(this)
     val declarationHandler = DeclarationHandler(this)
 
@@ -33,7 +35,7 @@ class SolidityLanguageFrontend(
         @kotlin.jvm.JvmField var SOLIDITY_EXTENSIONS: List<String> = listOf(".sol")
     }
 
-    fun handleSourceUnit(unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
+    private fun handleSourceUnit(unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
         var tu = TranslationUnitDeclaration()
 
         // reset global scope to this translation unit

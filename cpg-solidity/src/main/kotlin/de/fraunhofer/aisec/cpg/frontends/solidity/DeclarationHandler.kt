@@ -5,6 +5,9 @@ import de.fraunhofer.aisec.cpg.frontends.Handler
 import de.fraunhofer.aisec.cpg.graph.NodeBuilder
 import de.fraunhofer.aisec.cpg.graph.declarations.Declaration
 import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
+import de.fraunhofer.aisec.cpg.graph.declarations.ParamVariableDeclaration
+import de.fraunhofer.aisec.cpg.graph.declarations.RecordDeclaration
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import org.antlr.v4.runtime.ParserRuleContext
 
@@ -13,10 +16,24 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
     init {
         map.put(SolidityParser.ContractDefinitionContext::class.java) { handleContractDefinition(it as SolidityParser.ContractDefinitionContext) }
         map.put(SolidityParser.FunctionDefinitionContext::class.java) { handleFunctionDefinition(it as SolidityParser.FunctionDefinitionContext) }
+        map.put(SolidityParser.ParameterContext::class.java) { handleParameter(it as SolidityParser.ParameterContext) }
         map.put(SolidityParser.StateVariableDeclarationContext::class.java) { handleStateVariableDeclaration(it as SolidityParser.StateVariableDeclarationContext) }
     }
 
-    private fun handleContractDefinition(ctx: SolidityParser.ContractDefinitionContext): Declaration {
+    private fun handleParameter(ctx: SolidityParser.ParameterContext): ParamVariableDeclaration {
+        val name = ctx.identifier().text
+        val type = this.lang.typeHandler.handle(ctx.typeName())
+
+        val param = NodeBuilder.newMethodParameterIn(name,
+            type,
+            false,
+            this.lang.getCodeFromRawNode(ctx)
+        )
+
+        return param
+    }
+
+    private fun handleContractDefinition(ctx: SolidityParser.ContractDefinitionContext): RecordDeclaration {
         val record = NodeBuilder.newRecordDeclaration(
             ctx.identifier().text,
             "contract",
@@ -61,7 +78,21 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         // enter function scope
         this.lang.scopeManager.enterScope(method)
 
-        // TODO: implement method body
+        // handle body
+        method.body = this.lang.statementHandler.handle(ctx.block())
+
+        ctx.parameterList()?.let {
+            for(param in it.parameter()) {
+                var decl = this.lang.declarationHandler.handle(param)
+
+                this.lang.scopeManager.addDeclaration(decl)
+            }
+        }
+
+        // TODO: parse more than one return parameter
+        ctx.returnParameters()?.parameterList()?.parameter()?.firstOrNull()?.let {
+            method.type = this.lang.typeHandler.handle(it.typeName())
+        }
 
         // leave function scope
         this.lang.scopeManager.leaveScope(method)
@@ -73,7 +104,18 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         val name = ctx.identifier().Identifier().text
         val type = this.lang.typeHandler.handle(ctx.typeName())
 
-        val field = NodeBuilder.newFieldDeclaration(name, type, listOf(), this.lang.getCodeFromRawNode(ctx), this.lang.getLocationFromRawNode(ctx), null, false)
+        var initializer: Expression? = null
+        ctx.expression()?.let {
+            initializer = this.lang.expressionHandler.handle(ctx)
+        }
+
+        val field = NodeBuilder.newFieldDeclaration(name,
+            type,
+            listOf(),
+            this.lang.getCodeFromRawNode(ctx),
+            this.lang.getLocationFromRawNode(ctx),
+            initializer,
+            false)
 
         return field
     }
