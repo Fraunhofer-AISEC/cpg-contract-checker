@@ -39,7 +39,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", versions["junit5"])
 }
 
-tasks.withType<JavaCompile> {
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     dependsOn("generateGrammarSource")
 }
 
