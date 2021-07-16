@@ -30,10 +30,13 @@ val versions = mapOf(
 )
 
 dependencies {
-    api("com.github.Fraunhofer-AISEC", "cpg", "e4ea0e38b0")
+    api("com.github.Fraunhofer-AISEC", "cpg", "4.0.0-beta.2")
     antlr("org.antlr:antlr4:4.5")
 
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter", "junit-jupiter-api", versions["junit5"])
+    testImplementation("org.junit.jupiter", "junit-jupiter-params", versions["junit5"])
+    testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", versions["junit5"])
 }
 
 tasks.withType<JavaCompile> {

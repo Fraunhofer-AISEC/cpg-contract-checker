@@ -2,9 +2,9 @@ package de.fraunhofer.aisec.cpg.frontends.solidity
 
 import de.fraunhofer.aisec.cpg.graph.declarations.RecordDeclaration
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
-import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Test
 import java.nio.file.Path
+import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 
 class SolidityLanguageFrontendTest {
@@ -25,25 +25,20 @@ class SolidityLanguageFrontendTest {
 
         assertNotNull(tu)
 
-        val record = tu.getDeclarationAs(0, RecordDeclaration::class.java)
+        val storage = tu.getDeclarationsByName("Storage", RecordDeclaration::class.java).iterator().next()
+        assertNotNull(storage)
 
-        assertNotNull(record)
-
-        val fields = record.fields
-
+        val fields = storage.fields
         assertNotNull(fields)
 
         assertEquals(1, fields.size)
 
-        val field = fields.first()
+        val data = fields.first()
+        assertNotNull(data)
+        assertEquals(TypeParser.createFrom("uint", false), data.type)
+        assertEquals("data", data.name)
 
-        assertNotNull(field)
-
-        assertEquals(TypeParser.createFrom("uint", false), field.type)
-        assertEquals("data", field.name)
-
-        val methods = record.methods
-
+        val methods = storage.methods
         assertNotNull(methods)
 
         assertEquals(2, methods.size)

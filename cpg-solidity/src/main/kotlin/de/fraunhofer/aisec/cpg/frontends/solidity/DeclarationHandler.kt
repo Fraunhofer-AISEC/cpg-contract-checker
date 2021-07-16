@@ -9,6 +9,7 @@ import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import org.antlr.v4.runtime.ParserRuleContext
 
 class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, ParserRuleContext, SolidityLanguageFrontend>(::Declaration, lang) {
+
     init {
         map.put(SolidityParser.ContractDefinitionContext::class.java) { handleContractDefinition(it as SolidityParser.ContractDefinitionContext) }
         map.put(SolidityParser.FunctionDefinitionContext::class.java) { handleFunctionDefinition(it as SolidityParser.FunctionDefinitionContext) }
@@ -24,8 +25,9 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         // enter the record scope
         this.lang.scopeManager.enterScope(record)
 
-        var declaration: Declaration? = null
         for(part in ctx.contractPart()) {
+            var declaration: Declaration? = null
+
             part.functionDefinition()?.let {
                 declaration = handle(part.functionDefinition())
             }
@@ -44,20 +46,6 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         return record
     }
 
-    private fun handleStateVariableDeclaration(ctx: SolidityParser.StateVariableDeclarationContext): Declaration? {
-        val field = NodeBuilder.newFieldDeclaration(
-            ctx.identifier().text,
-            TypeParser.createFrom(ctx.typeName().text, false, this.lang),
-            listOf(),
-            this.lang.getCodeFromRawNode(ctx),
-            this.lang.getLocationFromRawNode(ctx),
-            null,
-            false
-        )
-
-        return field
-    }
-
     private fun handleFunctionDefinition(ctx: SolidityParser.FunctionDefinitionContext): MethodDeclaration {
         val desc = ctx.functionDescriptor()
 
@@ -67,7 +55,8 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             desc.identifier().text,
             lang.getCodeFromRawNode(ctx),
             false,
-            record)
+            record
+        )
 
         // enter function scope
         this.lang.scopeManager.enterScope(method)
@@ -78,5 +67,14 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         this.lang.scopeManager.leaveScope(method)
 
         return method
+    }
+
+    private fun handleStateVariableDeclaration(ctx: SolidityParser.StateVariableDeclarationContext): Declaration {
+        val name = ctx.identifier().Identifier().text
+        val type = this.lang.typeHandler.handle(ctx.typeName())
+
+        val field = NodeBuilder.newFieldDeclaration(name, type, listOf(), this.lang.getCodeFromRawNode(ctx), this.lang.getLocationFromRawNode(ctx), null, false)
+
+        return field
     }
 }

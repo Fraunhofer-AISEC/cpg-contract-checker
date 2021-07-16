@@ -18,6 +18,9 @@ class SolidityLanguageFrontend(
     config: @NonNull TranslationConfiguration,
     scopeManager: ScopeManager?,
 ) : LanguageFrontend(config, scopeManager, ".") {
+    val typeHandler = TypeHandler(this)
+    val declarationHandler = DeclarationHandler(this)
+
     override fun parse(file: File): TranslationUnitDeclaration {
         val lexer = SolidityLexer(ANTLRInputStream(FileInputStream(file)))
         val stream = CommonTokenStream(lexer)
@@ -36,10 +39,8 @@ class SolidityLanguageFrontend(
         // reset global scope to this translation unit
         this.scopeManager.resetToGlobal(tu)
 
-        var handler = DeclarationHandler(this)
-
         for(contract in unit.contractDefinition()) {
-            var decl = handler.handle(contract)
+            var decl = this.declarationHandler.handle(contract)
 
             // add contract declaration to TU
             this.scopeManager.addDeclaration(decl)
@@ -57,7 +58,7 @@ class SolidityLanguageFrontend(
     }
 
     override fun <S : Any?, T : Any?> setComment(s: S, ctx: T) {
-        
+
     }
 
 }
