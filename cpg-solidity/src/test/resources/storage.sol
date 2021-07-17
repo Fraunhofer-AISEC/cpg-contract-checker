@@ -5,6 +5,9 @@ contract Storage {
 
     function set(uint x) public {
         data = x;
+
+        uint test = 2;
+        test = data();
     }
 
     function get() public view returns (uint) {
