@@ -9,6 +9,7 @@ import de.fraunhofer.aisec.cpg.graph.declarations.ParamVariableDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.RecordDeclaration
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
+import de.fraunhofer.aisec.cpg.graph.types.UnknownType
 import org.antlr.v4.runtime.ParserRuleContext
 
 class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, ParserRuleContext, SolidityLanguageFrontend>(::Declaration, lang) {
@@ -68,12 +69,20 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
         val record = this.lang.scopeManager.currentRecord
 
-        val method = NodeBuilder.newMethodDeclaration(
-            desc.identifier().text,
-            lang.getCodeFromRawNode(ctx),
-            false,
-            record
-        )
+        val method = if(desc.ConstructorKeyword() != null) {
+            NodeBuilder.newConstructorDeclaration(
+                record?.name ?: "",
+                this.lang.getCodeFromRawNode(ctx),
+                record
+            )
+        } else {
+            NodeBuilder.newMethodDeclaration(
+                desc.identifier().text,
+                this.lang.getCodeFromRawNode(ctx),
+                false,
+                record
+            )
+        }
 
         // enter function scope
         this.lang.scopeManager.enterScope(method)
@@ -83,7 +92,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
         ctx.parameterList()?.let {
             for(param in it.parameter()) {
-                var decl = this.lang.declarationHandler.handle(param)
+                val decl = this.lang.declarationHandler.handle(param)
 
                 this.lang.scopeManager.addDeclaration(decl)
             }
@@ -93,6 +102,20 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         ctx.returnParameters()?.parameterList()?.parameter()?.firstOrNull()?.let {
             method.type = this.lang.typeHandler.handle(it.typeName())
         }
+
+        val recordType = if(record != null) {
+            TypeParser.createFrom(record.name, false)
+        } else {
+            UnknownType.getUnknownType()
+        }
+
+        // create the this receiver
+        val receiver = NodeBuilder.newVariableDeclaration(
+            "this",
+            recordType,
+            this.lang.getCodeFromRawNode(ctx), false)
+
+        method.receiver = receiver
 
         // leave function scope
         this.lang.scopeManager.leaveScope(method)
