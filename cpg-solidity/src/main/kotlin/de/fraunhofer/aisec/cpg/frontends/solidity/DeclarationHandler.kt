@@ -3,10 +3,7 @@ package de.fraunhofer.aisec.cpg.frontends.solidity
 import SolidityParser
 import de.fraunhofer.aisec.cpg.frontends.Handler
 import de.fraunhofer.aisec.cpg.graph.NodeBuilder
-import de.fraunhofer.aisec.cpg.graph.declarations.Declaration
-import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
-import de.fraunhofer.aisec.cpg.graph.declarations.ParamVariableDeclaration
-import de.fraunhofer.aisec.cpg.graph.declarations.RecordDeclaration
+import de.fraunhofer.aisec.cpg.graph.declarations.*
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
@@ -19,6 +16,26 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         map.put(SolidityParser.FunctionDefinitionContext::class.java) { handleFunctionDefinition(it as SolidityParser.FunctionDefinitionContext) }
         map.put(SolidityParser.ParameterContext::class.java) { handleParameter(it as SolidityParser.ParameterContext) }
         map.put(SolidityParser.StateVariableDeclarationContext::class.java) { handleStateVariableDeclaration(it as SolidityParser.StateVariableDeclarationContext) }
+        map.put(SolidityParser.VariableDeclarationContext::class.java) { handleVariableDeclaration(it as SolidityParser.VariableDeclarationContext) }
+        map.put(SolidityParser.StructDefinitionContext::class.java) { handleStructDefinition(it as SolidityParser.StructDefinitionContext) }
+    }
+
+    private fun handleStructDefinition(ctx: SolidityParser.StructDefinitionContext): Declaration {
+        val name = ctx.identifier().text
+
+        val record = NodeBuilder.newRecordDeclaration(name, "struct", this.lang.getCodeFromRawNode(ctx))
+
+        this.lang.scopeManager.enterScope(record)
+
+        for(`var` in ctx.variableDeclaration() ?: listOf()) {
+            val declaration = handle(`var`)
+
+            this.lang.scopeManager.addDeclaration(declaration)
+        }
+
+        this.lang.scopeManager.leaveScope(record)
+
+        return record
     }
 
     private fun handleParameter(ctx: SolidityParser.ParameterContext): ParamVariableDeclaration {
@@ -52,6 +69,10 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
             part.stateVariableDeclaration()?.let {
                 declaration = handle(part.stateVariableDeclaration())
+            }
+
+            part.structDefinition()?.let {
+                declaration = handle(part.structDefinition())
             }
 
             // add the declaration
@@ -138,6 +159,21 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             this.lang.getCodeFromRawNode(ctx),
             this.lang.getLocationFromRawNode(ctx),
             initializer,
+            false)
+
+        return field
+    }
+
+    private fun handleVariableDeclaration(ctx: SolidityParser.VariableDeclarationContext): FieldDeclaration {
+        val name = ctx.identifier().Identifier().text
+        val type = this.lang.typeHandler.handle(ctx.typeName())
+
+        val field = NodeBuilder.newFieldDeclaration(name,
+            type,
+            listOf(),
+            this.lang.getCodeFromRawNode(ctx),
+            this.lang.getLocationFromRawNode(ctx),
+            null,
             false)
 
         return field

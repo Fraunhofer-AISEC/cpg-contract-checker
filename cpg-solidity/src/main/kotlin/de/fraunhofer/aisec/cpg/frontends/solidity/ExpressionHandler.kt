@@ -3,11 +3,15 @@ package de.fraunhofer.aisec.cpg.frontends.solidity
 import de.fraunhofer.aisec.cpg.frontends.Handler
 import de.fraunhofer.aisec.cpg.graph.NodeBuilder
 import de.fraunhofer.aisec.cpg.graph.declarations.Declaration
+import de.fraunhofer.aisec.cpg.graph.declarations.RecordDeclaration
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.ConstructExpression
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.DeclaredReferenceExpression
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
 import org.antlr.v4.runtime.ParserRuleContext
 import org.antlr.v4.runtime.tree.TerminalNode
+import java.util.function.Predicate
 
 class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, ParserRuleContext, SolidityLanguageFrontend>(
     ::Expression, lang) {
@@ -25,18 +29,67 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
             return this.handle(it)
         }
 
+        // check for an operator
+        val op = ctx.getChild(TerminalNode::class.java, 0)
+
+        // member access
+        if(op != null && op.text == ".") {
+            val base = this.handle(expressions.first())
+            val name = ctx.identifier().text
+
+            val member = NodeBuilder.newMemberExpression(base, UnknownType.getUnknownType(), name, op.text, this.lang.getCodeFromRawNode(ctx))
+
+            return member
+        }
+
+        // either a function call or a construct expression
+        if(ctx.functionCallArguments() != null) {
+            val ref = this.handle(ctx.expression().firstOrNull())
+
+            if(ref is DeclaredReferenceExpression) {
+                val name = ref.name
+                val fqn = name
+
+                // TODO: use the scope manager instead
+                val record = this.lang.scopeManager.currentRecord?.records?.firstOrNull { it.name == name }
+
+                val call = if(record != null) {
+                    NodeBuilder.newConstructExpression(this.lang.getCodeFromRawNode(ctx))
+                } else {
+                    NodeBuilder.newCallExpression(ref.name, fqn, this.lang.getCodeFromRawNode(ctx), false)
+                }
+
+                for(arg in ctx.functionCallArguments().expressionList().expression()) {
+                    call.addArgument(this.handle(arg))
+                }
+
+                return call
+            }
+
+            return Expression()
+        }
+
+        // unary expression
+        if(op != null && expressions.size == 1) {
+            val postfix = ctx.children.lastOrNull() is TerminalNode
+            val prefix = ctx.children.firstOrNull() is TerminalNode
+
+            val unary = NodeBuilder.newUnaryOperator(op.text, postfix, prefix, this.lang.getCodeFromRawNode(ctx))
+
+            return unary
+        }
+
         // binary expression
-        if(expressions.size == 2) {
-            // retrieve the operator
-            val op = ctx.getChild(TerminalNode::class.java, 0).text
+        if(op != null && expressions.size == 2) {
+            val binOp = NodeBuilder.newBinaryOperator(op.text, this.lang.getCodeFromRawNode(ctx))
 
-            val binOp = NodeBuilder.newBinaryOperator(op, this.lang.getCodeFromRawNode(ctx))
-
-            binOp.lhs = this.handleExpression(expressions[0])
-            binOp.rhs = this.handleExpression(expressions[1])
+            binOp.lhs = this.handle(expressions[0])
+            binOp.rhs = this.handle(expressions[1])
 
             return binOp
         }
+
+
 
         return Expression()
     }
