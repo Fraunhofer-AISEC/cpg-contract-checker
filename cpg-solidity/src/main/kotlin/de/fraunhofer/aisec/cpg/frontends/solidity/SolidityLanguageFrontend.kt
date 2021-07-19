@@ -41,6 +41,8 @@ class SolidityLanguageFrontend(
         // reset global scope to this translation unit
         this.scopeManager.resetToGlobal(tu)
 
+        this.scopeManager.lang = this
+
         for(contract in unit.contractDefinition()) {
             var decl = this.declarationHandler.handle(contract)
 

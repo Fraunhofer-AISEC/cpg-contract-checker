@@ -7,7 +7,7 @@ contract Storage {
         data = x;
 
         uint test = 2;
-        test = data();
+        test = data;
     }
 
     function get() public view returns (uint) {

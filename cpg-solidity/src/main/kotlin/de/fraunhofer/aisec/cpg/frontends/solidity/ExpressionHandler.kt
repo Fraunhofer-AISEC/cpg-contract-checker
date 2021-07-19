@@ -59,7 +59,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                     NodeBuilder.newCallExpression(ref.name, fqn, this.lang.getCodeFromRawNode(ctx), false)
                 }
 
-                for(arg in ctx.functionCallArguments().expressionList().expression()) {
+                for(arg in ctx.functionCallArguments()?.expressionList()?.expression() ?: listOf()) {
                     call.addArgument(this.handle(arg))
                 }
 
