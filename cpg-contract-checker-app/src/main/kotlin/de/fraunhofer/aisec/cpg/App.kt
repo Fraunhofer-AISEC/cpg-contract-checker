@@ -7,17 +7,55 @@ import de.fraunhofer.aisec.analysis.server.AnalysisServer
 import de.fraunhofer.aisec.analysis.structures.AnalysisContext
 import de.fraunhofer.aisec.analysis.structures.ServerConfiguration
 import de.fraunhofer.aisec.analysis.structures.TypestateMode
+import de.fraunhofer.aisec.cpg.frontends.golang.GoLanguageFrontend
+import de.fraunhofer.aisec.cpg.frontends.python.PythonLanguageFrontend
+import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
+import de.fraunhofer.aisec.cpg.graph.Node
+import de.fraunhofer.aisec.cpg.helpers.Benchmark
+import org.neo4j.ogm.config.Configuration
+import org.neo4j.ogm.session.SessionFactory
 import org.slf4j.LoggerFactory
+import picocli.CommandLine
+import java.io.File
 import java.time.Duration
 import java.time.Instant
 import java.util.concurrent.TimeUnit
+import kotlin.io.path.Path
 
 class App{
+
+    @CommandLine.Option(names = ["--neo4j-password"], description = ["The Neo4j password"])
+    var neo4jPassword: String = "password"
+
     companion object {
         val log = LoggerFactory.getLogger(App::class.java)
     }
 
     fun start() {
+        persistGraph(getGraph())
+    }
+
+    fun getGraph() : TranslationResult{
+        val config =
+            TranslationConfiguration.builder()
+                .topLevel(File("cpg-solidity/src/test/resources/"))
+                .sourceLocations(File("cpg-solidity/src/test/resources/snippet.sol"))
+                .defaultPasses()
+                .defaultLanguages()
+                .registerLanguage(
+                    SolidityLanguageFrontend::class.java,
+                    SolidityLanguageFrontend.SOLIDITY_EXTENSIONS
+                )
+                .debugParser(true)
+                .processAnnotations(true)
+                .build()
+
+        val analyzer = TranslationManager.builder().config(config).build()
+        val o = analyzer.analyze()
+        return o.get()
+    }
+
+    fun evaluateMark(){
         val start = Instant.now()
 
         val server = AnalysisServer.builder()
@@ -42,6 +80,32 @@ class App{
 
         val findings = ctx.findings
         println(findings)
+    }
+
+    fun persistGraph(result: TranslationResult){
+        val configuration =
+            Configuration.Builder()
+                .uri("bolt://localhost")
+                .autoIndex("none")
+                .credentials("neo4j", neo4jPassword)
+                .build()
+
+        val sessionFactory =
+            SessionFactory(configuration, "de.fraunhofer.aisec.cpg.graph", "io.clouditor.graph")
+        val session = sessionFactory.openSession()
+
+        session.beginTransaction().use { transaction ->
+            session.purgeDatabase()
+
+            val b = Benchmark(App::class.java, "Saving nodes to database")
+            session.save(result.translationUnits)
+            b.stop()
+
+            transaction.commit()
+        }
+
+        session.clear()
+        sessionFactory.close()
     }
 }
 

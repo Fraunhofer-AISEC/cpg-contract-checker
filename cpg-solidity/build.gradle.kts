@@ -33,6 +33,11 @@ dependencies {
     api("com.github.Fraunhofer-AISEC", "cpg", "4.0.0-beta.2")
     antlr("org.antlr:antlr4:4.5")
 
+
+    api("org.neo4j", "neo4j-ogm-core", "3.2.21")
+    api("org.neo4j", "neo4j-ogm", "3.2.21")
+    api("org.neo4j", "neo4j-ogm-bolt-driver", "3.2.21")
+
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter", "junit-jupiter-api", versions["junit5"])
     testImplementation("org.junit.jupiter", "junit-jupiter-params", versions["junit5"])
