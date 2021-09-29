@@ -14,6 +14,8 @@ sourceUnit
     | functionDefinition
     | fileLevelConstant
     | customErrorDefinition
+    | expressionStatement
+    | stateVariableDeclaration
     )* EOF ;
 
 pragmaDirective
@@ -62,6 +64,7 @@ contractPart
   | eventDefinition
   | enumDefinition
   | customErrorDefinition;
+
 
 stateVariableDeclaration
   : typeName
