@@ -39,7 +39,7 @@ class App{
         val config =
             TranslationConfiguration.builder()
                 .topLevel(File("cpg-solidity/src/test/resources/"))
-                .sourceLocations(File("cpg-solidity/src/test/resources/snippet.sol"))
+                .sourceLocations(File("cpg-solidity/src/test/resources/"))
                 .defaultPasses()
                 .defaultLanguages()
                 .registerLanguage(

@@ -11,10 +11,13 @@ import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
 import org.antlr.v4.runtime.ParserRuleContext
 import org.antlr.v4.runtime.tree.TerminalNode
+import org.slf4j.LoggerFactory
 import java.util.function.Predicate
 
 class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, ParserRuleContext, SolidityLanguageFrontend>(
     ::Expression, lang) {
+
+    private val logger = LoggerFactory.getLogger(ExpressionHandler::class.java)
 
     init {
         map.put(SolidityParser.ExpressionContext::class.java) { handleExpression(it as SolidityParser.ExpressionContext) }
@@ -65,6 +68,8 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
                 return call
             }
+
+            logger.warn("Expression {} could not be parsed.", ctx::class.java)
 
             return Expression()
         }

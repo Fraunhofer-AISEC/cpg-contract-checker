@@ -7,9 +7,13 @@ import de.fraunhofer.aisec.cpg.graph.declarations.*
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
+import de.fraunhofer.aisec.cpg.helpers.Util
 import org.antlr.v4.runtime.ParserRuleContext
+import org.slf4j.LoggerFactory
 
 class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, ParserRuleContext, SolidityLanguageFrontend>(::Declaration, lang) {
+
+    private val logger = LoggerFactory.getLogger(DeclarationHandler::class.java)
 
     init {
         map.put(SolidityParser.ContractDefinitionContext::class.java) { handleContractDefinition(it as SolidityParser.ContractDefinitionContext) }
@@ -150,7 +154,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
         var initializer: Expression? = null
         ctx.expression()?.let {
-            initializer = this.lang.expressionHandler.handle(ctx)
+            initializer = this.lang.expressionHandler.handle(it)
         }
 
         val field = NodeBuilder.newFieldDeclaration(name,
