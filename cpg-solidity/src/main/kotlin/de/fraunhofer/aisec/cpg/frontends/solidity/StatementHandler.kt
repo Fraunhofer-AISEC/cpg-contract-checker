@@ -1,14 +1,16 @@
 package de.fraunhofer.aisec.cpg.frontends.solidity
 
 import SolidityParser
-import com.github.javaparser.ast.expr.SimpleName
-import com.github.javaparser.ast.stmt.BreakStmt
 import de.fraunhofer.aisec.cpg.frontends.Handler
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.EmitStatement
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.InlineAssemblyStatement
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Revert
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.UncheckedStatement
 import de.fraunhofer.aisec.cpg.graph.NodeBuilder
 import de.fraunhofer.aisec.cpg.graph.statements.*
-import de.fraunhofer.aisec.cpg.graph.statements.expressions.BinaryOperator
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.UnaryOperator
 import org.antlr.v4.runtime.ParserRuleContext
 import org.slf4j.LoggerFactory
 
@@ -260,8 +262,7 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     }
 
     private fun handleInlineAssemblyStatement(ctx: SolidityParser.InlineAssemblyStatementContext): Statement {
-        // TODO implement
-        return Statement()
+        return InlineAssemblyStatement()
     }
 
     private fun handleTryStatement(ctx: SolidityParser.TryStatementContext): TryStatement {
@@ -272,25 +273,28 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
         return tryStmt
     }
 
-    private fun handleThrowStatement(ctx: SolidityParser.ThrowStatementContext): BinaryOperator {
-        // TODO implement
-        return BinaryOperator()
+    private fun handleThrowStatement(ctx: SolidityParser.ThrowStatementContext): UnaryOperator {
+        return NodeBuilder.newUnaryOperator("throw", false, false, ctx.text)
     }
 
     private fun handleEmitStatement(ctx: SolidityParser.EmitStatementContext): Statement {
-        // TODO implement
-        return Statement()
+        val emit = EmitStatement()
+        emit.emits = lang.expressionHandler.handle(ctx.functionCall())
+        return emit
     }
 
     private fun handleUncheckedStatement(ctx: SolidityParser.UncheckedStatementContext): Statement {
-        val uncheckedStmt = UncheckedStatement()
-        ctx.block()?.let { uncheckedStmt.uncheckedBlock = handle(it) }
+        val uncheckedStmt = UncheckedStatement(ctx.block()?.let { handle(it) }?: null)
+        uncheckedStmt.code = this.lang.getCodeFromRawNode(ctx)
         return uncheckedStmt
     }
 
     private fun handleRevertStatement(ctx: SolidityParser.RevertStatementContext): Statement {
-        // TODO implement
-        return Statement()
+        val revert: Revert = Revert()
+        ctx.functionCall()?.let {
+            revert.message = lang.expressionHandler.handle(it) as CallExpression
+        }
+        return revert
     }
 
 }

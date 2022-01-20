@@ -4,7 +4,9 @@ import SolidityLexer
 import SolidityParser
 import de.fraunhofer.aisec.cpg.TranslationConfiguration
 import de.fraunhofer.aisec.cpg.frontends.LanguageFrontend
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Rollback
 import de.fraunhofer.aisec.cpg.graph.TypeManager
+import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
 import de.fraunhofer.aisec.cpg.passes.scopes.ScopeManager
 import de.fraunhofer.aisec.cpg.sarif.PhysicalLocation
@@ -32,6 +34,8 @@ class SolidityLanguageFrontend(
     val declarationHandler = DeclarationHandler(this)
     var currentFile: File? = null;
 
+    val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
+
     override fun parse(file: File): TranslationUnitDeclaration {
         TypeManager.getInstance().setLanguageFrontend(this)
 
@@ -40,7 +44,9 @@ class SolidityLanguageFrontend(
         val parser = SolidityParser(stream)
         currentFile = file
 
-        return handleSourceUnit(parser.sourceUnit())
+        val tu  = handleSourceUnit(parser.sourceUnit())
+        tu.name = file.name
+        return tu
     }
 
     companion object {
@@ -49,6 +55,7 @@ class SolidityLanguageFrontend(
 
     private fun handleSourceUnit(unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
         var tu = TranslationUnitDeclaration()
+
 
         // reset global scope to this translation unit
         this.scopeManager.resetToGlobal(tu)

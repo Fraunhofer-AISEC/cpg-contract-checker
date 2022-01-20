@@ -43,7 +43,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
     }
 
     private fun handleParameter(ctx: SolidityParser.ParameterContext): ParamVariableDeclaration {
-        val name = ctx.identifier().text
+        val name = ctx.identifier()?.text ?: ""
         val type = this.lang.typeHandler.handle(ctx.typeName())
 
         val param = NodeBuilder.newMethodParameterIn(name,
@@ -102,7 +102,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             )
         } else {
             NodeBuilder.newMethodDeclaration(
-                desc.identifier().text,
+                desc.identifier()?.text ?: "",
                 this.lang.getCodeFromRawNode(ctx),
                 false,
                 record
@@ -169,7 +169,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
     }
 
     private fun handleVariableDeclaration(ctx: SolidityParser.VariableDeclarationContext): FieldDeclaration {
-        val name = ctx.identifier().Identifier().text
+        val name = ctx.identifier()?.Identifier()?.text ?: ""
         val type = this.lang.typeHandler.handle(ctx.typeName())
 
         val field = NodeBuilder.newFieldDeclaration(name,

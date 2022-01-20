@@ -14,6 +14,7 @@ sourceUnit
     | functionDefinition
     | fileLevelConstant
     | customErrorDefinition
+    | expressionStatement
     )* EOF ;
 
 pragmaDirective
