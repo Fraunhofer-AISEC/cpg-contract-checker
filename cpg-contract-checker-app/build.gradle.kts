@@ -25,10 +25,16 @@ repositories {
 
 dependencies {
     implementation(project(":cpg-solidity"))
-
-    implementation("com.github.Fraunhofer-AISEC:codyze:2.0.0-alpha2")
     // is needed, but somehow not exported by codyze
-    implementation("org.eclipse.xtext:org.eclipse.xtext:2.14.0")
+    api("com.github.Fraunhofer-AISEC", "cpg", "4.0.0-beta.2")
+
+    // Command line interface support
+    api("info.picocli:picocli:4.5.2")
+    annotationProcessor("info.picocli:picocli-codegen:4.5.2")
+
+
+    api("org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1")
+    api("org.slf4j:jul-to-slf4j:2.0.0-alpha5")
 }
 
 application {

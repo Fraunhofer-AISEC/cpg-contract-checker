@@ -3,45 +3,92 @@
  */
 package de.fraunhofer.aisec.cpg;
 
-import de.fraunhofer.aisec.analysis.server.AnalysisServer
-import de.fraunhofer.aisec.analysis.structures.AnalysisContext
-import de.fraunhofer.aisec.analysis.structures.ServerConfiguration
-import de.fraunhofer.aisec.analysis.structures.TypestateMode
+import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
+import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
+import de.fraunhofer.aisec.cpg.graph.Node
+import de.fraunhofer.aisec.cpg.helpers.Benchmark
+import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
+import org.neo4j.ogm.config.Configuration
+import org.neo4j.ogm.session.SessionFactory
 import org.slf4j.LoggerFactory
-import java.time.Duration
-import java.time.Instant
-import java.util.concurrent.TimeUnit
+import picocli.CommandLine
+import java.io.File
 
 class App{
+
+    @CommandLine.Option(names = ["--neo4j-password"], description = ["The Neo4j password"])
+    var neo4jPassword: String = "password"
+
     companion object {
         val log = LoggerFactory.getLogger(App::class.java)
     }
 
     fun start() {
-        val start = Instant.now()
+        val tr: TranslationResult= getGraph()
 
-        val server = AnalysisServer.builder()
-            .config(
-                ServerConfiguration.builder()
-                    .launchLsp(false)
-                    .launchConsole(false)
-                    .typestateAnalysis(TypestateMode.NFA)
-                    .disableGoodFindings(false)
-                    .analyzeIncludes(false)
-                    .markFiles("cpg-contract-checker-app/src/main/resources/mark/")
-                    .build()
-            )
-            .build()
+        persistGraph(tr)
+    }
 
-        server.start()
+    fun getGraph() : TranslationResult{
+        val config =
+            TranslationConfiguration.builder()
+                .topLevel(File("cpg-solidity/src/test/resources/examples/"))
+                .sourceLocations(File("cpg-solidity/src/test/resources/examples/Revert.sol"))
+                .defaultPasses()
+                .registerLanguage(
+                    SolidityLanguageFrontend::class.java,
+                    SolidityLanguageFrontend.SOLIDITY_EXTENSIONS
+                )
+                .registerPass(EOGExtensionPass())
+                .debugParser(true)
+                .processAnnotations(true)
+                .build()
 
-        log.info("Analysis server started in {} in ms.", Duration.between(start, Instant.now()).toMillis())
+        val oldEOGIndex = config.registeredPasses.indexOfFirst {  it is EvaluationOrderGraphPass}
+        val newEOGIndex = config.registeredPasses.indexOfFirst {  it is EOGExtensionPass}
 
-        val ctx: AnalysisContext = server.analyze("cpg-solidity/src/test/resources/")
-            .get(5, TimeUnit.MINUTES)
+        config.registeredPasses[oldEOGIndex ] = config.registeredPasses[ newEOGIndex ]
+        config.registeredPasses.removeAt(newEOGIndex)
 
-        val findings = ctx.findings
-        println(findings)
+        val analyzer = TranslationManager.builder().config(config).build()
+        val o = analyzer.analyze()
+        return o.get()
+    }
+
+    fun persistGraph(result: TranslationResult){
+        val configuration =
+            Configuration.Builder()
+                .uri("bolt://localhost")
+                .autoIndex("none")
+                .credentials("neo4j", neo4jPassword)
+                .build()
+
+        val sessionFactory =
+            SessionFactory(configuration, "de.fraunhofer.aisec.cpg.graph", "de.fraunhofer.aisec.cpg.frontends.solidity")
+        val session = sessionFactory.openSession()
+
+        session.beginTransaction().use { transaction ->
+            session.purgeDatabase()
+
+            val b = Benchmark(App::class.java, "Saving nodes to database")
+            /*result.translationUnits.forEach {
+                println("Saving file:" + it.name)
+                session.save(it)
+            }*/
+
+            val nodes = mutableListOf<Node>()
+            nodes.addAll(result.additionalNodes)
+            nodes.addAll(result.translationUnits)
+
+
+            session.save(nodes)
+            b.stop()
+
+            transaction.commit()
+        }
+
+        session.clear()
+        sessionFactory.close()
     }
 }
 
@@ -49,4 +96,15 @@ fun main() {
     val app = App()
     app.start()
     System.exit(0)
+}
+
+val TranslationResult.additionalNodes: MutableList<Node>
+    get() =
+        this.scratch.computeIfAbsent("additionalNodes") { mutableListOf<Node>() } as
+                MutableList<Node>
+
+
+operator fun TranslationResult.plusAssign(node: Node) {
+    if(!this.additionalNodes.contains(node))
+        this.additionalNodes += node
 }
