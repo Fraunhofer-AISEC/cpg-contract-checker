@@ -18,6 +18,7 @@ public class UncheckedStatement extends Statement {
 
     public final void setUncheckedBlock(@Nullable Statement var1) {
         this.uncheckedBlock = var1;
+        this.uncheckedBlock.addNextDFG(this);
     }
 
     public UncheckedStatement(@Nullable Statement uncheckedBlock) {

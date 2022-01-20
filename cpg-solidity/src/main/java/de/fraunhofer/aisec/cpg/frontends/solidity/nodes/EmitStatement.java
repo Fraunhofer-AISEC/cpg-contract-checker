@@ -19,5 +19,6 @@ public class EmitStatement extends Statement {
 
     public final void setEmits(@Nullable Expression var1) {
         this.emits = var1;
+        this.emits.addNextDFG(this);
     }
 }

@@ -23,6 +23,7 @@ public class Require extends Expression {
 
     public final void setCondition(@Nullable Expression var1) {
         this.condition = var1;
+        this.condition.addNextDFG(this);
     }
 
 
@@ -33,5 +34,6 @@ public class Require extends Expression {
 
     public final void setMessage(@Nullable Expression var1) {
         this.message = var1;
+        this.message.addNextDFG(this);
     }
 }

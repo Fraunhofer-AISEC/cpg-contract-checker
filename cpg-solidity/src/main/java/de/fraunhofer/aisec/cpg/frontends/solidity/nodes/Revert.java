@@ -18,5 +18,6 @@ public class Revert extends Expression {
 
     public final void setMessage(@Nullable Expression var1) {
         this.message = var1;
+        this.message.addNextDFG(this);
     }
 }
