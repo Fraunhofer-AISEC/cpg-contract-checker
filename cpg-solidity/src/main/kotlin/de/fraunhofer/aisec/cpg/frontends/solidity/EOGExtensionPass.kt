@@ -108,7 +108,7 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
 
         require.message?.let {  createEOG(it) }
         createEOG(require.condition)
-        pushToEOG(node)
+        pushToEOG(require)
 
 
         val openBranchNodes: List<Node> = ArrayList()

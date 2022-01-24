@@ -77,7 +77,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                 if(call.name.equals("require") && call.arguments.size >= 1  && call.arguments.size <= 2){
                     val require: Require = Require()
                     require.condition = call.arguments[0]
-                    call.arguments[1]?.let { require.message = call.arguments[0]}
+                    call.arguments[1]?.let { require.message = it}
                     return require
                 }
 
