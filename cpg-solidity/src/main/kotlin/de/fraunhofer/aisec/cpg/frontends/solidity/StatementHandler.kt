@@ -284,7 +284,8 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     }
 
     private fun handleUncheckedStatement(ctx: SolidityParser.UncheckedStatementContext): Statement {
-        val uncheckedStmt = UncheckedStatement(ctx.block()?.let { handle(it) }?: null)
+        val uncheckedStmt = UncheckedStatement()
+        uncheckedStmt.uncheckedBlock = ctx.block()?.let { handle(it) }?: null
         uncheckedStmt.code = this.lang.getCodeFromRawNode(ctx)
         return uncheckedStmt
     }

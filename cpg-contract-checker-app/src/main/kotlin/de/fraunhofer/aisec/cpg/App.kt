@@ -4,6 +4,7 @@
 package de.fraunhofer.aisec.cpg;
 
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
+import de.fraunhofer.aisec.cpg.frontends.solidity.ExpressionHandler
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
@@ -15,6 +16,8 @@ import picocli.CommandLine
 import java.io.File
 
 class App{
+
+    private val logger = LoggerFactory.getLogger(App::class.java)
 
     @CommandLine.Option(names = ["--neo4j-password"], description = ["The Neo4j password"])
     var neo4jPassword: String = "password"
@@ -30,10 +33,15 @@ class App{
     }
 
     fun getGraph() : TranslationResult{
+        val basePath = "/home/kweiss/solsnip"
+        val base = "base"
+        val modgrammar = "modgrammar"
+        var path = basePath + "/" + base
+        path = "cpg-solidity/src/test/resources/examples/Reentrancy.sol"
         val config =
             TranslationConfiguration.builder()
-                .topLevel(File("cpg-solidity/src/test/resources/examples/"))
-                .sourceLocations(File("cpg-solidity/src/test/resources/examples/Revert.sol"))
+                .topLevel(File(path))
+                .sourceLocations(File(path))
                 .defaultPasses()
                 .registerLanguage(
                     SolidityLanguageFrontend::class.java,
@@ -80,8 +88,12 @@ class App{
             nodes.addAll(result.additionalNodes)
             nodes.addAll(result.translationUnits)
 
+            session.save(result.translationUnits)
+            result.translationUnits.forEach {
+                log.info(it.name)
+                session.save(it)
+                                                                                                                                                                                                                                                                                                                                                                                        }
 
-            session.save(nodes)
             b.stop()
 
             transaction.commit()

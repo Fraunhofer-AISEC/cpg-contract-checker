@@ -14,13 +14,12 @@ sourceUnit
     | functionDefinition
     | fileLevelConstant
     | customErrorDefinition
-    // added to parse incomplete substatements/expressions
-    | contractPart
-    | statement
+    | expressionStatement
+    | stateVariableDeclaration
     )* EOF ;
 
 pragmaDirective
-  : 'pragma' pragmaName pragmaValue semi ;
+  : 'pragma' pragmaName pragmaValue ';' ;
 
 pragmaName
   : identifier ;
@@ -42,9 +41,9 @@ importDeclaration
   : identifier ('as' identifier)? ;
 
 importDirective
-  : 'import' importPath ('as' identifier)? semi
-  | 'import' ('*' | identifier) ('as' identifier)? 'from' importPath semi
-  | 'import' '{' importDeclaration ( ',' importDeclaration )* '}' 'from' importPath semi ;
+  : 'import' importPath ('as' identifier)? ';'
+  | 'import' ('*' | identifier) ('as' identifier)? 'from' importPath ';'
+  | 'import' '{' importDeclaration ( ',' importDeclaration )* '}' 'from' importPath ';' ;
 
 importPath : StringLiteralFragment ;
 
@@ -70,29 +69,29 @@ contractPart
 stateVariableDeclaration
   : typeName
     ( PublicKeyword | InternalKeyword | PrivateKeyword | ConstantKeyword | ImmutableKeyword | overrideSpecifier )*
-    identifier ('=' expression)? semi ;
+    identifier ('=' expression)? ';' ;
 
 fileLevelConstant
-  : typeName ConstantKeyword identifier '=' expression semi ;
+  : typeName ConstantKeyword identifier '=' expression ';' ;
 
 customErrorDefinition
-  : 'error' identifier parameterList semi ;
+  : 'error' identifier parameterList ';' ;
 
 usingForDeclaration
-  : 'using' identifier 'for' ('*' | typeName) semi ;
+  : 'using' identifier 'for' ('*' | typeName) ';' ;
 
 structDefinition
   : 'struct' identifier
-    '{' ( variableDeclaration semi (variableDeclaration semi)* )? '}' ;
+    '{' ( variableDeclaration ';' (variableDeclaration ';')* )? '}' ;
 
 modifierDefinition
-  : 'modifier' identifier parameterList? ( VirtualKeyword | overrideSpecifier )* ( semi | block ) ;
+  : 'modifier' identifier parameterList? ( VirtualKeyword | overrideSpecifier )* ( ';' | block ) ;
 
 modifierInvocation
   : identifier ( '(' expressionList? ')' )? ;
 
 functionDefinition
-  : functionDescriptor parameterList modifierList returnParameters? ( semi | block ) ;
+  : functionDescriptor parameterList modifierList returnParameters? ( ';' | block ) ;
 
 functionDescriptor
   : 'function' identifier?
@@ -107,7 +106,7 @@ modifierList
   : (ExternalKeyword | PublicKeyword | InternalKeyword | PrivateKeyword | VirtualKeyword | stateMutability | modifierInvocation | overrideSpecifier )* ;
 
 eventDefinition
-  : 'event' identifier eventParameterList AnonymousKeyword? semi ;
+  : 'event' identifier eventParameterList AnonymousKeyword? ';' ;
 
 enumValue
   : identifier ;
@@ -186,7 +185,7 @@ statement
   | revertStatement;
 
 expressionStatement
-  : expression semi ;
+  : expression ';' ;
 
 ifStatement
   : 'if' '(' expression ')' statement ( 'else' statement )? ;
@@ -209,34 +208,34 @@ uncheckedStatement
   : 'unchecked' block ;
 
 forStatement
-  : 'for' '(' ( simpleStatement | semi ) ( expressionStatement | semi ) expression? ')' statement ;
+  : 'for' '(' ( simpleStatement | ';' ) ( expressionStatement | ';' ) expression? ')' statement ;
 
 inlineAssemblyStatement
   : 'assembly' StringLiteralFragment? assemblyBlock ;
 
 doWhileStatement
-  : 'do' statement 'while' '(' expression ')' semi ;
+  : 'do' statement 'while' '(' expression ')' ';' ;
 
 continueStatement
-  : 'continue' semi ;
+  : 'continue' ';' ;
 
 breakStatement
-  : 'break' semi ;
+  : 'break' ';' ;
 
 returnStatement
-  : 'return' expression? semi ;
+  : 'return' expression? ';' ;
 
 throwStatement
-  : 'throw' semi ;
+  : 'throw' ';' ;
 
 emitStatement
-  : 'emit' functionCall semi ;
+  : 'emit' functionCall ';' ;
 
 revertStatement
-  : 'revert' functionCall semi ;
+  : 'revert' functionCall ';' ;
 
 variableDeclarationStatement
-  : ( 'var' identifierList | variableDeclaration | '(' variableDeclarationList ')' ) ( '=' expression )? semi;
+  : ( 'var' identifierList | variableDeclaration | '(' variableDeclarationList ')' ) ( '=' expression )? ';';
 
 variableDeclarationList
   : variableDeclaration? (',' variableDeclaration? )* ;
@@ -516,18 +515,10 @@ VersionLiteral
   : [0-9]+ '.' [0-9]+ ('.' [0-9]+)? ;
 
 WS
-  : [ \t\u000C]+ -> skip ;
+  : [ \t\r\n\u000C]+ -> skip ;
 
 COMMENT
   : '/*' .*? '*/' -> channel(HIDDEN) ;
 
 LINE_COMMENT
   : '//' ~[\r\n]* -> channel(HIDDEN) ;
-
-semi
-  : (';' | NL)+
-  | EOF ;
-
-NL
-  : '\n'
-  | '\r' '\n'? ;

@@ -128,6 +128,12 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             method.type = this.lang.typeHandler.handle(it.typeName())
         }
 
+        ctx.modifierList()?.let {
+            it.ExternalKeyword()?.let{
+                // Todo this and more keywords
+            }
+        }
+
         val recordType = if(record != null) {
             TypeParser.createFrom(record.name, false)
         } else {
