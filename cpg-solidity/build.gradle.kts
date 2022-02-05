@@ -33,6 +33,16 @@ dependencies {
     api("com.github.Fraunhofer-AISEC", "cpg", "4.0.0-beta.2")
     antlr("org.antlr:antlr4:4.5")
 
+
+    api("org.neo4j", "neo4j-ogm-core", "3.2.28")
+    api("org.neo4j", "neo4j-ogm", "3.2.28")
+    api("org.neo4j", "neo4j-ogm-bolt-driver", "3.2.28")
+
+
+    api("org.slf4j:jul-to-slf4j:1.7.32")
+    api("org.slf4j:slf4j-api:1.7.32")
+    implementation("org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0")
+
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter", "junit-jupiter-api", versions["junit5"])
     testImplementation("org.junit.jupiter", "junit-jupiter-params", versions["junit5"])
