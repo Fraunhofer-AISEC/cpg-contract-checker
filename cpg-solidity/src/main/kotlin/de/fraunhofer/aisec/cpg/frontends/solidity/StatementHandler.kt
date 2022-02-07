@@ -223,7 +223,7 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
         }
 
         ctx.expression()?.let {
-            forStatement.iterationExpression= lang.expressionHandler.handle(it)
+            forStatement.iterationStatement= lang.expressionHandler.handle(it)
         }
 
         ctx.statement()?.let{
