@@ -10,6 +10,7 @@ import de.fraunhofer.aisec.cpg.graph.statements.expressions.*
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
 import org.antlr.v4.runtime.ParserRuleContext
+import org.antlr.v4.runtime.tree.ParseTree
 import org.antlr.v4.runtime.tree.TerminalNode
 import org.slf4j.LoggerFactory
 
@@ -47,7 +48,8 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
         }
 
         // check for an operator
-        val op = ctx.getChild(TerminalNode::class.java, 0)
+        val terminalNodes:List<ParseTree> = ctx.children.filter { it is TerminalNode }
+        val op = terminalNodes.get(0)
 
         // member access
         if(op != null && op.text == ".") {
@@ -57,6 +59,19 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
             val member = NodeBuilder.newMemberExpression(base, UnknownType.getUnknownType(), name, op.text, this.lang.getCodeFromRawNode(ctx))
 
             return member
+        }
+
+        if(terminalNodes.size == 2 && "[".equals(terminalNodes[0]) && "]".equals(terminalNodes[1])){
+            val arraySub = NodeBuilder.newArraySubscriptionExpression(lang.getCodeFromRawNode(ctx))
+            arraySub.arrayExpression = this.handle(expressions[0])
+            arraySub.subscriptExpression = this.handle(expressions[1])
+
+            return arraySub
+        }
+
+        if(terminalNodes.size == 3 && "[".equals(terminalNodes[0])  && ":".equals(terminalNodes[1]) && "]".equals(terminalNodes[2])){
+            return NodeBuilder.newArrayRangeExpression(
+                this.handle(expressions[0]),this.handle(expressions[1]),lang.getCodeFromRawNode(ctx))
         }
 
         // either a function call or a construct expression
@@ -71,10 +86,11 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                     name = ref.name
                     fqn = name
                 }else if(ref is SpecifiedExpression){
-                    while(ref is SpecifiedExpression){
-                        ref = ref.expression
+                    var nameHolder = ref
+                    while(nameHolder is SpecifiedExpression){
+                        nameHolder = nameHolder.expression
                     }
-                    name = ref.name
+                    name = nameHolder.name
                     fqn = name
                 }
 
@@ -112,7 +128,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                     }
                 }
 
-
+                call.setBase(ref)
 
                 return call
             }
