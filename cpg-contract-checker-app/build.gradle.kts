@@ -13,7 +13,7 @@ repositories {
     maven { setUrl("https://jitpack.io") }
 
     ivy {
-        setUrl("https://download.eclipse.org/tools/cdt/releases/10.2/cdt-10.2.0/plugins")
+        setUrl("https://download.eclipse.org/tools/cdt/releases/10.3/cdt-10.3.2/plugins")
         metadataSources {
             artifact()
         }
@@ -26,7 +26,7 @@ repositories {
 dependencies {
     implementation(project(":cpg-solidity"))
     // is needed, but somehow not exported by codyze
-    api("com.github.Fraunhofer-AISEC", "cpg", "4.0.0-beta.2")
+    api("com.github.Fraunhofer-AISEC", "cpg", "4.2.1")
 
     // Command line interface support
     api("info.picocli:picocli:4.5.2")
