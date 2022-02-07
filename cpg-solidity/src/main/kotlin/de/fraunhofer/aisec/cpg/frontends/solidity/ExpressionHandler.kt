@@ -61,7 +61,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
             return member
         }
 
-        if(terminalNodes.size == 2 && "[".equals(terminalNodes[0]) && "]".equals(terminalNodes[1])){
+        if(terminalNodes.size == 2 && "[".equals(terminalNodes[0].text) && "]".equals(terminalNodes[1].text)){
             val arraySub = NodeBuilder.newArraySubscriptionExpression(lang.getCodeFromRawNode(ctx))
             arraySub.arrayExpression = this.handle(expressions[0])
             arraySub.subscriptExpression = this.handle(expressions[1])
@@ -69,7 +69,13 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
             return arraySub
         }
 
-        if(terminalNodes.size == 3 && "[".equals(terminalNodes[0])  && ":".equals(terminalNodes[1]) && "]".equals(terminalNodes[2])){
+        if(terminalNodes.size == 2 && "?".equals(terminalNodes[0].text) && ":".equals(terminalNodes[1].text)){
+            return NodeBuilder.newConditionalExpression(
+                this.handle(expressions[0]), this.handle(expressions[1]), this.handle(expressions[2]),
+                TypeParser.createFrom(TypeParser.UNKNOWN_TYPE_STRING,false));
+        }
+
+        if(terminalNodes.size == 3 && "[".equals(terminalNodes[0].text)  && ":".equals(terminalNodes[1].text) && "]".equals(terminalNodes[2])){
             return NodeBuilder.newArrayRangeExpression(
                 this.handle(expressions[0]),this.handle(expressions[1]),lang.getCodeFromRawNode(ctx))
         }
