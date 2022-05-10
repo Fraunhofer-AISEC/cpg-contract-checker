@@ -521,8 +521,8 @@ VersionLiteral
  * code snippets
  */
 eos
-  : ';' NL?
-  | NL ;
+  : ';' NL*
+  | NL+ ;
 
 NL
   : [\r\n]+ ;
