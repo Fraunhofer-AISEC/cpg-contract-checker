@@ -4,16 +4,21 @@
 package de.fraunhofer.aisec.cpg;
 
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
-import de.fraunhofer.aisec.cpg.frontends.solidity.ExpressionHandler
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
+import org.neo4j.configuration.GraphDatabaseSettings.DEFAULT_DATABASE_NAME
+import org.neo4j.dbms.api.DatabaseManagementService
+import org.neo4j.dbms.api.DatabaseManagementServiceBuilder
+import org.neo4j.graphdb.GraphDatabaseService
 import org.neo4j.ogm.config.Configuration
 import org.neo4j.ogm.session.SessionFactory
 import org.slf4j.LoggerFactory
 import picocli.CommandLine
 import java.io.File
+import java.nio.file.Path
+
 
 class App{
 
@@ -30,6 +35,8 @@ class App{
         val tr: TranslationResult= getGraph()
 
         persistGraph(tr)
+
+        runVulnerabilityChecks()
     }
 
     fun getGraph() : TranslationResult{
@@ -37,7 +44,7 @@ class App{
         val base = "base"
         val modgrammar = "modgrammar"
         var path = basePath + "/" + base
-        path = "cpg-solidity/src/test/resources/examples/Reentrancy.sol"
+        path = "cpg-solidity/src/test/resources/examples/Modifiers.sol"
         val config =
             TranslationConfiguration.builder()
                 .topLevel(File(path))
@@ -102,6 +109,27 @@ class App{
         session.clear()
         sessionFactory.close()
     }
+}
+
+fun runVulnerabilityChecks(){
+    val managementService: DatabaseManagementService = DatabaseManagementServiceBuilder( Path.of( "neo4j" ) ).build();
+    val db: GraphDatabaseService = managementService.database( DEFAULT_DATABASE_NAME );
+
+
+    var rows = ""
+
+    db.beginTx().use { tx ->
+        tx.execute("MATCH (n) RETURN n, n.name").use { result ->
+            while (result.hasNext()) {
+                val row: Map<String, Any> = result.next()
+                for ((key, value) in row) {
+                    rows += "$key: $value; "
+                }
+                rows += "\n"
+            }
+        }
+    }
+    println("Results: " + rows)
 }
 
 fun main() {

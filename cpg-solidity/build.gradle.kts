@@ -34,6 +34,7 @@ dependencies {
     antlr("org.antlr:antlr4:4.5")
 
 
+    api("org.neo4j", "neo4j", "4.4.0")
     api("org.neo4j", "neo4j-ogm-core", "3.2.28")
     api("org.neo4j", "neo4j-ogm", "3.2.28")
     api("org.neo4j", "neo4j-ogm-bolt-driver", "3.2.28")
