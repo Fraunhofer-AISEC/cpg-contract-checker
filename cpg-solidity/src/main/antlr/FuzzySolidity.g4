@@ -5,7 +5,7 @@
 grammar FuzzySolidity;
 
 sourceUnit
-  : NL?
+  : NL*
     (
     pragmaDirective
     | importDirective
@@ -20,7 +20,7 @@ sourceUnit
     )* EOF ;
 
 pragmaDirective
-  : 'pragma' NL? pragmaName pragmaValue eos ;
+  : 'pragma' NL* pragmaName pragmaValue eos ;
 
 pragmaName
   : identifier ;
@@ -29,32 +29,32 @@ pragmaValue
   : version | expression ;
 
 version
-  : versionConstraint (('||' NL?)? versionConstraint)* ;
+  : versionConstraint (('||' NL*)? versionConstraint)* ;
 
 versionOperator
-  : ('^' | '~' | '>=' | '>' | '<' | '<=' | '=') NL? ;
+  : ('^' | '~' | '>=' | '>' | '<' | '<=' | '=') NL* ;
 
 versionConstraint
-  : versionOperator? VersionLiteral NL?
-  | versionOperator? DecimalNumber NL? ;
+  : versionOperator? VersionLiteral NL*
+  | versionOperator? DecimalNumber NL* ;
 
 importDeclaration
-  : identifier ('as' NL? identifier)? ;
+  : identifier ('as' NL* identifier)? ;
 
 importDirective
-  : 'import' NL? importPath ('as' NL? identifier)? eos
-  | 'import' NL? ('*' NL? | identifier) ('as' NL? identifier)? 'from' NL? importPath eos
-  | 'import' NL? '{' NL? importDeclaration ( ',' NL? importDeclaration )* '}' NL? 'from' NL? importPath eos ;
+  : 'import' NL* importPath ('as' NL* identifier)? eos
+  | 'import' NL* ('*' NL* | identifier) ('as' NL* identifier)? 'from' NL* importPath eos
+  | 'import' NL* '{' NL* importDeclaration ( ',' NL* importDeclaration )* '}' NL* 'from' NL* importPath eos ;
 
 importPath : StringLiteralFragment ;
 
 contractDefinition
-  : ('abstract' NL?)? ( 'contract' | 'interface' | 'library' ) NL? identifier
-    ( 'is' NL? inheritanceSpecifier (',' NL? inheritanceSpecifier )* )?
-    '{' NL? contractPart* '}' NL? ;
+  : ('abstract' NL*)? ( 'contract' | 'interface' | 'library' ) NL* identifier
+    ( 'is' NL* inheritanceSpecifier (',' NL* inheritanceSpecifier )* )?
+    '{' NL* contractPart* '}' NL* ;
 
 inheritanceSpecifier
-  : userDefinedTypeName ( '(' NL? expressionList? ')' NL? )? ;
+  : userDefinedTypeName ( '(' NL* expressionList? ')' NL* )? ;
 
 contractPart
   : stateVariableDeclaration
@@ -69,66 +69,66 @@ contractPart
 
 stateVariableDeclaration
   : typeName
-    ( PublicKeyword NL? | InternalKeyword NL? | PrivateKeyword NL? | ConstantKeyword NL? | ImmutableKeyword NL? | overrideSpecifier )*
-    identifier ('=' NL? expression)? eos ;
+    ( PublicKeyword NL* | InternalKeyword NL* | PrivateKeyword NL* | ConstantKeyword NL* | ImmutableKeyword NL* | overrideSpecifier )*
+    identifier ('=' NL* expression)? eos ;
 
 fileLevelConstant
-  : typeName ConstantKeyword NL? identifier '=' NL? expression eos ;
+  : typeName ConstantKeyword NL* identifier '=' NL* expression eos ;
 
 customErrorDefinition
-  : 'error' NL? identifier parameterList eos ;
+  : 'error' NL* identifier parameterList eos ;
 
 usingForDeclaration
-  : 'using' NL? identifier 'for' NL? ('*' NL? | typeName) eos ;
+  : 'using' NL* identifier 'for' NL* ('*' NL* | typeName) eos ;
 
 structDefinition
-  : 'struct' NL? identifier
-    '{' NL? ( variableDeclaration eos (variableDeclaration eos)* )? '}' NL? ;
+  : 'struct' NL* identifier
+    '{' NL* ( variableDeclaration eos (variableDeclaration eos)* )? '}' NL* ;
 
 modifierDefinition
-  : 'modifier' NL? identifier parameterList? ( VirtualKeyword NL? | overrideSpecifier )* ( eos | block ) ;
+  : 'modifier' NL* identifier parameterList? ( VirtualKeyword NL* | overrideSpecifier )* ( eos | block ) ;
 
 modifierInvocation
-  : identifier ( '(' NL? expressionList? ')' NL? )? ;
+  : identifier ( '(' NL* expressionList? ')' NL* )? ;
 
 functionDefinition
   : functionDescriptor parameterList modifierList returnParameters? ( eos | block ) ;
 
 functionDescriptor
-  : 'function' NL? identifier?
-  | ConstructorKeyword NL?
-  | FallbackKeyword NL?
-  | ReceiveKeyword NL? ;
+  : 'function' NL* identifier?
+  | ConstructorKeyword NL*
+  | FallbackKeyword NL*
+  | ReceiveKeyword NL* ;
 
 returnParameters
-  : 'returns' NL? parameterList ;
+  : 'returns' NL* parameterList ;
 
 modifierList
-  : (ExternalKeyword NL? | PublicKeyword NL? | InternalKeyword NL? | PrivateKeyword NL? | VirtualKeyword NL? | stateMutability | modifierInvocation | overrideSpecifier )* ;
+  : (ExternalKeyword NL* | PublicKeyword NL* | InternalKeyword NL* | PrivateKeyword NL* | VirtualKeyword NL* | stateMutability | modifierInvocation | overrideSpecifier )* ;
 
 eventDefinition
-  : 'event' NL? identifier eventParameterList (AnonymousKeyword NL?)? eos ;
+  : 'event' NL* identifier eventParameterList (AnonymousKeyword NL*)? eos ;
 
 enumValue
   : identifier ;
 
 enumDefinition
-  : 'enum' NL? identifier '{' NL? enumValue? (',' NL? enumValue)* '}' NL? ;
+  : 'enum' NL* identifier '{' NL* enumValue? (',' NL* enumValue)* '}' NL* ;
 
 parameterList
-  : '(' NL? ( parameter (',' NL? parameter)* )? ')' NL? ;
+  : '(' NL* ( parameter (',' NL* parameter)* )? ')' NL* ;
 
 parameter
   : typeName storageLocation? identifier? ;
 
 eventParameterList
-  : '(' NL? ( eventParameter (',' NL? eventParameter)* )? ')' NL? ;
+  : '(' NL* ( eventParameter (',' NL* eventParameter)* )? ')' NL* ;
 
 eventParameter
-  : typeName (IndexedKeyword NL?)? identifier? ;
+  : typeName (IndexedKeyword NL*)? identifier? ;
 
 functionTypeParameterList
-  : '(' NL? ( functionTypeParameter (',' NL? functionTypeParameter)* )? ')' NL? ;
+  : '(' NL* ( functionTypeParameter (',' NL* functionTypeParameter)* )? ')' NL* ;
 
 functionTypeParameter
   : typeName storageLocation? ;
@@ -140,33 +140,33 @@ typeName
   : elementaryTypeName
   | userDefinedTypeName
   | mapping
-  | typeName '[' NL? expression? ']' NL?
+  | typeName '[' NL* expression? ']' NL*
   | functionTypeName
-  | 'address' NL? 'payable' NL? ;
+  | 'address' NL* 'payable' NL* ;
 
 userDefinedTypeName
-  : identifier ( '.' NL? identifier )* ;
+  : identifier ( '.' NL* identifier )* ;
 
 mappingKey
   : elementaryTypeName
   | userDefinedTypeName ;
 
 mapping
-  : 'mapping' NL? '(' NL? mappingKey '=>' NL? typeName ')' NL? ;
+  : 'mapping' NL* '(' NL* mappingKey '=>' NL* typeName ')' NL* ;
 
 functionTypeName
-  : 'function' NL? functionTypeParameterList
-    ( InternalKeyword NL? | ExternalKeyword NL? | stateMutability )*
-    ( 'returns' NL? functionTypeParameterList )? ;
+  : 'function' NL* functionTypeParameterList
+    ( InternalKeyword NL* | ExternalKeyword NL* | stateMutability )*
+    ( 'returns' NL* functionTypeParameterList )? ;
 
 storageLocation
-  : ('memory' | 'storage' | 'calldata') NL?;
+  : ('memory' | 'storage' | 'calldata') NL*;
 
 stateMutability
-  : (PureKeyword | ConstantKeyword | ViewKeyword | PayableKeyword) NL?  ;
+  : (PureKeyword | ConstantKeyword | ViewKeyword | PayableKeyword) NL*  ;
 
 block
-  : '{' NL? statement* '}' NL? ;
+  : '{' NL* statement* '}' NL* ;
 
 statement
   : ifStatement
@@ -189,33 +189,33 @@ expressionStatement
   : expression eos ;
 
 ifStatement
-  : 'if' NL? '(' NL? expression ')' NL? statement ( 'else' NL? statement )? ;
+  : 'if' NL* '(' NL* expression ')' NL* statement ( 'else' NL* statement )? ;
 
-tryStatement : 'try' NL? expression returnParameters? block catchClause+ ;
+tryStatement : 'try' NL* expression returnParameters? block catchClause+ ;
 
 // In reality catch clauses still are not processed as below
 // the identifier can only be a set string: "Error". But plans
 // of the Solidity team include possible expansion so we'll
 // leave this as is, befitting with the Solidity docs.
-catchClause : 'catch' NL? ( identifier? parameterList )? block ;
+catchClause : 'catch' NL* ( identifier? parameterList )? block ;
 
 whileStatement
-  : 'while' NL? '(' NL? expression ')' NL? statement ;
+  : 'while' NL* '(' NL* expression ')' NL* statement ;
 
 simpleStatement
   : ( variableDeclarationStatement | expressionStatement ) ;
 
 uncheckedStatement
-  : 'unchecked' NL? block ;
+  : 'unchecked' NL* block ;
 
 forStatement
-  : 'for' NL? '(' NL? ( simpleStatement | ';' NL? ) ( expressionStatement | ';' NL? ) expression? ')' NL? statement ;
+  : 'for' NL* '(' NL* ( simpleStatement | ';' NL* ) ( expressionStatement | ';' NL* ) expression? ')' NL* statement ;
 
 inlineAssemblyStatement
-  : 'assembly' NL? (StringLiteralFragment NL?)? assemblyBlock ;
+  : 'assembly' NL* (StringLiteralFragment NL*)? assemblyBlock ;
 
 doWhileStatement
-  : 'do' NL? statement 'while' NL? '(' NL? expression ')' NL? eos ;
+  : 'do' NL* statement 'while' NL* '(' NL* expression ')' NL* eos ;
 
 continueStatement
   : 'continue' eos ;
@@ -224,28 +224,28 @@ breakStatement
   : 'break' eos ;
 
 returnStatement
-  : 'return' NL? expression? eos ;
+  : 'return' NL* expression? eos ;
 
 throwStatement
   : 'throw' eos ;
 
 emitStatement
-  : 'emit' NL? functionCall eos ;
+  : 'emit' NL* functionCall eos ;
 
 revertStatement
-  : 'revert' NL? functionCall eos ;
+  : 'revert' NL* functionCall eos ;
 
 variableDeclarationStatement
-  : ( 'var' NL? identifierList | variableDeclaration | '(' NL? variableDeclarationList ')' NL? ) ( '=' NL? expression )? eos;
+  : ( 'var' NL* identifierList | variableDeclaration | '(' NL* variableDeclarationList ')' NL* ) ( '=' NL* expression )? eos;
 
 variableDeclarationList
-  : variableDeclaration? (',' NL? variableDeclaration? )* ;
+  : variableDeclaration? (',' NL* variableDeclaration? )* ;
 
 identifierList
-  : '(' NL? ( identifier? ',' NL? )* identifier? ')' NL? ;
+  : '(' NL* ( identifier? ',' NL* )* identifier? ')' NL* ;
 
 elementaryTypeName
-  : ('address' | 'bool' | 'string' | 'var' | Int | Uint | 'byte' | Byte | Fixed | Ufixed) NL? ;
+  : ('address' | 'bool' | 'string' | 'var' | Int | Uint | 'byte' | Byte | Fixed | Ufixed) NL* ;
 
 Int
   : 'int' | 'int8' | 'int16' | 'int24' | 'int32' | 'int40' | 'int48' | 'int56' | 'int64' | 'int72' | 'int80' | 'int88' | 'int96' | 'int104' | 'int112' | 'int120' | 'int128' | 'int136' | 'int144' | 'int152' | 'int160' | 'int168' | 'int176' | 'int184' | 'int192' | 'int200' | 'int208' | 'int216' | 'int224' | 'int232' | 'int240' | 'int248' | 'int256' ;
@@ -263,63 +263,63 @@ Ufixed
   : 'ufixed' | ( 'ufixed' [0-9]+ 'x' [0-9]+ ) ;
 
 expression
-  : expression ('++' | '--') NL?
-  | 'new' NL? typeName
-  | expression '[' NL? expression ']' NL?
-  | expression '[' NL? expression? ':' NL? expression? ']' NL?
-  | expression '.' NL? identifier
-  | expression '{' NL? nameValueList '}' NL?
-  | expression '(' NL? functionCallArguments ')' NL?
-  | '(' NL? expression ')' NL?
-  | ('++' | '--') NL? expression
-  | ('+' | '-') NL? expression
-  | ('after' | 'delete') NL? expression
-  | '!' NL? expression
-  | '~' NL? expression
-  | expression '**' NL? expression
-  | expression ('*' | '/' | '%') NL? expression
-  | expression ('+' | '-') NL? expression
-  | expression ('<<' | '>>') NL? expression
-  | expression '&' NL? expression
-  | expression '^' NL? expression
-  | expression '|' NL? expression
-  | expression ('<' | '>' | '<=' | '>=') NL? expression
-  | expression ('==' | '!=') NL? expression
-  | expression '&&' NL? expression
-  | expression '||' NL? expression
-  | expression '?' NL? expression ':' NL? expression
-  | expression ('=' | '|=' | '^=' | '&=' | '<<=' | '>>=' | '+=' | '-=' | '*=' | '/=' | '%=') NL? expression
+  : expression ('++' | '--') NL*
+  | 'new' NL* typeName
+  | expression '[' NL* expression ']' NL*
+  | expression '[' NL* expression? ':' NL* expression? ']' NL*
+  | expression '.' NL* identifier
+  | expression '{' NL* nameValueList '}' NL*
+  | expression '(' NL* functionCallArguments ')' NL*
+  | '(' NL* expression ')' NL*
+  | ('++' | '--') NL* expression
+  | ('+' | '-') NL* expression
+  | ('after' | 'delete') NL* expression
+  | '!' NL* expression
+  | '~' NL* expression
+  | expression '**' NL* expression
+  | expression ('*' | '/' | '%') NL* expression
+  | expression ('+' | '-') NL* expression
+  | expression ('<<' | '>>') NL* expression
+  | expression '&' NL* expression
+  | expression '^' NL* expression
+  | expression '|' NL* expression
+  | expression ('<' | '>' | '<=' | '>=') NL* expression
+  | expression ('==' | '!=') NL* expression
+  | expression '&&' NL* expression
+  | expression '||' NL* expression
+  | expression '?' NL* expression ':' NL* expression
+  | expression ('=' | '|=' | '^=' | '&=' | '<<=' | '>>=' | '+=' | '-=' | '*=' | '/=' | '%=') NL* expression
   | primaryExpression ;
 
 primaryExpression
-  : BooleanLiteral NL?
+  : BooleanLiteral NL*
   | numberLiteral
   | hexLiteral
   | stringLiteral
-  | identifier ('[' NL? ']' NL?)?
-  | TypeKeyword NL?
-  | PayableKeyword NL?
+  | identifier ('[' NL* ']' NL*)?
+  | TypeKeyword NL*
+  | PayableKeyword NL*
   | tupleExpression
-  | typeNameExpression ('[' NL? ']' NL?)? ;
+  | typeNameExpression ('[' NL* ']' NL*)? ;
 
 expressionList
-  : expression (',' NL? expression)* ;
+  : expression (',' NL* expression)* ;
 
 nameValueList
-  : nameValue (',' NL? nameValue)* (',' NL?)? ;
+  : nameValue (',' NL* nameValue)* (',' NL*)? ;
 
 nameValue
-  : identifier ':' NL? expression ;
+  : identifier ':' NL* expression ;
 
 functionCallArguments
-  : '{' NL? nameValueList? '}' NL?
+  : '{' NL* nameValueList? '}' NL*
   | expressionList? ;
 
 functionCall
-  : expression '(' NL? functionCallArguments ')' NL? ;
+  : expression '(' NL* functionCallArguments ')' NL* ;
 
 assemblyBlock
-  : '{' NL? assemblyItem* '}' NL? ;
+  : '{' NL* assemblyItem* '}' NL* ;
 
 assemblyItem
   : identifier
@@ -333,9 +333,9 @@ assemblyItem
   | assemblyFunctionDefinition
   | assemblyFor
   | assemblyIf
-  | BreakKeyword NL?
-  | ContinueKeyword NL?
-  | LeaveKeyword NL?
+  | BreakKeyword NL*
+  | ContinueKeyword NL*
+  | LeaveKeyword NL*
   | subAssembly
   | numberLiteral
   | stringLiteral
@@ -345,71 +345,71 @@ assemblyExpression
   : assemblyCall | assemblyLiteral | assemblyMember ;
 
 assemblyMember
-  : identifier '.' NL? identifier ;
+  : identifier '.' NL* identifier ;
 
 assemblyCall
-  : ( 'return' NL? | 'address' NL? | 'byte' NL? | identifier ) ( '(' NL? assemblyExpression? ( ',' NL? assemblyExpression )* ')' NL? )? ;
+  : ( 'return' NL* | 'address' NL* | 'byte' NL* | identifier ) ( '(' NL* assemblyExpression? ( ',' NL* assemblyExpression )* ')' NL* )? ;
 
 assemblyLocalDefinition
-  : 'let' NL? assemblyIdentifierOrList ( ':=' NL? assemblyExpression )? ;
+  : 'let' NL* assemblyIdentifierOrList ( ':=' NL* assemblyExpression )? ;
 
 assemblyAssignment
-  : assemblyIdentifierOrList ':=' NL? assemblyExpression ;
+  : assemblyIdentifierOrList ':=' NL* assemblyExpression ;
 
 assemblyIdentifierOrList
-  : identifier | assemblyMember | '(' NL? assemblyIdentifierList ')' NL? ;
+  : identifier | assemblyMember | '(' NL* assemblyIdentifierList ')' NL* ;
 
 assemblyIdentifierList
-  : identifier ( ',' NL? identifier )* ;
+  : identifier ( ',' NL* identifier )* ;
 
 assemblyStackAssignment
-  : '=:' NL? identifier ;
+  : '=:' NL* identifier ;
 
 labelDefinition
-  : identifier ':' NL? ;
+  : identifier ':' NL* ;
 
 assemblySwitch
-  : 'switch' NL? assemblyExpression assemblyCase* ;
+  : 'switch' NL* assemblyExpression assemblyCase* ;
 
 assemblyCase
-  : 'case' NL? assemblyLiteral assemblyBlock
-  | 'default' NL? assemblyBlock ;
+  : 'case' NL* assemblyLiteral assemblyBlock
+  | 'default' NL* assemblyBlock ;
 
 assemblyFunctionDefinition
-  : 'function' NL? identifier '(' NL? assemblyIdentifierList? ')' NL?
+  : 'function' NL* identifier '(' NL* assemblyIdentifierList? ')' NL*
     assemblyFunctionReturns? assemblyBlock ;
 
 assemblyFunctionReturns
-  : ( '->' NL? assemblyIdentifierList ) ;
+  : ( '->' NL* assemblyIdentifierList ) ;
 
 assemblyFor
-  : 'for' NL? ( assemblyBlock | assemblyExpression )
+  : 'for' NL* ( assemblyBlock | assemblyExpression )
     assemblyExpression ( assemblyBlock | assemblyExpression ) assemblyBlock ;
 
 assemblyIf
-  : 'if' NL? assemblyExpression assemblyBlock ;
+  : 'if' NL* assemblyExpression assemblyBlock ;
 
 assemblyLiteral
-  : stringLiteral | DecimalNumber NL? | HexNumber NL? | hexLiteral ;
+  : stringLiteral | DecimalNumber NL* | HexNumber NL* | hexLiteral ;
 
 subAssembly
-  : 'assembly' NL? identifier assemblyBlock ;
+  : 'assembly' NL* identifier assemblyBlock ;
 
 tupleExpression
-  : '(' NL? ( expression? ( ',' NL? expression? )* ) ')' NL?
-  | '[' NL? ( expression ( ',' NL? expression )* )? ']' NL? ;
+  : '(' NL* ( expression? ( ',' NL* expression? )* ) ')' NL*
+  | '[' NL* ( expression ( ',' NL* expression )* )? ']' NL* ;
 
 typeNameExpression
   : elementaryTypeName
   | userDefinedTypeName ;
 
 numberLiteral
-  : (DecimalNumber NL? | HexNumber NL?) (NumberUnit NL?)? ;
+  : (DecimalNumber NL* | HexNumber NL*) (NumberUnit NL*)? ;
 
 // some keywords need to be added here to avoid ambiguities
 // for example, "revert" is a keyword but it can also be a function name
 identifier
-  : ('from' | 'calldata' | 'receive' | 'callback' | 'revert' | 'error' | ConstructorKeyword | PayableKeyword | LeaveKeyword | Identifier) NL? ;
+  : ('from' | 'calldata' | 'receive' | 'callback' | 'revert' | 'error' | ConstructorKeyword | PayableKeyword | LeaveKeyword | Identifier) NL* ;
 
 BooleanLiteral
   : ('true' | 'false') ;
@@ -432,7 +432,7 @@ NumberUnit
   : 'wei' | 'gwei' | 'szabo' | 'finney' | 'ether'
   | 'seconds' | 'minutes' | 'hours' | 'days' | 'weeks' | 'years' ;
 
-hexLiteral : (HexLiteralFragment NL?)+ ;
+hexLiteral : (HexLiteralFragment NL*)+ ;
 
 HexLiteralFragment : 'hex' ('"' HexDigits? '"' | '\'' HexDigits? '\'') ;
 
@@ -484,7 +484,7 @@ ConstructorKeyword : 'constructor' ;
 FallbackKeyword : 'fallback' ;
 ReceiveKeyword : 'receive' ;
 
-overrideSpecifier : 'override' NL? ( '(' NL? userDefinedTypeName (',' NL? userDefinedTypeName)* ')' NL? )? ;
+overrideSpecifier : 'override' NL* ( '(' NL* userDefinedTypeName (',' NL* userDefinedTypeName)* ')' NL* )? ;
 
 Identifier
   : IdentifierStart IdentifierPart* ;
@@ -498,7 +498,7 @@ IdentifierPart
   : [a-zA-Z0-9$_] ;
 
 stringLiteral
-  : (StringLiteralFragment NL?)+ ;
+  : (StringLiteralFragment NL*)+ ;
 
 StringLiteralFragment
   : 'unicode'? '"' DoubleQuotedStringCharacter* '"'
@@ -531,7 +531,11 @@ WS
   : [ \t\u000C]+ -> skip ;
 
 COMMENT
-  : '/*' .*? '*/' NL? -> channel(HIDDEN) ;
+  : '/*' .*? '*/' NL* -> channel(HIDDEN) ;
 
 LINE_COMMENT
-  : '//' ~[\r\n]* NL -> channel(HIDDEN) ;
+  : '//' ~[\r\n]* NL+ -> channel(HIDDEN) ;
+
+// ignore a few characters often occuring near end-of-file
+IGNORE
+  : [`'] -> skip ;
