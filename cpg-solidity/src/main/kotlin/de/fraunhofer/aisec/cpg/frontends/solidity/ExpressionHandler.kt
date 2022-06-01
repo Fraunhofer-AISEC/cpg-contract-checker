@@ -17,6 +17,8 @@ import org.slf4j.LoggerFactory
 class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, ParserRuleContext, SolidityLanguageFrontend>(
     ::Expression, lang) {
 
+    private var replacingReferenceWithExpression: Boolean = false
+
     private val logger = LoggerFactory.getLogger(ExpressionHandler::class.java)
 
     init {
@@ -215,14 +217,39 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
     private fun handleIdentifier(ctx: SolidityParser.IdentifierContext) : Expression {
         val name = ctx.text
+        // replacing identifier to reference conversion by replacing them with the expression in the modifier invocation
+        // != null represents the case where the modifier is the actual base function
+        if(!replacingReferenceWithExpression && lang.currentIdentifierMapStack.isNotEmpty() && lang.currentIdentifierMapStack.peek() != null){
+            replacingReferenceWithExpression = true
+            val expression: SolidityParser.ExpressionContext? = getExpressionMatchingIdentifier(lang.currentIdentifierMapStack.peek(), name)
+
+            if(expression != null){
+                val cpgExpression = handle(expression)
+                replacingReferenceWithExpression = false
+                return cpgExpression
+            }
+            replacingReferenceWithExpression = false
+        }
+
         val ref = NodeBuilder.newDeclaredReferenceExpression(name,
             UnknownType.getUnknownType(),
             this.lang.getCodeFromRawNode(ctx))
         return ref
     }
 
+    private fun getExpressionMatchingIdentifier(map: MutableMap<String, SolidityParser.ExpressionContext>, name: String): SolidityParser.ExpressionContext?{
+        map?.let {
+            return map[name]
+        }
+        return null
+    }
+
     private fun handlePrimaryExpression(ctx: SolidityParser.PrimaryExpressionContext): Expression {
         ctx.identifier()?.let {
+            //if(it.text == "_" && lang.modifierStack.isNotEmpty()){
+            //    println("Found wildcard in modifier step")
+            //}else {
+            //}
             return handle(it)
         }
 

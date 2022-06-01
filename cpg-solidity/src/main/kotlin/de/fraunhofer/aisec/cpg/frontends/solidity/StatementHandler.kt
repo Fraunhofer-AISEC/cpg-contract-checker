@@ -9,6 +9,7 @@ import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.UncheckedStatement
 import de.fraunhofer.aisec.cpg.graph.NodeBuilder
 import de.fraunhofer.aisec.cpg.graph.statements.*
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.DeclaredReferenceExpression
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.UnaryOperator
 import org.antlr.v4.runtime.ParserRuleContext
@@ -130,7 +131,16 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
 
     private fun handleExpressionStatement(ctx: SolidityParser.ExpressionStatementContext): Statement {
         // unwrap expression
-        return this.lang.expressionHandler.handle(ctx.expression())
+        var expression: Statement = this.lang.expressionHandler.handle(ctx.expression())
+        if(expression is DeclaredReferenceExpression && expression.name == "_" && lang.modifierStack.isNotEmpty()){
+            var modifier = lang.modifierStack.pop()
+            lang.currentIdentifierMapStack.push(lang.modifierIdentifierMap[modifier])
+            expression = lang.declarationHandler.expandBodyWithModifiers(modifier)
+            lang.modifierStack.push(modifier)
+            lang.currentIdentifierMapStack.pop()
+
+        }
+        return expression
     }
 
     private fun handleVariableDeclarationStatement(ctx: SolidityParser.VariableDeclarationStatementContext): DeclarationStatement {

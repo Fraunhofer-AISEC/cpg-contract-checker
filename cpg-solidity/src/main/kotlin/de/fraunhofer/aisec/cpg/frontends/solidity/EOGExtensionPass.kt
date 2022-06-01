@@ -34,7 +34,7 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
         tr = result
         for (tu in result.translationUnits) {
             createEOG(tu)
-            overriddenRemoveUnreachableEOGEdges(tu!!)
+            // overriddenRemoveUnreachableEOGEdges(tu!!) // Should not be necessary as we have no indirect jumps over gotos
             // checkEOGInvariant(tu); To insert when trying to check if the invariant holds
         }
     }

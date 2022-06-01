@@ -6,7 +6,7 @@ plugins {
     java
     `java-library`
     antlr
-    kotlin("jvm") version "1.5.10"
+    kotlin("jvm") version "1.6.21"
 }
 
 repositories {
@@ -26,31 +26,43 @@ repositories {
 }
 
 val versions = mapOf(
-    "junit5" to "5.6.0"
+    "junit5" to "5.8.2",
+    "neo4j" to "3.2.35"
 )
 
 dependencies {
     api("com.github.Fraunhofer-AISEC", "cpg", "4.2.1")
-    antlr("org.antlr:antlr4:4.5")
+    antlr("org.antlr:antlr4:4.10.1")
 
+    // neo4j
+    api("org.neo4j", "neo4j-ogm-core", versions["neo4j"])
+    api("org.neo4j", "neo4j-ogm", versions["neo4j"])
+    api("org.neo4j", "neo4j-ogm-bolt-driver", versions["neo4j"])
 
-    api("org.neo4j", "neo4j-ogm-core", "3.2.28")
-    api("org.neo4j", "neo4j-ogm", "3.2.28")
-    api("org.neo4j", "neo4j-ogm-bolt-driver", "3.2.28")
-
-
+    // logging
     api("org.slf4j:jul-to-slf4j:1.7.32")
     api("org.slf4j:slf4j-api:1.7.32")
     implementation("org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0")
 
+    // testing
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter", "junit-jupiter-api", versions["junit5"])
     testImplementation("org.junit.jupiter", "junit-jupiter-params", versions["junit5"])
     testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", versions["junit5"])
 }
 
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
+}
+
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     dependsOn("generateGrammarSource")
+}
+
+tasks.compileTestKotlin {
+    dependsOn("generateTestGrammarSource")
 }
 
 tasks.test {
