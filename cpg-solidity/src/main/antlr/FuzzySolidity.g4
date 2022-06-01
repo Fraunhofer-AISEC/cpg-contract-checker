@@ -537,5 +537,5 @@ LINE_COMMENT
   : '//' ~[\r\n]* NL+ -> channel(HIDDEN) ;
 
 // ignore a few characters often occuring near end-of-file
-IGNORE
-  : [`'] -> skip ;
+//IGNORE
+//  : [`'] -> skip ;
