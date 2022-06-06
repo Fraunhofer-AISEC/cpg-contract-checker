@@ -5,19 +5,31 @@ package de.fraunhofer.aisec.cpg;
 
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.checks.Check
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.checks.ReentrancyCheck
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
+import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
 import org.neo4j.configuration.GraphDatabaseSettings.DEFAULT_DATABASE_NAME
+import org.neo4j.configuration.connectors.BoltConnector
+import org.neo4j.configuration.helpers.SocketAddress
 import org.neo4j.dbms.api.DatabaseManagementService
 import org.neo4j.dbms.api.DatabaseManagementServiceBuilder
+import org.neo4j.driver.AuthTokens
+import org.neo4j.driver.GraphDatabase
+import org.neo4j.driver.Record
+import org.neo4j.driver.Transaction
 import org.neo4j.graphdb.GraphDatabaseService
 import org.neo4j.ogm.config.Configuration
 import org.neo4j.ogm.session.SessionFactory
 import org.slf4j.LoggerFactory
 import picocli.CommandLine
 import java.io.File
+import java.nio.file.Files
 import java.nio.file.Path
+import java.nio.file.Paths
+import java.util.stream.Collectors
 
 
 class App{
@@ -26,25 +38,56 @@ class App{
 
     @CommandLine.Option(names = ["--neo4j-password"], description = ["The Neo4j password"])
     var neo4jPassword: String = "password"
+    var checks: MutableList<Check> = mutableListOf()
+
+    var findings: MutableMap<String, MutableList<String>> = mutableMapOf()
+
 
     companion object {
         val log = LoggerFactory.getLogger(App::class.java)
+
     }
 
     fun start() {
-        val tr: TranslationResult= getGraph()
-
-        persistGraph(tr)
-
-        runVulnerabilityChecks()
+        registerChecks()
+        findings["Empty translation"] = mutableListOf()
+        var nr_checked_files = 0
+        val base = "/home/kweiss/solsnip/modgrammar"
+        val files = getAllSolFiles(base)
+        for(path in files){
+            println(path.toString())
+            val tr: TranslationResult= getGraph(path.toString())
+            tr.translationUnits.forEach {
+               if(SubgraphWalker.flattenAST(it).size <= 1){
+                   findings["Empty translation"]!!.add(it.name)
+               }
+            }
+            persistGraph(tr)
+            runVulnerabilityChecks(path.toString())
+            nr_checked_files++
+            println("Nr. Files: " + nr_checked_files)
+        }
+        findings.forEach { (k,v) ->
+            println(k + " size: " + v.size)
+            v.forEach { e ->
+                println(e)
+                }
+        }
     }
 
-    fun getGraph() : TranslationResult{
+    fun getAllSolFiles(path: String): MutableList<Path>{
+        val path = Paths.get(path)
+        return Files.walk(path)
+            .filter { item -> Files.isRegularFile(item) }
+            .filter { item -> item.toString().endsWith(".sol") }.collect(Collectors.toList())
+    }
+
+    fun getGraph(filename: String) : TranslationResult{
         val basePath = "/home/kweiss/solsnip"
         val base = "base"
         val modgrammar = "modgrammar"
-        var path = basePath + "/" + base
-        path = "cpg-solidity/src/test/resources/examples/Modifiers.sol"
+        var path = "cpg-solidity/src/test/resources/examples/Reentrancy.sol"
+        path = filename
         val config =
             TranslationConfiguration.builder()
                 .topLevel(File(path))
@@ -68,6 +111,10 @@ class App{
         val analyzer = TranslationManager.builder().config(config).build()
         val o = analyzer.analyze()
         return o.get()
+    }
+
+    fun registerChecks(){
+        checks.add(ReentrancyCheck())
     }
 
     fun persistGraph(result: TranslationResult){
@@ -109,28 +156,31 @@ class App{
         session.clear()
         sessionFactory.close()
     }
-}
 
-fun runVulnerabilityChecks(){
-    val managementService: DatabaseManagementService = DatabaseManagementServiceBuilder( Path.of( "neo4j" ) ).build();
-    val db: GraphDatabaseService = managementService.database( DEFAULT_DATABASE_NAME );
+    fun runVulnerabilityChecks(filename: String){
+        GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", neo4jPassword)).use { driver ->
+            driver.session().use { session ->
+                session.readTransaction() { t: Transaction ->
+
+                    for (check in checks){
+                        var finding = check.check(t)
+                        if(finding){
+                            if(findings[check.javaClass.simpleName] == null){
+                                findings.put(check.javaClass.simpleName, mutableListOf())
+                            }
+                            findings[check.javaClass.simpleName]!!.add("Vulnerabillity found in: " + filename)
+                            println(check.javaClass.simpleName + " found vulnerability in file:" + filename)
+                        }
+                    }
 
 
-    var rows = ""
-
-    db.beginTx().use { tx ->
-        tx.execute("MATCH (n) RETURN n, n.name").use { result ->
-            while (result.hasNext()) {
-                val row: Map<String, Any> = result.next()
-                for ((key, value) in row) {
-                    rows += "$key: $value; "
                 }
-                rows += "\n"
             }
         }
     }
-    println("Results: " + rows)
 }
+
+
 
 fun main() {
     val app = App()

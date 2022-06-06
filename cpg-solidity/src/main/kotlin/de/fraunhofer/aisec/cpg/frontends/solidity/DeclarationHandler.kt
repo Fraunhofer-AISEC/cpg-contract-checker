@@ -244,22 +244,21 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
             it.asReversed().forEach {
                 val name = it.identifier().text?: ""
-                lang.modifierStack.push( lang.modifierMap.values.filter { it.identifier().text == name }.first())
+                val modifierInvocation = it
+                lang.modifierMap.values.filter { it.identifier().text == name }.firstOrNull()?.let {
+                    lang.modifierStack.push( it )
 
-
-
-                val modifier = lang.modifierStack.peek() as SolidityParser.ModifierDefinitionContext
-                lang.modifierIdentifierMap.put(modifier, mutableMapOf())
-                it.expressionList()?.let {
-                    val expressions = it.children.filterIsInstance<SolidityParser.ExpressionContext>()
-                    val parameters = modifier.parameterList().children.filterIsInstance<SolidityParser.ParameterContext>()
-                    for ( i in 0 until expressions.size){
-                        lang.modifierIdentifierMap[modifier]!![parameters[i].identifier().text] = expressions[i]
+                    val modifier = lang.modifierStack.peek() as SolidityParser.ModifierDefinitionContext
+                    lang.modifierIdentifierMap.put(modifier, mutableMapOf())
+                    modifierInvocation.expressionList()?.let {
+                        val expressions = it.children.filterIsInstance<SolidityParser.ExpressionContext>()
+                        val parameters = modifier.parameterList().children.filterIsInstance<SolidityParser.ParameterContext>()
+                        for ( i in 0 until expressions.size){
+                            lang.modifierIdentifierMap[modifier]!![parameters[i].identifier().text] = expressions[i]
+                        }
                     }
                 }
             }
-
-
         }
 
         lang.scopeManager.enterScope(method)

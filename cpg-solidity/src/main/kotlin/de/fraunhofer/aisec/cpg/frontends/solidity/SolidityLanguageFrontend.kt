@@ -79,6 +79,8 @@ class SolidityLanguageFrontend(
             this.scopeManager.addDeclaration(decl)
         }
 
+
+
         functionsWithModifiers.forEach { k, v ->
             declarationHandler.handleModifierExpansion(k,v)
         }
