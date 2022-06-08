@@ -32,7 +32,8 @@ val versions = mapOf(
 
 dependencies {
     api("com.github.Fraunhofer-AISEC", "cpg", "4.2.1")
-    antlr("org.antlr:antlr4:4.10.1")
+    antlr("org.antlr:antlr4:4.5")
+
 
     // neo4j
     api("org.neo4j", "neo4j", "4.4.0")
@@ -51,6 +52,7 @@ dependencies {
     testImplementation("org.junit.jupiter", "junit-jupiter-params", versions["junit5"])
     testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", versions["junit5"])
 }
+
 
 java {
     toolchain {

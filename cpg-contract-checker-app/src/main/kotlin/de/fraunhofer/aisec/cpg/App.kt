@@ -53,7 +53,8 @@ class App{
         findings["Empty translation"] = mutableListOf()
         var nr_checked_files = 0
         val base = "/home/kweiss/solsnip/modgrammar"
-        val files = getAllSolFiles(base)
+        // val files = getAllSolFiles(base)
+        val files = listOf<Path>(Path.of(base + "/" + "68162833_1.sol"))
         for(path in files){
             println(path.toString())
             val tr: TranslationResult= getGraph(path.toString())

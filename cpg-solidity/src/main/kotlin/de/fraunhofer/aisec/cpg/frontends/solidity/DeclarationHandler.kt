@@ -98,6 +98,44 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         return record
     }
 
+    private fun handleMissingContractDefinition(unit: SolidityParser.SourceUnitContext): RecordDeclaration {
+        val record = NodeBuilder.newRecordDeclaration(
+            ctx.identifier().text,
+            "contract",
+            lang.getCodeFromRawNode(unit))
+
+        // enter the record scope
+        this.lang.scopeManager.enterScope(record)
+
+        for(part in unit.contractPart()) {
+            var declaration: Declaration? = null
+
+            part.functionDefinition()?.let {
+                declaration = handle(part.functionDefinition())
+            }
+
+            part.stateVariableDeclaration()?.let {
+                declaration = handle(part.stateVariableDeclaration())
+            }
+
+            part.structDefinition()?.let {
+                declaration = handle(part.structDefinition())
+            }
+
+            part.modifierDefinition()?.let{
+                declaration = handle(part.modifierDefinition())
+            }
+
+            // add the declaration
+            declaration?.let { this.lang.scopeManager.addDeclaration(declaration) }
+        }
+
+        // leave the record scope
+        this.lang.scopeManager.leaveScope(record)
+
+        return record
+    }
+
     private fun handleModifierDefinition(ctx: SolidityParser.ModifierDefinitionContext): ModifierDefinition {
         val desc = ctx.identifier()
 

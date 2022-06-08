@@ -79,6 +79,10 @@ class SolidityLanguageFrontend(
             this.scopeManager.addDeclaration(decl)
         }
 
+        if(unit.functionDefinition() != null || unit.stateVariableDeclaration() != null || unit.expressionStatement() != null){
+            println()
+        }
+
 
 
         functionsWithModifiers.forEach { k, v ->
