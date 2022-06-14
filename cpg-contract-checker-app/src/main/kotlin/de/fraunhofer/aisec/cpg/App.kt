@@ -5,13 +5,12 @@ package de.fraunhofer.aisec.cpg;
 
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
-import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.checks.Check
-import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.checks.ReentrancyCheck
+import de.fraunhofer.aisec.cpg.checks.Check
+import de.fraunhofer.aisec.cpg.checks.ReentrancyCheck
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
-import org.neo4j.configuration.GraphDatabaseSettings.DEFAULT_DATABASE_NAME
 import org.neo4j.configuration.connectors.BoltConnector
 import org.neo4j.configuration.helpers.SocketAddress
 import org.neo4j.dbms.api.DatabaseManagementService
@@ -53,13 +52,14 @@ class App{
         findings["Empty translation"] = mutableListOf()
         var nr_checked_files = 0
         val base = "/home/kweiss/solsnip/modgrammar"
-        // val files = getAllSolFiles(base)
-        val files = listOf<Path>(Path.of(base + "/" + "68162833_1.sol"))
+        val files = getAllSolFiles(base)
+        // val files = listOf<Path>(Path.of(base + "/" + "66617876_2.sol"))
+        // val files = listOf<Path>(Path.of("/home/kweiss/coding/cpg-contract-checker/cpg-solidity/src/test/resources/examples/" + "Reentrancy.sol"))
         for(path in files){
             println(path.toString())
             val tr: TranslationResult= getGraph(path.toString())
             tr.translationUnits.forEach {
-               if(SubgraphWalker.flattenAST(it).size <= 1){
+               if(SubgraphWalker.flattenAST(it).size <= 4){
                    findings["Empty translation"]!!.add(it.name)
                }
             }

@@ -1,4 +1,4 @@
-package de.fraunhofer.aisec.cpg.frontends.solidity.nodes.checks
+package de.fraunhofer.aisec.cpg.checks
 
 import org.neo4j.driver.Transaction
 

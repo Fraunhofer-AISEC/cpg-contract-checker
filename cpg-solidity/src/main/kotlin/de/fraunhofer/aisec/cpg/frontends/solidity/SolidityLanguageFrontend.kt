@@ -54,7 +54,7 @@ class SolidityLanguageFrontend(
         val parser = SolidityParser(stream)
         currentFile = file
 
-        val tu  = handleSourceUnit(parser.sourceUnit())
+        val tu  = handleSourceUnit(file.name, parser.sourceUnit())
         tu.name = file.name
         return tu
     }
@@ -63,7 +63,7 @@ class SolidityLanguageFrontend(
         @kotlin.jvm.JvmField var SOLIDITY_EXTENSIONS: List<String> = listOf(".sol")
     }
 
-    private fun handleSourceUnit(unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
+    private fun handleSourceUnit(filename: String, unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
         var tu = TranslationUnitDeclaration()
 
 
@@ -79,14 +79,20 @@ class SolidityLanguageFrontend(
             this.scopeManager.addDeclaration(decl)
         }
 
-        if(unit.functionDefinition() != null || unit.stateVariableDeclaration() != null || unit.expressionStatement() != null){
-            println()
+        if(unit.contractPart() != null || unit.block() != null || unit.statement() != null){
+
+            var decl = this.declarationHandler.handleMissingContractDefinition(filename,unit)
+
+            // add contract declaration to TU
+            this.scopeManager.addDeclaration(decl)
         }
 
 
 
         functionsWithModifiers.forEach { k, v ->
-            declarationHandler.handleModifierExpansion(k,v)
+            if(k.block() != null) {
+                declarationHandler.handleModifierExpansion(k, v)
+            }
         }
 
         return tu

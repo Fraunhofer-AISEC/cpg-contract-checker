@@ -98,9 +98,9 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         return record
     }
 
-    private fun handleMissingContractDefinition(unit: SolidityParser.SourceUnitContext): RecordDeclaration {
+    public fun handleMissingContractDefinition(filename: String, unit: SolidityParser.SourceUnitContext): RecordDeclaration {
         val record = NodeBuilder.newRecordDeclaration(
-            ctx.identifier().text,
+            "Contract" + filename.subSequence(0, filename.indexOf(".")),
             "contract",
             lang.getCodeFromRawNode(unit))
 
@@ -128,6 +128,10 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
             // add the declaration
             declaration?.let { this.lang.scopeManager.addDeclaration(declaration) }
+        }
+
+        if(unit.block() != null || unit.statement() != null){
+            this.lang.scopeManager.addDeclaration(handleMissingFunctionDefinition(filename, unit))
         }
 
         // leave the record scope
@@ -271,6 +275,52 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         return method
     }
 
+    private fun handleMissingFunctionDefinition(filename: String, unit: SolidityParser.SourceUnitContext): MethodDeclaration {
+
+        val record = this.lang.scopeManager.currentRecord
+
+        val method =
+            NodeBuilder.newMethodDeclaration(
+                "function_" + filename,
+                this.lang.getCodeFromRawNode(unit),
+                false,
+                record
+            )
+
+        // enter function scope
+        this.lang.scopeManager.enterScope(method)
+
+
+        method.type = UnknownType.getUnknownType()
+
+
+
+        val recordType = if(record != null) {
+            TypeParser.createFrom(record.name, false)
+        } else {
+            UnknownType.getUnknownType()
+        }
+
+        // create the this receiver
+        val receiver = NodeBuilder.newVariableDeclaration(
+            "this",
+            recordType,
+            this.lang.getCodeFromRawNode(unit), false)
+
+        method.receiver = receiver
+
+        if(unit.block()!= null){
+            method.body = this.lang.statementHandler.handle(unit.block())
+        }else if(unit.statement() != null){
+            method.body = this.lang.statementHandler.handleMissingBlock(unit)
+        }
+
+        // leave function scope
+        this.lang.scopeManager.leaveScope(method)
+
+        return method
+    }
+
     public fun handleModifierExpansion(ctx: SolidityParser.FunctionDefinitionContext, method: MethodDeclaration){
         // Todo implement expansion of modifiers
         // Todo replace with modifier expansion routine and delay until all modifiers were found
@@ -283,7 +333,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             it.asReversed().forEach {
                 val name = it.identifier().text?: ""
                 val modifierInvocation = it
-                lang.modifierMap.values.filter { it.identifier().text == name }.firstOrNull()?.let {
+                lang.modifierMap.values.filter { it.identifier().text == name }.filter { it.block() != null }.firstOrNull()?.let {
                     lang.modifierStack.push( it )
 
                     val modifier = lang.modifierStack.peek() as SolidityParser.ModifierDefinitionContext

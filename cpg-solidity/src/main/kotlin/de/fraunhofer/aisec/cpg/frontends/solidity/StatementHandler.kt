@@ -66,6 +66,20 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
         return compound
     }
 
+    public fun handleMissingBlock(ctx: SolidityParser.SourceUnitContext): CompoundStatement {
+        val compound = NodeBuilder.newCompoundStatement(this.lang.getCodeFromRawNode(ctx))
+
+        lang.scopeManager.enterScope(compound)
+
+        for(stmt in ctx.statement()) {
+            compound.addStatement(this.handle(stmt))
+        }
+
+        lang.scopeManager.leaveScope(compound)
+
+        return compound
+    }
+
     private fun handleStatement(ctx: SolidityParser.StatementContext): Statement {
         ctx.ifStatement()?.let {
             return this.handle(it)
