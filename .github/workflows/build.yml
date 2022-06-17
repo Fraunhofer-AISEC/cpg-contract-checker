@@ -31,6 +31,8 @@ jobs:
           java-version: 11
           # Java distribution. See the list of supported distributions in README file
           distribution: "temurin"
+          # Cache dependencies
+          cache: 'gradle'
       # Runs a set of commands using the runners shell
       - name: Build
         run: |
