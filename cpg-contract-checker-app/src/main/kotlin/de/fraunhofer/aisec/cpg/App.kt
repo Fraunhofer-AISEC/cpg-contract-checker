@@ -3,38 +3,43 @@
  */
 package de.fraunhofer.aisec.cpg;
 
-import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
-import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.checks.Check
 import de.fraunhofer.aisec.cpg.checks.KillCheck
 import de.fraunhofer.aisec.cpg.checks.ReentrancyCheck
+import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
+import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
-import org.neo4j.configuration.connectors.BoltConnector
-import org.neo4j.configuration.helpers.SocketAddress
-import org.neo4j.dbms.api.DatabaseManagementService
-import org.neo4j.dbms.api.DatabaseManagementServiceBuilder
 import org.neo4j.driver.AuthTokens
 import org.neo4j.driver.GraphDatabase
-import org.neo4j.driver.Record
 import org.neo4j.driver.Transaction
-import org.neo4j.graphdb.GraphDatabaseService
 import org.neo4j.ogm.config.Configuration
 import org.neo4j.ogm.session.SessionFactory
+import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import picocli.CommandLine
 import java.io.File
+import java.net.ConnectException
 import java.nio.file.Files
-import java.nio.file.Path
 import java.nio.file.Paths
+import java.util.concurrent.Callable
 import java.util.stream.Collectors
+import kotlin.system.exitProcess
 
 
-class App{
+class App : Callable<Int> {
 
     private val logger = LoggerFactory.getLogger(App::class.java)
+
+
+    @CommandLine.Parameters(
+        arity = "0..*",
+        description =
+        ["The files to analyze."]
+    )
+    var files: List<String> = mutableListOf()
 
     @CommandLine.Option(names = ["--neo4j-password"], description = ["The Neo4j password"])
     var neo4jPassword: String = "password"
@@ -43,26 +48,27 @@ class App{
     var findings: MutableMap<String, MutableList<String>> = mutableMapOf()
 
 
-    companion object {
-        val log = LoggerFactory.getLogger(App::class.java)
 
-    }
+    private val log: Logger
+        get() = LoggerFactory.getLogger(App::class.java)
 
-    fun start() {
+    override fun call(): Int {
         registerChecks()
         findings["Empty translation"] = mutableListOf()
         var nr_checked_files = 0
         val base = "/home/kweiss/solsnip/modgrammar"
-        val files = getAllSolFiles(base)
-        // val files = listOf<Path>(Path.of(base + "/" + "66617876_2.sol"))
-        // val files = listOf<Path>(Path.of("/home/kweiss/coding/cpg-contract-checker/cpg-solidity/src/test/resources/examples/" + "SelfDestruct.sol"))
+        if(files.isEmpty()){
+            files = getAllSolFiles(base)
+            // files = listOf<Path>(Path.of(base + "/" + "66617876_2.sol"))
+            // files = listOf<Path>(Path.of("/home/kweiss/coding/cpg-contract-checker/cpg-solidity/src/test/resources/examples/" + "SelfDestruct.sol"))
+        }
         for(path in files){
-            println(path.toString())
-            val tr: TranslationResult= getGraph(path.toString())
+            println(path)
+            val tr: TranslationResult= getGraph(path)
             tr.translationUnits.forEach {
-               if(SubgraphWalker.flattenAST(it).size <= 4){
-                   findings["Empty translation"]!!.add(it.name)
-               }
+                if(SubgraphWalker.flattenAST(it).size <= 4){
+                    findings["Empty translation"]!!.add(it.name)
+                }
             }
             persistGraph(tr)
             runVulnerabilityChecks(path.toString())
@@ -73,15 +79,16 @@ class App{
             println(k + " size: " + v.size)
             v.forEach { e ->
                 println(e)
-                }
+            }
         }
+        return 0
     }
 
-    fun getAllSolFiles(path: String): MutableList<Path>{
+    fun getAllSolFiles(path: String): MutableList<String>{
         val path = Paths.get(path)
         return Files.walk(path)
-            .filter { item -> Files.isRegularFile(item) }
-            .filter { item -> item.toString().endsWith(".sol") }.collect(Collectors.toList())
+            .filter { item -> Files.isRegularFile(item) }.map{it.toString()}
+            .filter { item -> item.endsWith(".sol") }.collect(Collectors.toList())
     }
 
     fun getGraph(filename: String) : TranslationResult{
@@ -183,12 +190,12 @@ class App{
     }
 }
 
-
-
-fun main() {
-    val app = App()
-    app.start()
-    System.exit(0)
+/**
+ * Starts a command line application of the cpg-solidity tool.
+ */
+fun main(args: Array<String>) {
+    val exitCode = CommandLine(App()).execute(*args)
+    exitProcess(exitCode)
 }
 
 val TranslationResult.additionalNodes: MutableList<Node>
