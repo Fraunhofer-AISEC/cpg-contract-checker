@@ -6,6 +6,8 @@ package de.fraunhofer.aisec.cpg;
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.checks.Check
+import de.fraunhofer.aisec.cpg.checks.KillCheck
+import de.fraunhofer.aisec.cpg.checks.KillCheckclass
 import de.fraunhofer.aisec.cpg.checks.ReentrancyCheck
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
@@ -54,7 +56,7 @@ class App{
         val base = "/home/kweiss/solsnip/modgrammar"
         val files = getAllSolFiles(base)
         // val files = listOf<Path>(Path.of(base + "/" + "66617876_2.sol"))
-        // val files = listOf<Path>(Path.of("/home/kweiss/coding/cpg-contract-checker/cpg-solidity/src/test/resources/examples/" + "Reentrancy.sol"))
+        // val files = listOf<Path>(Path.of("/home/kweiss/coding/cpg-contract-checker/cpg-solidity/src/test/resources/examples/" + "SelfDestruct.sol"))
         for(path in files){
             println(path.toString())
             val tr: TranslationResult= getGraph(path.toString())
@@ -116,6 +118,7 @@ class App{
 
     fun registerChecks(){
         checks.add(ReentrancyCheck())
+        checks.add(KillCheck())
     }
 
     fun persistGraph(result: TranslationResult){
