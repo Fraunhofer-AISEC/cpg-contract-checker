@@ -40,8 +40,8 @@ dependencies {
     annotationProcessor("info.picocli", "picocli-codegen", versions["picocli"])
 
     // logging
-    api("org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1")
-    api("org.slf4j:jul-to-slf4j:2.0.0-alpha5")
+    api("org.slf4j:jul-to-slf4j:1.7.32")
+    implementation("org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0")
 }
 
 application {
