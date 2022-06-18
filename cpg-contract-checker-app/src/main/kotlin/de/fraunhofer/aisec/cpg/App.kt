@@ -7,7 +7,6 @@ import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.checks.Check
 import de.fraunhofer.aisec.cpg.checks.KillCheck
-import de.fraunhofer.aisec.cpg.checks.KillCheckclass
 import de.fraunhofer.aisec.cpg.checks.ReentrancyCheck
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
