@@ -76,9 +76,9 @@ class App : Callable<Int> {
             println("Nr. Files: " + nr_checked_files)
         }
         findings.forEach { (k,v) ->
-            println(k + " size: " + v.size)
+            println("File: " + k)
             v.forEach { e ->
-                println(e)
+                println("- " + e)
             }
         }
         return 0
@@ -173,17 +173,18 @@ class App : Callable<Int> {
                 session.readTransaction() { t: Transaction ->
 
                     for (check in checks){
-                        var finding = check.check(t)
-                        if(finding){
-                            if(findings[check.javaClass.simpleName] == null){
-                                findings.put(check.javaClass.simpleName, mutableListOf())
+                        var checkFindings = check.check(t)
+                        if(checkFindings.isNotEmpty()){
+                            if(findings[filename] == null){
+                                findings.put(filename, mutableListOf())
                             }
-                            findings[check.javaClass.simpleName]!!.add("Vulnerabillity found in: " + filename)
-                            println(check.javaClass.simpleName + " found vulnerability in file:" + filename)
+                            checkFindings.forEach {
+                                findings[filename]!!.add(check.getVulnerabilityName() + ", "
+                                        + it.artifactLocation.toString().substringAfter("file:") + " "
+                                        + it.region.toString())
+                            }
                         }
                     }
-
-
                 }
             }
         }
