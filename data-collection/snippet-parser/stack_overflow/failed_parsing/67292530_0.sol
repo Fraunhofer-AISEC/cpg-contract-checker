@@ -1,0 +1,11 @@
+pragma solidity ^0.8.0;
+
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
+
+contract Foobar is ERC20 {
+    constructor(uint256 initialSupply) public ERC20("Foobar", "FOO") {
+        _mint(msg.sender, initialSupply);
+       
+        _totalSupply(uint256 5000000000000000000000000000000000000000);
+    }
+}

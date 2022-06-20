@@ -1,0 +1,1 @@
+uint myInteger = 12

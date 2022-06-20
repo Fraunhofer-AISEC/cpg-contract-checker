@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '(balance(userAddress);'": [
+        "ERROR: when parsing line 4 column 30: no viable alternative at input '(balance(userAddress);'\n"
+    ]
+}

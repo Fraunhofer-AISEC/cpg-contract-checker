@@ -1,0 +1,4 @@
+contract(){
+
+somefunction() payable external{}
+}

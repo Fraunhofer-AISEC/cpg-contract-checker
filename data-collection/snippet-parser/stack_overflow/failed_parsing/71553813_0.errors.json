@@ -1,0 +1,8 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 19 column 15: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'correct\\n}'": [
+        "ERROR: when parsing line 22 column 4: no viable alternative at input 'correct\\n}'\n"
+    ]
+}

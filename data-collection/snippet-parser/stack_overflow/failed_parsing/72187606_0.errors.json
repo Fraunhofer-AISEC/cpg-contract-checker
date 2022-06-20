@@ -1,0 +1,5 @@
+{
+    "mismatched input '<EOF>' expecting '}'": [
+        "ERROR: when parsing line 15 column 0: mismatched input '<EOF>' expecting '}'\n"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "mismatched input 'import' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 13: mismatched input 'import' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ',' expecting {'as', 'from'}": [
+        "ERROR: when parsing line 1 column 34: mismatched input ',' expecting {'as', 'from'}\n"
+    ],
+    "mismatched input 'def' expecting {'as', 'from'}": [
+        "ERROR: when parsing line 4 column 0: mismatched input 'def' expecting {'as', 'from'}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 8: mismatched input '(' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 10: extraneous input ':' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 40: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 48: mismatched input ':' expecting {';', NL}\n"
+    ]
+}

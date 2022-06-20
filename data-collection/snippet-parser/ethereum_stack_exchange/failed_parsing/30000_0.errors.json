@@ -1,0 +1,5 @@
+{
+    "mismatched input 'GitHub' expecting {';', NL}": [
+        "ERROR: when parsing line 90 column 7: mismatched input 'GitHub' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 3 column 0: extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "no viable alternative at input 'yourfunction'": [
+        "ERROR: when parsing line 13 column 13: no viable alternative at input 'yourfunction'\n"
+    ],
+    "mismatched input 'to' expecting {'(', NL}": [
+        "ERROR: when parsing line 13 column 22: mismatched input 'to' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'add' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 13 column 25: mismatched input 'add' expecting {'=', ';', NL}\n"
+    ]
+}

@@ -1,0 +1,975 @@
+Rank,Error Message,Snippet IDs
+150,"extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['43341622_1', '44982437_0', '44991977_0', '46466792_0', '47993204_0', '48065343_3', '48362797_2', '48861734_1', '49051856_2', '49426625_0', '49449474_2', '49613580_0', '49793487_0', '49851273_0', '49992356_0', '50887478_1', '50928036_2', '51226875_0', '51601751_0', '51663786_1', '51664226_0', '51811011_0', '51811011_1', '52285392_0', '53135401_0', '53190441_0', '53200164_0', '53308858_0', '53622973_0', '53941422_9', '54503984_0', '54611665_0', '54845472_1', '54856879_2', '54904028_0', '55140341_1', '55345063_1', '55572357_4', '55883448_2', '56333361_0', '56564742_0', '57354628_1', '58471891_0', '58605003_0', '58956054_0', '62669838_0', '63018930_0', '63463340_0', '64236628_0', '64546452_1', '65235689_0', '66173249_0', '66455820_0', '66611544_0', '66645883_0', '66831960_0', '67349342_1', '67356893_0', '67409550_1', '67433473_1', '67460613_1', '67464855_2', '67590652_0', '67765614_0', '67781596_0', '67814500_0', '67881834_0', '67884846_1', '68022495_0', '68032495_2', '68111308_0', '68128905_0', '68314316_0', '68403746_0', '68424735_0', '68477946_0', '68485435_0', '68512757_0', '68930866_0', '68986989_1', '69025408_0', '69061349_2', '69122158_0', '69171562_1', '69193257_1', '69232462_0', '69344345_0', '69526003_0', '69962351_0', '70020697_0', '70076943_0', '70139247_2', '70143451_0', '70148672_1', '70159846_0', '70163422_0', '70180939_1', '70189923_2', '70224098_0', '70330907_0', '70381453_0', '70399988_1', '70544815_0', '70549883_0', '70559362_0', '70585228_0', '70657767_0', '70667370_4', '70674359_19', '70731710_1', '70742940_0', '70804128_2', '70907172_0', '70986854_1', '70998818_1', '71156719_0', '71207911_0', '71212707_0', '71212707_1', '71213040_0', '71263095_0', '71317192_0', '71371357_0', '71405290_1', '71432001_0', '71471252_0', '71542788_1', '71639540_2', '71646570_1', '71655507_0', '71684130_1', '71693698_0', '71701027_0', '71792535_1', '71820678_0', '71821179_0', '71854087_0', '71876607_0', '71887614_0', '71993838_0', '72062858_0', '72067457_1', '72112736_0', '72193697_1', '72222191_1', '72250726_0', '72253221_0', '72368733_0', '72414002_0', '72414002_1']"
+136,"mismatched input '(' expecting {';', NL}","['35743893_3', '43341622_1', '44982437_0', '45614208_5', '47240561_0', '48630389_0', '48861734_1', '48916054_0', '49026384_0', '49409209_0', '49449474_2', '49449474_4', '50454133_0', '51336428_0', '51573782_0', '51601751_0', '51664226_0', '51811011_1', '51811011_2', '51811011_3', '52582875_0', '52690481_1', '53268261_1', '53622973_0', '53630226_0', '53791299_2', '54611665_0', '55249896_1', '55398634_1', '55982661_0', '56352718_0', '56353779_0', '57394922_0', '58375121_0', '59122598_1', '59713819_1', '59713819_3', '61146681_3', '61278166_1', '62098161_0', '62211729_0', '62493511_0', '63463340_1', '63463340_2', '63652317_0', '64429572_5', '64951267_0', '65352645_0', '65813919_0', '66145387_1', '66455820_0', '66506012_0', '66665626_1', '66797992_0', '66928012_0', '66930517_0', '67031948_0', '67036739_1', '67239017_4', '67269419_0', '67292530_0', '67464855_1', '67858437_0', '67942961_2', '68049580_1', '68241377_1', '68432609_4', '68445567_0', '68721621_0', '68776326_1', '68810515_0', '68875147_0', '68917603_1', '68950996_0', '69025408_0', '69025408_1', '69050570_0', '69099317_0', '69105424_0', '69165981_0', '69269849_1', '69332569_0', '69535334_1', '69684493_0', '69823891_4', '69907715_0', '69974761_3', '70017509_0', '70076943_0', '70088614_0', '70322339_0', '70399988_1', '70488829_1', '70505253_0', '70514336_1', '70527000_2', '70549883_0', '70585228_0', '70600305_0', '70674359_19', '70804128_2', '70804128_3', '70833677_0', '70970426_1', '71009134_0', '71152833_2', '71170701_3', '71245575_1', '71245575_3', '71341935_0', '71343732_1', '71450598_1', '71471252_0', '71474596_0', '71518895_0', '71553813_0', '71560492_0', '71564754_0', '71576780_0', '71646658_0', '71646915_1', '71767046_2', '71876607_0', '71908238_0', '71946498_3', '72084829_0', '72164534_0', '72174048_0', '72242118_0', '72253221_0', '72356857_4', '72356857_5', '72356857_10', '72368733_0', '72384572_0', '72421775_1']"
+73,"extraneous input '{' expecting {';', NL}","['44982437_0', '44991977_0', '47993204_0', '48343868_0', '48362797_2', '48861734_1', '49793487_0', '50928036_2', '51601751_0', '51663786_1', '52285392_0', '53135401_0', '53200164_0', '53308858_0', '54845472_1', '54856879_2', '55572357_4', '56564742_0', '58471891_0', '58956054_0', '62970535_2', '63463340_0', '64003066_1', '64236628_0', '64546452_1', '65800835_0', '65800835_1', '65800835_2', '66173249_0', '67349342_1', '67356893_0', '67765614_0', '67781596_0', '67796286_0', '67871713_1', '68032495_2', '68111308_0', '68128905_0', '68314316_0', '68403746_0', '68512757_0', '69061349_2', '69171562_1', '69688857_3', '69877319_1', '69962351_0', '70020697_0', '70143451_0', '70180939_1', '70189923_2', '70330907_0', '70585228_0', '70666107_0', '70846917_0', '70920485_0', '71156719_0', '71207911_0', '71213040_0', '71263095_0', '71317192_0', '71405290_1', '71471252_0', '71655507_0', '71821179_0', '71908238_0', '72062858_0', '72067457_1', '72222191_1', '72250726_0', '72339724_0', '72369941_0', '72414002_0', '72414002_1']"
+43,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['46299286_0', '47788702_0', '48446912_2', '49959824_0', '49959824_1', '50604141_0', '50902250_0', '52652813_0', '54749158_1', '55965813_1', '60569808_5', '63170366_0', '63835302_0', '65208750_0', '67291908_1', '67296964_1', '67439769_2', '67684106_0', '67853438_0', '67853438_4', '68468838_0', '68555009_0', '69038786_0', '69193257_1', '69244846_3', '69325713_0', '69805685_0', '69805685_1', '69888515_1', '70063009_0', '70246295_0', '70483592_0', '70825721_0', '70887688_0', '71214540_0', '71295165_0', '71295165_1', '71510931_0', '71589805_1', '71708142_0', '71737241_1', '71839712_0', '72224409_0']"
+34,"mismatched input ':' expecting {'=', ';', NL}","['50566843_1', '53135401_0', '63587065_1', '65766289_0', '66796408_0', '66797992_0', '67303288_0', '67709521_1', '67858933_3', '68163319_0', '68432609_4', '68484713_1', '68507885_1', '68507885_3', '69314742_0', '69754900_0', '69927808_0', '69927808_1', '70459922_0', '70704418_2', '70869079_1', '70952409_0', '71035790_0', '71148454_2', '71181866_0', '71225313_0', '71258898_0', '71354756_1', '71624208_2', '71746449_0', '71869681_1', '72093394_2', '72375394_1', '72409031_1']"
+28,"extraneous input ')' expecting {'=', ';', NL}","['47240561_0', '49409209_0', '53268261_1', '53876848_0', '54106709_0', '56353779_0', '57394922_0', '58150023_0', '59122598_1', '62098161_0', '62211729_0', '63652317_0', '66506012_0', '67239017_4', '67464855_1', '68417684_1', '68422733_1', '68656074_0', '69400366_0', '69678541_1', '69684493_0', '69823891_4', '70017509_0', '70531502_1', '71341935_0', '71952469_0', '72164534_0', '72368733_0']"
+28,"mismatched input '(' expecting {'=', ';', NL}","['47530664_1', '47662768_0', '48362797_2', '54878426_0', '55198169_0', '58711371_0', '58711371_1', '62778277_1', '64951267_0', '66526184_0', '66903031_0', '68049580_1', '68061351_1', '68128905_1', '68314316_0', '69688857_3', '70250166_0', '70327285_0', '70533031_0', '70603320_2', '70704418_1', '70706328_0', '70729665_2', '70833677_0', '71325598_0', '71343732_1', '71639967_0', '71767046_2']"
+27,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['46561759_1', '47247602_0', '48521106_0', '48898355_2', '49959824_1', '51601751_1', '55383179_1', '55965813_1', '57788496_0', '58942534_0', '63835302_0', '65982067_1', '67099783_0', '67684106_1', '68104963_0', '69888515_1', '70825721_0', '70849420_0', '70849420_1', '70968242_1', '71180839_0', '71372569_1', '71524372_2', '71766016_0', '71914346_2', '71914346_3', '72246049_0']"
+27,no viable alternative at input 'TypeError:',"['47945401_1', '51571610_1', '54320320_1', '54327213_1', '56505629_2', '59345097_0', '62391718_1', '66118102_1', '67461127_1', '68526748_0', '68561131_2', '68597706_0', '68736257_0', '69009602_1', '69779613_0', '69931208_1', '70011797_0', '70128297_0', '70139247_0', '70139247_1', '70364713_2', '71069193_1', '71093531_1', '71093531_2', '71375518_1', '71794345_0', '71914346_0']"
+26,"mismatched input '<EOF>' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}","['53447586_2', '53460851_1', '53460851_4', '54133077_2', '55655626_1', '56505629_1', '63974606_0', '67166559_0', '67270966_2', '67467234_1', '67485324_2', '67684106_1', '68056858_0', '68111308_1', '68320225_0', '69045016_2', '69087590_1', '69598697_1', '69598697_2', '69823891_2', '70112336_1', '70128297_2', '70290173_2', '71340451_0', '71820678_1', '72333339_0']"
+25,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['47971193_0', '49266401_0', '51496073_1', '53553868_1', '54106709_0', '59910768_0', '60147040_0', '60569808_7', '61448898_0', '62098161_0', '66617876_3', '67109613_1', '68128905_0', '69200464_0', '69277866_1', '69688857_0', '69700895_0', '70566931_0', '70679521_0', '70825721_0', '70907649_0', '71035790_0', '71324180_1', '72253221_0', '72253221_1']"
+25,"mismatched input ')' expecting {';', NL}","['47971193_1', '47993204_0', '48343868_0', '49051856_2', '50887478_1', '54845472_1', '55598440_1', '59713819_2', '62669838_0', '65670482_1', '67493677_2', '68058473_0', '68985070_0', '69440832_0', '69877319_1', '69907715_0', '70159846_0', '70180939_1', '71263095_0', '71389974_0', '71820678_0', '71839712_2', '72033880_1', '72214005_0', '72369941_0']"
+25,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['49959824_0', '49959824_1', '50819979_5', '52685530_2', '54348232_0', '54412333_1', '57324912_3', '57324912_4', '65708200_0', '65869895_0', '68287550_0', '69325713_0', '69725746_0', '69846856_0', '70255949_1', '70679521_0', '70800623_0', '71045594_1', '71180839_0', '71372569_1', '71524372_3', '71737241_1', '71893853_1', '72253221_0', '72253221_1']"
+23,"mismatched input '.' expecting {'=', ';', NL}","['46561759_1', '63587065_1', '66455820_0', '66544513_0', '67303288_0', '68241377_1', '69099317_0', '69165981_0', '69193257_1', '69302335_1', '69688857_3', '69927808_1', '70399988_1', '70452624_1', '70545978_0', '70876767_4', '70998818_1', '71181866_0', '71450598_1', '71471252_0', '71624208_2', '71646570_1', '72409031_1']"
+20,"extraneous input 'modifier' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['44982437_0', '50928036_2', '51601751_0', '51663786_1', '52285392_0', '53622973_0', '55572357_4', '58471891_0', '63463340_0', '63463340_1', '63463340_2', '66173249_0', '67349342_1', '68403746_0', '69061349_2', '70020697_0', '70549883_0', '70585228_0', '71156719_0', '71876607_0']"
+20,"extraneous input '=>' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'for', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['53791299_2', '59713819_1', '59713819_3', '66145387_1', '66930517_0', '68241377_1', '69105424_0', '69974761_3', '70527000_2', '70804128_2', '70804128_3', '71245575_1', '71245575_3', '71450598_1', '71471252_0', '71646915_1', '72084829_0', '72356857_4', '72356857_10', '72421775_1']"
+19,"extraneous input 'event' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['35743893_3', '48630389_0', '49409209_0', '50454133_0', '53268261_1', '57394922_0', '58150023_0', '59122598_1', '62098161_0', '66506012_0', '67239017_4', '67464855_1', '69684493_0', '69823891_4', '70488829_1', '70600305_0', '71341935_0', '72164534_0', '72356857_5']"
+19,"extraneous input 'return' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['44991977_0', '48877167_0', '49051856_0', '49051856_1', '49051856_2', '53308858_0', '54904028_0', '57688908_0', '67460613_1', '67554040_0', '67765614_0', '67884846_1', '68111308_0', '68422733_1', '69688857_3', '70731710_1', '70907172_0', '71263095_0', '71317192_0']"
+18,"extraneous input 'event' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['45614208_5', '47240561_0', '49026384_0', '55249896_1', '56353779_0', '62211729_0', '62493511_0', '63652317_0', '67858437_0', '68856707_0', '69400366_0', '69678541_1', '69887774_2', '70017509_0', '71353516_3', '72174048_0', '72337234_0', '72368733_0']"
+18,"mismatched input ',' expecting {'=', ';', NL}","['47240561_0', '53268261_1', '54611665_0', '56353779_0', '62211729_0', '63652317_0', '67239017_4', '68656074_0', '68694465_7', '68776326_1', '68930866_0', '70017509_0', '70666107_0', '71341935_0', '71636003_0', '72164534_0', '72368733_0', '72384572_0']"
+17,"extraneous input 'if' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['47993204_0', '48343868_0', '48861734_1', '51601751_0', '53200164_0', '54856879_2', '58956054_0', '68314316_0', '69877319_1', '70143451_0', '70330907_0', '71213040_0', '71263095_0', '71317192_0', '71325598_0', '71548214_1', '71655507_0']"
+16,"mismatched input ')' expecting {'=', ';', NL}","['44982437_0', '51601751_0', '51664226_0', '53622973_0', '54611665_0', '67036739_1', '68656074_0', '69034610_2', '69232462_0', '70505253_0', '70514336_1', '70549883_0', '70585228_0', '70666107_0', '71646570_1', '71876607_0']"
+16,"extraneous input ')' expecting {';', NL}","['49426625_0', '53630226_0', '55982661_0', '66928012_0', '67292530_0', '68721621_0', '68875147_0', '68875147_2', '68930866_0', '69332569_0', '70399988_1', '71009134_0', '71553168_0', '71564754_0', '72033880_1', '72337234_0']"
+16,"mismatched input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['52690481_1', '64236628_0', '65800835_0', '65800835_1', '65800835_2', '66145387_1', '69974761_3', '70527000_2', '70804128_2', '70804128_3', '71245575_1', '71245575_3', '71398729_0', '71646915_1', '72084829_0', '72421775_1']"
+16,"extraneous input '(' expecting {';', NL}","['54106709_0', '58150023_0', '65507396_0', '68856707_0', '68864546_0', '69020268_1', '69370832_0', '69400366_0', '69427619_0', '69678541_1', '70052775_0', '70704418_1', '70706328_1', '70804128_3', '71398729_0', '72242118_0']"
+15,"mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['49449474_2', '51238545_1', '51918349_3', '57788496_0', '65235689_0', '68875147_0', '69050570_0', '69777395_0', '69887774_2', '69907715_0', '70139247_2', '70755278_0', '71207911_0', '71564754_0', '72256864_0']"
+14,"mismatched input '<EOF>' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}","['57324912_3', '57324912_4', '63211454_0', '65622958_0', '65622958_1', '66789290_1', '67461127_2', '67485324_4', '67700882_0', '68950518_4', '70139247_3', '70690534_2', '71744343_1', '71812226_0']"
+13,"extraneous input '{' expecting {'=', ';', NL}","['46466792_0', '49851273_0', '49992356_0', '51811011_0', '54503984_0', '58471891_0', '68477946_0', '68485435_0', '68986989_1', '69061349_2', '70183466_0', '70998818_1', '71716481_0']"
+13,"extraneous input ',' expecting {';', NL}","['52582875_0', '57354628_1', '67031948_0', '68424735_0', '68753117_0', '69020268_1', '69370832_0', '70269167_0', '70804128_3', '71518895_0', '71583652_1', '71792535_1', '72242118_0']"
+13,"mismatched input '{' expecting {';', NL}","['53135401_0', '53622973_0', '54348232_1', '58045704_1', '68986989_1', '69063248_1', '70330907_0', '70643149_3', '71741432_1', '71868986_1', '72009655_0', '72058787_0', '72356857_1']"
+12,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['45614208_3', '46561759_1', '48898355_2', '49613580_0', '49613580_1', '49959824_1', '51333536_0', '56814247_0', '58942534_0', '61448898_0', '62971049_2', '65860069_1']"
+12,"mismatched input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['48225973_0', '67177920_1', '67757735_0', '67853438_1', '68000782_0', '68559639_1', '70658164_0', '71256984_3', '71678110_0', '71678110_1', '71968997_0', '72425628_1']"
+12,"extraneous input 'modifier' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['49793487_0', '51664226_0', '58956054_0', '64546452_1', '67269419_0', '69171562_1', '69962351_0', '70189923_2', '72067457_1', '72250726_0', '72414002_0', '72414002_1']"
+12,"mismatched input '}' expecting {';', NL}","['56564742_0', '57354628_1', '67031948_0', '67881834_0', '69370832_0', '69644735_5', '71245575_3', '71518895_0', '71583652_1', '71646915_1', '71792535_1', '72084829_0']"
+12,no viable alternative at input 'Error:',"['59379024_0', '63052231_0', '63735070_0', '66959912_0', '67940448_1', '68046512_1', '68329839_2', '68686998_1', '70628127_0', '71282915_0', '71524372_0', '71597113_0']"
+12,"extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['59713819_3', '61222017_3', '62247259_6', '67942961_2', '69099317_0', '69165981_0', '69974761_3', '70527000_2', '70804128_2', '70804128_3', '71471252_0', '72421775_1']"
+12,"mismatched input 'the' expecting {'=', ';', NL}","['63284038_0', '67419852_1', '68484713_1', '68507885_1', '68507885_3', '68951548_0', '69314742_0', '70270944_1', '70589555_0', '70625770_1', '70856735_1', '71666255_2']"
+11,"mismatched input 'to' expecting {'=', ';', NL}","['47530664_1', '57788496_0', '63587065_1', '67037531_2', '67303288_0', '68484713_1', '68507885_3', '68632466_0', '70027890_0', '70589555_0', '71666255_2']"
+11,"mismatched input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['47911527_0', '52582875_0', '63018930_0', '66611544_0', '66645883_0', '67356893_0', '67590652_0', '68991900_0', '69805685_3', '70643149_3', '71405290_1']"
+11,"mismatched input ':' expecting {';', NL}","['53135401_0', '57354628_1', '67852023_1', '68424735_0', '70295695_0', '70704418_1', '71583652_1', '71767046_2', '71792535_1', '71820678_0', '72413453_2']"
+11,"mismatched input '=>' expecting {';', NL}","['59713819_1', '59713819_3', '61146681_3', '69099317_0', '69165981_0', '70527000_2', '70804128_2', '70804128_3', '71245575_3', '71646915_1', '72222191_0']"
+10,"extraneous input 'for' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['47993204_0', '49051856_2', '49426625_0', '50887478_1', '52582875_0', '54845472_1', '70159846_0', '70180939_1', '71553168_0', '72369941_0']"
+10,"mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}","['52113202_3', '56564742_0', '68504552_0', '68656074_0', '69061349_2', '70322339_0', '70387515_0', '70400649_0', '70846917_0', '71716481_0']"
+10,"extraneous input '}' expecting {';', NL}","['56564742_0', '57354628_1', '65800835_0', '65800835_2', '65813919_0', '65813919_1', '68427409_0', '70322339_0', '70755278_0', '71471252_0']"
+10,"mismatched input ',' expecting {';', NL}","['57018803_0', '67881834_0', '68656074_0', '68721621_0', '68875147_0', '69332569_0', '70704418_1', '71422238_0', '71422238_1', '72033880_1']"
+10,no viable alternative at input '(boolsuccess',"['60247222_3', '67557234_0', '68320066_1', '68320066_2', '69031707_2', '69267556_3', '69267556_4', '70856735_2', '71124750_0', '72354211_0']"
+9,no viable alternative at input 'bytesmemory',"['32157648_2', '45930533_2', '53570963_1', '68976364_0', '70580169_0', '71361970_0', '71374176_5', '71981536_1', '72171885_0']"
+9,"extraneous input ',' expecting {'=', ';', NL}","['49409209_0', '53876848_0', '54106709_0', '68422733_1', '68656074_0', '69400366_0', '69678541_1', '70531502_1', '71518895_0']"
+9,no viable alternative at input 'from:',"['57690326_2', '57690326_3', '59713819_1', '59713819_3', '68241377_1', '70399988_1', '70804128_2', '71170701_3', '71471252_0']"
+9,"mismatched input 'has' expecting {'=', ';', NL}","['67419852_1', '68484713_1', '68507885_1', '68507885_3', '68951548_0', '69314742_0', '70270944_1', '70625770_1', '71666255_2']"
+9,"mismatched input 'reverted' expecting {'=', ';', NL}","['67419852_1', '68484713_1', '68507885_1', '68507885_3', '68951548_0', '69314742_0', '70270944_1', '70625770_1', '71666255_2']"
+9,"mismatched input 'state' expecting {'=', ';', NL}","['67419852_1', '68484713_1', '68507885_1', '68507885_3', '68951548_0', '69314742_0', '70270944_1', '70625770_1', '71666255_2']"
+8,"mismatched input 'public' expecting {';', NL}","['48065343_3', '63018930_0', '66611544_0', '68986989_1', '69394882_1', '71186038_0', '72018991_0', '72337234_0']"
+8,no viable alternative at input 'ParserError:',"['51918349_0', '62943847_1', '67700882_1', '70088935_1', '70290173_1', '70742806_2', '71171972_2', '71526130_1']"
+8,mismatched input '<EOF>' expecting '}',"['53720026_0', '55982661_0', '65208750_0', '67258896_1', '68086585_0', '68504552_0', '69716493_0', '72187606_0']"
+8,"extraneous input ':' expecting {';', NL}","['57354628_1', '68128905_1', '70533031_0', '70603320_2', '70704418_1', '71343732_1', '71398729_0', '71767046_2']"
+8,"extraneous input 'emit' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['67291011_2', '67409550_1', '67765614_0', '68196477_0', '70330907_0', '71263095_0', '71993838_0', '72062858_0']"
+8,"mismatched input 'decode_log' expecting {';', NL}","['69754900_0', '70017509_1', '70073459_0', '70107436_2', '71302194_1', '71674583_1', '71674583_2', '71719772_0']"
+8,"mismatched input 'import' expecting {'=', ';', NL}","['70615375_2', '70751581_0', '70751581_1', '70837792_0', '71548214_1', '71767046_2', '71819186_3', '72068874_0']"
+7,mismatched input ';' expecting '(',"['35545625_2', '62098161_0', '65352645_0', '68468838_0', '69700895_0', '70666107_0', '71737241_1']"
+7,"mismatched input '.' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['43341622_1', '48065343_0', '48065343_2', '48065343_3', '55398634_1', '66831960_0', '71564754_0']"
+7,"extraneous input '{' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['49426625_0', '57354628_1', '58956054_0', '69805685_3', '70804128_3', '70998818_1', '71693698_0']"
+7,"mismatched input 'of' expecting {'=', ';', NL}","['50566843_1', '67409550_1', '69535334_1', '70295695_0', '70808477_0', '71179331_1', '71564754_0']"
+7,"extraneous input '{' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['59713819_1', '59713819_3', '68241377_1', '70399988_1', '70804128_2', '71170701_3', '71471252_0']"
+7,"mismatched input 'for' expecting {'=', ';', NL}","['68049580_1', '70545978_0', '70603320_1', '71385097_0', '71394659_0', '71624208_2', '72338868_0']"
+7,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['68061351_0', '70424940_0', '71180839_0', '71372569_1', '71558241_2', '71766016_0', '71928224_0']"
+6,"extraneous input 'for' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['47971193_1', '67493677_2', '68058473_0', '69754900_0', '69877319_1', '71263095_0']"
+6,"mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['54904028_0', '57018803_0', '68811499_2', '69386723_0', '71422238_0', '71422238_1']"
+6,"extraneous input ';' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['54904028_0', '56494475_0', '60381305_0', '67036739_1', '67356893_0', '69465001_0']"
+6,"extraneous input ':' expecting {'=', ';', NL}","['57688908_0', '70076943_0', '70685083_1', '71548214_1', '71597113_0', '71899314_0']"
+6,no viable alternative at input 'Warning:',"['57970765_1', '59651032_1', '69258120_1', '70685083_1', '71558197_1', '71646570_0']"
+6,"mismatched input '-' expecting {'=', ';', NL}","['69774377_1', '70452624_0', '70459922_0', '70514336_1', '70603320_1', '70876767_4']"
+5,"mismatched input ';' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['35848756_0', '60508437_0', '70998818_1', '71214540_0', '71646570_1']"
+5,"extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['47662768_0', '70998818_1', '71371357_0', '71646570_1', '71820678_0']"
+5,"mismatched input '[' expecting {'=', ';', NL}","['48065343_3', '64729032_0', '68930866_0', '71321709_0', '71820678_0']"
+5,"extraneous input '=' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['48343868_0', '51663786_0', '51681604_0', '69332569_0', '72413453_2']"
+5,"mismatched input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['51226875_0', '69526003_0', '70224098_0', '70998818_1', '71542788_1']"
+5,"mismatched input 'is' expecting {'=', ';', NL}","['51918349_1', '58471891_0', '67796286_0', '70706328_1', '72224409_0']"
+5,"extraneous input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['52582875_0', '59964839_0', '68671428_0', '69971218_0', '70273380_0']"
+5,"extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['53876848_0', '67036739_1', '68930866_0', '71646570_1', '71952469_0']"
+5,"extraneous input '.' expecting {'=', ';', NL}","['54379517_0', '68484713_1', '68507885_3', '70808477_0', '71666255_2']"
+5,"mismatched input 'contract' expecting {'=', ';', NL}","['55140341_1', '57788496_0', '68484713_1', '68507885_3', '71666255_2']"
+5,"extraneous input '<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['55982661_0', '56494475_0', '61425184_1', '69465001_0', '69644735_5']"
+5,"extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['61222017_3', '62247259_1', '62247259_6', '70533031_0', '71767046_2']"
+5,no viable alternative at input 'address[]memory',"['64729032_2', '66914403_1', '69959058_1', '72076546_2', '72076546_3']"
+5,"mismatched input 'contracts' expecting {'=', ';', NL}","['67109613_0', '67641209_0', '67651899_0', '71951964_2', '71979670_2']"
+5,"extraneous input '{' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['67852023_0', '67852023_1', '68424735_0', '72356857_4', '72356857_10']"
+5,"extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['69020268_1', '70052775_0', '70322339_0', '71518895_0', '71560492_0']"
+5,"extraneous input 'try' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['69232462_0', '69302335_1', '70330907_0', '71343732_1', '71471252_0']"
+5,"mismatched input 'Documents' expecting {'=', ';', NL}","['69927808_0', '69927808_1', '71035790_0', '71258898_0', '71746449_0']"
+5,"mismatched input '0.51.0' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['69975614_1', '70002163_0', '70002163_1', '70002163_3', '70002163_4']"
+5,"extraneous input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['70052775_0', '70182701_0', '70491382_1', '70585228_0', '71579675_0']"
+5,"mismatched input 'development' expecting {';', NL}","['70603320_1', '71385097_0', '71394659_0', '71624208_2', '72338868_0']"
+5,"mismatched input ',' expecting {'as', 'from'}","['70615375_2', '70751581_1', '70837792_0', '71767046_2', '71819186_3']"
+5,"extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', 'override', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'constant', 'leave', 'external', 'internal', 'payable', 'private', 'public', 'virtual', 'pure', 'type', 'view', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['71129884_1', '71558241_2', '71946498_0', '71946498_2', '72369941_0']"
+4,no viable alternative at input 'stringmemory',"['32157648_9', '50043147_1', '56337630_0', '68697805_0']"
+4,missing ')' at '{',"['40924990_0', '52690481_1', '67317392_2', '70674359_19']"
+4,"mismatched input '.' expecting {'{', 'is'}","['48861734_1', '70533031_0', '71343732_1', '71767046_2']"
+4,no viable alternative at input 'Contract:',"['50548823_2', '62111564_0', '62592874_0', '67755049_3']"
+4,"mismatched input 'address' expecting {'=', ';', NL}","['51336428_0', '54379517_0', '68632466_0', '72224409_0']"
+4,"mismatched input 'x' expecting {';', NL}","['51336428_0', '56352718_0', '63490588_0', '64742970_1']"
+4,"extraneous input 'public' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['53091920_1', '53135401_0', '62970535_2', '64003066_1']"
+4,"mismatched input 'hook' expecting {';', NL}","['55598440_1', '65670482_1', '69577039_0', '71389974_0']"
+4,"extraneous input 'here' expecting {'=', ';', NL}","['57268288_0', '60147040_0', '71831000_0', '72084829_0']"
+4,"extraneous input '{' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['57354628_1', '57428308_3', '70937447_3', '71792535_1']"
+4,"extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['62247259_1', '69576099_0', '69774377_0', '71170701_3']"
+4,no viable alternative at input '\n}',"['64236628_0', '70159846_0', '71792535_1', '72193697_1']"
+4,"extraneous input '{' expecting {'(', NL}","['67460613_0', '67460613_1', '70731710_0', '70731710_1']"
+4,"mismatched input 'public' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['67703352_0', '67871713_2', '72089689_1', '72089689_2']"
+4,"mismatched input 'The' expecting {';', NL}","['68484713_1', '68507885_1', '68507885_3', '69314742_0']"
+4,no viable alternative at input 'DeclarationError:',"['68731404_0', '68785206_0', '70699192_1', '71899314_0']"
+4,no viable alternative at input 'id:',"['70183466_0', '70322339_0', '72356857_4', '72356857_10']"
+4,"mismatched input '>' expecting {'=', ';', NL}","['70920485_0', '70952409_0', '71258898_0', '71746449_0']"
+4,"mismatched input '.1' expecting {';', NL}","['71009134_0', '71385097_0', '71394659_0', '71624208_2']"
+4,"mismatched input '.18' expecting {'=', ';', NL}","['71385097_0', '71394659_0', '71624208_2', '72338868_0']"
+3,"mismatched input '(' expecting {'{', 'is'}","['42951618_1', '48861734_1', '58605003_0']"
+3,"mismatched input 'return' expecting {'{', 'returns', ';', NL}","['44991977_0', '67765614_0', '72339724_0']"
+3,"mismatched input '.' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['47254328_0', '66118102_2', '66831960_0']"
+3,"mismatched input ')' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['48065343_4', '48282754_0', '72241013_1']"
+3,"extraneous input ';' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['48282754_1', '53913206_0', '56627763_0']"
+3,"extraneous input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['48861734_1', '58605003_0', '71343732_1']"
+3,"mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['49959824_0', '49959824_1', '63490588_0']"
+3,"extraneous input 'address' expecting {',', ')'}","['51748576_0', '70033906_1', '70033906_3']"
+3,"extraneous input ';' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['51811011_1', '65235689_0', '70793634_0']"
+3,"extraneous input 'if' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['53308858_0', '71398729_0', '72062858_0']"
+3,no viable alternative at input 'Compiling./',"['54125211_0', '68608281_1', '71212620_3']"
+3,"mismatched input 'be' expecting {'=', ';', NL}","['56723849_1', '70589555_0', '70808477_0']"
+3,"extraneous input 'function' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['60381305_0', '62160329_0', '68776326_1']"
+3,"mismatched input 'tronWeb' expecting {'{', 'is'}","['61222017_3', '62247259_1', '62247259_6']"
+3,"extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['61425184_1', '69644735_5', '70729665_4']"
+3,"mismatched input 'is' expecting {';', NL}","['61425184_1', '67109613_0', '72067457_0']"
+3,"extraneous input '/' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['62492748_0', '68625587_2', '70991884_1']"
+3,"mismatched input '.' expecting {'~', 'from', '(', 'error', '[', ']', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['65235689_0', '69777395_0', '70139247_2']"
+3,"mismatched input 'payable' expecting {';', NL}","['65800835_0', '65800835_1', '65800835_2']"
+3,no viable alternative at input 'uint[]memory',"['66491232_1', '71727003_4', '71727003_5']"
+3,"mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['67036739_1', '67589637_4', '71646570_1']"
+3,"mismatched input '.' expecting {'{', 'returns', ';', NL}","['67884846_1', '69267556_0', '71857503_0']"
+3,"mismatched input '/' expecting {'as', 'from'}","['68391739_0', '68391739_1', '70625770_0']"
+3,"extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}","['68477946_0', '68485435_0', '69061349_2']"
+3,"mismatched input 'by' expecting {'=', ';', NL}","['68484713_1', '68507885_3', '71666255_2']"
+3,"mismatched input ':' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['68484713_1', '68507885_3', '71666255_2']"
+3,"mismatched input 'the' expecting {';', NL}","['68484713_1', '68507885_3', '71666255_2']"
+3,"mismatched input 'more' expecting {'=', ';', NL}","['68484713_1', '68507885_3', '71666255_2']"
+3,no viable alternative at input 'Identifier:',"['68625587_2', '69725746_2', '70991884_1']"
+3,"extraneous input 'using' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['68939469_0', '69576099_6', '70696685_0']"
+3,"extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['69370832_0', '70399988_1', '72421775_1']"
+3,"mismatched input '.' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['69887774_2', '72073475_0', '72145959_0']"
+3,"mismatched input 'run' expecting {';', NL}","['69927808_0', '69927808_1', '70603320_1']"
+3,"extraneous input 'ether' expecting {';', NL}","['70905466_0', '71168049_0', '71168049_1']"
+3,"mismatched input 'INFO' expecting {'=', ';', NL}","['70952409_0', '71258898_0', '71746449_0']"
+3,"extraneous input '>' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['72067457_0', '72337234_0', '72413453_2']"
+2,"mismatched input 'null' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['37852682_0', '64951267_0']"
+2,"mismatched input 'contract' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['42951618_1', '58605003_0']"
+2,"mismatched input 'This' expecting {';', NL}","['44179638_3', '44179638_4']"
+2,"mismatched input '""""' expecting {';', NL}","['44179638_3', '44179638_4']"
+2,"extraneous input '\n' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['48065343_3', '67858933_3']"
+2,"mismatched input 'contract' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}","['48861734_1', '58605003_0']"
+2,no viable alternative at input 'msg.sender)',"['48916054_0', '68811499_2']"
+2,"extraneous input '{' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['49613580_0', '56333361_0']"
+2,"extraneous input 'struct' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}","['49613580_0', '56333361_0']"
+2,"mismatched input 'Solidity' expecting {'=', ';', NL}","['50566843_1', '70459922_0']"
+2,"extraneous input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['50746393_0', '68145760_0']"
+2,missing ')' at '(',"['51333536_0', '66070059_0']"
+2,"extraneous input '(' expecting {',', ')'}","['51372365_1', '71432001_0']"
+2,"mismatched input 'function' expecting {';', NL}","['52138753_1', '68427409_0']"
+2,"extraneous input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['52582875_0', '70273380_0']"
+2,"extraneous input 'pragma' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['52582875_0', '69725746_3']"
+2,"extraneous input 'function' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['52690481_1', '70674359_19']"
+2,"mismatched input 'this' expecting {';', NL}","['53091920_1', '64863838_3']"
+2,"extraneous input 'public' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['53135401_0', '68986989_1']"
+2,"extraneous input '\n' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', ',', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['53927032_2', '69285553_0']"
+2,"extraneous input 'break' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['54845472_1', '69877319_1']"
+2,"extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['55398634_1', '67031948_0']"
+2,"extraneous input '>' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['55598440_1', '68608281_1']"
+2,"mismatched input '\n' expecting {'{', ','}","['55655626_0', '72201766_0']"
+2,"mismatched input 'a' expecting {'=', ';', NL}","['56723849_1', '72224409_0']"
+2,"mismatched input 'instead' expecting {'=', ';', NL}","['56723849_1', '61102644_2']"
+2,"mismatched input 'this' expecting {'=', ';', NL}","['56723849_1', '71676541_0']"
+2,"mismatched input '{' expecting {'~', 'from', '(', 'error', '[', ']', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}","['57354628_1', '69644735_5']"
+2,"mismatched input ')' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['58375121_0', '66665626_1']"
+2,"mismatched input 'socialNetwork' expecting {';', NL}","['59713819_1', '59713819_3']"
+2,"mismatched input 'and' expecting {'=', ';', NL}","['59964839_0', '71597113_0']"
+2,"extraneous input '/' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['60925033_3', '61425184_1']"
+2,"extraneous input '>' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['60925033_3', '69510681_0']"
+2,"extraneous input '*' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['61102644_2', '70808477_0']"
+2,no viable alternative at input 'string[]memory',"['61719400_1', '69032611_0']"
+2,no viable alternative at input 'constructor{',"['62669838_0', '71542788_1']"
+2,"extraneous input 'for' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['62669838_0', '68964131_0']"
+2,no viable alternative at input 'transferFrom.(',"['62743503_1', '62743503_3']"
+2,"extraneous input 'final' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['62970535_2', '64003066_1']"
+2,no viable alternative at input 'ValidationError:',"['63410976_2', '71516857_2']"
+2,"mismatched input 'transaction' expecting {'=', ';', NL}","['63587065_1', '67303288_0']"
+2,"mismatched input 'been' expecting {'=', ';', NL}","['63587065_1', '67303288_0']"
+2,"mismatched input 'initial' expecting {'=', ';', NL}","['63587065_1', '67303288_0']"
+2,"mismatched input ':' expecting {'as', 'from'}","['63649769_0', '64520130_2']"
+2,"mismatched input 'from' expecting {';', NL}","['64711324_1', '69510681_0']"
+2,no viable alternative at input 'creationof',"['65231260_1', '70982276_1']"
+2,"extraneous input '/' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['65549506_1', '71831000_0']"
+2,"mismatched input '.' expecting {'from', '}', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier}","['65708200_0', '65869895_0']"
+2,"extraneous input 'null' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['65779542_0', '66928012_0']"
+2,"mismatched input 'uint256' expecting {';', NL}","['65813919_0', '65813919_1']"
+2,"mismatched input 'balanceOf' expecting {';', NL}","['65813919_0', '65813919_1']"
+2,"mismatched input 'require' expecting {';', NL}","['65813919_0', '68721621_0']"
+2,no viable alternative at input 'uint256[10]memory',"['66001911_1', '66001911_2']"
+2,"mismatched input 'Compiling' expecting {';', NL}","['66544513_0', '71624208_2']"
+2,"mismatched input 'index' expecting {';', NL}","['66796408_0', '66797992_0']"
+2,no viable alternative at input 'D:',"['66797992_3', '72242765_0']"
+2,"mismatched input 'constructor' expecting {';', NL}","['66831960_0', '70755278_0']"
+2,no viable alternative at input 'Typecontract',"['67284526_1', '68725601_1']"
+2,no viable alternative at input 'Compiling14',"['67285242_2', '67285242_4']"
+2,"mismatched input '.' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}","['67384106_0', '69244846_0']"
+2,"mismatched input 'token' expecting {'=', ';', NL}","['67409550_1', '67641209_1']"
+2,"mismatched input 'here' expecting {',', ')'}","['67460613_0', '70731710_0']"
+2,extraneous input 'require' expecting '(',"['67460613_1', '70731710_1']"
+2,"mismatched input '==' expecting {',', ')'}","['67460613_1', '70731710_1']"
+2,no viable alternative at input 'DocstringParsingError:',"['67573966_1', '71060265_1']"
+2,"mismatched input 'HomeDB' expecting {';', NL}","['67781596_0', '68512757_0']"
+2,"extraneous input 'external' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['67871713_1', '68656074_0']"
+2,"mismatched input '(' expecting {'{', 'returns', ';', NL}","['68111308_0', '70658482_0']"
+2,"mismatched input '{' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['68128905_1', '69876752_0']"
+2,"extraneous input '=' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['68213087_0', '72009655_0']"
+2,no viable alternative at input '(\nuint80roundID',"['68422733_1', '70531502_1']"
+2,"extraneous input 'pickWinner' expecting {'(', NL}","['68477946_0', '68485435_0']"
+2,"extraneous input 'bob' expecting {',', ')'}","['68477946_0', '68485435_0']"
+2,extraneous input 'alice' expecting ')',"['68477946_0', '68485435_0']"
+2,"mismatched input 'ExceptionExample' expecting {'=', ';', NL}","['68507885_1', '68507885_3']"
+2,"mismatched input 'network' expecting {';', NL}","['68597706_2', '70876767_4']"
+2,"mismatched input 'Compiling' expecting {'=', ';', NL}","['68597706_2', '70310087_0']"
+2,no viable alternative at input 'Requestmemory',"['68723493_0', '71340451_1']"
+2,"mismatched input '{' expecting {'=', ';', NL}","['68986989_1', '72112502_0']"
+2,"extraneous input 'if' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['69120777_0', '71775742_0']"
+2,no viable alternative at input 'RuntimeError:',"['69269458_0', '69644735_6']"
+2,"extraneous input 'l' expecting {';', NL}","['69303859_0', '70762150_1']"
+2,no viable alternative at input 'uint[3]memory',"['69379701_0', '69379701_1']"
+2,"extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'returns', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', 'override', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'constant', 'leave', 'external', 'internal', 'payable', 'private', 'public', 'virtual', 'pure', 'type', 'view', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}","['69579069_0', '70721079_0']"
+2,"mismatched input 'deploy' expecting {';', NL}","['69644735_5', '70514336_1']"
+2,"mismatched input 'function' expecting {'=', ';', NL}","['69774377_1', '70856735_1']"
+2,no viable alternative at input 'Argumentof',"['69900547_1', '69900547_2']"
+2,"mismatched input 'brownie_simple_storage' expecting {'=', ';', NL}","['69927808_0', '69927808_1']"
+2,"mismatched input '/' expecting {'=', ';', NL}","['69927808_0', '70603320_1']"
+2,"mismatched input 'token' expecting {';', NL}","['69974761_3', '72084829_0']"
+2,"mismatched input 'Token' expecting {';', NL}","['70183466_0', '70527000_2']"
+2,no viable alternative at input '(boolsent',"['70209083_0', '70974677_1']"
+2,"extraneous input '?' expecting {'=', ';', NL}","['70349133_0', '70776159_0']"
+2,no viable alternative at input 'INFO:',"['70459922_0', '70459922_4']"
+2,"mismatched input 'call' expecting {'=', ';', NL}","['70505253_0', '70514336_1']"
+2,"mismatched input 'liwei' expecting {';', NL}","['70514336_1', '70603320_1']"
+2,no viable alternative at input 'Note:',"['70518810_1', '70924896_3']"
+2,"mismatched input '.2' expecting {';', NL}","['70603320_1', '72338868_0']"
+2,"mismatched input 'def' expecting {'as', 'from'}","['70603320_2', '71548214_1']"
+2,no viable alternative at input 'uint256public',"['70685952_0', '71168049_0']"
+2,"mismatched input 'scripts' expecting {StringLiteralFragment, NL}","['70751581_0', '72068874_0']"
+2,"mismatched input 'Category' expecting {';', NL}","['70804128_2', '70804128_3']"
+2,"mismatched input 'categoryInstance' expecting {';', NL}","['70804128_2', '70804128_3']"
+2,"mismatched input '==' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}","['70899674_2', '71829431_0']"
+2,"mismatched input 'demos' expecting {'=', ';', NL}","['70952409_0', '71258898_0']"
+2,"extraneous input 'unchecked' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}","['70986854_1', '71325598_0']"
+2,"mismatched input 'instance' expecting {';', NL}","['71170701_3', '71646915_1']"
+2,"mismatched input 'as' expecting {'=', ';', NL}","['71179331_1', '72384029_0']"
+2,no viable alternative at input 'awaitcontract',"['71245575_3', '72255775_2']"
+2,"mismatched input 'ethers' expecting {';', NL}","['71450598_1', '71474596_0']"
+2,"mismatched input 'function' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}","['71564754_0', '72224409_0']"
+2,"mismatched input 'Contract' expecting {';', NL}","['71869681_1', '72093394_2']"
+2,"mismatched input '{' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier}","['71946498_0', '71946498_2']"
+2,"extraneous input 'struct' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}","['71962051_1', '72018991_0']"
+1,"extraneous input '.' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['35545625_2']
+1,"extraneous input '.' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}",['35545625_2']
+1,"extraneous input '?' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}",['35848756_0']
+1,no viable alternative at input 'Test:',['37649753_1']
+1,no viable alternative at input 'buyermemory',['37852682_1']
+1,no viable alternative at input 'varcontract',['40689740_2']
+1,"extraneous input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['42951618_1']
+1,"mismatched input 'shareholder' expecting {'=', ';', NL}",['42951618_1']
+1,"extraneous input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['42951618_1']
+1,"extraneous input 'function' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['42951618_1']
+1,"mismatched input 'new' expecting {'=', ';', NL}",['42951618_3']
+1,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['43527649_0']
+1,no viable alternative at input 'FROM:',['44543389_2']
+1,"extraneous input 'throw' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['44982437_0']
+1,"mismatched input 'HigherThan2' expecting {';', NL}",['44982437_0']
+1,no viable alternative at input 'handleChange:',['45046289_3']
+1,"extraneous input 'action2' expecting {';', NL}",['45614208_3']
+1,"mismatched input 'GitHub' expecting {';', NL}",['47137414_0']
+1,no viable alternative at input 'ERROR:',['47253748_1']
+1,"extraneous input 'Common' expecting {'{', 'is'}",['47417612_3']
+1,"mismatched input 'someone' expecting {'=', ';', NL}",['47530664_1']
+1,"mismatched input 'invest' expecting {'=', ';', NL}",['47530664_1']
+1,"mismatched input 'record' expecting {'=', ';', NL}",['47530664_1']
+1,"mismatched input 'should' expecting {'=', ';', NL}",['47530664_1']
+1,"mismatched input '1' expecting {'=', ';', NL}",['47530664_1']
+1,"mismatched input 'ERC20' expecting {';', NL}",['47530664_1']
+1,no viable alternative at input 'AssertionError:',['47553562_0']
+1,no viable alternative at input '(uint8i',['47971193_1']
+1,"extraneous input '/' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['48065343_3']
+1,"extraneous input ';' expecting {'~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['48409082_0']
+1,"mismatched input '}' expecting {'~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}",['48409082_0']
+1,"mismatched input '6312909485' expecting {';', NL}",['48797407_0']
+1,"mismatched input 'push4' expecting {';', NL}",['48797407_0']
+1,"mismatched input ')' expecting {'{', 'is'}",['48916054_0']
+1,no viable alternative at input 'Amemory',['49090414_0']
+1,"extraneous input '.' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}",['49266401_0']
+1,"mismatched input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['49266401_0']
+1,"extraneous input 'x207a07f7df98e3a85e2067feacB9w' expecting {',', ']'}",['49266401_0']
+1,"no viable alternative at input 'input,'",['49383663_0']
+1,"mismatched input 'struct' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['49426625_0']
+1,"mismatched input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['49426625_0']
+1,"mismatched input 'memory' expecting {';', NL}",['49426625_0']
+1,"mismatched input 'struct' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['49426625_0']
+1,"mismatched input 'A' expecting {',', ']'}",['49449474_4']
+1,"mismatched input 'HERE' expecting {'=', ';', NL}",['49449474_4']
+1,no viable alternative at input 'mapping(uint256=>function)',['49487937_0']
+1,no viable alternative at input 'File:',['49526152_0']
+1,"extraneous input ')' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['49544846_1']
+1,"mismatched input 'returns' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier}",['49544846_1']
+1,"mismatched input 'ast' expecting {';', NL}",['49709000_4']
+1,"mismatched input 'of' expecting {';', NL}",['49709000_4']
+1,"extraneous input 'files' expecting {'=', ';', NL}",['49709000_4']
+1,"mismatched input 'AST' expecting {';', NL}",['49709000_4']
+1,"extraneous input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['49731189_0']
+1,"extraneous input '*' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['49731189_0']
+1,"mismatched input '**' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['49731189_0']
+1,"mismatched input 'encountered' expecting {'=', ';', NL}",['49753254_0']
+1,no viable alternative at input 'StackOverflow:',['49959040_2']
+1,no viable alternative at input 'FAIL:',['50043994_3']
+1,no viable alternative at input '_whiskyXChange2.default',['50501254_0']
+1,no viable alternative at input 'inpage.js:',['50515775_0']
+1,"no viable alternative at input 'where,'",['51088763_0']
+1,"mismatched input '0' expecting {'=', ';', NL}",['51336428_0']
+1,"mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['51372365_1']
+1,"mismatched input '"")""' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['51573782_0']
+1,"mismatched input 'strut' expecting {'=', ';', NL}",['51811011_0']
+1,"extraneous input 'contract' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}",['51811011_1']
+1,"mismatched input '{' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['51811011_1']
+1,mismatched input '{' expecting '(',['51811011_3']
+1,"extraneous input 'contract' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['51918349_1']
+1,"mismatched input 'Reward' expecting {'{', 'is'}",['51918349_1']
+1,no viable alternative at input 'Untitled3.sol:',['51918349_2']
+1,"extraneous input 'f' expecting {'(', NL}",['52113202_3']
+1,"extraneous input 'key' expecting {',', ')'}",['52113202_3']
+1,extraneous input 'value' expecting ')',['52113202_3']
+1,"extraneous input 'g' expecting {'(', NL}",['52113202_3']
+1,no viable alternative at input 'XXX}',['52515714_1']
+1,no viable alternative at input 'Usermemory',['52581641_1']
+1,"mismatched input 'path' expecting {';', NL}",['52582875_0']
+1,"extraneous input 'in' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['52582875_0']
+1,"extraneous input ')' expecting {'{', 'is'}",['52582875_0']
+1,"extraneous input 'contract' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['52582875_0']
+1,no viable alternative at input 'output[contract',['52582875_0']
+1,"mismatched input 'private' expecting {';', NL}",['53091920_1']
+1,"mismatched input 'ConnectToTest' expecting {'=', ';', NL}",['53135401_0']
+1,"mismatched input 'deploymentHandler' expecting {';', NL}",['53135401_0']
+1,no viable alternative at input 'Instructorstorage',['53166707_0']
+1,"extraneous input 'do' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['53200164_0']
+1,"mismatched input '{' expecting {',', ')'}",['53791299_0']
+1,"mismatched input 'ExService' expecting {';', NL}",['53791299_2']
+1,"extraneous input '\n' expecting {'{', ','}",['53927032_0']
+1,"extraneous input 'constant' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['54101635_1']
+1,no viable alternative at input 'claimStarFunc:',['54315340_2']
+1,no viable alternative at input 'error:',['54360047_1']
+1,"mismatched input 'conversion' expecting {'=', ';', NL}",['54379517_0']
+1,mismatched input ':' expecting ']',['54384498_1']
+1,"mismatched input ']' expecting {';', NL}",['54384498_1']
+1,"mismatched input 'with' expecting {'=', ';', NL}",['54384498_1']
+1,"extraneous input 'err' expecting {'=', ';', NL}",['54384498_1']
+1,"mismatched input '<=' expecting {'=', ';', NL}",['54547210_0']
+1,no viable alternative at input 'Hash.new',['54878426_0']
+1,no viable alternative at input 'localhost:',['54878426_1']
+1,"extraneous input '<<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['54904028_0']
+1,"mismatched input 'contract' expecting {';', NL}",['54904028_0']
+1,"mismatched input 'doc' expecting {';', NL}",['54904028_0']
+1,"extraneous input ':' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['55140341_1']
+1,"extraneous input 'contract' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['55140341_1']
+1,no viable alternative at input 'medicament:',['55398634_1']
+1,no viable alternative at input '(uint256(bytes(b[i])-48);',['55550187_0']
+1,no viable alternative at input 'varhours',['55757035_1']
+1,no viable alternative at input '(uint(1.1)))',['55982661_0']
+1,"extraneous input 'interface' expecting {'{', 'returns', ';', NL}",['56279409_0']
+1,"mismatched input 'public' expecting {'(', NL}",['56279409_0']
+1,"mismatched input 'T08' expecting {',', ']'}",['56337630_1']
+1,"extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['56469332_0']
+1,"no viable alternative at input 'Member""initialize""'",['56505629_4']
+1,"extraneous input 'isValid' expecting {'(', NL}",['56564742_0']
+1,"extraneous input 'val' expecting {',', ')'}",['56564742_0']
+1,no viable alternative at input '(uintorderId',['56627763_1']
+1,"mismatched input 'I' expecting {';', NL}",['56723849_1']
+1,"mismatched input 'dump' expecting {'=', ';', NL}",['56723849_1']
+1,"mismatched input 'am' expecting {'=', ';', NL}",['56723849_1']
+1,no viable alternative at input 'react.pragma',['57076509_0']
+1,no viable alternative at input 'Tokencontract',['57137632_0']
+1,"mismatched input 'must' expecting {'=', ';', NL}",['57179619_1']
+1,"mismatched input '""calldata""' expecting {'=', ';', NL}",['57179619_1']
+1,"mismatched input 'for' expecting {';', NL}",['57179619_1']
+1,"mismatched input 'deploy' expecting {'=', ';', NL}",['57324912_0']
+1,"mismatched input 'account' expecting {'=', ';', NL}",['57324912_0']
+1,"extraneous input '{' expecting {'~', 'from', '(', 'error', '[', ']', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['57354628_1']
+1,"extraneous input ']' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['57354628_1']
+1,no viable alternative at input 'InvalidAsn1Error:',['57428308_3']
+1,no viable alternative at input 'bytes32[]memory',['58257459_5']
+1,"mismatched input 'ContractB' expecting {'=', ';', NL}",['58375121_0']
+1,"extraneous input 'var' expecting {'=', ';', NL}",['58492605_1']
+1,"extraneous input ';' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['58605003_0']
+1,"extraneous input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['58605003_0']
+1,"mismatched input '=' expecting {'{', 'is'}",['58605003_0']
+1,"mismatched input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['58605003_0']
+1,"mismatched input 'byte' expecting {';', NL}",['58711371_0']
+1,"mismatched input 'before' expecting {';', NL}",['59713819_1']
+1,"mismatched input 'download' expecting {'=', ';', NL}",['59910768_0']
+1,"extraneous input 'Downloading' expecting {'=', ';', NL}",['59910768_0']
+1,no viable alternative at input 'privatekey.cc:',['59910768_0']
+1,"mismatched input 'continue' expecting {'=', ';', NL}",['59964839_0']
+1,"extraneous input 'bytes32' expecting {',', ')'}",['60027022_1']
+1,"mismatched input 'var' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier, NL}",['60508437_0']
+1,no viable alternative at input '^x',['60569808_5']
+1,"mismatched input 'npm' expecting {';', NL}",['60925033_3']
+1,"extraneous input 'test' expecting {'=', ';', NL}",['60925033_3']
+1,"mismatched input 'into' expecting {'=', ';', NL}",['61102644_2']
+1,"mismatched input ''.sol'' expecting {'=', ';', NL}",['61102644_2']
+1,"mismatched input 'file' expecting {';', NL}",['61102644_2']
+1,"mismatched input 'uses' expecting {'=', ';', NL}",['61102644_2']
+1,"mismatched input 'tronWeb' expecting {';', NL}",['61222017_1']
+1,"mismatched input 'thisContractInstance' expecting {';', NL}",['61222017_1']
+1,"mismatched input 'Poni' expecting {';', NL}",['61425184_1']
+1,"extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['61425184_1']
+1,"mismatched input 'test' expecting {'=', ';', NL}",['61425184_1']
+1,"mismatched input 'create' expecting {'=', ';', NL}",['61425184_1']
+1,"mismatched input '<' expecting {'=', ';', NL}",['61425184_1']
+1,"mismatched input 'Value' expecting {';', NL}",['61425184_1']
+1,no viable alternative at input 'evalmachine.<',['61600613_0']
+1,"mismatched input '?' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['62285016_0']
+1,no viable alternative at input 'incidents.sol:',['62492748_0']
+1,"extraneous input 'memory' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['62669838_0']
+1,no viable alternative at input 'uint256constantNUM_OF_GROUPS=129600;\n\n.',['62778277_0']
+1,no viable alternative at input 'lottery4.sol:',['63211454_1']
+1,"mismatched input 'data' expecting {'=', ';', NL}",['63284038_0']
+1,"extraneous input 'trx' expecting {';', NL}",['63535181_1']
+1,"mismatched input 'Lottery' expecting {'=', ';', NL}",['63587065_1']
+1,"extraneous input '.' expecting {'from', '}', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['63835302_0']
+1,no viable alternative at input 'Usuariostorage',['64200059_1']
+1,"mismatched input 'calls' expecting {'=', ';', NL}",['64230863_1']
+1,"mismatched input '^' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['64236628_0']
+1,no viable alternative at input 'mapping(uint->',['64285089_0']
+1,"extraneous input ';' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['64729032_0']
+1,no viable alternative at input 'addresspublic',['64733976_0']
+1,"mismatched input 'exception' expecting {'=', ';', NL}",['64951267_0']
+1,"extraneous input 'null' expecting {'~', 'from', '(', 'error', '[', ']', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['64951267_0']
+1,"mismatched input '5.0.8' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['64951267_0']
+1,"extraneous input 'final' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['64951267_0']
+1,no viable alternative at input 'index.ts:',['64951267_0']
+1,"mismatched input '.' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['65342636_0']
+1,missing ')' at ';',['65352645_0']
+1,no viable alternative at input 'import(',['65507396_0']
+1,no viable alternative at input 'privateKey2string',['65507396_0']
+1,"mismatched input 'compiler' expecting {'=', ';', NL}",['65549506_1']
+1,"extraneous input '0.5.10' expecting {'=', ';', NL}",['65549506_1']
+1,no viable alternative at input 'HouseRegistrationContract.sol:',['65549506_1']
+1,"mismatched input '.' expecting {'~', 'from', '{', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['65607908_0']
+1,extraneous input 'alpha' expecting ')',['65673817_0']
+1,no viable alternative at input '(uint256beta',['65673817_0']
+1,"extraneous input '{' expecting {',', ')'}",['65673817_1']
+1,no viable alternative at input 'ERC165.sol:',['65744943_0']
+1,"mismatched input '9' expecting {';', NL}",['65813919_1']
+1,no viable alternative at input 'uint256memory',['66001911_0']
+1,"mismatched input 'Test' expecting {';', NL}",['66145387_1']
+1,no viable alternative at input 'StudentAccountmemory',['66217097_2']
+1,no viable alternative at input 'UnhandledPromiseRejectionWarning:',['66299122_0']
+1,"extraneous input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['66455820_0']
+1,"mismatched input 'here' expecting {'=', ';', NL}",['66512117_1']
+1,"extraneous input 'contract' expecting {'=', ';', NL}",['66544513_0']
+1,no viable alternative at input 'assert.js:',['66544513_0']
+1,"mismatched input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['66575496_1']
+1,no viable alternative at input 'AuctinoHouse.sol:',['66623938_1']
+1,"extraneous input 'UNI' expecting {';', NL}",['66914639_1']
+1,no viable alternative at input 'ParseError:',['67017605_0']
+1,no viable alternative at input 'hash:',['67031948_0']
+1,no viable alternative at input 'tags:',['67031948_0']
+1,"mismatched input ',' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['67031948_0']
+1,no viable alternative at input 'author:',['67031948_0']
+1,"mismatched input 'like' expecting {';', NL}",['67031948_0']
+1,no viable alternative at input 'dislikes:',['67031948_0']
+1,no viable alternative at input 'netLikes:',['67031948_0']
+1,no viable alternative at input 'nonce:',['67031948_0']
+1,no viable alternative at input 'timeStamp:',['67031948_0']
+1,missing ')' at '\n',['67036739_1']
+1,"mismatched input '==' expecting {'=', ';', NL}",['67036739_1']
+1,"extraneous input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['67036739_1']
+1,"mismatched input '++' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['67036739_1']
+1,"extraneous input '}' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['67036739_1']
+1,"extraneous input 'function' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}",['67036739_1']
+1,"mismatched input 'inbox' expecting {'=', ';', NL}",['67084414_2']
+1,"mismatched input 'Application' expecting {'=', ';', NL}",['67109613_0']
+1,"mismatched input 'Interface' expecting {'=', ';', NL}",['67109613_0']
+1,"mismatched input 'way' expecting {'=', ';', NL}",['67109613_0']
+1,"mismatched input 'interact' expecting {'=', ';', NL}",['67109613_0']
+1,no viable alternative at input 'functiondo',['67203229_0']
+1,"extraneous input 'numTokens' expecting {';', NL}",['67256513_0']
+1,extraneous input 'user' expecting '=>',['67291908_1']
+1,extraneous input 'money' expecting ')',['67291908_1']
+1,"no viable alternative at input 'Source""@openzeppelin/contracts/token/ERC20/ERC20.sol""'",['67314540_2']
+1,"extraneous input 'storage' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['67334966_1']
+1,"extraneous input '<' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['67335703_0']
+1,mismatched input 'challenge' expecting ')',['67335703_0']
+1,"extraneous input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['67335703_0']
+1,mismatched input 'shop' expecting ')',['67335703_0']
+1,"extraneous input '>' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'let', '=:', 'switch', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['67335703_0']
+1,"extraneous input 'default' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'let', '=:', 'switch', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['67335703_0']
+1,"mismatched input 'ERC777' expecting {';', NL}",['67356893_0']
+1,"mismatched input '[' expecting {'{', 'is'}",['67409550_1']
+1,no viable alternative at input 'Explicittype',['67415698_1']
+1,"extraneous input '.' expecting {'(', NL}",['67460613_0']
+1,"mismatched input '\n' expecting {'{', 'is'}",['67464855_2']
+1,"extraneous input 'null' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['67493677_0']
+1,no viable alternative at input '(uinti',['67493677_2']
+1,"mismatched input 'logger' expecting {'=', ';', NL}",['67576881_0']
+1,"mismatched input 'index' expecting {'=', ';', NL}",['67576881_0']
+1,"mismatched input 'memory' expecting {',', ')'}",['67589637_4']
+1,"mismatched input 'openzeppelin' expecting {'as', ';', NL}",['67641209_1']
+1,"mismatched input 'ERC721' expecting {'=', ';', NL}",['67641209_1']
+1,no viable alternative at input 'https:',['67657827_0']
+1,"mismatched input 'startapp' expecting {'{', 'is'}",['67709521_1']
+1,"mismatched input 'Uncaught' expecting {'=', ';', NL}",['67709521_1']
+1,"mismatched input 'property' expecting {'=', ';', NL}",['67709521_1']
+1,"extraneous input 'true' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['67765614_0']
+1,no viable alternative at input 'statustrue',['67830547_1']
+1,"mismatched input 'ParamsOfStart' expecting {';', NL}",['67852023_0']
+1,no viable alternative at input 'debot_handle:',['67852023_0']
+1,"mismatched input 'ParamsOfFetch' expecting {';', NL}",['67852023_1']
+1,"mismatched input ':' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['67858933_3']
+1,"mismatched input '?' expecting {'=', ';', NL}",['67858933_3']
+1,"mismatched input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['67858933_3']
+1,no viable alternative at input '(uint256rAmount',['67866024_2']
+1,mismatched input 'ton' expecting '}',['67881834_0']
+1,missing '}' at '(',['67881834_0']
+1,"extraneous input '{' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['67881834_0']
+1,no viable alternative at input 'value:',['67881834_0']
+1,no viable alternative at input 'Parent.sol:',['67881891_0']
+1,"mismatched input 'identify' expecting {'=', ';', NL}",['67946949_2']
+1,"mismatched input 'intended' expecting {'=', ';', NL}",['67946949_2']
+1,no viable alternative at input 'uint[2]storage',['68032495_1']
+1,"mismatched input 'responses' expecting {'(', NL}",['68032495_2']
+1,"mismatched input 'number' expecting {';', NL}",['68032495_2']
+1,mismatched input 'to' expecting ')',['68049580_1']
+1,"mismatched input 'adoption' expecting {'(', NL}",['68049580_1']
+1,mismatched input 'the' expecting ')',['68049580_1']
+1,"extraneous input 'days' expecting {';', NL}",['68099865_0']
+1,"extraneous input 'getAge' expecting {'(', NL}",['68116036_0']
+1,"mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['68116036_0']
+1,"extraneous input 'setAge' expecting {'(', NL}",['68116036_0']
+1,"extraneous input 'b' expecting {',', ')'}",['68116036_0']
+1,mismatched input '(' expecting '{',['68128905_0']
+1,"mismatched input 'error' expecting {';', NL}",['68128905_1']
+1,no viable alternative at input 'bar.\nstring',['68145760_0']
+1,"mismatched input 'cannot' expecting {'=', ';', NL}",['68163319_0']
+1,"mismatched input 'compiled' expecting {'=', ';', NL}",['68163319_0']
+1,no viable alternative at input 'function:',['68171487_0']
+1,no viable alternative at input 'defstorage',['68240564_0']
+1,no viable alternative at input 'constcontract',['68289806_3']
+1,"extraneous input 'private' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['68314316_0']
+1,no viable alternative at input 'CompileError:',['68384968_0']
+1,"no viable alternative at input 'address""msgSender""'",['68403746_1']
+1,mismatched input 'startedAt' expecting ')',['68417684_1']
+1,no viable alternative at input 'resPairis',['68424735_0']
+1,"mismatched input 'orders' expecting {';', NL}",['68427409_0']
+1,"mismatched input 'tokenA' expecting {';', NL}",['68432609_4']
+1,"mismatched input 'smart' expecting {'=', ';', NL}",['68435826_0']
+1,mismatched input 'for' expecting ')',['68445567_0']
+1,"mismatched input 'call' expecting {'(', NL}",['68445567_0']
+1,"mismatched input 'ArtWorkMinter' expecting {'=', ';', NL}",['68484713_1']
+1,"mismatched input '==' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['68490835_0']
+1,no viable alternative at input 'erris',['68498788_1']
+1,"extraneous input 'myfunction' expecting {'(', NL}",['68504552_0']
+1,missing '}' at '1',['68556047_0']
+1,"mismatched input 'Sep' expecting {';', NL}",['68556047_0']
+1,"mismatched input 'compile' expecting {'=', ';', NL}",['68597706_2']
+1,"mismatched input 'pragma' expecting {';', NL}",['68608281_0']
+1,"extraneous input '3' expecting {';', NL}",['68608281_0']
+1,"mismatched input 'import' expecting {';', NL}",['68608281_0']
+1,"mismatched input '6' expecting {';', NL}",['68608281_0']
+1,"mismatched input 'and' expecting {'(', NL}",['68632466_0']
+1,"mismatched input 'send' expecting {'=', ';', NL}",['68632466_0']
+1,"mismatched input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['68632466_0']
+1,"mismatched input 'openzeppelin' expecting {'=', ';', NL}",['68636650_0']
+1,no viable alternative at input 'ERC721.sol:',['68636650_0']
+1,"extraneous input 'addLiquidity' expecting {'(', NL}",['68656074_0']
+1,"extraneous input 'tokenA' expecting {',', ')'}",['68656074_0']
+1,missing ')' at 'tokenB',['68656074_0']
+1,"extraneous input 'deposit' expecting {'(', NL}",['68656074_0']
+1,"mismatched input '_pid' expecting {',', ')'}",['68656074_0']
+1,"mismatched input '259' expecting {'=', ';', NL}",['68656074_0']
+1,"extraneous input 'withdraw' expecting {'(', NL}",['68656074_0']
+1,"extraneous input '_pid' expecting {',', ')'}",['68656074_0']
+1,extraneous input '_amount' expecting ')',['68656074_0']
+1,"extraneous input 'removeLiquidity' expecting {'(', NL}",['68656074_0']
+1,"extraneous input 'swapTokensForExactETH' expecting {'(', NL}",['68656074_0']
+1,"extraneous input 'amountOut' expecting {',', ')'}",['68656074_0']
+1,missing ')' at 'amountInMax',['68656074_0']
+1,no viable alternative at input 'async.function',['68694465_7']
+1,no viable alternative at input 'low\n\n\n\nrequire',['68721621_0']
+1,no viable alternative at input 'Error}',['68721621_0']
+1,"mismatched input 'continue' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier, NL}",['68721621_0']
+1,"extraneous input '(' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['68721621_0']
+1,"mismatched input '=' expecting {';', NL}",['68721621_0']
+1,"mismatched input 'atype' expecting {'=', ';', NL}",['68776326_1']
+1,no viable alternative at input '(addresspayable',['68793184_1']
+1,"mismatched input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['68793184_1']
+1,"mismatched input 'passing' expecting {';', NL}",['68810515_0']
+1,"mismatched input 's' expecting {';', NL}",['68810515_0']
+1,no viable alternative at input 'bytes32indexed',['68856707_0']
+1,no viable alternative at input 'dexAddress:',['68864546_0']
+1,no viable alternative at input '(ERC20Token(0xB0Bd09D..',['68875147_2']
+1,no viable alternative at input 'purchase\nidToMarketItem',['68917603_1']
+1,no viable alternative at input 'Chainlinkfor',['68939469_0']
+1,no viable alternative at input '(uint80currentRoundId',['68947490_0']
+1,missing '}' at 'enum',['68964131_0']
+1,"no viable alternative at input 'l,'",['68964131_0']
+1,no viable alternative at input 'project:',['68970489_0']
+1,no viable alternative at input '(\n(\nnow>=auctions[tokenId].auctionEnd&&\nauctions[tokenId].highestBid>0&&\nauctions[tokenId].highestBid0',['68985070_0']
+1,no viable alternative at input '(\nnow>=auctions[tokenId].auctionEnd&&\nauctions[tokenId].highestBid>0&&\nauctions[tokenId].highestBid0',['68985070_0']
+1,"mismatched input '0' expecting {';', NL}",['68985070_0']
+1,"extraneous input 'returns' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['69004297_0']
+1,no viable alternative at input 'CompilerError:',['69008267_0']
+1,no viable alternative at input 'Store.sol:',['69020268_0']
+1,"no viable alternative at input 'productIndex,'",['69020268_1']
+1,"no viable alternative at input 'ProductStatus.Open,'",['69020268_1']
+1,"mismatched input 'event' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['69025408_0']
+1,"mismatched input 'event' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['69025408_0']
+1,missing ')' at '_creator',['69034610_2']
+1,"mismatched input ',' expecting {'{', 'returns', ';', NL}",['69034610_2']
+1,no viable alternative at input 'MyToken.sol:',['69045016_0']
+1,"extraneous input '_removeApprovedUser' expecting {'(', NL}",['69061349_2']
+1,"extraneous input '_disapprover' expecting {',', ')'}",['69061349_2']
+1,"extraneous input 'pricing' expecting {'(', NL}",['69061349_2']
+1,"extraneous input '_rate' expecting {',', ')'}",['69061349_2']
+1,"mismatched input 'Rich' expecting {'=', ';', NL}",['69089799_4']
+1,"mismatched input 'checks' expecting {'=', ';', NL}",['69089799_4']
+1,"mismatched input 'OPTIONAL' expecting {';', NL}",['69120777_0']
+1,"mismatched input 'unspecified' expecting {';', NL}",['69120777_0']
+1,"extraneous input 'cases' expecting {'=', ';', NL}",['69200464_0']
+1,no viable alternative at input 'C:',['69205050_0']
+1,"mismatched input 'returns' expecting {';', NL}",['69232462_0']
+1,mismatched input '.' expecting '(',['69244846_3']
+1,no viable alternative at input 'Errorin',['69271231_0']
+1,"mismatched input 'Donacion' expecting {'=', ';', NL}",['69314742_0']
+1,"no viable alternative at input 'accountC,'",['69332569_0']
+1,"no viable alternative at input 'amount,'",['69332569_0']
+1,"mismatched input 'Protocol' expecting {';', NL}",['69348754_1']
+1,no viable alternative at input '_users[_data[i].address',['69386723_0']
+1,no viable alternative at input 'SimpleStorage[]public',['69394882_1']
+1,no viable alternative at input '(address(0);',['69418759_1']
+1,"no viable alternative at input 'router,'",['69427619_0']
+1,missing ')' at 'etime',['69440832_0']
+1,"mismatched input 'etime' expecting {';', NL}",['69440832_0']
+1,"mismatched input 'id' expecting {';', NL}",['69465001_0']
+1,"no viable alternative at input 'Source""@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol""'",['69504959_0']
+1,"mismatched input 'claiming' expecting {'(', NL}",['69535334_1']
+1,"mismatched input 'reward' expecting {'=', ';', NL}",['69535334_1']
+1,"mismatched input 'tokens' expecting {';', NL}",['69535334_1']
+1,"extraneous input 'return' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['69535334_1']
+1,"mismatched input '?' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['69540802_0']
+1,no viable alternative at input 'message:',['69576099_0']
+1,no viable alternative at input 'ECDSAfor',['69576099_6']
+1,no viable alternative at input 'ink:',['69618926_1']
+1,mismatched input 'type' expecting '}',['69644735_5']
+1,"mismatched input 'extends' expecting {'=', ';', NL}",['69688857_3']
+1,"extraneous input 'static' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['69688857_3']
+1,"mismatched input 'factory' expecting {';', NL}",['69688857_3']
+1,"extraneous input '*' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['69716493_0']
+1,"mismatched input '3' expecting {'=', ';', NL}",['69725746_1']
+1,"mismatched input 'contracts' expecting {';', NL}",['69725746_1']
+1,"mismatched input 'node' expecting {'=', ';', NL}",['69754900_0']
+1,"extraneous input 'type' expecting {'=', ';', NL}",['69754900_0']
+1,"mismatched input 'Optional' expecting {';', NL}",['69754900_0']
+1,"mismatched input 'Job' expecting {'=', ';', NL}",['69754900_0']
+1,"mismatched input 'if' expecting {'=', ';', NL}",['69754900_0']
+1,no viable alternative at input 'genesisTokenHolders:',['69774377_0']
+1,"extraneous input 'tokens' expecting {'=', ';', NL}",['69774377_1']
+1,"mismatched input 'when' expecting {'=', ';', NL}",['69774377_1']
+1,"mismatched input 'calls' expecting {';', NL}",['69774377_1']
+1,"mismatched input 'isStaked' expecting {'{', ';', NL}",['69805685_3']
+1,"extraneous input 'lablalbasomeaddress' expecting {';', NL}",['69864342_0']
+1,no viable alternative at input 'TOKEN_NAME}',['69876752_0']
+1,"extraneous input ';' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['69876752_0']
+1,no viable alternative at input 'TOKEN_SYMBOL}',['69876752_0']
+1,no viable alternative at input 'DECIMALS}',['69876752_0']
+1,no viable alternative at input 'TOTAL_SUPPLY}',['69876752_0']
+1,no viable alternative at input '(uint24i',['69877319_1']
+1,"extraneous input 'while' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['69877319_1']
+1,"mismatched input 'successfully' expecting {';', NL}",['69887774_2']
+1,"extraneous input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['69888515_2']
+1,"mismatched input 'NzouaToken' expecting {';', NL}",['69974761_3']
+1,"mismatched input 'NzouaTokenSale' expecting {';', NL}",['69974761_3']
+1,"mismatched input 'package' expecting {'=', ';', NL}",['70027890_0']
+1,"extraneous input 'usingProvable' expecting {'{', 'is'}",['70028018_0']
+1,"extraneous input 'memory' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['70028018_0']
+1,"mismatched input '*' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['70052775_0']
+1,"no viable alternative at input 'title,'",['70052775_0']
+1,no viable alternative at input 'yourfunction',['70063009_0']
+1,"mismatched input 'to' expecting {'(', NL}",['70063009_0']
+1,"mismatched input 'add' expecting {'=', ';', NL}",['70063009_0']
+1,"extraneous input 'external' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['70076943_0']
+1,"extraneous input 'mylist' expecting {';', NL}",['70076943_0']
+1,"mismatched input 'external' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['70076943_0']
+1,"extraneous input 'internal' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['70076943_0']
+1,"extraneous input 'internalList' expecting {';', NL}",['70076943_0']
+1,"mismatched input 'internal' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['70076943_0']
+1,"extraneous input 'internal' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['70076943_0']
+1,"extraneous input 'internal' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['70076943_0']
+1,"mismatched input 've_pooladdress' expecting {';', NL}",['70088614_0']
+1,"mismatched input '[' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}",['70139247_2']
+1,no viable alternative at input 'address[3]memory',['70179523_4']
+1,no viable alternative at input '(Reactcode',['70189327_0']
+1,"mismatched input 'movieNames' expecting {';', NL}",['70250166_0']
+1,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['70255949_1']
+1,"no viable alternative at input 'mapping(uint,'",['70269167_0']
+1,"extraneous input 'memory' expecting {'{', 'returns', ';', NL}",['70290173_0']
+1,"mismatched input 'added' expecting {'=', ';', NL}",['70295695_0']
+1,"mismatched input 'looks' expecting {'=', ';', NL}",['70295695_0']
+1,"mismatched input 'on' expecting {'=', ';', NL}",['70295695_0']
+1,"extraneous input 'IDE' expecting {'=', ';', NL}",['70295695_0']
+1,"mismatched input 'chainrunners' expecting {'=', ';', NL}",['70310087_0']
+1,"mismatched input 'hardhat' expecting {';', NL}",['70310087_0']
+1,no viable alternative at input 'quantity:',['70322339_0']
+1,"extraneous input 'AllProducts' expecting {'(', NL}",['70322339_0']
+1,"missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at ')'",['70322339_0']
+1,"mismatched input 'than' expecting {'=', ';', NL}",['70327285_0']
+1,"mismatched input 'eth' expecting {';', NL}",['70327285_0']
+1,"extraneous input 'createCollectible' expecting {'(', NL}",['70387515_0']
+1,"extraneous input 'userProvidedSeed' expecting {',', ')'}",['70387515_0']
+1,extraneous input 'tokenURI' expecting ')',['70387515_0']
+1,"extraneous input 'fulfillRandomness' expecting {'(', NL}",['70387515_0']
+1,"extraneous input 'requestID' expecting {',', ')'}",['70387515_0']
+1,extraneous input 'randomNumber' expecting ')',['70387515_0']
+1,"mismatched input 'override' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['70387515_0']
+1,mismatched input 'function' expecting ')',['70399988_1']
+1,"extraneous input '(' expecting {'=', ';', NL}",['70399988_1']
+1,"extraneous input 'getSum' expecting {'(', NL}",['70400649_0']
+1,"extraneous input 'num1' expecting {',', ')'}",['70400649_0']
+1,extraneous input 'num2' expecting ')',['70400649_0']
+1,"extraneous input 'getDifference' expecting {'(', NL}",['70400649_0']
+1,"extraneous input 'getProduct' expecting {'(', NL}",['70400649_0']
+1,"mismatched input '*' expecting {'=', ';', NL}",['70400649_0']
+1,"extraneous input 'getQuotient' expecting {'(', NL}",['70400649_0']
+1,"extraneous input 'getMod' expecting {'(', NL}",['70400649_0']
+1,"mismatched input '\n' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['70432715_0']
+1,"extraneous input '^' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['70452558_0']
+1,no viable alternative at input 'T74SG6U:',['70452624_0']
+1,"mismatched input 'demo' expecting {'=', ';', NL}",['70459922_0']
+1,"extraneous input 'compile' expecting {';', NL}",['70459922_0']
+1,no viable alternative at input 'Rating[]memory',['70491382_0']
+1,"extraneous input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['70491382_1']
+1,"mismatched input 'practice' expecting {';', NL}",['70514336_1']
+1,"mismatched input 'Traceback' expecting {';', NL}",['70514336_1']
+1,"mismatched input 'beforeEach' expecting {';', NL}",['70527000_2']
+1,"mismatched input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['70549218_0']
+1,"extraneous input 'myVar' expecting {'=', ';', NL}",['70576453_2']
+1,"extraneous input 'buy' expecting {'(', NL}",['70585228_0']
+1,"extraneous input 'investor' expecting {',', ')'}",['70585228_0']
+1,extraneous input 'usd_invested' expecting ')',['70585228_0']
+1,"mismatched input '**' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['70585228_0']
+1,no viable alternative at input 'the1',['70589555_1']
+1,"mismatched input 'Brownie_Simple_Storage' expecting {';', NL}",['70603320_1']
+1,"mismatched input 'Brownie' expecting {';', NL}",['70603320_1']
+1,"mismatched input '.17' expecting {'=', ';', NL}",['70603320_1']
+1,"mismatched input 'you' expecting {'=', ';', NL}",['70603320_2']
+1,"mismatched input 'encrypted' expecting {'=', ';', NL}",['70603320_2']
+1,"extraneous input 'avax' expecting {';', NL}",['70644053_0']
+1,"extraneous input 'transferFrom' expecting {'(', NL}",['70666107_0']
+1,"extraneous input 'from' expecting {',', ')'}",['70666107_0']
+1,missing ')' at 'to',['70666107_0']
+1,no viable alternative at input '({',['70681263_0']
+1,no viable alternative at input 'SafeMathfor',['70696685_0']
+1,"mismatched input 'Gas' expecting {';', NL}",['70704418_2']
+1,"mismatched input 'Nonce' expecting {';', NL}",['70704418_2']
+1,"mismatched input 'dapp_token' expecting {'=', ';', NL}",['70706328_1']
+1,"mismatched input 'few' expecting {';', NL}",['70729665_4']
+1,"mismatched input '--' expecting {'=', ';', NL}",['70729665_4']
+1,"extraneous input '->' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['70729665_4']
+1,"mismatched input ':' expecting {',', ']'}",['70729665_4']
+1,"mismatched input 'FA68BBB0' expecting {';', NL}",['70729665_4']
+1,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['70731710_0']
+1,"extraneous input 'oio09d99f140aa39d43ffa58a6af6d5e90bdbf4' expecting {';', NL}",['70742940_0']
+1,"mismatched input 'IUniswapV2Router02' expecting {';', NL}",['70755278_0']
+1,"mismatched input '5' expecting {';', NL}",['70755278_0']
+1,"mismatched input 'address' expecting {';', NL}",['70755278_0']
+1,"no viable alternative at input 'revert(""Index in not exist"")l'",['70762150_1']
+1,"extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['70776159_0']
+1,"extraneous input 'is' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['70776159_0']
+1,"mismatched input 'bad' expecting {';', NL}",['70776159_0']
+1,"mismatched input 'or' expecting {'=', ';', NL}",['70776159_0']
+1,"mismatched input '>=' expecting {'=', ';', NL}",['70804128_0']
+1,"mismatched input 'The' expecting {'=', ';', NL}",['70808477_0']
+1,"extraneous input '*' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['70808477_0']
+1,no viable alternative at input '(uint256index',['70822707_1']
+1,"extraneous input 'is' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['70833677_0']
+1,mismatched input 'avayable' expecting ')',['70833677_0']
+1,mismatched input 'much' expecting ')',['70833677_0']
+1,"mismatched input 'location' expecting {'=', ';', NL}",['70833745_0']
+1,"extraneous input 'getCurrentPrice' expecting {'(', NL}",['70846917_0']
+1,"mismatched input 'expression' expecting {'=', ';', NL}",['70856735_1']
+1,no viable alternative at input 'Listing[]storage',['70860448_1']
+1,"mismatched input 'properties' expecting {'=', ';', NL}",['70869079_1']
+1,"extraneous input 'memory' expecting {'~', 'from', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['70873800_0']
+1,"extraneous input 'memory' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['70873800_0']
+1,"mismatched input 'local' expecting {'=', ';', NL}",['70876767_3']
+1,"mismatched input 'client' expecting {'=', ';', NL}",['70876767_3']
+1,"mismatched input 'at' expecting {'=', ';', NL}",['70876767_3']
+1,"mismatched input 'run' expecting {'=', ';', NL}",['70876767_4']
+1,"mismatched input 'INFO' expecting {';', NL}",['70876767_4']
+1,"extraneous input 'tc' expecting {';', NL}",['70886680_2']
+1,"mismatched input '_deploy_contracts' expecting {';', NL}",['70899674_2']
+1,no viable alternative at input 'Replacing'Election'',['70899674_2']
+1,"mismatched input 'send' expecting {';', NL}",['70920485_0']
+1,no viable alternative at input 'call:',['70937447_3']
+1,"mismatched input 'crypto' expecting {'=', ';', NL}",['70952409_0']
+1,"mismatched input 'brow2' expecting {'=', ';', NL}",['70952409_0']
+1,no viable alternative at input 'dependencies:',['70952409_2']
+1,missing '}' at '--',['70970426_1']
+1,"extraneous input 'event' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['70970426_1']
+1,no viable alternative at input 'Test.sol:',['70974677_0']
+1,extraneous input 'public' expecting '(',['70998818_1']
+1,"mismatched input 'in' expecting {'{', 'returns', ';', NL}",['70998818_1']
+1,no viable alternative at input 'MyContract.sol:',['71001299_1']
+1,no viable alternative at input 'ipfs:',['71001846_0']
+1,"no viable alternative at input 'IMPORT""@openzeppelin/contracts/tokens/ERC20/IERC20.sol""'",['71008295_1']
+1,no viable alternative at input 'Chainlink.Requestmemory',['71026604_0']
+1,"mismatched input 'herepragma' expecting {'=', ';', NL}",['71035262_1']
+1,"mismatched input '^' expecting {'=', ';', NL}",['71035262_1']
+1,"mismatched input 'chainlink' expecting {'=', ';', NL}",['71035790_0']
+1,"extraneous input 'install' expecting {';', NL}",['71035790_0']
+1,"mismatched input '0.8.6' expecting {';', NL}",['71035790_0']
+1,"mismatched input 'fully' expecting {'=', ';', NL}",['71035790_0']
+1,"mismatched input 'yet' expecting {'=', ';', NL}",['71035790_0']
+1,"mismatched input 'still' expecting {'=', ';', NL}",['71035790_0']
+1,"mismatched input 'Hardhat' expecting {'=', ';', NL}",['71035790_0']
+1,"extraneous input 'public' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['71146288_0']
+1,no viable alternative at input 'Running'scripts/deploy.py::main'',['71153976_0']
+1,no viable alternative at input 'bepure',['71179331_1']
+1,"mismatched input 'standard' expecting {'=', ';', NL}",['71179331_1']
+1,"mismatched input 'we' expecting {'=', ';', NL}",['71179331_1']
+1,"mismatched input 'returning' expecting {'=', ';', NL}",['71179331_1']
+1,"mismatched input 'solc' expecting {'=', ';', NL}",['71181866_2']
+1,"mismatched input 'available' expecting {'=', ';', NL}",['71181866_2']
+1,"mismatched input 'ERC20' expecting {'contract', 'interface', 'library', NL}",['71207911_0']
+1,"mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['71214540_0']
+1,"extraneous input 'null' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['71245575_3']
+1,"extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71245575_3']
+1,"mismatched input 'MyContract' expecting {';', NL}",['71245575_3']
+1,"mismatched input '_contract' expecting {';', NL}",['71245575_3']
+1,"extraneous input 'storage' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71255699_0']
+1,no viable alternative at input 'Thefallback',['71255699_2']
+1,no viable alternative at input '(uintidx',['71263095_0']
+1,"mismatched input 'using' expecting {'=', ';', NL}",['71275333_2']
+1,no viable alternative at input 'solc:',['71275333_2']
+1,"mismatched input '<' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}",['71292140_0']
+1,"mismatched input 'revert' expecting {';', NL}",['71325598_0']
+1,"mismatched input 'do' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71325598_1']
+1,no viable alternative at input 'TransactionDatamemory',['71327850_0']
+1,"mismatched input '>>' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71330577_1']
+1,"extraneous input 'method' expecting {'=', ';', NL}",['71343732_1']
+1,"mismatched input 'MetaMask' expecting {';', NL}",['71343732_1']
+1,"extraneous input 'Account' expecting {'=', ';', NL}",['71343732_1']
+1,"mismatched input 'contract' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['71343732_1']
+1,"mismatched input 'print' expecting {';', NL}",['71343732_1']
+1,"extraneous input 'Modification' expecting {';', NL}",['71343732_1']
+1,"mismatched input 'Profit' expecting {';', NL}",['71354756_1']
+1,"mismatched input 'MacBook' expecting {';', NL}",['71363334_0']
+1,no viable alternative at input 'Pro:',['71363334_0']
+1,"mismatched input '+' expecting {'=', ';', NL}",['71371357_0']
+1,"extraneous input '<=' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['71376410_0']
+1,"mismatched input 'contract' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['71398729_0']
+1,"no viable alternative at input 'aIn,'",['71398729_0']
+1,"extraneous input '**' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['71432001_0']
+1,"extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71432001_0']
+1,"extraneous input '4' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['71437052_0']
+1,"extraneous input 'final' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71449944_0']
+1,"mismatched input 'ethereum' expecting {';', NL}",['71449944_0']
+1,"mismatched input 'exampleExternalContract' expecting {';', NL}",['71450598_1']
+1,"mismatched input 'YourneyToken' expecting {';', NL}",['71471252_0']
+1,"mismatched input 'yourneyToken' expecting {';', NL}",['71471252_0']
+1,"mismatched input 'let' expecting {';', NL}",['71471252_0']
+1,no viable alternative at input 'Lottery.sol:',['71478488_0']
+1,no viable alternative at input 'asyncfunction',['71494389_0']
+1,no viable alternative at input 'participants:',['71518895_0']
+1,no viable alternative at input 'amountRequired:',['71518895_0']
+1,no viable alternative at input 'createdTime:',['71518895_0']
+1,"mismatched input 'thanks' expecting {';', NL}",['71520309_0']
+1,"mismatched input 'T03' expecting {';', NL}",['71535229_0']
+1,"mismatched input 'not' expecting {';', NL}",['71548214_1']
+1,"extraneous input 'transfer' expecting {'(', NL}",['71553028_0']
+1,"extraneous input '_to' expecting {',', ')'}",['71553028_0']
+1,extraneous input '_value' expecting ')',['71553028_0']
+1,"mismatched input 'returns' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}",['71553028_0']
+1,no viable alternative at input 'correct\n}',['71553813_0']
+1,"extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', 'override', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'constant', 'leave', 'external', 'internal', 'payable', 'private', 'public', 'virtual', 'pure', 'type', 'view', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71558241_2']
+1,"extraneous input 'event' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}",['71564754_0']
+1,"mismatched input '.' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['71564754_0']
+1,"mismatched input 'xxxxxxxxxxxxxxxxxxxxxxxxxxx' expecting {';', NL}",['71576780_0']
+1,"mismatched input 'image' expecting {',', ']'}",['71583652_1']
+1,"mismatched input ']' expecting {'=', ';', NL}",['71583652_1']
+1,"mismatched input 'market' expecting {'=', ';', NL}",['71597113_0']
+1,no viable alternative at input 'Whyis',['71603856_2']
+1,no viable alternative at input 'exportdefault',['71605119_0']
+1,no viable alternative at input 'hashData:=',['71628337_0']
+1,"extraneous input '{' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['71646570_1']
+1,"mismatched input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['71646570_1']
+1,"mismatched input 'Routes' expecting {';', NL}",['71646915_1']
+1,"mismatched input 't' expecting {'=', ';', NL}",['71676541_0']
+1,no viable alternative at input 'mapping(string->',['71684130_2']
+1,"extraneous input 'calculatePoint' expecting {'(', NL}",['71716481_0']
+1,no viable alternative at input 'Productstorage',['71716961_0']
+1,no viable alternative at input 'kittiesmemory',['71727926_1']
+1,"mismatched input 'Blockchain' expecting {'=', ';', NL}",['71746449_0']
+1,"mismatched input 'def' expecting {';', NL}",['71767046_2']
+1,"extraneous input 'withdrawAmount' expecting {'(', NL}",['71815148_0']
+1,"extraneous input 'amount' expecting {',', ')'}",['71815148_0']
+1,"mismatched input 'payable' expecting {'=', ';', NL}",['71815148_0']
+1,no viable alternative at input 'Running'scripts/test_loop.py::main'',['71819186_4']
+1,"mismatched input '**' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['71820678_0']
+1,"mismatched input 'Here' expecting {';', NL}",['71820678_0']
+1,"mismatched input 'is' expecting {',', ')'}",['71821179_0']
+1,"mismatched input ')' expecting {'{', 'returns', ';', NL}",['71821179_0']
+1,"mismatched input '_wallet_contracts' expecting {';', NL}",['71829431_0']
+1,no viable alternative at input 'Deploying'Wallet'',['71829431_0']
+1,"extraneous input 'concept' expecting {'=', ';', NL}",['71831000_0']
+1,no viable alternative at input '(10x',['71846672_0']
+1,no viable alternative at input 'Pos:',['71846672_1']
+1,"extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', ',', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['71854087_0']
+1,no viable alternative at input 'Transaction:',['71869681_1']
+1,"mismatched input 'paymentToken' expecting {';', NL}",['71887614_1']
+1,"mismatched input 'in' expecting {'=', ';', NL}",['71902018_0']
+1,"extraneous input 'in' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['71946498_3']
+1,no viable alternative at input 'callcontract',['71946498_3']
+1,"extraneous input 'x01' expecting {';', NL}",['71956024_0']
+1,"extraneous input 'x1' expecting {';', NL}",['71956024_0']
+1,"mismatched input 'found' expecting {'=', ';', NL}",['71966613_0']
+1,no viable alternative at input 'varAge}',['72009655_0']
+1,no viable alternative at input 'stringstring',['72020059_1']
+1,"extraneous input '=' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'using', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', 'override', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'constant', 'leave', 'external', 'internal', 'payable', 'private', 'public', 'virtual', 'pure', 'type', 'view', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}",['72033880_1']
+1,"mismatched input 'new' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['72084829_0']
+1,"mismatched input '(' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['72084829_0']
+1,"mismatched input 'From' expecting {'=', ';', NL}",['72093394_2']
+1,"mismatched input 'pub' expecting {';', NL}",['72112502_0']
+1,"mismatched input 'internal' expecting {';', NL}",['72193697_1']
+1,"extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['72214005_0']
+1,"extraneous input 'constructor' expecting {'(', NL}",['72222191_1']
+1,"extraneous input ')' expecting {'from', 'error', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['72222191_1']
+1,mismatched input '(' expecting '=>',['72222191_1']
+1,"mismatched input 'ERC20Permit' expecting {';', NL}",['72222191_1']
+1,"extraneous input '**' expecting {'from', '}', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier}",['72224409_0']
+1,"extraneous input '**' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['72224409_0']
+1,no viable alternative at input 'uint256[][1]memory',['72233438_3']
+1,"no viable alternative at input 'paths,'",['72242118_0']
+1,"mismatched input '>' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['72242118_0']
+1,"mismatched input 'contract' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['72253221_0']
+1,"extraneous input 'for' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}",['72253221_0']
+1,"mismatched input '_' expecting {'{', 'is'}",['72253221_0']
+1,"mismatched input '.' expecting {'{', ','}",['72256781_2']
+1,"mismatched input '\n' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}",['72323440_1']
+1,"extraneous input 'minutes' expecting {';', NL}",['72323440_2']
+1,"mismatched input ',' expecting ')'",['72323440_2']
+1,no viable alternative at input 'mapping(address=>uintbalance',['72338726_0']
+1,no viable alternative at input 'name\nreturn',['72339724_0']
+1,mismatched input '(' expecting ')',['72369941_0']
+1,no viable alternative at input 'NFTCardAttributesmemory',['72369941_0']
+1,"mismatched input '20' expecting {'=', ';', NL}",['72384029_0']
+1,"mismatched input 'can' expecting {';', NL}",['72384029_0']
+1,"extraneous input 'on' expecting {'=', ';', NL}",['72384029_0']
+1,no viable alternative at input '(expression~',['72413453_2']
+1,"mismatched input '~' expecting {';', NL}",['72413453_2']
+1,no viable alternative at input 'RBrack)',['72413453_2']
+1,"extraneous input '|' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}",['72413453_2']
+1,"extraneous input '^' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}",['72413453_2']
+1,"mismatched input '|' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}",['72413453_2']
+1,"mismatched input 'expression' expecting {';', NL}",['72413453_2']
+1,"mismatched input 'Campaign' expecting {';', NL}",['72421775_1']

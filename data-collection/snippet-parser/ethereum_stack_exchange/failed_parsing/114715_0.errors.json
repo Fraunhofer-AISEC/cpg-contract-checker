@@ -1,0 +1,17 @@
+{
+    "extraneous input '}' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 32: extraneous input '}' expecting {';', NL}\n"
+    ],
+    "extraneous input 'doSomething' expecting {'(', NL}": [
+        "ERROR: when parsing line 5 column 13: extraneous input 'doSomething' expecting {'(', NL}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 5 column 27: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 6 column 21: extraneous input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 29: mismatched input '(' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "mismatched input 'using' expecting '}'": [
+        "ERROR: when parsing line 5 column 60: mismatched input 'using' expecting '}'\n"
+    ],
+    "mismatched input '100' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 80: mismatched input '100' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'would' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 88: mismatched input 'would' expecting {';', NL}\n"
+    ],
+    "mismatched input 'transaction' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 99: mismatched input 'transaction' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 117: mismatched input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'if' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 126: mismatched input 'if' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'make' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 142: mismatched input 'make' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'possible' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 152: extraneous input 'possible' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 8 column 0: extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}

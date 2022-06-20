@@ -1,0 +1,6 @@
+function test() public pure returns (address) {
+  bytes memory publicKey = hex"3b88b538dff7db813b6c8be6bfce81f6dd9d820213fe9211e9f5a631c360c7ddbb26690ae40eac62e0b5aaf2d8a5c4287e3c383fc1c00916ce12e354e1eb12eb";
+  bytes32 hash = keccak256(publicKey);
+    
+  return address(uint160(uint256(hash)));
+}

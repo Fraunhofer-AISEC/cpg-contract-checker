@@ -1,0 +1,5 @@
+{
+    "mismatched input ':' expecting {'as', 'from'}": [
+        "ERROR: when parsing line 4 column 13: mismatched input ':' expecting {'as', 'from'}\n"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "extraneous input 'tokenFromReflection' expecting {'(', NL}": [
+        "ERROR: when parsing line 265 column 13: extraneous input 'tokenFromReflection' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'rAmount' expecting {',', ')'}": [
+        "ERROR: when parsing line 265 column 41: extraneous input 'rAmount' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 265 column 50: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {';', NL}": [
+        "ERROR: when parsing line 265 column 79: extraneous input '{' expecting {';', NL}\n"
+    ]
+}

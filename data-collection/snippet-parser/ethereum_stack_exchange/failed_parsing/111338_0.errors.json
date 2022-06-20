@@ -1,0 +1,9 @@
+{
+    "extraneous input 'operation' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 34 column 12: extraneous input 'operation' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 35 column 12: extraneous input 'operation' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input '(receivers);'": [
+        "ERROR: when parsing line 44 column 15: no viable alternative at input '(receivers);'\n"
+    ]
+}

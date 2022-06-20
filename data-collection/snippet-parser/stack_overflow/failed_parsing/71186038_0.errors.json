@@ -1,0 +1,5 @@
+{
+    "mismatched input 'public' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 7: mismatched input 'public' expecting {';', NL}\n"
+    ]
+}

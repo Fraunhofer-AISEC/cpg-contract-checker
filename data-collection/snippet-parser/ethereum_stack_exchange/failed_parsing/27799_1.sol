@@ -1,0 +1,3 @@
+uint public number;
+...
+number = _number;

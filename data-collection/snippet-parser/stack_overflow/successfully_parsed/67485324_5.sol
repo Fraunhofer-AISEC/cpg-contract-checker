@@ -1,0 +1,1 @@
+  function getOwner() override external view returns (address);

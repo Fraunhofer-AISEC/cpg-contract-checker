@@ -1,0 +1,26 @@
+{
+    "extraneous input 'for' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 1 column 0: extraneous input 'for' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "mismatched input 'node' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 19: mismatched input 'node' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'type' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 4: extraneous input 'type' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Optional' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 2: mismatched input 'Optional' expecting {';', NL}\n"
+    ],
+    "mismatched input 'Job' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 20: mismatched input 'Job' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 26: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'if' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 52: mismatched input 'if' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'decode_log' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 4: mismatched input 'decode_log' expecting {';', NL}\n"
+    ]
+}

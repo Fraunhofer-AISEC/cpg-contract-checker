@@ -1,0 +1,3 @@
+    function deposit()
+    external
+    payable { }

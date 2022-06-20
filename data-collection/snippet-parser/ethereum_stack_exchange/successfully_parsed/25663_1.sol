@@ -1,0 +1,3 @@
+function () payable crowdfundIsActive {
+    buyTokens();
+}

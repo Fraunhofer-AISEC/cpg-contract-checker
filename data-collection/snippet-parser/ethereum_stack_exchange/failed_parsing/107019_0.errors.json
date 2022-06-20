@@ -1,0 +1,29 @@
+{
+    "missing ')' at '_factory'": [
+        "ERROR: when parsing line 10 column 43: missing ')' at '_factory'\n"
+    ],
+    "mismatched input ',' expecting {'{', 'returns', ';', NL}": [
+        "ERROR: when parsing line 10 column 51: mismatched input ',' expecting {'{', 'returns', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 66: mismatched input ')' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 30 column 0: extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "mismatched input 'please' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 33 column 12: mismatched input 'please' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'so' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 33 column 24: mismatched input 'so' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'can' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 33 column 29: mismatched input 'can' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'the' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 33 column 44: mismatched input 'the' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'more' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 33 column 55: mismatched input 'more' expecting {'=', ';', NL}\n"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "mismatched input 'let' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 4: mismatched input 'let' expecting {';', NL}\n"
+    ],
+    "mismatched input 'my_specific_cont' expecting {';', NL}": [
+        "ERROR: when parsing line 19 column 21: mismatched input 'my_specific_cont' expecting {';', NL}\n"
+    ],
+    "extraneous input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 19 column 57: extraneous input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 20 column 9: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 21 column 9: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 25 column 9: extraneous input ',' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'deadline,'": [
+        "ERROR: when parsing line 26 column 16: no viable alternative at input 'deadline,'\n"
+    ]
+}

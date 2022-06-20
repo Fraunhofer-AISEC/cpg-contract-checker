@@ -1,0 +1,8 @@
+{
+    "no viable alternative at input 'import('": [
+        "ERROR: when parsing line 3 column 7: no viable alternative at input 'import('\n"
+    ],
+    "mismatched input 'map' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 16 column 10: mismatched input 'map' expecting {'=', ';', NL}\n"
+    ]
+}

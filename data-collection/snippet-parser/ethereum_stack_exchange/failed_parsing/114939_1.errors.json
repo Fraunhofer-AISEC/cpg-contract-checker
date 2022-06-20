@@ -1,0 +1,8 @@
+{
+    "extraneous input ';' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 3 column 15: extraneous input ';' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 14: mismatched input '(' expecting {'=', ';', NL}\n"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 53: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 19 column 53: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 13 column 59: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n",
+        "ERROR: when parsing line 19 column 59: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input 'f' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 62: mismatched input 'f' expecting {';', NL}\n",
+        "ERROR: when parsing line 19 column 62: mismatched input 'f' expecting {';', NL}\n"
+    ]
+}
