@@ -8,6 +8,7 @@ import de.fraunhofer.aisec.cpg.checks.KillCheck
 import de.fraunhofer.aisec.cpg.checks.ReentrancyCheck
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
+import de.fraunhofer.aisec.cpg.frontends.solidity.passes.AdditionalNodesPass
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
@@ -107,6 +108,7 @@ class App : Callable<Int> {
                     SolidityLanguageFrontend.SOLIDITY_EXTENSIONS
                 )
                 .registerPass(EOGExtensionPass())
+                .registerPass(AdditionalNodesPass())
                 .debugParser(true)
                 .processAnnotations(true)
                 .build()
@@ -136,7 +138,7 @@ class App : Callable<Int> {
                 .build()
 
         val sessionFactory =
-            SessionFactory(configuration, "de.fraunhofer.aisec.cpg.graph", "de.fraunhofer.aisec.cpg.frontends.solidity")
+            SessionFactory(configuration, "de.fraunhofer.aisec.cpg.graph", "de.fraunhofer.aisec.cpg.frontends.solidity", "de.fraunhofer.aisec.cpg.frontends.solidity.nodes")
         val session = sessionFactory.openSession()
 
         session.beginTransaction().use { transaction ->

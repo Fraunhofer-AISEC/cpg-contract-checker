@@ -5,7 +5,10 @@ import SolidityParser
 import de.fraunhofer.aisec.cpg.TranslationConfiguration
 import de.fraunhofer.aisec.cpg.frontends.LanguageFrontend
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.ModifierDefinition
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Pragma
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Rollback
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Version
+import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.graph.TypeManager
 import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
@@ -23,6 +26,8 @@ import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileInputStream
 import java.util.*
+import kotlin.collections.ArrayList
+
 
 class SolidityLanguageFrontend(
     config: @NonNull TranslationConfiguration,
@@ -30,6 +35,8 @@ class SolidityLanguageFrontend(
 ) : LanguageFrontend(config, scopeManager, ".") {
 
     private val logger = LoggerFactory.getLogger(SolidityLanguageFrontend.javaClass)
+
+    public val additionalNodes = mutableListOf<Node>()
 
     val statementHandler = StatementHandler(this)
     val expressionHandler = ExpressionHandler(this)
@@ -72,6 +79,11 @@ class SolidityLanguageFrontend(
 
         this.scopeManager.lang = this
 
+        unit.pragmaDirective()?.let {
+            val pragma = handlePragmas(it)
+            additionalNodes.add(pragma)
+        }
+
         for(contract in unit.contractDefinition()) {
             var decl = this.declarationHandler.handle(contract)
 
@@ -96,6 +108,93 @@ class SolidityLanguageFrontend(
         }
 
         return tu
+    }
+
+    fun handlePragmas(pragmas: List<SolidityParser.PragmaDirectiveContext>): Pragma{
+        var solPragmas = pragmas.filter { it.pragmaName().text.lowercase().equals("solidity") }
+        var versionConstraints: List<SolidityParser.VersionConstraintContext> =
+            solPragmas.flatMap  { it.pragmaValue().version().versionConstraint() }
+        var reducedConstraints: MutableList<Version> = versionConstraints.flatMap {
+            // Todo replace constraints with ^ and ~ with the respective lower and upper bounds
+            val versionConCPG: MutableList<Version> = mutableListOf()
+            val versionLiteral = (it.VersionLiteral()?.text?: it.DecimalNumber()?.text)!!.split(".")
+            val operator = it.versionOperator()?.text?: "="
+            operator.let {
+                if(it.equals("^")){
+                    val upperVersion = ArrayList(versionLiteral)
+                    val converted: MutableList<Int> = upperVersion.map { toVersionNumber(it) }.toMutableList() // Convert to numbers
+                    converted.addAll(MutableList(3 - versionLiteral.size) { 0 }) // Padding to have exactly 3 version entries
+                    var incremented= false
+                    for(i in 0..2){
+                        if(!incremented && converted[i] != 0){
+                            converted[i] = converted[i]+1
+                            incremented = true
+                        }else if(incremented){
+                            converted[i] = 0
+                        }
+
+                    }
+                    versionConCPG.add(Version("<", converted[0], converted[1], converted[2]))
+                    versionConCPG.add(toLowerBoundVersion(versionLiteral))
+                }else if(it.equals("~")){
+                    val upperVersion = ArrayList(versionLiteral)
+                    val converted: MutableList<Int> = upperVersion.map { toVersionNumber(it) }.toMutableList() // Convert to numbers
+
+                    val upperV = if(converted.size == 1)
+                        Version("<", converted[0]+1, 0, 0)
+                    else if(converted.size > 1)
+                        Version("<", converted[0], converted[1] + 1,0)
+                    else
+                        Version("<=",0,0,0)
+
+                    versionConCPG.add(upperV)
+                    versionConCPG.add(toLowerBoundVersion(versionLiteral))
+                }else if(it.equals("=")){
+                    val upperVersion = ArrayList(versionLiteral)
+                    val converted: MutableList<Int> = upperVersion.map { toVersionNumber(it) }.toMutableList()
+                    converted.addAll(MutableList(3 - versionLiteral.size) { 0 })
+                    versionConCPG.add(Version("<=", converted[0], converted[1], converted[2]))
+                    versionConCPG.add(Version(">=", converted[0], converted[1], converted[2]))
+                }else{
+                    val upperVersion = ArrayList(versionLiteral)
+                    val converted: MutableList<Int> = upperVersion.map { toVersionNumber(it) }.toMutableList()
+                    converted.addAll(MutableList(3 - versionLiteral.size) { 0 })
+                    versionConCPG.add(Version(it, converted[0], converted[1], converted[2]))
+                }
+            }
+            versionConCPG
+        }.toMutableList()
+        val upperBounds = reducedConstraints.filter { it.operator.equals("<=") || it.operator.equals("<") }.sorted()
+        val lowerBounds = reducedConstraints.filter { it.operator.equals(">=") || it.operator.equals(">") }.sorted()
+        val pragma = Pragma()
+        if(upperBounds.isNotEmpty()){
+            pragma.maximal = upperBounds.first()
+        }
+
+        if(lowerBounds.isNotEmpty()){
+            pragma.minimal = upperBounds.last()
+        }
+        return pragma
+    }
+
+
+    fun toLowerBoundVersion(literal: List<String>): Version{
+        val major = if(literal.size > 0) toVersionNumber(literal[0]) else 0
+        val minor = if(literal.size > 1) toVersionNumber(literal[1]) else 0
+        val patch = if(literal.size > 2) toVersionNumber(literal[2]) else 0
+        return Version(">=",major, minor, patch)
+    }
+
+    fun toVersionNumber(versionString: String): Int {
+        try {
+            return versionString.toInt()
+        } catch (e: NumberFormatException) {
+            return 0
+        }
+    }
+
+    fun toCPGSolidityVersion(versionConstraint: SolidityParser.VersionConstraintContext): Version{
+        return Version("=", 0, 0, 0)
     }
 
     override fun <T : Any?> getCodeFromRawNode(astNode: T): String? {

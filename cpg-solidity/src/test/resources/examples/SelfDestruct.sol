@@ -1,4 +1,4 @@
-pragma solidity >0.6.0;
+pragma solidity >0.6.0 >=0.6.0 >0.5 <0.7.1 <=0.7.2;
 contract Storage {
  address payable private owner;
  uint256 number;
