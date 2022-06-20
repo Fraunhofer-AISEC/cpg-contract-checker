@@ -2,20 +2,22 @@
 // Copyright 2016-2019 Federico Bond <federicobond@gmail.com>
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 
-grammar Solidity;
+grammar FuzzySolidity;
 
 sourceUnit
   : NL*
-    ((
+    (
     pragmaDirective
     | importDirective
     | contractDefinition
     | enumDefinition
     | structDefinition
-    | contractPart
+    | functionDefinition
     | fileLevelConstant
     | customErrorDefinition
-    )* | block | statement*) EOF ;
+    | expressionStatement
+    | stateVariableDeclaration
+    )* EOF ;
 
 pragmaDirective
   : 'pragma' NL* pragmaName pragmaValue eos ;

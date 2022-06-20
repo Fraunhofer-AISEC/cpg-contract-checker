@@ -9,6 +9,9 @@ import de.fraunhofer.aisec.cpg.graph.declarations.NamespaceDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.RecordDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
 import de.fraunhofer.aisec.cpg.graph.edge.PropertyEdge
+import de.fraunhofer.aisec.cpg.graph.statements.Statement
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.MemberCallExpression
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
 import java.util.function.Consumer
@@ -23,15 +26,36 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
         map[EmitStatement::class.java] = CallableInterface(::handleEmitStatement)
         map[Revert::class.java] = CallableInterface(::handleRevert)
         map[Require::class.java] = CallableInterface(::handleRequire)
+        map[SpecifiedExpression::class.java] = CallableInterface(::handleSpecifiedExpression)
+        map[CallExpression::class.java] = CallableInterface(::handleCallExpression)
     }
 
     override fun accept(result: TranslationResult) {
         tr = result
         for (tu in result.translationUnits) {
             createEOG(tu)
-            overriddenRemoveUnreachableEOGEdges(tu!!)
+            // overriddenRemoveUnreachableEOGEdges(tu!!) // Should not be necessary as we have no indirect jumps over gotos
             // checkEOGInvariant(tu); To insert when trying to check if the invariant holds
         }
+    }
+
+    /**
+     * We explicitly need to add the base to the eog in all cases as we have calls with call expressions that are more
+     * complex then simple bases
+     */
+    fun handleCallExpression(node: Node) {
+        val callExpression = node as CallExpression
+
+        if (callExpression.base != null) {
+            createEOG(callExpression.base)
+        }
+
+        // first the arguments
+        for (arg in callExpression.arguments) {
+            createEOG(arg)
+        }
+        // then the call itself
+        pushToEOG(callExpression)
     }
 
     fun overriddenRemoveUnreachableEOGEdges(tu: TranslationUnitDeclaration) {
@@ -80,6 +104,14 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
         val emitStatement: EmitStatement = node as EmitStatement
 
         createEOG(emitStatement.emits)
+        pushToEOG(node)
+    }
+
+    private fun handleSpecifiedExpression(node: Node) {
+        val specifiedExpression: SpecifiedExpression = node as SpecifiedExpression
+
+        createEOG(specifiedExpression.expression)
+        createEOG(specifiedExpression.specifiers)
         pushToEOG(node)
     }
 

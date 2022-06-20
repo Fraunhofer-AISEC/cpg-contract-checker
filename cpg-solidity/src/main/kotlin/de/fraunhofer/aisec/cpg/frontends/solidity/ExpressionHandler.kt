@@ -10,11 +10,14 @@ import de.fraunhofer.aisec.cpg.graph.statements.expressions.*
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
 import org.antlr.v4.runtime.ParserRuleContext
+import org.antlr.v4.runtime.tree.ParseTree
 import org.antlr.v4.runtime.tree.TerminalNode
 import org.slf4j.LoggerFactory
 
 class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, ParserRuleContext, SolidityLanguageFrontend>(
     ::Expression, lang) {
+
+    private var replacingReferenceWithExpression: Boolean = false
 
     private val logger = LoggerFactory.getLogger(ExpressionHandler::class.java)
 
@@ -47,7 +50,8 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
         }
 
         // check for an operator
-        val op = ctx.getChild(TerminalNode::class.java, 0)
+        val terminalNodes:List<ParseTree> = ctx.children.filter { it is TerminalNode }
+        val op = terminalNodes.get(0)
 
         // member access
         if(op != null && op.text == ".") {
@@ -57,6 +61,25 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
             val member = NodeBuilder.newMemberExpression(base, UnknownType.getUnknownType(), name, op.text, this.lang.getCodeFromRawNode(ctx))
 
             return member
+        }
+
+        if(terminalNodes.size == 2 && "[".equals(terminalNodes[0].text) && "]".equals(terminalNodes[1].text)){
+            val arraySub = NodeBuilder.newArraySubscriptionExpression(lang.getCodeFromRawNode(ctx))
+            arraySub.arrayExpression = this.handle(expressions[0])
+            arraySub.subscriptExpression = this.handle(expressions[1])
+
+            return arraySub
+        }
+
+        if(terminalNodes.size == 2 && "?".equals(terminalNodes[0].text) && ":".equals(terminalNodes[1].text)){
+            return NodeBuilder.newConditionalExpression(
+                this.handle(expressions[0]), this.handle(expressions[1]), this.handle(expressions[2]),
+                TypeParser.createFrom(TypeParser.UNKNOWN_TYPE_STRING,false));
+        }
+
+        if(terminalNodes.size == 3 && "[".equals(terminalNodes[0].text)  && ":".equals(terminalNodes[1].text) && "]".equals(terminalNodes[2])){
+            return NodeBuilder.newArrayRangeExpression(
+                this.handle(expressions[0]),this.handle(expressions[1]),lang.getCodeFromRawNode(ctx))
         }
 
         // either a function call or a construct expression
@@ -71,10 +94,11 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                     name = ref.name
                     fqn = name
                 }else if(ref is SpecifiedExpression){
-                    while(ref is SpecifiedExpression){
-                        ref = ref.expression
+                    var nameHolder = ref
+                    while(nameHolder is SpecifiedExpression){
+                        nameHolder = nameHolder.expression
                     }
-                    name = ref.name
+                    name = nameHolder.name
                     fqn = name
                 }
 
@@ -112,7 +136,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                     }
                 }
 
-
+                call.setBase(ref)
 
                 return call
             }
@@ -193,14 +217,39 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
     private fun handleIdentifier(ctx: SolidityParser.IdentifierContext) : Expression {
         val name = ctx.text
+        // replacing identifier to reference conversion by replacing them with the expression in the modifier invocation
+        // != null represents the case where the modifier is the actual base function
+        if(!replacingReferenceWithExpression && lang.currentIdentifierMapStack.isNotEmpty() && lang.currentIdentifierMapStack.peek() != null){
+            replacingReferenceWithExpression = true
+            val expression: SolidityParser.ExpressionContext? = getExpressionMatchingIdentifier(lang.currentIdentifierMapStack.peek(), name)
+
+            if(expression != null){
+                val cpgExpression = handle(expression)
+                replacingReferenceWithExpression = false
+                return cpgExpression
+            }
+            replacingReferenceWithExpression = false
+        }
+
         val ref = NodeBuilder.newDeclaredReferenceExpression(name,
             UnknownType.getUnknownType(),
             this.lang.getCodeFromRawNode(ctx))
         return ref
     }
 
+    private fun getExpressionMatchingIdentifier(map: MutableMap<String, SolidityParser.ExpressionContext>, name: String): SolidityParser.ExpressionContext?{
+        map?.let {
+            return map[name]
+        }
+        return null
+    }
+
     private fun handlePrimaryExpression(ctx: SolidityParser.PrimaryExpressionContext): Expression {
         ctx.identifier()?.let {
+            //if(it.text == "_" && lang.modifierStack.isNotEmpty()){
+            //    println("Found wildcard in modifier step")
+            //}else {
+            //}
             return handle(it)
         }
 

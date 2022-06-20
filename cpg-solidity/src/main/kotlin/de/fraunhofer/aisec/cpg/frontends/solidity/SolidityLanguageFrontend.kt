@@ -4,9 +4,11 @@ import SolidityLexer
 import SolidityParser
 import de.fraunhofer.aisec.cpg.TranslationConfiguration
 import de.fraunhofer.aisec.cpg.frontends.LanguageFrontend
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.ModifierDefinition
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Rollback
 import de.fraunhofer.aisec.cpg.graph.TypeManager
 import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
+import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
 import de.fraunhofer.aisec.cpg.passes.scopes.ScopeManager
 import de.fraunhofer.aisec.cpg.sarif.PhysicalLocation
@@ -20,6 +22,7 @@ import org.checkerframework.checker.nullness.qual.NonNull
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileInputStream
+import java.util.*
 
 class SolidityLanguageFrontend(
     config: @NonNull TranslationConfiguration,
@@ -34,6 +37,13 @@ class SolidityLanguageFrontend(
     val declarationHandler = DeclarationHandler(this)
     var currentFile: File? = null;
 
+    var modifierStack: Stack<ParserRuleContext> = Stack<ParserRuleContext>()
+
+    val functionsWithModifiers: MutableMap<SolidityParser.FunctionDefinitionContext, MethodDeclaration> = mutableMapOf()
+    val modifierMap: MutableMap<ModifierDefinition, SolidityParser.ModifierDefinitionContext> = mutableMapOf()
+    val modifierIdentifierMap: MutableMap<SolidityParser.ModifierDefinitionContext, MutableMap<String, SolidityParser.ExpressionContext>> = mutableMapOf()
+    var currentIdentifierMapStack: Stack<MutableMap<String, SolidityParser.ExpressionContext>> = Stack<MutableMap<String, SolidityParser.ExpressionContext>>()
+
     val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
 
     override fun parse(file: File): TranslationUnitDeclaration {
@@ -44,7 +54,7 @@ class SolidityLanguageFrontend(
         val parser = SolidityParser(stream)
         currentFile = file
 
-        val tu  = handleSourceUnit(parser.sourceUnit())
+        val tu  = handleSourceUnit(file.name, parser.sourceUnit())
         tu.name = file.name
         return tu
     }
@@ -53,7 +63,7 @@ class SolidityLanguageFrontend(
         @kotlin.jvm.JvmField var SOLIDITY_EXTENSIONS: List<String> = listOf(".sol")
     }
 
-    private fun handleSourceUnit(unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
+    private fun handleSourceUnit(filename: String, unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
         var tu = TranslationUnitDeclaration()
 
 
@@ -67,6 +77,22 @@ class SolidityLanguageFrontend(
 
             // add contract declaration to TU
             this.scopeManager.addDeclaration(decl)
+        }
+
+        if(unit.contractPart() != null || unit.block() != null || unit.statement() != null){
+
+            var decl = this.declarationHandler.handleMissingContractDefinition(filename,unit)
+
+            // add contract declaration to TU
+            this.scopeManager.addDeclaration(decl)
+        }
+
+
+
+        functionsWithModifiers.forEach { k, v ->
+            if(k.block() != null) {
+                declarationHandler.handleModifierExpansion(k, v)
+            }
         }
 
         return tu
