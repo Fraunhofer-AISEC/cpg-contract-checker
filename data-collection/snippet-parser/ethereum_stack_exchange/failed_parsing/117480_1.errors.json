@@ -1,0 +1,13 @@
+{
+    "mismatched input ':' expecting {'as', 'from'}": [
+        "ERROR: when parsing line 3 column 13: mismatched input ':' expecting {'as', 'from'}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 26: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 26: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input 'Address' expecting ')'": [
+        "ERROR: when parsing line 11 column 46: extraneous input 'Address' expecting ')'\n",
+        "ERROR: when parsing line 16 column 46: extraneous input 'Address' expecting ')'\n"
+    ]
+}

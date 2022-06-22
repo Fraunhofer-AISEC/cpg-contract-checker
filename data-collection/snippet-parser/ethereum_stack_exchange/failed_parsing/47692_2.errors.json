@@ -1,0 +1,6 @@
+{
+    "mismatched input '.' expecting {'{', 'returns', ';', NL}": [
+        "ERROR: when parsing line 12 column 19: mismatched input '.' expecting {'{', 'returns', ';', NL}\n",
+        "ERROR: when parsing line 14 column 18: mismatched input '.' expecting {'{', 'returns', ';', NL}\n"
+    ]
+}

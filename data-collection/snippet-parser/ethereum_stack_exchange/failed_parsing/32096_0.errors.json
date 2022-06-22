@@ -1,0 +1,11 @@
+{
+    "mismatched input 'assigns' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 9: mismatched input 'assigns' expecting {';', NL}\n"
+    ],
+    "mismatched input 'initial' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 21: mismatched input 'initial' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'for' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 35: mismatched input 'for' expecting {'=', ';', NL}\n"
+    ]
+}

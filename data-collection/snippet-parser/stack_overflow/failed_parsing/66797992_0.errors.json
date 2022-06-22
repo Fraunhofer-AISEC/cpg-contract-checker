@@ -1,0 +1,11 @@
+{
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 4: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'index' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 21: mismatched input 'index' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 0: mismatched input '(' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,2 @@
+bytes4 ipfs_cid_prefix = 0x01701220
+bytes32 ipfs_cid_hash = 0xd429550056530f9752a818e902f5803517f7260ed045ad7752bcc828faeea122

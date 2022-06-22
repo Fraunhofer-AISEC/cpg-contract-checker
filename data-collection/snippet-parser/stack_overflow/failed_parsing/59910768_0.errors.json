@@ -1,0 +1,14 @@
+{
+    "mismatched input 'download' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 15: mismatched input 'download' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'Downloading' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 2: extraneous input 'Downloading' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 3 column 0: extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "no viable alternative at input 'privatekey.cc:'": [
+        "ERROR: when parsing line 3 column 20: no viable alternative at input 'privatekey.cc:'\n"
+    ]
+}

@@ -1,0 +1,3 @@
+contract dog is animal {
+...
+}

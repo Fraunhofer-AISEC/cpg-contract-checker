@@ -1,0 +1,8 @@
+{
+    "mismatched input 'openzeppelin' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 15: mismatched input 'openzeppelin' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'ERC721.sol:'": [
+        "ERROR: when parsing line 1 column 61: no viable alternative at input 'ERC721.sol:'\n"
+    ]
+}

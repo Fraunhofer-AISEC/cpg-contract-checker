@@ -1,0 +1,3 @@
+ mapping (address => uint[]) foos;
+ ...
+ foos[msg.sender] = [];

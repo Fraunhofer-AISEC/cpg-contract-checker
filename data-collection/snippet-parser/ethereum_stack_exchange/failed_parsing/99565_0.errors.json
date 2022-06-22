@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constcontract'": [
+        "ERROR: when parsing line 4 column 6: no viable alternative at input 'constcontract'\n"
+    ]
+}

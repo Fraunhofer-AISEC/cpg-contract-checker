@@ -1,0 +1,1 @@
+bytes memory myVariable = "abcd";

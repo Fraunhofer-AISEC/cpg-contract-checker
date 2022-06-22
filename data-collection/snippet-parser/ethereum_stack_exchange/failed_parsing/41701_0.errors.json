@@ -1,0 +1,8 @@
+{
+    "extraneous input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 39: extraneous input ',' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'math:'": [
+        "ERROR: when parsing line 3 column 23: no viable alternative at input 'math:'\n"
+    ]
+}

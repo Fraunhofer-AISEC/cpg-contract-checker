@@ -1,0 +1,23 @@
+{
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 4: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Desktop' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 21: mismatched input 'Desktop' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'smart_contract' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 36: mismatched input 'smart_contract' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'hardhat' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 56: mismatched input 'hardhat' expecting {';', NL}\n"
+    ],
+    "mismatched input 'scripts' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 68: mismatched input 'scripts' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'network' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 88: mismatched input 'network' expecting {';', NL}\n"
+    ],
+    "mismatched input 'ReferenceError' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 0: mismatched input 'ReferenceError' expecting {'=', ';', NL}\n"
+    ]
+}

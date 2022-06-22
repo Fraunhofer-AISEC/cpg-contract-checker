@@ -1,0 +1,20 @@
+{
+    "extraneous input '*' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 1 column 3: extraneous input '*' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "mismatched input 'into' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 25: mismatched input 'into' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ''.sol'' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 34: mismatched input ''.sol'' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'file' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 41: mismatched input 'file' expecting {';', NL}\n"
+    ],
+    "mismatched input 'uses' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 51: mismatched input 'uses' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'instead' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 61: mismatched input 'instead' expecting {'=', ';', NL}\n"
+    ]
+}

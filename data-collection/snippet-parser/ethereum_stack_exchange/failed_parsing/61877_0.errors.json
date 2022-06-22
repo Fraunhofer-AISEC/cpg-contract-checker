@@ -1,0 +1,8 @@
+{
+    "extraneous input '1' expecting ')'": [
+        "ERROR: when parsing line 17 column 22: extraneous input '1' expecting ')'\n"
+    ],
+    "extraneous input '2' expecting ')'": [
+        "ERROR: when parsing line 20 column 29: extraneous input '2' expecting ')'\n"
+    ]
+}

@@ -1,0 +1,12 @@
+address public liquidityReceiver = ;
+address public treasuryReceiver = ; 
+address public riskFreeValueReceiver = ; 
+uint256 public liquidityFee = 5; 
+uint256 public treasuryFee = 2; 
+uint256 public burnFee = 1;
+uint256 public buyFeeRFV = 5;
+uint256 public sellFeeTreasuryAdded = 2; 
+uint256 public sellFeeRFVAdded = 3; 
+uint256 public totalBuyFee = liquidityFee.add(treasuryFee).add(buyFeeRFV).add(burnFee);
+uint256 public totalSellFee = totalBuyFee.add(sellFeeTreasuryAdded).add(sellFeeRFVAdded);
+uint256 public feeDenominator = 100;

@@ -1,0 +1,20 @@
+{
+    "mismatched input '-' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 12: mismatched input '-' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'from' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 19: mismatched input 'from' expecting {';', NL}\n"
+    ],
+    "extraneous input 'privateSales' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 32: extraneous input 'privateSales' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'account' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 18: mismatched input 'account' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '4' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 36: mismatched input '4' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'tokens' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 52: mismatched input 'tokens' expecting {';', NL}\n"
+    ]
+}

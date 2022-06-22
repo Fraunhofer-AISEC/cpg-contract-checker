@@ -1,0 +1,15 @@
+{
+    "mismatched input '20' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 43 column 20: mismatched input '20' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'can' expecting {';', NL}": [
+        "ERROR: when parsing line 43 column 36: mismatched input 'can' expecting {';', NL}\n"
+    ],
+    "mismatched input 'as' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 43 column 44: mismatched input 'as' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 43 column 58: mismatched input 'as' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'on' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 43 column 71: extraneous input 'on' expecting {'=', ';', NL}\n"
+    ]
+}
