@@ -139,8 +139,9 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                 call.setBase(ref)
 
                 return call
+            }else if(ref is CallExpression){
+                return ref
             }
-
 
             logger.warn("Expression {} could not be parsed.", ctx::class.java)
 
