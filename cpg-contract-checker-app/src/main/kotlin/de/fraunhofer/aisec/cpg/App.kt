@@ -4,7 +4,8 @@
 package de.fraunhofer.aisec.cpg;
 
 import de.fraunhofer.aisec.cpg.checks.Check
-import de.fraunhofer.aisec.cpg.checks.KillCheck
+import de.fraunhofer.aisec.cpg.checks.AccessControlSelfdestructCheck
+import de.fraunhofer.aisec.cpg.checks.CallReturnCheck
 import de.fraunhofer.aisec.cpg.checks.ReentrancyCheck
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
@@ -21,7 +22,6 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import picocli.CommandLine
 import java.io.File
-import java.net.ConnectException
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.util.concurrent.Callable
@@ -56,7 +56,7 @@ class App : Callable<Int> {
         registerChecks()
         findings["Empty translation"] = mutableListOf()
         var nr_checked_files = 0
-        val base = "/home/kweiss/solsnip/modgrammar"
+        val base = "/home/kweiss/smartbugs/dataset/unchecked_low_level_calls/"
         if(files.isEmpty()){
             files = getAllSolFiles(base)
             // files = listOf<Path>(Path.of(base + "/" + "66617876_2.sol"))
@@ -92,11 +92,7 @@ class App : Callable<Int> {
     }
 
     fun getGraph(filename: String) : TranslationResult{
-        val basePath = "/home/kweiss/solsnip"
-        val base = "base"
-        val modgrammar = "modgrammar"
-        var path = "cpg-solidity/src/test/resources/examples/Reentrancy.sol"
-        path = filename
+        var path = filename
         val config =
             TranslationConfiguration.builder()
                 .topLevel(File(path))
@@ -124,7 +120,8 @@ class App : Callable<Int> {
 
     fun registerChecks(){
         checks.add(ReentrancyCheck())
-        checks.add(KillCheck())
+        checks.add(AccessControlSelfdestructCheck())
+        checks.add(CallReturnCheck())
     }
 
     fun persistGraph(result: TranslationResult){

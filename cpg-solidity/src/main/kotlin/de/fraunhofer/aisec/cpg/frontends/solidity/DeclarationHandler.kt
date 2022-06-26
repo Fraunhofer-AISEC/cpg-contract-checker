@@ -376,7 +376,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
     }
 
     private fun handleStateVariableDeclaration(ctx: SolidityParser.StateVariableDeclarationContext): Declaration {
-        val name = ctx.identifier().Identifier().text
+        val name = ctx.identifier().Identifier()?.text?: ctx.identifier().text
         val type = this.lang.typeHandler.handle(ctx.typeName())
 
         var initializer: Expression? = null

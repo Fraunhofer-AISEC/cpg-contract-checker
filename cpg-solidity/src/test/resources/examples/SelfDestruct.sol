@@ -15,4 +15,9 @@ contract Storage {
  function close() public {
   selfdestruct(owner);
  }
+
+  function protectedClose() public {
+   require(msg.sender == owner);
+   selfdestruct(owner);
+  }
 }

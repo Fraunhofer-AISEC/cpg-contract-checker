@@ -167,6 +167,8 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
             val unary = NodeBuilder.newUnaryOperator(op.text, postfix, prefix, this.lang.getCodeFromRawNode(ctx))
 
+            unary.input = this.handleExpression(expressions[0])
+
             return unary
         }
 
