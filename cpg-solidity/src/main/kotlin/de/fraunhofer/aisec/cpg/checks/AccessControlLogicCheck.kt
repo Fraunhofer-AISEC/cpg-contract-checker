@@ -14,13 +14,13 @@ class AccessControlLogicCheck  : Check() {
         val query =
             ""
 
-        transaction.run(query).let { result ->
-            while (result.hasNext()) {
-                val row: Map<String, Any> = result.next().asMap()
-                findings.add(getPhysicalLocationFromResult(row))
+        // transaction.run(query).let { result ->
+        //    while (result.hasNext()) {
+        //        val row: Map<String, Any> = result.next().asMap()
+        //        findings.add(getPhysicalLocationFromResult(row))
 
-            }
-        }
+        //    }
+        // }
         return findings
     }
 }

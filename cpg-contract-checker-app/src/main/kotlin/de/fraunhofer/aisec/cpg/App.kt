@@ -20,9 +20,11 @@ import org.slf4j.LoggerFactory
 import picocli.CommandLine
 import java.io.File
 import java.nio.file.Files
+import java.nio.file.Path
 import java.nio.file.Paths
 import java.util.concurrent.Callable
 import java.util.stream.Collectors
+import kotlin.io.path.isDirectory
 import kotlin.system.exitProcess
 
 
@@ -53,9 +55,8 @@ class App : Callable<Int> {
         registerChecks()
         findings["Empty translation"] = mutableListOf()
         var nr_checked_files = 0
-        val base = "/home/kweiss/smartbugs/dataset/unchecked_low_level_calls/"
         if(files.isEmpty()){
-            files = getAllSolFiles(base)
+            files = files.flatMap { getAllSolFiles(it) }
             // files = listOf<Path>(Path.of(base + "/" + "66617876_2.sol"))
             // files = listOf<Path>(Path.of("/home/kweiss/coding/cpg-contract-checker/cpg-solidity/src/test/resources/examples/" + "SelfDestruct.sol"))
         }
