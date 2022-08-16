@@ -17,7 +17,7 @@ class AddressPaddingCheck : Check() {
                     "        and exists{\n" +
                     "            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*]->()<-[:ARGUMENTS]-(c)\n" +
                     "            where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX\n" +
-                    "            }\n" +
+//                    "            }\n" +
                     "        }\n" +
                     "        or exists{\n" +
                     "            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*]->()<-[:VALUE]-(s)-[:KEY]->({value: 'value'})\n" +
