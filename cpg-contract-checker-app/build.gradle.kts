@@ -33,7 +33,7 @@ val versions = mapOf(
 dependencies {
     implementation(project(":cpg-solidity"))
     // is needed, but somehow not exported by codyze
-    api("com.github.Fraunhofer-AISEC", "cpg", "4.2.1")
+    //api("com.github.Fraunhofer-AISEC", "cpg", "4.2.1")
 
     // Command line interface support
     api("info.picocli", "picocli", versions["picocli"])

@@ -26,12 +26,13 @@ repositories {
 }
 
 val versions = mapOf(
+    "cpg" to "4.2.1",
     "junit5" to "5.8.2",
     "neo4j" to "3.2.35"
 )
 
 dependencies {
-    api("com.github.Fraunhofer-AISEC", "cpg", "4.2.1")
+    api("com.github.Fraunhofer-AISEC.cpg", "cpg-core", versions["cpg"])
     antlr("org.antlr:antlr4:4.5")
 
 
