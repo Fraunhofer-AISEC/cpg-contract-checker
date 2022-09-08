@@ -4,6 +4,7 @@
 package de.fraunhofer.aisec.cpg;
 
 import de.fraunhofer.aisec.cpg.checks.*
+import de.fraunhofer.aisec.cpg.frontends.solidity.DFGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.graph.Node
@@ -101,6 +102,7 @@ class App : Callable<Int> {
                     SolidityLanguageFrontend.SOLIDITY_EXTENSIONS
                 )
                 .registerPass(EOGExtensionPass())
+                .registerPass(DFGExtensionPass())
                 .debugParser(true)
                 .processAnnotations(true)
                 .build()
