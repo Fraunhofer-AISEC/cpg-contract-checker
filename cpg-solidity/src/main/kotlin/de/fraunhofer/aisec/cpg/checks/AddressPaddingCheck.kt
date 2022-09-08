@@ -15,7 +15,7 @@ class AddressPaddingCheck : Check() {
         // Adding secondary query that checks if one of our state changes can be influenced by a padded value
         var query =
             "match p=({name: \"address\"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(last)\n" +
-                    "    where 'ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)} \n" +
+                    "    where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)}) \n" +
                     "        and exists{\n" +
                     "        (f)-[vulna:PARAMETERS]->(vuln)-[:DFG*]->(m)-[:DFG*]->(f:FieldDeclaration) where m in nodes(p) \n" +
                     "            and not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > vulna.INDEX} and adr.INDEX < vulna.INDEX\n" +
@@ -38,7 +38,7 @@ class AddressPaddingCheck : Check() {
         // A query that finds if we make an external call and potentially forward attacked values
         query =
             "match p=({name: \"address\"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)\n" +
-                    "    where 'ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)} \n" +
+                    "    where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)}) \n" +
                     "        and (toUpper(c.name) in ['TRANSFER' , 'SEND']\n" +
                     "        and exists{\n" +
                     "            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*]->()<-[:ARGUMENTS]-(c)\n" +
