@@ -17,8 +17,8 @@ class AddressPaddingCheck : Check() {
             "match p=({name: \"address\"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(last)\n" +
                     "    where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)}) \n" +
                     "        and exists{\n" +
-                    "        (f)-[vulna:PARAMETERS]->(vuln)-[:DFG*]->(m)-[:DFG*]->(f:FieldDeclaration) where m in nodes(p) \n" +
-                    "            and not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > vulna.INDEX} and adr.INDEX < vulna.INDEX\n" +
+                    "        (f)-[vulna:PARAMETERS]->(vuln)-[:DFG*]->(m)-[:DFG*]->(state:FieldDeclaration)\n" +
+                    "            where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > vulna.INDEX} and adr.INDEX < vulna.INDEX\n" +
                     "            and not exists{\n" +
                     "                ({code : 'msg.data.length'})-[:DFG*]->(n)\n" +
                     "                where n in nodes(p)\n" +
