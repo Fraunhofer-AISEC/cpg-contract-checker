@@ -7,7 +7,7 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |---|---|---|
 |AccessControlLogic|   |In construction|
 |AccessControlSelfdestruct|   |Finished|
-|AddressPadding|   |Improving|
+|AddressPadding|   |Finished|
 |CallReturn|   |Finished|
 |Reentrancy|   |Improving|
 |Overflow|   |Planned|
