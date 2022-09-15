@@ -54,7 +54,6 @@ class App : Callable<Int> {
 
     override fun call(): Int {
         registerChecks()
-        findings["Empty translation"] = mutableListOf()
         var nr_checked_files = 0
         if(files.isEmpty()){
             files = files.flatMap { getAllSolFiles(it) }
@@ -66,6 +65,9 @@ class App : Callable<Int> {
             val tr: TranslationResult= getGraph(path)
             tr.translationUnits.forEach {
                 if(SubgraphWalker.flattenAST(it).size <= 4){
+                    if(!findings.containsKey("Empty translation")){
+                        findings["Empty translation"] = mutableListOf()
+                    }
                     findings["Empty translation"]!!.add(it.name)
                 }
             }
