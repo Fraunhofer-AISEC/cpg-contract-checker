@@ -135,8 +135,13 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                         }
                     }
                 }
-
-                call.setBase(ref)
+                var base = expressions.first()
+                while (base.nameValueList() != null) {
+                    base = base.expression().first()
+                }
+                if(base.expression().isNotEmpty()){
+                    call.setBase(this.handle(expressions.first().expression()[0]))
+                }
 
                 return call
             }else if(ref is CallExpression){
