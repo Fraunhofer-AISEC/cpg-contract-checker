@@ -126,6 +126,7 @@ class App : Callable<Int> {
         checks.add(CallReturnCheck())
         checks.add(AddressPaddingCheck())
         checks.add(AccessControlLogicCheck())
+        checks.add(BadRandomnessCheck())
     }
 
     fun persistGraph(result: TranslationResult){
