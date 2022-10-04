@@ -27,6 +27,7 @@ import java.util.concurrent.Callable
 import java.util.stream.Collectors
 import kotlin.io.path.isDirectory
 import kotlin.system.exitProcess
+import kotlin.system.measureTimeMillis
 
 
 class App : Callable<Int> {
@@ -72,6 +73,7 @@ class App : Callable<Int> {
                 }
             }
             persistGraph(tr)
+            println("Running checks")
             runVulnerabilityChecks(path.toString())
             nr_checked_files++
             println("Nr. Files: " + nr_checked_files)
@@ -121,11 +123,11 @@ class App : Callable<Int> {
     }
 
     fun registerChecks(){
-        checks.add(ReentrancyCheck())
         checks.add(AccessControlSelfdestructCheck())
         checks.add(CallReturnCheck())
         checks.add(AddressPaddingCheck())
-        checks.add(AccessControlLogicCheck())
+        //checks.add(AccessControlLogicCheck())
+        checks.add(ReentrancyCheck())
     }
 
     fun persistGraph(result: TranslationResult){
@@ -174,17 +176,21 @@ class App : Callable<Int> {
                 session.readTransaction() { t: Transaction ->
 
                     for (check in checks){
-                        var checkFindings = check.check(t)
-                        if(checkFindings.isNotEmpty()){
-                            if(findings[filename] == null){
-                                findings.put(filename, mutableListOf())
-                            }
-                            checkFindings.forEach {
-                                findings[filename]!!.add(check.getVulnerabilityName() + ", "
-                                        + it.artifactLocation.toString().substringAfter("file:") + " "
-                                        + it.region.toString())
+                        val duration = measureTimeMillis {
+                            var checkFindings = check.check(t)
+                            if(checkFindings.isNotEmpty()){
+                                if(findings[filename] == null){
+                                    findings.put(filename, mutableListOf())
+                                }
+                                checkFindings.forEach {
+                                    findings[filename]!!.add(check.getVulnerabilityName() + ", "
+                                            + it.artifactLocation.toString().substringAfter("file:") + " "
+                                            + it.region.toString())
+                                }
                             }
                         }
+
+                        println(check.javaClass.simpleName + " took " + duration + " ms")
                     }
                 }
             }
