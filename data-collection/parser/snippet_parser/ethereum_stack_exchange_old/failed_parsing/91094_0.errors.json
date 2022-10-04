@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uint256[5]memory'": [
+        "ERROR: when parsing line 1 column 20: no viable alternative at input 'uint256[5]memory'\n"
+    ]
+}

@@ -1,0 +1,1 @@
+uint currentGameCost = 0;

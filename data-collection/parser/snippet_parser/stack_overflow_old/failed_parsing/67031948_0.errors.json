@@ -1,0 +1,45 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 35 column 49: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'hash:'": [
+        "ERROR: when parsing line 36 column 20: no viable alternative at input 'hash:'\n"
+    ],
+    "extraneous input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 36 column 30: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 39 column 23: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 40 column 27: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 41 column 27: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 42 column 24: extraneous input ',' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'tags:'": [
+        "ERROR: when parsing line 37 column 20: no viable alternative at input 'tags:'\n"
+    ],
+    "mismatched input ',' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 37 column 32: mismatched input ',' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "no viable alternative at input 'author:'": [
+        "ERROR: when parsing line 38 column 22: no viable alternative at input 'author:'\n"
+    ],
+    "mismatched input 'like' expecting {';', NL}": [
+        "ERROR: when parsing line 39 column 16: mismatched input 'like' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'dislikes:'": [
+        "ERROR: when parsing line 40 column 24: no viable alternative at input 'dislikes:'\n"
+    ],
+    "no viable alternative at input 'netLikes:'": [
+        "ERROR: when parsing line 41 column 24: no viable alternative at input 'netLikes:'\n"
+    ],
+    "no viable alternative at input 'nonce:'": [
+        "ERROR: when parsing line 42 column 21: no viable alternative at input 'nonce:'\n"
+    ],
+    "no viable alternative at input 'timeStamp:'": [
+        "ERROR: when parsing line 45 column 25: no viable alternative at input 'timeStamp:'\n"
+    ],
+    "mismatched input '}' expecting {';', NL}": [
+        "ERROR: when parsing line 46 column 12: mismatched input '}' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 46 column 13: extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}

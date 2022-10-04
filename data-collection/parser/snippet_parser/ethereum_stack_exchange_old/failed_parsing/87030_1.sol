@@ -1,0 +1,9 @@
+Compiling your contracts...
+===========================
+> ...
+> Compiling @chainlink/contracts/src/v0.6/vendor/SafeMath.sol
+> ...
+> Compiling @openzeppelin/contracts/math/SafeMath.sol
+
+> Duplicate contract names found for SafeMath.
+> This can cause errors and unknown behavior. Please rename one of your contracts.

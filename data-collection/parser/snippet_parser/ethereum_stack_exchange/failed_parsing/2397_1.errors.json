@@ -1,0 +1,26 @@
+{
+    "mismatched input 'import' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 15: mismatched input 'import' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'code' expecting 'from'": [
+        "ERROR: when parsing line 3 column 1: mismatched input 'code' expecting 'from'\n"
+    ],
+    "mismatched input 'contract' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 4: mismatched input 'contract' expecting {';', NL}\n"
+    ],
+    "extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 22 column 12: extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input '.' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 22 column 20: mismatched input '.' expecting {'{', 'is'}\n"
+    ],
+    "extraneous input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 23 column 11: extraneous input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input '(' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 23 column 19: mismatched input '(' expecting {'{', 'is'}\n"
+    ],
+    "no viable alternative at input 'printcontract'": [
+        "ERROR: when parsing line 24 column 9: no viable alternative at input 'printcontract'\n"
+    ]
+}

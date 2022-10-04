@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'SimpleStorage.sol:'": [
+        "ERROR: when parsing line 1 column 27: no viable alternative at input 'SimpleStorage.sol:'\n"
+    ]
+}

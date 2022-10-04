@@ -1,0 +1,2 @@
+  - bool ok = msg.sender.call.value(amount)();
+  - emit WithdrawalEther(msg.sender, amount, ok);

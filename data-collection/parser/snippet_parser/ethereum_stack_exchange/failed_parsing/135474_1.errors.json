@@ -1,0 +1,8 @@
+{
+    "mismatched input 'tx' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 22: mismatched input 'tx' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'constevent'": [
+        "ERROR: when parsing line 3 column 6: no viable alternative at input 'constevent'\n"
+    ]
+}

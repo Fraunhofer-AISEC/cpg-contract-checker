@@ -1,0 +1,3 @@
+function foo (string memory s) onlyIPFSHash (s) public {
+    ...
+}

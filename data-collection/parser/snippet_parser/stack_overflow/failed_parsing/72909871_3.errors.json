@@ -1,0 +1,8 @@
+{
+    "extraneous input 'calls' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 12: extraneous input 'calls' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'getDatafunction'": [
+        "ERROR: when parsing line 2 column 14: no viable alternative at input 'getDatafunction'\n"
+    ]
+}

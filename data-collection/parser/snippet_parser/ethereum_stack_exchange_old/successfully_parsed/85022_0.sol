@@ -1,0 +1,4 @@
+contract SimpleStorage {
+    uint storedData; 
+    
+}

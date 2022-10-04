@@ -1,0 +1,8 @@
+{
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 11 column 22: mismatched input '(' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'movieNames' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 32: mismatched input 'movieNames' expecting {';', NL}\n"
+    ]
+}

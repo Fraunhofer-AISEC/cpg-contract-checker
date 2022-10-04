@@ -1,0 +1,23 @@
+{
+    "mismatched input 'I' expecting {';', NL}": [
+        "ERROR: when parsing line 19 column 0: mismatched input 'I' expecting {';', NL}\n"
+    ],
+    "mismatched input 'be' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 19 column 9: mismatched input 'be' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'a' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 19 column 20: mismatched input 'a' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'dump' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 19 column 28: mismatched input 'dump' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'instead' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 19 column 37: mismatched input 'instead' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'am' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 19 column 47: mismatched input 'am' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'this' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 19 column 58: mismatched input 'this' expecting {'=', ';', NL}\n"
+    ]
+}

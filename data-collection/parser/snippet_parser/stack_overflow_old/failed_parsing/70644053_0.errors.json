@@ -1,0 +1,5 @@
+{
+    "extraneous input 'avax' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 35: extraneous input 'avax' expecting {';', NL}\n"
+    ]
+}

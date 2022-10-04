@@ -1,0 +1,11 @@
+{
+    "mismatched input 'openzeppelin' expecting {'as', ';', NL}": [
+        "ERROR: when parsing line 4 column 10: mismatched input 'openzeppelin' expecting {'as', ';', NL}\n"
+    ],
+    "mismatched input 'token' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 33: mismatched input 'token' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'ERC721' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 46: mismatched input 'ERC721' expecting {'=', ';', NL}\n"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mismatched input 'in' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 9: mismatched input 'in' expecting {';', NL}\n"
+    ],
+    "mismatched input 'in' expecting '('": [
+        "ERROR: when parsing line 1 column 30: mismatched input 'in' expecting '('\n"
+    ],
+    "mismatched input 'Function' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 3 column 1: mismatched input 'Function' expecting {'{', 'is'}\n"
+    ],
+    "mismatched input 'clash' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 19: mismatched input 'clash' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'conversion' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 32: mismatched input 'conversion' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'external' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 46: mismatched input 'external' expecting {'=', ';', NL}\n"
+    ]
+}

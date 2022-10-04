@@ -1,0 +1,32 @@
+{
+    "mismatched input 'does' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 15: mismatched input 'does' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'match' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 24: mismatched input 'match' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.' expecting '('": [
+        "ERROR: when parsing line 1 column 50: mismatched input '.' expecting '('\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 42: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'part' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 54: mismatched input 'part' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'here' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 66: mismatched input 'here' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'spans' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 75: mismatched input 'spans' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'multiple' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 88: mismatched input 'multiple' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 102: mismatched input ')' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'SupplyChain.sol:'": [
+        "ERROR: when parsing line 4 column 65: no viable alternative at input 'SupplyChain.sol:'\n"
+    ]
+}

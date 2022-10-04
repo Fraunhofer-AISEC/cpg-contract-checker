@@ -1,0 +1,3 @@
+ function deposit(uint256 gameID, uint256 amount) public returns (bool) {
+        ...
+        erc20Coin.transferFrom(msg.sender, address(this), amount);

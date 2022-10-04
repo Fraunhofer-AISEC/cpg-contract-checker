@@ -1,0 +1,22 @@
+{
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 11: mismatched input ':' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 1 column 36: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'path' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 30: mismatched input 'path' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Projects' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 50: mismatched input 'Projects' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'OOD' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 63: mismatched input 'OOD' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'contracts' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 77: mismatched input 'contracts' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 91: mismatched input '.' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 1 column 100: mismatched input '.' expecting {'=', ';', NL}\n"
+    ]
+}

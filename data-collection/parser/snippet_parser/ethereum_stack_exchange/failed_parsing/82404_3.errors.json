@@ -1,0 +1,5 @@
+{
+    "mismatched input '_decimals' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 8: mismatched input '_decimals' expecting {';', NL}\n"
+    ]
+}

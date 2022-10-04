@@ -1,0 +1,8 @@
+{
+    "missing '}' at '1'": [
+        "ERROR: when parsing line 5 column 51: missing '}' at '1'\n"
+    ],
+    "mismatched input 'Sep' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 53: mismatched input 'Sep' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "mismatched input 'UFixed' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 5: mismatched input 'UFixed' expecting {';', NL}\n"
+    ]
+}

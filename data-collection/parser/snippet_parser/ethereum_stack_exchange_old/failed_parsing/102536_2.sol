@@ -1,0 +1,3 @@
+contract ERC20Interface {
+    function name() public view returns (string)
+    ...
