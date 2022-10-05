@@ -6,6 +6,7 @@ package de.fraunhofer.aisec.cpg;
 import de.fraunhofer.aisec.cpg.checks.*
 import de.fraunhofer.aisec.cpg.frontends.solidity.DFGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
+import de.fraunhofer.aisec.cpg.frontends.solidity.GraphExtensionsPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
@@ -107,6 +108,7 @@ class App : Callable<Int> {
                 )
                 .registerPass(EOGExtensionPass())
                 .registerPass(DFGExtensionPass())
+                .registerPass(GraphExtensionsPass())
                 .debugParser(true)
                 .processAnnotations(true)
                 .build()
