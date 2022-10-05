@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'ERC165.sol:'": [
+        "ERROR: when parsing line 1 column 52: no viable alternative at input 'ERC165.sol:'\n"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 12 column 9: extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input 'factory' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 12 column 17: mismatched input 'factory' expecting {'{', 'is'}\n"
+    ]
+}

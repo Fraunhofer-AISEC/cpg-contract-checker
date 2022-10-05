@@ -1,0 +1,14 @@
+{
+    "no viable alternative at input '(if'": [
+        "ERROR: when parsing line 7 column 5: no viable alternative at input '(if'\n"
+    ],
+    "mismatched input 'product' expecting {'(', NL}": [
+        "ERROR: when parsing line 7 column 8: mismatched input 'product' expecting {'(', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 26: mismatched input ')' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 57: mismatched input ':' expecting {';', NL}\n"
+    ]
+}

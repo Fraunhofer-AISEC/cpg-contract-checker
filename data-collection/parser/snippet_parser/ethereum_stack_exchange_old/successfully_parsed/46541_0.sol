@@ -1,0 +1,2 @@
+contract C is A, B {
+}

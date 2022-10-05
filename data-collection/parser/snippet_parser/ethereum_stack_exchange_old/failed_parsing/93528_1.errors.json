@@ -1,0 +1,5 @@
+{
+    "extraneous input 'type' expecting {',', ')'}": [
+        "ERROR: when parsing line 8 column 29: extraneous input 'type' expecting {',', ')'}\n"
+    ]
+}

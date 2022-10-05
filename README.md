@@ -3,14 +3,14 @@ This project aims to identify known smart contract vulnerabilities in code snipp
 ## Usage
 ## Vulnerability Checks
 Progress is described in: Planned, In construction, Finished and Improving. Here a check can be worked on after it is finished to improve found 
-|Check|Vulnerabillity|Progress|
-|---|---|---|
-|AccessControlLogic|   |In construction|
-|AccessControlSelfdestruct|   |Finished|
-|AddressPadding|   |Finished|
+|Check|Vulnerabillity|Progress|Assigned|
+|---|---|---|---|
+|AccessControlLogic|   |In construction|Konrad|
+|AccessControlSelfdestruct|   |Finished|Konrad|
+|AddressPadding|   |Finished|Konrad|
 |CallReturn|   |Finished|
-|Reentrancy|   |Improving|
-|Overflow|   |Planned|
-|Underflow|   |Planned|
-|FrontRunning|   |Planned|
-|Time Manipulation|   |Planned|
+|Reentrancy|   |Improving|Konrad|
+|Overflow|   |Planned|Konrad|
+|Underflow|   |Planned|Konrad|
+|FrontRunning|   |Planned|     |
+|Time Manipulation|   |Planned|Florian|

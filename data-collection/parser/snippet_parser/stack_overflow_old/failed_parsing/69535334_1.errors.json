@@ -1,0 +1,22 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 37: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 47: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 64: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'claiming' expecting {'(', NL}": [
+        "ERROR: when parsing line 7 column 21: mismatched input 'claiming' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'reward' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 34: mismatched input 'reward' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'of' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 48: mismatched input 'of' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'tokens' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 65: mismatched input 'tokens' expecting {';', NL}\n"
+    ],
+    "extraneous input 'return' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 9 column 8: extraneous input 'return' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ]
+}

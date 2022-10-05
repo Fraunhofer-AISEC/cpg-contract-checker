@@ -1,0 +1,3 @@
+function setCounter() external {
+  counter++
+}

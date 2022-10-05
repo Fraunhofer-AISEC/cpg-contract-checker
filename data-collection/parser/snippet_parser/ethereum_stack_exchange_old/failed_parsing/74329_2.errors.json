@@ -1,0 +1,32 @@
+{
+    "mismatched input 'openzeppelin' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 6: mismatched input 'openzeppelin' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Compiled' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 2: mismatched input 'Compiled' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'with' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 21: mismatched input 'with' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '0.5.11' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 31: mismatched input '0.5.11' expecting {'=', ';', NL}\n"
+    ],
+    "missing ':' at 'a'": [
+        "ERROR: when parsing line 3 column 7: missing ':' at 'a'\n"
+    ],
+    "mismatched input 'contract' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 9: mismatched input 'contract' expecting {';', NL}\n"
+    ],
+    "mismatched input 'instantiate' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 3 column 21: mismatched input 'instantiate' expecting {'{', 'is'}\n"
+    ],
+    "mismatched input '?' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 0: mismatched input '?' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'network' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 9: mismatched input 'network' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Added' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 2: mismatched input 'Added' expecting {'=', ';', NL}\n"
+    ]
+}

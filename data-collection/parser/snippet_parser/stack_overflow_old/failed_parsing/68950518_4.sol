@@ -1,0 +1,1 @@
+contract Token is SafeMath {

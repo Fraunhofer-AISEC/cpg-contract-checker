@@ -1,0 +1,1 @@
+uint newPotIndex = lastPotIndex++;

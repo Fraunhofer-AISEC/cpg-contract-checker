@@ -1,0 +1,16 @@
+{
+    "extraneous input 'verifySigner' expecting {'(', NL}": [
+        "ERROR: when parsing line 26 column 9: extraneous input 'verifySigner' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_ticket' expecting {',', ')'}": [
+        "ERROR: when parsing line 26 column 38: extraneous input '_ticket' expecting {',', ')'}\n",
+        "ERROR: when parsing line 31 column 35: extraneous input '_ticket' expecting {',', ')'}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 26 column 79: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 31 column 76: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '_hash' expecting {'(', NL}": [
+        "ERROR: when parsing line 31 column 13: extraneous input '_hash' expecting {'(', NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "missing '}' at 'modifier'": [
+        "ERROR: when parsing line 14 column 0: missing '}' at 'modifier'\n"
+    ]
+}

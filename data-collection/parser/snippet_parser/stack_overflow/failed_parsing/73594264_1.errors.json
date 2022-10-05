@@ -1,0 +1,17 @@
+{
+    "extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 3 column 57: extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "mismatched input 'line' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 65: mismatched input 'line' expecting {';', NL}\n"
+    ],
+    "mismatched input 'to' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 77: mismatched input 'to' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'funds' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 89: mismatched input 'funds' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'a' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 3 column 114: mismatched input 'a' expecting {'{', 'is'}\n"
+    ]
+}

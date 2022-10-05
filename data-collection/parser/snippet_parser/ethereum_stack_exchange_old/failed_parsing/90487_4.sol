@@ -1,0 +1,1 @@
+[...].sol:30:9: TypeError: Type struct InvoiceValidator.Invoice memory is not implicitly convertible to expected type struct InvoiceValidator.Invoice storage pointer. Invoice storage invoice = Invoice(recipient, sender, patient, date, treatments); ^-----------------------------------------------------------------------------^

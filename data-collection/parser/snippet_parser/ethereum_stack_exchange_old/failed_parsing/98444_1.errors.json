@@ -1,0 +1,20 @@
+{
+    "mismatched input 'scripts' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 12: mismatched input 'scripts' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Brownie' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 0: mismatched input 'Brownie' expecting {';', NL}\n"
+    ],
+    "mismatched input '.14' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 10: mismatched input '.14' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.3' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 13: mismatched input '.3' expecting {';', NL}\n"
+    ],
+    "mismatched input 'development' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 25: mismatched input 'development' expecting {';', NL}\n"
+    ],
+    "mismatched input 'for' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 47: mismatched input 'for' expecting {'=', ';', NL}\n"
+    ]
+}

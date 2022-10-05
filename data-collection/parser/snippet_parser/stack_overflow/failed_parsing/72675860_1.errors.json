@@ -1,0 +1,8 @@
+{
+    "mismatched input 'openzeppelin' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 10: mismatched input 'openzeppelin' expecting {';', NL}\n"
+    ],
+    "extraneous input '\" not found: File import callback not supported\"' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 51: extraneous input '\" not found: File import callback not supported\"' expecting {';', NL}\n"
+    ]
+}

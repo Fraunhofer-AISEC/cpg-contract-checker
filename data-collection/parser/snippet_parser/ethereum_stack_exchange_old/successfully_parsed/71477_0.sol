@@ -1,0 +1,3 @@
+contract MetaCoin{
+ uint A;
+}

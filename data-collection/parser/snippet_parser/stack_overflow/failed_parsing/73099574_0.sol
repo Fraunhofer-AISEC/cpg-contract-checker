@@ -1,0 +1,1 @@
+Error HH702: Invalid artifact path E:\Block Chain Projects\SET OOD\artifacts\contracts\MOOD.sol\Mood.json, its correct case-sensitive path is E:\Block Chain Projects\SET OOD\artifacts\contracts\Mood.sol\Mood.json

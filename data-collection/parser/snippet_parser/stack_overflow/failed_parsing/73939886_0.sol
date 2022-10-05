@@ -1,0 +1,3 @@
+function getStraightIndices(uint256[] memory valnums) public pure returns (uint256[5] memory) {
+        ...
+}

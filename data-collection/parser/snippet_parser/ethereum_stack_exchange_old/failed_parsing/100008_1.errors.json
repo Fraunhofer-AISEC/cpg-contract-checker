@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'myStructmemory'": [
+        "ERROR: when parsing line 2 column 9: no viable alternative at input 'myStructmemory'\n"
+    ]
+}

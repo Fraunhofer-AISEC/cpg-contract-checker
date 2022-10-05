@@ -1,0 +1,18 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 23: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 72: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'xxxxxxxxxxa70c34B314B92531Axxxxxxxxx' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 25: mismatched input 'xxxxxxxxxxa70c34B314B92531Axxxxxxxxx' expecting {';', NL}\n"
+    ],
+    "mismatched input 'xxxxxxxxx' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 103: mismatched input 'xxxxxxxxx' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 117: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 16 column 0: extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}
