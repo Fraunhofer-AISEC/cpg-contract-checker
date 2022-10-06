@@ -9,6 +9,7 @@ import de.fraunhofer.aisec.cpg.graph.declarations.NamespaceDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.RecordDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
 import de.fraunhofer.aisec.cpg.graph.edge.PropertyEdge
+import de.fraunhofer.aisec.cpg.graph.statements.ReturnStatement
 import de.fraunhofer.aisec.cpg.graph.statements.Statement
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.MemberCallExpression
@@ -161,6 +162,7 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
         // currentProperties[Properties.BRANCH] = true
 
     }
+
 }
 
 val TranslationResult.additionalNodes: MutableList<Node>
@@ -173,3 +175,4 @@ operator fun TranslationResult.plusAssign(node: Node) {
     if(!this.additionalNodes.contains(node))
         this.additionalNodes += node
 }
+

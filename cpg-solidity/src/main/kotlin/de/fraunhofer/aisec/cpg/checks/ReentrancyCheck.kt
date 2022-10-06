@@ -14,9 +14,20 @@ class ReentrancyCheck: Check() {
     }
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
-        val baseReentrency = "match p=(base)-[:BASE]-(c:CallExpression)-[e:EOG*]->(n)-[d:DFG*]->(ex:Expression)-[g]->()-[:REFERS_TO]->(:FieldDeclaration)\n" +
-                "where not type(g) in ['EOG','DFG']\n" +
-                "and (not exists  {()-[:DFG]->(b1)<-[:BASE*]-(c)} \n" +
+        val baseReentrency = "match p=(base)-[:BASE]-(c:CallExpression)-[e:EOG|INVOKES|RETURNS*]->(n)\n" +
+                "where (\n" +
+                "    exists{\n" +
+                "        (n)-[d:DFG*]->(:FieldDeclaration)\n" +
+                "    } or exists {\n" +
+                "        (n)-[d:DFG*]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*]-(:FieldDeclaration)\n" +
+                "        where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']\n" +
+                "    }\n" +
+                "    or exists {\n" +
+                "        (n)-[d:DFG*]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*]-(:FieldDeclaration)\n" +
+                "        where bin.operatorCode in ['++','--']\n" +
+                "    }\n" +
+                ") \n" +
+                "and(not exists  {()-[:DFG]->(b1)<-[:BASE*]-(c)} \n" +
                 "or exists {\n" +
                 "    (s)-[:DFG*]->(b2)<-[:BASE*]-(c)\n" +
                 "    where not exists (()-[:DFG]->(s)) and  not 'Literal' in labels(s) and not  exists((s)<-[:PARAMETERS]-(:ConstructorDeclaration)) and (not s.isInferred or s.name in ['msg', 'tx'] )\n" +
