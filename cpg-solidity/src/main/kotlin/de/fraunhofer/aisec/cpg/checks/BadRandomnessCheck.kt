@@ -16,7 +16,7 @@ class BadRandomnessCheck  : Check() {
             match (n:MemberExpression)
             where n.code contains "block.number"
                 or n.code contains "block.timestamp"
-            return n
+            return n as node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
             """
 
         transaction.run(query).let { result ->
