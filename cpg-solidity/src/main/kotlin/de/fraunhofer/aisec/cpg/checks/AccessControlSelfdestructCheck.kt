@@ -19,7 +19,7 @@ class AccessControlSelfdestructCheck : Check() {
                     "and not exists ((last)-[:EOG|INVOKES]->()) \n" +
                     "and not 'Rollback' in labels(last) \n" +
                     "and not exists{\n" +
-                    "    ({code : 'msg.sender'})-[:DFG*]->(n)<-[:DFG*]-(:FieldDeclaration) \n" +
+                    "    ({code : 'msg.sender'})-[:DFG*]->(n)<-[:DFG*]-(:FieldDeclaration) \n" + // Here we might have to consider refers to to Field declarations and not strait data flows
                     "    where n in nodes(p)\n" +
                     "    and exists{\n" +
                     "        alt=(n)-[:EOG|INVOKES*]->(t) where not 'Rollback' in labels(t) and not c in nodes(alt)\n" +
