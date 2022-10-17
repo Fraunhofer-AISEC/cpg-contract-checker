@@ -15,8 +15,11 @@ class CallReturnCheck : Check() {
             "match p=(c:CallExpression)-[:EOG*]->(last)\n" +
                     "where not exists ((last)-[:EOG]->()) and not 'Rollback' in labels(last)\n" +
                     "    and not exists{(c)-[:DFG*]->(r:ReturnStatement) where r in nodes(p)}\n" +
-                    "    and not exists{(c)-[:DFG*]->(n) where n in nodes(p)\n" +
-                    "    and exists((n)-[:EOG*]->(:Rollback))\n" +
+                    "    and not exists{\n" +
+                    "        (c)-[:DFG*]->(n)-[:EOG]->(apath) where n in nodes(p) and exists {\n" +
+                    "            (n)-[:EOG]->(otherpath) where apath <> otherpath\n" +
+                    "        }\n" +
+                    "\n" +
                     "}\n" +
                     "and (c.name in ['call', 'callcode', 'delegatecall', 'send']\n" +
                     "    or c.name in ['value','gas'] and exists {\n" +
