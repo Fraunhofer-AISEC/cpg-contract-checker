@@ -6,8 +6,8 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |Check|Vulnerabillity|Progress|Assigned|Mapped|
 |---|---|---|---|---|
 |AccessControlLogic|   |In construction|Konrad|Done|
-|AccessControlSelfdestruct|   |Finished|Konrad|
-|AddressPadding|   |Finished|Konrad|
+|AccessControlSelfdestruct|   |Finished|Konrad|Done|
+|AddressPadding|   |Finished|Konrad|Done|
 |CallReturn|   |Finished|Konrad|Done|
 |Reentrancy|   |Improving|Konrad| Done |
 |Overflow|   |Planned|Konrad|
