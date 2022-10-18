@@ -130,6 +130,7 @@ class App : Callable<Int> {
         checks.add(AddressPaddingCheck())
         checks.add(AccessControlLogicCheck())
         checks.add(ReentrancyCheck())
+        checks.add(DefaultProxyDelegateCheck())
     }
 
     fun persistGraph(result: TranslationResult){
@@ -148,10 +149,10 @@ class App : Callable<Int> {
             session.purgeDatabase()
 
             val b = Benchmark(App::class.java, "Saving nodes to database")
-            /*result.translationUnits.forEach {
+            result.translationUnits.forEach {
                 println("Saving file:" + it.name)
                 session.save(it)
-            }*/
+            }
 
             val nodes = mutableListOf<Node>()
             nodes.addAll(result.additionalNodes)
