@@ -12,7 +12,7 @@ class DefaultProxyDelegateCheck : Check() {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
         val query =
             "match p=(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)\n" +
-                    "where toUpper(c.name) in ['DELEGATECALL' , 'CALLCODE'] \n" +
+                    "where (not exists(f.name) or f.name = null or f.name = '') and  toUpper(c.name) in ['DELEGATECALL' , 'CALLCODE'] \n" +
                     "and not exists ((last)-[:EOG|INVOKES]->()) \n" +
                     "and not 'Rollback' in labels(last)\n" +
                     "and (exists {\n" +

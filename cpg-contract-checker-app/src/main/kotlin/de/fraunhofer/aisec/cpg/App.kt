@@ -131,6 +131,7 @@ class App : Callable<Int> {
         checks.add(AccessControlLogicCheck())
         checks.add(ReentrancyCheck())
         checks.add(DefaultProxyDelegateCheck())
+        checks.add(TXOriginCheck())
     }
 
     fun persistGraph(result: TranslationResult){
