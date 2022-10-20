@@ -6,7 +6,7 @@ import org.neo4j.driver.Transaction
 class AccessControlLogicCheck  : Check() {
 
     override fun getVulnerabilityName(): String {
-        return "Overly permissive writes to access control variables"
+        return "Non constructor function insufficiently restricts writes to to access control variables"
     }
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
@@ -21,7 +21,7 @@ class AccessControlLogicCheck  : Check() {
                     "   alt=(n)-[:EOG|INVOKES*]->(t) where 'Rollback' in labels(t) or not writingNode in nodes(alt)\n" +
                     "   }\n" +
                     "}\n" +
-                    "return distinct writingNode as write, writingNode.startLine as sline, writingNode.endLine as eline, writingNode.startColumn as scol, writingNode.endColumn as ecol, writingNode.artifact as file"
+                    "return distinct entry as write, entry.startLine as sline, entry.endLine as eline, entry.startColumn as scol, entry.endColumn as ecol, entry.artifact as file"
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
