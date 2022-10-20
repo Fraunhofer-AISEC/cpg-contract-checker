@@ -149,6 +149,7 @@ class App : Callable<Int> {
         checks.add(ReentrancyCheck())
         checks.add(DefaultProxyDelegateCheck())
         checks.add(TXOriginCheck())
+        checks.add(TimeManipulationCheck())
     }
 
     fun persistGraph(result: TranslationResult){

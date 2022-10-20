@@ -12,12 +12,15 @@ class TimeManipulationCheck: Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query = ""
+        val query = """
+            MATCH (n) 
+            RETURN n 
+            LIMIT 25
+        """.trimIndent()
         transaction.run(query).let { result ->
             while (result.hasNext()) {
                 val row: Map<String, Any> = result.next().asMap()
                 findings.add(getPhysicalLocationFromResult(row))
-
             }
         }
         return findings
