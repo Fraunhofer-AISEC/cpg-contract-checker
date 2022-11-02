@@ -1,25 +1,12 @@
-match p=({name: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
-where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)})
-    and (toUpper(c.name) in ['TRANSFER' , 'SEND']
-    and exists{
-     (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*]->()<-[:ARGUMENTS]-(c)
-      where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
-      }
-
-    or exists{
-      (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*]->()<-[:VALUE]-(s)-[:KEY]->({value: 'value'})
-      where exists{(s)<--(c)} and not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
-    }
-    or toUpper(c.name) in ['VALUE'] and exists{
-      (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*]->()<-[:ARGUMENTS]-(c)-[:BASE*]->({name:'call'})
-      where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
-    })
-    and not exists{
-       ({code : 'msg.data.length'})-[:DFG*]->(n)
-    where n in nodes(p)
-    and exists{alt=(n)-[:EOG|INVOKES*]->(t) where 'ROLLBACK' in labels(t) or not c in nodes(alt) and not exists {(t)-[:EOG|INVOKES]->()}}
-                  }
-    and exists{
-       (c)-[:BASE*]->()<-[:DFG*]-(:ParamVariableDeclaration)
-    }
+match p=(:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
+        where toUpper(c.name) in ['SELFDESTRUCT' , 'SUICIDE'] 
+        and not exists ((last)-[:EOG|INVOKES]->()) 
+        and not 'Rollback' in labels(last) 
+        and not exists{
+            ({code : 'msg.sender'})-[:DFG*]->(n)<-[:DFG*]-(:FieldDeclaration)  // Here we might have to consider refers to to Field declarations and not strait data flows
+            where n in nodes(p)
+            and exists{
+                alt=(n)-[:EOG|INVOKES*]->(t) where not 'Rollback' in labels(t) and not c in nodes(alt)
+            }
+        }
 return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file
