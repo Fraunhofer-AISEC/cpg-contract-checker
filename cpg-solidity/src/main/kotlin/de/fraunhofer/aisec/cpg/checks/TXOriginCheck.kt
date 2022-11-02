@@ -10,13 +10,7 @@ class TXOriginCheck: Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query =
-            "match (b1)<-[:EOG]-(n)-[:EOG]->(b2)\n" +
-                    "where b1 <> b2 and exists (({code : 'tx.origin'})-[:DFG*]->(n)) and (\n" +
-                    "    exists ((:FieldDeclaration)-[:DFG*]->(n)) \n" +
-                    "    or exists ((:FieldDeclaration)<-[:REFERS_TO]-()-[:DFG*]->(n)) \n" +
-                    ")\n" +
-                    "return distinct n as write, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file"
+        val query =object {}.javaClass.getResourceAsStream("/TXOrigin")?.bufferedReader()?.readText()
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {

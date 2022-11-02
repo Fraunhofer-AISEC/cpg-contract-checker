@@ -13,19 +13,7 @@ class AccessControlSelfdestructCheck : Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query =
-            "match p=(:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)\n" +
-                    "where toUpper(c.name) in ['SELFDESTRUCT' , 'SUICIDE'] \n" +
-                    "and not exists ((last)-[:EOG|INVOKES]->()) \n" +
-                    "and not 'Rollback' in labels(last) \n" +
-                    "and not exists{\n" +
-                    "    ({code : 'msg.sender'})-[:DFG*]->(n)<-[:DFG*]-(:FieldDeclaration) \n" + // Here we might have to consider refers to to Field declarations and not strait data flows
-                    "    where n in nodes(p)\n" +
-                    "    and exists{\n" +
-                    "        alt=(n)-[:EOG|INVOKES*]->(t) where not 'Rollback' in labels(t) and not c in nodes(alt)\n" +
-                    "    }\n" +
-                    "}\n" +
-                    "return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file"
+        val query =object {}.javaClass.getResourceAsStream("/AccessControlSelfdestruct")?.bufferedReader()?.readText()
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {

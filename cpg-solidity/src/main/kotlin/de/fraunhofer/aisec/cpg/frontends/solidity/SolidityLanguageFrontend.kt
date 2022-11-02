@@ -47,7 +47,7 @@ class SolidityLanguageFrontend(
     val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
 
     override fun parse(file: File): TranslationUnitDeclaration {
-        TypeManager.getInstance().setLanguageFrontend(this)
+       TypeManager.getInstance().setLanguageFrontend(this)
 
         val lexer = SolidityLexer(ANTLRInputStream(FileInputStream(file)))
         val stream = CommonTokenStream(lexer)

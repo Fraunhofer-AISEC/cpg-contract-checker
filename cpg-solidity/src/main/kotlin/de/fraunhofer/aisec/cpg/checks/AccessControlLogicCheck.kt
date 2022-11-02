@@ -11,17 +11,7 @@ class AccessControlLogicCheck  : Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query =
-            "match p=(entry:FunctionDeclaration)-[e:EOG|INVOKES|RETURNS*]->(writingNode)-[:EOG|INVOKES*]->(last)\n" +
-                    "where not 'ConstructorDeclaration' in labels(entry) and not exists((last)-[:EOG|INVOKES]->()) and exists((writingNode)-[:DFG]->(:FieldDeclaration)<-[:REFERS_TO]-()<-[:LHS|RHS]-(:BinaryOperator {operatorCode: '=='})-[:LHS|RHS]->({code: 'msg.sender'})) \n" +
-                    "and not exists{\n" +
-                    "   ({code : 'msg.sender'})-[:DFG*]->(n)<-[:DFG*]-(:FieldDeclaration)\n" +
-                    "   where n in nodes(p)\n" +
-                    "   and exists{\n" +
-                    "   alt=(n)-[:EOG|INVOKES*]->(t) where 'Rollback' in labels(t) or not writingNode in nodes(alt)\n" +
-                    "   }\n" +
-                    "}\n" +
-                    "return distinct entry as write, entry.startLine as sline, entry.endLine as eline, entry.startColumn as scol, entry.endColumn as ecol, entry.artifact as file"
+        val query = object {}.javaClass.getResourceAsStream("/AccessControlLogic")?.bufferedReader()?.readText()
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
@@ -32,4 +22,5 @@ class AccessControlLogicCheck  : Check() {
         }
         return findings
     }
+
 }

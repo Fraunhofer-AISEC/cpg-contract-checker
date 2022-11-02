@@ -10,20 +10,7 @@ class DefaultProxyDelegateCheck : Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query =
-            "match p=(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)\n" +
-                    "where (not exists(f.name) or f.name = null or f.name = '') and  toUpper(c.name) in ['DELEGATECALL' , 'CALLCODE'] \n" +
-                    "and not exists ((last)-[:EOG|INVOKES]->()) \n" +
-                    "and not 'Rollback' in labels(last)\n" +
-                    "and (exists {\n" +
-                    "    ({code: 'msg.data'})<-[:ARGUMENTS]-(c)\n" +
-                    "} or exists{({code: 'msg.data'})-[:DFG*]->()<-[:ARGUMENTS]-(c)})\n" +
-                    "and not exists{\n" +
-                    "    ({code: 'msg.data'})-[:DFG*]->(n)-[:EOG]->(apath) where n in nodes(p) and exists {\n" +
-                    "    d=(f)-[:EOG|INVOKES*]->(n)-[:EOG|INVOKES*]->(otherpath) where not exists{ (otherpath)-[:EOG|INVOKES]->() } and not c in nodes(d) or 'Rollback' in labels(otherpath)\n" +
-                    "    }\n" +
-                    "}\n" +
-                    "return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file"
+        val query =object {}.javaClass.getResourceAsStream("/DefaultProxyDelegate")?.bufferedReader()?.readText()
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
