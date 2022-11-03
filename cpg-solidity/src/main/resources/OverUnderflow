@@ -1,0 +1,20 @@
+match p=(f:FunctionDeclaration)-[:EOG*]->(b:BinaryOperator)-[:EOG*]->(last)
+where not exists((last)-[:EOG*]->()) and b.operatorCode in ['+','+=','-','-=','*','*=']
+and exists {(argf:FunctionDeclaration)-->(param:ParamVariableDeclaration)-[:DFG*]->(b) where not 'ConstructorDeclaration' in labels(f)}
+and(
+    exists{
+        (b)-[d:DFG*]->(:FieldDeclaration)
+    } or exists {
+        (b)-[d:DFG*]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*]-(:FieldDeclaration)
+        where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
+    }or exists {
+        (b)-[d:DFG*]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*]-(:FieldDeclaration)
+        where bin.operatorCode in ['++','--']
+
+    } or exists{
+        (b)-[:DFG*]->()<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->())
+    } or exists {
+        (b)-[:DFG*]->()<-[:VALUE]-(:SpecifiedExpression)
+    }
+)
+return distinct b ,b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file

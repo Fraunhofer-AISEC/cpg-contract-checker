@@ -125,6 +125,7 @@ class App : Callable<Int> {
     }
 
     fun registerChecks(){
+        checks.add(OverUnderflowCheck())
         checks.add(AddressPaddingCheck())
         checks.add(AccessControlSelfdestructCheck())
         checks.add(CallReturnCheck())
