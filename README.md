@@ -9,9 +9,8 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |AccessControlSelfdestruct|   |Finished|Konrad|Done|
 |AddressPadding|   |Finished|Konrad|Done|
 |CallReturn|   |Finished|Konrad|Done|
-|Reentrancy|   |Improving|Konrad| Done |
-|Overflow|   |Planned|Konrad|
-|Underflow|   |Planned|Konrad|
+|Reentrancy|   |Finished|Konrad| Done |
+|Arithmetic|   |Finished|Konrad| Done |
 |FrontRunning|   |Planned|     |
 |Time Manipulation|   |Planned|Florian|
 |Denial Service|
