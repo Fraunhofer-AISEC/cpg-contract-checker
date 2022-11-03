@@ -12,6 +12,7 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |Reentrancy|   |Finished|Konrad| Done |
 |Arithmetic|   |Finished|Konrad| Done |
 |FrontRunning|   |Planned|     |
-|Time Manipulation|   |Planned|Florian|
+|Time Manipulation|   |In Construction|Florian|
+|Bad Randomness|   |Planned|Florian|
 |Denial Service|
-|Others| |Konrad|  |
+|Others| |Planned|Konrad|  |
