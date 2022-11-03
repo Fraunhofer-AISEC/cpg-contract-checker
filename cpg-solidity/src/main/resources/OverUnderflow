@@ -12,9 +12,13 @@ and(
         where bin.operatorCode in ['++','--']
 
     } or exists{
-        (b)-[:DFG*]->()<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->())
-    } or exists {
+        (b)-[:DFG*]->()<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
+    } or exists{
+        (b)<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
+    }or exists {
         (b)-[:DFG*]->()<-[:VALUE]-(:SpecifiedExpression)
+    }or exists {
+        (b)<-[:VALUE]-(:SpecifiedExpression)
     }
 )
 return distinct b ,b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file
