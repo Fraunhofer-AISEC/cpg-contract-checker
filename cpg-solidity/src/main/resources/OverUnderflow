@@ -19,6 +19,8 @@ and(
         (b)-[:DFG*]->()<-[:VALUE]-(:SpecifiedExpression)
     }or exists {
         (b)<-[:VALUE]-(:SpecifiedExpression)
+    } or exists{
+        (b)-[:DFG*]->(c)-[:EOG]->(t) where exists {(c)-[:EOG]->(v) where t <> v}
     }
 )
 return distinct b ,b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file
