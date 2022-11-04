@@ -1,2 +1,0 @@
-  --asm                EVM assembly of the contracts.
-  --opcodes            Opcodes of the contracts.

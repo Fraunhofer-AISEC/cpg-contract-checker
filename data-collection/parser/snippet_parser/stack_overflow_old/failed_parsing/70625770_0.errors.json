@@ -1,5 +1,0 @@
-{
-    "mismatched input '/' expecting {'as', 'from'}": [
-        "ERROR: when parsing line 4 column 9: mismatched input '/' expecting {'as', 'from'}\n"
-    ]
-}

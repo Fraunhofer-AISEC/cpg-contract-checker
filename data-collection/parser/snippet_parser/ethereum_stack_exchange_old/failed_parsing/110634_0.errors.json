@@ -1,5 +1,0 @@
-{
-    "no viable alternative at input 'File\"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/cli.py\"'": [
-        "ERROR: when parsing line 1 column 5: no viable alternative at input 'File\"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/cli.py\"'\n"
-    ]
-}

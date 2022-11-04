@@ -1,2 +1,0 @@
-struct Test { ... }
-contract Test { ... }

@@ -1,5 +1,0 @@
-{
-    "mismatched input '_fundingP' expecting {'(', NL}": [
-        "ERROR: when parsing line 42 column 8: mismatched input '_fundingP' expecting {'(', NL}\n"
-    ]
-}

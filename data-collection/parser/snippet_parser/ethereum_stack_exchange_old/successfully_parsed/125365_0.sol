@@ -1,2 +1,0 @@
-contract myContract is Ownable{
-}

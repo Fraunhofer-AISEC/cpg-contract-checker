@@ -1,8 +1,0 @@
-{
-    "extraneous input ')' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 6 column 0: extraneous input ')' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input 'returns' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 7 column 4: mismatched input 'returns' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ]
-}

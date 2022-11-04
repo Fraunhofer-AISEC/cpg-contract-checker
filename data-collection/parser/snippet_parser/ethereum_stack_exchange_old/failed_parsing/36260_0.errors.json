@@ -1,5 +1,0 @@
-{
-    "mismatched input 'e' expecting {';', NL}": [
-        "ERROR: when parsing line 31 column 13: mismatched input 'e' expecting {';', NL}\n"
-    ]
-}

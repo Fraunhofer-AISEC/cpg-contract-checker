@@ -1,8 +1,0 @@
-{
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 9 column 16: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 's' expecting {';', NL}": [
-        "ERROR: when parsing line 9 column 33: mismatched input 's' expecting {';', NL}\n"
-    ]
-}

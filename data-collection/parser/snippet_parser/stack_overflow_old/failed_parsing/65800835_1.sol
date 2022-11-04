@@ -1,4 +1,0 @@
-contract(){
-
-somefunction() payable external{}
-}

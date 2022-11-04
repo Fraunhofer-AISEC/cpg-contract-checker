@@ -1,8 +1,0 @@
-{
-    "no viable alternative at input '(yourown'": [
-        "ERROR: when parsing line 7 column 45: no viable alternative at input '(yourown'\n"
-    ],
-    "mismatched input 'address' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 7 column 54: mismatched input 'address' expecting {'=', ';', NL}\n"
-    ]
-}

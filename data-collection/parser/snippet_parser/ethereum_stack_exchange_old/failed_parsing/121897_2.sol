@@ -1,1 +1,0 @@
-contract StorageFactory is ContractName 

@@ -1,6 +1,0 @@
-contract DeliverPizza is MakePizza {
-    
-    
-    
-    
-}

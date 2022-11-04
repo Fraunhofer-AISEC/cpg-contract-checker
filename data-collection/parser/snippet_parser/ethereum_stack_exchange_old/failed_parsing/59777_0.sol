@@ -1,1 +1,0 @@
-__WEBPACK_IMPORTED_MODULE_4__ethereum_factory__.a.methods.getDeployedContract is not a function

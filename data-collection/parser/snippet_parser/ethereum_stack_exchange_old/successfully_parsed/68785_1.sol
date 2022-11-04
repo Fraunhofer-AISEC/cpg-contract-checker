@@ -1,3 +1,0 @@
-function () public payable {
-    testDeposit ();
-}

@@ -1,8 +1,0 @@
-{
-    "no viable alternative at input 'import('": [
-        "ERROR: when parsing line 3 column 7: no viable alternative at input 'import('\n"
-    ],
-    "mismatched input 'token' expecting {';', NL}": [
-        "ERROR: when parsing line 15 column 4: mismatched input 'token' expecting {';', NL}\n"
-    ]
-}

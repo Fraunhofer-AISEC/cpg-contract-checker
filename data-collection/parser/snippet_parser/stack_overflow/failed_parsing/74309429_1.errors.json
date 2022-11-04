@@ -1,0 +1,8 @@
+{
+    "mismatched input '[' expecting {',', ')'}": [
+        "ERROR: when parsing line 1 column 31: mismatched input '[' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'arr' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 34: mismatched input 'arr' expecting {';', NL}\n"
+    ]
+}

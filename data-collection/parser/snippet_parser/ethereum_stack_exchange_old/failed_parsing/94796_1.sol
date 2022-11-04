@@ -1,6 +1,0 @@
-    
-    
-    
-    
-    emit cropAdded();
-}

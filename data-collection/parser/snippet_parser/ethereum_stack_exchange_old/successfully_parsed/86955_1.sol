@@ -1,1 +1,0 @@
-uint256 private constant INITIAL_FRAGMENTS_SUPPLY = 10**9 * 10**DECIMALS;

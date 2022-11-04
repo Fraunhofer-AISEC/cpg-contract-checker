@@ -1,9 +1,0 @@
- ...
- balances[address(this)] = 10000000;  
- ...
-
-function() public payable {...
-      uint256 tokenReward = msg.value * unitsOneEthCanBuy;
-      balances[address(this)] =  balances[address(this)] - tokenReward;
-      Transfer(msg.sender, address(this), tokenReward);
-      address(this).transfer(tokenReward);

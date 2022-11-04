@@ -1,1 +1,0 @@
-address constant _walletLibrary = 0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4

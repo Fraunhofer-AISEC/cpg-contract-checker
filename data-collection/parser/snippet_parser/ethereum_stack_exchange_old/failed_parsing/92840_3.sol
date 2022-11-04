@@ -1,4 +1,0 @@
-contract AAA  is Ownable {
-...
-
-}

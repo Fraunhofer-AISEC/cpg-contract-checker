@@ -1,1 +1,0 @@
-function stake() public payable () {

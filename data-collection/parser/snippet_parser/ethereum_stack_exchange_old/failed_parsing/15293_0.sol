@@ -1,3 +1,0 @@
-uint nonce;
-...
-bytes32 unique = sha3(block.number, msg.data, nonce++)`

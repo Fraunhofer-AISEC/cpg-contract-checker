@@ -1,8 +1,0 @@
-{
-    "extraneous input '(' expecting {',', ')'}": [
-        "ERROR: when parsing line 6 column 15: extraneous input '(' expecting {',', ')'}\n"
-    ],
-    "mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 6 column 24: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ]
-}

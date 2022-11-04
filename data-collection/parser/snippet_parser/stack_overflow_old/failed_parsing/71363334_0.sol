@@ -1,9 +1,0 @@
-(base) MacBook-Pro:Lesson5_SimpleStorage_Brownie $ brownie run scripts/deploy.py --network rinkeby
-Brownie v1.16.4 - Python development framework for Ethereum
-
-Lesson5SimplestorageBrownieProject is the active project.
-
-Running 'scripts/deploy.py::main'...
-Deploying contracts...
-Current developer account: 0x45003E..... 
-Balance: 0.3

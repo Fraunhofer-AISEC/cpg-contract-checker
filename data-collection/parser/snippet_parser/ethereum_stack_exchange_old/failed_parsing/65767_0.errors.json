@@ -1,5 +1,0 @@
-{
-    "extraneous input 'code' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 18: extraneous input 'code' expecting {'=', ';', NL}\n"
-    ]
-}

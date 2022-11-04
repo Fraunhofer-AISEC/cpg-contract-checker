@@ -1,8 +1,0 @@
-{
-    "no viable alternative at input 'functiondelete'": [
-        "ERROR: when parsing line 4 column 13: no viable alternative at input 'functiondelete'\n"
-    ],
-    "no viable alternative at input '(uint256key'": [
-        "ERROR: when parsing line 4 column 28: no viable alternative at input '(uint256key'\n"
-    ]
-}

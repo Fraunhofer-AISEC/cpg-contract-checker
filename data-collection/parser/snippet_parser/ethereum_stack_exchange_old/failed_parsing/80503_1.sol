@@ -1,3 +1,0 @@
-(bool success, bytes memory returnData) = msg.sender.call.value(address(this).balance)("");
-require(success);
-... 

@@ -1,3 +1,0 @@
-contract IsPayable {
-  function () payable {}
-}

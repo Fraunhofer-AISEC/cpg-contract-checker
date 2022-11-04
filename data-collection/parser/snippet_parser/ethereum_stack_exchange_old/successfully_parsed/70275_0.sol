@@ -1,3 +1,0 @@
-function() external payable {
-    
-}

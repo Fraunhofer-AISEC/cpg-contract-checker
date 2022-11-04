@@ -1,1 +1,0 @@
-bytes b = hex"abcdef";

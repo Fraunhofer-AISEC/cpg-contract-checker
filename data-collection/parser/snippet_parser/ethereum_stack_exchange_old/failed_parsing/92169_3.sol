@@ -1,1 +1,0 @@
-(, bytes bar) = someFunction()

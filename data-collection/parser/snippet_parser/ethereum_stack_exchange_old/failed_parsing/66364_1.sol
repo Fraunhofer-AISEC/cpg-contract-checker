@@ -1,1 +1,0 @@
-constructor { allowedNumberOfTimes = 1; }

@@ -1,1 +1,0 @@
-contract User is IUser {}

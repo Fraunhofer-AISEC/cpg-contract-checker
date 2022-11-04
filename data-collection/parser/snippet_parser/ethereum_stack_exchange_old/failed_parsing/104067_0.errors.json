@@ -1,8 +1,0 @@
-{
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 7: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'UniswapV2:'": [
-        "ERROR: when parsing line 3 column 105: no viable alternative at input 'UniswapV2:'\n"
-    ]
-}

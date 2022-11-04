@@ -1,1 +1,0 @@
-function withdraw() returns (bool) {}

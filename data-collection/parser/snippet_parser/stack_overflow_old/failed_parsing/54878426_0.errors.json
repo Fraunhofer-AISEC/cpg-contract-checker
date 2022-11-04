@@ -1,8 +1,0 @@
-{
-    "mismatched input '(' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 20: mismatched input '(' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'Hash.new'": [
-        "ERROR: when parsing line 2 column 7: no viable alternative at input 'Hash.new'\n"
-    ]
-}

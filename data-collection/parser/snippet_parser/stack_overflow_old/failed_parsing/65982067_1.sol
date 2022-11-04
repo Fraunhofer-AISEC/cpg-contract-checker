@@ -1,3 +1,0 @@
-function withdrawBalances() public payable {
-     ...
-}

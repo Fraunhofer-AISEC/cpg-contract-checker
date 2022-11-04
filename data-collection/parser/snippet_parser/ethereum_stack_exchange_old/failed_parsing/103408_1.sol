@@ -1,3 +1,0 @@
-function accVehicle() public pure returns(string memory) {
-    ...
-}

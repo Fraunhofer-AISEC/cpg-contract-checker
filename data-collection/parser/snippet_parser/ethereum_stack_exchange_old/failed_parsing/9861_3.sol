@@ -1,2 +1,0 @@
-Iota:BigNumberError bok$ echo "var myTestSource='`stripCrLf Test.sol`'"
-var myTestSource='pragma solidity ^0.4.4;contract Test {  uint public id;  address public addr; bytes32 public name; struct t { bytes32 name; uint id; address addr; }   mapping (address => t) addr_map;  function f1 (uint param_1, bytes32 param_2) returns (bool) { id = param_1; name = param_2; } function f2 (uint param_1, bytes32 param_2) returns (bool) { addr_map[msg.sender].name = param_2; addr_map[msg.sender].id = param_1; }}'

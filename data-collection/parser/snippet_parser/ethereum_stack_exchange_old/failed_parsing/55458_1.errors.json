@@ -1,5 +1,0 @@
-{
-    "no viable alternative at input 'test.sol:'": [
-        "ERROR: when parsing line 1 column 23: no viable alternative at input 'test.sol:'\n"
-    ]
-}

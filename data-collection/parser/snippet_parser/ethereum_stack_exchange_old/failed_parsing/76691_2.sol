@@ -1,3 +1,0 @@
-import "./Pausable.sol";
-
-contract MyContract is Pausable { ...

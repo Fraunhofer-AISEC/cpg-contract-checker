@@ -1,5 +1,0 @@
-{
-    "mismatched input '.' expecting {'{', ','}": [
-        "ERROR: when parsing line 3 column 0: mismatched input '.' expecting {'{', ','}\n"
-    ]
-}

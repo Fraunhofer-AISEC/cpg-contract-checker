@@ -1,2 +1,0 @@
-
-MyStruct memory newStruct = MyStruct();
