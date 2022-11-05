@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
-wget https://github.com/tintinweb/smart-contract-sanctuary-ethereum/archive/a85d0d63d4fde843c91f43af2956bca59458080f.zip
-unzip a85d0d63d4fde843c91f43af2956bca59458080f.zip "smart-contract-sanctuary-ethereum-a85d0d63d4fde843c91f43af2956bca59458080f/contracts/mainnet/*" -d "."
-rm smart-contract-sanctuary-ethereum-a85d0d63d4fde843c91f43af2956bca59458080f/contracts/mainnet/contracts.json
-rm a85d0d63d4fde843c91f43af2956bca59458080f.zip
-mv smart-contract-sanctuary-ethereum-a85d0d63d4fde843c91f43af2956bca59458080f smart-contract-sanctuary-ethereum
+git clone https://github.com/tintinweb/smart-contract-sanctuary-ethereum.git
+rm smart-contract-sanctuary-ethereum/README.md
+rm -rf smart-contract-sanctuary-ethereum/.git
+rm -rf smart-contract-sanctuary-ethereum/docs
+rm -rf smart-contract-sanctuary-ethereum/utils
+rm smart-contract-sanctuary-ethereum/contracts/function_signatures.json
+rm -rf smart-contract-sanctuary-ethereum/contracts/goerli
+rm -rf smart-contract-sanctuary-ethereum/contracts/kovan
+rm -rf smart-contract-sanctuary-ethereum/contracts/rinkeby
+rm -rf smart-contract-sanctuary-ethereum/contracts/ropsten
+rm smart-contract-sanctuary-ethereum/contracts/mainnet/contracts.json
