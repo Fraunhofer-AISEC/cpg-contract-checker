@@ -16,3 +16,6 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |Bad Randomness|   |Planned|Florian|
 |Denial Service|   | |Christof|
 |Others| |Planned|Konrad|  |
+
+
+Christof TODO: Take a look at zero values for HoneyBadger, Maian and Solhint.
