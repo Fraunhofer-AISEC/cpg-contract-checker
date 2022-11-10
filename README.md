@@ -11,8 +11,11 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |CallReturn|   |Finished|Konrad|Done|
 |Reentrancy|   |Finished|Konrad| Done |
 |Arithmetic|   |Finished|Konrad| Done |
-|FrontRunning|   |Planned|     |
+|FrontRunning|   | |Christof|
 |Time Manipulation|   |In Construction|Florian|
 |Bad Randomness|   |Planned|Florian|
-|Denial Service|
+|Denial Service|   | |Christof|
 |Others| |Planned|Konrad|  |
+
+
+Christof TODO: Take a look at zero values for HoneyBadger, Maian and Solhint.
