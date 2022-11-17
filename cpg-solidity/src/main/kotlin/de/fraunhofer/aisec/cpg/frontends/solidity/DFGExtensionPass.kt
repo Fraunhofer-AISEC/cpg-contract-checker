@@ -29,7 +29,7 @@ class DFGExtensionPass: Pass() {
     }
 
     fun getCoarseGrainedTarget(n: Node): Node {
-        if(n is HasBase){
+        if(n is HasBase && n.base != null){
             return getCoarseGrainedTarget(n.base)
         }else if(n is Literal<*>){
             return n

@@ -100,6 +100,8 @@ class SolidityLanguageFrontend(
 
     override fun <T : Any?> getCodeFromRawNode(astNode: T): String? {
         if(astNode is ParserRuleContext){
+            println("Node: " + astNode.text)
+
             return astNode.start.inputStream.getText(Interval(astNode.start.startIndex, astNode.stop.stopIndex))
         }else{
             astNode?.let{

@@ -35,6 +35,8 @@ class App : Callable<Int> {
 
     private val logger = LoggerFactory.getLogger(App::class.java)
 
+    private val compDurations: MutableMap<String, Long> = mutableMapOf()
+
 
     @CommandLine.Parameters(
         arity = "0..*",
@@ -64,7 +66,10 @@ class App : Callable<Int> {
         }
         for(path in files){
             println(path)
-            val tr: TranslationResult= getGraph(path)
+            val start = System.currentTimeMillis()
+            val tr= getGraph(path)
+            var duration = System.currentTimeMillis() - start
+            compDurations["Graph translation"] = compDurations["Graph translation"]?:0 + duration
             tr.translationUnits.forEach {
                 if(SubgraphWalker.flattenAST(it).size <= 4){
                     if(!findings.containsKey("Empty translation")){
@@ -73,9 +78,15 @@ class App : Callable<Int> {
                     findings["Empty translation"]!!.add(it.name)
                 }
             }
-            persistGraph(tr)
+            duration = measureTimeMillis {
+                persistGraph(tr)
+            }
+            compDurations["Persisting graph"] = compDurations["Persisting graph"]?:0 + duration
             println("Running checks")
-            runVulnerabilityChecks(path.toString())
+            duration = measureTimeMillis {
+                runVulnerabilityChecks(path)
+            }
+            compDurations["All checks"] = compDurations["All checks"]?:0 + duration
             nr_checked_files++
             println("Nr. Files: " + nr_checked_files)
         }
@@ -85,6 +96,11 @@ class App : Callable<Int> {
                 println("- " + e)
             }
         }
+        var durationsString = ""
+        compDurations.forEach {(k,v) ->
+            durationsString += k + ": " + v + " ms, "
+        }
+        print(durationsString.dropLast(2) + "\n")
         return 0
     }
 
@@ -179,24 +195,25 @@ class App : Callable<Int> {
         GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", neo4jPassword)).use { driver ->
             driver.session().use { session ->
                 session.readTransaction() { t: Transaction ->
-
-                    for (check in checks){
-                        val duration = measureTimeMillis {
-                            var checkFindings = check.check(t)
-                            if(checkFindings.isNotEmpty()){
-                                if(findings[filename] == null){
-                                    findings.put(filename, mutableListOf())
-                                }
-                                checkFindings.forEach {
-                                    findings[filename]!!.add(check.getVulnerabilityName() + ", "
-                                            + it.artifactLocation.toString().substringAfter("file:") + " "
-                                            + it.region.toString())
+                        for (check in checks) {
+                            val duration = measureTimeMillis {
+                                var checkFindings = check.check(t)
+                                if (checkFindings.isNotEmpty()) {
+                                    if (findings[filename] == null) {
+                                        findings.put(filename, mutableListOf())
+                                    }
+                                    checkFindings.forEach {
+                                        findings[filename]!!.add(
+                                            check.getVulnerabilityName() + ", "
+                                                    + it.artifactLocation.toString().substringAfter("file:") + " "
+                                                    + it.region.toString()
+                                        )
+                                    }
                                 }
                             }
+                            compDurations[check.javaClass.simpleName] = duration
+                            println(check.javaClass.simpleName + " took " + duration + " ms")
                         }
-
-                        println(check.javaClass.simpleName + " took " + duration + " ms")
-                    }
                 }
             }
         }
