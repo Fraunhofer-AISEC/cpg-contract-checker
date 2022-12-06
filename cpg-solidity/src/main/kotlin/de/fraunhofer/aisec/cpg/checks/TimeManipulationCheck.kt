@@ -13,9 +13,9 @@ class TimeManipulationCheck: Check() {
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
         val query = """
-            MATCH (n) 
-            RETURN n 
-            LIMIT 25
+            MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m) -[:EOG*]->(l:CallExpression)
+            WHERE n.name = "timestamp" AND l.name = "send"
+            RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
         """.trimIndent()
         transaction.run(query).let { result ->
             while (result.hasNext()) {
