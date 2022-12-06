@@ -1,0 +1,33 @@
+match p=(f:FunctionDeclaration)-[:EOG*]->(b:BinaryOperator)-[:EOG*]->(last)
+where not exists((last)-[:EOG*]->()) and b.operatorCode in ['+','+=','-','-=','*','*=']
+and exists {(argf:FunctionDeclaration)-->(param:ParamVariableDeclaration)-[:DFG*]->(b) where not 'ConstructorDeclaration' in labels(f)}
+and(
+    exists{
+        (b)-[d:DFG*]->(:FieldDeclaration)
+    } or exists {
+        (b)-[d:DFG*]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*]-(:FieldDeclaration)
+        where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
+    }or exists {
+        (b)-[d:DFG*]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*]-(:FieldDeclaration)
+        where bin.operatorCode in ['++','--']
+
+    } or exists{
+        (b)-[:DFG*]->()<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
+    } or exists{
+        (b)<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
+    }or exists {
+        (b)-[:DFG*]->()<-[:VALUE]-(:SpecifiedExpression)
+    }or exists {
+        (b)<-[:VALUE]-(:SpecifiedExpression)
+    } or exists{
+        (b)-[:DFG*]->(c)-[:EOG]->(t) where exists {(c)-[:EOG]->(v) where t <> v}
+    }
+) and not exists {
+    bpath=(f)-[:EOG*]->(branch)-[:EOG*]->(l)
+    where branch in nodes(p) and not exists((l)-[:EOG]->())
+        and (not b in nodes(bpath) or 'Rollback' in labels(l))
+        and not exists {
+            (dfOrigin)-[:DFG*]->(b) where not exists(()-[:DFG]->(dfOrigin)) and not exists ((dfOrigin)-[:DFG*]->(branch))
+        }
+}
+return distinct b ,b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file

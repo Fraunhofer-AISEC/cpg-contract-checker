@@ -1,3 +1,0 @@
-enum Mode { Open, Auction, Owned, Forbidden, Reveal, NotYetAvailable }
-...
-function state(bytes32 _hash) constant returns (Mode) {

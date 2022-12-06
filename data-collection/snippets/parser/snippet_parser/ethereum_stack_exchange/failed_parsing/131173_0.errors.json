@@ -1,0 +1,23 @@
+{
+    "mismatched input 'works' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 8: mismatched input 'works' expecting {';', NL}\n"
+    ],
+    "mismatched input 'live' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 19: mismatched input 'live' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Keepers' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 34: mismatched input 'Keepers' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Chainlink' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 46: mismatched input 'Chainlink' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 59: mismatched input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'a' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 68: mismatched input 'a' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'winner' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 77: mismatched input 'winner' expecting {'=', ';', NL}\n"
+    ]
+}

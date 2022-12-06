@@ -1,0 +1,8 @@
+{
+    "mismatched input 'forget' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 6: mismatched input 'forget' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'memory' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 17: mismatched input 'memory' expecting {'=', ';', NL}\n"
+    ]
+}

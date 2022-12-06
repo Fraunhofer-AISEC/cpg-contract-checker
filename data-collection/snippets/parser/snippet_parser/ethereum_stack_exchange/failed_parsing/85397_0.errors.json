@@ -1,0 +1,11 @@
+{
+    "mismatched input 'with' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 22: mismatched input 'with' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '0.7.0' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 32: mismatched input '0.7.0' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'f22b' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 50: mismatched input 'f22b' expecting {';', NL}\n"
+    ]
+}

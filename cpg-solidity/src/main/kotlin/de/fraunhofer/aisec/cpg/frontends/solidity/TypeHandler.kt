@@ -14,6 +14,9 @@ class TypeHandler(lang: SolidityLanguageFrontend) : Handler<Type, ParserRuleCont
 
     init {
         map.put(SolidityParser.TypeNameContext::class.java) { handleTypeName(it as SolidityParser.TypeNameContext) }
+
+        // Todo can we adapt the type parser here to properly fit the Solidity types?
+        //configureTypeParser()
     }
 
     private fun handleTypeName(ctx: SolidityParser.TypeNameContext): Type {
@@ -24,5 +27,16 @@ class TypeHandler(lang: SolidityLanguageFrontend) : Handler<Type, ParserRuleCont
         logger.warn("Empty type name could not be translated properly")
 
         return UnknownType.getUnknownType()
+    }
+
+    private fun configureTypeParser(){
+        TypeParser.PRIMITIVES.add("bool")
+        TypeParser.PRIMITIVES.add("address")
+        TypeParser.PRIMITIVES.addAll(setOf("uint"))
+        TypeParser.PRIMITIVES.addAll(setOf("int"))
+        for(i in 256 downTo 8 step 8){
+            TypeParser.PRIMITIVES.add("uint$i")
+            TypeParser.PRIMITIVES.add("int$i")
+        }
     }
 }

@@ -16,7 +16,7 @@ class DFGExtensionPass: Pass() {
         var nodes = SubgraphWalker.flattenAST(p0)
         nodes = nodes.filter { it is BinaryOperator && it.operatorCode in binOp || it is UnaryOperator && it.operatorCode in unaOp}
         nodes.map { getSourceTargetExpression(it) }.forEach {
-            if(!(it.second is DeclaredReferenceExpression)){
+            if(it.second.javaClass != DeclaredReferenceExpression::class.java){
                 // Todo find the expression that is that target
                 var coarseGrainedTarget = getCoarseGrainedTarget(it.second)
                 if(coarseGrainedTarget is DeclaredReferenceExpression){
@@ -29,7 +29,7 @@ class DFGExtensionPass: Pass() {
     }
 
     fun getCoarseGrainedTarget(n: Node): Node {
-        if(n is HasBase){
+        if(n is HasBase && n.base != null){
             return getCoarseGrainedTarget(n.base)
         }else if(n is Literal<*>){
             return n

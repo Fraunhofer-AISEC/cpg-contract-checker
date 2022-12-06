@@ -1,0 +1,8 @@
+{
+    "no viable alternative at input 'revert(\"Index in not exist\")l'": [
+        "ERROR: when parsing line 6 column 34: no viable alternative at input 'revert(\"Index in not exist\")l'\n"
+    ],
+    "extraneous input 'l' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 34: extraneous input 'l' expecting {';', NL}\n"
+    ]
+}

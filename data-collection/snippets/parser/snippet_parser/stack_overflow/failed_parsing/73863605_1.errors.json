@@ -1,0 +1,8 @@
+{
+    "extraneous input 'public' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 31: extraneous input 'public' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'xTOKEN' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 41: extraneous input 'xTOKEN' expecting {';', NL}\n"
+    ]
+}

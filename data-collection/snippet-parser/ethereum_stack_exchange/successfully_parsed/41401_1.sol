@@ -1,3 +1,0 @@
-function storeETH() payable public {    
-    
-}

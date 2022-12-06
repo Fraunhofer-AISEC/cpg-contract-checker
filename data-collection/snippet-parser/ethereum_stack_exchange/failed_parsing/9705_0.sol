@@ -1,8 +1,0 @@
-contract Call {
-  ...
-  function () payable {
-    
-    
-    
-  }
-}

@@ -1,0 +1,4 @@
+ function getBytes32() public pure returns (bytes32) 
+ {
+    return keccak256("0x0000000000000000000000000000000000000000000000000000000000000001");
+ }

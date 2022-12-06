@@ -3,14 +3,19 @@ This project aims to identify known smart contract vulnerabilities in code snipp
 ## Usage
 ## Vulnerability Checks
 Progress is described in: Planned, In construction, Finished and Improving. Here a check can be worked on after it is finished to improve found 
-|Check|Vulnerabillity|Progress|
-|---|---|---|
-|AccessControlLogic|   |In construction|
-|AccessControlSelfdestruct|   |Finished|
-|AddressPadding|   |Finished|
-|CallReturn|   |Finished|
-|Reentrancy|   |Improving|
-|Overflow|   |Planned|
-|Underflow|   |Planned|
-|FrontRunning|   |Planned|
-|Time Manipulation|   |Planned|
+|Check|Vulnerabillity|Progress|Assigned|Mapped|
+|---|---|---|---|---|
+|AccessControlLogic|   |Finished|Konrad|Done|
+|AccessControlSelfdestruct|   |Finished|Konrad|Done|
+|AddressPadding|   |Finished|Konrad|Done|
+|CallReturn|   |Finished|Konrad|Done|
+|Reentrancy|   |Finished|Konrad| Done |
+|Arithmetic|   |Finished|Konrad| Done |
+|FrontRunning|   |Planned|Konrad|
+|Time Manipulation|   |In Construction|Florian|
+|Bad Randomness|   |Planned|Florian|
+|Denial of Service|   |Planned|Konrad|
+|Others| |Planned|Konrad|  |
+
+
+Christof TODO: Take a look at zero values for HoneyBadger, Maian and Solhint.

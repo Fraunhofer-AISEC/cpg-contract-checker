@@ -1,8 +1,0 @@
-{
-    "no viable alternative at input '(addresspayable'": [
-        "ERROR: when parsing line 3 column 24: no viable alternative at input '(addresspayable'\n"
-    ],
-    "mismatched input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 3 column 31: mismatched input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ]
-}

@@ -1,9 +1,0 @@
-function approve(address spender, uint value) external returns (bool) {
-...
-}
-function approve(address owner, address spender, uint value) external returns (bool) {
-...
-}
-function approveInf(address owner, address spender) external returns (bool) {
-...
-}

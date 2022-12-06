@@ -1,0 +1,8 @@
+{
+    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 3 column 29: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 42: mismatched input ',' expecting {';', NL}\n"
+    ]
+}

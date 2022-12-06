@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'File\"C:\\Users\\ollie\\.local\\pipx\\venvs\\eth-brownie\\lib\\site-packages\\brownie\\_cli\\__main__.py\"'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input 'File\"C:\\Users\\ollie\\.local\\pipx\\venvs\\eth-brownie\\lib\\site-packages\\brownie\\_cli\\__main__.py\"'\n"
+    ]
+}

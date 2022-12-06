@@ -1,0 +1,13 @@
+match p=(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
+where (not exists(f.name) or f.name = null or f.name = '') and  toUpper(c.name) in ['DELEGATECALL' , 'CALLCODE'] 
+and not exists ((last)-[:EOG|INVOKES]->()) 
+and not 'Rollback' in labels(last)
+and (exists {
+    ({code: 'msg.data'})<-[:ARGUMENTS]-(c)
+} or exists{({code: 'msg.data'})-[:DFG*]->()<-[:ARGUMENTS]-(c)})
+and not exists{
+    ({code: 'msg.data'})-[:DFG*]->(n)-[:EOG]->(apath) where n in nodes(p) and exists {
+    d=(f)-[:EOG|INVOKES*]->(n)-[:EOG|INVOKES*]->(otherpath) where not exists{ (otherpath)-[:EOG|INVOKES]->() } and not c in nodes(d) or 'Rollback' in labels(otherpath)
+    }
+}
+return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file

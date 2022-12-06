@@ -208,7 +208,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
         val record = this.lang.scopeManager.currentRecord
 
-        val method = if(desc.ConstructorKeyword() != null) {
+        val method = if(desc.ConstructorKeyword() != null || record != null && desc.identifier() != null && desc.identifier().text.equals(record.name)) {
             NodeBuilder.newConstructorDeclaration(
                 record?.name ?: "",
                 this.lang.getCodeFromRawNode(ctx),

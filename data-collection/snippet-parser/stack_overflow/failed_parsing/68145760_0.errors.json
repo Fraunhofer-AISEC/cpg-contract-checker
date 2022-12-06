@@ -1,8 +1,0 @@
-{
-    "no viable alternative at input 'bar.\\nstring'": [
-        "ERROR: when parsing line 17 column 4: no viable alternative at input 'bar.\\nstring'\n"
-    ],
-    "extraneous input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 18 column 2: extraneous input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ]
-}

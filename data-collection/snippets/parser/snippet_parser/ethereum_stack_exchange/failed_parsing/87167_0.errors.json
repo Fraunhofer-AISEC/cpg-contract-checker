@@ -1,0 +1,23 @@
+{
+    "mismatched input 'A' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 12: mismatched input 'A' expecting {';', NL}\n"
+    ],
+    "extraneous input 'function' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 2 column 0: extraneous input 'function' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 21: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 47: mismatched input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 69: mismatched input ')' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 3 column 11: extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input ')' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 3 column 29: mismatched input ')' expecting {'{', 'is'}\n"
+    ]
+}

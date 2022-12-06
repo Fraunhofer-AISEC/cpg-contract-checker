@@ -1,0 +1,17 @@
+{
+    "extraneous input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 32: extraneous input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'amount0,'": [
+        "ERROR: when parsing line 10 column 9: no viable alternative at input 'amount0,'\n"
+    ],
+    "mismatched input 'address' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 2: mismatched input 'address' expecting {';', NL}\n"
+    ],
+    "extraneous input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 15: extraneous input ',' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 14 column 0: extraneous input ')' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "mismatched input '**' expecting {';', 'anonymous', NL}": [
+        "ERROR: when parsing line 9 column 31: mismatched input '**' expecting {';', 'anonymous', NL}\n"
+    ],
+    "mismatched input '**' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 9 column 51: mismatched input '**' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ]
+}

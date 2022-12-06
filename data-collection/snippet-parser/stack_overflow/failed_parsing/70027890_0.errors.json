@@ -1,8 +1,0 @@
-{
-    "mismatched input 'to' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input 'to' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'package' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 20: mismatched input 'package' expecting {'=', ';', NL}\n"
-    ]
-}

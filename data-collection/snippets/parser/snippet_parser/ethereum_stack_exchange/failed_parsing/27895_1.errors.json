@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'address[]memory'": [
+        "ERROR: when parsing line 2 column 10: no viable alternative at input 'address[]memory'\n"
+    ]
+}

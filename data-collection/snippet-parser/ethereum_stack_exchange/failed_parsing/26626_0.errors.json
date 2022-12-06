@@ -1,5 +1,0 @@
-{
-    "no viable alternative at input '(LogFundingSuccessful(msg.sender,msg.value,totalRaised)\\n\\n\\n\\nreturn'": [
-        "ERROR: when parsing line 26 column 8: no viable alternative at input '(LogFundingSuccessful(msg.sender,msg.value,totalRaised)\\n\\n\\n\\nreturn'\n"
-    ]
-}

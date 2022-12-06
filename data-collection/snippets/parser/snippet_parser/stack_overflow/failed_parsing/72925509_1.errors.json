@@ -1,0 +1,11 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 21 column 15: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input 'function' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 22 column 8: extraneous input 'function' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "no viable alternative at input '_;'": [
+        "ERROR: when parsing line 23 column 10: no viable alternative at input '_;'\n"
+    ]
+}

@@ -6,6 +6,7 @@ package de.fraunhofer.aisec.cpg;
 import de.fraunhofer.aisec.cpg.checks.*
 import de.fraunhofer.aisec.cpg.frontends.solidity.DFGExtensionPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
+import de.fraunhofer.aisec.cpg.frontends.solidity.GraphExtensionsPass
 import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
@@ -27,11 +28,14 @@ import java.util.concurrent.Callable
 import java.util.stream.Collectors
 import kotlin.io.path.isDirectory
 import kotlin.system.exitProcess
+import kotlin.system.measureTimeMillis
 
 
 class App : Callable<Int> {
 
     private val logger = LoggerFactory.getLogger(App::class.java)
+
+    private val compDurations: MutableMap<String, Long> = mutableMapOf()
 
 
     @CommandLine.Parameters(
@@ -62,7 +66,10 @@ class App : Callable<Int> {
         }
         for(path in files){
             println(path)
-            val tr: TranslationResult= getGraph(path)
+            val start = System.currentTimeMillis()
+            val tr= getGraph(path)
+            var duration = System.currentTimeMillis() - start
+            compDurations["Graph translation"] = compDurations["Graph translation"]?:0 + duration
             tr.translationUnits.forEach {
                 if(SubgraphWalker.flattenAST(it).size <= 4){
                     if(!findings.containsKey("Empty translation")){
@@ -71,8 +78,15 @@ class App : Callable<Int> {
                     findings["Empty translation"]!!.add(it.name)
                 }
             }
-            persistGraph(tr)
-            runVulnerabilityChecks(path.toString())
+            duration = measureTimeMillis {
+                persistGraph(tr)
+            }
+            compDurations["Persisting graph"] = compDurations["Persisting graph"]?:0 + duration
+            println("Running checks")
+            duration = measureTimeMillis {
+                runVulnerabilityChecks(path)
+            }
+            compDurations["All checks"] = compDurations["All checks"]?:0 + duration
             nr_checked_files++
             println("Nr. Files: " + nr_checked_files)
         }
@@ -82,6 +96,11 @@ class App : Callable<Int> {
                 println("- " + e)
             }
         }
+        var durationsString = ""
+        compDurations.forEach {(k,v) ->
+            durationsString += k + ": " + v + " ms, "
+        }
+        print(durationsString.dropLast(2) + "\n")
         return 0
     }
 
@@ -105,6 +124,7 @@ class App : Callable<Int> {
                 )
                 .registerPass(EOGExtensionPass())
                 .registerPass(DFGExtensionPass())
+                .registerPass(GraphExtensionsPass())
                 .debugParser(true)
                 .processAnnotations(true)
                 .build()
@@ -121,11 +141,14 @@ class App : Callable<Int> {
     }
 
     fun registerChecks(){
-        checks.add(ReentrancyCheck())
+        checks.add(OverUnderflowCheck())
+        checks.add(AddressPaddingCheck())
         checks.add(AccessControlSelfdestructCheck())
         checks.add(CallReturnCheck())
-        checks.add(AddressPaddingCheck())
         checks.add(AccessControlLogicCheck())
+        checks.add(ReentrancyCheck())
+        checks.add(DefaultProxyDelegateCheck())
+        checks.add(TXOriginCheck())
         checks.add(BadRandomnessCheck())
     }
 
@@ -145,10 +168,10 @@ class App : Callable<Int> {
             session.purgeDatabase()
 
             val b = Benchmark(App::class.java, "Saving nodes to database")
-            /*result.translationUnits.forEach {
+            result.translationUnits.forEach {
                 println("Saving file:" + it.name)
                 session.save(it)
-            }*/
+            }
 
             val nodes = mutableListOf<Node>()
             nodes.addAll(result.additionalNodes)
@@ -173,20 +196,25 @@ class App : Callable<Int> {
         GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", neo4jPassword)).use { driver ->
             driver.session().use { session ->
                 session.readTransaction() { t: Transaction ->
-
-                    for (check in checks){
-                        var checkFindings = check.check(t)
-                        if(checkFindings.isNotEmpty()){
-                            if(findings[filename] == null){
-                                findings.put(filename, mutableListOf())
+                        for (check in checks) {
+                            val duration = measureTimeMillis {
+                                var checkFindings = check.check(t)
+                                if (checkFindings.isNotEmpty()) {
+                                    if (findings[filename] == null) {
+                                        findings.put(filename, mutableListOf())
+                                    }
+                                    checkFindings.forEach {
+                                        findings[filename]!!.add(
+                                            check.getVulnerabilityName() + ", "
+                                                    + it.artifactLocation.toString().substringAfter("file:") + " "
+                                                    + it.region.toString()
+                                        )
+                                    }
+                                }
                             }
-                            checkFindings.forEach {
-                                findings[filename]!!.add(check.getVulnerabilityName() + ", "
-                                        + it.artifactLocation.toString().substringAfter("file:") + " "
-                                        + it.region.toString())
-                            }
+                            compDurations[check.javaClass.simpleName] = duration
+                            println(check.javaClass.simpleName + " took " + duration + " ms")
                         }
-                    }
                 }
             }
         }

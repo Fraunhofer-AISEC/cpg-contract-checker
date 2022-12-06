@@ -1,5 +1,0 @@
-{
-    "mismatched input 'IERC20' expecting {'{', 'is'}": [
-        "ERROR: when parsing line 7 column 17: mismatched input 'IERC20' expecting {'{', 'is'}\n"
-    ]
-}

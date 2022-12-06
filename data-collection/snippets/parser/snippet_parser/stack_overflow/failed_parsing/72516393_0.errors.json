@@ -1,0 +1,44 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 11: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 11: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'yourself' expecting ')'": [
+        "ERROR: when parsing line 5 column 4: mismatched input 'yourself' expecting ')'\n"
+    ],
+    "mismatched input 'first' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 24: mismatched input 'first' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 11: mismatched input '(' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 19 column 11: mismatched input '(' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'because' expecting ')'": [
+        "ERROR: when parsing line 18 column 5: mismatched input 'because' expecting ')'\n"
+    ],
+    "mismatched input 'are' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 18 column 17: mismatched input 'are' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Owner' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 18 column 25: mismatched input 'Owner' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'require' expecting ')'": [
+        "ERROR: when parsing line 21 column 4: mismatched input 'require' expecting ')'\n"
+    ],
+    "mismatched input '_landId' expecting ')'": [
+        "ERROR: when parsing line 30 column 8: mismatched input '_landId' expecting ')'\n",
+        "ERROR: when parsing line 39 column 8: mismatched input '_landId' expecting ')'\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 30 column 41: mismatched input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 39 column 41: mismatched input ',' expecting {';', NL}\n"
+    ],
+    "extraneous input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 30 column 68: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 39 column 68: extraneous input ',' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'msg.sender)'": [
+        "ERROR: when parsing line 31 column 10: no viable alternative at input 'msg.sender)'\n",
+        "ERROR: when parsing line 40 column 10: no viable alternative at input 'msg.sender)'\n"
+    ]
+}

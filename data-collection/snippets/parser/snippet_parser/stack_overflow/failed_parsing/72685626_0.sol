@@ -1,0 +1,3 @@
+contract MoriNFT is ERC721URIStorage {
+...
+}

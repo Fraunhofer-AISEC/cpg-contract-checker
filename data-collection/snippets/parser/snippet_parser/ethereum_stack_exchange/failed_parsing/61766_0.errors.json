@@ -1,0 +1,26 @@
+{
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 16: extraneous input '{' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 9 column 0: extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "extraneous input 'public' expecting {'{', ';', NL}": [
+        "ERROR: when parsing line 14 column 57: extraneous input 'public' expecting {'{', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 46: extraneous input '}' expecting {';', NL}\n"
+    ],
+    "extraneous input 'exb' expecting {'(', NL}": [
+        "ERROR: when parsing line 20 column 11: extraneous input 'exb' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_structaddr' expecting {',', ')'}": [
+        "ERROR: when parsing line 20 column 23: extraneous input '_structaddr' expecting {',', ')'}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 20 column 35: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "missing '}' at 'import'": [
+        "ERROR: when parsing line 27 column 0: missing '}' at 'import'\n"
+    ]
+}
