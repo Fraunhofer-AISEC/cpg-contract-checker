@@ -1,0 +1,3 @@
+match (c:CallExpression)
+where c.name in ['send']
+ distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.name as name

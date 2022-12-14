@@ -11,13 +11,14 @@ class DFGExtensionPass: Pass() {
 
     val binOp = setOf("=", "|=", "^=", "&=", "<<=",">>=","+=", "-=", "*=", "/=", "%=")
     val unaOp = setOf("++", "--")
+    // some member accesses don't transmit direct data
+    val memberAccessWithoutData = setOf("length")
 
     override fun accept(p0: TranslationResult?) {
         var nodes = SubgraphWalker.flattenAST(p0)
-        nodes = nodes.filter { it is BinaryOperator && it.operatorCode in binOp || it is UnaryOperator && it.operatorCode in unaOp}
-        nodes.map { getSourceTargetExpression(it) }.forEach {
+        val nodesBinary = nodes.filter { it is BinaryOperator && it.operatorCode in binOp || it is UnaryOperator && it.operatorCode in unaOp}
+        nodesBinary.map { getSourceTargetExpression(it) }.forEach {
             if(it.second.javaClass != DeclaredReferenceExpression::class.java){
-                // Todo find the expression that is that target
                 var coarseGrainedTarget = getCoarseGrainedTarget(it.second)
                 if(coarseGrainedTarget is DeclaredReferenceExpression){
                     coarseGrainedTarget.addPrevDFG(it.first)
@@ -26,6 +27,22 @@ class DFGExtensionPass: Pass() {
 
             }
         }
+
+        // While no direct data is flowing from the array subscript to the expression, selection information constitutes an indirect data-flow
+        nodes.filterIsInstance<ArraySubscriptionExpression>().map { it.addPrevDFG(it.subscriptExpression) }
+
+        /*
+            Generalizing any dataflow from an unknown field of a class to data flows of the reference. We have to exclude certain member
+            names from this generalization as it leads to many false positives in the case of msg.data.length. However, we can
+            exclude 'length' specifically as it transpots far less information.
+         */
+        nodes.filterIsInstance<MemberExpression>().map {
+            if(it.refersTo == null && !memberAccessWithoutData.contains(it.name)){
+                it.addPrevDFG(it.base)
+            }
+        }
+
+
     }
 
     fun getCoarseGrainedTarget(n: Node): Node {

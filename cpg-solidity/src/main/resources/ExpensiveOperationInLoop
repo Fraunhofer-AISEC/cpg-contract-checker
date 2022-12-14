@@ -1,0 +1,7 @@
+match p=(cond)-[:EOG]->(b)-[:EOG*]->(b)
+where exists { (b)-[:EOG]->(outLoop) where not outLoop in nodes(p) }
+    and exists { (f)-[:PARAMETERS]->(userC:ParamVariableDeclaration)-[DFG*]->(cond) where 'ConstructorDeclaration' not in labels(f)}
+    and (exists {(exp)-[DFG]->(:FieldDeclaration) where exp in nodes(p)}
+    or exists{(exp):CallExpression where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-INVOKES->(target) where not exists {(target)-[:BODY]->()}}}
+    )
+return  distinct  b as call, b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file, b.name as name
