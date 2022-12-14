@@ -11,10 +11,10 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |CallReturn|   |Finished|Konrad|Done|
 |Reentrancy|   |Finished|Konrad| Done |
 |Arithmetic|   |Finished|Konrad| Done |
-|FrontRunning|   | |Christof|
+|FrontRunning|   |Planned|Konrad|
 |Time Manipulation|   |In Construction|Florian|
 |Bad Randomness|   |Planned|Florian|
-|Denial Service|   | |Christof|
+|Denial of Service|   |Planned|Konrad|
 |Others| |Planned|Konrad|  |
 
 
