@@ -1,7 +1,10 @@
-match p=(cond)-[:EOG]->(b)-[:EOG*]->(b)
-where exists { (b)-[:EOG]->(outLoop) where not outLoop in nodes(p) }
-    and exists { (f)-[:PARAMETERS]->(userC:ParamVariableDeclaration)-[DFG*]->(cond) where 'ConstructorDeclaration' not in labels(f)}
-    and (exists {(exp)-[DFG]->(:FieldDeclaration) where exp in nodes(p)}
-    or exists{(exp):CallExpression where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-INVOKES->(target) where not exists {(target)-[:BODY]->()}}}
+match p=(cond)-[:EOG]->(b)-[:EOG*]->(exp)
+where (b:ForStatement or b:WhileStatement or b:DoStatement or b:ForEachStatement)
+    and exists((exp)-[:EOG*]->(b))
+    and  (exists {(exp)-[DFG]->(:FieldDeclaration) where exp in nodes(p)}
+    or exists{(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}}
+    )  and (
+        exists { (cond)<-[:DFG*]-(userC:ParamVariableDeclaration)<-[:PARAMETERS]-(f) where not 'ConstructorDeclaration' in labels(f)}
+        or exists {(l:Literal)-[:DFG*]->(cond:BinaryOperator) where cond.operatorCode in ['<','<=','>','>='] and l.value > 100} // Here for now we choose a number as threshhold to specify what to many iterations are
     )
 return  distinct  b as call, b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file, b.name as name
