@@ -6,7 +6,7 @@ grammar Solidity;
 
 sourceUnit
   : NL*
-    ((
+    (
     pragmaDirective
     | importDirective
     | contractDefinition
@@ -15,7 +15,7 @@ sourceUnit
     | contractPart
     | fileLevelConstant
     | customErrorDefinition
-    )* | block | statement*) EOF ;
+    | block | statement)* EOF ;
 
 pragmaDirective
   : 'pragma' NL* pragmaName pragmaValue eos ;
