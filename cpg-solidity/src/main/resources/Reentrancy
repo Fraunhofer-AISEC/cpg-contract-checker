@@ -1,5 +1,6 @@
 match p=(base)-[:BASE]-(c:CallExpression)-[e:EOG|INVOKES|RETURNS*]->(n)
-where (
+where not exists {(c)<--(em:EmitStatement)}
+and (
     exists{
         (n)-[d:DFG*]->(:FieldDeclaration)
     } or exists {

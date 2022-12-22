@@ -141,7 +141,6 @@ class App : Callable<Int> {
     }
 
     fun registerChecks(){
-        checks.add(OverUnderflowCheck())
         checks.add(AddressPaddingCheck())
         checks.add(AccessControlSelfdestructCheck())
         checks.add(CallReturnCheck())
@@ -149,6 +148,8 @@ class App : Callable<Int> {
         checks.add(ReentrancyCheck())
         checks.add(DefaultProxyDelegateCheck())
         checks.add(TXOriginCheck())
+        checks.add(OverUnderflowCheck())
+        checks.add(LocalWriteToStorageCheck())
         checks.add(BadRandomnessCheck())
     }
 
