@@ -13,7 +13,7 @@ class DOSCheck : Check() {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
 
         // Adding secondary query that checks if one of our state changes can be influenced by a padded value
-        var query =object {}.javaClass.getResourceAsStream("/ExpensiveOperationInLoop")?.bufferedReader()?.readText()
+        var query =object {}.javaClass.getResourceAsStream("/DOSThroughExhaustion")?.bufferedReader()?.readText()
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
