@@ -32,7 +32,7 @@ val versions = mapOf(
 )
 
 dependencies {
-    api("com.github.Fraunhofer-AISEC.cpg", "cpg-core", versions["cpg"])
+    api("de.fraunhofer.aisec", "cpg-core", versions["cpg"])
     antlr("org.antlr:antlr4:4.5")
 
 
