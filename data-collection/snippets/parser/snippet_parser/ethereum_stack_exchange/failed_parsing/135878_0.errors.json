@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'developmentChains.includes(network.name)\\n?describe.skip\\n:describe(\"multi sig staging test\",function'": [
+        "ERROR: when parsing line 3 column 41: no viable alternative at input 'developmentChains.includes(network.name)\\n?describe.skip\\n:describe(\"multi sig staging test\",function'\n"
+    ]
+}

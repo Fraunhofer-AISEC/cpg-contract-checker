@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"Should fetch balance of a Nft1155Upgradeable\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 57: no viable alternative at input 'it(\"Should fetch balance of a Nft1155Upgradeable\",asyncfunction'\n"
+    ]
+}

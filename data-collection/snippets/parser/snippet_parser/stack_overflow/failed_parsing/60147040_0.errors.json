@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'ERC20(AToken).transferFrom(msg.sender,address(this),amount);\\n\\n\\n\\n.'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'ERC20(AToken).transferFrom(msg.sender,address(this),amount);\\n\\n\\n\\n.'\n"
+    ]
+}

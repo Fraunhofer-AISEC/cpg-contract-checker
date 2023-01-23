@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfunc(uintn,parameters*'": [
+        "ERROR: when parsing line 1 column 33: no viable alternative at input 'functionfunc(uintn,parameters*'\n"
+    ]
+}

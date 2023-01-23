@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structTest{\\n\\n\\nfunctionmyfunc'": [
+        "ERROR: when parsing line 4 column 9: no viable alternative at input 'structTest{\\n\\n\\nfunctionmyfunc'\n"
+    ]
+}

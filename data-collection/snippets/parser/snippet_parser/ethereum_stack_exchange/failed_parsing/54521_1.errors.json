@@ -1,0 +1,8 @@
+{
+    "mismatched input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 1 column 18: mismatched input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'memory' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 21: mismatched input 'memory' expecting {';', NL}\n"
+    ]
+}

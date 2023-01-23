@@ -1,0 +1,66 @@
+{
+    "mismatched input 'Contract' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 2: mismatched input 'Contract' expecting {';', NL}\n"
+    ],
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 15: mismatched input ':' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 7 column 10: mismatched input ':' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 10 column 50: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'Transaction:'": [
+        "ERROR: when parsing line 3 column 13: no viable alternative at input 'Transaction:'\n"
+    ],
+    "mismatched input 'From' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 2: mismatched input 'From' expecting {';', NL}\n"
+    ],
+    "mismatched input 'To' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 2: mismatched input 'To' expecting {';', NL}\n"
+    ],
+    "mismatched input 'Value' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 2: mismatched input 'Value' expecting {';', NL}\n"
+    ],
+    "extraneous input 'ETH' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 29: extraneous input 'ETH' expecting {';', NL}\n"
+    ],
+    "mismatched input 'of' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 29: mismatched input 'of' expecting {';', NL}\n"
+    ],
+    "mismatched input 'Block' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 2: mismatched input 'Block' expecting {';', NL}\n"
+    ],
+    "mismatched input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 10: mismatched input ':' expecting {';', NL}\n"
+    ],
+    "mismatched input 'Error' expecting {';', NL}": [
+        "ERROR: when parsing line 10 column 2: mismatched input 'Error' expecting {';', NL}\n"
+    ],
+    "mismatched input 'while' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 22: mismatched input 'while' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'processing' expecting {'(', NL}": [
+        "ERROR: when parsing line 10 column 28: mismatched input 'processing' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'reason' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 66: mismatched input 'reason' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'at' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 6: mismatched input 'at' expecting {';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 11 column 17: mismatched input '.' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 12 column 17: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 26: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'ERC721.sol:'": [
+        "ERROR: when parsing line 11 column 74: no viable alternative at input 'ERC721.sol:'\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 78: extraneous input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 55: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input '(contracts/RonteNft.sol:'": [
+        "ERROR: when parsing line 12 column 51: no viable alternative at input '(contracts/RonteNft.sol:'\n"
+    ]
+}

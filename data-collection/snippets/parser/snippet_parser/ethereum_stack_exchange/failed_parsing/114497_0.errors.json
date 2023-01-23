@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor(address_wool,address_traits,uint256_maxTokens)ERC721(\"Wolf Game\",'WGAME'){\\nwool=WOOL(_wool);\\ntraits=ITraits(_traits);\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'constructor(address_wool,address_traits,uint256_maxTokens)ERC721(\"Wolf Game\",'WGAME'){\\nwool=WOOL(_wool);\\ntraits=ITraits(_traits);\\n'\n"
+    ]
+}

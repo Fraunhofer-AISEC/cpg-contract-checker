@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionregisterDriver(uint_perkm)publicpayablereturns(stringmemory){\\nrequire(Drivers[msg.sender]==0,Driver.driverCount++;'": [
+        "ERROR: when parsing line 4 column 25: no viable alternative at input 'functionregisterDriver(uint_perkm)publicpayablereturns(stringmemory){\\nrequire(Drivers[msg.sender]==0,Driver.driverCount++;'\n"
+    ]
+}

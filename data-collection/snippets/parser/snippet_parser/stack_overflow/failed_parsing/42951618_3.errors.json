@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionnewShareholder()returns(addressshareholderContract){\\nShareholdershareholdernew'": [
+        "ERROR: when parsing line 2 column 29: no viable alternative at input 'functionnewShareholder()returns(addressshareholderContract){\\nShareholdershareholdernew'\n"
+    ]
+}

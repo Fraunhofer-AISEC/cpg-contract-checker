@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('should never be zero',async()=>'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'it('should never be zero',async()=>'\n"
+    ]
+}

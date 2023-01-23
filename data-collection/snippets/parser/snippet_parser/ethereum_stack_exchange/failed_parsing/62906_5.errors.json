@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaddUsers(address_address,string_companyName,string_role,\\nstring_country,string_city,uint_phoneNo,\\nstring_physicalAddress)only_adminpublicreturns(bool){\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functionaddUsers(address_address,string_companyName,string_role,\\nstring_country,string_city,uint_phoneNo,\\nstring_physicalAddress)only_adminpublicreturns(bool){\\n'\n"
+    ]
+}

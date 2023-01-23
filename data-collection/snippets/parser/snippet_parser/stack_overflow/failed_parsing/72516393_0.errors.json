@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondepositEthers()publicpayable\\n{\\nrequire(users[msg.sender].flag!=0,getyourself'": [
+        "ERROR: when parsing line 5 column 4: no viable alternative at input 'functiondepositEthers()publicpayable\\n{\\nrequire(users[msg.sender].flag!=0,getyourself'\n"
+    ]
+}

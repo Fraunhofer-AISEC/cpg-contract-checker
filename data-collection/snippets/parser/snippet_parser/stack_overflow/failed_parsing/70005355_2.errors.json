@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsignatureWallet(addresswallet,uint256[]memory_tokensId,uint256_timestamp,bytesmemory_signature)publicviewreturns(address){\\n\\nreturnECDSA.recover(keccak256(abi.encode(wallet,_tokensId,_timestamp)),_signature);\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functionsignatureWallet(addresswallet,uint256[]memory_tokensId,uint256_timestamp,bytesmemory_signature)publicviewreturns(address){\\n\\nreturnECDSA.recover(keccak256(abi.encode(wallet,_tokensId,_timestamp)),_signature);\\n'\n"
+    ]
+}

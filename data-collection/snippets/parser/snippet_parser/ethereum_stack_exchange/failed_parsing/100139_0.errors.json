@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structRoyaltyInfo{\\nmapping(address=>uint256)private'": [
+        "ERROR: when parsing line 5 column 33: no viable alternative at input 'structRoyaltyInfo{\\nmapping(address=>uint256)private'\n"
+    ]
+}

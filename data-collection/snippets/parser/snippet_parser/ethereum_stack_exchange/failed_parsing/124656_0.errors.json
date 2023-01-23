@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncalculateUserAccountData(\\naddressuser,\\nmapping(address=>DataTypes.ReserveData)storagereservesData,\\nDataTypes.UserConfigurationMapmemoryuserConfig,\\nmapping(uint256=>address)storagereserves,\\nuint256reservesCount,\\naddressoracle\\n)\\ninternal\\nview\\nreturns(\\nuint256,\\nuint256,\\nuint256,\\nuint256,\\nuint256\\n)\\n{\\n.'": [
+        "ERROR: when parsing line 19 column 1: no viable alternative at input 'functioncalculateUserAccountData(\\naddressuser,\\nmapping(address=>DataTypes.ReserveData)storagereservesData,\\nDataTypes.UserConfigurationMapmemoryuserConfig,\\nmapping(uint256=>address)storagereserves,\\nuint256reservesCount,\\naddressoracle\\n)\\ninternal\\nview\\nreturns(\\nuint256,\\nuint256,\\nuint256,\\nuint256,\\nuint256\\n)\\n{\\n.'\n"
+    ]
+}

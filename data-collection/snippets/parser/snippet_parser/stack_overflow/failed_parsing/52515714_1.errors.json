@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionp1(uintx){\\nif(x>5)\\nif(x*x<20)\\nXXX}'": [
+        "ERROR: when parsing line 4 column 11: no viable alternative at input 'functionp1(uintx){\\nif(x>5)\\nif(x*x<20)\\nXXX}'\n"
+    ]
+}

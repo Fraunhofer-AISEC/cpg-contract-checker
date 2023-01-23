@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uint256publicMAXUINT256=2*256-1;\\n\\nfor'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'uint256publicMAXUINT256=2*256-1;\\n\\nfor'\n"
+    ]
+}

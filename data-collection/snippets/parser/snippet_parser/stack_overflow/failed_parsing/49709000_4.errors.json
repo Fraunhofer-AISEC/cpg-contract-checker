@@ -1,0 +1,117 @@
+{
+    "mismatched input 'ast' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 0: mismatched input 'ast' expecting {';', NL}\n"
+    ],
+    "mismatched input 'of' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 10: mismatched input 'of' expecting {';', NL}\n"
+    ],
+    "extraneous input 'files' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 24: extraneous input 'files' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 3 column 37: extraneous input 'files' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'AST' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 19: mismatched input 'AST' expecting {';', NL}\n"
+    ],
+    "mismatched input 'documentation' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 19: mismatched input 'documentation' expecting {';', NL}\n",
+        "ERROR: when parsing line 5 column 15: mismatched input 'documentation' expecting {';', NL}\n"
+    ],
+    "mismatched input 'ir' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 0: mismatched input 'ir' expecting {';', NL}\n"
+    ],
+    "mismatched input 'assembly' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 9: mismatched input 'assembly' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 19: mismatched input 'assembly' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 31: mismatched input 'assembly' expecting {';', NL}\n"
+    ],
+    "mismatched input 'format' expecting {'{', StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 7 column 18: mismatched input 'format' expecting {'{', StringLiteralFragment, NL}\n",
+        "ERROR: when parsing line 8 column 28: mismatched input 'format' expecting {'{', StringLiteralFragment, NL}\n",
+        "ERROR: when parsing line 9 column 40: mismatched input 'format' expecting {'{', StringLiteralFragment, NL}\n"
+    ],
+    "extraneous input 'desugaring' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 32: extraneous input 'desugaring' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'evm.assembly'": [
+        "ERROR: when parsing line 8 column 4: no viable alternative at input 'evm.assembly'\n"
+    ],
+    "mismatched input '-' expecting {'{', StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 8 column 13: mismatched input '-' expecting {'{', StringLiteralFragment, NL}\n"
+    ],
+    "mismatched input 'evm' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 0: mismatched input 'evm' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 0: mismatched input 'evm' expecting {';', NL}\n"
+    ],
+    "extraneous input 'object' expecting {';', NL}": [
+        "ERROR: when parsing line 10 column 31: extraneous input 'object' expecting {';', NL}\n"
+    ],
+    "extraneous input 'list' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 31: extraneous input 'list' expecting {';', NL}\n"
+    ],
+    "mismatched input 'mapping' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 32: mismatched input 'mapping' expecting {';', NL}\n"
+    ],
+    "mismatched input 'for' expecting '=>'": [
+        "ERROR: when parsing line 12 column 48: mismatched input 'for' expecting '=>'\n"
+    ],
+    "mismatched input 'debugging' expecting {'(', NL}": [
+        "ERROR: when parsing line 12 column 52: mismatched input 'debugging' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'references' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 35: mismatched input 'references' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 46: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 42: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 40: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'unlinked' expecting {'(', NL}": [
+        "ERROR: when parsing line 13 column 50: mismatched input 'unlinked' expecting {'(', NL}\n"
+    ],
+    "extraneous input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 13 column 65: extraneous input ')' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'bytecode' expecting {';', NL}": [
+        "ERROR: when parsing line 14 column 33: mismatched input 'bytecode' expecting {';', NL}\n"
+    ],
+    "mismatched input 'same' expecting ')'": [
+        "ERROR: when parsing line 14 column 51: mismatched input 'same' expecting ')'\n"
+    ],
+    "mismatched input 'as' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 14 column 64: mismatched input 'as' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'list' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 28: mismatched input 'list' expecting {';', NL}\n"
+    ],
+    "extraneous input 'hashes' expecting {'(', NL}": [
+        "ERROR: when parsing line 15 column 45: extraneous input 'hashes' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'evm' expecting {'(', NL}": [
+        "ERROR: when parsing line 16 column 0: extraneous input 'evm' expecting {'(', NL}\n"
+    ],
+    "mismatched input '-' expecting {',', ')'}": [
+        "ERROR: when parsing line 16 column 17: mismatched input '-' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'gas' expecting {';', NL}": [
+        "ERROR: when parsing line 16 column 28: mismatched input 'gas' expecting {';', NL}\n"
+    ],
+    "mismatched input 'ewasm' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 17 column 0: mismatched input 'ewasm' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'S' expecting {';', NL}": [
+        "ERROR: when parsing line 17 column 19: mismatched input 'S' expecting {';', NL}\n"
+    ],
+    "mismatched input 'format' expecting {';', NL}": [
+        "ERROR: when parsing line 17 column 33: mismatched input 'format' expecting {';', NL}\n"
+    ],
+    "extraneous input 'atm' expecting ')'": [
+        "ERROR: when parsing line 17 column 55: extraneous input 'atm' expecting ')'\n",
+        "ERROR: when parsing line 18 column 48: extraneous input 'atm' expecting ')'\n"
+    ],
+    "mismatched input 'binary' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 19: mismatched input 'binary' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 18 column 33: mismatched input '(' expecting {'=', ';', NL}\n"
+    ]
+}

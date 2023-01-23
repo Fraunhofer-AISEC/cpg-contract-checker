@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateSale(\\naddressnftContract,\\nuint256itemId\\n)publicpayablenonReentrant{\\nuintprice=idToMarketItem[itemId].price;\\nuinttokenId=idToMarketItem[itemId].tokenId;\\nrequire(msg.value==price,purchase\\nidToMarketItem'": [
+        "ERROR: when parsing line 10 column 4: no viable alternative at input 'functioncreateSale(\\naddressnftContract,\\nuint256itemId\\n)publicpayablenonReentrant{\\nuintprice=idToMarketItem[itemId].price;\\nuinttokenId=idToMarketItem[itemId].tokenId;\\nrequire(msg.value==price,purchase\\nidToMarketItem'\n"
+    ]
+}

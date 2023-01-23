@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uniswap/v2-periphery/contracts/UniswapV2Router02.sol:'": [
+        "ERROR: when parsing line 1 column 53: no viable alternative at input 'uniswap/v2-periphery/contracts/UniswapV2Router02.sol:'\n"
+    ]
+}

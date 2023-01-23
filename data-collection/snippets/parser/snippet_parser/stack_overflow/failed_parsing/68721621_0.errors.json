@@ -1,0 +1,30 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 22 column 13: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 30 column 13: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 58 column 11: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'low\\n\\n\\n\\nrequire'": [
+        "ERROR: when parsing line 28 column 6: no viable alternative at input 'low\\n\\n\\n\\nrequire'\n"
+    ],
+    "no viable alternative at input 'Error}'": [
+        "ERROR: when parsing line 32 column 4: no viable alternative at input 'Error}'\n"
+    ],
+    "mismatched input 'continue' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 41 column 14: mismatched input 'continue' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "extraneous input '(' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 47 column 20: extraneous input '(' expecting {'from', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 47 column 32: extraneous input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 58 column 41: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input '=' expecting {';', NL}": [
+        "ERROR: when parsing line 49 column 13: mismatched input '=' expecting {';', NL}\n",
+        "ERROR: when parsing line 65 column 14: mismatched input '=' expecting {';', NL}\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 58 column 21: mismatched input ',' expecting {';', NL}\n"
+    ]
+}

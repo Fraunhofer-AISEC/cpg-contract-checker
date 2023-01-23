@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpickWinner()publicrestricted{\\nuintindex=random()%players.length;\\npayable(players[index].transfer(this).balance);<'": [
+        "ERROR: when parsing line 3 column 57: no viable alternative at input 'functionpickWinner()publicrestricted{\\nuintindex=random()%players.length;\\npayable(players[index].transfer(this).balance);<'\n"
+    ]
+}

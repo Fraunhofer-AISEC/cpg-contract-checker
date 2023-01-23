@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsending()publicpayable\\n{\\ncontract'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionsending()publicpayable\\n{\\ncontract'\n"
+    ]
+}

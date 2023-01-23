@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionrandomArray(uint[]memorypopulation)publicviewreturns(uint[]memory){\\nuinta=population.length;\\nuintb=population.length;\\nfor(uinti=0;i<b;i++){\\nuintrandNumber=(uint(keccak256\\n(abi.encodePacked(block.timestamp,population[i])))%a)+1;\\nuintinterim=population[randNumber-1];\\npopulation[randNumber-1]=population[a-1];\\npopulation[a-1]=interim;\\na=a-1;\\n}\\n\\nresult=population;\\n\\nreturnresult;\\nlen=result.length;\\n\\n'": [
+        "ERROR: when parsing line 18 column 0: no viable alternative at input 'functionrandomArray(uint[]memorypopulation)publicviewreturns(uint[]memory){\\nuinta=population.length;\\nuintb=population.length;\\nfor(uinti=0;i<b;i++){\\nuintrandNumber=(uint(keccak256\\n(abi.encodePacked(block.timestamp,population[i])))%a)+1;\\nuintinterim=population[randNumber-1];\\npopulation[randNumber-1]=population[a-1];\\npopulation[a-1]=interim;\\na=a-1;\\n}\\n\\nresult=population;\\n\\nreturnresult;\\nlen=result.length;\\n\\n'\n"
+    ]
+}

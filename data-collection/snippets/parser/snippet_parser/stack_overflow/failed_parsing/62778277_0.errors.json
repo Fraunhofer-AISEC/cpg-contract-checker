@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uint256constantNUM_OF_GROUPS=129600;\\n\\n.'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'uint256constantNUM_OF_GROUPS=129600;\\n\\n.'\n"
+    ]
+}

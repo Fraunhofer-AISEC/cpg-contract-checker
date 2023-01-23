@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsayHello()publicpurereturns(stringmemory){\\nreturn'Hello World!';\\n}\\n}'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functionsayHello()publicpurereturns(stringmemory){\\nreturn'Hello World!';\\n}\\n}'\n"
+    ]
+}

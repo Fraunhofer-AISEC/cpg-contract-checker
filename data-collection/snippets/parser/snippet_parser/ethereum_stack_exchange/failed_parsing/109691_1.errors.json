@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('sets values and returns a template',asyncfunction'": [
+        "ERROR: when parsing line 1 column 47: no viable alternative at input 'it('sets values and returns a template',asyncfunction'\n"
+    ]
+}

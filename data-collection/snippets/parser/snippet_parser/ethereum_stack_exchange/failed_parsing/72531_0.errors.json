@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '{\\naddressmyaddress;\\nmapping(address=>uint256)public'": [
+        "ERROR: when parsing line 3 column 29: no viable alternative at input '{\\naddressmyaddress;\\nmapping(address=>uint256)public'\n"
+    ]
+}

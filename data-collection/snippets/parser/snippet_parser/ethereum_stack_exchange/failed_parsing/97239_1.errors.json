@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionintense(addressreferrer,uint8plan)publicpayable{\\n'": [
+        "ERROR: when parsing line 2 column 0: no viable alternative at input 'functionintense(addressreferrer,uint8plan)publicpayable{\\n'\n"
+    ]
+}

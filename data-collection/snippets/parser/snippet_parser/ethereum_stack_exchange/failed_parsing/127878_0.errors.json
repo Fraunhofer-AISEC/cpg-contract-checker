@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmyMethod(uint8tid,bytescalldata_bytes)\\npublic\\nview\\nreturns(stringmemory)\\n{.'": [
+        "ERROR: when parsing line 5 column 2: no viable alternative at input 'functionmyMethod(uint8tid,bytescalldata_bytes)\\npublic\\nview\\nreturns(stringmemory)\\n{.'\n"
+    ]
+}

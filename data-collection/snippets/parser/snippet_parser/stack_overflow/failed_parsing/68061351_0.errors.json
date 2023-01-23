@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdraw(uintamount)external{\\nuintbalance=wallets[msg.sender];\\nrequire(balance>=amount,\"Pool: not enough balance\");\\n.'": [
+        "ERROR: when parsing line 4 column 2: no viable alternative at input 'functionwithdraw(uintamount)external{\\nuintbalance=wallets[msg.sender];\\nrequire(balance>=amount,\"Pool: not enough balance\");\\n.'\n"
+    ]
+}

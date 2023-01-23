@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsafeWithdrawal()afterDeadline{\\nif(!fundingGoalReached){\\nuintamount=balanceOf[msg.sender];\\nbalanceOf[msg.sender]=0;\\nif(amount>0){\\nif(msg.sender.send(amount)){\\nFundTransfer(msg.sender,amount,false);\\n}else{\\nbalanceOf[msg.sender]=amount;\\n}\\n}\\n}if(fundingGoalReached&&beneficiary==msg.sender){\\nif(beneficiary.send(amountRaised)){\\nFundTransfer(beneficiary,amountRaised,false);\\n}else{\\n\\nfundingGoalReached=false;\\n}\\n}\\n}}'": [
+        "ERROR: when parsing line 20 column 8: no viable alternative at input 'functionsafeWithdrawal()afterDeadline{\\nif(!fundingGoalReached){\\nuintamount=balanceOf[msg.sender];\\nbalanceOf[msg.sender]=0;\\nif(amount>0){\\nif(msg.sender.send(amount)){\\nFundTransfer(msg.sender,amount,false);\\n}else{\\nbalanceOf[msg.sender]=amount;\\n}\\n}\\n}if(fundingGoalReached&&beneficiary==msg.sender){\\nif(beneficiary.send(amountRaised)){\\nFundTransfer(beneficiary,amountRaised,false);\\n}else{\\n\\nfundingGoalReached=false;\\n}\\n}\\n}}'\n"
+    ]
+}

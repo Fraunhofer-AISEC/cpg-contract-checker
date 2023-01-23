@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsignDocument(intid)publicpayable{\\nif(msg.value!=signaturePrice){\\nrevert();\\n}\\nif(id<=lastId){\\ndocuments[uint256(id)].signatures.push(msg.sender);\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionsignDocument(intid)publicpayable{\\nif(msg.value!=signaturePrice){\\nrevert();\\n}\\nif(id<=lastId){\\ndocuments[uint256(id)].signatures.push(msg.sender);\\n'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionunStake(address_currencyAddress,uint256_amount)\\nexternal\\noverride\\nnonReentrant\\n{\\nPLibrary.UserStakestorageuserInfo=userMapping[msg.sender][\\n_currencyAddress\\n];\\n\\nPLibrary.LockupmemorylockInfo=pCron.getLockup(\\nuserInfo.lockupSerial\\n);\\n\\nuint32_timeStamp=uint32(block.timestamp);\\n.'": [
+        "ERROR: when parsing line 15 column 8: no viable alternative at input 'functionunStake(address_currencyAddress,uint256_amount)\\nexternal\\noverride\\nnonReentrant\\n{\\nPLibrary.UserStakestorageuserInfo=userMapping[msg.sender][\\n_currencyAddress\\n];\\n\\nPLibrary.LockupmemorylockInfo=pCron.getLockup(\\nuserInfo.lockupSerial\\n);\\n\\nuint32_timeStamp=uint32(block.timestamp);\\n.'\n"
+    ]
+}

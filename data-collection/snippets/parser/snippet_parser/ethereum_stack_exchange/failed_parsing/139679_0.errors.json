@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfullDiv(\\nuint256l,\\nuint256h,\\nuint256d\\n)privatepurereturns(uint256){\\nuint256pow2=d&-d;\\nd/=pow2;\\n.'": [
+        "ERROR: when parsing line 8 column 8: no viable alternative at input 'functionfullDiv(\\nuint256l,\\nuint256h,\\nuint256d\\n)privatepurereturns(uint256){\\nuint256pow2=d&-d;\\nd/=pow2;\\n.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(addressreceiver,uintnumTokens)publicreturns(bool){\\nrequire(numTokens<=balances[msg.sender]);\\nbalances[msg.sender]=balances[msg.sender]numTokens'": [
+        "ERROR: when parsing line 3 column 48: no viable alternative at input 'functiontransfer(addressreceiver,uintnumTokens)publicreturns(bool){\\nrequire(numTokens<=balances[msg.sender]);\\nbalances[msg.sender]=balances[msg.sender]numTokens'\n"
+    ]
+}

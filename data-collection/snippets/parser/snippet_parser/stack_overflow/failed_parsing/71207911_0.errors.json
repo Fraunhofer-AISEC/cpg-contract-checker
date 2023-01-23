@@ -1,0 +1,5 @@
+{
+    "mismatched input 'ERC20' expecting {'contract', 'interface', 'library', NL}": [
+        "ERROR: when parsing line 1 column 9: mismatched input 'ERC20' expecting {'contract', 'interface', 'library', NL}\n"
+    ]
+}

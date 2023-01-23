@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmyfunction()external{\\nemitmyevent(\"hello\");\\n.'": [
+        "ERROR: when parsing line 3 column 6: no viable alternative at input 'functionmyfunction()external{\\nemitmyevent(\"hello\");\\n.'\n"
+    ]
+}

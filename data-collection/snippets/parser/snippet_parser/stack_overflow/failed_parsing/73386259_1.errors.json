@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbuyTokens()publicpayablereturns(uint256tokenAmount){\\nrequire(msg.value>0,\"Send ETH to buy some tokens\");\\n\\nuint256amountToBuy=msg.value*tokensPerEth;\\n\\n\\nuint256contractBalance=ercToken.balanceOf(address(this));\\nrequire(contractBalance>=amountToBuy,balance\\n\\n(boolsent'": [
+        "ERROR: when parsing line 12 column 6: no viable alternative at input 'functionbuyTokens()publicpayablereturns(uint256tokenAmount){\\nrequire(msg.value>0,\"Send ETH to buy some tokens\");\\n\\nuint256amountToBuy=msg.value*tokensPerEth;\\n\\n\\nuint256contractBalance=ercToken.balanceOf(address(this));\\nrequire(contractBalance>=amountToBuy,balance\\n\\n(boolsent'\n"
+    ]
+}

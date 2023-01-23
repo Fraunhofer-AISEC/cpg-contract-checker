@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetMultipleRecords()returns(uint[],uint[],address[]){\\n\\nuint[]integerData=[];\\nuint[]someOtherData=[];\\naddress[]addressData=[];\\nforeach'": [
+        "ERROR: when parsing line 6 column 6: no viable alternative at input 'functiongetMultipleRecords()returns(uint[],uint[],address[]){\\n\\nuint[]integerData=[];\\nuint[]someOtherData=[];\\naddress[]addressData=[];\\nforeach'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfoo(stringcalldataa)public{\\n\\nfunctionfoo'": [
+        "ERROR: when parsing line 4 column 9: no viable alternative at input 'functionfoo(stringcalldataa)public{\\n\\nfunctionfoo'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontestBuyItem()public{\\nuint8expected=2;\\nbytes32expectedName=\"Item\";\\n\\nAssert.equal(uint(8),uint(7),\"Should fail\");\\n\\ncontract'": [
+        "ERROR: when parsing line 7 column 4: no viable alternative at input 'functiontestBuyItem()public{\\nuint8expected=2;\\nbytes32expectedName=\"Item\";\\n\\nAssert.equal(uint(8),uint(7),\"Should fail\");\\n\\ncontract'\n"
+    ]
+}

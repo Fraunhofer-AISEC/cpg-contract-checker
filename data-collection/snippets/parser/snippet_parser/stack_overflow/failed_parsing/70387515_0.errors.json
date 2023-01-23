@@ -1,0 +1,26 @@
+{
+    "extraneous input 'createCollectible' expecting {'(', NL}": [
+        "ERROR: when parsing line 28 column 17: extraneous input 'createCollectible' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'userProvidedSeed' expecting {',', ')'}": [
+        "ERROR: when parsing line 28 column 43: extraneous input 'userProvidedSeed' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'tokenURI' expecting ')'": [
+        "ERROR: when parsing line 28 column 75: extraneous input 'tokenURI' expecting ')'\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 29 column 8: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'fulfillRandomness' expecting {'(', NL}": [
+        "ERROR: when parsing line 37 column 17: extraneous input 'fulfillRandomness' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'requestID' expecting {',', ')'}": [
+        "ERROR: when parsing line 37 column 43: extraneous input 'requestID' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'randomNumber' expecting ')'": [
+        "ERROR: when parsing line 37 column 62: extraneous input 'randomNumber' expecting ')'\n"
+    ],
+    "mismatched input 'override' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 37 column 85: mismatched input 'override' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

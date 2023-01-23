@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontest1(addressaddr1,uint8num)nonReentrantexternal{\\nfor(uint8i=0;i<num;i++){\\n\\n}\\nworkDone[msg.sender]=workDone[msg.sender].add(uint256(numether'": [
+        "ERROR: when parsing line 5 column 64: no viable alternative at input 'functiontest1(addressaddr1,uint8num)nonReentrantexternal{\\nfor(uint8i=0;i<num;i++){\\n\\n}\\nworkDone[msg.sender]=workDone[msg.sender].add(uint256(numether'\n"
+    ]
+}

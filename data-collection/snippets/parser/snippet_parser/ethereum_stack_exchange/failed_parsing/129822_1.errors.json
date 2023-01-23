@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS(address,bytes,bool).slot(node_modules/openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol98'": [
+        "ERROR: when parsing line 1 column 167: no viable alternative at input 'ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS(address,bytes,bool).slot(node_modules/openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol98'\n"
+    ]
+}

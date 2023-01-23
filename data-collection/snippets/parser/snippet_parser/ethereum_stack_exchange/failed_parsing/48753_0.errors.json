@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsendTran(arguments)public{\\n*'": [
+        "ERROR: when parsing line 2 column 4: no viable alternative at input 'functionsendTran(arguments)public{\\n*'\n"
+    ]
+}

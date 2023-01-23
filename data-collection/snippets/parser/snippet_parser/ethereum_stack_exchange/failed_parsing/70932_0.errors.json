@@ -1,0 +1,29 @@
+{
+    "extraneous input 'toAsciiString' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 9: extraneous input 'toAsciiString' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'x' expecting {',', ')'}": [
+        "ERROR: when parsing line 4 column 31: extraneous input 'x' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 34: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 16 column 24: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at ')'": [
+        "ERROR: when parsing line 4 column 63: missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at ')'\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 65: extraneous input '{' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 16 column 50: extraneous input '{' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 14 column 4: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 20 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "extraneous input 'char' expecting {'(', NL}": [
+        "ERROR: when parsing line 16 column 9: extraneous input 'char' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'b' expecting {',', ')'}": [
+        "ERROR: when parsing line 16 column 21: extraneous input 'b' expecting {',', ')'}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'showusingID=ids=>'": [
+        "ERROR: when parsing line 1 column 18: no viable alternative at input 'showusingID=ids=>'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionretrieveEHRs(stringstringToBytes32,stringretrieve_name,addressuserPK,stringstorageName,addressAreaID,addressPatientID,stringHash_value)\\nonlyAdminppublic{\\nbytes32key=stringToBytes32(retrieve_name);\\nLookupthe'": [
+        "ERROR: when parsing line 4 column 16: no viable alternative at input 'functionretrieveEHRs(stringstringToBytes32,stringretrieve_name,addressuserPK,stringstorageName,addressAreaID,addressPatientID,stringHash_value)\\nonlyAdminppublic{\\nbytes32key=stringToBytes32(retrieve_name);\\nLookupthe'\n"
+    ]
+}

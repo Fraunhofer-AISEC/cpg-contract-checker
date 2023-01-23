@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'bytecode:'": [
+        "ERROR: when parsing line 6 column 8: no viable alternative at input 'bytecode:'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionverifyProof(stringcalldata_fullProof)publicreturns(boolr){\\nbytes32hashed=keccak256(abi.encodePacked(_fullProof));\\n.'": [
+        "ERROR: when parsing line 3 column 9: no viable alternative at input 'functionverifyProof(stringcalldata_fullProof)publicreturns(boolr){\\nbytes32hashed=keccak256(abi.encodePacked(_fullProof));\\n.'\n"
+    ]
+}

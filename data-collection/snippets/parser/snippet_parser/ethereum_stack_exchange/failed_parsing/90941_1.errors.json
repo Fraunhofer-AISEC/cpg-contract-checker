@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionswap(\\nICallercaller,\\nICaller.CallDescription[]calldatacalls\\n)\\nexternal\\npayable\\nwhenNotPaused\\nreturns(uint256returnAmount)\\n{\\n\\n\\n\\ncaller.makeCalls{value:1}(calls);\\n\\n.'": [
+        "ERROR: when parsing line 15 column 8: no viable alternative at input 'functionswap(\\nICallercaller,\\nICaller.CallDescription[]calldatacalls\\n)\\nexternal\\npayable\\nwhenNotPaused\\nreturns(uint256returnAmount)\\n{\\n\\n\\n\\ncaller.makeCalls{value:1}(calls);\\n\\n.'\n"
+    ]
+}

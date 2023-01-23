@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaddition(G1Pointp1,G1Pointp2)internalreturns(G1Pointr){\\nuint[4]memoryinput;\\ninput[0]=p1.X;\\ninput[1]=p1.Y;\\ninput[2]=p2.X;\\ninput[3]=p2.Y;\\nboolsuccess;\\nassembly{\\nsuccess='": [
+        "ERROR: when parsing line 10 column 20: no viable alternative at input 'functionaddition(G1Pointp1,G1Pointp2)internalreturns(G1Pointr){\\nuint[4]memoryinput;\\ninput[0]=p1.X;\\ninput[1]=p1.Y;\\ninput[2]=p2.X;\\ninput[3]=p2.Y;\\nboolsuccess;\\nassembly{\\nsuccess='\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionstartGame()criticalreturns(bool){\\nPlayerplayer=players[msg.sender];\\nif(player.ready){\\nif(player.balance<minimumwager){throw;}\\nwaiting.push(player);\\nnumWaiting++;\\nif(numWaiting>1){\\nvarthismatchup=makeMatchup();\\nplayer.playing=true;\\nmatchupMade(thismatchup);\\nreturntrue;\\n}\\nelse{\\nplayer.playing=true;\\nplayerWaiting(player.ethaddress);\\nreturnfalse;\\n}\\n}\\n}\\n}'": [
+        "ERROR: when parsing line 20 column 0: no viable alternative at input 'functionstartGame()criticalreturns(bool){\\nPlayerplayer=players[msg.sender];\\nif(player.ready){\\nif(player.balance<minimumwager){throw;}\\nwaiting.push(player);\\nnumWaiting++;\\nif(numWaiting>1){\\nvarthismatchup=makeMatchup();\\nplayer.playing=true;\\nmatchupMade(thismatchup);\\nreturntrue;\\n}\\nelse{\\nplayer.playing=true;\\nplayerWaiting(player.ethaddress);\\nreturnfalse;\\n}\\n}\\n}\\n}'\n"
+    ]
+}

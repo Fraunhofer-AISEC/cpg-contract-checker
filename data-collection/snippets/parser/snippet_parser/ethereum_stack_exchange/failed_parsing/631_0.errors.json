@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondoSomeThing(uint_param)internal{.'": [
+        "ERROR: when parsing line 1 column 44: no viable alternative at input 'functiondoSomeThing(uint_param)internal{.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbet(uint16_gameId,uint8_teamSelected)publicpayable{\\nGamestoragegame=gameInfo[_gameId];\\n\\nrequire(game.state==State.Created,\"Game has not been created\");\\nrequire(matchBettingActive[_gameId]==true);\\n\\n\\n\\nrequire(!checkPlayerExists(msg.sender));\\n\\n\\nrequire(msg.value>=minimumBet);\\n\\n\\nPlayerstorageplayerS=playerInfo[msg.sender];\\nplayerS.push(Player(msg.sender,_gameId,msg.value,_teamSelected,)'": [
+        "ERROR: when parsing line 16 column 68: no viable alternative at input 'functionbet(uint16_gameId,uint8_teamSelected)publicpayable{\\nGamestoragegame=gameInfo[_gameId];\\n\\nrequire(game.state==State.Created,\"Game has not been created\");\\nrequire(matchBettingActive[_gameId]==true);\\n\\n\\n\\nrequire(!checkPlayerExists(msg.sender));\\n\\n\\nrequire(msg.value>=minimumBet);\\n\\n\\nPlayerstorageplayerS=playerInfo[msg.sender];\\nplayerS.push(Player(msg.sender,_gameId,msg.value,_teamSelected,)'\n"
+    ]
+}

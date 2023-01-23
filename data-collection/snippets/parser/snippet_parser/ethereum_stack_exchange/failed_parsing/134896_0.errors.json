@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'RandomlyAssigned('": [
+        "ERROR: when parsing line 17 column 16: no viable alternative at input 'RandomlyAssigned('\n"
+    ]
+}

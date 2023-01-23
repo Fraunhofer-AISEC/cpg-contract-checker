@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionswap(\\naddressrecipient,\\nboolzeroForOne,\\nint256amountSpecified,\\nuint160sqrtPriceLimitX96,\\n)'": [
+        "ERROR: when parsing line 6 column 4: no viable alternative at input 'functionswap(\\naddressrecipient,\\nboolzeroForOne,\\nint256amountSpecified,\\nuint160sqrtPriceLimitX96,\\n)'\n"
+    ]
+}

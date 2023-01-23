@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionisDraw()viewpublicreturns(bool){\\nuint256a=getplayerGuessNum(getPlayers()[0]);\\nuint256b=getplayerGuessNum(getPlayers()[1]);\\nuint256c=getplayerGuessNum(getPlayers()[2]);\\nintcount<='": [
+        "ERROR: when parsing line 5 column 14: no viable alternative at input 'functionisDraw()viewpublicreturns(bool){\\nuint256a=getplayerGuessNum(getPlayers()[0]);\\nuint256b=getplayerGuessNum(getPlayers()[1]);\\nuint256c=getplayerGuessNum(getPlayers()[2]);\\nintcount<='\n"
+    ]
+}

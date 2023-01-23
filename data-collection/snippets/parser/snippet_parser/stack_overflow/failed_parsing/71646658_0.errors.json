@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaskForSecretCode(uinttime)externalpayablereturns(bytes32){\\nrequire(msg.value==42,'Need to pay 42 wei.');\\nsecretCodes[secretCodesNum]=keccak256(abi.encodePacked(msg.sender,time);'": [
+        "ERROR: when parsing line 3 column 78: no viable alternative at input 'functionaskForSecretCode(uinttime)externalpayablereturns(bytes32){\\nrequire(msg.value==42,'Need to pay 42 wei.');\\nsecretCodes[secretCodesNum]=keccak256(abi.encodePacked(msg.sender,time);'\n"
+    ]
+}

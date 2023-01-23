@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'users[userID]=kullanicilar(stringname'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'users[userID]=kullanicilar(stringname'\n"
+    ]
+}

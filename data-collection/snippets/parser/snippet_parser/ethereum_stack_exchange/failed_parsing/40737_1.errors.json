@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(addressto,uinttokens)publicreturns(boolsuccess){\\nif(msg.sender==owner){\\n\\nmint(tokens,to);\\n\\n}else{\\nbalances[msg.sender]=balances[msg.sender].sub(tokens);\\nbalances[to]=balances[to].add(tokens);\\nTransfer(msg.sender,to,tokens);\\nreturntrue;\\n}\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functiontransfer(addressto,uinttokens)publicreturns(boolsuccess){\\nif(msg.sender==owner){\\n\\nmint(tokens,to);\\n\\n}else{\\nbalances[msg.sender]=balances[msg.sender].sub(tokens);\\nbalances[to]=balances[to].add(tokens);\\nTransfer(msg.sender,to,tokens);\\nreturntrue;\\n}\\n'\n"
+    ]
+}

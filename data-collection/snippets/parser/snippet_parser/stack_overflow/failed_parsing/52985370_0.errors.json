@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'ApproveAndCall.sol\\n\\ncontract'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'ApproveAndCall.sol\\n\\ncontract'\n"
+    ]
+}

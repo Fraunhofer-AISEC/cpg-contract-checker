@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionstartProject(\\nstringcalldatatitle,\\nstringcalldatadescription,\\nuintdurationInDays,\\nuintamountToRaise\\n)external{\\nuintraiseUntil=block.timestamp.add(durationInDays.mul(1days));\\nProjectnewProject=newProject(\\n**'": [
+        "ERROR: when parsing line 9 column 4: no viable alternative at input 'functionstartProject(\\nstringcalldatatitle,\\nstringcalldatadescription,\\nuintdurationInDays,\\nuintamountToRaise\\n)external{\\nuintraiseUntil=block.timestamp.add(durationInDays.mul(1days));\\nProjectnewProject=newProject(\\n**'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'initPrice[tokenID/50]='": [
+        "ERROR: when parsing line 3 column 24: no viable alternative at input 'initPrice[tokenID/50]='\n"
+    ]
+}

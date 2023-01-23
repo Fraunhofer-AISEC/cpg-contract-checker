@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_transferFrom(addressowner,addresscontract1155,addressfrom,addressto,uint256id,uint256amount,bytesdata)public{\\n\\nrequire(msg.sender==owner,\"Function could be called by owner only\");\\nIERC1155(contract1155).safeTransferFrom(addressfrom'": [
+        "ERROR: when parsing line 4 column 48: no viable alternative at input 'function_transferFrom(addressowner,addresscontract1155,addressfrom,addressto,uint256id,uint256amount,bytesdata)public{\\n\\nrequire(msg.sender==owner,\"Function could be called by owner only\");\\nIERC1155(contract1155).safeTransferFrom(addressfrom'\n"
+    ]
+}

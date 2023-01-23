@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionclaimPayment()publicreturns(bool){\\nuintarrayLength=unpaidActions[msg.sender].length;\\nif(arrayLength!=0){\\n\\nfor(uinti=0;i<arrayLength;i++){\\n\\nif()'": [
+        "ERROR: when parsing line 7 column 20: no viable alternative at input 'functionclaimPayment()publicreturns(bool){\\nuintarrayLength=unpaidActions[msg.sender].length;\\nif(arrayLength!=0){\\n\\nfor(uinti=0;i<arrayLength;i++){\\n\\nif()'\n"
+    ]
+}

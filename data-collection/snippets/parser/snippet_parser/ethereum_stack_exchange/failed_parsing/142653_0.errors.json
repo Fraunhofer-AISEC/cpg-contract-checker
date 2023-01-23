@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfail(){revert(\"test\");}\\n\\n('": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functionfail(){revert(\"test\");}\\n\\n('\n"
+    ]
+}

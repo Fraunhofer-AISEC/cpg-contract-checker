@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionallowance(addressowner,addressspender)publicreturnsuint256'": [
+        "ERROR: when parsing line 1 column 66: no viable alternative at input 'functionallowance(addressowner,addressspender)publicreturnsuint256'\n"
+    ]
+}

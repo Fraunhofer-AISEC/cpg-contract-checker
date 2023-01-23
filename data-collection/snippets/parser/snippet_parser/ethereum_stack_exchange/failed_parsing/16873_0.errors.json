@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetSha256(uint32nonce)returns(bytes32hash){\\nreturnsha256(nonce);\\n}\\n\\n>'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functiongetSha256(uint32nonce)returns(bytes32hash){\\nreturnsha256(nonce);\\n}\\n\\n>'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structEntityStruct{\\n\\nuintentityData;\\n\\nstringitems['": [
+        "ERROR: when parsing line 5 column 16: no viable alternative at input 'structEntityStruct{\\n\\nuintentityData;\\n\\nstringitems['\n"
+    ]
+}

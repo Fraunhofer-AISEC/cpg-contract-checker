@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionadopt(stringcalldatadog_breed)externalpayable{\\nrequire(msg.value>=1ether,\"Min 1 ether needs to be transfered\");\\nrequire(user_list[msg.sender].user_allowed_to_adopt,allowedto'": [
+        "ERROR: when parsing line 4 column 20: no viable alternative at input 'functionadopt(stringcalldatadog_breed)externalpayable{\\nrequire(msg.value>=1ether,\"Min 1 ether needs to be transfered\");\\nrequire(user_list[msg.sender].user_allowed_to_adopt,allowedto'\n"
+    ]
+}

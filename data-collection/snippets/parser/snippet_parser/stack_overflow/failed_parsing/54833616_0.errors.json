@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaddAsset(\\naddresspayable_owner,\\nstringcalldata_name,\\nuint_valueUSD,\\nuint_cap,\\nuint_annualizedROI,\\nuint_projectedValueUSD,\\nuint_timeframeMonths,\\nuint_valuePerTokenCents\\n)external{\\nVTTokentoken=newVTToken(\\n_owner,\\naddress(stableToken),\\n_name,\\n_valueUSD,\\n_cap,\\n_annualizedROI,\\n_projectedValueUSD,\\n_timeframeMonths,\\n_valuePerTokenCents\\n);\\n'": [
+        "ERROR: when parsing line 22 column 0: no viable alternative at input 'functionaddAsset(\\naddresspayable_owner,\\nstringcalldata_name,\\nuint_valueUSD,\\nuint_cap,\\nuint_annualizedROI,\\nuint_projectedValueUSD,\\nuint_timeframeMonths,\\nuint_valuePerTokenCents\\n)external{\\nVTTokentoken=newVTToken(\\n_owner,\\naddress(stableToken),\\n_name,\\n_valueUSD,\\n_cap,\\n_annualizedROI,\\n_projectedValueUSD,\\n_timeframeMonths,\\n_valuePerTokenCents\\n);\\n'\n"
+    ]
+}

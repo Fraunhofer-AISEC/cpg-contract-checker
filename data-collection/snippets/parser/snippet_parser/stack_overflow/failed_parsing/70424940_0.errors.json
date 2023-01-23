@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetLotto()payableexternal{\\nrequire(msg.value==100000000000000000,\"Pay 0.1MATIC\");\\n.'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'functiongetLotto()payableexternal{\\nrequire(msg.value==100000000000000000,\"Pay 0.1MATIC\");\\n.'\n"
+    ]
+}

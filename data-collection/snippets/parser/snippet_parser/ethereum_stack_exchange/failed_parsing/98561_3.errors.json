@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninitialize(address[]calldataaddresses,string[2]calldatauuids,uint[2]calldatatarget_info,uint[2]calldatavote_costraints,uint[2]calldataevaluation_info)\\npublicinitializer\\n{\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functioninitialize(address[]calldataaddresses,string[2]calldatauuids,uint[2]calldatatarget_info,uint[2]calldatavote_costraints,uint[2]calldataevaluation_info)\\npublicinitializer\\n{\\n'\n"
+    ]
+}

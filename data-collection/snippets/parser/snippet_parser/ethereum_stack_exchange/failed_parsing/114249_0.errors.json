@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionviewTokensOwned(address_contractAddress)publicviewreturns(uint256[]memory){\\nrequire(trustedContracts[_contractAddress],\"Not a trusted contract\");\\n\\nuint256n=0;\\n\\nfor(uint256i=1;i<3333;i++){\\n\\nif(iSkull(_contractAddress).ownerOf(i)==msg.sender){\\nn++;\\n}\\nelse{\\ncontinue;\\n}\\n}\\n\\nuint256[]memory_tokensOwned=newuint256[](n);\\n\\nfor(uint256i=1;i<3333;i++){\\nif(iSkull(_contractAddress).ownerOf(i)==msg.sender){\\n_tokensOwned[i];\\n}\\nelse{\\ncontinue;\\n}\\n\\nreturn_tokensOwned;\\n}\\n'": [
+        "ERROR: when parsing line 28 column 0: no viable alternative at input 'functionviewTokensOwned(address_contractAddress)publicviewreturns(uint256[]memory){\\nrequire(trustedContracts[_contractAddress],\"Not a trusted contract\");\\n\\nuint256n=0;\\n\\nfor(uint256i=1;i<3333;i++){\\n\\nif(iSkull(_contractAddress).ownerOf(i)==msg.sender){\\nn++;\\n}\\nelse{\\ncontinue;\\n}\\n}\\n\\nuint256[]memory_tokensOwned=newuint256[](n);\\n\\nfor(uint256i=1;i<3333;i++){\\nif(iSkull(_contractAddress).ownerOf(i)==msg.sender){\\n_tokensOwned[i];\\n}\\nelse{\\ncontinue;\\n}\\n\\nreturn_tokensOwned;\\n}\\n'\n"
+    ]
+}

@@ -1,0 +1,17 @@
+pragma solidity ^0.5.1;
+library SafeMath {
+  function sub(uint8 a, uint8 b) internal pure returns (uint8) {
+    assert(b <= a);
+    return a - b;
+  }
+}
+
+contract Underflow1 {
+using SafeMath for uint8;
+    uint8 num= 0;
+    function testf2() public returns (uint8){
+    
+    num = num.sub(1);
+    return num;
+    }
+}

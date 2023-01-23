@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetFormula(uint256fromPrice1,uint256toPrice1,uint256daystohold1,\\nuint256fromPrice2,uint256toPrice2,uint256daystohold2,\\nuint256fromPrice3,uint256toPrice3,uint256daystohold3,\\nuint256elsedaystohold4)publiconlyOwner{\\n\\nif(getLastPrice<=fromPrice1&&getLastPrice<=toPrice1){\\nonHold=true;\\nendHold=block.timestamp+daystohold1days'": [
+        "ERROR: when parsing line 8 column 56: no viable alternative at input 'functionsetFormula(uint256fromPrice1,uint256toPrice1,uint256daystohold1,\\nuint256fromPrice2,uint256toPrice2,uint256daystohold2,\\nuint256fromPrice3,uint256toPrice3,uint256daystohold3,\\nuint256elsedaystohold4)publiconlyOwner{\\n\\nif(getLastPrice<=fromPrice1&&getLastPrice<=toPrice1){\\nonHold=true;\\nendHold=block.timestamp+daystohold1days'\n"
+    ]
+}

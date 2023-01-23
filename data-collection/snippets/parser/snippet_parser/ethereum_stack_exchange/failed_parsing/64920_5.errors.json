@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionshowSender(addresspassedAddr)publicviewreturns(address){\\nif(passedAddr==address(0)return'": [
+        "ERROR: when parsing line 2 column 30: no viable alternative at input 'functionshowSender(addresspassedAddr)publicviewreturns(address){\\nif(passedAddr==address(0)return'\n"
+    ]
+}

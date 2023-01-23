@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'nftArray.push('": [
+        "ERROR: when parsing line 15 column 13: no viable alternative at input 'nftArray.push('\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetContractData()publicviewreturns(stringmemorydata){\\nContractBinstance=ContractB(<'": [
+        "ERROR: when parsing line 3 column 33: no viable alternative at input 'functiongetContractData()publicviewreturns(stringmemorydata){\\nContractBinstance=ContractB(<'\n"
+    ]
+}

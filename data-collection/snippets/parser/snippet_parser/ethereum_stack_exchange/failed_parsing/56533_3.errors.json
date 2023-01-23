@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateCredentialOrg(string_shortName,.'": [
+        "ERROR: when parsing line 1 column 48: no viable alternative at input 'functioncreateCredentialOrg(string_shortName,.'\n"
+    ]
+}

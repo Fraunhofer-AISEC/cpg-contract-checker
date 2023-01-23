@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function()externalpayable{\\nrequire(clicksfromcreatorcount>=1);\\nif(clicksfromcreatorcount==1){\\nrequire(tx.origin==creatorino);\\n\\n}\\nrequire(count<2);\\ncount++;\\n}\\n}'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'function()externalpayable{\\nrequire(clicksfromcreatorcount>=1);\\nif(clicksfromcreatorcount==1){\\nrequire(tx.origin==creatorino);\\n\\n}\\nrequire(count<2);\\ncount++;\\n}\\n}'\n"
+    ]
+}

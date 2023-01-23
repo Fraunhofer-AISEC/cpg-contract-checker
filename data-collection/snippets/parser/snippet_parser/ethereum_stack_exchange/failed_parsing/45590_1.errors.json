@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaddSimpleStruct(bytes32key,bytes32_desc)public{\\n\\nrequire(msg.sender==requesting);\\n\\nsimpleStructstoragenewStruct;<'": [
+        "ERROR: when parsing line 5 column 36: no viable alternative at input 'functionaddSimpleStruct(bytes32key,bytes32_desc)public{\\n\\nrequire(msg.sender==requesting);\\n\\nsimpleStructstoragenewStruct;<'\n"
+    ]
+}

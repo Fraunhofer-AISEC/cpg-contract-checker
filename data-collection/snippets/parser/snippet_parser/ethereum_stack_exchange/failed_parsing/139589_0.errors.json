@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontest(stringmemory_a,uint256[]memory_b)public{\\n.'": [
+        "ERROR: when parsing line 2 column 8: no viable alternative at input 'functiontest(stringmemory_a,uint256[]memory_b)public{\\n.'\n"
+    ]
+}

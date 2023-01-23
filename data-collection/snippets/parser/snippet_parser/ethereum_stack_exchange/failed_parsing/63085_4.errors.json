@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbuyTokens(uint256_numberOfTokens)publicpayable{\\n\\n\\nrequire(msg.value==multiply(_numberOfTokens,tokenPrice));\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functionbuyTokens(uint256_numberOfTokens)publicpayable{\\n\\n\\nrequire(msg.value==multiply(_numberOfTokens,tokenPrice));\\n'\n"
+    ]
+}

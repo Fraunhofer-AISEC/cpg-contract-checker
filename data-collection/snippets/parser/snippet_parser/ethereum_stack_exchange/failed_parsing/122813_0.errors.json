@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uint256lusdBalance=UNI_ROUTER.exactInput(\\nISwapRouter.ExactInputParams({\\npath:abi.encodePacked(WETH,uint24(500),USDC,uint24(500),LUSD),\\nrecipient:address(this),\\ndeadline:block.timestamp,\\namountIn:wethBalance,\\namountOutMinimum:0\\n})\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'uint256lusdBalance=UNI_ROUTER.exactInput(\\nISwapRouter.ExactInputParams({\\npath:abi.encodePacked(WETH,uint24(500),USDC,uint24(500),LUSD),\\nrecipient:address(this),\\ndeadline:block.timestamp,\\namountIn:wethBalance,\\namountOutMinimum:0\\n})\\n'\n"
+    ]
+}

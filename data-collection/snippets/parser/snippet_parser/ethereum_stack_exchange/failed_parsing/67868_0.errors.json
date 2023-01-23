@@ -1,0 +1,58 @@
+{
+    "mismatched input '\\n' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 21 column 7: mismatched input '\\n' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 26 column 8: mismatched input '\\n' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'the' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 36 column 16: mismatched input 'the' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'amount' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 36 column 28: extraneous input 'amount' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'initial' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 38 column 16: mismatched input 'initial' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'name' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 39 column 4: extraneous input 'name' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'namefor'": [
+        "ERROR: when parsing line 40 column 8: no viable alternative at input 'namefor'\n"
+    ],
+    "mismatched input 'display' expecting {'(', NL}": [
+        "ERROR: when parsing line 40 column 12: mismatched input 'display' expecting {'(', NL}\n",
+        "ERROR: when parsing line 42 column 12: mismatched input 'display' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'symbol' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 41 column 4: extraneous input 'symbol' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'symbolfor'": [
+        "ERROR: when parsing line 42 column 8: no viable alternative at input 'symbolfor'\n"
+    ],
+    "mismatched input ';' expecting '('": [
+        "ERROR: when parsing line 63 column 37: mismatched input ';' expecting '('\n"
+    ],
+    "mismatched input 'never' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 65 column 22: mismatched input 'never' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'assert' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 66 column 4: mismatched input 'assert' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'is' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 122 column 18: mismatched input 'is' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'balanceOf' expecting {';', NL}": [
+        "ERROR: when parsing line 125 column 4: mismatched input 'balanceOf' expecting {';', NL}\n"
+    ],
+    "mismatched input 'targeted' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 126 column 14: mismatched input 'targeted' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'allowance' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 127 column 4: mismatched input 'allowance' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'sender' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 128 column 13: mismatched input 'sender' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '-=' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 129 column 16: mismatched input '-=' expecting {'=', ';', NL}\n"
+    ]
+}

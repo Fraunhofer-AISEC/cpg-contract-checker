@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaOfContractA(uint256amount):'": [
+        "ERROR: when parsing line 1 column 37: no viable alternative at input 'functionaOfContractA(uint256amount):'\n"
+    ]
+}

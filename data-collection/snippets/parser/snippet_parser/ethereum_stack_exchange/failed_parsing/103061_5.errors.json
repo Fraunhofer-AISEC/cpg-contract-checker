@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateTicket(bytescalldataparams)external.'": [
+        "ERROR: when parsing line 1 column 54: no viable alternative at input 'functioncreateTicket(bytescalldataparams)external.'\n"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "extraneous input '.' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 3 column 4: extraneous input '.' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input '.' expecting {';', 'anonymous', NL}": [
+        "ERROR: when parsing line 7 column 4: mismatched input '.' expecting {';', 'anonymous', NL}\n"
+    ],
+    "no viable alternative at input 'buyer--'": [
+        "ERROR: when parsing line 16 column 6: no viable alternative at input 'buyer--'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetTodo(stringmemory_name,uint_age)publicreturns(struct'": [
+        "ERROR: when parsing line 1 column 65: no viable alternative at input 'functiongetTodo(stringmemory_name,uint_age)publicreturns(struct'\n"
+    ]
+}

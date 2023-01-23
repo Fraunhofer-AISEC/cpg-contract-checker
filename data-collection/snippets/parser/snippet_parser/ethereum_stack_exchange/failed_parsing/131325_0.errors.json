@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmint(uint256quantity)externalpayablecallerIsUser{\\n\\nif(whiteListSale)\\n{\\nwhitelistMint(quantity);<'": [
+        "ERROR: when parsing line 5 column 38: no viable alternative at input 'functionmint(uint256quantity)externalpayablecallerIsUser{\\n\\nif(whiteListSale)\\n{\\nwhitelistMint(quantity);<'\n"
+    ]
+}

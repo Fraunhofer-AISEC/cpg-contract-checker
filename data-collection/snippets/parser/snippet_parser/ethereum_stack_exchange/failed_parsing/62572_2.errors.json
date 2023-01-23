@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninsertAddress(address[]addressUser)publicreturns(bool){\\n\\naddresslastAddr=addres(0);\\nfor(uinti=0;i<addressUser.length,'": [
+        "ERROR: when parsing line 4 column 42: no viable alternative at input 'functioninsertAddress(address[]addressUser)publicreturns(bool){\\n\\naddresslastAddr=addres(0);\\nfor(uinti=0;i<addressUser.length,'\n"
+    ]
+}

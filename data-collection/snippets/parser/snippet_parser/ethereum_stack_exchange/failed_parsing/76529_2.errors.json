@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionconfrimReceived()public\\ncondition(msg.value==price)\\npayable\\n{\\ntotalBuyers+=1;\\ntotalEarnings+=price;\\n.'": [
+        "ERROR: when parsing line 7 column 2: no viable alternative at input 'functionconfrimReceived()public\\ncondition(msg.value==price)\\npayable\\n{\\ntotalBuyers+=1;\\ntotalEarnings+=price;\\n.'\n"
+    ]
+}

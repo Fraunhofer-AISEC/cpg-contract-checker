@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionlistItemForFixedPrice(uint256_tokenId,uint256_amount,uint256_price,uint256_royaltyFee,address_nftAddress,address_royaltyRec)publicOnlyTokenHolders(_tokenId,_nftAddress)returns(uint256)\\n{\\n.'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'functionlistItemForFixedPrice(uint256_tokenId,uint256_amount,uint256_price,uint256_royaltyFee,address_nftAddress,address_royaltyRec)publicOnlyTokenHolders(_tokenId,_nftAddress)returns(uint256)\\n{\\n.'\n"
+    ]
+}

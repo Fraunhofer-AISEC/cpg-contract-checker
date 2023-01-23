@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor()ERC721(\"MYNFT\",\"MYCOLLECTION\")\\n{\\nfunctionGenerateNFT'": [
+        "ERROR: when parsing line 3 column 13: no viable alternative at input 'constructor()ERC721(\"MYNFT\",\"MYCOLLECTION\")\\n{\\nfunctionGenerateNFT'\n"
+    ]
+}

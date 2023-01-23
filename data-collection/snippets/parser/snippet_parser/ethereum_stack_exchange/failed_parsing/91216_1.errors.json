@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongenerateHash(\\nuintentityData,\\nboolisEntity,\\nbooliscontent,\\nuintvote,\\nuintpredata\\n)\\npublic\\npure\\nreturns(bytes32hash)\\n{\\nreturnkeccak256(abi.encodePacked(entityData,isEntity,iscontent,vote,predata);'": [
+        "ERROR: when parsing line 12 column 84: no viable alternative at input 'functiongenerateHash(\\nuintentityData,\\nboolisEntity,\\nbooliscontent,\\nuintvote,\\nuintpredata\\n)\\npublic\\npure\\nreturns(bytes32hash)\\n{\\nreturnkeccak256(abi.encodePacked(entityData,isEntity,iscontent,vote,predata);'\n"
+    ]
+}

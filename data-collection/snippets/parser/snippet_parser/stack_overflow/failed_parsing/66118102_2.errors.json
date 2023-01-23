@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetActiveDepositIndexes()publicviewreturns(uint[]){.'": [
+        "ERROR: when parsing line 1 column 65: no viable alternative at input 'functiongetActiveDepositIndexes()publicviewreturns(uint[]){.'\n"
+    ]
+}

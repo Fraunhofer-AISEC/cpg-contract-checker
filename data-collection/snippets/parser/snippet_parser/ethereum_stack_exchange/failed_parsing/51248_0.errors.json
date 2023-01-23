@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionrefund(addressinvestor)public{\\nrequire(state==State.Refunding);\\nuint256depositedValue=deposited[investor];\\ndeposited[investor]=0;\\ninvestor.transfer(depositedValue);\\nemitRefunded(investor,depositedValue);\\n}\\n}'": [
+        "ERROR: when parsing line 9 column 2: no viable alternative at input 'functionrefund(addressinvestor)public{\\nrequire(state==State.Refunding);\\nuint256depositedValue=deposited[investor];\\ndeposited[investor]=0;\\ninvestor.transfer(depositedValue);\\nemitRefunded(investor,depositedValue);\\n}\\n}'\n"
+    ]
+}

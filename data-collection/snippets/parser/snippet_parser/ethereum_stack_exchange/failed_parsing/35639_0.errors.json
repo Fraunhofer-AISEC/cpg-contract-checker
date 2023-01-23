@@ -1,0 +1,14 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 24: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'geoPoint1:'": [
+        "ERROR: when parsing line 2 column 25: no viable alternative at input 'geoPoint1:'\n"
+    ],
+    "mismatched input 'owner' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 16: mismatched input 'owner' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 7 column 13: extraneous input ')' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}

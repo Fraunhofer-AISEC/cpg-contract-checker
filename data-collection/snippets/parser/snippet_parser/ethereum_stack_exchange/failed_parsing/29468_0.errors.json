@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionassignTokens(addressreceiver,uinttokenAmount)private{\\nif(!token.transferFrom(beneficiary,receiver,tokenAmount))throw;\\n}\\n}'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionassignTokens(addressreceiver,uinttokenAmount)private{\\nif(!token.transferFrom(beneficiary,receiver,tokenAmount))throw;\\n}\\n}'\n"
+    ]
+}

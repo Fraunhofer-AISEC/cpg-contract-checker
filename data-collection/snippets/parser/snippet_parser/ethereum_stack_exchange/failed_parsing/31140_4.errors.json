@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbuyTokens(addressbeneficiary)publicpayable{\\nrequire(beneficiary!=address(0));\\nrequire(validPurchase());\\n.'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'functionbuyTokens(addressbeneficiary)publicpayable{\\nrequire(beneficiary!=address(0));\\nrequire(validPurchase());\\n.'\n"
+    ]
+}

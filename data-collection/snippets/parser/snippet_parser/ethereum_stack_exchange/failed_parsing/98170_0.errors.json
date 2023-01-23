@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(address_to,uint256_value)returns(boolsuccess){\\nif(balances[msg.sender]>=_value&&_value>0){\\nbalances[msg.sender]-=_value;\\nbalances[_to]+=_value-(_value/100);\\nbalances[0xxx'": [
+        "ERROR: when parsing line 5 column 25: no viable alternative at input 'functiontransfer(address_to,uint256_value)returns(boolsuccess){\\nif(balances[msg.sender]>=_value&&_value>0){\\nbalances[msg.sender]-=_value;\\nbalances[_to]+=_value-(_value/100);\\nbalances[0xxx'\n"
+    ]
+}

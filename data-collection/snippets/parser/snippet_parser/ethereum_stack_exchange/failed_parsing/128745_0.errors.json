@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondecider(nbaTeam[]memoryteam)public{\\nfor(uinti=0;i<31;i++){\\nif(team[i].oRtg>avgOrtg&&team[i].dRtg<avgDrtg){\\nniceTeams.push(team);\\n}\\n}else'": [
+        "ERROR: when parsing line 6 column 8: no viable alternative at input 'functiondecider(nbaTeam[]memoryteam)public{\\nfor(uinti=0;i<31;i++){\\nif(team[i].oRtg>avgOrtg&&team[i].dRtg<avgDrtg){\\nniceTeams.push(team);\\n}\\n}else'\n"
+    ]
+}

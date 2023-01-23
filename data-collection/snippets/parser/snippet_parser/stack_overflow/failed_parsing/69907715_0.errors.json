@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'receive()externalpayablevirtual{\\n\\nIERC20token=IERC20(address(0x123..'": [
+        "ERROR: when parsing line 3 column 40: no viable alternative at input 'receive()externalpayablevirtual{\\n\\nIERC20token=IERC20(address(0x123..'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_bid(uint256_tokenId,uint256_bidAmount)internalreturns(uint256){\\n\\nAuctionstorageauction=_getAuctionByTokenId(_tokenId);\\nrequire(_isOnAuction(auction));\\n\\nuint256price=_currentPrice(auction);\\nrequire(_bidAmount>=price);\\n\\naddressseller=auction.seller;\\n_removeAuction(_tokenId);\\n\\n\\nif(price>0){\\n.'": [
+        "ERROR: when parsing line 14 column 7: no viable alternative at input 'function_bid(uint256_tokenId,uint256_bidAmount)internalreturns(uint256){\\n\\nAuctionstorageauction=_getAuctionByTokenId(_tokenId);\\nrequire(_isOnAuction(auction));\\n\\nuint256price=_currentPrice(auction);\\nrequire(_bidAmount>=price);\\n\\naddressseller=auction.seller;\\n_removeAuction(_tokenId);\\n\\n\\nif(price>0){\\n.'\n"
+    ]
+}

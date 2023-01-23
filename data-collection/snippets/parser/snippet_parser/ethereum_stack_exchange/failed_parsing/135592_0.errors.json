@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '[8,'": [
+        "ERROR: when parsing line 9 column 48: no viable alternative at input '[8,'\n"
+    ]
+}

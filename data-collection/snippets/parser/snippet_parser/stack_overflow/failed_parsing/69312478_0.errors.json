@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetAccounts(address[]memory_accounts)publiconlyOwner{\\nfor(uinti=0;i<_accounts.length;i++){\\naccounts[_accounts[i]]=true;\\n}\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functionsetAccounts(address[]memory_accounts)publiconlyOwner{\\nfor(uinti=0;i<_accounts.length;i++){\\naccounts[_accounts[i]]=true;\\n}\\n'\n"
+    ]
+}

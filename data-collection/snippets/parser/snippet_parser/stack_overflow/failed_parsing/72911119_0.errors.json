@@ -1,0 +1,14 @@
+{
+    "extraneous input 'addPerson' expecting {'(', NL}": [
+        "ERROR: when parsing line 2 column 13: extraneous input 'addPerson' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_name' expecting {',', ')'}": [
+        "ERROR: when parsing line 2 column 37: extraneous input '_name' expecting {',', ')'}\n"
+    ],
+    "extraneous input '_favoriteNumber' expecting ')'": [
+        "ERROR: when parsing line 2 column 52: extraneous input '_favoriteNumber' expecting ')'\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 2 column 69: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

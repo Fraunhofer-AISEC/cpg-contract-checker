@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionRandomlyAssigned(uint256amount,uint256num){**'": [
+        "ERROR: when parsing line 1 column 56: no viable alternative at input 'functionRandomlyAssigned(uint256amount,uint256num){**'\n"
+    ]
+}

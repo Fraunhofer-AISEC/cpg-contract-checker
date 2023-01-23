@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionexpensiveTransfer()public{\\nuintmaxGasLeft=gasleft();\\nrequire(maxGasLeft>5000000);\\nmaxGasLeft-=5000000;\\n\\n.'": [
+        "ERROR: when parsing line 6 column 2: no viable alternative at input 'functionexpensiveTransfer()public{\\nuintmaxGasLeft=gasleft();\\nrequire(maxGasLeft>5000000);\\nmaxGasLeft-=5000000;\\n\\n.'\n"
+    ]
+}

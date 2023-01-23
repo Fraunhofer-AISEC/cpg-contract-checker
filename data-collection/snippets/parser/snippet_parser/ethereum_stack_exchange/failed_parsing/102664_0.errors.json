@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constinfo_contract=newethers.Contract(address,abi,signer);\\nconstinfo=info_contract.connect(signer);\\nlet'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'constinfo_contract=newethers.Contract(address,abi,signer);\\nconstinfo=info_contract.connect(signer);\\nlet'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_generate()private{\\n\\n\\nuintdna=uint(keccak256(now,msg.sender,x));\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nfor(x=0;x<dnaChunks.length;x++){\\n\\n\\nuinta=dna[0,'": [
+        "ERROR: when parsing line 17 column 29: no viable alternative at input 'function_generate()private{\\n\\n\\nuintdna=uint(keccak256(now,msg.sender,x));\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nfor(x=0;x<dnaChunks.length;x++){\\n\\n\\nuinta=dna[0,'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionWinnerOfLottery()publicviewreturns(address){\\nrequire(msg.sender==manager);\\nrequire(participants.length>=3);\\n**'": [
+        "ERROR: when parsing line 4 column 8: no viable alternative at input 'functionWinnerOfLottery()publicviewreturns(address){\\nrequire(msg.sender==manager);\\nrequire(participants.length>=3);\\n**'\n"
+    ]
+}

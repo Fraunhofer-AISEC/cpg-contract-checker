@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondetermineWinner()public{\\nrequire(msg.sender==owner);\\nrequire(state==LotteryState.SecondRound,\"Admin please set to second round\");\\nstate=LotteryState.Finished;\\n\\nuint8[5]memorywinningNumbers=setWinNum(numsFixed);--saysundeclared'": [
+        "ERROR: when parsing line 6 column 68: no viable alternative at input 'functiondetermineWinner()public{\\nrequire(msg.sender==owner);\\nrequire(state==LotteryState.SecondRound,\"Admin please set to second round\");\\nstate=LotteryState.Finished;\\n\\nuint8[5]memorywinningNumbers=setWinNum(numsFixed);--saysundeclared'\n"
+    ]
+}

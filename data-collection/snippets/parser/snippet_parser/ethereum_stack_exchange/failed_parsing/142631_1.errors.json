@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionexecuteBatch(\\naddress[]calldatato,\\nuint256[]calldatavalue,\\nbytes[]calldatadata,\\nbytes[][]calldatasignatures\\n)publiconlyOwnerreturns(bytes[]memory){\\n.'": [
+        "ERROR: when parsing line 7 column 8: no viable alternative at input 'functionexecuteBatch(\\naddress[]calldatato,\\nuint256[]calldatavalue,\\nbytes[]calldatadata,\\nbytes[][]calldatasignatures\\n)publiconlyOwnerreturns(bytes[]memory){\\n.'\n"
+    ]
+}

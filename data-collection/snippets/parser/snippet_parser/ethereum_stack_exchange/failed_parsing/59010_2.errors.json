@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionenter()publicpayable{\\nif(Pause==false){\\n.'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionenter()publicpayable{\\nif(Pause==false){\\n.'\n"
+    ]
+}

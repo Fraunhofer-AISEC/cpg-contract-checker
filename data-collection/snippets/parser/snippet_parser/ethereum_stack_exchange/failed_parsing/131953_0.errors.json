@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('Should succeed and emit \\'MemberRemoved\\' events if admin removes a member',asyncfunction'": [
+        "ERROR: when parsing line 1 column 87: no viable alternative at input 'it('Should succeed and emit \\'MemberRemoved\\' events if admin removes a member',asyncfunction'\n"
+    ]
+}

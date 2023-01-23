@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionclaimBounty(bytes32claimId,bytes32previousClaimId,uintpixelX,uintpixelY)external.'": [
+        "ERROR: when parsing line 1 column 98: no viable alternative at input 'functionclaimBounty(bytes32claimId,bytes32previousClaimId,uintpixelX,uintpixelY)external.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsettlement(uint256_amount)externalreturns(bool){\\nuint256amount=_amount*10**uint256(DECIMAL_FACTOR);\\nrequire(proxy.distributeStakes(msg.sender,amount));\\n\\nrequire(this.transferFrom(msg.sender,0x0,_amount));\\nreturntrue;\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionsettlement(uint256_amount)externalreturns(bool){\\nuint256amount=_amount*10**uint256(DECIMAL_FACTOR);\\nrequire(proxy.distributeStakes(msg.sender,amount));\\n\\nrequire(this.transferFrom(msg.sender,0x0,_amount));\\nreturntrue;\\n'\n"
+    ]
+}

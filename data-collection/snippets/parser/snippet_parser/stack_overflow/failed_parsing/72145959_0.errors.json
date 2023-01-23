@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionisAvailable(\\nbytesmemorysignature,address_firmante\\n)internalviewreturns(boolwhiteListed){\\nbytes32result=keccak256(\\nabi.encodePacked(msg.sender)\\n);\\n\\nhash=.'": [
+        "ERROR: when parsing line 8 column 10: no viable alternative at input 'functionisAvailable(\\nbytesmemorysignature,address_firmante\\n)internalviewreturns(boolwhiteListed){\\nbytes32result=keccak256(\\nabi.encodePacked(msg.sender)\\n);\\n\\nhash=.'\n"
+    ]
+}

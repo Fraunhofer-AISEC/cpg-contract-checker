@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfoo(addressspender,uint256amount)public{\\nrequire(approve(addressspender'": [
+        "ERROR: when parsing line 2 column 27: no viable alternative at input 'functionfoo(addressspender,uint256amount)public{\\nrequire(approve(addressspender'\n"
+    ]
+}

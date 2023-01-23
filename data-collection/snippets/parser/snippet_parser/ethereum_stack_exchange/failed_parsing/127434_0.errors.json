@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_callOptionalReturn(IERC20Upgradeabletoken,bytesmemorydata)private{.'": [
+        "ERROR: when parsing line 2 column 88: no viable alternative at input 'function_callOptionalReturn(IERC20Upgradeabletoken,bytesmemorydata)private{.'\n"
+    ]
+}

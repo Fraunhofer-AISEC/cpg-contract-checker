@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uint8a=1;\\nuint8b=255;\\n\\nThenc=1+255which'": [
+        "ERROR: when parsing line 4 column 17: no viable alternative at input 'uint8a=1;\\nuint8b=255;\\n\\nThenc=1+255which'\n"
+    ]
+}

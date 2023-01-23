@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetSigner(uint_amount,bytesmemory_signature)\\npublic\\npure\\nreturns(address){\\nbytes32_prefixHash=\\nECDSA.toEthSignedMessageHash(keccak256(abi.encodePacked(messagefor'": [
+        "ERROR: when parsing line 7 column 17: no viable alternative at input 'functiongetSigner(uint_amount,bytesmemory_signature)\\npublic\\npure\\nreturns(address){\\nbytes32_prefixHash=\\nECDSA.toEthSignedMessageHash(keccak256(abi.encodePacked(messagefor'\n"
+    ]
+}

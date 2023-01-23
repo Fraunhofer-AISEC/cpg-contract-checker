@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_createLottery()internal{\\ntickets=newTicket[](0);\\n}\\n}'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'function_createLottery()internal{\\ntickets=newTicket[](0);\\n}\\n}'\n"
+    ]
+}

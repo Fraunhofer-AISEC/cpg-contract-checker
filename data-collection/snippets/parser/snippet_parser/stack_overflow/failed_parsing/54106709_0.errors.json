@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structRound{\\nboolisValue;\\nuint32id;\\nRoundStatestate;\\naddress[]addresses;\\nRoundBet[]bets;\\nmapping(address=>bool)betUsers;\\nmapping(address=>uint256)userBets;\\nuint256winTicket;\\nuint256amount;\\nuint256lastTicket;\\naddresswinner;\\n}\\n.'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'structRound{\\nboolisValue;\\nuint32id;\\nRoundStatestate;\\naddress[]addresses;\\nRoundBet[]bets;\\nmapping(address=>bool)betUsers;\\nmapping(address=>uint256)userBets;\\nuint256winTicket;\\nuint256amount;\\nuint256lastTicket;\\naddresswinner;\\n}\\n.'\n"
+    ]
+}

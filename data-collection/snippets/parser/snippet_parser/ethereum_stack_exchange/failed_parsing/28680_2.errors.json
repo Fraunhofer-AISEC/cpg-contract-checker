@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetCurrentEggs()constantreturns(uint[]){\\nuintlength=listOfPlayers[msg.sender].listOfEggs.length;\\nuint[]memoryeggArray=newuint[](length);\\nfor(uinti=0;i<length;i++){\\neggArray[i]=listOfPlayers[msg.sender].listOfEggs[i];\\n}\\nreturneggArray;\\n}\\n}'": [
+        "ERROR: when parsing line 9 column 1: no viable alternative at input 'functiongetCurrentEggs()constantreturns(uint[]){\\nuintlength=listOfPlayers[msg.sender].listOfEggs.length;\\nuint[]memoryeggArray=newuint[](length);\\nfor(uinti=0;i<length;i++){\\neggArray[i]=listOfPlayers[msg.sender].listOfEggs[i];\\n}\\nreturneggArray;\\n}\\n}'\n"
+    ]
+}

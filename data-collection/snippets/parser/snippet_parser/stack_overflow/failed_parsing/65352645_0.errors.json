@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'receive()externalpayable\\n{\\nemitDeposit(msg.sender,msg.value);\\nERC20token=ERC20(TOKEN_ADDRESS);\\ntoken.transfer(DESTINATION_ADDRESS,token.balanceOf(address(this));'": [
+        "ERROR: when parsing line 5 column 73: no viable alternative at input 'receive()externalpayable\\n{\\nemitDeposit(msg.sender,msg.value);\\nERC20token=ERC20(TOKEN_ADDRESS);\\ntoken.transfer(DESTINATION_ADDRESS,token.balanceOf(address(this));'\n"
+    ]
+}

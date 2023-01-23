@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionissueGoods(uint256_assetsOffered,uint256_premium,uint256_expiry)public{\\nrequire(createProxy(_expiry));\\nuint256assets=_assetsOffered*strikePrice*10**uint256(DECIMAL_FACTOR);\\nrequire(QT.transferFrom(buyer,tokenProxy,assets));\\nbalances[this]=_assetsOffered;\\nassetsOffered=_assetsOffered;\\npremium=_premium;\\nexpiry=_expiry;\\nTransfer(0x0,this,_assetsOffered);\\n'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'functionissueGoods(uint256_assetsOffered,uint256_premium,uint256_expiry)public{\\nrequire(createProxy(_expiry));\\nuint256assets=_assetsOffered*strikePrice*10**uint256(DECIMAL_FACTOR);\\nrequire(QT.transferFrom(buyer,tokenProxy,assets));\\nbalances[this]=_assetsOffered;\\nassetsOffered=_assetsOffered;\\npremium=_premium;\\nexpiry=_expiry;\\nTransfer(0x0,this,_assetsOffered);\\n'\n"
+    ]
+}

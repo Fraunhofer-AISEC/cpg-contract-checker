@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'module.exports='": [
+        "ERROR: when parsing line 24 column 25: no viable alternative at input 'module.exports='\n"
+    ]
+}

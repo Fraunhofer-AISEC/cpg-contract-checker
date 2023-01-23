@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'const{'": [
+        "ERROR: when parsing line 41 column 6: no viable alternative at input 'const{'\n"
+    ]
+}

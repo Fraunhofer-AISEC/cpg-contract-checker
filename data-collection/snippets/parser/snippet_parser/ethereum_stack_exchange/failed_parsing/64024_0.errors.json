@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontest(bytes_data)public{\\nuintmin=.'": [
+        "ERROR: when parsing line 2 column 9: no viable alternative at input 'functiontest(bytes_data)public{\\nuintmin=.'\n"
+    ]
+}

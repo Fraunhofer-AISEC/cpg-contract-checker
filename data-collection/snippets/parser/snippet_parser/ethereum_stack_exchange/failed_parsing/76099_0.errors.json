@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionchoosePair()public{\\n\\nfor(uinti=0;i<players.length;i++){\\nPersonstoragechosenOne=players[pseudoRandom(0,23)];\\nif(selectedPair[chosenOne.gender]!=0){\\n\\n}\\n}\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionchoosePair()public{\\n\\nfor(uinti=0;i<players.length;i++){\\nPersonstoragechosenOne=players[pseudoRandom(0,23)];\\nif(selectedPair[chosenOne.gender]!=0){\\n\\n}\\n}\\n'\n"
+    ]
+}

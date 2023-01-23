@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'func(self*StateDB)Empty'": [
+        "ERROR: when parsing line 3 column 21: no viable alternative at input 'func(self*StateDB)Empty'\n"
+    ]
+}

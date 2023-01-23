@@ -1,0 +1,11 @@
+{
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 12 column 24: mismatched input '(' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 12 column 34: extraneous input ')' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '{' expecting '('": [
+        "ERROR: when parsing line 14 column 23: mismatched input '{' expecting '('\n"
+    ]
+}

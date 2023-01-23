@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionCrowdsale(uint256_startTime,uint256_endTime,uint256_rate,address_wallet,MintableToken_token)public{\\n'": [
+        "ERROR: when parsing line 2 column 0: no viable alternative at input 'functionCrowdsale(uint256_startTime,uint256_endTime,uint256_rate,address_wallet,MintableToken_token)public{\\n'\n"
+    ]
+}

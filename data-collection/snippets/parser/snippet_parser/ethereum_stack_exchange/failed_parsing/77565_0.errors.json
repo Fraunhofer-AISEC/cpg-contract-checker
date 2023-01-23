@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionabiExpr()\\n{\\nfor(i=0;i<sources.length;i++){\\n\\nif(!getterFunctionsObject[i])\\ngetterFunctionsObject[i]=[]\\n\\nif(!constrObject[i])\\nconstrObject[i]=[]\\n\\nif(!setterFunctionsObject[i])\\nsetterFunctionsObject[i]=[]\\n\\nif(!settersParameters[i])\\nsettersParameters[i]=[]\\nif(!settersParameters[i][i])\\nsettersParameters[i][i]=[]\\n\\nfor(let'": [
+        "ERROR: when parsing line 19 column 7: no viable alternative at input 'functionabiExpr()\\n{\\nfor(i=0;i<sources.length;i++){\\n\\nif(!getterFunctionsObject[i])\\ngetterFunctionsObject[i]=[]\\n\\nif(!constrObject[i])\\nconstrObject[i]=[]\\n\\nif(!setterFunctionsObject[i])\\nsetterFunctionsObject[i]=[]\\n\\nif(!settersParameters[i])\\nsettersParameters[i]=[]\\nif(!settersParameters[i][i])\\nsettersParameters[i][i]=[]\\n\\nfor(let'\n"
+    ]
+}

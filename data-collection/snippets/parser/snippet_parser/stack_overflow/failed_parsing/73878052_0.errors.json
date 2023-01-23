@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'CodeSolution=topLine\\n\\n\\n\\n\\n\\npragma'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'CodeSolution=topLine\\n\\n\\n\\n\\n\\npragma'\n"
+    ]
+}

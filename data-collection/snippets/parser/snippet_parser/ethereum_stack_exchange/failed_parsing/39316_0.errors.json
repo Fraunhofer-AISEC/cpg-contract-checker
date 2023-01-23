@@ -1,0 +1,8 @@
+{
+    "missing '}' at 'pragma'": [
+        "ERROR: when parsing line 45 column 0: missing '}' at 'pragma'\n"
+    ],
+    "no viable alternative at input 'browser/'": [
+        "ERROR: when parsing line 155 column 7: no viable alternative at input 'browser/'\n"
+    ]
+}

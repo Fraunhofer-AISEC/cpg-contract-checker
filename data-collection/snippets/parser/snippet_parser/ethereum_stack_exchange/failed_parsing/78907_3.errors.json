@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'boolsuccess=kittyContract.anyFunction()..'": [
+        "ERROR: when parsing line 1 column 43: no viable alternative at input 'boolsuccess=kittyContract.anyFunction()..'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionreadAllTask()publicviewreturns(uint,uint256,uint256){\\nreturn(tasks.id,tasks.stackAddress,tasks.nftId);<='": [
+        "ERROR: when parsing line 2 column 61: no viable alternative at input 'functionreadAllTask()publicviewreturns(uint,uint256,uint256){\\nreturn(tasks.id,tasks.stackAddress,tasks.nftId);<='\n"
+    ]
+}

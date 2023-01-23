@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'int256constant'": [
+        "ERROR: when parsing line 3 column 15: no viable alternative at input 'int256constant'\n"
+    ]
+}

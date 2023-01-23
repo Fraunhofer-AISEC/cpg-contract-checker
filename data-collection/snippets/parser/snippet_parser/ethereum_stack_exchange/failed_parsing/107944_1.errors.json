@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetSpaceAvailability(uint8_space,bool_newAvailability)lessorOnlypublic{.'": [
+        "ERROR: when parsing line 1 column 86: no viable alternative at input 'functionsetSpaceAvailability(uint8_space,bool_newAvailability)lessorOnlypublic{.'\n"
+    ]
+}

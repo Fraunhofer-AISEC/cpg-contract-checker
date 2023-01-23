@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondo_sth(\\naddress[]memoryads,\\nuint256in'": [
+        "ERROR: when parsing line 3 column 12: no viable alternative at input 'functiondo_sth(\\naddress[]memoryads,\\nuint256in'\n"
+    ]
+}

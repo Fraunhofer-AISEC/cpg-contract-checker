@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsfStore(uint256_simpleStorageIndex,uint256_simpleStorageNumber)public{\\n\\n\\nSimpleStoragesimpleStorage=SimpleStorage(address(simpleStorageArray[_simpleStorageIndex]));\\nsimpleStorage.store(_simpleStorageNumber);\\n}\\n}'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionsfStore(uint256_simpleStorageIndex,uint256_simpleStorageNumber)public{\\n\\n\\nSimpleStoragesimpleStorage=SimpleStorage(address(simpleStorageArray[_simpleStorageIndex]));\\nsimpleStorage.store(_simpleStorageNumber);\\n}\\n}'\n"
+    ]
+}

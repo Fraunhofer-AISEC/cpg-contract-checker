@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfulfill(bytes32_requestId,uint256_volume)\\npublicrecordChainlinkFulfillment(_requestId)\\n{\\nresponses.push(_volume)\\nifresponses'": [
+        "ERROR: when parsing line 5 column 7: no viable alternative at input 'functionfulfill(bytes32_requestId,uint256_volume)\\npublicrecordChainlinkFulfillment(_requestId)\\n{\\nresponses.push(_volume)\\nifresponses'\n"
+    ]
+}

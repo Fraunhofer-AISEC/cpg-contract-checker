@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uint256publicmaxSupply=2000;\\n\\nif'": [
+        "ERROR: when parsing line 3 column 8: no viable alternative at input 'uint256publicmaxSupply=2000;\\n\\nif'\n"
+    ]
+}

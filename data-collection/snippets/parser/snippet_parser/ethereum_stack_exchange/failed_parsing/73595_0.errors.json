@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_stringReplace(stringmemory_string,uint256_pos,stringmemory_letter)internalpurereturns(stringmemory){\\n'": [
+        "ERROR: when parsing line 2 column 0: no viable alternative at input 'function_stringReplace(stringmemory_string,uint256_pos,stringmemory_letter)internalpurereturns(stringmemory){\\n'\n"
+    ]
+}

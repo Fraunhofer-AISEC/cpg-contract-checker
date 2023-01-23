@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdraw()external{\\nif(block.timestamp<vestingPeriodEnd)return;\\nif(eventOccurred)\\nelse'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'functionwithdraw()external{\\nif(block.timestamp<vestingPeriodEnd)return;\\nif(eventOccurred)\\nelse'\n"
+    ]
+}

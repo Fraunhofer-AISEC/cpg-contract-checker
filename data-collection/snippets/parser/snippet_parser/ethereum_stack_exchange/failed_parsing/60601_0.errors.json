@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionexchange(uint256amount,boolspecialCase)externalreturns(uint256){\\nlet'": [
+        "ERROR: when parsing line 2 column 4: no viable alternative at input 'functionexchange(uint256amount,boolspecialCase)externalreturns(uint256){\\nlet'\n"
+    ]
+}

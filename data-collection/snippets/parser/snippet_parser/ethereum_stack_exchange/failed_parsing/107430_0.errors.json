@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionboo(stringmemory_string)publicviewreturns(stringmemoryresult){\\nassembly{\\nresult:=mload(add(_string,64))\\n}\\n}\\n}'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionboo(stringmemory_string)publicviewreturns(stringmemoryresult){\\nassembly{\\nresult:=mload(add(_string,64))\\n}\\n}\\n}'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionvalidPurchase(addressbeneficiary)internalviewreturns(bool){\\nboolisWhitelisted=whitelisted[beneficiary];<'": [
+        "ERROR: when parsing line 2 column 51: no viable alternative at input 'functionvalidPurchase(addressbeneficiary)internalviewreturns(bool){\\nboolisWhitelisted=whitelisted[beneficiary];<'\n"
+    ]
+}

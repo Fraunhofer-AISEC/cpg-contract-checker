@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor(uint_price,uint_days)public{\\nowner=msg.sender;\\nprice=_price;\\ndeadlineInDays=now+_daysdays'": [
+        "ERROR: when parsing line 4 column 33: no viable alternative at input 'constructor(uint_price,uint_days)public{\\nowner=msg.sender;\\nprice=_price;\\ndeadlineInDays=now+_daysdays'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetUser(address_address)publicview\\nreturns(stringmemory,stringmemory,stringmemory,stringmemory,\\nuintmemory,stringmemory){\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functiongetUser(address_address)publicview\\nreturns(stringmemory,stringmemory,stringmemory,stringmemory,\\nuintmemory,stringmemory){\\n'\n"
+    ]
+}

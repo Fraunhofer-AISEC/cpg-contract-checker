@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetUser(address_userAddress)\\npublic\\nonlyAuthCaller\\nreturns(\\nstringmemoryname,\\nstringmemoryinfo,\\nstringmemoryrole,\\n)'": [
+        "ERROR: when parsing line 8 column 8: no viable alternative at input 'functiongetUser(address_userAddress)\\npublic\\nonlyAuthCaller\\nreturns(\\nstringmemoryname,\\nstringmemoryinfo,\\nstringmemoryrole,\\n)'\n"
+    ]
+}

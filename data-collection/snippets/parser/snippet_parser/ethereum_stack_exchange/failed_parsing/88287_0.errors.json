@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransferFrom(addressrecipient,uint256amount,uint8_v,bytes32_r,bytes32_s)public{\\naddressrecipient=msg.sender;\\nbytes32hash=keccak256('Transfer tokens:',recipient,amount);\\naddresscaller=ecrecover(hash,_v,_r,_s);\\n.'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functiontransferFrom(addressrecipient,uint256amount,uint8_v,bytes32_r,bytes32_s)public{\\naddressrecipient=msg.sender;\\nbytes32hash=keccak256('Transfer tokens:',recipient,amount);\\naddresscaller=ecrecover(hash,_v,_r,_s);\\n.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constPREFIX=\"Returned error: VM Exception while processing transaction: \";\\n\\nasyncfunction'": [
+        "ERROR: when parsing line 3 column 6: no viable alternative at input 'constPREFIX=\"Returned error: VM Exception while processing transaction: \";\\n\\nasyncfunction'\n"
+    ]
+}

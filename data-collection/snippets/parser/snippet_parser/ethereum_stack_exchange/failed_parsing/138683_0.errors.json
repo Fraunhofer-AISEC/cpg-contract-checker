@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionSendHashtoDex(keccak256inputdata){\\n\\naddressprivate'": [
+        "ERROR: when parsing line 3 column 8: no viable alternative at input 'functionSendHashtoDex(keccak256inputdata){\\n\\naddressprivate'\n"
+    ]
+}

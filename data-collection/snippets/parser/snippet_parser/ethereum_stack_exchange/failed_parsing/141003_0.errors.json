@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '''\\npragma'": [
+        "ERROR: when parsing line 3 column 5: no viable alternative at input '''\\npragma'\n"
+    ]
+}

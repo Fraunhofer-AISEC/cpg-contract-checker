@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'describe(\"It mints 10NFTs\",function'": [
+        "ERROR: when parsing line 1 column 28: no viable alternative at input 'describe(\"It mints 10NFTs\",function'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionverify(bytes32hash,uint8v,bytes32r,bytes32s)constantreturns(bool){\\n\\nbytesmemoryprefix=\"\\x19Ethereum Signed Message:\\n32\";\\nbytes32prefixedHash=keccak256(prefix,hash);\\nreturnecrecover(prefixedHash,v,r,s)==(YourAddress'": [
+        "ERROR: when parsing line 5 column 53: no viable alternative at input 'functionverify(bytes32hash,uint8v,bytes32r,bytes32s)constantreturns(bool){\\n\\nbytesmemoryprefix=\"\\x19Ethereum Signed Message:\\n32\";\\nbytes32prefixedHash=keccak256(prefix,hash);\\nreturnecrecover(prefixedHash,v,r,s)==(YourAddress'\n"
+    ]
+}

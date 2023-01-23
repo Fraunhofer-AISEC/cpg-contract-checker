@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionappendKeyToMyStruct(uint_myStruct,addresskey)public.'": [
+        "ERROR: when parsing line 1 column 65: no viable alternative at input 'functionappendKeyToMyStruct(uint_myStruct,addresskey)public.'\n"
+    ]
+}

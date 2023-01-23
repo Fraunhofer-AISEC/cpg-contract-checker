@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncook(\\nuint8[]calldataactions,\\nuint256[]calldatavalues,\\nbytes[]calldatadatas,\\nactions='": [
+        "ERROR: when parsing line 5 column 11: no viable alternative at input 'functioncook(\\nuint8[]calldataactions,\\nuint256[]calldatavalues,\\nbytes[]calldatadatas,\\nactions='\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmul(uint256a,uint256b)internalpurereturns(uint256){\\n.'": [
+        "ERROR: when parsing line 2 column 8: no viable alternative at input 'functionmul(uint256a,uint256b)internalpurereturns(uint256){\\n.'\n"
+    ]
+}

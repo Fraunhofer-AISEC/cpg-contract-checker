@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontestWager()onlyState(GameState.noWager||GameState.wagerMade)payablereturns(bool){.'": [
+        "ERROR: when parsing line 1 column 96: no viable alternative at input 'functiontestWager()onlyState(GameState.noWager||GameState.wagerMade)payablereturns(bool){.'\n"
+    ]
+}

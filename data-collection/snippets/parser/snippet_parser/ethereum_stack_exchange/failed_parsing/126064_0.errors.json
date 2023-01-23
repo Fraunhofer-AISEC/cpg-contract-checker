@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionclaimToken(addressnativeTokenAddress,uint256amount)public{\\nrequire(amount>0,'Trying to claim 0 tokens.');\\nrequire(msg.sender!=address(0x0));<'": [
+        "ERROR: when parsing line 3 column 43: no viable alternative at input 'functionclaimToken(addressnativeTokenAddress,uint256amount)public{\\nrequire(amount>0,'Trying to claim 0 tokens.');\\nrequire(msg.sender!=address(0x0));<'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsendTransaction(addresstokenAddress,uinttokenAmount)publicpayable{\\nif(!performTransfer(tokenAddress,tokenAmount)){\\nrevert();\\n}\\n\\nfunctionperformTransfer'": [
+        "ERROR: when parsing line 6 column 9: no viable alternative at input 'functionsendTransaction(addresstokenAddress,uinttokenAmount)publicpayable{\\nif(!performTransfer(tokenAddress,tokenAmount)){\\nrevert();\\n}\\n\\nfunctionperformTransfer'\n"
+    ]
+}

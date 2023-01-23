@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpayout()returns(uint){\\n\\nif(projectPaid){return3;}\\nprojectPaid=true;\\nif(!msg.sender.send(amountRaised)){\\nprojectPaid=false;\\nreturn4;\\n}\\n\\n\\n\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionpayout()returns(uint){\\n\\nif(projectPaid){return3;}\\nprojectPaid=true;\\nif(!msg.sender.send(amountRaised)){\\nprojectPaid=false;\\nreturn4;\\n}\\n\\n\\n\\n'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionvalidateDoc(\\nbytes32_a,\\nstring_b,\\nuint256_c\\n)internalview\\nreturns(bool,string){\\n\\nif(condition1'": [
+        "ERROR: when parsing line 8 column 17: no viable alternative at input 'functionvalidateDoc(\\nbytes32_a,\\nstring_b,\\nuint256_c\\n)internalview\\nreturns(bool,string){\\n\\nif(condition1'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'properties_1.defineReadOnly(this,\"fragments\",abi.map(function'": [
+        "ERROR: when parsing line 1 column 56: no viable alternative at input 'properties_1.defineReadOnly(this,\"fragments\",abi.map(function'\n"
+    ]
+}

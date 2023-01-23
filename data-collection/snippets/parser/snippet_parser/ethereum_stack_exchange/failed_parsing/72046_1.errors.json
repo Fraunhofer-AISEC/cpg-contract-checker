@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionset(policyID,arguments..'": [
+        "ERROR: when parsing line 1 column 34: no viable alternative at input 'functionset(policyID,arguments..'\n"
+    ]
+}

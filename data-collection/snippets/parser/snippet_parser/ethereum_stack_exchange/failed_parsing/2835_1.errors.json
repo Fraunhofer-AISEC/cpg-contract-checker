@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'StandaloneBlockchainbc=newStandaloneBlockchain();\\n\\nSolidityContractcontract'": [
+        "ERROR: when parsing line 3 column 17: no viable alternative at input 'StandaloneBlockchainbc=newStandaloneBlockchain();\\n\\nSolidityContractcontract'\n"
+    ]
+}

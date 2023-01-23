@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constabi=[\\n\"function getMessage(string) public view returns (string)\",\\n\"function getMessage() public view returns (string)\"\\n]\\nconstcontract'": [
+        "ERROR: when parsing line 6 column 6: no viable alternative at input 'constabi=[\\n\"function getMessage(string) public view returns (string)\",\\n\"function getMessage() public view returns (string)\"\\n]\\nconstcontract'\n"
+    ]
+}

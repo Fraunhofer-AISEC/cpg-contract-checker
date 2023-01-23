@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionverifyHumanStandardToken(address_tokenContract)constantreturns(bool).'": [
+        "ERROR: when parsing line 1 column 82: no viable alternative at input 'functionverifyHumanStandardToken(address_tokenContract)constantreturns(bool).'\n"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "no viable alternative at input 'import('": [
+        "ERROR: when parsing line 3 column 7: no viable alternative at input 'import('\n"
+    ],
+    "mismatched input 'struct' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 12 column 14: mismatched input 'struct' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncheckUserAllowance(addresssender)publicvirtualreturns(bool){.'": [
+        "ERROR: when parsing line 1 column 74: no viable alternative at input 'functioncheckUserAllowance(addresssender)publicvirtualreturns(bool){.'\n"
+    ]
+}

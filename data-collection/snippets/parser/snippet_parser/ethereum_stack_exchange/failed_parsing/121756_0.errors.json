@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_mint()publicpayable{\\nrequire(msg.value==1ether,\"Send more ethers: 1 ether is required\");\\nrequire(balanceOf(msg.sender)==0,\"You can not have more than 1 Land\");\\n.'": [
+        "ERROR: when parsing line 4 column 11: no viable alternative at input 'function_mint()publicpayable{\\nrequire(msg.value==1ether,\"Send more ethers: 1 ether is required\");\\nrequire(balanceOf(msg.sender)==0,\"You can not have more than 1 Land\");\\n.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionswapExactETHForTokens(uintamountOutMin,address[]calldatapath,addressto,uintdeadline)\\nexternal\\nvirtual\\noverride\\npayable\\nensure(deadline)\\nreturns(uint[]memoryamounts)\\n{\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionswapExactETHForTokens(uintamountOutMin,address[]calldatapath,addressto,uintdeadline)\\nexternal\\nvirtual\\noverride\\npayable\\nensure(deadline)\\nreturns(uint[]memoryamounts)\\n{\\n'\n"
+    ]
+}

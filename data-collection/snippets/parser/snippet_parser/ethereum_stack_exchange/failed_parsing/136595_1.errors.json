@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontokenToNonce(uint256_tokenId).'": [
+        "ERROR: when parsing line 1 column 40: no viable alternative at input 'functiontokenToNonce(uint256_tokenId).'\n"
+    ]
+}

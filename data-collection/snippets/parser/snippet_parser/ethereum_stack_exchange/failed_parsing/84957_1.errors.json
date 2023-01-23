@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'construct('": [
+        "ERROR: when parsing line 18 column 9: no viable alternative at input 'construct('\n"
+    ]
+}

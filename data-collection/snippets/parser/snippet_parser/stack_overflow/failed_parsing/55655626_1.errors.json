@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateJob(stringmemory_jname,uint_reward,uint_application_period,uint_job_duration)public{\\n'": [
+        "ERROR: when parsing line 2 column 0: no viable alternative at input 'functioncreateJob(stringmemory_jname,uint_reward,uint_application_period,uint_job_duration)public{\\n'\n"
+    ]
+}

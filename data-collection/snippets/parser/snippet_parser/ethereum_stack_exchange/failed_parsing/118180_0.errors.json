@@ -1,0 +1,26 @@
+{
+    "mismatched input 'not' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 2: mismatched input 'not' expecting {';', NL}\n"
+    ],
+    "mismatched input 'show' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 11: mismatched input 'show' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'access' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 19: mismatched input 'access' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'mapping' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 28: mismatched input 'mapping' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'in' expecting {'(', NL}": [
+        "ERROR: when parsing line 6 column 36: mismatched input 'in' expecting {'(', NL}\n"
+    ],
+    "mismatched input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 46: mismatched input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'following' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 56: mismatched input 'following' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'uintValue' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 0: extraneous input 'uintValue' expecting {'=', ';', NL}\n"
+    ]
+}

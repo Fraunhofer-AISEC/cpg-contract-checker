@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'app.post('/create/fixedprice',async(req,res,next)=>'": [
+        "ERROR: when parsing line 1 column 54: no viable alternative at input 'app.post('/create/fixedprice',async(req,res,next)=>'\n"
+    ]
+}

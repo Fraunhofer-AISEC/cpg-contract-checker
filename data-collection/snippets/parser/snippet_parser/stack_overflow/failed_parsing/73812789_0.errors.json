@@ -1,0 +1,17 @@
+{
+    "extraneous input 'mint' expecting {'(', NL}": [
+        "ERROR: when parsing line 3 column 9: extraneous input 'mint' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'params' expecting {',', ')'}": [
+        "ERROR: when parsing line 3 column 34: extraneous input 'params' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'override' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 6 column 4: mismatched input 'override' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'returns' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 4: mismatched input 'returns' expecting {';', NL}\n"
+    ],
+    "extraneous input '->' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 19 column 2: extraneous input '->' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ]
+}

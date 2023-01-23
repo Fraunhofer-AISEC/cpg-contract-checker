@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'addressprivateconstant_friend=0xAb8483F64d9C6d1EcF9b849Aeblablalbasomeaddress'": [
+        "ERROR: when parsing line 1 column 63: no viable alternative at input 'addressprivateconstant_friend=0xAb8483F64d9C6d1EcF9b849Aeblablalbasomeaddress'\n"
+    ]
+}

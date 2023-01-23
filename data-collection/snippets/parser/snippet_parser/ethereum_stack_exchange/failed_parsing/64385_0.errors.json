@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetArray()publicviewreturns(string)\\n{\\narr.push(\"Max\");\\narr.push(\"good\");\\narr.push(\"well\");\\n.'": [
+        "ERROR: when parsing line 6 column 4: no viable alternative at input 'functiongetArray()publicviewreturns(string)\\n{\\narr.push(\"Max\");\\narr.push(\"good\");\\narr.push(\"well\");\\n.'\n"
+    ]
+}

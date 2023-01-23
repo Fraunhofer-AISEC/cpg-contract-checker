@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionPostDelivery(stringmemorypseudo)public{\\nrequire(isFinish);\\nrequire(msg.sender==Database[pseudo].data_address);\\nrequire(Database[pseudo].payed==false;'": [
+        "ERROR: when parsing line 4 column 42: no viable alternative at input 'functionPostDelivery(stringmemorypseudo)public{\\nrequire(isFinish);\\nrequire(msg.sender==Database[pseudo].data_address);\\nrequire(Database[pseudo].payed==false;'\n"
+    ]
+}

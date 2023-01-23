@@ -1,0 +1,15 @@
+{
+    "mismatched input 'uint' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 0: mismatched input 'uint' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'array[1]->'": [
+        "ERROR: when parsing line 10 column 9: no viable alternative at input 'array[1]->'\n"
+    ],
+    "mismatched input '->' expecting {';', NL}": [
+        "ERROR: when parsing line 10 column 9: mismatched input '->' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 9: mismatched input '->' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'array[0]->'": [
+        "ERROR: when parsing line 12 column 9: no viable alternative at input 'array[0]->'\n"
+    ]
+}

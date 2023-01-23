@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'boolsuccessfulTransfer=myToken.transfer(player1Addr,valueof'": [
+        "ERROR: when parsing line 1 column 62: no viable alternative at input 'boolsuccessfulTransfer=myToken.transfer(player1Addr,valueof'\n"
+    ]
+}

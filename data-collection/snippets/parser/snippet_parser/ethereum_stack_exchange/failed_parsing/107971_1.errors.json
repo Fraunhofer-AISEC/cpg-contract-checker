@@ -1,0 +1,23 @@
+{
+    "mismatched input 'memory' expecting ')'": [
+        "ERROR: when parsing line 7 column 60: mismatched input 'memory' expecting ')'\n"
+    ],
+    "extraneous input ')' expecting {'{', 'returns', ';', NL}": [
+        "ERROR: when parsing line 7 column 70: extraneous input ')' expecting {'{', 'returns', ';', NL}\n"
+    ],
+    "mismatched input 'cat' expecting {';', NL}": [
+        "ERROR: when parsing line 14 column 28: mismatched input 'cat' expecting {';', NL}\n"
+    ],
+    "extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 14 column 32: extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 14 column 38: mismatched input '(' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 14 column 50: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 14 column 62: mismatched input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ]
+}

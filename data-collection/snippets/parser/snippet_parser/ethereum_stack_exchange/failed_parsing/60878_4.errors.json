@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionclaimFrom(addressminter)publicpayable{\\n\\nFoostoragethisFoo=fooIndex[minter];\\nrequire(thisFoo.balance<amount);\\n\\nthisFoo.balance+=msg.value;\\nthisFoo.expiresAt+=1000;\\n}\\n}'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionclaimFrom(addressminter)publicpayable{\\n\\nFoostoragethisFoo=fooIndex[minter];\\nrequire(thisFoo.balance<amount);\\n\\nthisFoo.balance+=msg.value;\\nthisFoo.expiresAt+=1000;\\n}\\n}'\n"
+    ]
+}

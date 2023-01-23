@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('Should not let user3 accounts[12] to claim rewards just after buy, but after one day: # claims must update, balance should be OK',async()=>'": [
+        "ERROR: when parsing line 1 column 143: no viable alternative at input 'it('Should not let user3 accounts[12] to claim rewards just after buy, but after one day: # claims must update, balance should be OK',async()=>'\n"
+    ]
+}

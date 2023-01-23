@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'varPrecompiledContractsHomestead=map[common.Address]PrecompiledContract'": [
+        "ERROR: when parsing line 1 column 55: no viable alternative at input 'varPrecompiledContractsHomestead=map[common.Address]PrecompiledContract'\n"
+    ]
+}

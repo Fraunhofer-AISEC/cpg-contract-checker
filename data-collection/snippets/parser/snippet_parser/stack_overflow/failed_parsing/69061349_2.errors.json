@@ -1,0 +1,23 @@
+{
+    "extraneous input '_removeApprovedUser' expecting {'(', NL}": [
+        "ERROR: when parsing line 23 column 9: extraneous input '_removeApprovedUser' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_disapprover' expecting {',', ')'}": [
+        "ERROR: when parsing line 23 column 37: extraneous input '_disapprover' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 23 column 51: extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 23 column 65: extraneous input '{' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'pricing' expecting {'(', NL}": [
+        "ERROR: when parsing line 27 column 9: extraneous input 'pricing' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_rate' expecting {',', ')'}": [
+        "ERROR: when parsing line 27 column 22: extraneous input '_rate' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 27 column 29: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

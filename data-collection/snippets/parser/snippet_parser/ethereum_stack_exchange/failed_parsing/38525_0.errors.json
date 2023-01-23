@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsub(uint256a,uint256b.'": [
+        "ERROR: when parsing line 1 column 33: no viable alternative at input 'functionsub(uint256a,uint256b.'\n"
+    ]
+}

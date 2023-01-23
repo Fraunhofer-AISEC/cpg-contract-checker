@@ -1,0 +1,26 @@
+{
+    "mismatched input 'await' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 13: mismatched input 'await' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 23: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 9: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input 'code' expecting ')'": [
+        "ERROR: when parsing line 2 column 25: extraneous input 'code' expecting ')'\n"
+    ],
+    "extraneous input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 30: extraneous input ':' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'withDraw' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 9: extraneous input 'withDraw' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'receiver' expecting {',', ')'}": [
+        "ERROR: when parsing line 4 column 34: extraneous input 'receiver' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 43: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

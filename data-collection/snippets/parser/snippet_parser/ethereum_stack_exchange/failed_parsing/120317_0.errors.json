@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'CONTRACT_SOURCE=\"\"// SPDX-License-Identifier: GPL-3.0\\npragma'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'CONTRACT_SOURCE=\"\"// SPDX-License-Identifier: GPL-3.0\\npragma'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'transfer(from,to,tokenId){\\n\\nuint256'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'transfer(from,to,tokenId){\\n\\nuint256'\n"
+    ]
+}

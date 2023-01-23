@@ -1,0 +1,17 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 25 column 14: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input '{' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 25 column 18: extraneous input '{' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "no viable alternative at input 'from:'": [
+        "ERROR: when parsing line 25 column 23: no viable alternative at input 'from:'\n"
+    ],
+    "extraneous input ')' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 25 column 36: extraneous input ')' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 27 column 0: extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
+    ]
+}

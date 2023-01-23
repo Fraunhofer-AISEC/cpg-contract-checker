@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('should emit on the callee',async()=>'": [
+        "ERROR: when parsing line 1 column 41: no viable alternative at input 'it('should emit on the callee',async()=>'\n"
+    ]
+}

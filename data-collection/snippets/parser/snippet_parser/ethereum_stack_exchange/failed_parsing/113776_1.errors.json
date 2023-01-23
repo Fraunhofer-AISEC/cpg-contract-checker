@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_mint(addressaccount,uint256amount)internalvirtual\\n{.'": [
+        "ERROR: when parsing line 2 column 1: no viable alternative at input 'function_mint(addressaccount,uint256amount)internalvirtual\\n{.'\n"
+    ]
+}

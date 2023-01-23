@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structReviewStruct{\\nstringrating;\\n.'": [
+        "ERROR: when parsing line 3 column 8: no viable alternative at input 'structReviewStruct{\\nstringrating;\\n.'\n"
+    ]
+}

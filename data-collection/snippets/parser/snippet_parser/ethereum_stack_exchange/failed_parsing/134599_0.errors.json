@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionrequestUnstake(uint_stakeIndexNo)publicreturns(bool,uint){\\nAllUserStakedTimestampstorageallUserStakedTimestamp=allUserStakes[msg.sender];\\nuint[]memoryprm=[\\nallUserStakedTimestamp._epochDuration[_stakeIndexNo],\\nallUserStakedTimestamp._timeOfStake[_stakeIndexNo],\\nallUserStakedTimestamp._timesOfRelease[_stakeIndexNo],\\nallUserStakedTimestamp._rewardPerCycle[_stakeIndexNo]\\n];\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionrequestUnstake(uint_stakeIndexNo)publicreturns(bool,uint){\\nAllUserStakedTimestampstorageallUserStakedTimestamp=allUserStakes[msg.sender];\\nuint[]memoryprm=[\\nallUserStakedTimestamp._epochDuration[_stakeIndexNo],\\nallUserStakedTimestamp._timeOfStake[_stakeIndexNo],\\nallUserStakedTimestamp._timesOfRelease[_stakeIndexNo],\\nallUserStakedTimestamp._rewardPerCycle[_stakeIndexNo]\\n];\\n'\n"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "extraneous input 'requestVolumeData' expecting {'(', NL}": [
+        "ERROR: when parsing line 3 column 9: extraneous input 'requestVolumeData' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_jobId' expecting {',', ')'}": [
+        "ERROR: when parsing line 3 column 35: extraneous input '_jobId' expecting {',', ')'}\n"
+    ],
+    "extraneous input '_oracle' expecting ')'": [
+        "ERROR: when parsing line 3 column 51: extraneous input '_oracle' expecting ')'\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 3 column 60: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 95: extraneous input '{' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 22 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}

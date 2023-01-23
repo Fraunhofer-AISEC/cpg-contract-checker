@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structMyStruct{\\nuintconstant'": [
+        "ERROR: when parsing line 3 column 7: no viable alternative at input 'structMyStruct{\\nuintconstant'\n"
+    ]
+}

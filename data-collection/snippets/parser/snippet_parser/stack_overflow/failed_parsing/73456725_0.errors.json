@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionisPrivateListed(\\nuint256_addressReservedTokens,\\nbytes32[]memory_proof\\n)publicviewreturns(bool){\\nbytes32leaf=keccak256(abi.encodePacked(msg.sender,_addressReservedTokens);'": [
+        "ERROR: when parsing line 8 column 85: no viable alternative at input 'functionisPrivateListed(\\nuint256_addressReservedTokens,\\nbytes32[]memory_proof\\n)publicviewreturns(bool){\\nbytes32leaf=keccak256(abi.encodePacked(msg.sender,_addressReservedTokens);'\n"
+    ]
+}

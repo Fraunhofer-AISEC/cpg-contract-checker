@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetpatientbyrecordid(uint256id)viewpublicreturns(bytes32,bytes32,bytes32,int){\\n\\nreturn(patients[id].name,\\npatients[id].regNo,\\npatients[id].address'": [
+        "ERROR: when parsing line 5 column 17: no viable alternative at input 'functiongetpatientbyrecordid(uint256id)viewpublicreturns(bytes32,bytes32,bytes32,int){\\n\\nreturn(patients[id].name,\\npatients[id].regNo,\\npatients[id].address'\n"
+    ]
+}

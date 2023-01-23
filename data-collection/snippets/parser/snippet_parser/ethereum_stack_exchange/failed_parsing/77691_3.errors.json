@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"should keep the contract owner\",async()=>'": [
+        "ERROR: when parsing line 1 column 47: no viable alternative at input 'it(\"should keep the contract owner\",async()=>'\n"
+    ]
+}

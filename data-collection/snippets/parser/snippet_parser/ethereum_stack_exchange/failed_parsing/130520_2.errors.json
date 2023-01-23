@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncheckUpkeep(bytesmemory)publicoverridereturns.'": [
+        "ERROR: when parsing line 1 column 60: no viable alternative at input 'functioncheckUpkeep(bytesmemory)publicoverridereturns.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpayEntryFee()externalpayabletransitionToReveal(getPlayerCount())atStage(Stages.AcceptingEntryFees){\\n.'": [
+        "ERROR: when parsing line 2 column 4: no viable alternative at input 'functionpayEntryFee()externalpayabletransitionToReveal(getPlayerCount())atStage(Stages.AcceptingEntryFees){\\n.'\n"
+    ]
+}

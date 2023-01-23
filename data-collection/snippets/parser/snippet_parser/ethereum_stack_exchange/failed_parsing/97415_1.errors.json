@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateUser(address_userAddress,uint256_userId,string_fName,string_lName,int256_age,enum'": [
+        "ERROR: when parsing line 2 column 102: no viable alternative at input 'functioncreateUser(address_userAddress,uint256_userId,string_fName,string_lName,int256_age,enum'\n"
+    ]
+}

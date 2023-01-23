@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(uint256_tokenId,address_to)publicreturns(bool){\\n\\n\\n\\n\\nuint256requiredArea=nftpermdata[_tokenId].requiredArea;\\nrequire(msg.sender==owners[_tokenId],\"Incorrect Owner Address\");\\n\\nProjectContract(0xxxxxxxxxxa70c34B314B92531Axxxxxxxxx'": [
+        "ERROR: when parsing line 9 column 25: no viable alternative at input 'functiontransfer(uint256_tokenId,address_to)publicreturns(bool){\\n\\n\\n\\n\\nuint256requiredArea=nftpermdata[_tokenId].requiredArea;\\nrequire(msg.sender==owners[_tokenId],\"Incorrect Owner Address\");\\n\\nProjectContract(0xxxxxxxxxxa70c34B314B92531Axxxxxxxxx'\n"
+    ]
+}

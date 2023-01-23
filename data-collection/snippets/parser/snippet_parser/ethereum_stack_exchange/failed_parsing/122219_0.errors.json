@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionverify(\\nboolsuccess,\\nbytesmemoryreturndata,\\nstringmemoryerrorMessage\\n)internalpurereturns(bytesmemory){\\nif(success){\\nreturnreturndata;\\n}else{\\n\\nif(returndata.length>0){\\n\\n\\nassembly{\\nletreturndata_size:=mload(returndata)\\nrevert(add(32,returndata),returndata_size)\\n}\\n}else{\\nrevert(errorMessage);\\n}\\n}\\n'": [
+        "ERROR: when parsing line 21 column 0: no viable alternative at input 'functionverify(\\nboolsuccess,\\nbytesmemoryreturndata,\\nstringmemoryerrorMessage\\n)internalpurereturns(bytesmemory){\\nif(success){\\nreturnreturndata;\\n}else{\\n\\nif(returndata.length>0){\\n\\n\\nassembly{\\nletreturndata_size:=mload(returndata)\\nrevert(add(32,returndata),returndata_size)\\n}\\n}else{\\nrevert(errorMessage);\\n}\\n}\\n'\n"
+    ]
+}

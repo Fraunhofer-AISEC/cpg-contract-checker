@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'mapping(bytes32=>uint256)privatestorage'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'mapping(bytes32=>uint256)privatestorage'\n"
+    ]
+}

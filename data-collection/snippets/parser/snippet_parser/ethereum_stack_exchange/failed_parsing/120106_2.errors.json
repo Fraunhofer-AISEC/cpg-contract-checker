@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpopulateAll(uint8[]races,uint8[]strengths,uint8[]agilities,uint8[]hps,)'": [
+        "ERROR: when parsing line 2 column 88: no viable alternative at input 'functionpopulateAll(uint8[]races,uint8[]strengths,uint8[]agilities,uint8[]hps,)'\n"
+    ]
+}

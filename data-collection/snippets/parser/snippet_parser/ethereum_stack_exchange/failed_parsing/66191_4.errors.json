@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uint256result;\\nuint8precision;\\nuint256baseN=P.mul(10000000000);\\nuint256baseD=R*Mscaled'": [
+        "ERROR: when parsing line 4 column 20: no viable alternative at input 'uint256result;\\nuint8precision;\\nuint256baseN=P.mul(10000000000);\\nuint256baseD=R*Mscaled'\n"
+    ]
+}

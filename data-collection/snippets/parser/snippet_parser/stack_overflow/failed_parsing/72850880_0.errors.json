@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'Solidity^0.8.9'": [
+        "ERROR: when parsing line 1 column 14: no viable alternative at input 'Solidity^0.8.9'\n"
+    ]
+}

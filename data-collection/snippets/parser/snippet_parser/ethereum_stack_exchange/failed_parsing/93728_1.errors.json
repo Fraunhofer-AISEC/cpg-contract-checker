@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionvote(boolvote,bytes32salt).'": [
+        "ERROR: when parsing line 1 column 39: no viable alternative at input 'functionvote(boolvote,bytes32salt).'\n"
+    ]
+}

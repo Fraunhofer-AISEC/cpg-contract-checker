@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbuyTokenParts(uint256_tokenId,uint256_tokenParts)publicpayable{\\nTokenmemorytoken=tokens[_tokenId];\\nuint256pricePerPart=token.value/token.parts;\\nrequire(msg.value>=_tokenParts*pricePerPart);\\n.'": [
+        "ERROR: when parsing line 5 column 4: no viable alternative at input 'functionbuyTokenParts(uint256_tokenId,uint256_tokenParts)publicpayable{\\nTokenmemorytoken=tokens[_tokenId];\\nuint256pricePerPart=token.value/token.parts;\\nrequire(msg.value>=_tokenParts*pricePerPart);\\n.'\n"
+    ]
+}

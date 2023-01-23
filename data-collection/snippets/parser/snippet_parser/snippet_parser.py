@@ -61,7 +61,7 @@ def main():
         javascript_keywords = set(re.compile("'(.*?)'").findall(javascript_grammar))
         print("JavaScript Keywords: %d" % len(javascript_keywords))
 
-    with open("antlr/FuzzySolidity.g4", "r") as f:
+    with open("../../../../cpg-solidity/src/main/antlr/Solidity.g4", "r") as f:
         solidity_grammar = f.read()
         solidity_grammar = remove_comments(solidity_grammar)
         solidity_keywords = set(re.compile("'(.*?)'").findall(solidity_grammar))

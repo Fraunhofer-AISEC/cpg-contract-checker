@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionproxy(addresstarget,uintvalue,stringmemorysignature,bytesmemorydata,uinteta)publicreturns(bytes32){\\n\\ncallData=data;\\n(boolsuccess,bytesmemoryreturnData)=target.call.value(value)(callData);\\n.'": [
+        "ERROR: when parsing line 5 column 8: no viable alternative at input 'functionproxy(addresstarget,uintvalue,stringmemorysignature,bytesmemorydata,uinteta)publicreturns(bytes32){\\n\\ncallData=data;\\n(boolsuccess,bytesmemoryreturnData)=target.call.value(value)(callData);\\n.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_decodeParams(bytesmemoryparams)internalpurereturns(LiquidationParamsmemory){\\n(\\naddresscollateralAsset,\\naddressborrowedAsset,\\naddressuser,\\nuint256debtToCover,\\nbooluseEthPath\\n)=abi.decode(params,(address,address,address,uint256,bool));\\n\\nreturnLiquidationParams(collateralAsset,borrowedAsset,user,debtToCover,useEthPath);\\n}\\n}'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'function_decodeParams(bytesmemoryparams)internalpurereturns(LiquidationParamsmemory){\\n(\\naddresscollateralAsset,\\naddressborrowedAsset,\\naddressuser,\\nuint256debtToCover,\\nbooluseEthPath\\n)=abi.decode(params,(address,address,address,uint256,bool));\\n\\nreturnLiquidationParams(collateralAsset,borrowedAsset,user,debtToCover,useEthPath);\\n}\\n}'\n"
+    ]
+}

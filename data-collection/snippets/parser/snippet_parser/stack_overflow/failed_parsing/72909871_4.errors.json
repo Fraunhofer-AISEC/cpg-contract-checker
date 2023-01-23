@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('delegateCallGetData function on caller should emit the Received event on the callee',async()=>'": [
+        "ERROR: when parsing line 1 column 101: no viable alternative at input 'it('delegateCallGetData function on caller should emit the Received event on the callee',async()=>'\n"
+    ]
+}

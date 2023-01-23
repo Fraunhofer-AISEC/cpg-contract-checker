@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdraw(uint256amount)payable:'": [
+        "ERROR: when parsing line 1 column 41: no viable alternative at input 'functionwithdraw(uint256amount)payable:'\n"
+    ]
+}

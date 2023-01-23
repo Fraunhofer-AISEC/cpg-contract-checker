@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionexecuteProposal(uintproposalNumber,bytestransactionBytecode)returns(intresult){\\nProposalp=proposals[proposalNumber];\\nif(p.executed)throw;\\n\\np.recipient.call.value(p.amount)(transactionBytecode);\\n\\np.executed=true;\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functionexecuteProposal(uintproposalNumber,bytestransactionBytecode)returns(intresult){\\nProposalp=proposals[proposalNumber];\\nif(p.executed)throw;\\n\\np.recipient.call.value(p.amount)(transactionBytecode);\\n\\np.executed=true;\\n'\n"
+    ]
+}

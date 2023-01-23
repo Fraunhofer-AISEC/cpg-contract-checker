@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structFeature{\\nint128key;\\nuint256goal;\\nboolfinishOnGoal;\\nuintcampaignStart;\\nuintcampaignFinish;\\n\\nPledgeTypepledgeType;\\nFixedPledgefixedPledge;\\nVariablePledgevariablePledge;\\n\\nPrepaymentTypeprepaymentType;\\nFixedPrepaymentfixedPrepayment;\\nPercentPrepaymentpercentPrepayment;\\n\\nuint16maxDevelopmentDelay;\\nuint16developmentDuration;\\n\\nConfirmationTypeconfirmationType;\\nUserConfirmationuserConfirmation;\\n\\naddressdeveloper;\\n}\\n\\n.'": [
+        "ERROR: when parsing line 25 column 0: no viable alternative at input 'structFeature{\\nint128key;\\nuint256goal;\\nboolfinishOnGoal;\\nuintcampaignStart;\\nuintcampaignFinish;\\n\\nPledgeTypepledgeType;\\nFixedPledgefixedPledge;\\nVariablePledgevariablePledge;\\n\\nPrepaymentTypeprepaymentType;\\nFixedPrepaymentfixedPrepayment;\\nPercentPrepaymentpercentPrepayment;\\n\\nuint16maxDevelopmentDelay;\\nuint16developmentDuration;\\n\\nConfirmationTypeconfirmationType;\\nUserConfirmationuserConfirmation;\\n\\naddressdeveloper;\\n}\\n\\n.'\n"
+    ]
+}

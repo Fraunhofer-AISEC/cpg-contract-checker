@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'addresswallet_address;\\nstringuserId;\\nstringfirst_name;\\nstringlast_name;\\nstringemail_id;\\nboolset;\\nstringprivate_key;\\n\\n}'": [
+        "ERROR: when parsing line 9 column 2: no viable alternative at input 'addresswallet_address;\\nstringuserId;\\nstringfirst_name;\\nstringlast_name;\\nstringemail_id;\\nboolset;\\nstringprivate_key;\\n\\n}'\n"
+    ]
+}

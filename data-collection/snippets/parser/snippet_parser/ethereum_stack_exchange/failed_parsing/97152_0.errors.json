@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmint(\\naddressto,\\nuint256[]memoryids,\\nuint256indexToMint\\n)public{\\nrequire(\\nregisteredHashes[to][keccak256(abi.encode(to,ids))],\\n\"Hash not registered\"\\n);\\n.'": [
+        "ERROR: when parsing line 10 column 4: no viable alternative at input 'functionmint(\\naddressto,\\nuint256[]memoryids,\\nuint256indexToMint\\n)public{\\nrequire(\\nregisteredHashes[to][keccak256(abi.encode(to,ids))],\\n\"Hash not registered\"\\n);\\n.'\n"
+    ]
+}

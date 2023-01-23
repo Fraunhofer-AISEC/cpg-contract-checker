@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninitiateBid(uint_itemId,uint_endTime)publicitemOwner(params..'": [
+        "ERROR: when parsing line 1 column 74: no viable alternative at input 'functioninitiateBid(uint_itemId,uint_endTime)publicitemOwner(params..'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfulfillInt(\\nbytes4fulfillCallback,\\nuint256value,\\nuint256requestId,\\nuint256requestPrice\\n)externalonlySimplOracleSimplorFulfill(requestId,requestPrice){.'": [
+        "ERROR: when parsing line 6 column 68: no viable alternative at input 'functionfulfillInt(\\nbytes4fulfillCallback,\\nuint256value,\\nuint256requestId,\\nuint256requestPrice\\n)externalonlySimplOracleSimplorFulfill(requestId,requestPrice){.'\n"
+    ]
+}

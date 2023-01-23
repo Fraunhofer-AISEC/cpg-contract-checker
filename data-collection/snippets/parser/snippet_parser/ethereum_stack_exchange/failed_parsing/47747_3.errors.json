@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionnewObject(bytes32_id,uint256number_of_sub_states,.'": [
+        "ERROR: when parsing line 1 column 62: no viable alternative at input 'functionnewObject(bytes32_id,uint256number_of_sub_states,.'\n"
+    ]
+}

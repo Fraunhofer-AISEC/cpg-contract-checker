@@ -1,0 +1,103 @@
+{
+    "mismatched input 'all' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 12: mismatched input 'all' expecting {';', NL}\n"
+    ],
+    "mismatched input 'i' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 21: mismatched input 'i' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'unable' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 26: mismatched input 'unable' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'know' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 36: mismatched input 'know' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'the' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 49: mismatched input 'the' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'is' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 59: mismatched input 'is' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'not' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 73: mismatched input 'not' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'it' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 85: mismatched input 'it' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'up' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 103: mismatched input 'up' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '**' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 14: extraneous input '**' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 1: extraneous input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 1: extraneous input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 1: extraneous input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 1: extraneous input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 19 column 1: extraneous input ':' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'uint256:'": [
+        "ERROR: when parsing line 12 column 7: no viable alternative at input 'uint256:'\n",
+        "ERROR: when parsing line 16 column 7: no viable alternative at input 'uint256:'\n",
+        "ERROR: when parsing line 18 column 7: no viable alternative at input 'uint256:'\n"
+    ],
+    "mismatched input '1' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 0: mismatched input '1' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'address:'": [
+        "ERROR: when parsing line 14 column 7: no viable alternative at input 'address:'\n"
+    ],
+    "mismatched input '2' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 0: mismatched input '2' expecting {';', NL}\n"
+    ],
+    "mismatched input '3' expecting {';', NL}": [
+        "ERROR: when parsing line 17 column 0: mismatched input '3' expecting {';', NL}\n"
+    ],
+    "mismatched input '4' expecting {';', NL}": [
+        "ERROR: when parsing line 19 column 0: mismatched input '4' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'bool:'": [
+        "ERROR: when parsing line 20 column 4: no viable alternative at input 'bool:'\n"
+    ],
+    "mismatched input 'assetsBought' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 19: mismatched input 'assetsBought' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'missing' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 36: mismatched input 'missing' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'in' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 49: mismatched input 'in' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 24 column 19: mismatched input 'in' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 24 column 83: mismatched input 'in' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'output' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 62: extraneous input 'output' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'adding' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 5: mismatched input 'adding' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'am' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 41: mismatched input 'am' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'to' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 51: mismatched input 'to' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'them' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 58: mismatched input 'them' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'any' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 73: mismatched input 'any' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'which' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 95: mismatched input 'which' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'need' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 103: mismatched input 'need' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'fix' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 24 column 111: mismatched input 'fix' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '<EOF>' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 25 column 0: mismatched input '<EOF>' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}

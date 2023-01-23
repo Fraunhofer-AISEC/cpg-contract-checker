@@ -1,0 +1,14 @@
+pragma solidity ^0.4.24;
+
+contract Foo {
+    uint256 n = 10;
+    function initArray() public view  {
+        uint[][] memory result = new uint[][](n*n);
+        for (uint i = 0; i < n; i++){
+            for(uint j = 0; j < n; j++){
+                result[i][j] = 1;
+            }
+        }
+
+    }
+}

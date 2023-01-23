@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"assure the version() function is not available in first contract\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 77: no viable alternative at input 'it(\"assure the version() function is not available in first contract\",asyncfunction'\n"
+    ]
+}

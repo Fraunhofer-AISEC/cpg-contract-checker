@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmint()payablepublicreturns(uint256){\\nrequire(msg.value==0.1ether||msg.value==100000000000000000\\nwei,\"Transaction amount has to be 0.1 eth\");\\n\\nIERC20(*'": [
+        "ERROR: when parsing line 5 column 12: no viable alternative at input 'functionmint()payablepublicreturns(uint256){\\nrequire(msg.value==0.1ether||msg.value==100000000000000000\\nwei,\"Transaction amount has to be 0.1 eth\");\\n\\nIERC20(*'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structProposal{\\nuintvoteCount;\\n}\\n\\n\\nfor'": [
+        "ERROR: when parsing line 6 column 2: no viable alternative at input 'structProposal{\\nuintvoteCount;\\n}\\n\\n\\nfor'\n"
+    ]
+}

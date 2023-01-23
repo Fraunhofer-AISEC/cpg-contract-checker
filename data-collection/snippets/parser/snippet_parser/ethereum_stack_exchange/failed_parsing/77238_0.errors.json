@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmyFunc(MyStructmemorydata)internalviewreturns(bool){\\n\\nassembly{\\nletargs:=mload(0x40);'": [
+        "ERROR: when parsing line 4 column 27: no viable alternative at input 'functionmyFunc(MyStructmemorydata)internalviewreturns(bool){\\n\\nassembly{\\nletargs:=mload(0x40);'\n"
+    ]
+}

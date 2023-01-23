@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetDeployedCarsWhereTrue()publicviewreturns(Car[]memory){\\nuintcount=getCount();\\nCar[]memoryresult=newCar[](count);;'": [
+        "ERROR: when parsing line 3 column 43: no viable alternative at input 'functiongetDeployedCarsWhereTrue()publicviewreturns(Car[]memory){\\nuintcount=getCount();\\nCar[]memoryresult=newCar[](count);;'\n"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 15: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 32 column 15: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input '=>' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 33: mismatched input '=>' expecting {';', NL}\n",
+        "ERROR: when parsing line 32 column 44: mismatched input '=>' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 60: extraneous input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 32 column 71: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input 'return' expecting {'{', 'returns', ';', NL}": [
+        "ERROR: when parsing line 39 column 57: mismatched input 'return' expecting {'{', 'returns', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 39 column 68: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 41 column 48: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 40 column 39: extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'emit' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 41 column 8: extraneous input 'emit' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
+    ],
+    "extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 41 column 21: extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 41 column 25: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 41 column 32: extraneous input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 41 column 41: mismatched input ',' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 45 column 0: extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionisPowerOfTen(uint256x)externalviewreturns(boolresult){\\nassembly{\\nswitchx\\ncase1{result:=true'": [
+        "ERROR: when parsing line 4 column 27: no viable alternative at input 'functionisPowerOfTen(uint256x)externalviewreturns(boolresult){\\nassembly{\\nswitchx\\ncase1{result:=true'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function(uint256)viewreturns(uint256)a=function'": [
+        "ERROR: when parsing line 1 column 44: no viable alternative at input 'function(uint256)viewreturns(uint256)a=function'\n"
+    ]
+}

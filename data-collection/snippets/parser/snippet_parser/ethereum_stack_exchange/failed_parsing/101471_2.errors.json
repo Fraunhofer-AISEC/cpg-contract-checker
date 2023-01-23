@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'contracts/nft.sol:'": [
+        "ERROR: when parsing line 1 column 17: no viable alternative at input 'contracts/nft.sol:'\n"
+    ]
+}

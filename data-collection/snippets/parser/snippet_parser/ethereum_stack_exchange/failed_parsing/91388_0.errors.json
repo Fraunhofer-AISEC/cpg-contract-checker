@@ -1,0 +1,11 @@
+{
+    "mismatched input ';' expecting '('": [
+        "ERROR: when parsing line 2 column 30: mismatched input ';' expecting '('\n"
+    ],
+    "extraneous input 'sendPackage' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 12: extraneous input 'sendPackage' expecting {'(', NL}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 60: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

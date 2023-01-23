@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'persons.push('": [
+        "ERROR: when parsing line 12 column 12: no viable alternative at input 'persons.push('\n"
+    ]
+}

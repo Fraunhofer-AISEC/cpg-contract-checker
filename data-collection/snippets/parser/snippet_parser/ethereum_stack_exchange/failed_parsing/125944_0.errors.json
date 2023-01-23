@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'fallback()payableexternal{\\nrequire(msg.value>minvalue,\"ERROR !\");\\nuint256sentByUser=msg.value;\\nintrequiredTokenAmount=/'": [
+        "ERROR: when parsing line 4 column 31: no viable alternative at input 'fallback()payableexternal{\\nrequire(msg.value>minvalue,\"ERROR !\");\\nuint256sentByUser=msg.value;\\nintrequiredTokenAmount=/'\n"
+    ]
+}

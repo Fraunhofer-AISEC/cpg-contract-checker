@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('buyer should be able to pay tokens and buy products in one transaction',async()=>'": [
+        "ERROR: when parsing line 1 column 88: no viable alternative at input 'it('buyer should be able to pay tokens and buy products in one transaction',async()=>'\n"
+    ]
+}

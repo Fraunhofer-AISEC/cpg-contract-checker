@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdraw()external{\\nrequire(lock,\"Withdraw in session\");\\nlock=false;\\nlightCalculation()l'": [
+        "ERROR: when parsing line 4 column 23: no viable alternative at input 'functionwithdraw()external{\\nrequire(lock,\"Withdraw in session\");\\nlock=false;\\nlightCalculation()l'\n"
+    ]
+}

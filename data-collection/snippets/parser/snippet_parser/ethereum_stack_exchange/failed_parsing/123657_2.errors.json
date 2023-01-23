@@ -1,0 +1,71 @@
+{
+    "mismatched input 'balance' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 17: mismatched input 'balance' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 15 column 86: mismatched input 'balance' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'contract' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 43: extraneous input 'contract' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 4 column 52: extraneous input 'contract' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'expected' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 16: mismatched input 'expected' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'in' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 34: mismatched input 'in' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'Sending11'": [
+        "ERROR: when parsing line 5 column 8: no viable alternative at input 'Sending11'\n"
+    ],
+    "mismatched input 'to' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 11: mismatched input 'to' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 76: mismatched input 'to' expecting {';', NL}\n"
+    ],
+    "mismatched input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 5: mismatched input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 3: mismatched input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input 'bounty' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 21: mismatched input 'bounty' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 13 column 21: mismatched input 'bounty' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'the' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 31: mismatched input 'the' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 13 column 31: mismatched input 'the' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '16' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 9 column 2: mismatched input '16' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'passing' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 5: mismatched input 'passing' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 13: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 's' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 15: mismatched input 's' expecting {';', NL}\n"
+    ],
+    "extraneous input 'failing' expecting {';', NL}": [
+        "ERROR: when parsing line 10 column 4: extraneous input 'failing' expecting {';', NL}\n"
+    ],
+    "mismatched input 'withdraws' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 7: mismatched input 'withdraws' expecting {';', NL}\n"
+    ],
+    "extraneous input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 13 column 41: extraneous input ':' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'AssertionError:'": [
+        "ERROR: when parsing line 15 column 20: no viable alternative at input 'AssertionError:'\n"
+    ],
+    "mismatched input '10' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 97: mismatched input '10' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 103: mismatched input ',' expecting {';', NL}\n"
+    ],
+    "mismatched input 'has' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 112: mismatched input 'has' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'by' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 124: mismatched input 'by' expecting {'=', ';', NL}\n"
+    ]
+}

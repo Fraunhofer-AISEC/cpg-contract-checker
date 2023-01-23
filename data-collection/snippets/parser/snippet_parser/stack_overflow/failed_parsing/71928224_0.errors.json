@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbuyNumber(uint256_number)publicpayable{\\n\\n\\nif(msg.value<0.1ether){\\nrevert(\"more eth!\");\\n}\\n\\n.'": [
+        "ERROR: when parsing line 8 column 6: no viable alternative at input 'functionbuyNumber(uint256_number)publicpayable{\\n\\n\\nif(msg.value<0.1ether){\\nrevert(\"more eth!\");\\n}\\n\\n.'\n"
+    ]
+}

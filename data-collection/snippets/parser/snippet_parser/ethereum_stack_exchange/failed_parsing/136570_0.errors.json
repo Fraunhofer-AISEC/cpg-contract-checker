@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uintamount;\\nuinttimestamp;\\n}'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'uintamount;\\nuinttimestamp;\\n}'\n"
+    ]
+}

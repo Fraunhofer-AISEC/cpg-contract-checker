@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmint(uinthowMany,addressto)publicreturns(bool){\\ntotalSupply=safeAdd(totalSupply,howMany);\\nbalances[for'": [
+        "ERROR: when parsing line 3 column 11: no viable alternative at input 'functionmint(uinthowMany,addressto)publicreturns(bool){\\ntotalSupply=safeAdd(totalSupply,howMany);\\nbalances[for'\n"
+    ]
+}

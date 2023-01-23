@@ -1,0 +1,5 @@
+{
+    "missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at '='": [
+        "ERROR: when parsing line 1 column 16: missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at '='\n"
+    ]
+}

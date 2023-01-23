@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbuyTokens(address_receiver)publicpayable{\\nuint256_amount=msg.value;\\nrequire(_receiver!=address(0));require(_amount>0);\\nuint256tokensToBuy=multiply(_amount,(10*decimals))/1ethertokenPrice'": [
+        "ERROR: when parsing line 4 column 67: no viable alternative at input 'functionbuyTokens(address_receiver)publicpayable{\\nuint256_amount=msg.value;\\nrequire(_receiver!=address(0));require(_amount>0);\\nuint256tokensToBuy=multiply(_amount,(10*decimals))/1ethertokenPrice'\n"
+    ]
+}

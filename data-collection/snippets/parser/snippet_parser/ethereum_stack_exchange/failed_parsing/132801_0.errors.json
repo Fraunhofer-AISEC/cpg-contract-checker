@@ -1,0 +1,5 @@
+{
+    "extraneous input ')' expecting {<EOF>, 'pragma', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', 'callback', 'override', Int, Uint, Byte, Fixed, Ufixed, 'constant', 'leave', 'external', 'internal', 'payable', 'private', 'public', 'virtual', 'pure', 'view', 'constructor', 'fallback', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 12 column 8: extraneous input ')' expecting {<EOF>, 'pragma', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', 'callback', 'override', Int, Uint, Byte, Fixed, Ufixed, 'constant', 'leave', 'external', 'internal', 'payable', 'private', 'public', 'virtual', 'pure', 'view', 'constructor', 'fallback', 'receive', Identifier, NL}\n"
+    ]
+}

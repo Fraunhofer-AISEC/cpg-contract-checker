@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncalcBalanceFrom(addressminter,uintvalue)publicpayable{\\nFoomemorythisFoo=fooIndex[minter];\\n\\nthisFoo.balance+=(msg.value+thisFoo.value)/value/2;\\nthisFoo.expiresAt+=1000+(thisFoo.balance/10**12);\\n\\nemitNewBalance(thisFoo.balance,thisFoo.expiresAt);\\n}\\n}'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functioncalcBalanceFrom(addressminter,uintvalue)publicpayable{\\nFoomemorythisFoo=fooIndex[minter];\\n\\nthisFoo.balance+=(msg.value+thisFoo.value)/value/2;\\nthisFoo.expiresAt+=1000+(thisFoo.balance/10**12);\\n\\nemitNewBalance(thisFoo.balance,thisFoo.expiresAt);\\n}\\n}'\n"
+    ]
+}

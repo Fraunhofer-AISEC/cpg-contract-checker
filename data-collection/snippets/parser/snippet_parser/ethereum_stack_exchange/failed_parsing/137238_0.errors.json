@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'store_transaction=Voting_Contract.functions.addPoll(\"First Test.\").buildTransaction(\\n{\\n\"gasPrice\"'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'store_transaction=Voting_Contract.functions.addPoll(\"First Test.\").buildTransaction(\\n{\\n\"gasPrice\"'\n"
+    ]
+}

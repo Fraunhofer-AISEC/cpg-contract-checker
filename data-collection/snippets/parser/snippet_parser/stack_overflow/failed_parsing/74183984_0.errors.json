@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetPercent(uint256scaledPercentage,uint256num){\\n.'": [
+        "ERROR: when parsing line 2 column 2: no viable alternative at input 'functiongetPercent(uint256scaledPercentage,uint256num){\\n.'\n"
+    ]
+}

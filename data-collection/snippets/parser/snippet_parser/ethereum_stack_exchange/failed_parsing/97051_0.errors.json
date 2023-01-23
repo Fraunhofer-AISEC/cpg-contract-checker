@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfetch()privatereturns(bytes32requestId){\\nChainlink.Requestmemoryrequest=buildChainlinkRequest(jobId,address(this),this.fulfill.selector);\\nrequest.add(\"get\",.'": [
+        "ERROR: when parsing line 3 column 23: no viable alternative at input 'functionfetch()privatereturns(bytes32requestId){\\nChainlink.Requestmemoryrequest=buildChainlinkRequest(jobId,address(this),this.fulfill.selector);\\nrequest.add(\"get\",.'\n"
+    ]
+}

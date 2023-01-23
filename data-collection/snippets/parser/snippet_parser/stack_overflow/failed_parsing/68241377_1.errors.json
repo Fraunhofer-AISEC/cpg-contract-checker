@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"throws an error when called from a different account\",async()=>'": [
+        "ERROR: when parsing line 1 column 68: no viable alternative at input 'it(\"throws an error when called from a different account\",async()=>'\n"
+    ]
+}

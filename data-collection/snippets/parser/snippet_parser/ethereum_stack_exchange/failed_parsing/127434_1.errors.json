@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetRoleAdmin(bytes32role)publicviewvirtualoverridereturns(bytes32){.'": [
+        "ERROR: when parsing line 2 column 89: no viable alternative at input 'functiongetRoleAdmin(bytes32role)publicviewvirtualoverridereturns(bytes32){.'\n"
+    ]
+}

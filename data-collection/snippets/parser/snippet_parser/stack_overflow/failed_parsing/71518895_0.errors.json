@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionCreateGame(uintamountRequired,stringmemorytimeoption)publicrestricted{\\nsetGameDuration(timeoption);\\ngameid++;\\n\\nGamememorynewGame=Game({\\nparticipants:address[]participants'": [
+        "ERROR: when parsing line 6 column 36: no viable alternative at input 'functionCreateGame(uintamountRequired,stringmemorytimeoption)publicrestricted{\\nsetGameDuration(timeoption);\\ngameid++;\\n\\nGamememorynewGame=Game({\\nparticipants:address[]participants'\n"
+    ]
+}

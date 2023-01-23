@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpopulateOne(uint8race,uint8strength,uint8agility,uint8hp,)'": [
+        "ERROR: when parsing line 1 column 75: no viable alternative at input 'functionpopulateOne(uint8race,uint8strength,uint8agility,uint8hp,)'\n"
+    ]
+}

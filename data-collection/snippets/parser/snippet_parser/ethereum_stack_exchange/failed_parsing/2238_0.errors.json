@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionenter(){\\nif(msg.value<500finney){\\nmsg.sender.send(msg.value);\\nreturn;\\n}\\n\\n\\nuintidx=participants.length;\\nparticipants.length+=1;\\nparticipants[idx].etherAddress=msg.sender;\\nparticipants[idx].amount=msg.value;\\n\\n\\nif(idx!=0){\\ncollectedFees+=msg.value/10;\\nbalance+=msg.value;\\n}\\nelse{\\n\\n}\\n'": [
+        "ERROR: when parsing line 21 column 0: no viable alternative at input 'functionenter(){\\nif(msg.value<500finney){\\nmsg.sender.send(msg.value);\\nreturn;\\n}\\n\\n\\nuintidx=participants.length;\\nparticipants.length+=1;\\nparticipants[idx].etherAddress=msg.sender;\\nparticipants[idx].amount=msg.value;\\n\\n\\nif(idx!=0){\\ncollectedFees+=msg.value/10;\\nbalance+=msg.value;\\n}\\nelse{\\n\\n}\\n'\n"
+    ]
+}

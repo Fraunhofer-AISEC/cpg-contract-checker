@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionswapWithReferral(\\nIERC20,\\nIERC20,\\nuint256amount,\\nuint256minReturn,\\nuint256[]calldatadistribution,\\nuint256flags,\\naddressreferral,\\nuint256feePercent\\n)externalmakeGasDiscount(flags)returns(uint256returnAmount){\\n.'": [
+        "ERROR: when parsing line 11 column 4: no viable alternative at input 'functionswapWithReferral(\\nIERC20,\\nIERC20,\\nuint256amount,\\nuint256minReturn,\\nuint256[]calldatadistribution,\\nuint256flags,\\naddressreferral,\\nuint256feePercent\\n)externalmakeGasDiscount(flags)returns(uint256returnAmount){\\n.'\n"
+    ]
+}

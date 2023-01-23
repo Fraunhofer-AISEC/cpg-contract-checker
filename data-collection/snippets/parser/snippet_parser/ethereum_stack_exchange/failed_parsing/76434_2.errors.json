@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_createProxy(addressimplementation,addressserviceRegistry)publicreturns(MaintainableUpgradeabilityProxy){.'": [
+        "ERROR: when parsing line 1 column 121: no viable alternative at input 'function_createProxy(addressimplementation,addressserviceRegistry)publicreturns(MaintainableUpgradeabilityProxy){.'\n"
+    ]
+}

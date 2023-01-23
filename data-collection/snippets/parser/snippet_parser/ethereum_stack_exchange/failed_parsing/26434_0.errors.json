@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'bytessig=.'": [
+        "ERROR: when parsing line 1 column 12: no viable alternative at input 'bytessig=.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionentryExists(uint256id,stringmemorytype'": [
+        "ERROR: when parsing line 1 column 47: no viable alternative at input 'functionentryExists(uint256id,stringmemorytype'\n"
+    ]
+}

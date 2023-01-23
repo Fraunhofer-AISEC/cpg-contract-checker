@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetDailyAssessmentInfo(string_dailyAssessmentId,string_period,string_score)public{\\nboolwrite=false;\\nuintscore=stringToUint(_score);\\n\\ndailyAssessmentstorageassessment=daily_assesment[_dailyAssesmentId];\\nif(assesment.dailyAssesmentId==_dailyAssesmentId)\\n{\\nassessment.period.push(_period);\\nassessment.score.push(score);\\nwrite=true;\\n}\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionsetDailyAssessmentInfo(string_dailyAssessmentId,string_period,string_score)public{\\nboolwrite=false;\\nuintscore=stringToUint(_score);\\n\\ndailyAssessmentstorageassessment=daily_assesment[_dailyAssesmentId];\\nif(assesment.dailyAssesmentId==_dailyAssesmentId)\\n{\\nassessment.period.push(_period);\\nassessment.score.push(score);\\nwrite=true;\\n}\\n'\n"
+    ]
+}

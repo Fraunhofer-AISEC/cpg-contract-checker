@@ -1,0 +1,5 @@
+{
+    "missing ')' at '{'": [
+        "ERROR: when parsing line 6 column 67: missing ')' at '{'\n"
+    ]
+}

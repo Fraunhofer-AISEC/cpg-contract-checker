@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"SapienToken deployed with SPN symbol\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 49: no viable alternative at input 'it(\"SapienToken deployed with SPN symbol\",asyncfunction'\n"
+    ]
+}

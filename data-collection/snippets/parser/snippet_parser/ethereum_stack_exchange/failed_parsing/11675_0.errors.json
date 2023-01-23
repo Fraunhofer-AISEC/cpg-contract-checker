@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdraw()returns(boolsuccess){\\n\\nif(msg.senderis'": [
+        "ERROR: when parsing line 3 column 19: no viable alternative at input 'functionwithdraw()returns(boolsuccess){\\n\\nif(msg.senderis'\n"
+    ]
+}

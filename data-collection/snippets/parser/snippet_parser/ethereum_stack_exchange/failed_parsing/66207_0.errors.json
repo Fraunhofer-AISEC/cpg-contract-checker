@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '{\\nrequire(block.timestamp<start+buyPeriod);\\nrequire(1ether==msg.sender);<'": [
+        "ERROR: when parsing line 3 column 35: no viable alternative at input '{\\nrequire(block.timestamp<start+buyPeriod);\\nrequire(1ether==msg.sender);<'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetPlayers(addressplayers,boolenabled)external{\\nrequire(\\nmsg.sender==_admin,\\n)'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'functiongetPlayers(addressplayers,boolenabled)external{\\nrequire(\\nmsg.sender==_admin,\\n)'\n"
+    ]
+}

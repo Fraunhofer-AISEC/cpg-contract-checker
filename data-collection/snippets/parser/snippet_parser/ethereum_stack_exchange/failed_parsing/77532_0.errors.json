@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_callback(bytes32queryid,.'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'function_callback(bytes32queryid,.'\n"
+    ]
+}

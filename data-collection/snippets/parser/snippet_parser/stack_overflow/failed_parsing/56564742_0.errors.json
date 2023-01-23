@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateVoucher(stringval)public\\n{varstud=VKey[val];\\nisKey[val]=true;\\nstud.key=val;\\nstud.count=1}'": [
+        "ERROR: when parsing line 5 column 18: no viable alternative at input 'functioncreateVoucher(stringval)public\\n{varstud=VKey[val];\\nisKey[val]=true;\\nstud.key=val;\\nstud.count=1}'\n"
+    ]
+}

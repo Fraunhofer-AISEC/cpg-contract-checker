@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function()externalpayable{\\nbytesmemorydata=abi.encodeWithSignature(\"modValue(uint256)\",25);\\naddress_delegate=delegate;\\nassembly{\\nletresult:=delegatecall(gas,_delegate,['": [
+        "ERROR: when parsing line 5 column 47: no viable alternative at input 'function()externalpayable{\\nbytesmemorydata=abi.encodeWithSignature(\"modValue(uint256)\",25);\\naddress_delegate=delegate;\\nassembly{\\nletresult:=delegatecall(gas,_delegate,['\n"
+    ]
+}

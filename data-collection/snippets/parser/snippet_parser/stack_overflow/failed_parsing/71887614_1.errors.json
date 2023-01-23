@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransferOneToken()publicpayable{\\naddresstoken=\\nERC20paymentToken'": [
+        "ERROR: when parsing line 4 column 14: no viable alternative at input 'functiontransferOneToken()publicpayable{\\naddresstoken=\\nERC20paymentToken'\n"
+    ]
+}

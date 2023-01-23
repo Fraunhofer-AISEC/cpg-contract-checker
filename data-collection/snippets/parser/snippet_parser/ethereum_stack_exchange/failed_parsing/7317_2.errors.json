@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetUsers()publicviewreturns(stringmemory){\\nstringmemoryoutput=\"\";\\nfor(uinti=0;i<users.length;i++){\\noutput=string(abi.encodedPack(output,\"[\",users[i].user_id,\",\",users[i].name,\",\",users[i].address'": [
+        "ERROR: when parsing line 4 column 104: no viable alternative at input 'functiongetUsers()publicviewreturns(stringmemory){\\nstringmemoryoutput=\"\";\\nfor(uinti=0;i<users.length;i++){\\noutput=string(abi.encodedPack(output,\"[\",users[i].user_id,\",\",users[i].name,\",\",users[i].address'\n"
+    ]
+}

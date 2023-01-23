@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionhashHelper(addressa,bytes32b,uintc)publicpurereturns(bytes32){\\nreturn.'": [
+        "ERROR: when parsing line 2 column 9: no viable alternative at input 'functionhashHelper(addressa,bytes32b,uintc)publicpurereturns(bytes32){\\nreturn.'\n"
+    ]
+}

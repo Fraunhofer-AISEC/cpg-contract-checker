@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdraw(uint256money)public{\\nuintbal=balance[msg.sender];\\nbalance[msg.sender]=-money;\\nrequire(money<=bal]'": [
+        "ERROR: when parsing line 4 column 24: no viable alternative at input 'functionwithdraw(uint256money)public{\\nuintbal=balance[msg.sender];\\nbalance[msg.sender]=-money;\\nrequire(money<=bal]'\n"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "no viable alternative at input '_users[_data[i].address'": [
+        "ERROR: when parsing line 12 column 24: no viable alternative at input '_users[_data[i].address'\n"
+    ],
+    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 12 column 24: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ]
+}

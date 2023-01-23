@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfoo(address)publicreturns(('": [
+        "ERROR: when parsing line 3 column 38: no viable alternative at input 'functionfoo(address)publicreturns(('\n"
+    ]
+}

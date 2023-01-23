@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfunctionDelegateCall(\\naddresstarget,\\nbytesmemorydata,\\nstringmemoryerrorMessage\\n)internalreturns(bytesmemory){\\n(boolsuccess,bytesmemoryreturndata)=target.delegatecall(data);\\nif(success){\\nreturnreturndata;\\n}else{\\nif(returndata.length>0){\\nassembly{\\nletreturndata_size:=mload(returndata)\\nrevert(add(32,returndata),returndata_size)\\n}\\n}else{\\nrevert(errorMessage);\\n}\\n}\\n\\n'": [
+        "ERROR: when parsing line 20 column 0: no viable alternative at input 'functionfunctionDelegateCall(\\naddresstarget,\\nbytesmemorydata,\\nstringmemoryerrorMessage\\n)internalreturns(bytesmemory){\\n(boolsuccess,bytesmemoryreturndata)=target.delegatecall(data);\\nif(success){\\nreturnreturndata;\\n}else{\\nif(returndata.length>0){\\nassembly{\\nletreturndata_size:=mload(returndata)\\nrevert(add(32,returndata),returndata_size)\\n}\\n}else{\\nrevert(errorMessage);\\n}\\n}\\n\\n'\n"
+    ]
+}

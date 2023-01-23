@@ -1,0 +1,20 @@
+{
+    "extraneous input 'pickWinner' expecting {'(', NL}": [
+        "ERROR: when parsing line 60 column 13: extraneous input 'pickWinner' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'bob' expecting {',', ')'}": [
+        "ERROR: when parsing line 60 column 32: extraneous input 'bob' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'alice' expecting ')'": [
+        "ERROR: when parsing line 60 column 45: extraneous input 'alice' expecting ')'\n"
+    ],
+    "extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 60 column 52: extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 60 column 67: extraneous input '{' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 75 column 0: extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
+    ]
+}

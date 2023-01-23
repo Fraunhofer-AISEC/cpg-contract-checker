@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor()public{\\n_rOwned[_msgSender()]=_rTotal;\\n\\nIUniswapV2Router02_uniswapV2Router=IUniswapV2Router02(0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F);\\n\\nuniswapV2Pair=IUniswapV2Factory(_uniswapV2Router.factory())\\n.createPair(address(this),_uniswapV2Router.WETH());\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'constructor()public{\\n_rOwned[_msgSender()]=_rTotal;\\n\\nIUniswapV2Router02_uniswapV2Router=IUniswapV2Router02(0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F);\\n\\nuniswapV2Pair=IUniswapV2Factory(_uniswapV2Router.factory())\\n.createPair(address(this),_uniswapV2Router.WETH());\\n'\n"
+    ]
+}

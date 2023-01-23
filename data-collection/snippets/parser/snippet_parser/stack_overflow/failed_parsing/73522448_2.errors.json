@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_transfer(address_from,address_to,uint256_value)internal{\\n\\nrequire(_to!=0x0000000000000000000000000000000000000000);\\n\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'function_transfer(address_from,address_to,uint256_value)internal{\\n\\nrequire(_to!=0x0000000000000000000000000000000000000000);\\n\\n'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structdata{\\nuint256serialNum;\\naddressownerAddress;er\\nstring'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'structdata{\\nuint256serialNum;\\naddressownerAddress;er\\nstring'\n"
+    ]
+}

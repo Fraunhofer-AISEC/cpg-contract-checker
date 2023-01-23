@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetAllData()publicviewreturns(People[]memory){\\nuint256count=(countArr.length);\\nuint256i=0;\\nPeople[]memoryoutputL=newPeople[](count);\\nwhile(count>=0){\\n(stringmemorynam,uint256num)=getPerson(count-1);\\nPeoplememorytemp=People(nam,num);\\noutputL[i]=temp;\\ncount--;\\ni++;\\n}\\nreturnoutputL;\\n}\\n}'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'functiongetAllData()publicviewreturns(People[]memory){\\nuint256count=(countArr.length);\\nuint256i=0;\\nPeople[]memoryoutputL=newPeople[](count);\\nwhile(count>=0){\\n(stringmemorynam,uint256num)=getPerson(count-1);\\nPeoplememorytemp=People(nam,num);\\noutputL[i]=temp;\\ncount--;\\ni++;\\n}\\nreturnoutputL;\\n}\\n}'\n"
+    ]
+}

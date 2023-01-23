@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfoobar5(addressa,uint[]_x)public{\\nBarmemoryb;\\nb.owner=a;\\nbars.push(b);\\n\\nBarstoragec=bars[bars.length-1];\\nfor(uinti=0;i<_x.length;i++){\\nc.x.push(_x[i]);\\n}\\n'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'functionfoobar5(addressa,uint[]_x)public{\\nBarmemoryb;\\nb.owner=a;\\nbars.push(b);\\n\\nBarstoragec=bars[bars.length-1];\\nfor(uinti=0;i<_x.length;i++){\\nc.x.push(_x[i]);\\n}\\n'\n"
+    ]
+}

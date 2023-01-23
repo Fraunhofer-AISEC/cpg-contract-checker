@@ -1,0 +1,11 @@
+{
+    "mismatched input 'token' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 17 column 22: mismatched input 'token' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'of' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 17 column 36: mismatched input 'of' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '[' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 18 column 16: mismatched input '[' expecting {'{', 'is'}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor(){\\n_rOwned[_msgSender()]=_rTotal;\\n\\nIUniswapV2Router02_uniswapV2Router=IUniswapV2Router02(0x'": [
+        "ERROR: when parsing line 4 column 62: no viable alternative at input 'constructor(){\\n_rOwned[_msgSender()]=_rTotal;\\n\\nIUniswapV2Router02_uniswapV2Router=IUniswapV2Router02(0x'\n"
+    ]
+}

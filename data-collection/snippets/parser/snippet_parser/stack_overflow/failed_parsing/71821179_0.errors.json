@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetIsPublicMintEnabled(boolis'": [
+        "ERROR: when parsing line 1 column 37: no viable alternative at input 'functionsetIsPublicMintEnabled(boolis'\n"
+    ]
+}

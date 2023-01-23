@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'bytescalldata=0xabcdef;\\naddressto=0x'": [
+        "ERROR: when parsing line 2 column 14: no viable alternative at input 'bytescalldata=0xabcdef;\\naddressto=0x'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondeposit()publicpayablewhenNotPaused{\\naddressreferrer=0x'": [
+        "ERROR: when parsing line 2 column 24: no viable alternative at input 'functiondeposit()publicpayablewhenNotPaused{\\naddressreferrer=0x'\n"
+    ]
+}

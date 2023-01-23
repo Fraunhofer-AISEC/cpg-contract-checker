@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsend(uint256_transfer)publicpayable{\\n\\nbalanceOf[msg.sender]+=_transfer;\\n\\n(boolsuccess,bytesmemorydata)=address(this).call{value:msg.value)'": [
+        "ERROR: when parsing line 5 column 73: no viable alternative at input 'functionsend(uint256_transfer)publicpayable{\\n\\nbalanceOf[msg.sender]+=_transfer;\\n\\n(boolsuccess,bytesmemorydata)=address(this).call{value:msg.value)'\n"
+    ]
+}

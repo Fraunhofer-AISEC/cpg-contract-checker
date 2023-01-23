@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'defno_reentrancy('": [
+        "ERROR: when parsing line 1 column 17: no viable alternative at input 'defno_reentrancy('\n"
+    ]
+}

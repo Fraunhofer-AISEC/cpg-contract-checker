@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it.only(\"doesn't allow others to gift\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 46: no viable alternative at input 'it.only(\"doesn't allow others to gift\",asyncfunction'\n"
+    ]
+}

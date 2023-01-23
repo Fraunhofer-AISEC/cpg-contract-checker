@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"should verify that the account[0] is owner of the token 0\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 70: no viable alternative at input 'it(\"should verify that the account[0] is owner of the token 0\",asyncfunction'\n"
+    ]
+}

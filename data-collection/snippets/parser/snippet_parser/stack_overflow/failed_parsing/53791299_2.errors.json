@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it('Should give the right boolean based on the input to the external call.',\\n\\nasync()=>'": [
+        "ERROR: when parsing line 3 column 13: no viable alternative at input 'it('Should give the right boolean based on the input to the external call.',\\n\\nasync()=>'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfinalizeRequest(uintindex)publicpayablerestricted{\\n'": [
+        "ERROR: when parsing line 2 column 0: no viable alternative at input 'functionfinalizeRequest(uintindex)publicpayablerestricted{\\n'\n"
+    ]
+}

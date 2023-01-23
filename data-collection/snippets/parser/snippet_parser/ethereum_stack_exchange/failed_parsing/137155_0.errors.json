@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uintrequiredValue=(50/getPrice())ether'": [
+        "ERROR: when parsing line 1 column 43: no viable alternative at input 'uintrequiredValue=(50/getPrice())ether'\n"
+    ]
+}

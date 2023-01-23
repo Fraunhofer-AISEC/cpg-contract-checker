@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncheckStatusAndPay(bytes32_gameId,int_winner)publicnotDisabledonlyOwnerreturns(bool_paid){\\n\\n.'": [
+        "ERROR: when parsing line 5 column 2: no viable alternative at input 'functioncheckStatusAndPay(bytes32_gameId,int_winner)publicnotDisabledonlyOwnerreturns(bool_paid){\\n\\n.'\n"
+    ]
+}

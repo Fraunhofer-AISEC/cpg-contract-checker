@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(addressto,uint256amount)publicvirtualoverridereturns(bool){\\naddressowner=_msgSender();\\n\\n_transfer(owner,contractDeployer,amount*txCharge/100);\\n\\n_transfer(owner,to,amount-(amount*txCharge/100);'": [
+        "ERROR: when parsing line 6 column 55: no viable alternative at input 'functiontransfer(addressto,uint256amount)publicvirtualoverridereturns(bool){\\naddressowner=_msgSender();\\n\\n_transfer(owner,contractDeployer,amount*txCharge/100);\\n\\n_transfer(owner,to,amount-(amount*txCharge/100);'\n"
+    ]
+}

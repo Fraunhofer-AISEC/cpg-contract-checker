@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpickNumbers(uint[5]memory_stdNumbers,uintmemory_specialNumber)public{\\n\\n\\nfor(uinti=0;i<5;){\\nrequire(_stdNumbers[i]>0&&_stdNumbers[i]<70,\"Invalid standard number\");\\nunchecked{i+=1}'": [
+        "ERROR: when parsing line 6 column 27: no viable alternative at input 'functionpickNumbers(uint[5]memory_stdNumbers,uintmemory_specialNumber)public{\\n\\n\\nfor(uinti=0;i<5;){\\nrequire(_stdNumbers[i]>0&&_stdNumbers[i]<70,\"Invalid standard number\");\\nunchecked{i+=1}'\n"
+    ]
+}

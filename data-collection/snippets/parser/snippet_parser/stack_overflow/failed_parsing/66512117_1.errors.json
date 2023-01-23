@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor(\\nEggToken_egg,\\naddress_devaddr,\\naddress_feeAddress,\\nuint256_eggPerBlock,\\nuint256_startBlock\\n)public{\\negg=_egg;\\nentercodehere'": [
+        "ERROR: when parsing line 9 column 18: no viable alternative at input 'constructor(\\nEggToken_egg,\\naddress_devaddr,\\naddress_feeAddress,\\nuint256_eggPerBlock,\\nuint256_startBlock\\n)public{\\negg=_egg;\\nentercodehere'\n"
+    ]
+}

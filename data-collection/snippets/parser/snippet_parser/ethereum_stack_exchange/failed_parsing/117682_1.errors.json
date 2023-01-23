@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmintNFT(addressrecipient,stringmemorytokenURI,bytesmemory_data)\\npubliconlyOwner\\nreturns(uint256)\\n{\\n_tokenIds.increment();\\n\\nuint256newItemId=_tokenIds.current();\\n_safeMint(recipient,newItemId,_data);\\n_setTokenURI(newItemId,tokenURI);\\n\\nreturnnewItemId;\\n}\\n}'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functionmintNFT(addressrecipient,stringmemorytokenURI,bytesmemory_data)\\npubliconlyOwner\\nreturns(uint256)\\n{\\n_tokenIds.increment();\\n\\nuint256newItemId=_tokenIds.current();\\n_safeMint(recipient,newItemId,_data);\\n_setTokenURI(newItemId,tokenURI);\\n\\nreturnnewItemId;\\n}\\n}'\n"
+    ]
+}

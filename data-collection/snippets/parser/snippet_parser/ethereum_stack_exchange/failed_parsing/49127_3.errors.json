@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'print('\\ngetBytes32 raw: {}'.format(zbytes32))shows'": [
+        "ERROR: when parsing line 1 column 48: no viable alternative at input 'print('\\ngetBytes32 raw: {}'.format(zbytes32))shows'\n"
+    ]
+}

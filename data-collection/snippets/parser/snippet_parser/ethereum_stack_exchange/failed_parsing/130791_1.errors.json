@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'describe(\"WinFactory\",function'": [
+        "ERROR: when parsing line 1 column 24: no viable alternative at input 'describe(\"WinFactory\",function'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'describe(\"Job assignment to freelancer\",function'": [
+        "ERROR: when parsing line 1 column 41: no viable alternative at input 'describe(\"Job assignment to freelancer\",function'\n"
+    ]
+}

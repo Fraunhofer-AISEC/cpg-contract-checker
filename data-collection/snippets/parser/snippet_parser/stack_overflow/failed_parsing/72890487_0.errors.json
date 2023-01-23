@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionlog(address_caller,uint_amount,stringmemory_action)public{\\nif(equal(_action,\"withdraw\")){\\nrevert(\"It's a frank!\");\\n\\nelse'": [
+        "ERROR: when parsing line 5 column 4: no viable alternative at input 'functionlog(address_caller,uint_amount,stringmemory_action)public{\\nif(equal(_action,\"withdraw\")){\\nrevert(\"It's a frank!\");\\n\\nelse'\n"
+    ]
+}

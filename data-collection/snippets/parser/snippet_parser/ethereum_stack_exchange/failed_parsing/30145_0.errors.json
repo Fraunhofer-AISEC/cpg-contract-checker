@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetIn()publicpayablereturns(uint256){\\n\\nuint256_amount=30000000000000000;\\nrequire(msg.sender.balance>=_amount);\\nbalanceOf[msg.sender]-=_amount;\\n.'": [
+        "ERROR: when parsing line 6 column 4: no viable alternative at input 'functiongetIn()publicpayablereturns(uint256){\\n\\nuint256_amount=30000000000000000;\\nrequire(msg.sender.balance>=_amount);\\nbalanceOf[msg.sender]-=_amount;\\n.'\n"
+    ]
+}

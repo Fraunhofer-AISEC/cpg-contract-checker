@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(addressto,uintvalue)publicreturns(bool){\\npayOutDividends(msg.sender);\\npayOutDividends(to);\\n\\n.'": [
+        "ERROR: when parsing line 5 column 4: no viable alternative at input 'functiontransfer(addressto,uintvalue)publicreturns(bool){\\npayOutDividends(msg.sender);\\npayOutDividends(to);\\n\\n.'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionnewProposal(\\naddressbeneficiary,\\nuintetherAmount,\\nstringJobDescription,\\nbytestransactionBytecode\\n)\\nonlyMembers\\nreturns(uintproposalID)\\n{\\n.'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'functionnewProposal(\\naddressbeneficiary,\\nuintetherAmount,\\nstringJobDescription,\\nbytestransactionBytecode\\n)\\nonlyMembers\\nreturns(uintproposalID)\\n{\\n.'\n"
+    ]
+}

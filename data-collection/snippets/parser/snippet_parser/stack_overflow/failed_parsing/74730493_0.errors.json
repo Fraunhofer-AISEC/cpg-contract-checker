@@ -1,0 +1,11 @@
+{
+    "extraneous input 'releaseDeposit' expecting {'(', NL}": [
+        "ERROR: when parsing line 26 column 13: extraneous input 'releaseDeposit' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'id' expecting {',', ')'}": [
+        "ERROR: when parsing line 26 column 36: extraneous input 'id' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 26 column 40: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

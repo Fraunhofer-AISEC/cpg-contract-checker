@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionlookUptokenIdToStarInfo(uint_tokenId)publicviewreturns\\n(stringmemoryname,stringmemorysymbol){\\n\\nbepure'": [
+        "ERROR: when parsing line 4 column 11: no viable alternative at input 'functionlookUptokenIdToStarInfo(uint_tokenId)publicviewreturns\\n(stringmemoryname,stringmemorysymbol){\\n\\nbepure'\n"
+    ]
+}

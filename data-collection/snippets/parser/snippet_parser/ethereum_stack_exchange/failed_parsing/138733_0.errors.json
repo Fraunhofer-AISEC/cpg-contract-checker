@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetIndex(A/'": [
+        "ERROR: when parsing line 2 column 19: no viable alternative at input 'functiongetIndex(A/'\n"
+    ]
+}

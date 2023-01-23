@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'describe('Receiving a value returned by a transacting function',()=>'": [
+        "ERROR: when parsing line 1 column 68: no viable alternative at input 'describe('Receiving a value returned by a transacting function',()=>'\n"
+    ]
+}

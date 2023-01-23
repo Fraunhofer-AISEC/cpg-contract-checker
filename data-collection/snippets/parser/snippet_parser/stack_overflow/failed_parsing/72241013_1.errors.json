@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetDistance(uint256x1,uint256x2,uint256y1,uint256y1,)'": [
+        "ERROR: when parsing line 1 column 69: no viable alternative at input 'functiongetDistance(uint256x1,uint256x2,uint256y1,uint256y1,)'\n"
+    ]
+}

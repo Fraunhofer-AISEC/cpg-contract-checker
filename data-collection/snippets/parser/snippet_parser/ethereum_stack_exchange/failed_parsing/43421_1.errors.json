@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionisValidBuyer(uint256buyTokenQty,uint256senderValue)publicpayablereturns(bool){\\n\\n\\nrequire(isUserExist(msg.sender)){\\n\\nreturn'": [
+        "ERROR: when parsing line 6 column 4: no viable alternative at input 'functionisValidBuyer(uint256buyTokenQty,uint256senderValue)publicpayablereturns(bool){\\n\\n\\nrequire(isUserExist(msg.sender)){\\n\\nreturn'\n"
+    ]
+}

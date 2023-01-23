@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongiveOutEth()onlyOwnerreturns(boolsuccess){\\nfor(uinti=0;i<shares.length;i++){\\n\\n}\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functiongiveOutEth()onlyOwnerreturns(boolsuccess){\\nfor(uinti=0;i<shares.length;i++){\\n\\n}\\n'\n"
+    ]
+}

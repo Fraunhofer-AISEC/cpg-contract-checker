@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateSubDAO(uint_poolGap,uint_DAOID,uint_rate,Dtoken_token)publicreturns(addressdaoAddress){\\nSubDAOsubDAO=newSubDAO(_poolGap,_DAOID,msg.sender,_rate,this,_token);\\ndaoAddress=address(subDAO);\\n\\n\\n\\n\\n\\nDtoken(_token).transfer(daoAddress,10);\\n}}'": [
+        "ERROR: when parsing line 10 column 1: no viable alternative at input 'functioncreateSubDAO(uint_poolGap,uint_DAOID,uint_rate,Dtoken_token)publicreturns(addressdaoAddress){\\nSubDAOsubDAO=newSubDAO(_poolGap,_DAOID,msg.sender,_rate,this,_token);\\ndaoAddress=address(subDAO);\\n\\n\\n\\n\\n\\nDtoken(_token).transfer(daoAddress,10);\\n}}'\n"
+    ]
+}

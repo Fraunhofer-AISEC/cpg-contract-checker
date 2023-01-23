@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetAllCerts(address_address)publicviewreturn'": [
+        "ERROR: when parsing line 1 column 51: no viable alternative at input 'functiongetAllCerts(address_address)publicviewreturn'\n"
+    ]
+}

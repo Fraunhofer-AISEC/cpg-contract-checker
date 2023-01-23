@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionuint2str(uinti)internalpurereturns(stringmemory){\\nif(i==0)return\"0\";\\nuintj=i;\\nuintlength;\\nwhile(j!=0){\\nlength++;\\nj/=10;\\n}\\nbytesmemorybstr=newbytes(length);\\nuintk=length-1;\\nwhile(i!=0){\\nbstr[k--]=byte(48+i%10);---->'": [
+        "ERROR: when parsing line 12 column 45: no viable alternative at input 'functionuint2str(uinti)internalpurereturns(stringmemory){\\nif(i==0)return\"0\";\\nuintj=i;\\nuintlength;\\nwhile(j!=0){\\nlength++;\\nj/=10;\\n}\\nbytesmemorybstr=newbytes(length);\\nuintk=length-1;\\nwhile(i!=0){\\nbstr[k--]=byte(48+i%10);---->'\n"
+    ]
+}

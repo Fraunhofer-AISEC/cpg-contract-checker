@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetReservesData(IPoolAddressesProviderprovider)publicviewoverride.'": [
+        "ERROR: when parsing line 1 column 79: no viable alternative at input 'functiongetReservesData(IPoolAddressesProviderprovider)publicviewoverride.'\n"
+    ]
+}

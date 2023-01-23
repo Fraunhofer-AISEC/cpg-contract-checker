@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionNumberOfKeysInPossession(addressaccount)publicviewreturns(uint,string){\\n\\nreturnKeys[account],'": [
+        "ERROR: when parsing line 3 column 30: no viable alternative at input 'functionNumberOfKeysInPossession(addressaccount)publicviewreturns(uint,string){\\n\\nreturnKeys[account],'\n"
+    ]
+}

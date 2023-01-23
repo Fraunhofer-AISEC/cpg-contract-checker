@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionUnlock(uint256tokenId,stringmemory_answer)public{\\nrequire(ownerOf(tokenId)==msg.sender,\"you are not the owner!\");\\nTries[tokenId]=?'": [
+        "ERROR: when parsing line 3 column 25: no viable alternative at input 'functionUnlock(uint256tokenId,stringmemory_answer)public{\\nrequire(ownerOf(tokenId)==msg.sender,\"you are not the owner!\");\\nTries[tokenId]=?'\n"
+    ]
+}

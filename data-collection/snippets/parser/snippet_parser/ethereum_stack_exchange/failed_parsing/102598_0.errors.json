@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionethToUsdc()payableexternal{\\nuint256usdcAmount=msg.value.div(uint256(priceFeedUsdcEth.latestAnswer())).mul(10**6);\\nIERC20(0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b).transferFrom(0x'": [
+        "ERROR: when parsing line 3 column 69: no viable alternative at input 'functionethToUsdc()payableexternal{\\nuint256usdcAmount=msg.value.div(uint256(priceFeedUsdcEth.latestAnswer())).mul(10**6);\\nIERC20(0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b).transferFrom(0x'\n"
+    ]
+}

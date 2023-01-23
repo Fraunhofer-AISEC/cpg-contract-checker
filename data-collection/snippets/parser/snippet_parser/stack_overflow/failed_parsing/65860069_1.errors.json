@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongreet(address_address)publicpayablereturns(uint8){\\nTRC20t=TRC20(_address);\\n.'": [
+        "ERROR: when parsing line 3 column 8: no viable alternative at input 'functiongreet(address_address)publicpayablereturns(uint8){\\nTRC20t=TRC20(_address);\\n.'\n"
+    ]
+}

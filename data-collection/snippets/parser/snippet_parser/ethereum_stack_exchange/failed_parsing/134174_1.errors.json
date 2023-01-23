@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontokenURI(uint256,tokenID_)publicviewoverridereturns(stringmemory){\\nrequire(_exist(tokenId_),'Token doesnot exist');\\nreturnstring(abi.encodePacked(baseTokenUri,Strings.toString(tokenId_),\".json\"));\\n{\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functiontokenURI(uint256,tokenID_)publicviewoverridereturns(stringmemory){\\nrequire(_exist(tokenId_),'Token doesnot exist');\\nreturnstring(abi.encodePacked(baseTokenUri,Strings.toString(tokenId_),\".json\"));\\n{\\n'\n"
+    ]
+}

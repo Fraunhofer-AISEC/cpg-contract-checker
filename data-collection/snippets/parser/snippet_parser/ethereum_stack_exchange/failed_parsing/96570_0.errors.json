@@ -1,0 +1,14 @@
+{
+    "extraneous input 'sendValue' expecting {'(', NL}": [
+        "ERROR: when parsing line 7 column 9: extraneous input 'sendValue' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'recipient' expecting {',', ')'}": [
+        "ERROR: when parsing line 7 column 35: extraneous input 'recipient' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'amount' expecting ')'": [
+        "ERROR: when parsing line 7 column 54: extraneous input 'amount' expecting ')'\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 7 column 71: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

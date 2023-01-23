@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"Should revert claimToken if msg.sender is 0x0.\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 61: no viable alternative at input 'it(\"Should revert claimToken if msg.sender is 0x0.\",asyncfunction'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'boolresult=address(contract'": [
+        "ERROR: when parsing line 1 column 22: no viable alternative at input 'boolresult=address(contract'\n"
+    ]
+}

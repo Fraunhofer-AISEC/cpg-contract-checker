@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '{'/var/folders/1_/fbr644kx6nq4bj81q_1_vzlc0000gn/T/geth-compile-solidity525074877:Voting':'": [
+        "ERROR: when parsing line 1 column 90: no viable alternative at input '{'/var/folders/1_/fbr644kx6nq4bj81q_1_vzlc0000gn/T/geth-compile-solidity525074877:Voting':'\n"
+    ]
+}

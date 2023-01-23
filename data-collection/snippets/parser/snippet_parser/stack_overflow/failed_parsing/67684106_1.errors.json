@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetData(addressaddr,indexid)publicviewreturns(uint32){\\n.'": [
+        "ERROR: when parsing line 2 column 0: no viable alternative at input 'functiongetData(addressaddr,indexid)publicviewreturns(uint32){\\n.'\n"
+    ]
+}

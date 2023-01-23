@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer_balance(addressrecipient_address,uintamount)\\npublicreturns(bool){\\nif(msg.sender==owner){\\nif(amount<=get_balance()){\\n\\nrecipient_address.transfer(amount);<'": [
+        "ERROR: when parsing line 6 column 48: no viable alternative at input 'functiontransfer_balance(addressrecipient_address,uintamount)\\npublicreturns(bool){\\nif(msg.sender==owner){\\nif(amount<=get_balance()){\\n\\nrecipient_address.transfer(amount);<'\n"
+    ]
+}

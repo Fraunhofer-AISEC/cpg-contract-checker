@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '2022-03-19T03'": [
+        "ERROR: when parsing line 1 column 10: no viable alternative at input '2022-03-19T03'\n"
+    ]
+}

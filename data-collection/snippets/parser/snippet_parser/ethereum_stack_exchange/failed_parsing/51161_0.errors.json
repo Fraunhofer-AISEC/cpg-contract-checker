@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'addressprivateconstantemergency_admin=0x'": [
+        "ERROR: when parsing line 1 column 48: no viable alternative at input 'addressprivateconstantemergency_admin=0x'\n"
+    ]
+}

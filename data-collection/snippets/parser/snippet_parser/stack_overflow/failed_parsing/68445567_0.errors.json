@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfunctionCallWithValue(\\naddresstarget,\\nbytesmemorydata,\\nuint256value,\\nstringmemoryerrorMessage\\n)internalreturns(bytesmemory){\\nrequire(address(this).balance>=value,\"Address: insufficient balance\"for'": [
+        "ERROR: when parsing line 7 column 80: no viable alternative at input 'functionfunctionCallWithValue(\\naddresstarget,\\nbytesmemorydata,\\nuint256value,\\nstringmemoryerrorMessage\\n)internalreturns(bytesmemory){\\nrequire(address(this).balance>=value,\"Address: insufficient balance\"for'\n"
+    ]
+}

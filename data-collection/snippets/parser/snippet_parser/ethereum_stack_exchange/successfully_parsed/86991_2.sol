@@ -1,0 +1,3 @@
+  constructor () {
+    bar = 0;
+  }

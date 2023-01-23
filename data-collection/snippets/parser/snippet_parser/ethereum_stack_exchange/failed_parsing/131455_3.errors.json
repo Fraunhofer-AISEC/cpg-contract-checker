@@ -1,0 +1,231 @@
+{
+    "mismatched input 'args' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 4 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 7 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 0: mismatched input 'args' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 0: mismatched input 'args' expecting {';', NL}\n"
+    ],
+    "mismatched input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 3 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 3 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 4 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 4 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 4 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 5 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 5 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 5 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 5 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 7 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 7 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 7 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 7 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 58: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 10: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 25: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 40: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 58: mismatched input ':' expecting {';', NL}\n"
+    ],
+    "mismatched input 'head' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 125: mismatched input 'head' expecting {';', NL}\n",
+        "ERROR: when parsing line 4 column 125: mismatched input 'head' expecting {';', NL}\n"
+    ],
+    "mismatched input 'tail' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 147: mismatched input 'tail' expecting {';', NL}\n",
+        "ERROR: when parsing line 4 column 150: mismatched input 'tail' expecting {';', NL}\n"
+    ],
+    "mismatched input 'starts' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 161: mismatched input 'starts' expecting {';', NL}\n",
+        "ERROR: when parsing line 4 column 167: mismatched input 'starts' expecting {';', NL}\n"
+    ],
+    "extraneous input 'args' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 175: extraneous input 'args' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'args0x020'": [
+        "ERROR: when parsing line 3 column 5: no viable alternative at input 'args0x020'\n"
+    ],
+    "mismatched input '0x000' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 20: mismatched input '0x000' expecting {';', NL}\n",
+        "ERROR: when parsing line 5 column 53: mismatched input '0x000' expecting {';', NL}\n"
+    ],
+    "mismatched input 'actions' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 125: mismatched input 'actions' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x020' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 20: mismatched input '0x020' expecting {';', NL}\n",
+        "ERROR: when parsing line 6 column 53: mismatched input '0x020' expecting {';', NL}\n"
+    ],
+    "extraneous input 'actions' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 181: extraneous input 'actions' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'args0x060'": [
+        "ERROR: when parsing line 5 column 5: no viable alternative at input 'args0x060'\n"
+    ],
+    "mismatched input '0x040' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 20: mismatched input '0x040' expecting {';', NL}\n",
+        "ERROR: when parsing line 7 column 53: mismatched input '0x040' expecting {';', NL}\n"
+    ],
+    "mismatched input 'ActionType' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 125: mismatched input 'ActionType' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x060' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 20: mismatched input '0x060' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 53: mismatched input '0x060' expecting {';', NL}\n"
+    ],
+    "mismatched input 'accountId' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 125: mismatched input 'accountId' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x080' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 20: mismatched input '0x080' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 53: mismatched input '0x080' expecting {';', NL}\n"
+    ],
+    "mismatched input 'amount' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 125: mismatched input 'amount' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 125: mismatched input 'amount' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 125: mismatched input 'amount' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 125: mismatched input 'amount' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'args0x0c0'": [
+        "ERROR: when parsing line 8 column 5: no viable alternative at input 'args0x0c0'\n"
+    ],
+    "mismatched input '0x0a0' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 20: mismatched input '0x0a0' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 53: mismatched input '0x0a0' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x0c0' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 20: mismatched input '0x0c0' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 53: mismatched input '0x0c0' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x0e0' expecting {';', NL}": [
+        "ERROR: when parsing line 10 column 20: mismatched input '0x0e0' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 53: mismatched input '0x0e0' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x100' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 20: mismatched input '0x100' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 53: mismatched input '0x100' expecting {';', NL}\n"
+    ],
+    "mismatched input 'primaryMarketId' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 125: mismatched input 'primaryMarketId' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x120' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 20: mismatched input '0x120' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 53: mismatched input '0x120' expecting {';', NL}\n"
+    ],
+    "mismatched input 'secondaryMarketId' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 125: mismatched input 'secondaryMarketId' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x140' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 20: mismatched input '0x140' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 53: mismatched input '0x140' expecting {';', NL}\n"
+    ],
+    "mismatched input 'aa631740f3dae1d3ce302f1f3d45f3ed61d' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 89: mismatched input 'aa631740f3dae1d3ce302f1f3d45f3ed61d' expecting {';', NL}\n"
+    ],
+    "mismatched input 'args' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 14 column 0: mismatched input 'args' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '0x160' expecting {';', NL}": [
+        "ERROR: when parsing line 14 column 20: mismatched input '0x160' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 53: mismatched input '0x160' expecting {';', NL}\n"
+    ],
+    "mismatched input 'otherAccountId' expecting {';', NL}": [
+        "ERROR: when parsing line 14 column 125: mismatched input 'otherAccountId' expecting {';', NL}\n"
+    ],
+    "mismatched input '0x180' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 20: mismatched input '0x180' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 53: mismatched input '0x180' expecting {';', NL}\n"
+    ],
+    "mismatched input 'where' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 125: mismatched input 'where' expecting {';', NL}\n"
+    ],
+    "mismatched input 'starts' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 136: mismatched input 'starts' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'actions' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 150: mismatched input 'actions' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'args0x1c0'": [
+        "ERROR: when parsing line 16 column 5: no viable alternative at input 'args0x1c0'\n"
+    ],
+    "mismatched input '0x1a0' expecting {';', NL}": [
+        "ERROR: when parsing line 16 column 20: mismatched input '0x1a0' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 53: mismatched input '0x1a0' expecting {';', NL}\n"
+    ],
+    "mismatched input 'byte' expecting {';', NL}": [
+        "ERROR: when parsing line 16 column 125: mismatched input 'byte' expecting {';', NL}\n"
+    ],
+    "mismatched input 'of' expecting {';', NL}": [
+        "ERROR: when parsing line 16 column 137: mismatched input 'of' expecting {';', NL}\n"
+    ],
+    "extraneous input 'bytes' expecting {';', NL}": [
+        "ERROR: when parsing line 16 column 150: extraneous input 'bytes' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'args0x1e0'": [
+        "ERROR: when parsing line 17 column 5: no viable alternative at input 'args0x1e0'\n"
+    ],
+    "mismatched input '0x1c0' expecting {';', NL}": [
+        "ERROR: when parsing line 17 column 20: mismatched input '0x1c0' expecting {';', NL}\n"
+    ],
+    "mismatched input 'c8e1cb963d9cc02fcbc5d0cf881bbb1ffaf15f' expecting {';', NL}": [
+        "ERROR: when parsing line 17 column 86: mismatched input 'c8e1cb963d9cc02fcbc5d0cf881bbb1ffaf15f' expecting {';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 17 column 128: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '0x1e0' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 20: mismatched input '0x1e0' expecting {';', NL}\n"
+    ],
+    "extraneous input '1000' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 125: extraneous input '1000' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbooleanOperatorTest(boolfoo,boolbar)publicpure\\nreturns(boolnegation,boolconjunction){\\n\\n\\nnegation=foo;\\nconjunction=(foo&&bar);\\n.'": [
+        "ERROR: when parsing line 7 column 6: no viable alternative at input 'functionbooleanOperatorTest(boolfoo,boolbar)publicpure\\nreturns(boolnegation,boolconjunction){\\n\\n\\nnegation=foo;\\nconjunction=(foo&&bar);\\n.'\n"
+    ]
+}

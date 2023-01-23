@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"ESCROW: Constructor test\",async()=>'": [
+        "ERROR: when parsing line 1 column 42: no viable alternative at input 'it(\"ESCROW: Constructor test\",async()=>'\n"
+    ]
+}

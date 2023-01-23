@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor()internal{\\naddressmsgSender=_msgSender();\\n_owner=msgSender;\\nemitOwnershipTransferred(address(0),msgSender);\\n}\\n\\ntry'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'constructor()internal{\\naddressmsgSender=_msgSender();\\n_owner=msgSender;\\nemitOwnershipTransferred(address(0),msgSender);\\n}\\n\\ntry'\n"
+    ]
+}

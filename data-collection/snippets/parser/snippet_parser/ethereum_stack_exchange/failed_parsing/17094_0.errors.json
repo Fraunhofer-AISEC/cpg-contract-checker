@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'myContract.insertHash(\"QmWmyoMoctfbAaiEs2G46gpeUmhqFRDW6KWo64y5r581Vz\");\\n\\ncontract'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'myContract.insertHash(\"QmWmyoMoctfbAaiEs2G46gpeUmhqFRDW6KWo64y5r581Vz\");\\n\\ncontract'\n"
+    ]
+}

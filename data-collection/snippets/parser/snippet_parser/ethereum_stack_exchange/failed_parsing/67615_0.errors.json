@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"should accept a list of obj's and return a string & addr\",async()=>'": [
+        "ERROR: when parsing line 1 column 72: no viable alternative at input 'it(\"should accept a list of obj's and return a string & addr\",async()=>'\n"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 33 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 43 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 65 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 74 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 83 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 88 column 0: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "extraneous input 'WithdrawBalance' expecting {'(', NL}": [
+        "ERROR: when parsing line 36 column 9: extraneous input 'WithdrawBalance' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 36 column 27: extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'onlyOwner' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 36 column 42: mismatched input 'onlyOwner' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '{' expecting {';', NL}": [
+        "ERROR: when parsing line 36 column 52: extraneous input '{' expecting {';', NL}\n",
+        "ERROR: when parsing line 52 column 23: extraneous input '{' expecting {';', NL}\n"
+    ],
+    "extraneous input 'flashloan' expecting {'(', NL}": [
+        "ERROR: when parsing line 46 column 9: extraneous input 'flashloan' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_flashAsset' expecting {',', ')'}": [
+        "ERROR: when parsing line 47 column 12: extraneous input '_flashAsset' expecting {',', ')'}\n"
+    ],
+    "missing ')' at '_flashAmount'": [
+        "ERROR: when parsing line 48 column 9: missing ')' at '_flashAmount'\n"
+    ],
+    "extraneous input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 48 column 21: extraneous input ',' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 49 column 28: extraneous input ',' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 50 column 23: extraneous input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 52 column 4: mismatched input ')' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'getPathForETHToToken' expecting {'(', NL}": [
+        "ERROR: when parsing line 68 column 9: extraneous input 'getPathForETHToToken' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'ERC20Token' expecting {',', ')'}": [
+        "ERROR: when parsing line 68 column 38: extraneous input 'ERC20Token' expecting {',', ')'}\n",
+        "ERROR: when parsing line 77 column 39: extraneous input 'ERC20Token' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'private' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 68 column 50: mismatched input 'private' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 77 column 51: mismatched input 'private' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at ')'": [
+        "ERROR: when parsing line 68 column 88: missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at ')'\n",
+        "ERROR: when parsing line 77 column 89: missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at ')'\n",
+        "ERROR: when parsing line 86 column 106: missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at ')'\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 68 column 90: extraneous input '{' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 77 column 91: extraneous input '{' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 86 column 108: extraneous input '{' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'getPathForTokenToETH' expecting {'(', NL}": [
+        "ERROR: when parsing line 77 column 10: extraneous input 'getPathForTokenToETH' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'getEstimatedETHForToken' expecting {'(', NL}": [
+        "ERROR: when parsing line 86 column 9: extraneous input 'getEstimatedETHForToken' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_tokenAmount' expecting {',', ')'}": [
+        "ERROR: when parsing line 86 column 38: extraneous input '_tokenAmount' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'ERC20Token' expecting ')'": [
+        "ERROR: when parsing line 86 column 60: extraneous input 'ERC20Token' expecting ')'\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 86 column 72: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

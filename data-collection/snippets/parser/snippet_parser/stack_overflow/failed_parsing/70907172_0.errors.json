@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'highestBindingBid='": [
+        "ERROR: when parsing line 28 column 34: no viable alternative at input 'highestBindingBid='\n"
+    ]
+}

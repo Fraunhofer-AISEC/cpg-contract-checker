@@ -1,0 +1,8 @@
+{
+    "mismatched input 'function' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 13: mismatched input 'function' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ':' expecting {'{', 'returns', ';', NL}": [
+        "ERROR: when parsing line 6 column 47: mismatched input ':' expecting {'{', 'returns', ';', NL}\n"
+    ]
+}

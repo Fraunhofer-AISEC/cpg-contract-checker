@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structCryptoGift{\\naddressfrom;\\naddressto;\\nuint256tokenId;\\ndateToTransfereGift;'": [
+        "ERROR: when parsing line 5 column 23: no viable alternative at input 'structCryptoGift{\\naddressfrom;\\naddressto;\\nuint256tokenId;\\ndateToTransfereGift;'\n"
+    ]
+}

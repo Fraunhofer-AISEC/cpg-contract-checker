@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontoBytes(intx,intdigits)returns(bytesb){\\nb=newbytes(digits);\\nfor(uinti=0;i<digits;i++)\\nb[i]=byte(uint8(uint(x));'": [
+        "ERROR: when parsing line 4 column 34: no viable alternative at input 'functiontoBytes(intx,intdigits)returns(bytesb){\\nb=newbytes(digits);\\nfor(uinti=0;i<digits;i++)\\nb[i]=byte(uint8(uint(x));'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionclaimToken(bytes32message,bytesmemory_signature,addressnativeTokenAddress,uint256amount)public{\\nrequire(amount>0,'Trying to claim 0 tokens.');\\nrequire(nativeTokenAddress!=address(0x0));\\nrequire(recoverSigner(message,_signature)==msg.sender);\\n\\n<'": [
+        "ERROR: when parsing line 6 column 6: no viable alternative at input 'functionclaimToken(bytes32message,bytesmemory_signature,addressnativeTokenAddress,uint256amount)public{\\nrequire(amount>0,'Trying to claim 0 tokens.');\\nrequire(nativeTokenAddress!=address(0x0));\\nrequire(recoverSigner(message,_signature)==msg.sender);\\n\\n<'\n"
+    ]
+}

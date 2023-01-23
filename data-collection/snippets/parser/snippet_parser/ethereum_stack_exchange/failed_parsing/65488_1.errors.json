@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'items=[\"hash of object1\",\"hash of object2\",.'": [
+        "ERROR: when parsing line 1 column 47: no viable alternative at input 'items=[\"hash of object1\",\"hash of object2\",.'\n"
+    ]
+}

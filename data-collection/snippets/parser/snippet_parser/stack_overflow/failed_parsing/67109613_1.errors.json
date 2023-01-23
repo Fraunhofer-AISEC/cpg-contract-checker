@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'bytes32publicconstantDOMAIN_TYPEHASH=keccak256(\"EIP712Domain(string name,uint256 chainId,address verifyingContract)\");\\n\\n.'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'bytes32publicconstantDOMAIN_TYPEHASH=keccak256(\"EIP712Domain(string name,uint256 chainId,address verifyingContract)\");\\n\\n.'\n"
+    ]
+}

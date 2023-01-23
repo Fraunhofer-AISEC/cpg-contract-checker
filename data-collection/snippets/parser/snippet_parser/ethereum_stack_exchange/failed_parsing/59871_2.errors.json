@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninsertClientCase(bytes32clientId,bytes32caseId,stringattributes.'": [
+        "ERROR: when parsing line 1 column 78: no viable alternative at input 'functioninsertClientCase(bytes32clientId,bytes32caseId,stringattributes.'\n"
+    ]
+}

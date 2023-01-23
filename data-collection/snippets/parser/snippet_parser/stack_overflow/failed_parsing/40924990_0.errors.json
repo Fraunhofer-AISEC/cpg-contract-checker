@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransferFrom(address_from,address_to,uint256_value)returns(boolsuccess){\\n\\nif(msg.value<FEE){\\nreturnfalse;\\n}\\nif(!MYADDR.send(msg.value){\\nthrow'": [
+        "ERROR: when parsing line 7 column 8: no viable alternative at input 'functiontransferFrom(address_from,address_to,uint256_value)returns(boolsuccess){\\n\\nif(msg.value<FEE){\\nreturnfalse;\\n}\\nif(!MYADDR.send(msg.value){\\nthrow'\n"
+    ]
+}

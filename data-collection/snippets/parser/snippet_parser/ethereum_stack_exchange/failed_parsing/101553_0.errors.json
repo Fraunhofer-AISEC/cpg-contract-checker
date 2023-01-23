@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninsert(bytes32key1,addresskey2,stringmemorydata)public{\\nDatasetstoraged=newDataset(d);\\nm1[key1]=d;\\nm2[key2]=d;\\n.'": [
+        "ERROR: when parsing line 5 column 4: no viable alternative at input 'functioninsert(bytes32key1,addresskey2,stringmemorydata)public{\\nDatasetstoraged=newDataset(d);\\nm1[key1]=d;\\nm2[key2]=d;\\n.'\n"
+    ]
+}

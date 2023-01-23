@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'deftest_get_user_total_value_with_different_tokens('": [
+        "ERROR: when parsing line 1 column 51: no viable alternative at input 'deftest_get_user_total_value_with_different_tokens('\n"
+    ]
+}

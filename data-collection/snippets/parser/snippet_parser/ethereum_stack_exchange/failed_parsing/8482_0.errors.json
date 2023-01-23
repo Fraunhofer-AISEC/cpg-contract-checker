@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncontractExists(addresscontract'": [
+        "ERROR: when parsing line 1 column 32: no viable alternative at input 'functioncontractExists(addresscontract'\n"
+    ]
+}

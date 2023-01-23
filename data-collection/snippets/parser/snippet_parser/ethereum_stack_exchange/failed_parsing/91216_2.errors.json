@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'bytes32index=generateHash(args..'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'bytes32index=generateHash(args..'\n"
+    ]
+}

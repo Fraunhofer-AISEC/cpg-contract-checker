@@ -1,0 +1,22 @@
+{
+    "extraneous input 'firstFunction' expecting {'(', NL}": [
+        "ERROR: when parsing line 5 column 9: extraneous input 'firstFunction' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'n' expecting {',', ')'}": [
+        "ERROR: when parsing line 5 column 28: extraneous input 'n' expecting {',', ')'}\n",
+        "ERROR: when parsing line 9 column 29: extraneous input 'n' expecting {',', ')'}\n"
+    ],
+    "extraneous input '*' expecting {<EOF>, 'pragma', '~', '=', 'import', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', '[', 'address', 'mapping', 'memory', 'storage', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'constant', 'continue', 'leave', 'external', 'internal', 'payable', 'pure', 'type', 'view', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 5 column 41: extraneous input '*' expecting {<EOF>, 'pragma', '~', '=', 'import', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', '[', 'address', 'mapping', 'memory', 'storage', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'constant', 'continue', 'leave', 'external', 'internal', 'payable', 'pure', 'type', 'view', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n",
+        "ERROR: when parsing line 9 column 42: extraneous input '*' expecting {<EOF>, 'pragma', '~', '=', 'import', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'returns', 'event', 'enum', '[', 'address', 'mapping', 'memory', 'storage', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'constant', 'continue', 'leave', 'external', 'internal', 'payable', 'pure', 'type', 'view', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 5 column 52: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'secondFunction' expecting {'(', NL}": [
+        "ERROR: when parsing line 9 column 9: extraneous input 'secondFunction' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'public' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 9 column 51: mismatched input 'public' expecting {'=', ';', NL}\n"
+    ]
+}

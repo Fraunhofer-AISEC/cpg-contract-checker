@@ -1,0 +1,14 @@
+{
+    "no viable alternative at input '(char*)'": [
+        "ERROR: when parsing line 2 column 16: no viable alternative at input '(char*)'\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 10: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'p' expecting ')'": [
+        "ERROR: when parsing line 4 column 23: mismatched input 'p' expecting ')'\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 27: extraneous input ')' expecting {';', NL}\n"
+    ]
+}

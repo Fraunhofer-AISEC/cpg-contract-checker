@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontakeGuess(intguess)returns(bool){\\nuintbalance=getBalance(msg.sender);\\nif(balance>0){\\nintactual=popNumber();\\nif(guess==actual){\\ncoin.sendCoin(msg.sender,4);\\nreturntrue;\\n}else{\\ncoin.sendCoin(this,1,{'": [
+        "ERROR: when parsing line 9 column 35: no viable alternative at input 'functiontakeGuess(intguess)returns(bool){\\nuintbalance=getBalance(msg.sender);\\nif(balance>0){\\nintactual=popNumber();\\nif(guess==actual){\\ncoin.sendCoin(msg.sender,4);\\nreturntrue;\\n}else{\\ncoin.sendCoin(this,1,{'\n"
+    ]
+}

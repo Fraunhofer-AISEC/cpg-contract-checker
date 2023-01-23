@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '_removeTokenFromOwnersList(address_owner'": [
+        "ERROR: when parsing line 1 column 35: no viable alternative at input '_removeTokenFromOwnersList(address_owner'\n"
+    ]
+}

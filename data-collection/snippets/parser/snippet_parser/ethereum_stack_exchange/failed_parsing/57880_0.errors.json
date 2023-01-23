@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetStudent(string_searchHash)payablepublic{\\nvarsearchHash=_searchHash;\\nuniversity.transfer(msg.value);\\nfor(uinti=0;i<students.length;i++)\\n{\\nif(keccak256(students[i].hash)==keccak256(searchHash))\\n{\\nemitfoundStudentInfo(students[i].fname,students[i].year,university.balance);\\n}\\n}\\nemitfoundStudentInfo(\"Failed\",\"Failed\",university.balance);\\n}\\n}'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functiongetStudent(string_searchHash)payablepublic{\\nvarsearchHash=_searchHash;\\nuniversity.transfer(msg.value);\\nfor(uinti=0;i<students.length;i++)\\n{\\nif(keccak256(students[i].hash)==keccak256(searchHash))\\n{\\nemitfoundStudentInfo(students[i].fname,students[i].year,university.balance);\\n}\\n}\\nemitfoundStudentInfo(\"Failed\",\"Failed\",university.balance);\\n}\\n}'\n"
+    ]
+}

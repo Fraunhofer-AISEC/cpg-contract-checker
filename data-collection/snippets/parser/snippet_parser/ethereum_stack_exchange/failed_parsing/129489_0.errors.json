@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransferFrom(addressfrom,addressto,uintvalue)publicreturns(bool){\\nrequire(balanceOf(from)>=value,\"balance too low\")\\n**require(allowance[from][msg.sender]>=value,\"allowance too low\");**'": [
+        "ERROR: when parsing line 3 column 77: no viable alternative at input 'functiontransferFrom(addressfrom,addressto,uintvalue)publicreturns(bool){\\nrequire(balanceOf(from)>=value,\"balance too low\")\\n**require(allowance[from][msg.sender]>=value,\"allowance too low\");**'\n"
+    ]
+}

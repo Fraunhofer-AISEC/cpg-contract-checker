@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionconsentBuild(\\nstringdocumentIDhash,\\nstringstudyIDhash,\\nstringtimeStamphash,\\nboolconsentedhash)publicreturns(Signature){\\n\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionconsentBuild(\\nstringdocumentIDhash,\\nstringstudyIDhash,\\nstringtimeStamphash,\\nboolconsentedhash)publicreturns(Signature){\\n\\n'\n"
+    ]
+}

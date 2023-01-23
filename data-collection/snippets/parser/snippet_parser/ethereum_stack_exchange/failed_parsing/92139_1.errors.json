@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constsigner=newethers.Wallet(PRIVATE_KEY)\\nconstaccount=signer.connect(provider)\\nlet'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'constsigner=newethers.Wallet(PRIVATE_KEY)\\nconstaccount=signer.connect(provider)\\nlet'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionutilityFunction(string[2]storage_list1,string[3]storage_list2)internalpurereturns(uint256result){\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionutilityFunction(string[2]storage_list1,string[3]storage_list2)internalpurereturns(uint256result){\\n'\n"
+    ]
+}
