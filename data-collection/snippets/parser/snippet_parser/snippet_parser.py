@@ -9,8 +9,8 @@ import json
 from antlr4 import *
 from antlr4.error.ErrorListener import ErrorListener
 
-from antlr.FuzzySolidityLexer import FuzzySolidityLexer
-from antlr.FuzzySolidityParser import FuzzySolidityParser
+from antlr.SolidityLexer import SolidityLexer
+from antlr.SolidityParser import SolidityParser
 
 from collections import OrderedDict
 
@@ -50,6 +50,7 @@ def remove_comments(string):
 def remove_special_characters(strings):
     special_characters = ["=", ":", "_", r"\r", r"\n", "-", "?", "*"]
     return set([s for s in strings if not any([True for c in special_characters if c in s])])
+
 
 def main():
     global errors
@@ -103,11 +104,11 @@ def main():
             print(snippet[0])
 
             # Run the lexer (create tokens)
-            lexer = FuzzySolidityLexer(InputStream(snippet[1]))
+            lexer = SolidityLexer(InputStream(snippet[1]))
             stream = CommonTokenStream(lexer)
 
             # Run the parser (create AST)
-            parser = FuzzySolidityParser(stream)
+            parser = SolidityParser(stream)
             parser.removeErrorListeners()
             parser.addErrorListener(CustomErrorListener())
             errors = dict()
@@ -134,11 +135,11 @@ def main():
                             lines[line_number - 1] = line
 
                         # Run the lexer (create tokens)
-                        lexer = FuzzySolidityLexer(InputStream("\n".join(lines)))
+                        lexer = SolidityLexer(InputStream("\n".join(lines)))
                         stream = CommonTokenStream(lexer)
 
                         # Run the parser (create AST)
-                        parser = FuzzySolidityParser(stream)
+                        parser = SolidityParser(stream)
                         parser.removeErrorListeners()
                         parser.addErrorListener(CustomErrorListener())
                         errors = dict()
