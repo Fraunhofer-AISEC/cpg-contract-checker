@@ -1,8 +1,5 @@
 {
-    "extraneous input '=>' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 24: extraneous input '=>' expecting {';', NL}\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 19: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'constCDTYPE=\"ContractDefinition\";\\nconstCNAME=\"SupplyChain\";\\nconstcontractDefn=ca=>'": [
+        "ERROR: when parsing line 3 column 24: no viable alternative at input 'constCDTYPE=\"ContractDefinition\";\\nconstCNAME=\"SupplyChain\";\\nconstcontractDefn=ca=>'\n"
     ]
 }

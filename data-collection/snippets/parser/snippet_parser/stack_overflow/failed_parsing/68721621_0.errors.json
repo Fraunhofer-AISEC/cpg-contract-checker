@@ -7,9 +7,6 @@
     "no viable alternative at input 'low\\n\\n\\n\\nrequire'": [
         "ERROR: when parsing line 28 column 6: no viable alternative at input 'low\\n\\n\\n\\nrequire'\n"
     ],
-    "mismatched input 'require' expecting {';', NL}": [
-        "ERROR: when parsing line 28 column 6: mismatched input 'require' expecting {';', NL}\n"
-    ],
     "no viable alternative at input 'Error}'": [
         "ERROR: when parsing line 32 column 4: no viable alternative at input 'Error}'\n"
     ],

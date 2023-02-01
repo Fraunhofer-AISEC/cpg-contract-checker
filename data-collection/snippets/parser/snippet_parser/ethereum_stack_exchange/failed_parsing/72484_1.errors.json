@@ -1,5 +1,5 @@
 {
-    "mismatched input '.' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 49: mismatched input '.' expecting {'{', 'returns', ';', NL}\n"
+    "no viable alternative at input 'functiongetHighestBidID()publiconlyOwnerview.'": [
+        "ERROR: when parsing line 1 column 49: no viable alternative at input 'functiongetHighestBidID()publiconlyOwnerview.'\n"
     ]
 }

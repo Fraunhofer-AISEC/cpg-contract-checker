@@ -1,0 +1,16 @@
+{
+    "extraneous input 'availableToWithdraw' expecting {'(', NL}": [
+        "ERROR: when parsing line 57 column 13: extraneous input 'availableToWithdraw' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'walletAddress' expecting {',', ')'}": [
+        "ERROR: when parsing line 57 column 41: extraneous input 'walletAddress' expecting {',', ')'}\n",
+        "ERROR: when parsing line 72 column 38: extraneous input 'walletAddress' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 57 column 56: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 72 column 61: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'withdraw' expecting {'(', NL}": [
+        "ERROR: when parsing line 72 column 13: extraneous input 'withdraw' expecting {'(', NL}\n"
+    ]
+}

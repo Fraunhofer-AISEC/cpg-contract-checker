@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"Try approving for user 1 the transfer of their tokens from the contract\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 84: no viable alternative at input 'it(\"Try approving for user 1 the transfer of their tokens from the contract\",asyncfunction'\n"
+    ]
+}

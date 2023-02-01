@@ -1,23 +1,5 @@
 {
-    "mismatched input '{' expecting {';', NL}": [
-        "ERROR: when parsing line 17 column 27: mismatched input '{' expecting {';', NL}\n"
-    ],
-    "mismatched input 'on' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 17 column 45: mismatched input 'on' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Line' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 17 column 53: mismatched input 'Line' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input 'for' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 18 column 8: extraneous input 'for' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
-    ],
-    "no viable alternative at input '(uint256a'": [
-        "ERROR: when parsing line 18 column 21: no viable alternative at input '(uint256a'\n"
-    ],
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 18 column 41: mismatched input ')' expecting {';', NL}\n"
-    ],
-    "extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 20 column 8: extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'RandomlyAssigned('": [
+        "ERROR: when parsing line 17 column 16: no viable alternative at input 'RandomlyAssigned('\n"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionclaimCard(uint_cardIndex)publicpayablereturns(uint){\\n\\n_cardIndex=5000;\\nrandNonce++;\\n\\ncardIndexToAddress[uint(keccak256(abi.encodePacked(now,msg.sender,randNonce)))%_cardIndex]=msg.sender;\\n\\nreturnuint(keccak256(abi.encodePacked(now,msg.sender,randNonce)))%_cardIndex;\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionclaimCard(uint_cardIndex)publicpayablereturns(uint){\\n\\n_cardIndex=5000;\\nrandNonce++;\\n\\ncardIndexToAddress[uint(keccak256(abi.encodePacked(now,msg.sender,randNonce)))%_cardIndex]=msg.sender;\\n\\nreturnuint(keccak256(abi.encodePacked(now,msg.sender,randNonce)))%_cardIndex;\\n'\n"
+    ]
+}

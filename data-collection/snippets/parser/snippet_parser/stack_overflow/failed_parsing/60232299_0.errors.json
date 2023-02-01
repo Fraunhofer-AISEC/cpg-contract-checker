@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionreinvest()onlyDivispublic{\\naddress_customerAddress=msg.sender;\\nuint256_dividends=myDividends(false);\\npayoutsTo_[_customerAddress]+=(int256)(_dividends*magnitude);\\n_dividends+=referralBalance_[_customerAddress];\\nreferralBalance_[_customerAddress]=0;\\nuint256_tokens=purchaseTokens(0x0,_customerAddress,_dividends);\\nemitonReinvestment(_customerAddress,_dividends,_tokens);\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionreinvest()onlyDivispublic{\\naddress_customerAddress=msg.sender;\\nuint256_dividends=myDividends(false);\\npayoutsTo_[_customerAddress]+=(int256)(_dividends*magnitude);\\n_dividends+=referralBalance_[_customerAddress];\\nreferralBalance_[_customerAddress]=0;\\nuint256_tokens=purchaseTokens(0x0,_customerAddress,_dividends);\\nemitonReinvestment(_customerAddress,_dividends,_tokens);\\n'\n"
+    ]
+}

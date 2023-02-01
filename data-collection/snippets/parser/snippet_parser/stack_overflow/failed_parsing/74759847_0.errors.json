@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor(addresspayableRecipient)public{='": [
+        "ERROR: when parsing line 4 column 53: no viable alternative at input 'constructor(addresspayableRecipient)public{='\n"
+    ]
+}

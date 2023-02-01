@@ -1,0 +1,12 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 36: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 48: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input 'null' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 15 column 63: extraneous input 'null' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 69: extraneous input ')' expecting {';', NL}\n"
+    ]
+}

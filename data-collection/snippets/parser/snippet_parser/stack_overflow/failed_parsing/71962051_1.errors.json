@@ -1,5 +1,5 @@
 {
-    "extraneous input 'struct' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 65: extraneous input 'struct' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    "no viable alternative at input 'functiongetTodo(stringmemory_name,uint_age)publicreturns(struct'": [
+        "ERROR: when parsing line 1 column 65: no viable alternative at input 'functiongetTodo(stringmemory_name,uint_age)publicreturns(struct'\n"
     ]
 }

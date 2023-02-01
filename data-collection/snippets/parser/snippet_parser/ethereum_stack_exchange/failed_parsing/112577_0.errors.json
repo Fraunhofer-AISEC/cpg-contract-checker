@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'amount)'": [
-        "ERROR: when parsing line 1 column 72: no viable alternative at input 'amount)'\n"
+    "no viable alternative at input 'uint256exchangeAmount=uint256(((100/ratio)*100))*amount)'": [
+        "ERROR: when parsing line 1 column 72: no viable alternative at input 'uint256exchangeAmount=uint256(((100/ratio)*100))*amount)'\n"
     ]
 }

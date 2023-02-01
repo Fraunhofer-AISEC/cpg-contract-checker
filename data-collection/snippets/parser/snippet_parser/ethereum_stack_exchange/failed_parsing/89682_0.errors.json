@@ -1,16 +1,5 @@
 {
-    "mismatched input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 5 column 47: mismatched input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 51: mismatched input ',' expecting {';', NL}\n",
-        "ERROR: when parsing line 5 column 57: mismatched input ',' expecting {';', NL}\n",
-        "ERROR: when parsing line 5 column 60: mismatched input ',' expecting {';', NL}\n"
-    ],
-    "extraneous input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 63: extraneous input ')' expecting {';', NL}\n"
-    ],
-    "extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 7 column 0: extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'function()externalpayable{\\nbytesmemorydata=abi.encodeWithSignature(\"modValue(uint256)\",25);\\naddress_delegate=delegate;\\nassembly{\\nletresult:=delegatecall(gas,_delegate,['": [
+        "ERROR: when parsing line 5 column 47: no viable alternative at input 'function()externalpayable{\\nbytesmemorydata=abi.encodeWithSignature(\"modValue(uint256)\",25);\\naddress_delegate=delegate;\\nassembly{\\nletresult:=delegatecall(gas,_delegate,['\n"
     ]
 }

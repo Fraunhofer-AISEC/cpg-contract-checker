@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionremovePledge(uint256_pledgeIndex,)'": [
+        "ERROR: when parsing line 1 column 44: no viable alternative at input 'functionremovePledge(uint256_pledgeIndex,)'\n"
+    ]
+}

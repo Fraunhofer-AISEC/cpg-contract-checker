@@ -1,11 +1,5 @@
 {
-    "extraneous input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 85: extraneous input '(' expecting {';', NL}\n"
-    ],
-    "extraneous input '{' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 2 column 0: extraneous input '{' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
-    ],
-    "mismatched input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 14: mismatched input ':' expecting {';', NL}\n"
+    "no viable alternative at input 'store_transaction=Voting_Contract.functions.addPoll(\"First Test.\").buildTransaction(\\n{\\n\"gasPrice\"'": [
+        "ERROR: when parsing line 3 column 4: no viable alternative at input 'store_transaction=Voting_Contract.functions.addPoll(\"First Test.\").buildTransaction(\\n{\\n\"gasPrice\"'\n"
     ]
 }

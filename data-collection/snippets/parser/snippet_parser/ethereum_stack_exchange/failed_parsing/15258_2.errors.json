@@ -1,5 +1,5 @@
 {
-    "mismatched input 'which' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 17: mismatched input 'which' expecting {';', NL}\n"
+    "no viable alternative at input 'uint8a=255;\\nuint8b=0;\\n\\nThenc=255+0which'": [
+        "ERROR: when parsing line 4 column 17: no viable alternative at input 'uint8a=255;\\nuint8b=0;\\n\\nThenc=255+0which'\n"
     ]
 }

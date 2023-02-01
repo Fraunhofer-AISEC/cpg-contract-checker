@@ -1,0 +1,14 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 10: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input '=>' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', '.', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 1 column 40: extraneous input '=>' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', '.', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "extraneous input '{' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 3 column 15: extraneous input '{' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "no viable alternative at input 'name:'": [
+        "ERROR: when parsing line 4 column 8: no viable alternative at input 'name:'\n"
+    ]
+}

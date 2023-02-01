@@ -1,8 +1,5 @@
 {
-    "extraneous input 'compile' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 11: extraneous input 'compile' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'Implementation0x3Adf7e2B2aCfFf48d11802EC0b1591Cc19672804'": [
-        "ERROR: when parsing line 2 column 15: no viable alternative at input 'Implementation0x3Adf7e2B2aCfFf48d11802EC0b1591Cc19672804'\n"
+    "no viable alternative at input 'Nothingtocompile'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input 'Nothingtocompile'\n"
     ]
 }

@@ -1,11 +1,5 @@
 {
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 12: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input '/' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 14: extraneous input '/' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input 'echo' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 27: mismatched input 'echo' expecting {';', NL}\n"
+    "no viable alternative at input 'userKumquat:'": [
+        "ERROR: when parsing line 1 column 12: no viable alternative at input 'userKumquat:'\n"
     ]
 }

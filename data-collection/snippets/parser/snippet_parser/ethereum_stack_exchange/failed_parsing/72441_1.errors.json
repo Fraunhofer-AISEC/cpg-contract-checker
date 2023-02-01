@@ -1,9 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 28: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 40: mismatched input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 56: mismatched input ',' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'users[userID]=kullanicilar(stringname'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'users[userID]=kullanicilar(stringname'\n"
     ]
 }

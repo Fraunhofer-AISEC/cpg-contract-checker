@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constabi=[\\n\"function balanceOf(address) public view returns (uint256)\",\\n]'": [
+        "ERROR: when parsing line 3 column 6: no viable alternative at input 'constabi=[\\n\"function balanceOf(address) public view returns (uint256)\",\\n]'\n"
+    ]
+}

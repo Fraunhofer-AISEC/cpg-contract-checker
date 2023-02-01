@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionstartNewPhase(uint256_tokenPrice,uint256tokenAmount)public{\\nrequire(msg.sender==admin,\"Can only be inoked by admin\");\\nrequire(tokenContract.mint(address(this),tokenAmount));\\nsaleActive=true;\\ntokenPrice=_tokenPrice;\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionstartNewPhase(uint256_tokenPrice,uint256tokenAmount)public{\\nrequire(msg.sender==admin,\"Can only be inoked by admin\");\\nrequire(tokenContract.mint(address(this),tokenAmount));\\nsaleActive=true;\\ntokenPrice=_tokenPrice;\\n'\n"
+    ]
+}

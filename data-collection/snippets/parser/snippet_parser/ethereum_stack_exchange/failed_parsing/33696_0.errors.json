@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'mytoken.sol:'": [
-        "ERROR: when parsing line 1 column 19: no viable alternative at input 'mytoken.sol:'\n"
+    "no viable alternative at input 'browser/mytoken.sol:'": [
+        "ERROR: when parsing line 1 column 19: no viable alternative at input 'browser/mytoken.sol:'\n"
     ]
 }

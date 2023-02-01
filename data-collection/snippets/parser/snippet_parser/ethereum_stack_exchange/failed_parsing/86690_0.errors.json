@@ -1,8 +1,5 @@
 {
-    "extraneous input 'type' expecting ')'": [
-        "ERROR: when parsing line 1 column 47: extraneous input 'type' expecting ')'\n"
-    ],
-    "mismatched input '<EOF>' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 6 column 0: mismatched input '<EOF>' expecting {'~', 'from', '{', '}', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'functionentryExists(uint256id,stringmemorytype'": [
+        "ERROR: when parsing line 1 column 47: no viable alternative at input 'functionentryExists(uint256id,stringmemorytype'\n"
     ]
 }

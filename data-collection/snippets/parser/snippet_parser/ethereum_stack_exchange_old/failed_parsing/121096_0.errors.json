@@ -1,0 +1,5 @@
+{
+    "mismatched input 'uint256' expecting {'(', NL}": [
+        "ERROR: when parsing line 1 column 66: mismatched input 'uint256' expecting {'(', NL}\n"
+    ]
+}

@@ -7,11 +7,5 @@
     ],
     "mismatched input 'struct' expecting {'=', ';', NL}": [
         "ERROR: when parsing line 12 column 24: mismatched input 'struct' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input '/' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 12 column 30: extraneous input '/' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input '**' expecting '{'": [
-        "ERROR: when parsing line 12 column 39: mismatched input '**' expecting '{'\n"
     ]
 }

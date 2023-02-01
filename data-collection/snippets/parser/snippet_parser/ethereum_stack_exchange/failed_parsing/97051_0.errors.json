@@ -1,11 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 15: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 3 column 23: mismatched input '.' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 3 column 24: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    "no viable alternative at input 'functionfetch()privatereturns(bytes32requestId){\\nChainlink.Requestmemoryrequest=buildChainlinkRequest(jobId,address(this),this.fulfill.selector);\\nrequest.add(\"get\",.'": [
+        "ERROR: when parsing line 3 column 23: no viable alternative at input 'functionfetch()privatereturns(bytes32requestId){\\nChainlink.Requestmemoryrequest=buildChainlinkRequest(jobId,address(this),this.fulfill.selector);\\nrequest.add(\"get\",.'\n"
     ]
 }

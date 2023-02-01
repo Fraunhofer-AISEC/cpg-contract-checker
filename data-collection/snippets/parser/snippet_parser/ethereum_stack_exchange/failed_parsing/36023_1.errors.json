@@ -1,30 +1,5 @@
 {
-    "mismatched input 'TicketPro' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 12: mismatched input 'TicketPro' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 52: mismatched input ':' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 80: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'exceeds' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 67: mismatched input 'exceeds' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'important' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 95: mismatched input 'important' expecting {';', NL}\n"
-    ],
-    "mismatched input 'estimation' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 109: mismatched input 'estimation' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'also' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 126: mismatched input 'also' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'the' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 134: mismatched input 'the' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'of' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 143: mismatched input 'of' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'in' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 156: mismatched input 'in' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'transacttoTicketPro'": [
+        "ERROR: when parsing line 1 column 12: no viable alternative at input 'transacttoTicketPro'\n"
     ]
 }

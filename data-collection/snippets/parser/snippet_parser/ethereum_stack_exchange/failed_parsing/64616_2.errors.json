@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'Factory.sol:'": [
-        "ERROR: when parsing line 1 column 19: no viable alternative at input 'Factory.sol:'\n"
+    "no viable alternative at input 'browser/Factory.sol:'": [
+        "ERROR: when parsing line 1 column 19: no viable alternative at input 'browser/Factory.sol:'\n"
     ]
 }

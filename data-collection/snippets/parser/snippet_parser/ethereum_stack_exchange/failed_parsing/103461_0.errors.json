@@ -1,14 +1,11 @@
 {
-    "extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 4 column 53: extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "extraneous input '<' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 53: extraneous input '<' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
     ],
-    "mismatched input 'want' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 60: mismatched input 'want' expecting {';', NL}\n"
+    "mismatched input 'to' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 65: mismatched input 'to' expecting {'=', ';', NL}\n"
     ],
-    "mismatched input 'access' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 68: mismatched input 'access' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input 'variable' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 80: extraneous input 'variable' expecting {'=', ';', NL}\n"
+    "mismatched input 'this' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 75: mismatched input 'this' expecting {'=', ';', NL}\n"
     ]
 }

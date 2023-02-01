@@ -1,48 +1,5 @@
 {
-    "extraneous input 'contract' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 4: extraneous input 'contract' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "extraneous input '{' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 23: extraneous input '{' expecting {';', NL}\n"
-    ],
-    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 2 column 8: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input '4' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 4 column 0: mismatched input '4' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 20: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 10 column 28: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input ')' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 35: mismatched input ')' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 10 column 47: mismatched input ')' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 6 column 8: extraneous input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n",
-        "ERROR: when parsing line 13 column 8: extraneous input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n",
-        "ERROR: when parsing line 14 column 4: extraneous input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input '7' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 7 column 0: mismatched input '7' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input '8' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 8 column 0: mismatched input '8' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input 'function' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 8 column 8: mismatched input 'function' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input '10' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 10 column 0: mismatched input '10' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "extraneous input 'function' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 10 column 8: extraneous input 'function' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input '14' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 14 column 0: mismatched input '14' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input '<EOF>' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 15 column 0: mismatched input '<EOF>' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    "no viable alternative at input '1.contract'": [
+        "ERROR: when parsing line 1 column 4: no viable alternative at input '1.contract'\n"
     ]
 }

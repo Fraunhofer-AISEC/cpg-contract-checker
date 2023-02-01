@@ -1,0 +1,31 @@
+contract HelloWorld {
+
+    mapping (address => uint) balances;
+    address owner;
+
+    event Transfer(address indexed _from, address indexed _to, uint256 _value);
+
+    function HelloWorld() {
+        balances[msg.sender] = 1500;
+        owner = msg.sender;
+    }
+
+    function getBalance(address addr) returns(uint) {
+        return balances[addr];
+    }
+
+    function getOwner() returns(address) {
+        return owner;
+    }
+
+    function sendCoin(address receiver, uint amount) returns(bool success) {
+
+        if(amount > balances[owner]) return false; 
+
+        balances[owner] -= amount;
+        balances[receiver] += amount;
+
+        Transfer(owner, receiver, amount);
+        return true;
+    }
+}

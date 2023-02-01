@@ -1,0 +1,23 @@
+{
+    "extraneous input 'myfunc' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 9: extraneous input 'myfunc' expecting {'(', NL}\n"
+    ],
+    "extraneous input '13' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 4 column 16: extraneous input '13' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input 'parameters' expecting {',', ')'}": [
+        "ERROR: when parsing line 4 column 26: mismatched input 'parameters' expecting {',', ')'}\n"
+    ],
+    "mismatched input '.' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 36: mismatched input '.' expecting {';', NL}\n"
+    ],
+    "mismatched input '=' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 13: mismatched input '=' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 5 column 19: mismatched input '(' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'parameters' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 23: mismatched input 'parameters' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,6 @@
+...
+mapping( address => uint ) balances;
+function sendToken(address user, uint amount) public payable {
+    balances[msg.sender] = amount;
+...
+}

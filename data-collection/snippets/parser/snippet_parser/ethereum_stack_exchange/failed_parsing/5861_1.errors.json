@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionvote(\\nuint_proposalID,\\nbool_supportsProposal\\n)onlyTokenholdersnoEtherreturns(uint_voteID){\\n\\nProposalp=proposals[_proposalID];\\nif(p.votedYes[msg.sender]\\n||p.votedNo[msg.sender]\\n||now>=p.votingDeadline){\\n\\nthrow;\\n}\\n'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functionvote(\\nuint_proposalID,\\nbool_supportsProposal\\n)onlyTokenholdersnoEtherreturns(uint_voteID){\\n\\nProposalp=proposals[_proposalID];\\nif(p.votedYes[msg.sender]\\n||p.votedNo[msg.sender]\\n||now>=p.votingDeadline){\\n\\nthrow;\\n}\\n'\n"
+    ]
+}

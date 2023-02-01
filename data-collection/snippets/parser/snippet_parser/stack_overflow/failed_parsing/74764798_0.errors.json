@@ -1,0 +1,29 @@
+{
+    "mismatched input 'i' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 0: mismatched input 'i' expecting {';', NL}\n"
+    ],
+    "mismatched input 'this' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 6: mismatched input 'this' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'error' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 16: mismatched input 'error' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'i' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 27: mismatched input 'i' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'smart' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 36: mismatched input 'smart' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 61: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'help' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 72: mismatched input 'help' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'please' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 0: mismatched input 'please' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'me' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 12: mismatched input 'me' expecting {'=', ';', NL}\n"
+    ]
+}

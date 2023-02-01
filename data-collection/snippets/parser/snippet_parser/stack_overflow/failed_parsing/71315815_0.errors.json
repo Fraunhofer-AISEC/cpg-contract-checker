@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetConversionRate(uint256ethAmount)publicviewreturns(uint256){\\nuint256ethPrice=getPrice();\\nuint256ethAmountInUsd=(ethPrice*ethAmount)/1000000000000000000;\\nreturnethAmountInUsd;\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functiongetConversionRate(uint256ethAmount)publicviewreturns(uint256){\\nuint256ethPrice=getPrice();\\nuint256ethAmountInUsd=(ethPrice*ethAmount)/1000000000000000000;\\nreturnethAmountInUsd;\\n'\n"
+    ]
+}

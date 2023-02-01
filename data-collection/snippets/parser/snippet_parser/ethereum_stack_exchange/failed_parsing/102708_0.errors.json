@@ -1,11 +1,5 @@
 {
-    "mismatched input '_deploy_contracts' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 1: mismatched input '_deploy_contracts' expecting {';', NL}\n"
-    ],
-    "mismatched input '==' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 2 column 2: mismatched input '==' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "no viable alternative at input 'Deploying'{contractName}''": [
-        "ERROR: when parsing line 4 column 13: no viable alternative at input 'Deploying'{contractName}''\n"
+    "no viable alternative at input '2_deploy_contracts'": [
+        "ERROR: when parsing line 1 column 1: no viable alternative at input '2_deploy_contracts'\n"
     ]
 }

@@ -1,0 +1,8 @@
+{
+    "no viable alternative at input 'balances[0x'": [
+        "ERROR: when parsing line 23 column 18: no viable alternative at input 'balances[0x'\n"
+    ],
+    "mismatched input 'x' expecting {',', ']'}": [
+        "ERROR: when parsing line 23 column 18: mismatched input 'x' expecting {',', ']'}\n"
+    ]
+}

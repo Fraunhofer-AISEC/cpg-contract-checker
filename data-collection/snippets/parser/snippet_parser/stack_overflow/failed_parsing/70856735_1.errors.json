@@ -1,11 +1,5 @@
 {
-    "mismatched input 'expression' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 17: mismatched input 'expression' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'the' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 33: mismatched input 'the' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'function' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 42: mismatched input 'function' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'expectedprimaryexpression'": [
+        "ERROR: when parsing line 1 column 17: no viable alternative at input 'expectedprimaryexpression'\n"
     ]
 }

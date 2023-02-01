@@ -1,11 +1,5 @@
 {
-    "mismatched input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 7: mismatched input ':' expecting {';', NL}\n"
-    ],
-    "mismatched input 'payable' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 18: mismatched input 'payable' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'in' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 33: mismatched input 'in' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Step-1:'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input 'Step-1:'\n"
     ]
 }

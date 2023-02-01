@@ -1,0 +1,3 @@
+function WolframAlpha() payable {
+  update();
+}

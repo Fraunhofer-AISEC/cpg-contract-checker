@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'registered_user[msg.sender]='": [
+        "ERROR: when parsing line 4 column 28: no viable alternative at input 'registered_user[msg.sender]='\n"
+    ]
+}

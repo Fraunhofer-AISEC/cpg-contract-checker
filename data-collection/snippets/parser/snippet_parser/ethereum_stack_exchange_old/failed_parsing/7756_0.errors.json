@@ -1,0 +1,8 @@
+{
+    "extraneous input 'table' expecting ')'": [
+        "ERROR: when parsing line 3 column 92: extraneous input 'table' expecting ')'\n"
+    ],
+    "missing ')' at '{'": [
+        "ERROR: when parsing line 3 column 98: missing ')' at '{'\n"
+    ]
+}

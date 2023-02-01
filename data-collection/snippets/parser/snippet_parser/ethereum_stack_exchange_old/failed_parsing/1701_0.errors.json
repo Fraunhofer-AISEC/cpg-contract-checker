@@ -1,0 +1,32 @@
+{
+    "mismatched input 'are' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 16: mismatched input 'are' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'in' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 27: mismatched input 'in' expecting {'=', ';', NL}\n"
+    ],
+    "missing '(' at 'are'": [
+        "ERROR: when parsing line 2 column 19: missing '(' at 'are'\n"
+    ],
+    "mismatched input 'in' expecting {',', ')'}": [
+        "ERROR: when parsing line 2 column 30: mismatched input 'in' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'of' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 16: mismatched input 'of' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 3 column 25: extraneous input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "missing '{' at 'or'": [
+        "ERROR: when parsing line 3 column 33: missing '{' at 'or'\n"
+    ],
+    "mismatched input 'mapping' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 3 column 36: mismatched input 'mapping' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'type' expecting {'(', NL}": [
+        "ERROR: when parsing line 3 column 44: mismatched input 'type' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'reference' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 49: mismatched input 'reference' expecting {';', NL}\n"
+    ]
+}

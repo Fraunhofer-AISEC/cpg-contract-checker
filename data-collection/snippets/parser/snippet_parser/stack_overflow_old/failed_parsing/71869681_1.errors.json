@@ -1,0 +1,11 @@
+{
+    "mismatched input 'Contract' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 2: mismatched input 'Contract' expecting {';', NL}\n"
+    ],
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 15: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'Transaction:'": [
+        "ERROR: when parsing line 3 column 13: no viable alternative at input 'Transaction:'\n"
+    ]
+}

@@ -1,8 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 27: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'id' expecting ')'": [
-        "ERROR: when parsing line 2 column 91: mismatched input 'id' expecting ')'\n"
+    "no viable alternative at input 'oraclizeID='": [
+        "ERROR: when parsing line 2 column 11: no viable alternative at input 'oraclizeID='\n"
     ]
 }

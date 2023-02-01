@@ -1,0 +1,26 @@
+{
+    "no viable alternative at input 'address[]public'": [
+        "ERROR: when parsing line 2 column 10: no viable alternative at input 'address[]public'\n",
+        "ERROR: when parsing line 3 column 10: no viable alternative at input 'address[]public'\n"
+    ],
+    "mismatched input 'public' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 10: mismatched input 'public' expecting {';', NL}\n",
+        "ERROR: when parsing line 3 column 10: mismatched input 'public' expecting {';', NL}\n"
+    ],
+    "extraneous input 'loop_through' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 9: extraneous input 'loop_through' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 24: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 8 column 4: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'get_weather_today' expecting {'(', NL}": [
+        "ERROR: when parsing line 7 column 9: extraneous input 'get_weather_today' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_address' expecting {',', ')'}": [
+        "ERROR: when parsing line 7 column 35: extraneous input '_address' expecting {',', ')'}\n"
+    ],
+    "extraneous input '_jobID' expecting ')'": [
+        "ERROR: when parsing line 7 column 53: extraneous input '_jobID' expecting ')'\n"
+    ]
+}

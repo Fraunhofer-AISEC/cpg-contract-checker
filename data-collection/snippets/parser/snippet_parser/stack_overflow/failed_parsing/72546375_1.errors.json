@@ -1,20 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 73: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input '98' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 167: mismatched input '98' expecting {';', NL}\n"
-    ],
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 169: mismatched input ')' expecting {';', NL}\n"
-    ],
-    "mismatched input 'variable' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 182: mismatched input 'variable' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input 'initialized' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 197: extraneous input 'initialized' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'Reference:'": [
-        "ERROR: when parsing line 2 column 9: no viable alternative at input 'Reference:'\n"
+    "no viable alternative at input 'ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS(address,bytes,bool).slot(node_modules/openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol98'": [
+        "ERROR: when parsing line 1 column 167: no viable alternative at input 'ERC1967UpgradeUpgradeable._upgradeToAndCallUUPS(address,bytes,bool).slot(node_modules/openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol98'\n"
     ]
 }

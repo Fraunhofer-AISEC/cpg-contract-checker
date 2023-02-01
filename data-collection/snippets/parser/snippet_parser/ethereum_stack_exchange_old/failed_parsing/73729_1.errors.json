@@ -1,0 +1,29 @@
+{
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 74: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 11: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'block' expecting ')'": [
+        "ERROR: when parsing line 15 column 32: mismatched input 'block' expecting ')'\n"
+    ],
+    "mismatched input 'must' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 45: mismatched input 'must' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'later' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 53: mismatched input 'later' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'last' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 64: mismatched input 'last' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '')'' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 74: extraneous input '')'' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'FUDGE_FACTOR_IN_BLOCKS,'": [
+        "ERROR: when parsing line 17 column 68: no viable alternative at input 'FUDGE_FACTOR_IN_BLOCKS,'\n"
+    ],
+    "mismatched input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 72: mismatched input ')' expecting {';', NL}\n"
+    ]
+}

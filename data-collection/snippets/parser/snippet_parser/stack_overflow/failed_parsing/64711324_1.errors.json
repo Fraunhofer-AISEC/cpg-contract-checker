@@ -1,5 +1,5 @@
 {
-    "mismatched input 'from' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 5: mismatched input 'from' expecting {';', NL}\n"
+    "no viable alternative at input '[vm]from'": [
+        "ERROR: when parsing line 1 column 5: no viable alternative at input '[vm]from'\n"
     ]
 }

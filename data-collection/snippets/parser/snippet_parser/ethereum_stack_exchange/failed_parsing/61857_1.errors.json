@@ -1,8 +1,5 @@
 {
-    "mismatched input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 16: mismatched input ':' expecting {';', NL}\n"
-    ],
-    "mismatched input 'bytes' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 29: mismatched input 'bytes' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'msg.sig(bytes4):'": [
+        "ERROR: when parsing line 1 column 16: no viable alternative at input 'msg.sig(bytes4):'\n"
     ]
 }

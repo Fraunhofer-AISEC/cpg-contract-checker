@@ -1,11 +1,5 @@
 {
-    "mismatched input 'passing' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 4: mismatched input 'passing' expecting {';', NL}\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 12: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 's' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 14: mismatched input 's' expecting {';', NL}\n"
+    "no viable alternative at input '3passing'": [
+        "ERROR: when parsing line 1 column 4: no viable alternative at input '3passing'\n"
     ]
 }

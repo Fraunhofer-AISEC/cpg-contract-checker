@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondistribution(address[]addresses,uint256_amount)onlyOwnerpublic{\\nuint256_remainingAmount=_MaxDistribPublicSupply-_CurrentDistribPublicSupply;\\nrequire(addresses.length<=255);\\nrequire(_amount<=_remainingAmount);\\n_amount=_amount*1e18;\\n\\nfor(uinti=0;i<addresses.length;i++){\\nrequire(_amount<=_remainingAmount);\\n_CurrentDistribPublicSupply+=_amount;\\nbalances[msg.sender]+=_amount;\\n_totalSupply+=_amount;\\nTransfer(this,addresses[i],_amount);\\n}\\n'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'functiondistribution(address[]addresses,uint256_amount)onlyOwnerpublic{\\nuint256_remainingAmount=_MaxDistribPublicSupply-_CurrentDistribPublicSupply;\\nrequire(addresses.length<=255);\\nrequire(_amount<=_remainingAmount);\\n_amount=_amount*1e18;\\n\\nfor(uinti=0;i<addresses.length;i++){\\nrequire(_amount<=_remainingAmount);\\n_CurrentDistribPublicSupply+=_amount;\\nbalances[msg.sender]+=_amount;\\n_totalSupply+=_amount;\\nTransfer(this,addresses[i],_amount);\\n}\\n'\n"
+    ]
+}

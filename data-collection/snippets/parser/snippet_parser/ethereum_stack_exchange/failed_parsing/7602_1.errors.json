@@ -1,8 +1,5 @@
 {
-    "mismatched input '4' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 18: mismatched input '4' expecting {';', NL}\n"
-    ],
-    "mismatched input 'bytes' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 20: mismatched input 'bytes' expecting {';', NL}\n"
+    "no viable alternative at input 'method_id=first4'": [
+        "ERROR: when parsing line 1 column 18: no viable alternative at input 'method_id=first4'\n"
     ]
 }

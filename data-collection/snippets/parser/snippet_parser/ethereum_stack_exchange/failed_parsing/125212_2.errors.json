@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsendCoin(addressreceiver,uintamount)public{\\nrequire(Owner==msg.sender);\\nif(amount>myCoin[msg.sender])\\nrevert('Insufficient balance');\\nmyCoin[msg.sender]-=amount;\\nmyCoin[receiver]+=amount;\\n\\n\\n\\n\\nif(myCoin[receiver]+=amount)\\n{\\nemitSuccessfullTransfer(receiver,amount);\\n}\\n'": [
+        "ERROR: when parsing line 15 column 0: no viable alternative at input 'functionsendCoin(addressreceiver,uintamount)public{\\nrequire(Owner==msg.sender);\\nif(amount>myCoin[msg.sender])\\nrevert('Insufficient balance');\\nmyCoin[msg.sender]-=amount;\\nmyCoin[receiver]+=amount;\\n\\n\\n\\n\\nif(myCoin[receiver]+=amount)\\n{\\nemitSuccessfullTransfer(receiver,amount);\\n}\\n'\n"
+    ]
+}

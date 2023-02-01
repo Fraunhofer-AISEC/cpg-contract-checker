@@ -1,11 +1,5 @@
 {
-    "extraneous input 'myfunction' expecting {'(', NL}": [
-        "ERROR: when parsing line 5 column 9: extraneous input 'myfunction' expecting {'(', NL}\n"
-    ],
-    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 5 column 22: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input '<EOF>' expecting '}'": [
-        "ERROR: when parsing line 7 column 0: mismatched input '<EOF>' expecting '}'\n"
+    "no viable alternative at input 'functionquery_oldBalance(address_adrs)viewpublicreturns(uint){\\naddress_tokenAddress=\"tokenV1\"\\nreturnIERC20(_tokenAddress).balanceOf(_adrs);\\n\\nfunctionmyfunction'": [
+        "ERROR: when parsing line 5 column 9: no viable alternative at input 'functionquery_oldBalance(address_adrs)viewpublicreturns(uint){\\naddress_tokenAddress=\"tokenV1\"\\nreturnIERC20(_tokenAddress).balanceOf(_adrs);\\n\\nfunctionmyfunction'\n"
     ]
 }

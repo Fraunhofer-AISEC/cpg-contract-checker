@@ -1,0 +1,21 @@
+{
+    "extraneous input '}' expecting {';', NL}": [
+        "ERROR: when parsing line 33 column 0: extraneous input '}' expecting {';', NL}\n",
+        "ERROR: when parsing line 40 column 0: extraneous input '}' expecting {';', NL}\n"
+    ],
+    "extraneous input 'update2' expecting {'(', NL}": [
+        "ERROR: when parsing line 36 column 9: extraneous input 'update2' expecting {'(', NL}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 36 column 27: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 38 column 14: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'USD)'": [
+        "ERROR: when parsing line 39 column 51: no viable alternative at input 'USD)'\n"
+    ],
+    "mismatched input '<EOF>' expecting '}'": [
+        "ERROR: when parsing line 41 column 0: mismatched input '<EOF>' expecting '}'\n"
+    ]
+}

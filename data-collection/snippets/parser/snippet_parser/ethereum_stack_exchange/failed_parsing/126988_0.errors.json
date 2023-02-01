@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetvalue(stringmemory_name,stringmemory_description,stringmemory_uses,stringmemory_ingredients,stringmemory_sideeffects,stringmemory_warnings)public{\\nTabletstoragedata=tablets[_name];\\n\\ndata.name.push(_name);\\ndata.description.push(_description);\\ndata.uses.push(_uses);\\ndata.ingredients.push(_ingredients);\\ndata.sideeffects.push(_sideeffects);\\ndata.warnings.push(_warnings);\\n\\nrequire(!alreadyexist[_name]);\\nnextdrug.push(_name)-1;\\nalreadyexist[_name]=true;\\n'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'functionsetvalue(stringmemory_name,stringmemory_description,stringmemory_uses,stringmemory_ingredients,stringmemory_sideeffects,stringmemory_warnings)public{\\nTabletstoragedata=tablets[_name];\\n\\ndata.name.push(_name);\\ndata.description.push(_description);\\ndata.uses.push(_uses);\\ndata.ingredients.push(_ingredients);\\ndata.sideeffects.push(_sideeffects);\\ndata.warnings.push(_warnings);\\n\\nrequire(!alreadyexist[_name]);\\nnextdrug.push(_name)-1;\\nalreadyexist[_name]=true;\\n'\n"
+    ]
+}

@@ -1,11 +1,5 @@
 {
-    "missing ')' at 'etime'": [
-        "ERROR: when parsing line 2 column 82: missing ')' at 'etime'\n"
-    ],
-    "mismatched input 'etime' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 127: mismatched input 'etime' expecting {';', NL}\n"
-    ],
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 134: mismatched input ')' expecting {';', NL}\n"
+    "no viable alternative at input 'functionsetwinner()internalreturns(address){\\nfor(uintstime=0;stime<squareStartTimeArray.length;stime++&uintetime'": [
+        "ERROR: when parsing line 2 column 82: no viable alternative at input 'functionsetwinner()internalreturns(address){\\nfor(uintstime=0;stime<squareStartTimeArray.length;stime++&uintetime'\n"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmint(uint256_mintAmount)publicpayable{\\nrequire(_mintAmount>0,\"need to mint at least 1 NFT\");\\nrequire(_mintAmount<=maxMintAmount,\"max mint amount per session exceeded\");\\nrequire(supply+_mintAmount<=maxSupply,\"max NFT limit exceeded\");\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functionmint(uint256_mintAmount)publicpayable{\\nrequire(_mintAmount>0,\"need to mint at least 1 NFT\");\\nrequire(_mintAmount<=maxMintAmount,\"max mint amount per session exceeded\");\\nrequire(supply+_mintAmount<=maxSupply,\"max NFT limit exceeded\");\\n'\n"
+    ]
+}

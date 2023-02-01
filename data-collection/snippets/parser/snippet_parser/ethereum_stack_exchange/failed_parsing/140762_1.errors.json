@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpay(address_acToken,uint256_amount)payablepublicreturns(uint256){\\n\\nfee=(_amount.div(10_000)).mul(feePercentageInBasisPoint);\\ntotalAmount=(_amount.add(fee);'": [
+        "ERROR: when parsing line 4 column 38: no viable alternative at input 'functionpay(address_acToken,uint256_amount)payablepublicreturns(uint256){\\n\\nfee=(_amount.div(10_000)).mul(feePercentageInBasisPoint);\\ntotalAmount=(_amount.add(fee);'\n"
+    ]
+}

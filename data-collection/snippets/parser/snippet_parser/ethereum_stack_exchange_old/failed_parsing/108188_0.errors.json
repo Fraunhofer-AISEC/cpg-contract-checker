@@ -1,0 +1,5 @@
+{
+    "extraneous input '\"Max Value is {maxValue}\"' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 17: extraneous input '\"Max Value is {maxValue}\"' expecting {';', NL}\n"
+    ]
+}

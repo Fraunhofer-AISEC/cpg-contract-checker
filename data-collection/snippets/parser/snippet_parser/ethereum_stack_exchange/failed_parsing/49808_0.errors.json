@@ -1,15 +1,5 @@
 {
-    "mismatched input 'string' expecting {',', ')'}": [
-        "ERROR: when parsing line 1 column 35: mismatched input 'string' expecting {',', ')'}\n"
-    ],
-    "mismatched input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 45: mismatched input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 57: mismatched input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 70: mismatched input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 85: mismatched input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 98: mismatched input ',' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ')' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 111: mismatched input ')' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'functionaddNewContract(string_aastring'": [
+        "ERROR: when parsing line 1 column 35: no viable alternative at input 'functionaddNewContract(string_aastring'\n"
     ]
 }

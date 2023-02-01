@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsoldierOn()public{\\nboolsuccess=target.send(amount);\\nif(success){\\n\\n}else{\\n\\n\\n}\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionsoldierOn()public{\\nboolsuccess=target.send(amount);\\nif(success){\\n\\n}else{\\n\\n\\n}\\n'\n"
+    ]
+}

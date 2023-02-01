@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontoString(addressx)returns(string){\\nbytesmemoryb=newbytes(20);\\nfor(uinti=0;i<20;i++)\\nb[i]=byte(uint8(uint(x)/(2**(8*(19-i)))));\\nreturnstring(b);\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functiontoString(addressx)returns(string){\\nbytesmemoryb=newbytes(20);\\nfor(uinti=0;i<20;i++)\\nb[i]=byte(uint8(uint(x)/(2**(8*(19-i)))));\\nreturnstring(b);\\n'\n"
+    ]
+}

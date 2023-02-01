@@ -1,8 +1,5 @@
 {
-    "mismatched input 'in' expecting ')'": [
-        "ERROR: when parsing line 13 column 14: mismatched input 'in' expecting ')'\n"
-    ],
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 13 column 29: mismatched input ')' expecting {';', NL}\n"
+    "no viable alternative at input 'functionfactorization(uint256compositeNumber,uint256limit)constantreturns(uint256pp){\\nuint256g=compositeNumber;\\nuint256x1=16;\\nuint256y1=5;\\nuint256z1=1;\\nwhile(g==compositeNumber){\\ng=greatestCommonDivisor(4*a**3+27*b**2,compositeNumber);\\n}\\nif(g>1){\\nreturng;\\n}\\nfor(uint256i=1;i<=limit;i++){\\nif(iin'": [
+        "ERROR: when parsing line 13 column 14: no viable alternative at input 'functionfactorization(uint256compositeNumber,uint256limit)constantreturns(uint256pp){\\nuint256g=compositeNumber;\\nuint256x1=16;\\nuint256y1=5;\\nuint256z1=1;\\nwhile(g==compositeNumber){\\ng=greatestCommonDivisor(4*a**3+27*b**2,compositeNumber);\\n}\\nif(g>1){\\nreturng;\\n}\\nfor(uint256i=1;i<=limit;i++){\\nif(iin'\n"
     ]
 }

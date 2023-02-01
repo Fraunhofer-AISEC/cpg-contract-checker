@@ -1,8 +1,5 @@
 {
-    "mismatched input 'deploy' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 14: mismatched input 'deploy' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'account' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 26: mismatched input 'account' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Attemptingtodeploy'": [
+        "ERROR: when parsing line 1 column 14: no viable alternative at input 'Attemptingtodeploy'\n"
     ]
 }

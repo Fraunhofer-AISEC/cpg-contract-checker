@@ -1,8 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 39: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 49: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    "no viable alternative at input 'addressconstantpublictoken=address(0xabc123..'": [
+        "ERROR: when parsing line 1 column 49: no viable alternative at input 'addressconstantpublictoken=address(0xabc123..'\n"
     ]
 }

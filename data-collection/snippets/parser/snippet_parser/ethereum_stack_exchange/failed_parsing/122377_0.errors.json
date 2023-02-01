@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontokenURI(uint256tokenId)publicviewvirtualoverridereturns(stringmemory){\\n\\nrequire(_exists(tokenId),\"ERC721Metadata: URI query for nonexistent token\");\\n\\n\\n\\n\\n\\nif(block.timestamp%2==0){\\n\\nreturnbytes(aUri).length>0\\n\\n?string(abi.encodePacked(aUri,tokenId.toString(),baseExtension))\\n\\n:\"\";\\n\\n}\\n'": [
+        "ERROR: when parsing line 18 column 0: no viable alternative at input 'functiontokenURI(uint256tokenId)publicviewvirtualoverridereturns(stringmemory){\\n\\nrequire(_exists(tokenId),\"ERC721Metadata: URI query for nonexistent token\");\\n\\n\\n\\n\\n\\nif(block.timestamp%2==0){\\n\\nreturnbytes(aUri).length>0\\n\\n?string(abi.encodePacked(aUri,tokenId.toString(),baseExtension))\\n\\n:\"\";\\n\\n}\\n'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsell(uintamount)returns(uintrevenue){\\nif(balanceOf[msg.sender]<amount)throw;\\nbalanceOf[this]+=amount;\\nbalanceOf[msg.sender]-=amount;\\nrevenue=amount*sellPrice;\\nif(!msg.sender.send(revenue)){\\nthrow;\\n}else{\\nTransfer(msg.sender,this,amount);\\nreturnrevenue;\\n}\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionsell(uintamount)returns(uintrevenue){\\nif(balanceOf[msg.sender]<amount)throw;\\nbalanceOf[this]+=amount;\\nbalanceOf[msg.sender]-=amount;\\nrevenue=amount*sellPrice;\\nif(!msg.sender.send(revenue)){\\nthrow;\\n}else{\\nTransfer(msg.sender,this,amount);\\nreturnrevenue;\\n}\\n'\n"
+    ]
+}

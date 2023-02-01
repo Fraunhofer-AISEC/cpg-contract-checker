@@ -1,8 +1,5 @@
 {
-    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 8 column 26: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 8 column 39: mismatched input ',' expecting {';', NL}\n"
+    "no viable alternative at input 'usdt='": [
+        "ERROR: when parsing line 6 column 5: no viable alternative at input 'usdt='\n"
     ]
 }

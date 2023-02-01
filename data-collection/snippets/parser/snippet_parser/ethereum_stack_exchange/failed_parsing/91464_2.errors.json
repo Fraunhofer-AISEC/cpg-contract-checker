@@ -1,5 +1,5 @@
 {
-    "extraneous input 'type' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 49: extraneous input 'type' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    "no viable alternative at input 'functionarr(uint256index)publicviewreturns(type'": [
+        "ERROR: when parsing line 1 column 49: no viable alternative at input 'functionarr(uint256index)publicviewreturns(type'\n"
     ]
 }

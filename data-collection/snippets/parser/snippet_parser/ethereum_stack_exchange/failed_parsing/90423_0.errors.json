@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetAbonacci(uintyclose,ufixed128x18dclose)publicpayable{\\nif(provable_getPrice(\"URL\")>address(this).balance){\\nemitLogNewProvableQuery(\"Provable query was NOT sent, please add some currency to cover for the query fee\");\\n}else{\\nemitLogNewProvableQuery(\"Provable query was sent, standing by for the answer..\");\\n\\n\\ns2=uint2str(yclose);\\n\\n\\nx1=string(dclose);\\n\\ns4=string(abi.encodePacked(s1,\"yclose=\",s2,\"&dclose=\",s3));\\n\\nprovable_query(\"URL\",string(s4));\\n}\\n'": [
+        "ERROR: when parsing line 17 column 0: no viable alternative at input 'functiongetAbonacci(uintyclose,ufixed128x18dclose)publicpayable{\\nif(provable_getPrice(\"URL\")>address(this).balance){\\nemitLogNewProvableQuery(\"Provable query was NOT sent, please add some currency to cover for the query fee\");\\n}else{\\nemitLogNewProvableQuery(\"Provable query was sent, standing by for the answer..\");\\n\\n\\ns2=uint2str(yclose);\\n\\n\\nx1=string(dclose);\\n\\ns4=string(abi.encodePacked(s1,\"yclose=\",s2,\"&dclose=\",s3));\\n\\nprovable_query(\"URL\",string(s4));\\n}\\n'\n"
+    ]
+}

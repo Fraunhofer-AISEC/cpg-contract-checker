@@ -1,9 +1,5 @@
 {
-    "mismatched input 'of' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 17: mismatched input 'of' expecting {';', NL}\n",
-        "ERROR: when parsing line 1 column 31: mismatched input 'of' expecting {';', NL}\n"
-    ],
-    "extraneous input 'gas' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 36: extraneous input 'gas' expecting {';', NL}\n"
+    "no viable alternative at input 'gasfee=amountof'": [
+        "ERROR: when parsing line 1 column 17: no viable alternative at input 'gasfee=amountof'\n"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"should allow the owner of the campaign to withdraw funds if the campaign is successful\",async()=>'": [
+        "ERROR: when parsing line 1 column 103: no viable alternative at input 'it(\"should allow the owner of the campaign to withdraw funds if the campaign is successful\",async()=>'\n"
+    ]
+}

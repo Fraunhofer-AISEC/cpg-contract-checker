@@ -1,5 +1,5 @@
 {
-    "mismatched input '.' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 8 column 10: mismatched input '.' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    "no viable alternative at input 'functionisAvailable(\\nbytesmemorysignature,address_firmante\\n)internalviewreturns(boolwhiteListed){\\nbytes32result=keccak256(\\nabi.encodePacked(msg.sender)\\n);\\n\\nhash=.'": [
+        "ERROR: when parsing line 8 column 10: no viable alternative at input 'functionisAvailable(\\nbytesmemorysignature,address_firmante\\n)internalviewreturns(boolwhiteListed){\\nbytes32result=keccak256(\\nabi.encodePacked(msg.sender)\\n);\\n\\nhash=.'\n"
     ]
 }

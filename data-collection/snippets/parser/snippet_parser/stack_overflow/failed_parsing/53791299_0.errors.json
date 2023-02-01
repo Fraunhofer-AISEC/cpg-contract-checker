@@ -1,5 +1,5 @@
 {
-    "mismatched input '{' expecting {',', ')'}": [
-        "ERROR: when parsing line 1 column 52: mismatched input '{' expecting {',', ')'}\n"
+    "no viable alternative at input 'functionFoo(uint_num)externalpurereturns(bool{'": [
+        "ERROR: when parsing line 1 column 52: no viable alternative at input 'functionFoo(uint_num)externalpurereturns(bool{'\n"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "mismatched input 'smart' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 20: mismatched input 'smart' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Shoulddeploysmart'": [
+        "ERROR: when parsing line 1 column 20: no viable alternative at input 'Shoulddeploysmart'\n"
     ]
 }

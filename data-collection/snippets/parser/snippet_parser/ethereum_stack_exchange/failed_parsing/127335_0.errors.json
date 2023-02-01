@@ -1,30 +1,5 @@
 {
-    "mismatched input 'library' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 3: mismatched input 'library' expecting {';', NL}\n"
-    ],
-    "mismatched input '2' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
-        "ERROR: when parsing line 2 column 0: mismatched input '2' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
-    ],
-    "extraneous input '3' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 0: extraneous input '3' expecting {';', NL}\n"
-    ],
-    "mismatched input 'hello' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 7: mismatched input 'hello' expecting {';', NL}\n"
-    ],
-    "extraneous input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 12: extraneous input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'string' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 11: mismatched input 'string' expecting {';', NL}\n",
-        "ERROR: when parsing line 6 column 11: mismatched input 'string' expecting {';', NL}\n"
-    ],
-    "extraneous input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 5 column 22: extraneous input ',' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 7: mismatched input ')' expecting {';', NL}\n"
-    ],
-    "extraneous input '}' expecting {';', NL}": [
-        "ERROR: when parsing line 8 column 3: extraneous input '}' expecting {';', NL}\n"
+    "no viable alternative at input '1library'": [
+        "ERROR: when parsing line 1 column 3: no viable alternative at input '1library'\n"
     ]
 }

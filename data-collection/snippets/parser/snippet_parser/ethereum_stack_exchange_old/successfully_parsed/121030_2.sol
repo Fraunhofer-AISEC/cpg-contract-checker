@@ -1,0 +1,38 @@
+    
+abstract contract ContextMixin {
+    function msgSender()
+        internal
+        view
+        returns (address payable sender)
+    {
+        if (msg.sender == address(this)) {
+            bytes memory array = msg.data;
+            uint256 index = msg.data.length;
+            assembly {
+                
+                sender := and(
+                    mload(add(array, index)),
+                    0xffffffffffffffffffffffffffffffffffffffff
+                )
+            }
+        } else {
+            sender = payable(msg.sender);
+        }
+        return sender;
+    }
+}
+
+
+
+contract MyPolygonERC721NFT is ERC721, ContextMixin, ERC2771Context {
+
+    
+    function _msgSender()
+        internal
+        override
+        view
+        returns (address sender)
+    {
+        return ContextMixin.msgSender();
+    }
+}

@@ -1,14 +1,5 @@
 {
-    "extraneous input ':' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 41: extraneous input ':' expecting {'{', 'returns', ';', NL}\n"
-    ],
-    "mismatched input '<=' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 17: mismatched input '<=' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input '(' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 16: extraneous input '(' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input '_wdamount,'": [
-        "ERROR: when parsing line 5 column 25: no viable alternative at input '_wdamount,'\n"
+    "no viable alternative at input 'functionwithdraw(uint256amount)payable:'": [
+        "ERROR: when parsing line 1 column 41: no viable alternative at input 'functionwithdraw(uint256amount)payable:'\n"
     ]
 }

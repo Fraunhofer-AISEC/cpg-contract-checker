@@ -1,0 +1,22 @@
+{
+    "extraneous input 'modifiers' expecting {',', ']'}": [
+        "ERROR: when parsing line 2 column 11: extraneous input 'modifiers' expecting {',', ']'}\n",
+        "ERROR: when parsing line 8 column 11: extraneous input 'modifiers' expecting {',', ']'}\n"
+    ],
+    "mismatched input 'returns' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 4: mismatched input 'returns' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 4: mismatched input 'returns' expecting {';', NL}\n"
+    ],
+    "extraneous input '{' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 19: extraneous input '{' expecting {';', NL}\n",
+        "ERROR: when parsing line 10 column 19: extraneous input '{' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input '(.'": [
+        "ERROR: when parsing line 5 column 5: no viable alternative at input '(.'\n",
+        "ERROR: when parsing line 11 column 5: no viable alternative at input '(.'\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 20: mismatched input '.' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 11 column 20: mismatched input '.' expecting {'=', ';', NL}\n"
+    ]
+}

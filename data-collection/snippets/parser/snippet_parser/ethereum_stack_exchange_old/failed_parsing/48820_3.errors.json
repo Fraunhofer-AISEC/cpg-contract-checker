@@ -1,0 +1,14 @@
+{
+    "extraneous input '<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 1 column 8: extraneous input '<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 14: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input '2' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 18: mismatched input '2' expecting {';', NL}\n"
+    ],
+    "mismatched input 'bb28319' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 19: mismatched input 'bb28319' expecting {';', NL}\n"
+    ]
+}

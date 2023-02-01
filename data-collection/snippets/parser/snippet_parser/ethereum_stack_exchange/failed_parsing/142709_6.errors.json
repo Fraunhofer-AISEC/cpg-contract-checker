@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionupdateTokenName(stringmemory_name)externalonlyOwner{\\n\\nfunctionupdateTokenName'": [
+        "ERROR: when parsing line 3 column 9: no viable alternative at input 'functionupdateTokenName(stringmemory_name)externalonlyOwner{\\n\\nfunctionupdateTokenName'\n"
+    ]
+}

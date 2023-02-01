@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetMultipleAddresses(string[]calldataids)publicviewreturns(address[]memory){\\n\\naddress[]memory_addresses;\\n\\nfor(uint256i=0;i<ids.length;i++){\\nstringmemoryid=ids[i];\\nrequire(_idToAddress[id]!=address(0),'Missing address');\\naddresspayable_address=payable(_addresses[i]);\\n\\n_addresses[i]=_address;\\n}\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functiongetMultipleAddresses(string[]calldataids)publicviewreturns(address[]memory){\\n\\naddress[]memory_addresses;\\n\\nfor(uint256i=0;i<ids.length;i++){\\nstringmemoryid=ids[i];\\nrequire(_idToAddress[id]!=address(0),'Missing address');\\naddresspayable_address=payable(_addresses[i]);\\n\\n_addresses[i]=_address;\\n}\\n'\n"
+    ]
+}

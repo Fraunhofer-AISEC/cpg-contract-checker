@@ -1,5 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 18: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'functiongenRandomNumbers(uint256salt)publicpurereturns(uint256){\\nuint256seed=salt+block.timestamp;\\nreturnuint256(keccak256(abi.encodePacked(seed));'": [
+        "ERROR: when parsing line 3 column 52: no viable alternative at input 'functiongenRandomNumbers(uint256salt)publicpurereturns(uint256){\\nuint256seed=salt+block.timestamp;\\nreturnuint256(keccak256(abi.encodePacked(seed));'\n"
     ]
 }

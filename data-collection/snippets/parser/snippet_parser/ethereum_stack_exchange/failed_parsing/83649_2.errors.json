@@ -1,5 +1,9 @@
 {
-    "no viable alternative at input 'address[]memory'": [
-        "ERROR: when parsing line 1 column 10: no viable alternative at input 'address[]memory'\n"
+    "no viable alternative at input 'myArray[0],'": [
+        "ERROR: when parsing line 2 column 10: no viable alternative at input 'myArray[0],'\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 10: mismatched input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 2 column 67: mismatched input ',' expecting {';', NL}\n"
     ]
 }

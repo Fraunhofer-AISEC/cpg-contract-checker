@@ -1,17 +1,5 @@
 {
-    "mismatched input 'and' expecting {'(', NL}": [
-        "ERROR: when parsing line 4 column 10: mismatched input 'and' expecting {'(', NL}\n"
-    ],
-    "mismatched input 'send' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 14: mismatched input 'send' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'to' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 22: mismatched input 'to' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'address' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 33: mismatched input 'address' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 6 column 0: mismatched input '}' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    "no viable alternative at input 'functionsendToAuthor(uinttokenId)publicpayable{\\n\\n\\nmappingand'": [
+        "ERROR: when parsing line 4 column 10: no viable alternative at input 'functionsendToAuthor(uinttokenId)publicpayable{\\n\\n\\nmappingand'\n"
     ]
 }

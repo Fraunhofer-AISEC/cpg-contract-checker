@@ -1,8 +1,5 @@
 {
-    "mismatched input 'MacBook' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 7: mismatched input 'MacBook' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'Pro:'": [
-        "ERROR: when parsing line 1 column 18: no viable alternative at input 'Pro:'\n"
+    "no viable alternative at input '(base)MacBook'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input '(base)MacBook'\n"
     ]
 }

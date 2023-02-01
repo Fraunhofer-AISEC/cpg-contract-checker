@@ -1,5 +1,5 @@
 {
-    "extraneous input '0x000' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 38: extraneous input '0x000' expecting {';', NL}\n"
+    "no viable alternative at input 'functiontransferbalanceOf(addressaccount,uint256id)internalvirtual{\\nrequire(account!=address(0),\"ERC1155: balance query for the zero address\");\\nif(_balances[id][account]=uint256(1)){\\naddressto=_msgSender();\\nuint256amount=1;\\naddressfrom=address(this);\\nbytesmemorydata=bytes0x000'": [
+        "ERROR: when parsing line 7 column 38: no viable alternative at input 'functiontransferbalanceOf(addressaccount,uint256id)internalvirtual{\\nrequire(account!=address(0),\"ERC1155: balance query for the zero address\");\\nif(_balances[id][account]=uint256(1)){\\naddressto=_msgSender();\\nuint256amount=1;\\naddressfrom=address(this);\\nbytesmemorydata=bytes0x000'\n"
     ]
 }

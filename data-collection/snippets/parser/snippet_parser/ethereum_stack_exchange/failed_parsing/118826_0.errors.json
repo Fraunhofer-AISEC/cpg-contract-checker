@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionenter()publicpayable{\\nrequire(msg.value>1wei);\\nplayers.push(msg.sender);\\n\\nif(players.length==10){\\nstart=block.timestamp;\\n}\\n\\nif(block.timestamp>=start+totalTime){\\nuintindex=random()%players.length;\\nplayers[index].transfer(this.balance);\\ndead[index].transfer((this.balance*2)/100);\\nwinner=players[index];\\nplayers=newaddress[](0);\\n}\\n\\n'": [
+        "ERROR: when parsing line 17 column 0: no viable alternative at input 'functionenter()publicpayable{\\nrequire(msg.value>1wei);\\nplayers.push(msg.sender);\\n\\nif(players.length==10){\\nstart=block.timestamp;\\n}\\n\\nif(block.timestamp>=start+totalTime){\\nuintindex=random()%players.length;\\nplayers[index].transfer(this.balance);\\ndead[index].transfer((this.balance*2)/100);\\nwinner=players[index];\\nplayers=newaddress[](0);\\n}\\n\\n'\n"
+    ]
+}

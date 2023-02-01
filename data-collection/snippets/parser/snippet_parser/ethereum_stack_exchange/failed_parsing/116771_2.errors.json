@@ -1,8 +1,5 @@
 {
     "no viable alternative at input '(node:'": [
         "ERROR: when parsing line 1 column 5: no viable alternative at input '(node:'\n"
-    ],
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input ')' expecting {';', NL}\n"
     ]
 }

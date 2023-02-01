@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor(addressmarketingWallet){\\n_rOwned[_msgSender()]=_rTotal;\\n_marketingWallet=payable(marketingWallet);\\n\\n\\nIUniswapV2Router02_uniswapV2Router=IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'constructor(addressmarketingWallet){\\n_rOwned[_msgSender()]=_rTotal;\\n_marketingWallet=payable(marketingWallet);\\n\\n\\nIUniswapV2Router02_uniswapV2Router=IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);\\n'\n"
+    ]
+}

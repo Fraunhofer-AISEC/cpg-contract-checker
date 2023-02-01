@@ -1,12 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 22: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 33: mismatched input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 52: mismatched input ',' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input ')' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 68: extraneous input ')' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'numberToBeFound=sha3(uintnonce'": [
+        "ERROR: when parsing line 1 column 28: no viable alternative at input 'numberToBeFound=sha3(uintnonce'\n"
     ]
 }

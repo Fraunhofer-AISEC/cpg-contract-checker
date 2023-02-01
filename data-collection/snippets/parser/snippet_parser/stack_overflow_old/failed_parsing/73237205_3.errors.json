@@ -1,0 +1,35 @@
+{
+    "mismatched input 'to' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 76 column 12: mismatched input 'to' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'slot' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 76 column 19: mismatched input 'slot' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '-' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 76 column 33: mismatched input '-' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'fuelIdIndex' expecting {';', NL}": [
+        "ERROR: when parsing line 77 column 8: mismatched input 'fuelIdIndex' expecting {';', NL}\n"
+    ],
+    "extraneous input '}' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 79 column 4: extraneous input '}' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'claim' expecting {'(', NL}": [
+        "ERROR: when parsing line 93 column 9: extraneous input 'claim' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'fuelId' expecting {',', ')'}": [
+        "ERROR: when parsing line 93 column 23: extraneous input 'fuelId' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 93 column 31: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'claimAll' expecting {'(', NL}": [
+        "ERROR: when parsing line 110 column 9: extraneous input 'claimAll' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 110 column 20: extraneous input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 110 column 40: extraneous input '{' expecting {'=', ';', NL}\n"
+    ]
+}

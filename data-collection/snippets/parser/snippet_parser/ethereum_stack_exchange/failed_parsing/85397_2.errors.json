@@ -1,14 +1,5 @@
 {
-    "mismatched input 'find' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 10: mismatched input 'find' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '-' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 27: mismatched input '-' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'imported' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 71: mismatched input 'imported' expecting {';', NL}\n"
-    ],
-    "mismatched input 'C' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 85: mismatched input 'C' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Couldnotfind'": [
+        "ERROR: when parsing line 1 column 10: no viable alternative at input 'Couldnotfind'\n"
     ]
 }

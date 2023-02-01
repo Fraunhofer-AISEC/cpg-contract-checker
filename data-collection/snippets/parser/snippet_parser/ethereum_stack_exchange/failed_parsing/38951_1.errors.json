@@ -1,8 +1,5 @@
 {
-    "extraneous input 'a4d0fb50a216d005d0510743686bfca140856f45' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 41: extraneous input 'a4d0fb50a216d005d0510743686bfca140856f45' expecting {';', NL}\n"
-    ],
-    "extraneous input 'c9adc5dea00000' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 67: extraneous input 'c9adc5dea00000' expecting {';', NL}\n"
+    "no viable alternative at input 'address_to=000000000000000000000000a4d0fb50a216d005d0510743686bfca140856f45'": [
+        "ERROR: when parsing line 1 column 41: no viable alternative at input 'address_to=000000000000000000000000a4d0fb50a216d005d0510743686bfca140856f45'\n"
     ]
 }

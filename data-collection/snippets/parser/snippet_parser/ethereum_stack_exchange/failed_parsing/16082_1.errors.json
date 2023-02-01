@@ -5,7 +5,23 @@
     "no viable alternative at input '(Ihave'": [
         "ERROR: when parsing line 3 column 18: no viable alternative at input '(Ihave'\n"
     ],
-    "mismatched input 'Lib' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 3 column 29: mismatched input 'Lib' expecting {'=', ';', NL}\n"
+    "mismatched input 'tried' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 23: mismatched input 'tried' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 32: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 3 column 37: extraneous input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 3 column 47: extraneous input ',' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'flag' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 43: mismatched input 'flag' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'works' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 57: mismatched input 'works' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 3 column 62: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
     ]
 }

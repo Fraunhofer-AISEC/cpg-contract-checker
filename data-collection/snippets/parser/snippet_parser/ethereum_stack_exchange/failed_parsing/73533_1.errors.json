@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsafeTransferFrom(address_from,address_to,uint256_tokenId,bytesdata)public{\\ntransferFrom(_from,_to,_tokenId);\\n\\n\\nuint32size;\\nassembly{\\nsize:=extcodesize(_to)\\n}\\nif(size>0){\\nERC721TokenReceiverreceiver=ERC721TokenReceiver(_to);\\nrequire(receiver.onERC721Received(msg.sender,_from,_tokenId,data)==bytes4(keccak256(\"onERC721Received(address,address,uint256,bytes)\")));\\n\\n}\\n'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'functionsafeTransferFrom(address_from,address_to,uint256_tokenId,bytesdata)public{\\ntransferFrom(_from,_to,_tokenId);\\n\\n\\nuint32size;\\nassembly{\\nsize:=extcodesize(_to)\\n}\\nif(size>0){\\nERC721TokenReceiverreceiver=ERC721TokenReceiver(_to);\\nrequire(receiver.onERC721Received(msg.sender,_from,_tokenId,data)==bytes4(keccak256(\"onERC721Received(address,address,uint256,bytes)\")));\\n\\n}\\n'\n"
+    ]
+}

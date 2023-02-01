@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbuyTokens()publicpayable{\\nrequire(publicBuyActivated==true);\\naddresspayabletransaction_sender=msg.sender;\\nuint256weiAmount=msg.value;\\n_preValidatePurchase(transaction_sender,weiAmount);\\n\\n\\nuint256tokens=msg.value/_rate;\\n\\n_processPurchase(transaction_sender,tokens);\\nemitTokensPurchased(transaction_sender,address(this),weiAmount,tokens);\\n\\nif(firstBuyTime[transaction_sender]==0){\\nfirstBuyTime[transaction_sender]=block.timestamp;\\n}\\n\\n\\n\\n__wallet.transfer(msg.value);\\n'": [
+        "ERROR: when parsing line 20 column 0: no viable alternative at input 'functionbuyTokens()publicpayable{\\nrequire(publicBuyActivated==true);\\naddresspayabletransaction_sender=msg.sender;\\nuint256weiAmount=msg.value;\\n_preValidatePurchase(transaction_sender,weiAmount);\\n\\n\\nuint256tokens=msg.value/_rate;\\n\\n_processPurchase(transaction_sender,tokens);\\nemitTokensPurchased(transaction_sender,address(this),weiAmount,tokens);\\n\\nif(firstBuyTime[transaction_sender]==0){\\nfirstBuyTime[transaction_sender]=block.timestamp;\\n}\\n\\n\\n\\n__wallet.transfer(msg.value);\\n'\n"
+    ]
+}

@@ -1,5 +1,8 @@
 {
-    "no viable alternative at input 'AllUserStakedTimestampmemory'": [
-        "ERROR: when parsing line 1 column 23: no viable alternative at input 'AllUserStakedTimestampmemory'\n"
+    "mismatched input '{' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 60: mismatched input '{' expecting {';', NL}\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 66: mismatched input ',' expecting {';', NL}\n"
     ]
 }

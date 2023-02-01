@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbytesToAddress(bytesmemoryb)publicviewreturns(address){\\nuint256result=0;\\nfor(uint256i=b.length-1;i+1>0;i--){\\nuint256c=uint256(uint8(b[i]));\\n\\nuint256to_inc=c*(16**((b.length-i-1)*2));\\nresult+=to_inc;\\n}\\nreturnaddress(result);\\n'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'functionbytesToAddress(bytesmemoryb)publicviewreturns(address){\\nuint256result=0;\\nfor(uint256i=b.length-1;i+1>0;i--){\\nuint256c=uint256(uint8(b[i]));\\n\\nuint256to_inc=c*(16**((b.length-i-1)*2));\\nresult+=to_inc;\\n}\\nreturnaddress(result);\\n'\n"
+    ]
+}

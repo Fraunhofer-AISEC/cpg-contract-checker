@@ -1,5 +1,36 @@
 {
-    "no viable alternative at input 'bytesmemory'": [
-        "ERROR: when parsing line 1 column 14: no viable alternative at input 'bytesmemory'\n"
+    "extraneous input 'getNumAndAlpha' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 17: extraneous input 'getNumAndAlpha' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 34: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 81: extraneous input '{' expecting {'=', ';', NL}\n"
+    ],
+    "missing ')' at 'b'": [
+        "ERROR: when parsing line 12 column 29: missing ')' at 'b'\n"
+    ],
+    "mismatched input 'b' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 40: mismatched input 'b' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 53: mismatched input 'b' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 66: mismatched input 'b' expecting {';', NL}\n"
+    ],
+    "mismatched input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 92: mismatched input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 14 column 32: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 31: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'else' expecting '}'": [
+        "ERROR: when parsing line 16 column 14: mismatched input 'else' expecting '}'\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 20 column 8: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 23 column 4: extraneous input '}' expecting {<EOF>, '~', 'from', '{', '(', 'error', 'for', 'function', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "no viable alternative at input '\\n\\n}'": [
+        "ERROR: when parsing line 23 column 4: no viable alternative at input '\\n\\n}'\n"
     ]
 }

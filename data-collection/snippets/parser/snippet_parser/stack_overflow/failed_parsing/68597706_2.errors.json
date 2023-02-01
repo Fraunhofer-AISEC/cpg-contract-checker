@@ -1,11 +1,5 @@
 {
-    "mismatched input 'compile' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 18: mismatched input 'compile' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'network' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 28: mismatched input 'network' expecting {';', NL}\n"
-    ],
-    "mismatched input 'Compiling' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 0: mismatched input 'Compiling' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'tronbox$tronboxcompile'": [
+        "ERROR: when parsing line 1 column 18: no viable alternative at input 'tronbox$tronboxcompile'\n"
     ]
 }

@@ -1,12 +1,5 @@
 {
-    "mismatched input 'scaled' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 20: mismatched input 'scaled' expecting {';', NL}\n",
-        "ERROR: when parsing line 5 column 17: mismatched input 'scaled' expecting {';', NL}\n"
-    ],
-    "extraneous input '10000000000' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 30: extraneous input '10000000000' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input '1000000' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 5 column 27: extraneous input '1000000' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'uint256result;\\nuint8precision;\\nuint256baseN=P.mul(10000000000);\\nuint256baseD=R*Mscaled'": [
+        "ERROR: when parsing line 4 column 20: no viable alternative at input 'uint256result;\\nuint8precision;\\nuint256baseN=P.mul(10000000000);\\nuint256baseD=R*Mscaled'\n"
     ]
 }

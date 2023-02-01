@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninvest(addressreferrer,uint8plan)publicpayable{\\nuint256fee=msg.value.mul(PROJECT_FEE).div(PERCENTS_DIVIDER);\\ncommissionWallet.transfer(fee);\\nemitFeePayed(msg.sender,fee);\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functioninvest(addressreferrer,uint8plan)publicpayable{\\nuint256fee=msg.value.mul(PROJECT_FEE).div(PERCENTS_DIVIDER);\\ncommissionWallet.transfer(fee);\\nemitFeePayed(msg.sender,fee);\\n'\n"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "mismatched input 'import' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 13: mismatched input 'import' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'def' expecting {';', NL}": [
+        "ERROR: when parsing line 20 column 0: mismatched input 'def' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 20 column 16: mismatched input '(' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 20 column 37: extraneous input ':' expecting {';', NL}\n"
+    ],
+    "extraneous input 'if' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 21 column 4: extraneous input 'if' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}

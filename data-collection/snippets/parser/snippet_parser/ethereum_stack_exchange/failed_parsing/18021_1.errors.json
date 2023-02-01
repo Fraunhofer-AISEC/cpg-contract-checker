@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'var('": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'var('\n"
+    ]
+}

@@ -1,8 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'A' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 27: mismatched input 'A' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Aa=A(<'": [
+        "ERROR: when parsing line 1 column 12: no viable alternative at input 'Aa=A(<'\n"
     ]
 }

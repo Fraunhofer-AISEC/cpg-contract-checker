@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateOrder(bytes32_hash,address_recipient,address_collection,uint256_nftId,uint256_timestamp)publicpayable{\\nbytes32hash=keccak256(\\nabi.encodePacked(_recipient,_collection,_nftId,_timestamp)\\n);\\n\\n\\nrequire(_hash==hash,\"Hashes are not matching\");\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functioncreateOrder(bytes32_hash,address_recipient,address_collection,uint256_nftId,uint256_timestamp)publicpayable{\\nbytes32hash=keccak256(\\nabi.encodePacked(_recipient,_collection,_nftId,_timestamp)\\n);\\n\\n\\nrequire(_hash==hash,\"Hashes are not matching\");\\n'\n"
+    ]
+}

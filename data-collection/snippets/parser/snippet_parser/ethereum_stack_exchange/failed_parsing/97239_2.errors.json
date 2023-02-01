@@ -1,5 +1,5 @@
 {
-    "mismatched input '<EOF>' expecting '}'": [
-        "ERROR: when parsing line 15 column 0: mismatched input '<EOF>' expecting '}'\n"
+    "no viable alternative at input 'functioninvest(addressreferrer,uint8plan)publicpayable{\\nrequire(msg.value>=INVEST_MIN_AMOUNT);\\nrequire(plan<6,\"Invalid plan\");\\n\\nuint256fee=msg.value.mul(PROJECT_FEE).div(PERCENTS_DIVIDER);\\ncommissionWallet.transfer(fee);\\nemitFeePayed(msg.sender,fee);\\n\\nUserstorageuser=users[msg.sender];\\n\\nif(user.referrer==address(0)){\\nif(users[referrer].deposits.length>0&&referrer!=msg.sender){\\nuser.referrer=referrer;\\n}\\n'": [
+        "ERROR: when parsing line 15 column 0: no viable alternative at input 'functioninvest(addressreferrer,uint8plan)publicpayable{\\nrequire(msg.value>=INVEST_MIN_AMOUNT);\\nrequire(plan<6,\"Invalid plan\");\\n\\nuint256fee=msg.value.mul(PROJECT_FEE).div(PERCENTS_DIVIDER);\\ncommissionWallet.transfer(fee);\\nemitFeePayed(msg.sender,fee);\\n\\nUserstorageuser=users[msg.sender];\\n\\nif(user.referrer==address(0)){\\nif(users[referrer].deposits.length>0&&referrer!=msg.sender){\\nuser.referrer=referrer;\\n}\\n'\n"
     ]
 }

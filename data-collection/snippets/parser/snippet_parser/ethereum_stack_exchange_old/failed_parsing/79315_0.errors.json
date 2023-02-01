@@ -1,0 +1,8 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 33: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'XXXXXXX30aA85f01499903b' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 53: mismatched input 'XXXXXXX30aA85f01499903b' expecting {';', NL}\n"
+    ]
+}

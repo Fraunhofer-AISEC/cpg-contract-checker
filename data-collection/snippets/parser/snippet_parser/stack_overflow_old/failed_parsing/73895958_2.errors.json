@@ -1,0 +1,5 @@
+{
+    "mismatched input 'information' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 20: mismatched input 'information' expecting {'=', ';', NL}\n"
+    ]
+}

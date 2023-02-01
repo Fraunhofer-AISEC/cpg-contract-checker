@@ -1,8 +1,5 @@
 {
-    "mismatched input 'logger' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 28: mismatched input 'logger' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'index' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 39: mismatched input 'index' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'node_modulesethersprojectlogger'": [
+        "ERROR: when parsing line 1 column 28: no viable alternative at input 'node_modulesethersprojectlogger'\n"
     ]
 }

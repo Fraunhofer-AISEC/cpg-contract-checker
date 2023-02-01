@@ -1,0 +1,14 @@
+{
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 11: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Compiling' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 0: mismatched input 'Compiling' expecting {';', NL}\n"
+    ],
+    "extraneous input 'contract' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 14: extraneous input 'contract' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'assert.js:'": [
+        "ERROR: when parsing line 3 column 9: no viable alternative at input 'assert.js:'\n"
+    ]
+}

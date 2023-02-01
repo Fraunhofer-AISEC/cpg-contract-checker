@@ -1,8 +1,5 @@
 {
-    "extraneous input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 11: extraneous input '(' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input '_admin,'": [
-        "ERROR: when parsing line 3 column 28: no viable alternative at input '_admin,'\n"
+    "no viable alternative at input 'functiongetPlayers(addressplayers,boolenabled)external{\\nrequire(\\nmsg.sender==_admin,\\n)'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'functiongetPlayers(addressplayers,boolenabled)external{\\nrequire(\\nmsg.sender==_admin,\\n)'\n"
     ]
 }

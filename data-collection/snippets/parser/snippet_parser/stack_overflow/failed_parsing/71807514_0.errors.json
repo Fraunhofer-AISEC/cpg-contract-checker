@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionclaimNFT(uint256[]memorytokenIds)external{\\nfor(uint256i=0;i<tokenIds.length;i++){\\nuint256tokenId=tokenIds[i];\\ntotalSupply+=1;\\n_mint(oldCollection.ownerOf(tokenId),tokenId);\\n}\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionclaimNFT(uint256[]memorytokenIds)external{\\nfor(uint256i=0;i<tokenIds.length;i++){\\nuint256tokenId=tokenIds[i];\\ntotalSupply+=1;\\n_mint(oldCollection.ownerOf(tokenId),tokenId);\\n}\\n'\n"
+    ]
+}

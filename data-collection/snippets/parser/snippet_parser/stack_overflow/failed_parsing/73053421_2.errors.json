@@ -1,14 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 11: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 6 column 11: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'address' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 5 column 21: mismatched input 'address' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 6 column 21: mismatched input 'address' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '*' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 5 column 33: mismatched input '*' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 6 column 33: mismatched input '*' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'functionmint()payablepublicreturns(uint256){\\nrequire(msg.value==0.1ether||msg.value==100000000000000000\\nwei,\"Transaction amount has to be 0.1 eth\");\\n\\nIERC20(*'": [
+        "ERROR: when parsing line 5 column 12: no viable alternative at input 'functionmint()payablepublicreturns(uint256){\\nrequire(msg.value==0.1ether||msg.value==100000000000000000\\nwei,\"Transaction amount has to be 0.1 eth\");\\n\\nIERC20(*'\n"
     ]
 }

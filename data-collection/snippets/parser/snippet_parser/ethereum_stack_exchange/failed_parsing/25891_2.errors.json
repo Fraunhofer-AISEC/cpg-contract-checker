@@ -1,8 +1,5 @@
 {
-    "mismatched input '90' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 8: mismatched input '90' expecting {';', NL}\n"
-    ],
-    "mismatched input 'JUMPDEST' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 12: mismatched input 'JUMPDEST' expecting {';', NL}\n"
+    "no viable alternative at input '[93]90'": [
+        "ERROR: when parsing line 1 column 8: no viable alternative at input '[93]90'\n"
     ]
 }

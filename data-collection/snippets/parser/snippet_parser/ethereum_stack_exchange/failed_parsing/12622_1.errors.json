@@ -1,5 +1,5 @@
 {
-    "mismatched input 'Greeter' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 7: mismatched input 'Greeter' expecting {'=', ';', NL}\n"
+    "no viable alternative at input '$lessGreeter'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input '$lessGreeter'\n"
     ]
 }

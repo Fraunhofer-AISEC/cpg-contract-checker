@@ -1,24 +1,5 @@
 {
-    "mismatched input 'Lottery' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 12: mismatched input 'Lottery' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 38: mismatched input ':' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 48: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'transaction' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 69: mismatched input 'transaction' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'been' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 85: mismatched input 'been' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'to' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 99: mismatched input 'to' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'initial' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 106: mismatched input 'initial' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 119: mismatched input '.' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'transacttoLottery'": [
+        "ERROR: when parsing line 1 column 12: no viable alternative at input 'transacttoLottery'\n"
     ]
 }

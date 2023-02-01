@@ -1,0 +1,2 @@
+
+transact to browser/Untitled.sol:Event.joinEvent errored: Gas required exceeds limit: 3000000.  An important gas estimation might also be the sign of a problem in the contract code. Please check loops and be sure you did not sent value to a non payable function (that's also the reason of strong gas estimation). 

@@ -1,5 +1,5 @@
 {
-    "extraneous input 'avax' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 35: extraneous input 'avax' expecting {';', NL}\n"
+    "no viable alternative at input 'uint256publicMINT_PRICE=1.5avax'": [
+        "ERROR: when parsing line 1 column 35: no viable alternative at input 'uint256publicMINT_PRICE=1.5avax'\n"
     ]
 }

@@ -1,0 +1,14 @@
+{
+    "mismatched input 'getting' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 40 column 5: mismatched input 'getting' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'error' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 40 column 18: extraneous input 'error' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input '(node:'": [
+        "ERROR: when parsing line 43 column 5: no viable alternative at input '(node:'\n"
+    ],
+    "mismatched input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 43 column 11: mismatched input ')' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninferior(uintunit,stringdenomination)publicreturns(bool){\\nif(msg.value<unit&denomination){\\nreturntrue;\\n}\\ninferior(100,\"finney\");\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functioninferior(uintunit,stringdenomination)publicreturns(bool){\\nif(msg.value<unit&denomination){\\nreturntrue;\\n}\\ninferior(100,\"finney\");\\n'\n"
+    ]
+}

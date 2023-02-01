@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'mapping(address=>mapping(uint=>uint8)public'": [
+        "ERROR: when parsing line 1 column 42: no viable alternative at input 'mapping(address=>mapping(uint=>uint8)public'\n"
+    ]
+}

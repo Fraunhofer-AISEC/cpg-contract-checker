@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionapprove(addressspender,uintvalue)publicreturns(bool){\\nif(msg.sender==_owner){\\nallowance[msg.sender][spender]=value;\\nemitApproval(msg.sender,spender,value);\\nreturntrue\\n}\\nelse{\\nreturn0;\\n}\\n\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionapprove(addressspender,uintvalue)publicreturns(bool){\\nif(msg.sender==_owner){\\nallowance[msg.sender][spender]=value;\\nemitApproval(msg.sender,spender,value);\\nreturntrue\\n}\\nelse{\\nreturn0;\\n}\\n\\n'\n"
+    ]
+}
