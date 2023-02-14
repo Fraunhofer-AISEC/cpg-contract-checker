@@ -4,7 +4,6 @@ WHERE n.name = "timestamp"
 RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
 
-
 // Dataflow from `block.timestamp` to return value of a function
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/timed_crowdsale.sol#L13
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/lottopollo.sol#L27
@@ -31,7 +30,6 @@ MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]
       p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
 WHERE n.code = "now"
     AND transferCall.name IN ["transfer", "send"]
-    AND transferCall IN NODES(p2)
 RETURN DISTINCT n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
 
