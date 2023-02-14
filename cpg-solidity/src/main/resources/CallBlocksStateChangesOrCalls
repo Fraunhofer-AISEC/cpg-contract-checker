@@ -1,3 +1,10 @@
-match (c:CallExpression)
-where c.name in ['send']
- distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.name as name
+match (c:CallExpression)-[:EOG*]->(write1)-[:DFG]->(f:FieldDeclaration)
+where (c.name in ['transfer'] or c.name = 'send' and exists{
+    avoidingpath=(c)-[:DFG]->(branchNeg)-[:EOG*]->(last) where not exists ((last)-[:EOG]->()) and not write1 in nodes(avoidingpath)
+})
+    and not exists { alt=(f)<-[:DFG]-(write2)-[:EOG*]->(func:FunctionDeclaration)
+    where not 'ConstructorDeclaration' in labels(f) and not c in nodes(alt) and not exists {
+        (write2)-[:EOG*]->(branching)-[:EOG*]->(c)
+    }
+    }
+return distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.name as name

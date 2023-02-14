@@ -35,6 +35,8 @@ class App : Callable<Int> {
 
     private val compDurations: MutableMap<String, Long> = mutableMapOf()
 
+    private val PRINT_ON_FIND = true
+
 
     @CommandLine.Parameters(
         arity = "0..*",
@@ -139,16 +141,16 @@ class App : Callable<Int> {
     }
 
     fun registerChecks(){
-        checks.add(AddressPaddingCheck())
         checks.add(AccessControlSelfdestructCheck())
         checks.add(CallReturnCheck())
         checks.add(AccessControlLogicCheck())
         checks.add(ReentrancyCheck())
         checks.add(DefaultProxyDelegateCheck())
         checks.add(TXOriginCheck())
-        checks.add(OverUnderflowCheck())
+        checks.add(DOSCheck())
+        checks.add(AddressPaddingCheck())
         checks.add(LocalWriteToStorageCheck())
-        checks.add(DOSThroughExhaustionCheck())
+        checks.add(OverUnderflowCheck())
     }
 
     fun persistGraph(result: TranslationResult){
@@ -192,6 +194,7 @@ class App : Callable<Int> {
     }
 
     fun runVulnerabilityChecks(filename: String){
+        val printedFiles = mutableListOf<String>()
         GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", neo4jPassword)).use { driver ->
             driver.session().use { session ->
                 session.readTransaction() { t: Transaction ->
@@ -203,11 +206,16 @@ class App : Callable<Int> {
                                         findings.put(filename, mutableListOf())
                                     }
                                     checkFindings.forEach {
-                                        findings[filename]!!.add(
-                                            check.getVulnerabilityName() + ", "
-                                                    + it.artifactLocation.toString().substringAfter("file:") + " "
-                                                    + it.region.toString()
-                                        )
+                                        val finding = check.getVulnerabilityName() + ", " + it.artifactLocation.toString().substringAfter("file:") + " " + it.region.toString()
+                                        if(PRINT_ON_FIND){
+                                            if(!printedFiles.contains(filename)){
+                                                println("File: " + filename)
+                                            }
+                                            println("- " + finding)
+                                        }else{
+                                            findings[filename]!!.add(finding)
+                                        }
+
                                     }
                                 }
                             }
