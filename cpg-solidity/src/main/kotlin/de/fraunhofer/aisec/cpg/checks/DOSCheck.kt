@@ -32,6 +32,28 @@ class DOSCheck : Check() {
 
             }
         }
+
+        // A query that finds if we make an external call whos failure stops other calls from executing
+        query =object {}.javaClass.getResourceAsStream("/CallBlocksFutureCall")?.bufferedReader()?.readText()
+
+        transaction.run(query).let { result ->
+            while (result.hasNext()) {
+                val row: Map<String, Any> = result.next().asMap()
+                findings.add(getPhysicalLocationFromResult(row))
+
+            }
+        }
+
+        // A query that finds if we make an external call whos failure stops other calls from executing
+        query =object {}.javaClass.getResourceAsStream("/EmptyCollectionUsedForTransfers")?.bufferedReader()?.readText()
+
+        transaction.run(query).let { result ->
+            while (result.hasNext()) {
+                val row: Map<String, Any> = result.next().asMap()
+                findings.add(getPhysicalLocationFromResult(row))
+
+            }
+        }
         return findings
     }
 }

@@ -1,0 +1,7 @@
+match p=(f:FunctionDeclaration)-[:EOG*]->(b:BinaryOperator {operatorCode: '='})-[:LHS]->()-[:DFG*]->(state:FieldDeclaration)-[:TYPE]->(t)
+where not 'ConstructorDeclaration' in labels(f) and t.code contains '['
+and exists{
+    (state)-[:DFG*]->()<-[:BASE|ARGUMENTS]-(c:CallExpression) where c.name in ['transfer', 'send', 'call']
+}
+
+return  distinct  b as call, b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file, b.name as name
