@@ -6,13 +6,15 @@ import pymongo
 import requests
 
 from web3 import Web3
+from itertools import cycle
 
 MONGO_HOST = "sectrs-vascodagama"
 MONGO_PORT = 27017
 
-ETHERSCAN_API_KEY = "M8VPZT5CQ71TUQP9JNTTWMUMNS1J8KKC5B"
+ETHERSCAN_API_KEYS = ["ANAZQYWNY3ZBIIMIY9P153TE6Y78PUM226", "M8VPZT5CQ71TUQP9JNTTWMUMNS1J8KKC5B", "VZ7EMQBT4GNH5F6FBV8FKXAFF6GS4MPKAU"]
 
-PROVIDER = Web3.HTTPProvider("https://mainnet.infura.io/v3/59bd984e502449f081d26eba3c624a32")
+PROVIDER_1 = Web3.HTTPProvider("https://mainnet.infura.io/v3/59bd984e502449f081d26eba3c624a32")
+PROVIDER_2 = Web3.HTTPProvider("https://mainnet.infura.io/v3/41e2dadcce7245d986bbc9e1196ca43b")
 
 class colors:
     INFO = '\033[94m'
@@ -21,40 +23,52 @@ class colors:
     END = '\033[0m'
 
 def main():
-    w3 = Web3(PROVIDER)
-    if w3.isConnected():
-        print(colors.INFO+"Connected to "+w3.clientVersion+colors.END)
+    w3_1 = Web3(PROVIDER_1)
+    if w3_1.isConnected():
+        print(colors.INFO+"Connected to "+w3_1.clientVersion+colors.END)
+    else:
+        print(colors.FAIL+"Error: Could not connect to Ethereum client. Please check the provider!"+colors.END)
+
+    w3_2 = Web3(PROVIDER_2)
+    if w3_2.isConnected():
+        print(colors.INFO+"Connected to "+w3_2.clientVersion+colors.END)
     else:
         print(colors.FAIL+"Error: Could not connect to Ethereum client. Please check the provider!"+colors.END)
 
     mongo_connection = pymongo.MongoClient("mongodb://"+MONGO_HOST+":"+str(MONGO_PORT), maxPoolSize=None)
     collection = mongo_connection["smart_contract_snippets"]["smart_contract_sanctuary_timestamps"]
 
+    api_key = cycle(ETHERSCAN_API_KEYS)
+
+    w3_api = cycle(range(2))
+
     for _, _, files in os.walk("smart-contract-sanctuary-ethereum"):
         for file in files:
             if file.endswith(".sol"):
                 address = Web3.toChecksumAddress("0x"+file.split("_")[0])
-                content = requests.get("https://api.etherscan.io/api?module=contract&action=getcontractcreation&contractaddresses="+str(address)+"&apikey="+str(ETHERSCAN_API_KEY)).json()
-                if content["status"] == "1" and content["message"] == "OK":
-                    result = content["result"][0]
-
-                exists = collection.find_one({"contractAddress": result["contractAddress"]})
+                exists = collection.find_one({"contractAddress": address.lower()})
                 if not exists:
-                    transaction = w3.eth.get_transaction(result["txHash"])
-                    result["blockNumber"] = transaction["blockNumber"]
-                    result["blockHash"] = transaction["blockHash"].hex()
-                    block = w3.eth.getBlock(block_identifier=result["blockNumber"], full_transactions=False)
-                    result["timestamp"] = block["timestamp"]
-                    collection.insert_one(result)
-                    # Indexing...
-                    if "contractAddress" not in collection.index_information():
-                        collection.create_index("contractAddress", unique=True)
-                        collection.create_index("contractCreator")
-                        collection.create_index("txHash")
-                        collection.create_index("blockNumber")
-                        collection.create_index("blockHash")
-                        collection.create_index("timestamp")
-                    print("Downloaded timestamp for contract:", colors.INFO+str(result["contractAddress"])+colors.END)
+                    content = requests.get("https://api.etherscan.io/api?module=contract&action=getcontractcreation&contractaddresses="+str(address)+"&apikey="+str(next(api_key))).json()
+                    if content["status"] == "1" and content["message"] == "OK":
+                        result = content["result"][0]
+                        w3 = w3_1
+                        if next(w3_api) == 1:
+                            w3 = w3_2
+                        transaction = w3.eth.get_transaction(result["txHash"])
+                        result["blockNumber"] = transaction["blockNumber"]
+                        result["blockHash"] = transaction["blockHash"].hex()
+                        block = w3.eth.getBlock(block_identifier=result["blockNumber"], full_transactions=False)
+                        result["timestamp"] = block["timestamp"]
+                        collection.insert_one(result)
+                        # Indexing...
+                        if "contractAddress" not in collection.index_information():
+                            collection.create_index("contractAddress", unique=True)
+                            collection.create_index("contractCreator")
+                            collection.create_index("txHash")
+                            collection.create_index("blockNumber")
+                            collection.create_index("blockHash")
+                            collection.create_index("timestamp")
+                        print("Downloaded timestamp for contract:", colors.INFO+str(result["contractAddress"])+colors.END)
 
 if __name__ == "__main__":
     main()
