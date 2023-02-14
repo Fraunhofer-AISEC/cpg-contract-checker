@@ -1,17 +1,5 @@
 {
-    "mismatched input 'address' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 8 column 12: mismatched input 'address' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 8 column 19: mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 20 column 16: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "extraneous input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 21 column 28: extraneous input ',' expecting {';', NL}\n"
-    ],
-    "extraneous input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 23 column 4: extraneous input ')' expecting {';', NL}\n"
+    "no viable alternative at input 'structUser{\\nuint256uuid;\\nbytes32first_name;\\nbytes32last_name;\\nbytes32sex;\\nbytes32age;\\nbytes32birth_day;\\nbytes32address'": [
+        "ERROR: when parsing line 8 column 12: no viable alternative at input 'structUser{\\nuint256uuid;\\nbytes32first_name;\\nbytes32last_name;\\nbytes32sex;\\nbytes32age;\\nbytes32birth_day;\\nbytes32address'\n"
     ]
 }

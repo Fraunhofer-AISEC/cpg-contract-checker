@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"Should have emit the event at the beginning of the Election Period!\",async()=>'": [
+        "ERROR: when parsing line 1 column 83: no viable alternative at input 'it(\"Should have emit the event at the beginning of the Election Period!\",async()=>'\n"
+    ]
+}

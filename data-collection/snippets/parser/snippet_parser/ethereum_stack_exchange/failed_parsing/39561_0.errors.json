@@ -1,44 +1,5 @@
 {
-    "mismatched input '-' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input '-' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 11 column 11: mismatched input '-' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 12 column 11: mismatched input '-' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'vcpu' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input 'vcpu' expecting {';', NL}\n",
-        "ERROR: when parsing line 11 column 15: mismatched input 'vcpu' expecting {';', NL}\n",
-        "ERROR: when parsing line 12 column 15: mismatched input 'vcpu' expecting {';', NL}\n"
-    ],
-    "mismatched input 'gb' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 21: mismatched input 'gb' expecting {';', NL}\n",
-        "ERROR: when parsing line 11 column 21: mismatched input 'gb' expecting {';', NL}\n",
-        "ERROR: when parsing line 12 column 21: mismatched input 'gb' expecting {';', NL}\n"
-    ],
-    "mismatched input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 31: mismatched input ':' expecting {';', NL}\n",
-        "ERROR: when parsing line 11 column 31: mismatched input ':' expecting {';', NL}\n",
-        "ERROR: when parsing line 12 column 31: mismatched input ':' expecting {';', NL}\n"
-    ],
-    "mismatched input 'more' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 49: mismatched input 'more' expecting {';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 69: mismatched input '.' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 11 column 67: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'vi' expecting {';', NL}": [
-        "ERROR: when parsing line 11 column 49: mismatched input 'vi' expecting {';', NL}\n"
-    ],
-    "mismatched input 'root' expecting {';', NL}": [
-        "ERROR: when parsing line 12 column 0: mismatched input 'root' expecting {';', NL}\n"
-    ],
-    "mismatched input 'solcjs' expecting {';', NL}": [
-        "ERROR: when parsing line 12 column 49: mismatched input 'solcjs' expecting {';', NL}\n"
-    ],
-    "extraneous input 'bin' expecting {';', NL}": [
-        "ERROR: when parsing line 12 column 58: extraneous input 'bin' expecting {';', NL}\n"
-    ],
-    "mismatched input 'AddressContract' expecting {';', NL}": [
-        "ERROR: when parsing line 14 column 0: mismatched input 'AddressContract' expecting {';', NL}\n"
+    "no viable alternative at input 'rootubuntu-'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input 'rootubuntu-'\n"
     ]
 }

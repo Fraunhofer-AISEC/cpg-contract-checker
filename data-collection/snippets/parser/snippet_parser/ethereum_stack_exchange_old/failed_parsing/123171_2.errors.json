@@ -1,0 +1,11 @@
+{
+    "extraneous input 'foo' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 9: extraneous input 'foo' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'a' expecting {',', ')'}": [
+        "ERROR: when parsing line 4 column 29: extraneous input 'a' expecting {',', ')'}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 41: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

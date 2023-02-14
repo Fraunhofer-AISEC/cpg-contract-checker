@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionTransferKey(addressreceiver,string_name,uintKey_Number)\\npublic{\\nname=_name;\\nassert(Keys[msg.sender]!=0);\\nif(Keys[msg.sender]<=Key_Number)return;\\n\\n\\n\\nKeys[msg.sender]-=Key_Number;\\n\\nKeys[receiver]+=Key_Number;\\nemitsent(msg.sender,receiver,Key_Number);\\n'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functionTransferKey(addressreceiver,string_name,uintKey_Number)\\npublic{\\nname=_name;\\nassert(Keys[msg.sender]!=0);\\nif(Keys[msg.sender]<=Key_Number)return;\\n\\n\\n\\nKeys[msg.sender]-=Key_Number;\\n\\nKeys[receiver]+=Key_Number;\\nemitsent(msg.sender,receiver,Key_Number);\\n'\n"
+    ]
+}

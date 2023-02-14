@@ -1,0 +1,8 @@
+{
+    "extraneous input '\\n' expecting '{'": [
+        "ERROR: when parsing line 1 column 12: extraneous input '\\n' expecting '{'\n"
+    ],
+    "no viable alternative at input 'bookcase[msg.sender]='": [
+        "ERROR: when parsing line 6 column 21: no viable alternative at input 'bookcase[msg.sender]='\n"
+    ]
+}

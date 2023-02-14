@@ -1,5 +1,5 @@
 {
-    "mismatched input '>=' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input '>=' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'ragmasolidity>='": [
+        "ERROR: when parsing line 1 column 15: no viable alternative at input 'ragmasolidity>='\n"
     ]
 }

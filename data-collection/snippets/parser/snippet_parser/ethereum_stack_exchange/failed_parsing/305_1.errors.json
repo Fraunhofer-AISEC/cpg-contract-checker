@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'OR\\n\\ncontract'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'OR\\n\\ncontract'\n"
+    ]
+}

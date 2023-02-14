@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input '(issueis'": [
-        "ERROR: when parsing line 3 column 69: no viable alternative at input '(issueis'\n"
+    "no viable alternative at input 'functionbuyTokens(uint256_numberOfTokens)publicpayable{\\nrequire(msg.value==multiply(_numberOfTokens,tokenPrice));\\nrequire(tokenContract.balanceOf(this)>=_numberOfTokens);(issueis'": [
+        "ERROR: when parsing line 3 column 69: no viable alternative at input 'functionbuyTokens(uint256_numberOfTokens)publicpayable{\\nrequire(msg.value==multiply(_numberOfTokens,tokenPrice));\\nrequire(tokenContract.balanceOf(this)>=_numberOfTokens);(issueis'\n"
     ]
 }

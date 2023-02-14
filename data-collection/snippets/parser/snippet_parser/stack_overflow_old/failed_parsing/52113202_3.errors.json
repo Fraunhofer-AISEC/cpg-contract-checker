@@ -1,0 +1,18 @@
+{
+    "extraneous input 'f' expecting {'(', NL}": [
+        "ERROR: when parsing line 8 column 13: extraneous input 'f' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'key' expecting {',', ')'}": [
+        "ERROR: when parsing line 8 column 20: extraneous input 'key' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'value' expecting ')'": [
+        "ERROR: when parsing line 8 column 30: extraneous input 'value' expecting ')'\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 8 column 37: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 12 column 17: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'g' expecting {'(', NL}": [
+        "ERROR: when parsing line 12 column 13: extraneous input 'g' expecting {'(', NL}\n"
+    ]
+}

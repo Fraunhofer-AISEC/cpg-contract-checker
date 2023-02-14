@@ -1,11 +1,5 @@
 {
-    "mismatched input 'must' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 14: mismatched input 'must' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '\"calldata\"' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 22: mismatched input '\"calldata\"' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'for' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 33: mismatched input 'for' expecting {';', NL}\n"
+    "no viable alternative at input 'Datalocationmust'": [
+        "ERROR: when parsing line 1 column 14: no viable alternative at input 'Datalocationmust'\n"
     ]
 }

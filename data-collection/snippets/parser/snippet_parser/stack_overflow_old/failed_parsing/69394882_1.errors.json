@@ -1,0 +1,8 @@
+{
+    "no viable alternative at input 'SimpleStorage[]public'": [
+        "ERROR: when parsing line 9 column 21: no viable alternative at input 'SimpleStorage[]public'\n"
+    ],
+    "mismatched input 'public' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 21: mismatched input 'public' expecting {';', NL}\n"
+    ]
+}

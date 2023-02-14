@@ -1,8 +1,5 @@
 {
-    "mismatched input '6312909485' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input '6312909485' expecting {';', NL}\n"
-    ],
-    "mismatched input 'push4' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 22: mismatched input 'push4' expecting {';', NL}\n"
+    "no viable alternative at input '0x000000146312909485'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input '0x000000146312909485'\n"
     ]
 }

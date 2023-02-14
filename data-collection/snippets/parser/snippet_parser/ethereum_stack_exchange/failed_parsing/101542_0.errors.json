@@ -1,8 +1,5 @@
 {
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 19: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 12: mismatched input ':' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Compilingcontracts.'": [
+        "ERROR: when parsing line 1 column 19: no viable alternative at input 'Compilingcontracts.'\n"
     ]
 }

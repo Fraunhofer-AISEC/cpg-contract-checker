@@ -1,17 +1,5 @@
 {
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 4: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Documents' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 18: mismatched input 'Documents' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'brownie_simple_storage' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 33: mismatched input 'brownie_simple_storage' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'run' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 65: mismatched input 'run' expecting {';', NL}\n"
-    ],
-    "mismatched input '/' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 76: mismatched input '/' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'PSC:'": [
+        "ERROR: when parsing line 1 column 4: no viable alternative at input 'PSC:'\n"
     ]
 }

@@ -1,8 +1,5 @@
 {
-    "mismatched input 'identify' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 10: mismatched input 'identify' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'intended' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 23: mismatched input 'intended' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Couldnotidentify'": [
+        "ERROR: when parsing line 1 column 10: no viable alternative at input 'Couldnotidentify'\n"
     ]
 }

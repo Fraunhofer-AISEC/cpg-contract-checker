@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionhandleApproval(IERC20_token,uint256_numTokens)publicreturns(bool){\\n_token.approve(address(this),_numTokens);\\nreturn(true);\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functionhandleApproval(IERC20_token,uint256_numTokens)publicreturns(bool){\\n_token.approve(address(this),_numTokens);\\nreturn(true);\\n'\n"
+    ]
+}

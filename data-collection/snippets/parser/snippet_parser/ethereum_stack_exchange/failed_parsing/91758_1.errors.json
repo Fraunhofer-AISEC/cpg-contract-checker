@@ -1,5 +1,5 @@
 {
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input '.' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Ebrownie.'": [
+        "ERROR: when parsing line 1 column 15: no viable alternative at input 'Ebrownie.'\n"
     ]
 }

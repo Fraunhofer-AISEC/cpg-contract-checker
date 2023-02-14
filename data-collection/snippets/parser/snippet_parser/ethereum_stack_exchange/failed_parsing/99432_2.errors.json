@@ -1,17 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 12 column 12: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 12 column 19: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 15 column 22: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 12 column 35: mismatched input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 15 column 38: mismatched input ',' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ')' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 12 column 51: mismatched input ')' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input ')' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 15 column 54: extraneous input ')' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'persons.push('": [
+        "ERROR: when parsing line 12 column 12: no viable alternative at input 'persons.push('\n"
     ]
 }

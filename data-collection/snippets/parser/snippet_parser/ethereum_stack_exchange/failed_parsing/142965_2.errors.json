@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdrawUSDT()external{\\nIERC20(USDTAddress).transfer(owner,IERC20(USDTAddress).balanceOf(address(this));'": [
+        "ERROR: when parsing line 3 column 84: no viable alternative at input 'functionwithdrawUSDT()external{\\nIERC20(USDTAddress).transfer(owner,IERC20(USDTAddress).balanceOf(address(this));'\n"
+    ]
+}

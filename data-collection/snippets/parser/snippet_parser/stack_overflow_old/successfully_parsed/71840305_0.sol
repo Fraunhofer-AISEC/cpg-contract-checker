@@ -1,0 +1,1 @@
+bool public revealed = true;

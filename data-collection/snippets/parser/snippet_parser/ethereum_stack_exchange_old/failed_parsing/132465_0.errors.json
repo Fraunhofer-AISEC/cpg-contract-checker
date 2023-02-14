@@ -1,0 +1,29 @@
+{
+    "mismatched input 'up' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 9: mismatched input 'up' expecting {';', NL}\n"
+    ],
+    "mismatched input 'with' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 15: mismatched input 'with' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'via' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 24: mismatched input 'via' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '1' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 1: mismatched input '1' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'function' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 8: mismatched input 'function' expecting {';', NL}\n"
+    ],
+    "missing '(' at 'separate'": [
+        "ERROR: when parsing line 2 column 20: missing '(' at 'separate'\n"
+    ],
+    "mismatched input 'contract' expecting {',', ')'}": [
+        "ERROR: when parsing line 2 column 35: mismatched input 'contract' expecting {',', ')'}\n"
+    ],
+    "mismatched input '2' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 3 column 1: mismatched input '2' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'another' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 8: mismatched input 'another' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncallOptionalReturn(IERC20token,bytesmemorydata)private{\\n\\n\\n\\n\\n\\n\\nrequire(address(token).isContract(),\"SafeERC20: call to non-contract\");\\n(boolsuccess,bytesmemoryreturndata)=address(token).call(data);\\n\\nrequire(success,\"SafeERC20: low-level call failed'\");\\nif(returndata.length>0){\\n\\nrequire(abi.decode(returndata,(bool)),\"SafeERC20: ERC20 operation did not succeed\");\\n}\\n'": [
+        "ERROR: when parsing line 16 column 0: no viable alternative at input 'functioncallOptionalReturn(IERC20token,bytesmemorydata)private{\\n\\n\\n\\n\\n\\n\\nrequire(address(token).isContract(),\"SafeERC20: call to non-contract\");\\n(boolsuccess,bytesmemoryreturndata)=address(token).call(data);\\n\\nrequire(success,\"SafeERC20: low-level call failed'\");\\nif(returndata.length>0){\\n\\nrequire(abi.decode(returndata,(bool)),\"SafeERC20: ERC20 operation did not succeed\");\\n}\\n'\n"
+    ]
+}

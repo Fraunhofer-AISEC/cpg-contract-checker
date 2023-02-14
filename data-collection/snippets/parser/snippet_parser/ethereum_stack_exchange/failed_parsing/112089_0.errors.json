@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaddPlayer(Choice_choice,uint256passcode)publicpayable{\\nPlayers[playerNum]=Player(msg.sender,keccak256(abi.encode(passcode,_choice,msg.sender)),Choice.Nothing);\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionaddPlayer(Choice_choice,uint256passcode)publicpayable{\\nPlayers[playerNum]=Player(msg.sender,keccak256(abi.encode(passcode,_choice,msg.sender)),Choice.Nothing);\\n'\n"
+    ]
+}

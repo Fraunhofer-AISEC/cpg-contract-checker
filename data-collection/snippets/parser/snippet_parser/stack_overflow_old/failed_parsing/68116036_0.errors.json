@@ -1,0 +1,15 @@
+{
+    "extraneous input 'getAge' expecting {'(', NL}": [
+        "ERROR: when parsing line 20 column 9: extraneous input 'getAge' expecting {'(', NL}\n"
+    ],
+    "mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 20 column 49: mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 21 column 58: mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'setAge' expecting {'(', NL}": [
+        "ERROR: when parsing line 21 column 9: extraneous input 'setAge' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'b' expecting {',', ')'}": [
+        "ERROR: when parsing line 21 column 24: extraneous input 'b' expecting {',', ')'}\n"
+    ]
+}

@@ -9,9 +9,52 @@
         "ERROR: when parsing line 3 column 29: mismatched input 'reverted' expecting {'=', ';', NL}\n"
     ],
     "mismatched input 'the' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 3 column 41: mismatched input 'the' expecting {'=', ';', NL}\n"
+        "ERROR: when parsing line 3 column 41: mismatched input 'the' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 4 column 66: mismatched input 'the' expecting {'=', ';', NL}\n"
     ],
     "mismatched input 'state' expecting {'=', ';', NL}": [
         "ERROR: when parsing line 3 column 53: mismatched input 'state' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'function' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 17: mismatched input 'function' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'should' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 26: mismatched input 'should' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'be' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 33: mismatched input 'be' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'if' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 44: mismatched input 'if' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'you' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 47: mismatched input 'you' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'value' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 56: mismatched input 'value' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'you' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 76: mismatched input 'you' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'should' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 85: mismatched input 'should' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'less' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 95: mismatched input 'less' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'your' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 105: mismatched input 'your' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'balance' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 118: mismatched input 'balance' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'transaction' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 10: mismatched input 'transaction' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'get' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 25: mismatched input 'get' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'information' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 34: mismatched input 'information' expecting {'=', ';', NL}\n"
     ]
 }

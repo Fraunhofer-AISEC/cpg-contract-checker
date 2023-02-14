@@ -1,11 +1,5 @@
 {
-    "mismatched input '(' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 9: mismatched input '(' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input '{' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 12: extraneous input '{' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'theKey:='": [
-        "ERROR: when parsing line 5 column 8: no viable alternative at input 'theKey:='\n"
+    "no viable alternative at input 'funcmain('": [
+        "ERROR: when parsing line 1 column 9: no viable alternative at input 'funcmain('\n"
     ]
 }

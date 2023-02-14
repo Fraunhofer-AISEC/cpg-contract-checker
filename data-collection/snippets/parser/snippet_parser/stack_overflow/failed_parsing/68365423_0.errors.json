@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionaddEmployee(\\nintempid,stringmemoryname,\\nstringmemorydepartment,\\nstringmemorydesignation\\n)public{\\nEmployeememorye\\n=Employee(empid,\\nname,\\ndepartment,\\ndesignation);\\nemps.push(e);\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionaddEmployee(\\nintempid,stringmemoryname,\\nstringmemorydepartment,\\nstringmemorydesignation\\n)public{\\nEmployeememorye\\n=Employee(empid,\\nname,\\ndepartment,\\ndesignation);\\nemps.push(e);\\n'\n"
+    ]
+}

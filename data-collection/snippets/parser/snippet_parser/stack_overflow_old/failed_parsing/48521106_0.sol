@@ -1,0 +1,3 @@
+function sortByEtherValues (string category) public view returns (JobStruct[]) {
+...
+}

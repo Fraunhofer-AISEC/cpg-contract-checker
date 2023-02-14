@@ -1,0 +1,8 @@
+{
+    "no viable alternative at input '[\\n}'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input '[\\n}'\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', ']', 'address', '.', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 3 column 0: extraneous input '}' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', ']', 'address', '.', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ]
+}

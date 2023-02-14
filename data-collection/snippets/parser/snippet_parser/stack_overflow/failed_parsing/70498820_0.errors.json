@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'oracleResponses[key]=ResponseInfo({\\nrequester:msg.sender,\\nisOpen:true});\\n\\n\\nstruct'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'oracleResponses[key]=ResponseInfo({\\nrequester:msg.sender,\\nisOpen:true});\\n\\n\\nstruct'\n"
+    ]
+}

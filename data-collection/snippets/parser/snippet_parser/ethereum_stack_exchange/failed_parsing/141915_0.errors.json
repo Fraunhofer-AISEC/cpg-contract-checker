@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'Contract.prototype.deploy=function'": [
+        "ERROR: when parsing line 1 column 28: no viable alternative at input 'Contract.prototype.deploy=function'\n"
+    ]
+}

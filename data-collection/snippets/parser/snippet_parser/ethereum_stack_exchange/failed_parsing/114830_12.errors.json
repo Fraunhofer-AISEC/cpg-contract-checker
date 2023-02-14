@@ -1,11 +1,5 @@
 {
-    "mismatched input '}' expecting ':'": [
-        "ERROR: when parsing line 1 column 37: mismatched input '}' expecting ':'\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 18: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'error' expecting ')'": [
-        "ERROR: when parsing line 3 column 57: mismatched input 'error' expecting ')'\n"
+    "no viable alternative at input 'const{error:contractError,reason}'": [
+        "ERROR: when parsing line 1 column 37: no viable alternative at input 'const{error:contractError,reason}'\n"
     ]
 }

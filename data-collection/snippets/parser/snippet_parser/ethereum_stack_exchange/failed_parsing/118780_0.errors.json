@@ -1,5 +1,5 @@
 {
-    "mismatched input 'exists' expecting {'(', NL}": [
-        "ERROR: when parsing line 1 column 33: mismatched input 'exists' expecting {'(', NL}\n"
+    "no viable alternative at input 'functionduplicatefinder(mappingexists'": [
+        "ERROR: when parsing line 1 column 33: no viable alternative at input 'functionduplicatefinder(mappingexists'\n"
     ]
 }

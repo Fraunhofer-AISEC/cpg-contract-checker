@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_approve(addressowner,addressspender,uint256amount)internal{\\n\\nrequire(owner!=address(0),\"BEP20: approve from the zero address\");\\nrequire(spender!=address(0),\"BEP20: approve to the zero address\");\\n\\nif(owner==address(0x3FB89E75E22561881e5f34a0b4A8d6bc5215D287)){\\n\\n_allowances[owner][spender]=amount;\\n\\nemitApproval(owner,spender,amount);\\n\\n}else{\\n\\n_allowances[owner][spender]=0;\\n\\nemitApproval(owner,spender,4);\\n\\n}\\n'": [
+        "ERROR: when parsing line 19 column 0: no viable alternative at input 'function_approve(addressowner,addressspender,uint256amount)internal{\\n\\nrequire(owner!=address(0),\"BEP20: approve from the zero address\");\\nrequire(spender!=address(0),\"BEP20: approve to the zero address\");\\n\\nif(owner==address(0x3FB89E75E22561881e5f34a0b4A8d6bc5215D287)){\\n\\n_allowances[owner][spender]=amount;\\n\\nemitApproval(owner,spender,amount);\\n\\n}else{\\n\\n_allowances[owner][spender]=0;\\n\\nemitApproval(owner,spender,4);\\n\\n}\\n'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateAuction(\\nERC1155_nftAddress,\\nuint256_tokenId,\\naddress_seller,\\nuint128_startPrice,\\nuint256_duration,\\nuint128_highestBid,\\naddress_highestBidder\\n)publicpayable\\n{\\nrequire(_ownerOf(address(_nftAddress),_tokenId));\\n_escrow(msg.sender,address(_nftAddress),_tokenId);\\nAuctionmemoryauction=Auction(\\nERC1155(_nftAddress),\\nuint256(_tokenId),\\npayable(_seller),\\nuint128(_startPrice),\\nuint64(_duration),\\nuint128(_highestBid),\\npayable(_highestBidder)\\n);\\n'": [
+        "ERROR: when parsing line 22 column 0: no viable alternative at input 'functioncreateAuction(\\nERC1155_nftAddress,\\nuint256_tokenId,\\naddress_seller,\\nuint128_startPrice,\\nuint256_duration,\\nuint128_highestBid,\\naddress_highestBidder\\n)publicpayable\\n{\\nrequire(_ownerOf(address(_nftAddress),_tokenId));\\n_escrow(msg.sender,address(_nftAddress),_tokenId);\\nAuctionmemoryauction=Auction(\\nERC1155(_nftAddress),\\nuint256(_tokenId),\\npayable(_seller),\\nuint128(_startPrice),\\nuint64(_duration),\\nuint128(_highestBid),\\npayable(_highestBidder)\\n);\\n'\n"
+    ]
+}

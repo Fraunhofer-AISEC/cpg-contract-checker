@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpayBill(uintvalue,addressaccount)payablepublic{\\naccount.transfer(value);\\ntransactionCount+=1;\\ntransactionAmount+=value;\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functionpayBill(uintvalue,addressaccount)payablepublic{\\naccount.transfer(value);\\ntransactionCount+=1;\\ntransactionAmount+=value;\\n'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateProxy(uint256_expiry)internalreturns(bool){\\ntokenProxy=newProxy(baseToken,quoteToken,_expiry,price,buyer);\\nrequire(addressHasCode(tokenProxy));\\nproxy=IProxy(tokenProxy);\\nreturntrue;\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functioncreateProxy(uint256_expiry)internalreturns(bool){\\ntokenProxy=newProxy(baseToken,quoteToken,_expiry,price,buyer);\\nrequire(addressHasCode(tokenProxy));\\nproxy=IProxy(tokenProxy);\\nreturntrue;\\n'\n"
+    ]
+}

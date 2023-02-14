@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'Strings[]memory'": [
+        "ERROR: when parsing line 5 column 10: no viable alternative at input 'Strings[]memory'\n"
+    ]
+}

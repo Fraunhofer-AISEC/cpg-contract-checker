@@ -1,14 +1,5 @@
 {
-    "mismatched input '(' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 34: mismatched input '(' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 36: extraneous input ':' expecting {';', NL}\n"
-    ],
-    "extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 14 column 13: extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input '.' expecting {'{', 'is'}": [
-        "ERROR: when parsing line 14 column 17: mismatched input '.' expecting {'{', 'is'}\n"
+    "no viable alternative at input 'deftest_with_setter_only_transfer('": [
+        "ERROR: when parsing line 1 column 34: no viable alternative at input 'deftest_with_setter_only_transfer('\n"
     ]
 }

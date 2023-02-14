@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(addressrecipient,uint256amount)public{\\nrequire(sender!=address(0),\"ERC20: transfer from the zero address\");\\n\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functiontransfer(addressrecipient,uint256amount)public{\\nrequire(sender!=address(0),\"ERC20: transfer from the zero address\");\\n\\n'\n"
+    ]
+}

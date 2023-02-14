@@ -1,31 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 2: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'good' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input 'good' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'the' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 23: mismatched input 'the' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 96: mismatched input 'the' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '-' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 34: mismatched input '-' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 1 column 51: mismatched input '-' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'same' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 40: mismatched input 'same' expecting {';', NL}\n"
-    ],
-    "mismatched input 'good' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 57: mismatched input 'good' expecting {';', NL}\n"
-    ],
-    "mismatched input 'two' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 67: mismatched input 'two' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'is' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 80: mismatched input 'is' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 107: mismatched input ',' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'it(clientput'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input 'it(clientput'\n"
     ]
 }

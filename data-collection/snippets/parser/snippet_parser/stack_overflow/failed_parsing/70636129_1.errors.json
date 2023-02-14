@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmint(uint256_mintAmount)publicpayablemintCompliance(_mintAmount){\\nrequire(!paused,\"The contract is paused!\");\\nrequire(msg.value>=cost*_mintAmount,\"Insufficient funds!\");\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functionmint(uint256_mintAmount)publicpayablemintCompliance(_mintAmount){\\nrequire(!paused,\"The contract is paused!\");\\nrequire(msg.value>=cost*_mintAmount,\"Insufficient funds!\");\\n'\n"
+    ]
+}

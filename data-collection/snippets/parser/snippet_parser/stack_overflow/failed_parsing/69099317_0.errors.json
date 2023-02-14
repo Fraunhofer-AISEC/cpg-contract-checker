@@ -1,18 +1,5 @@
 {
-    "extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 7 column 0: extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n",
-        "ERROR: when parsing line 8 column 0: extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n",
-        "ERROR: when parsing line 9 column 0: extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n",
-        "ERROR: when parsing line 10 column 0: extraneous input 'let' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
-    ],
-    "mismatched input '=>' expecting {';', NL}": [
-        "ERROR: when parsing line 12 column 31: mismatched input '=>' expecting {';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 13 column 18: mismatched input '.' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 14 column 18: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 14 column 26: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'constethers=require('ethers');\\n\\nconstUSDTInterface=['function approve(address spender, uint256 amount) external returns (bool)'];\\nconstUSDTAddress='0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02';\\nconstyourContractAddress=YOUR_DAPP_CONTRACT_ADDRESS;\\n\\nlet'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'constethers=require('ethers');\\n\\nconstUSDTInterface=['function approve(address spender, uint256 amount) external returns (bool)'];\\nconstUSDTAddress='0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02';\\nconstyourContractAddress=YOUR_DAPP_CONTRACT_ADDRESS;\\n\\nlet'\n"
     ]
 }

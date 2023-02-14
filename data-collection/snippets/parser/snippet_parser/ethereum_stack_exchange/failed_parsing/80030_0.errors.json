@@ -1,14 +1,5 @@
 {
-    "extraneous input 'performTransfer' expecting {'(', NL}": [
-        "ERROR: when parsing line 6 column 9: extraneous input 'performTransfer' expecting {'(', NL}\n"
-    ],
-    "extraneous input 'tokenAddress' expecting {',', ')'}": [
-        "ERROR: when parsing line 6 column 33: extraneous input 'tokenAddress' expecting {',', ')'}\n"
-    ],
-    "extraneous input 'amount' expecting ')'": [
-        "ERROR: when parsing line 6 column 52: extraneous input 'amount' expecting ')'\n"
-    ],
-    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 6 column 84: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    "no viable alternative at input 'functionsendTransaction(addresstokenAddress,uinttokenAmount)publicpayable{\\nif(!performTransfer(tokenAddress,tokenAmount)){\\nrevert();\\n}\\n\\nfunctionperformTransfer'": [
+        "ERROR: when parsing line 6 column 9: no viable alternative at input 'functionsendTransaction(addresstokenAddress,uinttokenAmount)publicpayable{\\nif(!performTransfer(tokenAddress,tokenAmount)){\\nrevert();\\n}\\n\\nfunctionperformTransfer'\n"
     ]
 }

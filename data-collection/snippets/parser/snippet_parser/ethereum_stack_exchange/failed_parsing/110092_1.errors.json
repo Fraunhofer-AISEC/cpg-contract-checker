@@ -1,5 +1,5 @@
 {
-    "mismatched input 'is' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 9: mismatched input 'is' expecting {';', NL}\n"
+    "no viable alternative at input '\"ERC165\"is'": [
+        "ERROR: when parsing line 1 column 9: no viable alternative at input '\"ERC165\"is'\n"
     ]
 }

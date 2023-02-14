@@ -1,14 +1,5 @@
 {
-    "mismatched input '.18' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 14: mismatched input '.18' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '.1' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 17: mismatched input '.1' expecting {';', NL}\n"
-    ],
-    "mismatched input 'development' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 29: mismatched input 'development' expecting {';', NL}\n"
-    ],
-    "mismatched input 'for' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 51: mismatched input 'for' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Browniev1.18'": [
+        "ERROR: when parsing line 1 column 14: no viable alternative at input 'Browniev1.18'\n"
     ]
 }

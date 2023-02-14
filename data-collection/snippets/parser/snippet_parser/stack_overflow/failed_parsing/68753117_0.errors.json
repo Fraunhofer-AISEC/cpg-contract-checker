@@ -1,5 +1,5 @@
 {
-    "extraneous input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 14: extraneous input ',' expecting {';', NL}\n"
+    "no viable alternative at input 'structPaperStuct{\\nuint256id,'": [
+        "ERROR: when parsing line 2 column 14: no viable alternative at input 'structPaperStuct{\\nuint256id,'\n"
     ]
 }

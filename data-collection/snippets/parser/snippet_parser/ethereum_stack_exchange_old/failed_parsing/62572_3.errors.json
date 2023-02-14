@@ -1,0 +1,15 @@
+{
+    "missing ')' at 'does'": [
+        "ERROR: when parsing line 8 column 24: missing ')' at 'does'\n"
+    ],
+    "mismatched input 'exist' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 33: mismatched input 'exist' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'to' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 9 column 33: mismatched input 'to' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 10 column 35: mismatched input 'to' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'insert' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 16: mismatched input 'insert' expecting {'=', ';', NL}\n"
+    ]
+}

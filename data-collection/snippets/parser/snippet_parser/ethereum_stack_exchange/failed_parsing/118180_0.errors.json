@@ -10,5 +10,17 @@
     ],
     "mismatched input 'mapping' expecting {'=', ';', NL}": [
         "ERROR: when parsing line 6 column 28: mismatched input 'mapping' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'in' expecting {'(', NL}": [
+        "ERROR: when parsing line 6 column 36: mismatched input 'in' expecting {'(', NL}\n"
+    ],
+    "mismatched input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 46: mismatched input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'following' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 56: mismatched input 'following' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'uintValue' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 0: extraneous input 'uintValue' expecting {'=', ';', NL}\n"
     ]
 }

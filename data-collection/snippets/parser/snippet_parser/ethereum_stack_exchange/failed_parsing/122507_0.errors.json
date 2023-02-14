@@ -1,32 +1,5 @@
 {
-    "mismatched input 'import' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input 'import' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ',' expecting {'as', 'from'}": [
-        "ERROR: when parsing line 1 column 30: mismatched input ',' expecting {'as', 'from'}\n"
-    ],
-    "mismatched input 'install_solc' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 0: mismatched input 'install_solc' expecting {';', NL}\n"
-    ],
-    "mismatched input 'contract' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 6 column 14: mismatched input 'contract' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'compiled_sol' expecting {'{', 'is'}": [
-        "ERROR: when parsing line 7 column 0: mismatched input 'compiled_sol' expecting {'{', 'is'}\n"
-    ],
-    "extraneous input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 29: extraneous input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'pragma' expecting {';', NL}": [
-        "ERROR: when parsing line 9 column 5: mismatched input 'pragma' expecting {';', NL}\n"
-    ],
-    "mismatched input 'output_values' expecting {';', NL}": [
-        "ERROR: when parsing line 27 column 4: mismatched input 'output_values' expecting {';', NL}\n"
-    ],
-    "extraneous input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 28 column 0: extraneous input ')' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'contract_id,'": [
-        "ERROR: when parsing line 30 column 11: no viable alternative at input 'contract_id,'\n"
+    "no viable alternative at input 'fromsolcximport'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input 'fromsolcximport'\n"
     ]
 }

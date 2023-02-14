@@ -1,0 +1,2 @@
+contract voting is admingroup {
+}

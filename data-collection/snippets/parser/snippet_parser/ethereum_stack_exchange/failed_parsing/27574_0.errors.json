@@ -1,5 +1,5 @@
 {
-    "mismatched input 'msg' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 24: mismatched input 'msg' expecting {';', NL}\n"
+    "no viable alternative at input 'constructor=receivingmsg'": [
+        "ERROR: when parsing line 1 column 24: no viable alternative at input 'constructor=receivingmsg'\n"
     ]
 }

@@ -1,11 +1,5 @@
 {
-    "mismatched input 'of' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 16: mismatched input 'of' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '.' expecting '('": [
-        "ERROR: when parsing line 1 column 32: mismatched input '.' expecting '('\n"
-    ],
-    "mismatched input 'is' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 43: mismatched input 'is' expecting {'{', 'returns', ';', NL}\n"
+    "no viable alternative at input 'Gasrequirementof'": [
+        "ERROR: when parsing line 1 column 16: no viable alternative at input 'Gasrequirementof'\n"
     ]
 }

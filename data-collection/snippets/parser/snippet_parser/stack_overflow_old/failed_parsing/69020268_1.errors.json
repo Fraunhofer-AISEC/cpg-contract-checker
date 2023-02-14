@@ -1,0 +1,21 @@
+{
+    "extraneous input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 46 column 40: extraneous input '(' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'productIndex,'": [
+        "ERROR: when parsing line 47 column 24: no viable alternative at input 'productIndex,'\n"
+    ],
+    "extraneous input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 55 column 22: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 56 column 13: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 57 column 13: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 58 column 13: extraneous input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 60 column 47: extraneous input ',' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'ProductStatus.Open,'": [
+        "ERROR: when parsing line 59 column 30: no viable alternative at input 'ProductStatus.Open,'\n"
+    ],
+    "extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 61 column 8: extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ]
+}

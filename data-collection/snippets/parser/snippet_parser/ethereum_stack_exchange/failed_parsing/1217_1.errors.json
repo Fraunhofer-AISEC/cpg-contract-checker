@@ -1,29 +1,5 @@
 {
-    "mismatched input 'import' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 14: mismatched input 'import' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'def' expecting 'from'": [
-        "ERROR: when parsing line 2 column 0: mismatched input 'def' expecting 'from'\n"
-    ],
-    "mismatched input '(' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 21: mismatched input '(' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 23: extraneous input ':' expecting {';', NL}\n"
-    ],
-    "mismatched input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 11 column 61: mismatched input ',' expecting {';', NL}\n",
-        "ERROR: when parsing line 20 column 69: mismatched input ',' expecting {';', NL}\n",
-        "ERROR: when parsing line 24 column 69: mismatched input ',' expecting {';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 19 column 11: mismatched input '.' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 26 column 11: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'gas_use' expecting {';', NL}": [
-        "ERROR: when parsing line 25 column 4: mismatched input 'gas_use' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'print\"Test make reports OK\"'": [
-        "ERROR: when parsing line 28 column 10: no viable alternative at input 'print\"Test make reports OK\"'\n"
+    "no viable alternative at input 'fromethereumimport'": [
+        "ERROR: when parsing line 1 column 14: no viable alternative at input 'fromethereumimport'\n"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 8 column 51: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'functionswapEth(addressrouter,address_tokenIn,address_tokenOut,uint_amount)public{\\nIERC20(router).approve(router,_amount);\\naddress[]memorypath;\\npath=newaddress[](2);\\npath[0]=_tokenIn;\\npath[1]=_tokenOut;\\nuintdeadline=block.timestamp+300;\\nIUniswapV2Router(router).swapExactETHForTokens(.'": [
+        "ERROR: when parsing line 8 column 52: no viable alternative at input 'functionswapEth(addressrouter,address_tokenIn,address_tokenOut,uint_amount)public{\\nIERC20(router).approve(router,_amount);\\naddress[]memorypath;\\npath=newaddress[](2);\\npath[0]=_tokenIn;\\npath[1]=_tokenOut;\\nuintdeadline=block.timestamp+300;\\nIUniswapV2Router(router).swapExactETHForTokens(.'\n"
     ]
 }

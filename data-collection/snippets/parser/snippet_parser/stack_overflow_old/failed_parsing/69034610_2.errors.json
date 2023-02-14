@@ -1,0 +1,11 @@
+{
+    "missing ')' at '_creator'": [
+        "ERROR: when parsing line 2 column 59: missing ')' at '_creator'\n"
+    ],
+    "mismatched input ',' expecting {'{', 'returns', ';', NL}": [
+        "ERROR: when parsing line 2 column 67: mismatched input ',' expecting {'{', 'returns', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 87: mismatched input ')' expecting {'=', ';', NL}\n"
+    ]
+}

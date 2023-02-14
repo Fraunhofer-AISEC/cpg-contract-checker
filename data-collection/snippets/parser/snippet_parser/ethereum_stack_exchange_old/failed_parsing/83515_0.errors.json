@@ -1,0 +1,22 @@
+{
+    "mismatched input 'ether' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 14 column 78: mismatched input 'ether' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'data' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 23 column 110: mismatched input 'data' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 27 column 81: mismatched input 'data' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 34 column 111: mismatched input 'data' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'the' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 23 column 121: mismatched input 'the' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 27 column 92: mismatched input 'the' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 34 column 122: mismatched input 'the' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'transfer' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 23 column 130: mismatched input 'transfer' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'received' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 27 column 101: mismatched input 'received' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 34 column 131: mismatched input 'received' expecting {'=', ';', NL}\n"
+    ]
+}

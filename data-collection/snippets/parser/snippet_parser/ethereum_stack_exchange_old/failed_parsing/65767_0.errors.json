@@ -1,0 +1,8 @@
+{
+    "extraneous input 'code' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 18: extraneous input 'code' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'pragma' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 0: mismatched input 'pragma' expecting {';', NL}\n"
+    ]
+}

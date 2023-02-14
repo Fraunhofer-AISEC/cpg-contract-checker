@@ -1,8 +1,5 @@
 {
-    "mismatched input 'memory' expecting ')'": [
-        "ERROR: when parsing line 1 column 31: mismatched input 'memory' expecting ')'\n"
-    ],
-    "mismatched input ',' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 42: mismatched input ',' expecting {'{', 'returns', ';', NL}\n"
+    "no viable alternative at input 'constructor()ERC20(stringmemory'": [
+        "ERROR: when parsing line 1 column 31: no viable alternative at input 'constructor()ERC20(stringmemory'\n"
     ]
 }

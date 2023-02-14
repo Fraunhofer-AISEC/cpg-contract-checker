@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function()public{\\naddresscontractAddr=targetAddress;\\nassembly{\\nletptr:=mload(0x40)\\ncalldatacopy(ptr,0,calldatasize)\\nletresult:=delegatecall(gas,contractAddr,ptr,calldatasize,0,0)\\nletsize:=returndatasize\\nreturndatacopy(ptr,0,size)\\n\\nswitchresult\\ncase0{revert(ptr,size)}\\ndefault{return(ptr,size)}\\n}\\n'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'function()public{\\naddresscontractAddr=targetAddress;\\nassembly{\\nletptr:=mload(0x40)\\ncalldatacopy(ptr,0,calldatasize)\\nletresult:=delegatecall(gas,contractAddr,ptr,calldatasize,0,0)\\nletsize:=returndatasize\\nreturndatacopy(ptr,0,size)\\n\\nswitchresult\\ncase0{revert(ptr,size)}\\ndefault{return(ptr,size)}\\n}\\n'\n"
+    ]
+}

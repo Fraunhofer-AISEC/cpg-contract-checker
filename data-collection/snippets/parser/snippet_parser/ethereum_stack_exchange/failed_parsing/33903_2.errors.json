@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionremove(uintind,address[]storagearray)internalreturns(address[]){\\ndeletearray[ind];\\nfor(uintj=ind;j<array.length;j++){\\nif(j==array.length-1){\\nbreak;\\n}else{\\narray[j]=array[j+1];\\n}\\n}\\narray.length--;\\nreturnarray;\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionremove(uintind,address[]storagearray)internalreturns(address[]){\\ndeletearray[ind];\\nfor(uintj=ind;j<array.length;j++){\\nif(j==array.length-1){\\nbreak;\\n}else{\\narray[j]=array[j+1];\\n}\\n}\\narray.length--;\\nreturnarray;\\n'\n"
+    ]
+}

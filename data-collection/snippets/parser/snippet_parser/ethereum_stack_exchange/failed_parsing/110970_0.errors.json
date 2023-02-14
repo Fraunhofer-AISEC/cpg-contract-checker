@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function__callback(bytes32myid,stringresult,bytesproof)public\\nonlyOraclize\\npayoutsAreActive\\n{\\n\\n\\nif(playerAddress[myid]==0x0)throw;\\ndiceResult=result;\\nmyidResult=myid;\\nuintdiceResultUINT=parseInt(diceResult);\\nlogResult(myid,diceResultUINT);\\nlogDebug(\"This is a test\");\\n'": [
+        "ERROR: when parsing line 15 column 0: no viable alternative at input 'function__callback(bytes32myid,stringresult,bytesproof)public\\nonlyOraclize\\npayoutsAreActive\\n{\\n\\n\\nif(playerAddress[myid]==0x0)throw;\\ndiceResult=result;\\nmyidResult=myid;\\nuintdiceResultUINT=parseInt(diceResult);\\nlogResult(myid,diceResultUINT);\\nlogDebug(\"This is a test\");\\n'\n"
+    ]
+}

@@ -4,9 +4,5 @@
     ],
     "mismatched input ':' expecting {'{', 'is'}": [
         "ERROR: when parsing line 1 column 12: mismatched input ':' expecting {'{', 'is'}\n"
-    ],
-    "mismatched input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input ':' expecting {';', NL}\n",
-        "ERROR: when parsing line 1 column 18: mismatched input ':' expecting {';', NL}\n"
     ]
 }

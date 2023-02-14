@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionDeal(address_buyer)publicpayable{\\nbuyer\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionDeal(address_buyer)publicpayable{\\nbuyer\\n'\n"
+    ]
+}

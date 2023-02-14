@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondisburseRates(uintrate,uintstart,uintdeadline)internalreturns(address[]storagegroup1_,bool){\\n\\nif(block.timestamp==start+(rate)||block.timestamp==(start+(rate*3))){\\nrequire(deadline>=block.timestamp);\\nreturn(_group1_,true);\\n}\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functiondisburseRates(uintrate,uintstart,uintdeadline)internalreturns(address[]storagegroup1_,bool){\\n\\nif(block.timestamp==start+(rate)||block.timestamp==(start+(rate*3))){\\nrequire(deadline>=block.timestamp);\\nreturn(_group1_,true);\\n}\\n'\n"
+    ]
+}

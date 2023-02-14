@@ -1,0 +1,26 @@
+{
+    "no viable alternative at input 'thiscase'": [
+        "ERROR: when parsing line 39 column 9: no viable alternative at input 'thiscase'\n"
+    ],
+    "mismatched input 'got' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 39 column 24: mismatched input 'got' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'increase' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 39 column 31: mismatched input 'increase' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'for' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 39 column 50: mismatched input 'for' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'owner' expecting {'(', NL}": [
+        "ERROR: when parsing line 39 column 54: extraneous input 'owner' expecting {'(', NL}\n"
+    ],
+    "extraneous input ')' expecting {'~', 'from', '(', 'error', 'function', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 39 column 60: extraneous input ')' expecting {'~', 'from', '(', 'error', 'function', '[', 'address', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "no viable alternative at input 'insteadof'": [
+        "ERROR: when parsing line 41 column 12: no viable alternative at input 'insteadof'\n"
+    ],
+    "mismatched input 'of' expecting {';', NL}": [
+        "ERROR: when parsing line 41 column 12: mismatched input 'of' expecting {';', NL}\n"
+    ]
+}

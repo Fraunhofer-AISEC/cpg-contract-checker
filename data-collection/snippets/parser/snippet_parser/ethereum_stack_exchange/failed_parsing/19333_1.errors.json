@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionwithdrawBalance(){\\nuintamountToWithdraw=userBalances[msg.sender];\\nuserBalances[msg.sender]=0;\\nif(amountToWithdraw>0){\\nif(!(msg.sender.send(amountToWithdraw))){throw;}\\n}\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionwithdrawBalance(){\\nuintamountToWithdraw=userBalances[msg.sender];\\nuserBalances[msg.sender]=0;\\nif(amountToWithdraw>0){\\nif(!(msg.sender.send(amountToWithdraw))){throw;}\\n}\\n'\n"
+    ]
+}

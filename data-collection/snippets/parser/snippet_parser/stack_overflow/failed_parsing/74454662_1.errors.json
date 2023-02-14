@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionINITIAL_SUPPLY()publicpurereturns(uint256){return10000*(10**18)}'": [
+        "ERROR: when parsing line 1 column 83: no viable alternative at input 'functionINITIAL_SUPPLY()publicpurereturns(uint256){return10000*(10**18)}'\n"
+    ]
+}

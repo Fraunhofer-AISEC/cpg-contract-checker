@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetInstructor(address_address,uint_age,stringmemory_fName,stringmemory_lName)public{\\n\\nInstructorstorageinstructor=instructors[_address];\\n\\n\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionsetInstructor(address_address,uint_age,stringmemory_fName,stringmemory_lName)public{\\n\\nInstructorstorageinstructor=instructors[_address];\\n\\n\\n'\n"
+    ]
+}

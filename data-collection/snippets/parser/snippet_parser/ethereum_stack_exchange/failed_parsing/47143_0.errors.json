@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(address_to,uint256ENvalue,uint256PWvalue)publicreturns(bool){\\nrequire(_to!=address(0));\\n\\nbalances[_to].bEN=balances[_to].bEN+ENvalue;\\n\\nbalances[_to].bPW=balances[_to].bPW+PWvalue;\\n\\nreturntrue;\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functiontransfer(address_to,uint256ENvalue,uint256PWvalue)publicreturns(bool){\\nrequire(_to!=address(0));\\n\\nbalances[_to].bEN=balances[_to].bEN+ENvalue;\\n\\nbalances[_to].bPW=balances[_to].bPW+PWvalue;\\n\\nreturntrue;\\n'\n"
+    ]
+}

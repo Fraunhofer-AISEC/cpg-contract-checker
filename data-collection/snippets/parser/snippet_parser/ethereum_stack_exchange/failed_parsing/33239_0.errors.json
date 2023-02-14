@@ -1,33 +1,5 @@
 {
-    "extraneous input 'of' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 4: extraneous input 'of' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n",
-        "ERROR: when parsing line 3 column 3: extraneous input 'of' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n",
-        "ERROR: when parsing line 5 column 5: extraneous input 'of' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input 'you' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input 'you' expecting {';', NL}\n",
-        "ERROR: when parsing line 3 column 10: mismatched input 'you' expecting {';', NL}\n",
-        "ERROR: when parsing line 5 column 11: mismatched input 'you' expecting {';', NL}\n"
-    ],
-    "mismatched input 'do' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 19: mismatched input 'do' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 3 column 18: mismatched input 'do' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 5 column 19: mismatched input 'do' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '10' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 28: mismatched input '10' expecting {';', NL}\n"
-    ],
-    "mismatched input '100' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 33: mismatched input '100' expecting {';', NL}\n",
-        "ERROR: when parsing line 3 column 31: mismatched input '100' expecting {';', NL}\n"
-    ],
-    "mismatched input '6' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 27: mismatched input '6' expecting {';', NL}\n"
-    ],
-    "mismatched input '65' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 27: mismatched input '65' expecting {';', NL}\n"
-    ],
-    "mismatched input '1000' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 32: mismatched input '1000' expecting {';', NL}\n"
+    "no viable alternative at input '10%of'": [
+        "ERROR: when parsing line 1 column 4: no viable alternative at input '10%of'\n"
     ]
 }

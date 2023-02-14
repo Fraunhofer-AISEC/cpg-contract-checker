@@ -1,12 +1,5 @@
 {
-    "mismatched input 'function' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 2: mismatched input 'function' expecting {';', NL}\n"
-    ],
-    "mismatched input 'if' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 5: mismatched input 'if' expecting {';', NL}\n",
-        "ERROR: when parsing line 3 column 6: mismatched input 'if' expecting {';', NL}\n"
-    ],
-    "mismatched input 'XXX' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 9: mismatched input 'XXX' expecting {';', NL}\n"
+    "no viable alternative at input '1function'": [
+        "ERROR: when parsing line 1 column 2: no viable alternative at input '1function'\n"
     ]
 }

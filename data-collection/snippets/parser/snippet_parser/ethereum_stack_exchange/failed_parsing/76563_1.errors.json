@@ -1,9 +1,5 @@
 {
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 7: mismatched input '.' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 8 column 14: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'asm' expecting {';', NL}": [
-        "ERROR: when parsing line 8 column 9: mismatched input 'asm' expecting {';', NL}\n"
+    "no viable alternative at input 'catl.'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input 'catl.'\n"
     ]
 }

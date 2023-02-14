@@ -1,5 +1,29 @@
 {
     "mismatched input 'ds' expecting {';', NL}": [
         "ERROR: when parsing line 7 column 4: mismatched input 'ds' expecting {';', NL}\n"
+    ],
+    "mismatched input 'method' expecting {',', ']'}": [
+        "ERROR: when parsing line 7 column 29: mismatched input 'method' expecting {',', ']'}\n"
+    ],
+    "mismatched input 'url' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 40: mismatched input 'url' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input '[type=\"jsonparse\"path'": [
+        "ERROR: when parsing line 8 column 34: no viable alternative at input '[type=\"jsonparse\"path'\n"
+    ],
+    "mismatched input 'path' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 34: mismatched input 'path' expecting {';', NL}\n"
+    ],
+    "extraneous input ']' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 51: extraneous input ']' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'ds->'": [
+        "ERROR: when parsing line 11 column 7: no viable alternative at input 'ds->'\n"
+    ],
+    "mismatched input '\"\"' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 0: mismatched input '\"\"' expecting {';', NL}\n"
+    ],
+    "mismatched input 'externalJobID' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 0: mismatched input 'externalJobID' expecting {';', NL}\n"
     ]
 }

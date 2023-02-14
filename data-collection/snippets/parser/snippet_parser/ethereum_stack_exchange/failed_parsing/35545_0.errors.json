@@ -5,6 +5,15 @@
     "mismatched input 'function' expecting {';', NL}": [
         "ERROR: when parsing line 4 column 8: mismatched input 'function' expecting {';', NL}\n"
     ],
+    "extraneous input 'totalSupply' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 17: extraneous input 'totalSupply' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 31: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 62: extraneous input '{' expecting {';', NL}\n"
+    ],
     "mismatched input 'return' expecting {';', NL}": [
         "ERROR: when parsing line 5 column 12: mismatched input 'return' expecting {';', NL}\n"
     ],

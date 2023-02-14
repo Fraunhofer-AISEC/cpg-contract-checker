@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfulfillRandomWords(uint256_requestId,address_consumer)external{\\nuint256startGas=gasleft();\\nif(s_requests[_requestId].subId==0){\\nrevert(\"nonexistent request\");\\n}\\nRequestmemoryreq=s_requests[_requestId];\\n\\nuint256[]memorywords=newuint256[](req.numWords);\\nfor(uint256i=0;i<req.numWords;i++){\\nwords[i]=uint256(keccak256(abi.encode(_requestId,i)));\\n}\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionfulfillRandomWords(uint256_requestId,address_consumer)external{\\nuint256startGas=gasleft();\\nif(s_requests[_requestId].subId==0){\\nrevert(\"nonexistent request\");\\n}\\nRequestmemoryreq=s_requests[_requestId];\\n\\nuint256[]memorywords=newuint256[](req.numWords);\\nfor(uint256i=0;i<req.numWords;i++){\\nwords[i]=uint256(keccak256(abi.encode(_requestId,i)));\\n}\\n'\n"
+    ]
+}

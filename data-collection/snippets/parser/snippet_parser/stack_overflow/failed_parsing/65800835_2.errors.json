@@ -2,9 +2,6 @@
     "mismatched input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
         "ERROR: when parsing line 1 column 8: mismatched input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
     ],
-    "extraneous input '{' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 10: extraneous input '{' expecting {';', NL}\n"
-    ],
     "extraneous input '}' expecting {';', NL}": [
         "ERROR: when parsing line 4 column 0: extraneous input '}' expecting {';', NL}\n"
     ],

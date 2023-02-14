@@ -1,0 +1,11 @@
+{
+    "no viable alternative at input 'import.'": [
+        "ERROR: when parsing line 1 column 8: no viable alternative at input 'import.'\n"
+    ],
+    "mismatched input '.' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 5 column 32: mismatched input '.' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 53: mismatched input '(' expecting {';', NL}\n"
+    ]
+}

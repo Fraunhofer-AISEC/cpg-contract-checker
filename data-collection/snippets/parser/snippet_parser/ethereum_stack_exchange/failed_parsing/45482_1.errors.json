@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondeposit(bytes32_id)publicpayable{\\n\\n\\n\\n\\n\\nemitDeposit(msg.sender,_id,msg.value);\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functiondeposit(bytes32_id)publicpayable{\\n\\n\\n\\n\\n\\nemitDeposit(msg.sender,_id,msg.value);\\n'\n"
+    ]
+}

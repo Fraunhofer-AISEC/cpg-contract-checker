@@ -1,17 +1,5 @@
 {
-    "mismatched input 'run' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 10: mismatched input 'run' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 20: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'network' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 26: mismatched input 'network' expecting {';', NL}\n"
-    ],
-    "mismatched input '-' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 41: mismatched input '-' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'INFO' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 0: mismatched input 'INFO' expecting {';', NL}\n"
+    "no viable alternative at input '$brownierun'": [
+        "ERROR: when parsing line 1 column 10: no viable alternative at input '$brownierun'\n"
     ]
 }

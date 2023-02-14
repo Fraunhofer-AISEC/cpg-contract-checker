@@ -1,23 +1,5 @@
 {
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 7: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Desktop' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 24: mismatched input 'Desktop' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'smart_contract' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 39: mismatched input 'smart_contract' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'hardhat' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 59: mismatched input 'hardhat' expecting {';', NL}\n"
-    ],
-    "mismatched input 'scripts' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 71: mismatched input 'scripts' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'network' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 91: mismatched input 'network' expecting {';', NL}\n"
-    ],
-    "mismatched input 'ReferenceError' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 0: mismatched input 'ReferenceError' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'PSC:'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input 'PSC:'\n"
     ]
 }

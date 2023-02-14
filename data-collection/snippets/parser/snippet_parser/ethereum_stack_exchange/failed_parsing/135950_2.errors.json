@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetAmountOut(uintamountIn,uintreserveIn,uintreserveOut)internalpurereturns(uintamountOut){\\nrequire(amountIn>0,'PancakeLibrary: INSUFFICIENT_INPUT_AMOUNT');\\nrequire(reserveIn>0&&reserveOut>0,'PancakeLibrary: INSUFFICIENT_LIQUIDITY');\\nuintamountInWithFee=amountIn.mul(9975);\\nuintnumerator=amountInWithFee.mul(reserveOut);\\nuintdenominator=reserveIn.mul(10000).add(amountInWithFee);\\namountOut=numerator/denominator;\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functiongetAmountOut(uintamountIn,uintreserveIn,uintreserveOut)internalpurereturns(uintamountOut){\\nrequire(amountIn>0,'PancakeLibrary: INSUFFICIENT_INPUT_AMOUNT');\\nrequire(reserveIn>0&&reserveOut>0,'PancakeLibrary: INSUFFICIENT_LIQUIDITY');\\nuintamountInWithFee=amountIn.mul(9975);\\nuintnumerator=amountInWithFee.mul(reserveOut);\\nuintdenominator=reserveIn.mul(10000).add(amountInWithFee);\\namountOut=numerator/denominator;\\n'\n"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "extraneous input 'alpha' expecting ')'": [
+        "ERROR: when parsing line 1 column 14: extraneous input 'alpha' expecting ')'\n"
+    ],
+    "no viable alternative at input '(uint256beta'": [
+        "ERROR: when parsing line 2 column 13: no viable alternative at input '(uint256beta'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'clusterContract[id]='": [
+        "ERROR: when parsing line 7 column 21: no viable alternative at input 'clusterContract[id]='\n"
+    ]
+}

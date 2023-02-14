@@ -1,5 +1,5 @@
 {
-    "extraneous input 'int' expecting {',', ')'}": [
-        "ERROR: when parsing line 1 column 29: extraneous input 'int' expecting {',', ')'}\n"
+    "no viable alternative at input 'functiongetNotaryEntry(uintint'": [
+        "ERROR: when parsing line 1 column 29: no viable alternative at input 'functiongetNotaryEntry(uintint'\n"
     ]
 }

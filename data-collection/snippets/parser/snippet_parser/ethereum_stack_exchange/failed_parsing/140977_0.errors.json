@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondeposit(stringmemory_name,uint256_amount)internal{.'": [
+        "ERROR: when parsing line 1 column 66: no viable alternative at input 'functiondeposit(stringmemory_name,uint256_amount)internal{.'\n"
+    ]
+}

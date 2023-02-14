@@ -1,0 +1,6 @@
+{
+    "extraneous input 'memory' expecting ')'": [
+        "ERROR: when parsing line 6 column 57: extraneous input 'memory' expecting ')'\n",
+        "ERROR: when parsing line 15 column 52: extraneous input 'memory' expecting ')'\n"
+    ]
+}

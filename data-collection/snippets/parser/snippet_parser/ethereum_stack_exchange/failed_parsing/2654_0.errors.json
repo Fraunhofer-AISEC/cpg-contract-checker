@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsendCoin(addressreceiver,uintamount)returns(boolsufficient){\\n\\n\\nif(balances[msg.sender]<amount||balances[receiver]+amount<balances[receiver])throw;\\n\\nbalances[msg.sender]-=amount;\\n\\n\\nbalances[receiver]+=amount;\\nreturntrue;\\n\\n\\n\\n'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'functionsendCoin(addressreceiver,uintamount)returns(boolsufficient){\\n\\n\\nif(balances[msg.sender]<amount||balances[receiver]+amount<balances[receiver])throw;\\n\\nbalances[msg.sender]-=amount;\\n\\n\\nbalances[receiver]+=amount;\\nreturntrue;\\n\\n\\n\\n'\n"
+    ]
+}

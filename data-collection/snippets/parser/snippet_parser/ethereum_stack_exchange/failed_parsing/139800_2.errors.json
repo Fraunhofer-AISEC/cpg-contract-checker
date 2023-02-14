@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constwalletAddress=\"0x8197b2a89d80010019718e799e1224d4f2b429Ef\";\\n\\n\\nconstmetadatas=[{'": [
+        "ERROR: when parsing line 5 column 19: no viable alternative at input 'constwalletAddress=\"0x8197b2a89d80010019718e799e1224d4f2b429Ef\";\\n\\n\\nconstmetadatas=[{'\n"
+    ]
+}

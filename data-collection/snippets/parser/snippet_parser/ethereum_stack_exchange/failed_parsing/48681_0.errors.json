@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '':20:16: TypeError: Member \"push\" not found or not visible after argument-dependent lookup in uint32[100] storage ref\\n    uint32 a = people.push(12);\\n               ^---------^\\n'\\n\\n\\npragma'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input '':20:16: TypeError: Member \"push\" not found or not visible after argument-dependent lookup in uint32[100] storage ref\\n    uint32 a = people.push(12);\\n               ^---------^\\n'\\n\\n\\npragma'\n"
+    ]
+}

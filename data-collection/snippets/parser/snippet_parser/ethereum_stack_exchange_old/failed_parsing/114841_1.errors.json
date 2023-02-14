@@ -1,0 +1,23 @@
+{
+    "mismatched input 'run' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 10: mismatched input 'run' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '/' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 21: mismatched input '/' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Brownie' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 0: mismatched input 'Brownie' expecting {';', NL}\n"
+    ],
+    "mismatched input '.17' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 10: mismatched input '.17' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.1' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 13: mismatched input '.1' expecting {';', NL}\n"
+    ],
+    "mismatched input 'development' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 25: mismatched input 'development' expecting {';', NL}\n"
+    ],
+    "mismatched input 'for' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 47: mismatched input 'for' expecting {'=', ';', NL}\n"
+    ]
+}

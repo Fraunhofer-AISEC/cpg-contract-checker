@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateEvent(\\nbytes32eventId,\\nuint256startTime,\\nuint256endTime,\\nbytes32result\\n)\\npublic\\nonlyOwner\\nreturns(boolsuccess)\\n{\\nrequire(events[eventId].totalBet==0,\"Event already exists\");\\n\\n\\nEventstorageevent'": [
+        "ERROR: when parsing line 15 column 18: no viable alternative at input 'functioncreateEvent(\\nbytes32eventId,\\nuint256startTime,\\nuint256endTime,\\nbytes32result\\n)\\npublic\\nonlyOwner\\nreturns(boolsuccess)\\n{\\nrequire(events[eventId].totalBet==0,\"Event already exists\");\\n\\n\\nEventstorageevent'\n"
+    ]
+}

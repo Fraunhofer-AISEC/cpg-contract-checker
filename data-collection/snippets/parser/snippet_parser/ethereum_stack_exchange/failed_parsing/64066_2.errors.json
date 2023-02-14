@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'MyFirstContract.sol:'": [
-        "ERROR: when parsing line 1 column 27: no viable alternative at input 'MyFirstContract.sol:'\n"
+    "no viable alternative at input 'browser/MyFirstContract.sol:'": [
+        "ERROR: when parsing line 1 column 27: no viable alternative at input 'browser/MyFirstContract.sol:'\n"
     ]
 }

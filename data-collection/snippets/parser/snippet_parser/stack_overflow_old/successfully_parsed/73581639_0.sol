@@ -1,0 +1,1 @@
+function Ownable() payable public{}

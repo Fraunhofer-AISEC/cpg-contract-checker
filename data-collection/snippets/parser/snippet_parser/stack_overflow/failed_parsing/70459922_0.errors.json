@@ -1,20 +1,5 @@
 {
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 4: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Solidity' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 22: mismatched input 'Solidity' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'demo' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 35: mismatched input 'demo' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '-' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 53: mismatched input '-' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input 'compile' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 71: extraneous input 'compile' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'INFO:'": [
-        "ERROR: when parsing line 2 column 4: no viable alternative at input 'INFO:'\n"
+    "no viable alternative at input 'PSD:'": [
+        "ERROR: when parsing line 1 column 4: no viable alternative at input 'PSD:'\n"
     ]
 }

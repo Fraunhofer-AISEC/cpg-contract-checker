@@ -1,5 +1,5 @@
 {
-    "mismatched input 'UD60x18' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 5: mismatched input 'UD60x18' expecting {';', NL}\n"
+    "no viable alternative at input 'typeUD60x18'": [
+        "ERROR: when parsing line 1 column 5: no viable alternative at input 'typeUD60x18'\n"
     ]
 }

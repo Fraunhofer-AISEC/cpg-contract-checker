@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'IMPORT\"@openzeppelin/contracts/tokens/ERC20/IERC20.sol\"'": [
+        "ERROR: when parsing line 4 column 7: no viable alternative at input 'IMPORT\"@openzeppelin/contracts/tokens/ERC20/IERC20.sol\"'\n"
+    ]
+}

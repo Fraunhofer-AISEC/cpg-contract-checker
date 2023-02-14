@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmint(address_beneficiary,uint256_value)publicreturns(boolsuccess){\\nrequire(msg.sender==saleAddress||msg.sender==admin,\"Sender must be saleAddress or admin.\");\\nbalanceOf[_beneficiary]+=_value;\\nsupply+=_value;\\nemitMint(msg.sender,_beneficiary,_value);\\nreturntrue;\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionmint(address_beneficiary,uint256_value)publicreturns(boolsuccess){\\nrequire(msg.sender==saleAddress||msg.sender==admin,\"Sender must be saleAddress or admin.\");\\nbalanceOf[_beneficiary]+=_value;\\nsupply+=_value;\\nemitMint(msg.sender,_beneficiary,_value);\\nreturntrue;\\n'\n"
+    ]
+}

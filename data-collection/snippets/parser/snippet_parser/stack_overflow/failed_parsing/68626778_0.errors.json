@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpurchase(uintamount,uinttokens)publicpayable{\\nrequire(msg.value>=amount*1ether,\"You must pay at least 1 ether per token\");\\nbalances[address(this)]-=tokens;\\nbalances[msg.sender]+=tokens;\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functionpurchase(uintamount,uinttokens)publicpayable{\\nrequire(msg.value>=amount*1ether,\"You must pay at least 1 ether per token\");\\nbalances[address(this)]-=tokens;\\nbalances[msg.sender]+=tokens;\\n'\n"
+    ]
+}

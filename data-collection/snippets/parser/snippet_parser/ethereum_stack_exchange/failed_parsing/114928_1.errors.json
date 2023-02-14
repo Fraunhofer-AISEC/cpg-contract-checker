@@ -1,5 +1,5 @@
 {
-    "mismatched input 'aren' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 16: mismatched input 'aren' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Returnedvaluesaren'": [
+        "ERROR: when parsing line 1 column 16: no viable alternative at input 'Returnedvaluesaren'\n"
     ]
 }

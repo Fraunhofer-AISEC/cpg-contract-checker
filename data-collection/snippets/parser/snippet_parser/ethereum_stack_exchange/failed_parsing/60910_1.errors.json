@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionrefund()publicpayablereturns(boolsuccess){\\n\\nif(msg.value<1ether){\\nmsg.sender.send(msg.value);\\nreturnfalse;\\n}\\nreturntrue;\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functionrefund()publicpayablereturns(boolsuccess){\\n\\nif(msg.value<1ether){\\nmsg.sender.send(msg.value);\\nreturnfalse;\\n}\\nreturntrue;\\n'\n"
+    ]
+}

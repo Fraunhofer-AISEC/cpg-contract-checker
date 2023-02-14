@@ -1,0 +1,8 @@
+{
+    "mismatched input 'identify' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 10: mismatched input 'identify' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'intended' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 23: mismatched input 'intended' expecting {'=', ';', NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetTestArrayByPush(address_testAddr,uint_testInt)public{\\ntestArray.push(TestComplex({\\ntestValue:_testAddr,\\ntestInt:_testInt\\n}));\\n{\\n}\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functionsetTestArrayByPush(address_testAddr,uint_testInt)public{\\ntestArray.push(TestComplex({\\ntestValue:_testAddr,\\ntestInt:_testInt\\n}));\\n{\\n}\\n'\n"
+    ]
+}

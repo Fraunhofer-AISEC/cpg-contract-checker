@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'address\"msgSender\"'": [
-        "ERROR: when parsing line 3 column 11: no viable alternative at input 'address\"msgSender\"'\n"
+    "no viable alternative at input 'constructor()internal{\\naddress\"msgSender\"'": [
+        "ERROR: when parsing line 3 column 11: no viable alternative at input 'constructor()internal{\\naddress\"msgSender\"'\n"
     ]
 }

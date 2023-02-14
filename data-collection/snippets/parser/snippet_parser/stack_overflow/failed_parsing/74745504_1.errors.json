@@ -1,0 +1,48 @@
+{
+    "extraneous input '.' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 16 column 3: extraneous input '.' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}\n",
+        "ERROR: when parsing line 17 column 3: extraneous input '.' expecting {<EOF>, 'pragma', 'import', 'from', '}', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier, NL}\n"
+    ],
+    "no viable alternative at input 'TypeError:'": [
+        "ERROR: when parsing line 22 column 9: no viable alternative at input 'TypeError:'\n"
+    ],
+    "mismatched input 'conversion' expecting {';', NL}": [
+        "ERROR: when parsing line 22 column 25: mismatched input 'conversion' expecting {';', NL}\n"
+    ],
+    "mismatched input 'allowed' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 40: mismatched input 'allowed' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'non' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 53: mismatched input 'non' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '\"address\"' expecting {';', NL}": [
+        "ERROR: when parsing line 22 column 65: mismatched input '\"address\"' expecting {';', NL}\n"
+    ],
+    "mismatched input 'to' expecting {';', NL}": [
+        "ERROR: when parsing line 22 column 75: mismatched input 'to' expecting {';', NL}\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 22 column 100: mismatched input ',' expecting {';', NL}\n"
+    ],
+    "mismatched input 'a' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 112: mismatched input 'a' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'fallback' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 22 column 122: mismatched input 'fallback' expecting {'=', ';', NL}\n"
+    ],
+    "missing '(' at 'function'": [
+        "ERROR: when parsing line 22 column 131: missing '(' at 'function'\n"
+    ],
+    "extraneous input '.' expecting {'(', NL}": [
+        "ERROR: when parsing line 22 column 139: extraneous input '.' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'return' expecting '('": [
+        "ERROR: when parsing line 24 column 7: mismatched input 'return' expecting '('\n"
+    ],
+    "mismatched input '.' expecting {',', ')'}": [
+        "ERROR: when parsing line 24 column 24: mismatched input '.' expecting {',', ')'}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 25 column 4: extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
+    ]
+}

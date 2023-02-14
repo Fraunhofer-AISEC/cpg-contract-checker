@@ -1,5 +1,5 @@
 {
-    "extraneous input 'null' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 6 column 15: extraneous input 'null' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    "no viable alternative at input 'functiongetPropertyByid(stringmemory_propertyId)privateviewreturns(PropertyObjmemory){\\nfor(uinti=0;i<PropertyArray.length;i++){\\nif(keccak256(bytes((PropertyArray[i].id)))==keccak256(bytes((_propertyId)))){\\nreturnPropertyArray[i];\\n}\\nreturnnull'": [
+        "ERROR: when parsing line 6 column 15: no viable alternative at input 'functiongetPropertyByid(stringmemory_propertyId)privateviewreturns(PropertyObjmemory){\\nfor(uinti=0;i<PropertyArray.length;i++){\\nif(keccak256(bytes((PropertyArray[i].id)))==keccak256(bytes((_propertyId)))){\\nreturnPropertyArray[i];\\n}\\nreturnnull'\n"
     ]
 }

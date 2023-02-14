@@ -1,24 +1,5 @@
 {
-    "mismatched input 'find' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 10: mismatched input 'find' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'contract' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 24: mismatched input 'contract' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'library' expecting {'{', 'is'}": [
-        "ERROR: when parsing line 1 column 36: mismatched input 'library' expecting {'{', 'is'}\n",
-        "ERROR: when parsing line 1 column 77: mismatched input 'library' expecting {'{', 'is'}\n"
-    ],
-    "mismatched input 'in' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 44: mismatched input 'in' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 63: mismatched input ':' expecting {';', NL}\n"
-    ],
-    "extraneous input ''ConvertLib'' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 85: extraneous input ''ConvertLib'' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input 'found' expecting {'{', 'is'}": [
-        "ERROR: when parsing line 1 column 102: mismatched input 'found' expecting {'{', 'is'}\n"
+    "no viable alternative at input 'Couldnotfind'": [
+        "ERROR: when parsing line 1 column 10: no viable alternative at input 'Couldnotfind'\n"
     ]
 }

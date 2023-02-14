@@ -1,0 +1,8 @@
+{
+    "extraneous input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 18 column 47: extraneous input '[' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "extraneous input ']' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 76: extraneous input ']' expecting {';', NL}\n"
+    ]
+}

@@ -1,8 +1,5 @@
 {
-    "extraneous input 'compile' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 12: extraneous input 'compile' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 11: mismatched input ':' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'npxhardhatcompile'": [
+        "ERROR: when parsing line 1 column 12: no viable alternative at input 'npxhardhatcompile'\n"
     ]
 }

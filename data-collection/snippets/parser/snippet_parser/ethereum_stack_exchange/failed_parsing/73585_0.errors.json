@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncommitTask(int256_temp,stringmemory_location,stringmemory_time)publicinState(State.Created)payable\\n{\\n\\n\\nrequire(keccak256(abi.encodePacked(location))==keccak256(abi.encodePacked(_location)),\"Wrong location.\");\\nrequire(_temp<35&&_temp>-5,\"Temperature out of range\");\\ndataCount+=1;\\nif(dataCount==rewardNum)\\n{\\nmsg.sender.transfer(reward);\\nemitTaskDone();\\n}\\n\\nemitDataCommited(_temp,_location,_time);\\n'": [
+        "ERROR: when parsing line 15 column 0: no viable alternative at input 'functioncommitTask(int256_temp,stringmemory_location,stringmemory_time)publicinState(State.Created)payable\\n{\\n\\n\\nrequire(keccak256(abi.encodePacked(location))==keccak256(abi.encodePacked(_location)),\"Wrong location.\");\\nrequire(_temp<35&&_temp>-5,\"Temperature out of range\");\\ndataCount+=1;\\nif(dataCount==rewardNum)\\n{\\nmsg.sender.transfer(reward);\\nemitTaskDone();\\n}\\n\\nemitDataCommited(_temp,_location,_time);\\n'\n"
+    ]
+}

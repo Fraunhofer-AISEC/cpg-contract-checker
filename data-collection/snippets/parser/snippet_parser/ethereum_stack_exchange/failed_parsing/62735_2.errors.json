@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateTokens()payablepublic{\\nif(isMinting==true){\\nrequire(isMinting,\"Not allowed\");\\nrequire(msg.value>0,\"No funds\");\\nuint256tokens=msg.value.div(100000000000000).mul(RATE);\\nbalances[msg.sender]=balances[msg.sender].add(tokens);\\n_totalSupply=_totalSupply.add(tokens);\\nowner.transfer(msg.value);\\n}\\nelse{\\nrevert();\\n}\\n'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functioncreateTokens()payablepublic{\\nif(isMinting==true){\\nrequire(isMinting,\"Not allowed\");\\nrequire(msg.value>0,\"No funds\");\\nuint256tokens=msg.value.div(100000000000000).mul(RATE);\\nbalances[msg.sender]=balances[msg.sender].add(tokens);\\n_totalSupply=_totalSupply.add(tokens);\\nowner.transfer(msg.value);\\n}\\nelse{\\nrevert();\\n}\\n'\n"
+    ]
+}

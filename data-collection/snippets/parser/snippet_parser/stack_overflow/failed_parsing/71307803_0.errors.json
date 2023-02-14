@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionHolderOfNFT(Uint256Id)publicreturns(address){\\nreturnIdToAddress[Id];\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionHolderOfNFT(Uint256Id)publicreturns(address){\\nreturnIdToAddress[Id];\\n'\n"
+    ]
+}

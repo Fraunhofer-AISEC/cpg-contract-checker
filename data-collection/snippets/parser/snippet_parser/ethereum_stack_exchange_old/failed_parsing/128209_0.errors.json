@@ -1,0 +1,14 @@
+{
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 16: mismatched input ':' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 2 column 11: mismatched input ':' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 2 column 33: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Gas' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 2: mismatched input 'Gas' expecting {';', NL}\n",
+        "ERROR: when parsing line 2 column 24: mismatched input 'Gas' expecting {';', NL}\n"
+    ],
+    "mismatched input 'Nonce' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 46: mismatched input 'Nonce' expecting {';', NL}\n"
+    ]
+}

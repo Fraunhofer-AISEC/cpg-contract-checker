@@ -1,8 +1,5 @@
 {
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 13: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'for' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 25: mismatched input 'for' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Runningsetup.'": [
+        "ERROR: when parsing line 1 column 13: no viable alternative at input 'Runningsetup.'\n"
     ]
 }

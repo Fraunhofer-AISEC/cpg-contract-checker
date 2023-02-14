@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionenter()publicpayable{\\n\\nIERC20token=IERC20(<'": [
+        "ERROR: when parsing line 3 column 27: no viable alternative at input 'functionenter()publicpayable{\\n\\nIERC20token=IERC20(<'\n"
+    ]
+}

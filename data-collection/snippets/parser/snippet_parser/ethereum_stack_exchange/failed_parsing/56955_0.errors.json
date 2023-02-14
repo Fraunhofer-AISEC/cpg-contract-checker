@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsafeWithdrawal()publicafterDeadline{\\nif(!fundingGoalReached){\\nuintamount=balanceOf[msg.sender];\\nbalanceOf[msg.sender]=0;\\nif(amount>0){\\nif(msg.sender.send(amount)){\\nemitFundTransfer(msg.sender,amount,false);\\n}else{\\nbalanceOf[msg.sender]=amount;\\n}\\n}\\n}\\n'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functionsafeWithdrawal()publicafterDeadline{\\nif(!fundingGoalReached){\\nuintamount=balanceOf[msg.sender];\\nbalanceOf[msg.sender]=0;\\nif(amount>0){\\nif(msg.sender.send(amount)){\\nemitFundTransfer(msg.sender,amount,false);\\n}else{\\nbalanceOf[msg.sender]=amount;\\n}\\n}\\n}\\n'\n"
+    ]
+}

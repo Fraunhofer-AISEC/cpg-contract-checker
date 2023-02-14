@@ -2,7 +2,13 @@
     "mismatched input '(' expecting {'=', ';', NL}": [
         "ERROR: when parsing line 11 column 22: mismatched input '(' expecting {'=', ';', NL}\n"
     ],
-    "mismatched input 'movieNames' expecting {';', NL}": [
-        "ERROR: when parsing line 11 column 32: mismatched input 'movieNames' expecting {';', NL}\n"
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 11 column 42: mismatched input ')' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 12 column 18: extraneous input '=' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
+        "ERROR: when parsing line 21 column 0: extraneous input '}' expecting {<EOF>, 'pragma', 'import', 'from', 'abstract', 'contract', 'interface', 'library', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
     ]
 }

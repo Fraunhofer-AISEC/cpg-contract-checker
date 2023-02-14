@@ -40,9 +40,6 @@
     "mismatched input 'is' expecting {'=', ';', NL}": [
         "ERROR: when parsing line 122 column 18: mismatched input 'is' expecting {'=', ';', NL}\n"
     ],
-    "mismatched input 'require' expecting {';', NL}": [
-        "ERROR: when parsing line 123 column 4: mismatched input 'require' expecting {';', NL}\n"
-    ],
     "mismatched input 'balanceOf' expecting {';', NL}": [
         "ERROR: when parsing line 125 column 4: mismatched input 'balanceOf' expecting {';', NL}\n"
     ],

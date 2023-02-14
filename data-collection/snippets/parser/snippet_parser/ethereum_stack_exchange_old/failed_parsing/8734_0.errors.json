@@ -1,0 +1,5 @@
+{
+    "extraneous input 'wei' expecting {';', NL}": [
+        "ERROR: when parsing line 1 column 11: extraneous input 'wei' expecting {';', NL}\n"
+    ]
+}

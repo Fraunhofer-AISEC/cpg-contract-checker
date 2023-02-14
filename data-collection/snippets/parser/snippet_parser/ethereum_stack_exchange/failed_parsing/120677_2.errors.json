@@ -1,5 +1,5 @@
 {
-    "extraneous input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 52: extraneous input ')' expecting {';', NL}\n"
+    "no viable alternative at input 'constructor(uint256amount1,uint256amount2,uint256total)ERC20(\"MyContract\",\"MYCT\"){\\naddressaddressOne=0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;\\naddressaddressTwo=0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db;\\n_mint(address(this),total);\\nthis.transfer(addressOne,amount1);\\nthis.transfer(addressTwo,amount2);\\nthis.transfer(owner(),balanceOf(address(this))))'": [
+        "ERROR: when parsing line 7 column 52: no viable alternative at input 'constructor(uint256amount1,uint256amount2,uint256total)ERC20(\"MyContract\",\"MYCT\"){\\naddressaddressOne=0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;\\naddressaddressTwo=0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db;\\n_mint(address(this),total);\\nthis.transfer(addressOne,amount1);\\nthis.transfer(addressTwo,amount2);\\nthis.transfer(owner(),balanceOf(address(this))))'\n"
     ]
 }

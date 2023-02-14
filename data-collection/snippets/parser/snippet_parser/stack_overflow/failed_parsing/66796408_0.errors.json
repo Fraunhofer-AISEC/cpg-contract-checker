@@ -1,8 +1,5 @@
 {
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 4: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'index' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 21: mismatched input 'index' expecting {';', NL}\n"
+    "no viable alternative at input 'PSD:'": [
+        "ERROR: when parsing line 1 column 4: no viable alternative at input 'PSD:'\n"
     ]
 }

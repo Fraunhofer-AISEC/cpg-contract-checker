@@ -1,8 +1,5 @@
 {
-    "extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 2 column 20: extraneous input '(' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 31: mismatched input ')' expecting {';', NL}\n"
+    "no viable alternative at input 'functionupdateStruct(string_paramName,string_newValue){\\ntests[msg.sender].('": [
+        "ERROR: when parsing line 2 column 20: no viable alternative at input 'functionupdateStruct(string_paramName,string_newValue){\\ntests[msg.sender].('\n"
     ]
 }

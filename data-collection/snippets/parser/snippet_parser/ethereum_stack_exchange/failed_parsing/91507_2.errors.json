@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionplay()externalpayablereturns(bool){\\nrequire(\\nmsg.value==price,\\n'Please send the correct amount of ETH'\\n);\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionplay()externalpayablereturns(bool){\\nrequire(\\nmsg.value==price,\\n'Please send the correct amount of ETH'\\n);\\n'\n"
+    ]
+}

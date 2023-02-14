@@ -1,41 +1,5 @@
 {
-    "mismatched input 'import' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 13: mismatched input 'import' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'NON_FORKED_LOCAL_BLOCKCHAIN_ENVIRONMENTS' expecting {'as', 'from'}": [
-        "ERROR: when parsing line 8 column 0: mismatched input 'NON_FORKED_LOCAL_BLOCKCHAIN_ENVIRONMENTS' expecting {'as', 'from'}\n"
-    ],
-    "extraneous input ']' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 11 column 0: extraneous input ']' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', ';', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input 'encode_function_data' expecting ']'": [
-        "ERROR: when parsing line 14 column 4: mismatched input 'encode_function_data' expecting ']'\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 14 column 24: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "extraneous input '*' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 14 column 43: extraneous input '*' expecting {'~', 'from', ',', '(', ')', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "extraneous input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 14 column 49: extraneous input ':' expecting {';', NL}\n"
-    ],
-    "mismatched input 'Encodes' expecting {';', NL}": [
-        "ERROR: when parsing line 16 column 4: mismatched input 'Encodes' expecting {';', NL}\n"
-    ],
-    "mismatched input 'function' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 16 column 16: mismatched input 'function' expecting {'=', ';', NL}\n"
-    ],
-    "missing '(' at 'so'": [
-        "ERROR: when parsing line 16 column 30: missing '(' at 'so'\n"
-    ],
-    "mismatched input 'can' expecting {',', ')'}": [
-        "ERROR: when parsing line 16 column 36: mismatched input 'can' expecting {',', ')'}\n"
-    ],
-    "extraneous input '.' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 16 column 64: extraneous input '.' expecting {'{', 'returns', ';', NL}\n"
-    ],
-    "no viable alternative at input 'Args:'": [
-        "ERROR: when parsing line 18 column 8: no viable alternative at input 'Args:'\n"
+    "no viable alternative at input 'frombrownieimport'": [
+        "ERROR: when parsing line 1 column 13: no viable alternative at input 'frombrownieimport'\n"
     ]
 }

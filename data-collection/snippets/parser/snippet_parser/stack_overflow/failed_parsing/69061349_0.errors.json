@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_addApprover(address_approver,uint_i)public{\\napprovedUsers[_approver]+=approvedUsers[_i];\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'function_addApprover(address_approver,uint_i)public{\\napprovedUsers[_approver]+=approvedUsers[_i];\\n'\n"
+    ]
+}

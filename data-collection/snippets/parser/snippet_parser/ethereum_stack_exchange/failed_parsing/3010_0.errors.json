@@ -1,8 +1,5 @@
 {
-    "mismatched input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 10: mismatched input ',' expecting {';', NL}\n"
-    ],
-    "mismatched input 'remainder' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 21: mismatched input 'remainder' expecting {'=', ';', NL}\n"
+    "no viable alternative at input '17/3=5,'": [
+        "ERROR: when parsing line 1 column 10: no viable alternative at input '17/3=5,'\n"
     ]
 }

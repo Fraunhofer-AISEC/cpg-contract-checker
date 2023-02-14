@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'profit='": [
+        "ERROR: when parsing line 5 column 6: no viable alternative at input 'profit='\n"
+    ]
+}

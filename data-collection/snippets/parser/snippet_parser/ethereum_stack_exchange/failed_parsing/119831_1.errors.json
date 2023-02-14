@@ -1,12 +1,5 @@
 {
-    "mismatched input 'to' expecting {',', ']'}": [
-        "ERROR: when parsing line 3 column 9: mismatched input 'to' expecting {',', ']'}\n"
-    ],
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 3 column 19: mismatched input '.' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 3 column 40: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'from' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 4: mismatched input 'from' expecting {';', NL}\n"
+    "no viable alternative at input '[![\\n\\ntransactto'": [
+        "ERROR: when parsing line 3 column 9: no viable alternative at input '[![\\n\\ntransactto'\n"
     ]
 }

@@ -6,16 +6,23 @@ grammar Solidity;
 
 sourceUnit
   : NL*
-    ((
-    pragmaDirective
-    | importDirective
-    | contractDefinition
-    | enumDefinition
-    | structDefinition
-    | contractPart
-    | fileLevelConstant
-    | customErrorDefinition
-    )* | block | statement*) EOF ;
+    (
+      (
+      pragmaDirective
+      | importDirective
+      | contractDefinition
+      | enumDefinition
+      | structDefinition
+      | contractPart
+      | fileLevelConstant
+      | customErrorDefinition
+      )*
+      | functionDefinition
+      | expressionStatement
+      | stateVariableDeclaration
+      | block
+      | statement*
+    ) EOF ;
 
 pragmaDirective
   : 'pragma' NL* pragmaName pragmaValue eos ;

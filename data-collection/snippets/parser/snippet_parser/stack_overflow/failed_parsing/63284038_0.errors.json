@@ -1,8 +1,5 @@
 {
-    "mismatched input 'the' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 16: mismatched input 'the' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'data' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 25: mismatched input 'data' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'functionretrieveEHRs(stringstringToBytes32,stringretrieve_name,addressuserPK,stringstorageName,addressAreaID,addressPatientID,stringHash_value)\\nonlyAdminppublic{\\nbytes32key=stringToBytes32(retrieve_name);\\nLookupthe'": [
+        "ERROR: when parsing line 4 column 16: no viable alternative at input 'functionretrieveEHRs(stringstringToBytes32,stringretrieve_name,addressuserPK,stringstorageName,addressAreaID,addressPatientID,stringHash_value)\\nonlyAdminppublic{\\nbytes32key=stringToBytes32(retrieve_name);\\nLookupthe'\n"
     ]
 }

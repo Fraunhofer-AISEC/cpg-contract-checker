@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetAmountsOut(addressfactory,uintamountIn,address[]memorypath)internalviewreturns(uint[]memoryamounts){\\nrequire(path.length>=2,'PancakeLibrary: INVALID_PATH');\\namounts=newuint[](path.length);\\namounts[0]=amountIn;\\nfor(uinti;i<path.length-1;i++){\\n(uintreserveIn,uintreserveOut)=getReserves(factory,path[i],path[i+1]);\\namounts[i+1]=getAmountOut(amounts[i],reserveIn,reserveOut);\\n}\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functiongetAmountsOut(addressfactory,uintamountIn,address[]memorypath)internalviewreturns(uint[]memoryamounts){\\nrequire(path.length>=2,'PancakeLibrary: INVALID_PATH');\\namounts=newuint[](path.length);\\namounts[0]=amountIn;\\nfor(uinti;i<path.length-1;i++){\\n(uintreserveIn,uintreserveOut)=getReserves(factory,path[i],path[i+1]);\\namounts[i+1]=getAmountOut(amounts[i],reserveIn,reserveOut);\\n}\\n'\n"
+    ]
+}

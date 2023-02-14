@@ -1,30 +1,5 @@
 {
-    "mismatched input 'contract' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 4: mismatched input 'contract' expecting {';', NL}\n"
-    ],
-    "extraneous input '2' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}": [
-        "ERROR: when parsing line 2 column 2: extraneous input '2' expecting {'from', '}', 'error', 'using', 'struct', 'modifier', 'function', 'event', 'enum', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'fallback', 'receive', Identifier}\n"
-    ],
-    "missing '}' at '3'": [
-        "ERROR: when parsing line 3 column 2: missing '}' at '3'\n"
-    ],
-    "mismatched input 'function' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 8: mismatched input 'function' expecting {';', NL}\n"
-    ],
-    "mismatched input 'public' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 12: mismatched input 'public' expecting {';', NL}\n"
-    ],
-    "mismatched input '5' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 2: mismatched input '5' expecting {';', NL}\n"
-    ],
-    "extraneous input '{' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 8: extraneous input '{' expecting {';', NL}\n"
-    ],
-    "mismatched input '_mint' expecting {';', NL}": [
-        "ERROR: when parsing line 6 column 13: mismatched input '_mint' expecting {';', NL}\n"
-    ],
-    "extraneous input '}' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 9: extraneous input '}' expecting {';', NL}\n",
-        "ERROR: when parsing line 8 column 4: extraneous input '}' expecting {';', NL}\n"
+    "no viable alternative at input '1contract'": [
+        "ERROR: when parsing line 1 column 4: no viable alternative at input '1contract'\n"
     ]
 }

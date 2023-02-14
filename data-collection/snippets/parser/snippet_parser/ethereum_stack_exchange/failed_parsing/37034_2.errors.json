@@ -1,11 +1,5 @@
 {
-    "extraneous input 'rustc_hex' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 13: extraneous input 'rustc_hex' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input 'tiny_keccak' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 13: extraneous input 'tiny_keccak' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 13: mismatched input ':' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'externcraterustc_hex'": [
+        "ERROR: when parsing line 1 column 13: no viable alternative at input 'externcraterustc_hex'\n"
     ]
 }

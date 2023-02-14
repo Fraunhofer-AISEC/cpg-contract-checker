@@ -1,5 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 30: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'output[0]=BuyEstimateOutput(probablyusing'": [
+        "ERROR: when parsing line 1 column 40: no viable alternative at input 'output[0]=BuyEstimateOutput(probablyusing'\n"
     ]
 }

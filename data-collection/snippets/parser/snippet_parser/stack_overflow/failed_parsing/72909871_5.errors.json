@@ -1,11 +1,5 @@
 {
-    "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 3: mismatched input ')' expecting {';', NL}\n"
-    ],
-    "extraneous input 'calls' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 15: extraneous input 'calls' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'delegateCallGetDatafunction'": [
-        "ERROR: when parsing line 2 column 27: no viable alternative at input 'delegateCallGetDatafunction'\n"
+    "no viable alternative at input '1)'": [
+        "ERROR: when parsing line 1 column 3: no viable alternative at input '1)'\n"
     ]
 }

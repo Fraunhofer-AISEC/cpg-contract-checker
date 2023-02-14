@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionexchange2(int128i,int128j,uint256dx,uint256min_dy)public{\\n(boolsuccess,bytesmemoryresult)=delegationTarget.delegatecall(\\nabi.encodeWithSignature(\"exchange(int128,int128,uint256,uint256)\",i,j,dx,min_dy)\\n);\\nif(!success){\\nif(result.length>0){\\nrevert(string(result));\\n}else{\\nrevert();\\n}\\n}\\n\\n'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functionexchange2(int128i,int128j,uint256dx,uint256min_dy)public{\\n(boolsuccess,bytesmemoryresult)=delegationTarget.delegatecall(\\nabi.encodeWithSignature(\"exchange(int128,int128,uint256,uint256)\",i,j,dx,min_dy)\\n);\\nif(!success){\\nif(result.length>0){\\nrevert(string(result));\\n}else{\\nrevert();\\n}\\n}\\n\\n'\n"
+    ]
+}

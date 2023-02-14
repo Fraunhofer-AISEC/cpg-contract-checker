@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfoo(ERC20_project)external{\\n\\nfunctionfuu'": [
+        "ERROR: when parsing line 3 column 9: no viable alternative at input 'functionfoo(ERC20_project)external{\\n\\nfunctionfuu'\n"
+    ]
+}

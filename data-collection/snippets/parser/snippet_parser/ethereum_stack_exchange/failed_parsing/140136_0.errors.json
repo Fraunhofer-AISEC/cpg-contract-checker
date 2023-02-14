@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontest_bytes(bytes32test)externalpurereturns(bytes3idx,uint256idx2)\\n{\\n\\n\\n\\nassembly{\\ncalldatacopy(0x0,33,36)\\nidx:=mload(0x0)\\nidx2:=mload(add(idx,32))\\n}\\n'": [
+        "ERROR: when parsing line 11 column 0: no viable alternative at input 'functiontest_bytes(bytes32test)externalpurereturns(bytes3idx,uint256idx2)\\n{\\n\\n\\n\\nassembly{\\ncalldatacopy(0x0,33,36)\\nidx:=mload(0x0)\\nidx2:=mload(add(idx,32))\\n}\\n'\n"
+    ]
+}

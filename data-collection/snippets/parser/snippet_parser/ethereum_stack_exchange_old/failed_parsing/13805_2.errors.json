@@ -1,0 +1,14 @@
+{
+    "extraneous input 'getVal' expecting {'(', NL}": [
+        "ERROR: when parsing line 8 column 13: extraneous input 'getVal' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'p_id' expecting {',', ')'}": [
+        "ERROR: when parsing line 8 column 26: extraneous input 'p_id' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'returns' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 8 column 32: mismatched input 'returns' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input '{' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 49: extraneous input '{' expecting {'=', ';', NL}\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionenterToken(addresstoken,uintamount)public{\\nuint_amount=amount*10**18;\\nIERC20token_=IERC20(token);\\nrequire(token_.approve(address(this),_amount),'Approve failed.');\\nrequire(token_.transferFrom(msg.sender,address(this),_amount),'Transfer failed.');\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionenterToken(addresstoken,uintamount)public{\\nuint_amount=amount*10**18;\\nIERC20token_=IERC20(token);\\nrequire(token_.approve(address(this),_amount),'Approve failed.');\\nrequire(token_.transferFrom(msg.sender,address(this),_amount),'Transfer failed.');\\n'\n"
+    ]
+}

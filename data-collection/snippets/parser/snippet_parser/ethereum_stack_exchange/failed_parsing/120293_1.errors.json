@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionloopAndClear(uint256street)public{\\nuint[]storagearray=streetMap[street];\\nfor(uinti=array.length;i>0;i--){\\nuintitemID=array[i-1];\\nexecute(itemID);\\nif(accounts[itemID].balance==0){\\ndeletestreetMap[i-1];\\n}\\n}\\n'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'functionloopAndClear(uint256street)public{\\nuint[]storagearray=streetMap[street];\\nfor(uinti=array.length;i>0;i--){\\nuintitemID=array[i-1];\\nexecute(itemID);\\nif(accounts[itemID].balance==0){\\ndeletestreetMap[i-1];\\n}\\n}\\n'\n"
+    ]
+}

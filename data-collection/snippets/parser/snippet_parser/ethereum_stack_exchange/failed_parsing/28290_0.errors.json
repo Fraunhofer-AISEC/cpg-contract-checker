@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetCardById(uintid)constantreturns(uintidRet,stringname,stringemail,stringcomment){\\n\\nfor(uinti=0;i<count;i++){\\n\\nif(cards[i].id==id){\\n\\nidRet=cards[i].id;\\n\\nname=cards[i].name;\\n\\nemail=cards[i].email;\\n\\ncomment=cards[i].comment;\\n\\nreturn;\\n\\n}\\n\\n}\\n'": [
+        "ERROR: when parsing line 20 column 0: no viable alternative at input 'functiongetCardById(uintid)constantreturns(uintidRet,stringname,stringemail,stringcomment){\\n\\nfor(uinti=0;i<count;i++){\\n\\nif(cards[i].id==id){\\n\\nidRet=cards[i].id;\\n\\nname=cards[i].name;\\n\\nemail=cards[i].email;\\n\\ncomment=cards[i].comment;\\n\\nreturn;\\n\\n}\\n\\n}\\n'\n"
+    ]
+}

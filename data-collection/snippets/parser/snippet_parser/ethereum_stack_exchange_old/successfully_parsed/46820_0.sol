@@ -1,0 +1,3 @@
+function whatIsPut() payable {
+put();
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionreturnRandomValue()publicviewreturns(uint){\\nreturnsomethingFromStorage[0];\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionreturnRandomValue()publicviewreturns(uint){\\nreturnsomethingFromStorage[0];\\n'\n"
+    ]
+}

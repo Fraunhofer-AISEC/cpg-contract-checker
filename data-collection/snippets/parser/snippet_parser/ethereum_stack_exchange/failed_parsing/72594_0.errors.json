@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function()publicpayable{\\nrequire(currentStage==Stages.icoStart);\\nrequire(msg.value>0);\\nrequire(remainingTokens>0);\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'function()publicpayable{\\nrequire(currentStage==Stages.icoStart);\\nrequire(msg.value>0);\\nrequire(remainingTokens>0);\\n'\n"
+    ]
+}

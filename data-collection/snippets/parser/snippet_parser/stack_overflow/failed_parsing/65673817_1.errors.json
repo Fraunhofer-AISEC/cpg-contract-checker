@@ -1,5 +1,5 @@
 {
-    "extraneous input '{' expecting {',', ')'}": [
-        "ERROR: when parsing line 1 column 87: extraneous input '{' expecting {',', ')'}\n"
+    "no viable alternative at input 'functionmultiValueFunction()publicreturns(bool,stringmemory,uint[]memory,uint{'": [
+        "ERROR: when parsing line 1 column 87: no viable alternative at input 'functionmultiValueFunction()publicreturns(bool,stringmemory,uint[]memory,uint{'\n"
     ]
 }

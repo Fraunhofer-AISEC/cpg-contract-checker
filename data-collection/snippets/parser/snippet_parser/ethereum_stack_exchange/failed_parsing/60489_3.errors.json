@@ -1,8 +1,5 @@
 {
-    "mismatched input 'of' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input 'of' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Solidity' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 31: mismatched input 'Solidity' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Invalidnumberof'": [
+        "ERROR: when parsing line 1 column 15: no viable alternative at input 'Invalidnumberof'\n"
     ]
 }

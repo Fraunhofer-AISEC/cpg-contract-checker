@@ -1,11 +1,5 @@
 {
-    "mismatched input 'Token' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 5: mismatched input 'Token' expecting {';', NL}\n"
-    ],
-    "extraneous input '{' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 19: extraneous input '{' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'id:'": [
-        "ERROR: when parsing line 2 column 4: no viable alternative at input 'id:'\n"
+    "no viable alternative at input 'typeToken'": [
+        "ERROR: when parsing line 1 column 5: no viable alternative at input 'typeToken'\n"
     ]
 }

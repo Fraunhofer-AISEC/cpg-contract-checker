@@ -1,8 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 18: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "missing ')' at ';'": [
-        "ERROR: when parsing line 4 column 25: missing ')' at ';'\n"
+    "no viable alternative at input 'functionregisterDriver(uint_perkm)publicpayablereturns(stringmemory){\\nrequire(Drivers[msg.sender]==0,Driver.driverCount++;'": [
+        "ERROR: when parsing line 4 column 25: no viable alternative at input 'functionregisterDriver(uint_perkm)publicpayablereturns(stringmemory){\\nrequire(Drivers[msg.sender]==0,Driver.driverCount++;'\n"
     ]
 }

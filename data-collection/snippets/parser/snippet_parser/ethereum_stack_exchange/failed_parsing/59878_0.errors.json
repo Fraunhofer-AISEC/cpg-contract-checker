@@ -1,5 +1,5 @@
 {
-    "extraneous input 'days' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 29: extraneous input 'days' expecting {';', NL}\n"
+    "no viable alternative at input 'functionany(uinttimeInDays)public\\n{\\nuint256TotalDays=timeInDaysdays'": [
+        "ERROR: when parsing line 3 column 29: no viable alternative at input 'functionany(uinttimeInDays)public\\n{\\nuint256TotalDays=timeInDaysdays'\n"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetUserBetsfromBettingObject(uintindex,addresscallerAddress)constantreturns(uint){\\nBettingObjectmemorycurrentBettingObject=arrayOfBettingObjects[index];\\nif(currentBettingObject.currentState==GameState.bitcoinUpWon){\\nreturncurrentBettingObject.betsOnBitcoinGoesUp[callerAddress];\\n}elseif(currentBettingObject.currentState==GameState.bitcoinDownWon){\\nreturncurrentBettingObject.betsOnBitcoinGoesDown[callerAddress];\\n}else{\\nreturn0;\\n}\\n'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'functiongetUserBetsfromBettingObject(uintindex,addresscallerAddress)constantreturns(uint){\\nBettingObjectmemorycurrentBettingObject=arrayOfBettingObjects[index];\\nif(currentBettingObject.currentState==GameState.bitcoinUpWon){\\nreturncurrentBettingObject.betsOnBitcoinGoesUp[callerAddress];\\n}elseif(currentBettingObject.currentState==GameState.bitcoinDownWon){\\nreturncurrentBettingObject.betsOnBitcoinGoesDown[callerAddress];\\n}else{\\nreturn0;\\n}\\n'\n"
+    ]
+}

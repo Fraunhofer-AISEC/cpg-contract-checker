@@ -1,0 +1,6 @@
+struct Example {
+  ...
+}
+contract Controller {
+  ...
+}

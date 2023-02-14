@@ -1,0 +1,20 @@
+{
+    "extraneous input 'test' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 12: extraneous input 'test' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'to' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 8: mismatched input 'to' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'any' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 20: mismatched input 'any' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'typings' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 30: mismatched input 'typings' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'when' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 4: mismatched input 'when' expecting {';', NL}\n"
+    ],
+    "mismatched input 'transfer' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 6 column 11: mismatched input 'transfer' expecting {'=', ';', NL}\n"
+    ]
+}
