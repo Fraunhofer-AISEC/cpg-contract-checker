@@ -6,7 +6,7 @@ import org.neo4j.driver.Transaction
 class TimeManipulationCheck : Check() {
 
     override fun getVulnerabilityName(): String {
-        return "Time Manipulation Vulnerability"
+        return "Miners can manipulate program execution by selecting when to include the timestamp"
     }
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {

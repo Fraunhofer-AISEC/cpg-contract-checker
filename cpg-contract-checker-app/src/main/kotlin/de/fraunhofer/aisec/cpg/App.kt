@@ -148,11 +148,10 @@ class App : Callable<Int> {
         checks.add(DefaultProxyDelegateCheck())
         checks.add(TXOriginCheck())
         checks.add(DOSCheck())
+        checks.add(TimeManipulationCheck())
         checks.add(AddressPaddingCheck())
         checks.add(LocalWriteToStorageCheck())
         checks.add(OverUnderflowCheck())
-        checks.add(DOSThroughExhaustionCheck())
-        checks.add(TimeManipulationCheck())
     }
 
     fun persistGraph(result: TranslationResult){

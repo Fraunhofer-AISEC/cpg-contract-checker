@@ -1,43 +1,16 @@
-MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m) -[:EOG*]->(l:CallExpression)
-WHERE n.name = "timestamp"
-    AND l.name = "send"
-RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+match (r:DeclaredReferenceExpression)
+where r.code in ['now','block.timestamp']
+and (exists { (r)-[:DFG*]->(:ReturnStatement)}
+or exists{ // This should also capture calls to send and transfer
+    (r)-[:DFG*]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}
 
+} or exists {
+    (r)-[:DFG*]->(:FieldDeclaration)
+} or exists {
+    (r)-[:DFG*]->(branch)-[:EOG]->(th)-[:EOG*]->(interesting) where exists {(branch)-[:EOG]->(el) where el <> th
+    and (interesting:Rollback or interesting:CallExpression)
+    and not exists ((el)-[:EOG*]->(interesting))}
+}
 
-// Dataflow from `block.timestamp` to return value of a function
-// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/timed_crowdsale.sol#L13
-// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/lottopollo.sol#L27
-MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m:ReturnStatement)
-WHERE n.code = "block.timestamp"
-RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
-
-
-// Writing `now` to a field
-// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/roulette.sol#20
-// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/governmental_survey.sol#27
-MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m:FieldDeclaration)
-WHERE n.code IN ["now", "block.timestamp"]
-RETURN DISTINCT n
-
-
-// Conditional branch on `now` leading to a `transfer()`
-// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/roulette.sol#21
-// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/lottopollo.sol#13
-//
-// Necessary improvements:
-// - `else` statement
-MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]->(o),
-      p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
-WHERE n.code = "now"
-    AND transferCall.name IN ["transfer", "send"]
-RETURN DISTINCT n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
-
-
-// `require` with a dataflow from `now`
-// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/roulette.sol#18
-MATCH p=(m:Require)-[:CONDITION]->()<-[:DFG*]-(n:DeclaredReferenceExpression)
-WHERE n.code = "now"
-    AND EXISTS {
-        (n)-[:EOG*]->(m)
-    }
-RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+)
+return distinct  r as refference, r.startLine as sline, r.endLine as eline, r.startColumn as scol, r.endColumn as ecol, r.artifact as file, r.name as name

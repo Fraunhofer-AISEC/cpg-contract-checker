@@ -1,0 +1,43 @@
+MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m) -[:EOG*]->(l:CallExpression)
+WHERE n.name = "timestamp"
+    AND l.name = "send"
+RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// Dataflow from `block.timestamp` to return value of a function
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/timed_crowdsale.sol#L13
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/lottopollo.sol#L27
+MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m:ReturnStatement)
+WHERE n.code = "block.timestamp"
+RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// Writing `now` to a field
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/roulette.sol#20
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/governmental_survey.sol#27
+MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m:FieldDeclaration)
+WHERE n.code IN ["now", "block.timestamp"]
+RETURN DISTINCT n
+
+
+// Conditional branch on `now` leading to a `transfer()`
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/roulette.sol#21
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/lottopollo.sol#13
+//
+// Necessary improvements:
+// - `else` statement
+MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]->(o),
+      p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
+WHERE n.code = "now"
+    AND transferCall.name IN ["transfer", "send"]
+RETURN DISTINCT n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// `require` with a dataflow from `now`
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/time_manipulation/roulette.sol#18
+MATCH p=(m:Require)-[:CONDITION]->()<-[:DFG*]-(n:DeclaredReferenceExpression)
+WHERE n.code = "now"
+    AND EXISTS {
+        (n)-[:EOG*]->(m)
+    }
+RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
