@@ -20,9 +20,6 @@
     "mismatched input 'contract' expecting {'=', ';', NL}": [
         "ERROR: when parsing line 3 column 23: mismatched input 'contract' expecting {'=', ';', NL}\n"
     ],
-    "mismatched input ':' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 3 column 31: mismatched input ':' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
     "mismatched input '<EOF>' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
         "ERROR: when parsing line 4 column 0: mismatched input '<EOF>' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
     ]

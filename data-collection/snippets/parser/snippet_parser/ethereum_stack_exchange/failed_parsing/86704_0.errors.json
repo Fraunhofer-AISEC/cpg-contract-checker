@@ -1,5 +1,54 @@
 {
-    "no viable alternative at input 'bytesmemory'": [
-        "ERROR: when parsing line 1 column 6: no viable alternative at input 'bytesmemory'\n"
+    "no viable alternative at input 'Error:'": [
+        "ERROR: when parsing line 2 column 5: no viable alternative at input 'Error:'\n",
+        "ERROR: when parsing line 5 column 5: no viable alternative at input 'Error:'\n",
+        "ERROR: when parsing line 9 column 5: no viable alternative at input 'Error:'\n",
+        "ERROR: when parsing line 12 column 5: no viable alternative at input 'Error:'\n"
+    ],
+    "mismatched input '5' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 22: mismatched input '5' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'is' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 24: mismatched input 'is' expecting {';', NL}\n"
+    ],
+    "mismatched input 'convertible' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 42: mismatched input 'convertible' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 9 column 37: mismatched input 'convertible' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'expected' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 57: mismatched input 'expected' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 9 column 52: mismatched input 'expected' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'bytes' expecting {';', NL}": [
+        "ERROR: when parsing line 2 column 71: mismatched input 'bytes' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 66: mismatched input 'bytes' expecting {';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 2 column 83: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 9 column 78: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'conversion' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 21: mismatched input 'conversion' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 21: mismatched input 'conversion' expecting {';', NL}\n"
+    ],
+    "mismatched input 'allowed' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 36: mismatched input 'allowed' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 12 column 36: mismatched input 'allowed' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '\"int_const 5\"' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 49: mismatched input '\"int_const 5\"' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'to' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 63: mismatched input 'to' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 58: mismatched input 'to' expecting {';', NL}\n"
+    ],
+    "extraneous input 'bytes1' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 7 column 0: extraneous input 'bytes1' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input '\"bytes1\"' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 12 column 49: mismatched input '\"bytes1\"' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '<EOF>' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 13 column 0: mismatched input '<EOF>' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
     ]
 }

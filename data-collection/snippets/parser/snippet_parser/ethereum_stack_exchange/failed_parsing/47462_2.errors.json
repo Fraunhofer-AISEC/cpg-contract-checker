@@ -1,8 +1,64 @@
 {
     "extraneous input 'dup1' expecting {';', NL}": [
-        "ERROR: when parsing line 6 column 2: extraneous input 'dup1' expecting {';', NL}\n"
+        "ERROR: when parsing line 6 column 2: extraneous input 'dup1' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 2: extraneous input 'dup1' expecting {';', NL}\n"
     ],
-    "no viable alternative at input 'revert\\ntag_1:'": [
-        "ERROR: when parsing line 8 column 5: no viable alternative at input 'revert\\ntag_1:'\n"
+    "mismatched input 'tag_1' expecting {';', NL}": [
+        "ERROR: when parsing line 8 column 0: mismatched input 'tag_1' expecting {';', NL}\n"
+    ],
+    "extraneous input 'codecopy' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 14 column 2: extraneous input 'codecopy' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '0x40' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 17 column 2: extraneous input '0x40' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'dup1' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 20 column 2: extraneous input 'dup1' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '0x20' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 23 column 2: extraneous input '0x20' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'swap2' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 26 column 2: extraneous input 'swap2' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'pop' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 29 column 2: extraneous input 'pop' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 53 column 2: extraneous input 'pop' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '0x0' expecting {';', NL}": [
+        "ERROR: when parsing line 33 column 2: extraneous input '0x0' expecting {';', NL}\n"
+    ],
+    "extraneous input '0x100' expecting {';', NL}": [
+        "ERROR: when parsing line 36 column 2: extraneous input '0x100' expecting {';', NL}\n"
+    ],
+    "extraneous input 'sload' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 39 column 2: extraneous input 'sload' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '0xffffffffffffffffffffffffffffffffffffffff' expecting {';', NL}": [
+        "ERROR: when parsing line 41 column 2: extraneous input '0xffffffffffffffffffffffffffffffffffffffff' expecting {';', NL}\n"
+    ],
+    "extraneous input 'and' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 44 column 2: extraneous input 'and' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '0xffffffffffffffffffffffffffffffffffffffff' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 47 column 2: extraneous input '0xffffffffffffffffffffffffffffffffffffffff' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'or' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 50 column 2: extraneous input 'or' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'dataSize' expecting {';', NL}": [
+        "ERROR: when parsing line 57 column 2: mismatched input 'dataSize' expecting {';', NL}\n"
+    ],
+    "mismatched input 'dataOffset' expecting {';', NL}": [
+        "ERROR: when parsing line 59 column 2: mismatched input 'dataOffset' expecting {';', NL}\n"
+    ],
+    "extraneous input 'codecopy' expecting {';', NL}": [
+        "ERROR: when parsing line 61 column 2: extraneous input 'codecopy' expecting {';', NL}\n"
+    ],
+    "extraneous input 'return' expecting {';', NL}": [
+        "ERROR: when parsing line 63 column 2: extraneous input 'return' expecting {';', NL}\n"
+    ],
+    "mismatched input 'sub_0' expecting {';', NL}": [
+        "ERROR: when parsing line 66 column 0: mismatched input 'sub_0' expecting {';', NL}\n"
     ]
 }

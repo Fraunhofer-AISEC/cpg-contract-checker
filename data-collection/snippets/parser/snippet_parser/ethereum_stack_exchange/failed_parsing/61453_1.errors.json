@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionMembershipPayment(string_compneyname,uint256_DistributerId,uint256_RefrenceDistributerId,uint256_AmountPaid,address_refrenceaa)publicpayable{\\n\\nrequire(msg.value>0.01ether);\\n\\nloyalitypoints(RefrenceDistributerId)\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionMembershipPayment(string_compneyname,uint256_DistributerId,uint256_RefrenceDistributerId,uint256_AmountPaid,address_refrenceaa)publicpayable{\\n\\nrequire(msg.value>0.01ether);\\n\\nloyalitypoints(RefrenceDistributerId)\\n'\n"
+    ]
+}

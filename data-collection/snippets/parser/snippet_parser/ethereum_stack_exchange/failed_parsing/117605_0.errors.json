@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'players.length='": [
+        "ERROR: when parsing line 5 column 15: no viable alternative at input 'players.length='\n"
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input '(10x'": [
-        "ERROR: when parsing line 3 column 25: no viable alternative at input '(10x'\n"
+    "no viable alternative at input 'uintm_BUSD_ante=10;\\nuint[]RateTaker=[1000000000000000000,28664197599903540];\\nuintHCT_ante=(10x'": [
+        "ERROR: when parsing line 3 column 25: no viable alternative at input 'uintm_BUSD_ante=10;\\nuint[]RateTaker=[1000000000000000000,28664197599903540];\\nuintHCT_ante=(10x'\n"
     ]
 }

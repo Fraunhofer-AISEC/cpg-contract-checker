@@ -1,8 +1,5 @@
 {
-    "extraneous input '?' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 57: extraneous input '?' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input '<EOF>' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 2 column 0: mismatched input '<EOF>' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'uint256RetrieveSecondsTime=invest.depositTime-now??'": [
+        "ERROR: when parsing line 1 column 57: no viable alternative at input 'uint256RetrieveSecondsTime=invest.depositTime-now??'\n"
     ]
 }

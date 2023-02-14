@@ -1,0 +1,14 @@
+{
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 4: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'Desktop' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 19: mismatched input 'Desktop' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '>' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 43: mismatched input '>' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 69: mismatched input '.' expecting {'=', ';', NL}\n"
+    ]
+}

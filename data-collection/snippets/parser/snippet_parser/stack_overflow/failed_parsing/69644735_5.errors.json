@@ -1,20 +1,8 @@
 {
-    "extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 0: extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    "extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 1 column 0: extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
     ],
-    "extraneous input '<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 13: extraneous input '<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input 'deploy' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 47: mismatched input 'deploy' expecting {';', NL}\n"
-    ],
-    "mismatched input '{' expecting {'~', 'from', '(', 'error', '[', ']', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 4 column 4: mismatched input '{' expecting {'~', 'from', '(', 'error', '[', ']', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment}\n"
-    ],
-    "mismatched input 'type' expecting '}'": [
-        "ERROR: when parsing line 13 column 6: mismatched input 'type' expecting '}'\n"
-    ],
-    "mismatched input '}' expecting {';', NL}": [
-        "ERROR: when parsing line 14 column 4: mismatched input '}' expecting {';', NL}\n"
+    "no viable alternative at input 'myusername><'": [
+        "ERROR: when parsing line 1 column 13: no viable alternative at input 'myusername><'\n"
     ]
 }

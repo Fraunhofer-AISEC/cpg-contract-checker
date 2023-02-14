@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function__callback(bytes32myid,uint256result){\\nif(msg.sender!=oraclize_cbAddress()){throw;}\\nrandomNum=result;\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'function__callback(bytes32myid,uint256result){\\nif(msg.sender!=oraclize_cbAddress()){throw;}\\nrandomNum=result;\\n'\n"
+    ]
+}

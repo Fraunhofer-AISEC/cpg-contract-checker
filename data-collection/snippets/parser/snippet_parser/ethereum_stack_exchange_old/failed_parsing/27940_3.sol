@@ -1,0 +1,3 @@
+contract TutorialToken is StandardToken, Ownable {
+   ...
+}

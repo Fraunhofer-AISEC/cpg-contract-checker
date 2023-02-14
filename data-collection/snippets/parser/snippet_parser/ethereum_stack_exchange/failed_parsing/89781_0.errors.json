@@ -1,0 +1,14 @@
+{
+    "extraneous input 'updateValueAtNow' expecting {'(', NL}": [
+        "ERROR: when parsing line 8 column 13: extraneous input 'updateValueAtNow' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'checkpoints' expecting {',', ')'}": [
+        "ERROR: when parsing line 8 column 51: extraneous input 'checkpoints' expecting {',', ')'}\n"
+    ],
+    "extraneous input '_value' expecting ')'": [
+        "ERROR: when parsing line 8 column 72: extraneous input '_value' expecting ')'\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 8 column 89: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

@@ -27,19 +27,7 @@ and(
         and (not b in nodes(bpath) or 'Rollback' in labels(l))
         and not exists {
             (dfOrigin)-[:DFG*]->(b) where not exists(()-[:DFG]->(dfOrigin)) and not exists ((dfOrigin)-[:DFG*]->(branch))
-        }
-} or exists{
-        (b)-[:DFG*]->(c)-[:EOG]->(t)
-        where exists {(c)-[:EOG]->(v) where t <> v}
-        and not exists {
-            bpath=(f)-[:EOG*]->(branch)-[:EOG*]->(l)
-            where exists{(branch)-[:EOG]->(other) where not other in nodes(bpath)} and branch <> c and branch in nodes(p) and not exists((l)-[:EOG]->())
-            and (not b in nodes(bpath) or 'Rollback' in labels(l))
-            and not exists {
-                (dfOrigin)-[:DFG*]->(b) where not exists(()-[:DFG]->(dfOrigin)) and not exists ((dfOrigin)-[:DFG*]->(branch))
-            }
-        }
-
+        } and not exists{(b)-[:DFG*]->(branch)}
 }
 
 )

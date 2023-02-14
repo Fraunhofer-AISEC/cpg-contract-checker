@@ -1,5 +1,169 @@
 {
     "mismatched input 'decode_log' expecting {';', NL}": [
         "ERROR: when parsing line 6 column 4: mismatched input 'decode_log' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'ethabidecodelog\\nabi'": [
+        "ERROR: when parsing line 7 column 18: no viable alternative at input 'ethabidecodelog\\nabi'\n"
+    ],
+    "extraneous input ']' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 46: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 11 column 58: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 145: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 66: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 141: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 66: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 141: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 66: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 141: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 19 column 66: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 141: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 21 column 66: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 24 column 31: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 25 column 73: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 28 column 53: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 32 column 17: extraneous input ']' expecting {';', NL}\n",
+        "ERROR: when parsing line 33 column 96: extraneous input ']' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'decode_cbor[type=cborparsedata'": [
+        "ERROR: when parsing line 11 column 33: no viable alternative at input 'decode_cbor[type=cborparsedata'\n"
+    ],
+    "mismatched input 'data' expecting {',', ']'}": [
+        "ERROR: when parsing line 11 column 33: mismatched input 'data' expecting {',', ']'}\n"
+    ],
+    "no viable alternative at input 'fetch_1[type=bridgename'": [
+        "ERROR: when parsing line 12 column 32: no viable alternative at input 'fetch_1[type=bridgename'\n"
+    ],
+    "mismatched input 'name' expecting {',', ']'}": [
+        "ERROR: when parsing line 12 column 32: mismatched input 'name' expecting {',', ']'}\n",
+        "ERROR: when parsing line 14 column 32: mismatched input 'name' expecting {',', ']'}\n",
+        "ERROR: when parsing line 16 column 32: mismatched input 'name' expecting {',', ']'}\n",
+        "ERROR: when parsing line 18 column 32: mismatched input 'name' expecting {',', ']'}\n",
+        "ERROR: when parsing line 20 column 32: mismatched input 'name' expecting {',', ']'}\n"
+    ],
+    "mismatched input 'requestData' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 49: mismatched input 'requestData' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 45: mismatched input 'requestData' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 45: mismatched input 'requestData' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 45: mismatched input 'requestData' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 45: mismatched input 'requestData' expecting {';', NL}\n"
+    ],
+    "mismatched input 'id' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 66: mismatched input 'id' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 62: mismatched input 'id' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 62: mismatched input 'id' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 62: mismatched input 'id' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 62: mismatched input 'id' expecting {';', NL}\n"
+    ],
+    "mismatched input 'data' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 102: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 13 column 49: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 98: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 15 column 49: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 98: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 49: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 98: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 19 column 49: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 98: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 21 column 49: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 25 column 49: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 31 column 269: mismatched input 'data' expecting {';', NL}\n",
+        "ERROR: when parsing line 33 column 77: mismatched input 'data' expecting {';', NL}\n"
+    ],
+    "mismatched input 'txh' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 116: mismatched input 'txh' expecting {';', NL}\n",
+        "ERROR: when parsing line 14 column 112: mismatched input 'txh' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 112: mismatched input 'txh' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 112: mismatched input 'txh' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 112: mismatched input 'txh' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'parse_1[type=jsonparsepath'": [
+        "ERROR: when parsing line 13 column 35: no viable alternative at input 'parse_1[type=jsonparsepath'\n"
+    ],
+    "mismatched input 'path' expecting {',', ']'}": [
+        "ERROR: when parsing line 13 column 35: mismatched input 'path' expecting {',', ']'}\n",
+        "ERROR: when parsing line 15 column 35: mismatched input 'path' expecting {',', ']'}\n",
+        "ERROR: when parsing line 17 column 35: mismatched input 'path' expecting {',', ']'}\n",
+        "ERROR: when parsing line 19 column 35: mismatched input 'path' expecting {',', ']'}\n",
+        "ERROR: when parsing line 21 column 35: mismatched input 'path' expecting {',', ']'}\n",
+        "ERROR: when parsing line 25 column 33: mismatched input 'path' expecting {',', ']'}\n"
+    ],
+    "no viable alternative at input 'fetch_2[type=bridgename'": [
+        "ERROR: when parsing line 14 column 32: no viable alternative at input 'fetch_2[type=bridgename'\n"
+    ],
+    "no viable alternative at input 'parse_2[type=jsonparsepath'": [
+        "ERROR: when parsing line 15 column 35: no viable alternative at input 'parse_2[type=jsonparsepath'\n"
+    ],
+    "no viable alternative at input 'fetch_3[type=bridgename'": [
+        "ERROR: when parsing line 16 column 32: no viable alternative at input 'fetch_3[type=bridgename'\n"
+    ],
+    "no viable alternative at input 'parse_3[type=jsonparsepath'": [
+        "ERROR: when parsing line 17 column 35: no viable alternative at input 'parse_3[type=jsonparsepath'\n"
+    ],
+    "no viable alternative at input 'fetch_4[type=bridgename'": [
+        "ERROR: when parsing line 18 column 32: no viable alternative at input 'fetch_4[type=bridgename'\n"
+    ],
+    "no viable alternative at input 'parse_4[type=jsonparsepath'": [
+        "ERROR: when parsing line 19 column 35: no viable alternative at input 'parse_4[type=jsonparsepath'\n"
+    ],
+    "no viable alternative at input 'fetch_5[type=bridgename'": [
+        "ERROR: when parsing line 20 column 32: no viable alternative at input 'fetch_5[type=bridgename'\n"
+    ],
+    "no viable alternative at input 'parse_5[type=jsonparsepath'": [
+        "ERROR: when parsing line 21 column 35: no viable alternative at input 'parse_5[type=jsonparsepath'\n"
+    ],
+    "no viable alternative at input 'my_median_task[type=\"mode\"\\nvalues'": [
+        "ERROR: when parsing line 23 column 16: no viable alternative at input 'my_median_task[type=\"mode\"\\nvalues'\n"
+    ],
+    "mismatched input '\\n' expecting {',', ']'}": [
+        "ERROR: when parsing line 22 column 31: mismatched input '\\n' expecting {',', ']'}\n"
+    ],
+    "extraneous input '<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 23 column 23: extraneous input '<' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "no viable alternative at input 'parse_mode[type=jsonparsepath'": [
+        "ERROR: when parsing line 25 column 33: no viable alternative at input 'parse_mode[type=jsonparsepath'\n"
+    ],
+    "no viable alternative at input 'encode_data[type=ethabiencode\\nabi'": [
+        "ERROR: when parsing line 27 column 16: no viable alternative at input 'encode_data[type=ethabiencode\\nabi'\n"
+    ],
+    "no viable alternative at input 'ethabiencode\\nabi'": [
+        "ERROR: when parsing line 27 column 16: no viable alternative at input 'ethabiencode\\nabi'\n",
+        "ERROR: when parsing line 30 column 18: no viable alternative at input 'ethabiencode\\nabi'\n"
+    ],
+    "mismatched input 'value' expecting {';', NL}": [
+        "ERROR: when parsing line 28 column 27: mismatched input 'value' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'encode_tx[type=ethabiencode\\nabi'": [
+        "ERROR: when parsing line 30 column 18: no viable alternative at input 'encode_tx[type=ethabiencode\\nabi'\n"
+    ],
+    "mismatched input 'requestId' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 28: mismatched input 'requestId' expecting {';', NL}\n"
+    ],
+    "mismatched input 'payment' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 70: mismatched input 'payment' expecting {';', NL}\n"
+    ],
+    "mismatched input 'callbackAddress' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 108: mismatched input 'callbackAddress' expecting {';', NL}\n"
+    ],
+    "mismatched input 'callbackFunctionId' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 159: mismatched input 'callbackFunctionId' expecting {';', NL}\n"
+    ],
+    "mismatched input 'expiration' expecting {';', NL}": [
+        "ERROR: when parsing line 31 column 219: mismatched input 'expiration' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'submit_tx[type=ethtxto'": [
+        "ERROR: when parsing line 33 column 29: no viable alternative at input 'submit_tx[type=ethtxto'\n"
+    ],
+    "mismatched input 'to' expecting {',', ']'}": [
+        "ERROR: when parsing line 33 column 29: mismatched input 'to' expecting {',', ']'}\n"
+    ],
+    "no viable alternative at input 'decode_log->'": [
+        "ERROR: when parsing line 35 column 15: no viable alternative at input 'decode_log->'\n"
+    ],
+    "mismatched input '\"\"' expecting {';', NL}": [
+        "ERROR: when parsing line 36 column 0: mismatched input '\"\"' expecting {';', NL}\n"
+    ],
+    "mismatched input 'externalJobID' expecting {';', NL}": [
+        "ERROR: when parsing line 37 column 0: mismatched input 'externalJobID' expecting {';', NL}\n"
     ]
 }

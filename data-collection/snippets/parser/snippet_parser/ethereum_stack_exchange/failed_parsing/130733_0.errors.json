@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'FlashLoanReceiverBase.sol:'": [
-        "ERROR: when parsing line 1 column 35: no viable alternative at input 'FlashLoanReceiverBase.sol:'\n"
+    "no viable alternative at input 'contracts/FlashLoanReceiverBase.sol:'": [
+        "ERROR: when parsing line 1 column 35: no viable alternative at input 'contracts/FlashLoanReceiverBase.sol:'\n"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "mismatched input ')' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 7 column 20: mismatched input ')' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    "no viable alternative at input 'functionclaimPayment()publicreturns(bool){\\nuintarrayLength=unpaidActions[msg.sender].length;\\nif(arrayLength!=0){\\n\\nfor(uinti=0;i<arrayLength;i++){\\n\\nif()'": [
+        "ERROR: when parsing line 7 column 20: no viable alternative at input 'functionclaimPayment()publicreturns(bool){\\nuintarrayLength=unpaidActions[msg.sender].length;\\nif(arrayLength!=0){\\n\\nfor(uinti=0;i<arrayLength;i++){\\n\\nif()'\n"
     ]
 }

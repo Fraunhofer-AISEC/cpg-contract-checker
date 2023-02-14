@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsellToken(uint256_amount)external{\\ntoken.transferFrom(msg.sender,address(this),_amount);\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functionsellToken(uint256_amount)external{\\ntoken.transferFrom(msg.sender,address(this),_amount);\\n'\n"
+    ]
+}

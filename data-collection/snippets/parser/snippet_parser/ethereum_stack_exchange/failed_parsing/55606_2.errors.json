@@ -1,14 +1,5 @@
 {
-    "mismatched input 'someType' expecting {',', ')'}": [
-        "ERROR: when parsing line 1 column 50: mismatched input 'someType' expecting {',', ')'}\n"
-    ],
-    "mismatched input ')' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 69: mismatched input ')' expecting {'{', 'returns', ';', NL}\n"
-    ],
-    "extraneous input '{' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 108: extraneous input '{' expecting {';', NL}\n"
-    ],
-    "extraneous input 'return' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 3 column 5: extraneous input 'return' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'functionNumberOfKeysInPossession(addressaccountsomeType'": [
+        "ERROR: when parsing line 1 column 50: no viable alternative at input 'functionNumberOfKeysInPossession(addressaccountsomeType'\n"
     ]
 }

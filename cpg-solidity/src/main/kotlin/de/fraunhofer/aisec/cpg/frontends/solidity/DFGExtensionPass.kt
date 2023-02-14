@@ -42,6 +42,14 @@ class DFGExtensionPass: Pass() {
             }
         }
 
+        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("push") }.forEach {
+            val call = it
+            it.base?.let {
+                val base = it
+                call.arguments.forEach { base.addPrevDFG(it) }
+            }
+        }
+
 
     }
 

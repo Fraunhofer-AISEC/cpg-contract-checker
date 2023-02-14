@@ -1,0 +1,3 @@
+function MyMethod(uint[] memory arr){
+  .....
+}

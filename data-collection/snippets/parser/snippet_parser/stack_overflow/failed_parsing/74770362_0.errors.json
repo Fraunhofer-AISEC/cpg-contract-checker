@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninitRaffle(address_tokenContract,uint256_tokenId,uint256_ticketPrice)external{\\nrequire(_ticketPrice>0,\"Ticket price must be bigger than 0\");\\nrequire(LINKToken.balanceOf(msg.sender)>=ChainlinkFee,\"Insufficient LINK supplied\");\\nrequire(LINKToken.allowance(msg.sender,address(this))>=ChainlinkFee,\"Allowance failed\");\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functioninitRaffle(address_tokenContract,uint256_tokenId,uint256_ticketPrice)external{\\nrequire(_ticketPrice>0,\"Ticket price must be bigger than 0\");\\nrequire(LINKToken.balanceOf(msg.sender)>=ChainlinkFee,\"Insufficient LINK supplied\");\\nrequire(LINKToken.allowance(msg.sender,address(this))>=ChainlinkFee,\"Allowance failed\");\\n'\n"
+    ]
+}

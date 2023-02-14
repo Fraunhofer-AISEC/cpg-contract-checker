@@ -1,5 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 28: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'bytes32index=generateHash(args..'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'bytes32index=generateHash(args..'\n"
     ]
 }

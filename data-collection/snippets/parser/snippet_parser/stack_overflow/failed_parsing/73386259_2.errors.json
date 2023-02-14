@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontransfer(addressto,uint256amount)publicvirtualoverridereturns(bool){\\n_transfer(msg.sender,to,amount*1e18);\\nreturntrue;\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functiontransfer(addressto,uint256amount)publicvirtualoverridereturns(bool){\\n_transfer(msg.sender,to,amount*1e18);\\nreturntrue;\\n'\n"
+    ]
+}

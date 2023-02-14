@@ -2,7 +2,13 @@
     "no viable alternative at input '(yourown'": [
         "ERROR: when parsing line 7 column 45: no viable alternative at input '(yourown'\n"
     ],
-    "mismatched input 'address' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 7 column 54: mismatched input 'address' expecting {'=', ';', NL}\n"
+    "mismatched input 'test' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 49: mismatched input 'test' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 7 column 54: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 7 column 61: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
     ]
 }

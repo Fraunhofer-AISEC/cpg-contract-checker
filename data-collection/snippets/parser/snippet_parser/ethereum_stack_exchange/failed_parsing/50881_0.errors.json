@@ -8,7 +8,7 @@
     "mismatched input 'else' expecting '}'": [
         "ERROR: when parsing line 13 column 18: mismatched input 'else' expecting '}'\n"
     ],
-    "no viable alternative at input 'stillUnpaid\\n}'": [
-        "ERROR: when parsing line 22 column 8: no viable alternative at input 'stillUnpaid\\n}'\n"
+    "no viable alternative at input 'unpaidActions[msg.sender]='": [
+        "ERROR: when parsing line 21 column 38: no viable alternative at input 'unpaidActions[msg.sender]='\n"
     ]
 }

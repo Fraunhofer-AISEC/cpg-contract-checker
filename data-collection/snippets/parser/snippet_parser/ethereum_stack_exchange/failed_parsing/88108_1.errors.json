@@ -1,5 +1,11 @@
 {
     "mismatched input '(' expecting {';', NL}": [
         "ERROR: when parsing line 2 column 9: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input 'bla' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 9: extraneous input 'bla' expecting {'(', NL}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 15: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 20 column 41: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'hour' expecting {';', NL}": [
+        "ERROR: when parsing line 20 column 61: mismatched input 'hour' expecting {';', NL}\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 20 column 80: mismatched input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 83: mismatched input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 91: mismatched input ',' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 96: mismatched input ',' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 20 column 109: extraneous input ')' expecting {';', NL}\n"
+    ]
+}

@@ -1,14 +1,5 @@
 {
-    "mismatched input 'has' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 16: mismatched input 'has' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'reverted' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 25: mismatched input 'reverted' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'the' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 37: mismatched input 'the' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'state' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 49: mismatched input 'state' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Thetransactionhas'": [
+        "ERROR: when parsing line 1 column 16: no viable alternative at input 'Thetransactionhas'\n"
     ]
 }

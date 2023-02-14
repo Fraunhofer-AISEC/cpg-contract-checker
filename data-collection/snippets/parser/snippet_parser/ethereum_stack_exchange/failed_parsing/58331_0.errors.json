@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateStudents(stringfname,stringyear,stringhash,uint256_ipfsHash)public{\\nStudentmemorystudent=Student(fname,year,hash);\\nstudents.push(student);\\nstudentInfo(fname,year,hash);\\nipfsHash.push(_ipfsHash);\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functioncreateStudents(stringfname,stringyear,stringhash,uint256_ipfsHash)public{\\nStudentmemorystudent=Student(fname,year,hash);\\nstudents.push(student);\\nstudentInfo(fname,year,hash);\\nipfsHash.push(_ipfsHash);\\n'\n"
+    ]
+}

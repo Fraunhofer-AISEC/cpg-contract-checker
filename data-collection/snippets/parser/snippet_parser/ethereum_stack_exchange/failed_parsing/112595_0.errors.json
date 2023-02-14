@@ -1,17 +1,5 @@
 {
-    "extraneous input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 9 column 32: extraneous input '(' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'amount0,'": [
-        "ERROR: when parsing line 10 column 9: no viable alternative at input 'amount0,'\n"
-    ],
-    "mismatched input 'address' expecting {';', NL}": [
-        "ERROR: when parsing line 12 column 2: mismatched input 'address' expecting {';', NL}\n"
-    ],
-    "extraneous input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 12 column 15: extraneous input ',' expecting {';', NL}\n"
-    ],
-    "extraneous input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 14 column 0: extraneous input ')' expecting {';', NL}\n"
+    "no viable alternative at input 'functionstartArbitrage(\\naddresstoken0,\\naddresstoken1,\\nuintamount0,\\nuintamount1\\n)external{\\naddresspairAddress=IUniswapV2Factory(factory).getPair(token0,token1);\\nrequire(pairAddress!=address(0),'This pool does not exist');\\nIUniswapV2Pair(pairAddress).swap(\\namount0,\\namount1\\naddress'": [
+        "ERROR: when parsing line 12 column 2: no viable alternative at input 'functionstartArbitrage(\\naddresstoken0,\\naddresstoken1,\\nuintamount0,\\nuintamount1\\n)external{\\naddresspairAddress=IUniswapV2Factory(factory).getPair(token0,token1);\\nrequire(pairAddress!=address(0),'This pool does not exist');\\nIUniswapV2Pair(pairAddress).swap(\\namount0,\\namount1\\naddress'\n"
     ]
 }

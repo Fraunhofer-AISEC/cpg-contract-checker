@@ -1,5 +1,5 @@
 {
-    "extraneous input 'year' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 23: extraneous input 'year' expecting {';', NL}\n"
+    "no viable alternative at input 'uinttimeout=now+1year'": [
+        "ERROR: when parsing line 1 column 23: no viable alternative at input 'uinttimeout=now+1year'\n"
     ]
 }

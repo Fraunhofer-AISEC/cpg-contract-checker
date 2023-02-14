@@ -1,6 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 43: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 4 column 20: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'functionaskForSecretCode(uinttime)externalpayablereturns(bytes32){\\nrequire(msg.value==42,'Need to pay 42 wei.');\\nsecretCodes[secretCodesNum]=keccak256(abi.encodePacked(msg.sender,time);'": [
+        "ERROR: when parsing line 3 column 78: no viable alternative at input 'functionaskForSecretCode(uinttime)externalpayablereturns(bytes32){\\nrequire(msg.value==42,'Need to pay 42 wei.');\\nsecretCodes[secretCodesNum]=keccak256(abi.encodePacked(msg.sender,time);'\n"
     ]
 }

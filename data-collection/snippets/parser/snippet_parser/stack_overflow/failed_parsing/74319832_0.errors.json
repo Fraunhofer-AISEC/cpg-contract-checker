@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbet()publicisGame{\\nuintdice=diceRoll();\\n\\naddresswinner;\\nif(dice==1){\\n\\nbalance[players[0]]=someeth'": [
+        "ERROR: when parsing line 7 column 39: no viable alternative at input 'functionbet()publicisGame{\\nuintdice=diceRoll();\\n\\naddresswinner;\\nif(dice==1){\\n\\nbalance[players[0]]=someeth'\n"
+    ]
+}

@@ -1,20 +1,5 @@
 {
-    "mismatched input 'Application' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 13: mismatched input 'Application' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Interface' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 32: mismatched input 'Interface' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'is' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 48: mismatched input 'is' expecting {';', NL}\n"
-    ],
-    "mismatched input 'way' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 64: mismatched input 'way' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'interact' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 71: mismatched input 'interact' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'contracts' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 85: mismatched input 'contracts' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'TheContractApplication'": [
+        "ERROR: when parsing line 1 column 13: no viable alternative at input 'TheContractApplication'\n"
     ]
 }

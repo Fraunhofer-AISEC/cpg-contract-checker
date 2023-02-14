@@ -1,26 +1,5 @@
 {
-    "mismatched input 'someone' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input 'someone' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'invest' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 26: mismatched input 'invest' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'record' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 37: mismatched input 'record' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'should' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 2: mismatched input 'should' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '1' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 14: mismatched input '1' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'ERC20' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 16: mismatched input 'ERC20' expecting {';', NL}\n"
-    ],
-    "mismatched input 'to' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 28: mismatched input 'to' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '(' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 43: mismatched input '(' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'shouldallowsomeone'": [
+        "ERROR: when parsing line 1 column 15: no viable alternative at input 'shouldallowsomeone'\n"
     ]
 }

@@ -1,5 +1,8 @@
 {
     "no viable alternative at input 'TypeError:'": [
         "ERROR: when parsing line 5 column 9: no viable alternative at input 'TypeError:'\n"
+    ],
+    "extraneous input 'constructor' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 5 column 25: extraneous input 'constructor' expecting {'=', ';', NL}\n"
     ]
 }

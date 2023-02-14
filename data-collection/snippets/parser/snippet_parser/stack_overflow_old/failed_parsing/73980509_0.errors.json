@@ -1,0 +1,5 @@
+{
+    "extraneous input 'xGG4767f31960394B6c5770478e1GrB2Av97f0Ce8' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 18: extraneous input 'xGG4767f31960394B6c5770478e1GrB2Av97f0Ce8' expecting {';', NL}\n"
+    ]
+}

@@ -1,0 +1,3 @@
+contract ControllerContract is ContractA, ContractB {
+    ...
+}

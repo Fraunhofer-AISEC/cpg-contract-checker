@@ -1,14 +1,5 @@
 {
-    "mismatched input 'type' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 39: mismatched input 'type' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "no viable alternative at input '[]'": [
-        "ERROR: when parsing line 1 column 44: no viable alternative at input '[]'\n"
-    ],
-    "mismatched input 'memory' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 46: mismatched input 'memory' expecting {';', NL}\n"
-    ],
-    "extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 3 column 0: extraneous input '}' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'functiongetArr()publicviewreturns(type'": [
+        "ERROR: when parsing line 1 column 39: no viable alternative at input 'functiongetArr()publicviewreturns(type'\n"
     ]
 }

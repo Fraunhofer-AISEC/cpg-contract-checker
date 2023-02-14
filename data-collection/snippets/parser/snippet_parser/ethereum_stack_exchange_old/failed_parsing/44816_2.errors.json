@@ -1,0 +1,5 @@
+{
+    "missing '=>' at 'PRODUCT'": [
+        "ERROR: when parsing line 7 column 41: missing '=>' at 'PRODUCT'\n"
+    ]
+}

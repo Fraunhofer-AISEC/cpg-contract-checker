@@ -5,8 +5,5 @@
     ],
     "mismatched input ')' expecting {'{', 'is'}": [
         "ERROR: when parsing line 19 column 39: mismatched input ')' expecting {'{', 'is'}\n"
-    ],
-    "no viable alternative at input 'msg.sender)'": [
-        "ERROR: when parsing line 19 column 65: no viable alternative at input 'msg.sender)'\n"
     ]
 }

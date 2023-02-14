@@ -1,0 +1,21 @@
+bytes32 swapHash = keccak256(
+    bytes.concat(
+        abi.encode(
+            SWAP_TYPEHASH,
+            swap.scriptId,
+            swap.tokenFrom,
+            swap.tokenTo,
+            swap.amount,
+            swap.user,
+            swap.executor,
+            swap.chainId
+        ),
+        abi.encodePacked(
+            hashBalance(swap.balance),
+            hashFrequency(swap.frequency),
+            hashPrice(swap.price),
+            hashRepetitions(swap.repetitions),
+            hashParent(swap.parent)
+        )
+    )
+);

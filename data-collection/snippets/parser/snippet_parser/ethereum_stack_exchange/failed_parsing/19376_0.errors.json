@@ -1,5 +1,5 @@
 {
-    "mismatched input 'in' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 19: mismatched input 'in' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'Internalexceptionin'": [
+        "ERROR: when parsing line 1 column 19: no viable alternative at input 'Internalexceptionin'\n"
     ]
 }

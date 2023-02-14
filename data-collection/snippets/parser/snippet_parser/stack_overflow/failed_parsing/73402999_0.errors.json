@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionswap(uinttokenAmount,addressreciever)public{\\nIPancakeRouter02router=IPancakeRouter02(0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3);\\nIERC20(spice).approve(address(router),100e18);\\nuintdeadline=block.timestamp+5minutes;\\nrouter.swapExactTokensForTokens(\\ntokenAmount,\\n0,\\npath2,\\nreciever,\\ndeadline\\n);\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionswap(uinttokenAmount,addressreciever)public{\\nIPancakeRouter02router=IPancakeRouter02(0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3);\\nIERC20(spice).approve(address(router),100e18);\\nuintdeadline=block.timestamp+5minutes;\\nrouter.swapExactTokensForTokens(\\ntokenAmount,\\n0,\\npath2,\\nreciever,\\ndeadline\\n);\\n'\n"
+    ]
+}

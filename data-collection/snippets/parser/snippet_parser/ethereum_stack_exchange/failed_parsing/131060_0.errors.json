@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor(stringmemoryname_,stringmemorysymbol_){\\n_name=unicode(name_);\\n_symbol=unicode(symbol_);\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'constructor(stringmemoryname_,stringmemorysymbol_){\\n_name=unicode(name_);\\n_symbol=unicode(symbol_);\\n'\n"
+    ]
+}

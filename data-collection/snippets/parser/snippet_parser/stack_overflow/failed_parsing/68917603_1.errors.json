@@ -1,8 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 11: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'purchase\\nidToMarketItem'": [
-        "ERROR: when parsing line 10 column 4: no viable alternative at input 'purchase\\nidToMarketItem'\n"
+    "no viable alternative at input 'functioncreateSale(\\naddressnftContract,\\nuint256itemId\\n)publicpayablenonReentrant{\\nuintprice=idToMarketItem[itemId].price;\\nuinttokenId=idToMarketItem[itemId].tokenId;\\nrequire(msg.value==price,purchase\\nidToMarketItem'": [
+        "ERROR: when parsing line 10 column 4: no viable alternative at input 'functioncreateSale(\\naddressnftContract,\\nuint256itemId\\n)publicpayablenonReentrant{\\nuintprice=idToMarketItem[itemId].price;\\nuinttokenId=idToMarketItem[itemId].tokenId;\\nrequire(msg.value==price,purchase\\nidToMarketItem'\n"
     ]
 }

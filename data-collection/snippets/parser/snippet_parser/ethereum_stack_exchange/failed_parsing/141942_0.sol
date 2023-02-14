@@ -1,0 +1,13 @@
+Error: Transaction reverted: function returned an unexpected amount of data
+    at SmartWallet._checkTokenType (contracts/extension/TokenBundle.sol:135)
+    at SmartWallet._createBundle (contracts/extension/TokenBundle.sol:63)
+    at SmartWallet._storeTokens (contracts/extension/TokenStore.sol:47)
+    at SmartWallet.initialLoad (contracts/multiwrap/SmartWallet.sol:203)
+    at <UnrecognizedContract>.<unknown> (0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at HardhatNode._mineBlockWithPendingTxs (node_modules/hardhat/src/internal/hardhat-network/provider/node.ts:1815:23)
+    at HardhatNode.mineBlock (node_modules/hardhat/src/internal/hardhat-network/provider/node.ts:504:16)
+    at EthModule._sendTransactionAndReturnHash (node_modules/hardhat/src/internal/hardhat-network/provider/modules/eth.ts:1522:18)

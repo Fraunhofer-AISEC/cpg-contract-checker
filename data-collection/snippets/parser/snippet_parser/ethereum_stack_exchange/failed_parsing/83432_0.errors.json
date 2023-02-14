@@ -1,5 +1,5 @@
 {
-    "extraneous input '}' expecting {';', NL}": [
-        "ERROR: when parsing line 8 column 55: extraneous input '}' expecting {';', NL}\n"
+    "no viable alternative at input 'functionwithdraw(uint256amount)external{\\n\\nWithdrawalRequest[]storagerequests=withdrawalRequests[msg.sender];\\n\\nfor(uinti=0;i<requests.length;i++){\\n\\n\\nif(bytes(requests[i]).length==0){continue}'": [
+        "ERROR: when parsing line 8 column 55: no viable alternative at input 'functionwithdraw(uint256amount)external{\\n\\nWithdrawalRequest[]storagerequests=withdrawalRequests[msg.sender];\\n\\nfor(uinti=0;i<requests.length;i++){\\n\\n\\nif(bytes(requests[i]).length==0){continue}'\n"
     ]
 }

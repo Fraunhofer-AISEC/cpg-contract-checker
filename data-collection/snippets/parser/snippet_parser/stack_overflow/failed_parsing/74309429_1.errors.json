@@ -1,8 +1,5 @@
 {
-    "mismatched input '[' expecting {',', ')'}": [
-        "ERROR: when parsing line 1 column 31: mismatched input '[' expecting {',', ')'}\n"
-    ],
-    "mismatched input 'arr' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 34: mismatched input 'arr' expecting {';', NL}\n"
+    "no viable alternative at input 'functiongetIndex(Amemory['": [
+        "ERROR: when parsing line 1 column 31: no viable alternative at input 'functiongetIndex(Amemory['\n"
     ]
 }

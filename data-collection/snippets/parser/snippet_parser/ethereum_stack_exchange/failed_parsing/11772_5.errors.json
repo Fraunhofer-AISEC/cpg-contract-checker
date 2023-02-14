@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'bytes1[]memory'": [
-        "ERROR: when parsing line 1 column 9: no viable alternative at input 'bytes1[]memory'\n"
+    "missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at '='": [
+        "ERROR: when parsing line 1 column 16: missing {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier} at '='\n"
     ]
 }

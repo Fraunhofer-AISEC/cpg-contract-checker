@@ -1,5 +1,5 @@
 {
-    "mismatched input '{' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 10: mismatched input '{' expecting {';', NL}\n"
+    "no viable alternative at input 'const{expect}'": [
+        "ERROR: when parsing line 1 column 19: no viable alternative at input 'const{expect}'\n"
     ]
 }

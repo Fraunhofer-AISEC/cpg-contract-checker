@@ -1,8 +1,94 @@
 {
     "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 5: mismatched input ')' expecting {';', NL}\n"
+        "ERROR: when parsing line 2 column 5: mismatched input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 3: mismatched input ')' expecting {';', NL}\n"
     ],
     "mismatched input 'hook' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 21: mismatched input 'hook' expecting {';', NL}\n"
+        "ERROR: when parsing line 2 column 21: mismatched input 'hook' expecting {';', NL}\n",
+        "ERROR: when parsing line 9 column 21: mismatched input 'hook' expecting {';', NL}\n"
+    ],
+    "extraneous input '\"should be able to return token name by token id\"' expecting {'(', NL}": [
+        "ERROR: when parsing line 2 column 30: extraneous input '\"should be able to return token name by token id\"' expecting {'(', NL}\n"
+    ],
+    "missing '(' at '0'": [
+        "ERROR: when parsing line 5 column 2: missing '(' at '0'\n"
+    ],
+    "mismatched input 'passing' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 4: mismatched input 'passing' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 12: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "extraneous input 'failing' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 4: extraneous input 'failing' expecting {';', NL}\n"
+    ],
+    "mismatched input '\"before each\"' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 7: mismatched input '\"before each\"' expecting {';', NL}\n"
+    ],
+    "mismatched input '\"should be able to return token name by token id\"' expecting {'(', NL}": [
+        "ERROR: when parsing line 9 column 30: mismatched input '\"should be able to return token name by token id\"' expecting {'(', NL}\n"
+    ],
+    "extraneous input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 79: extraneous input ':' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'NomicLabsHardhatPluginError:'": [
+        "ERROR: when parsing line 10 column 32: no viable alternative at input 'NomicLabsHardhatPluginError:'\n"
+    ],
+    "mismatched input 'for' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 74: mismatched input 'for' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'the' expecting {'(', NL}": [
+        "ERROR: when parsing line 10 column 78: mismatched input 'the' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'libraries' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 92: mismatched input 'libraries' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'SampleNft.sol:'": [
+        "ERROR: when parsing line 11 column 25: no viable alternative at input 'SampleNft.sol:'\n"
+    ],
+    "mismatched input 'Learn' expecting {';', NL}": [
+        "ERROR: when parsing line 13 column 0: mismatched input 'Learn' expecting {';', NL}\n"
+    ],
+    "mismatched input 'about' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 13 column 11: mismatched input 'about' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'contracts' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 13 column 25: mismatched input 'contracts' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'https' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 13 column 38: mismatched input 'https' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 15 column 33: mismatched input '(' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 16 column 40: mismatched input '(' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 17 column 28: mismatched input '(' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'internal' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
+        "ERROR: when parsing line 15 column 77: mismatched input 'internal' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n",
+        "ERROR: when parsing line 16 column 84: mismatched input 'internal' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n",
+        "ERROR: when parsing line 17 column 72: mismatched input 'internal' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    ],
+    "no viable alternative at input 'helpers.ts:'": [
+        "ERROR: when parsing line 15 column 96: no viable alternative at input 'helpers.ts:'\n",
+        "ERROR: when parsing line 16 column 103: no viable alternative at input 'helpers.ts:'\n",
+        "ERROR: when parsing line 17 column 91: no viable alternative at input 'helpers.ts:'\n"
+    ],
+    "mismatched input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 100: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 107: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 94: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 56: mismatched input ':' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 15 column 103: extraneous input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 16 column 110: extraneous input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 17 column 97: extraneous input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 18 column 59: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 18 column 16: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "no viable alternative at input 'test.js:'": [
+        "ERROR: when parsing line 18 column 53: no viable alternative at input 'test.js:'\n"
     ]
 }

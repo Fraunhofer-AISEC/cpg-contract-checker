@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'varbytes'": [
-        "ERROR: when parsing line 4 column 4: no viable alternative at input 'varbytes'\n"
+    "no viable alternative at input 'varn=16\\nvardifficulty=0x10\\n\\nvarbytes'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'varn=16\\nvardifficulty=0x10\\n\\nvarbytes'\n"
     ]
 }

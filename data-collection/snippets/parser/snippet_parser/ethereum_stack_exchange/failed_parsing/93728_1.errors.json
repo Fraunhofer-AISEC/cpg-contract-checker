@@ -1,5 +1,5 @@
 {
-    "mismatched input '.' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 39: mismatched input '.' expecting {'{', 'returns', ';', NL}\n"
+    "no viable alternative at input 'functionvote(boolvote,bytes32salt).'": [
+        "ERROR: when parsing line 1 column 39: no viable alternative at input 'functionvote(boolvote,bytes32salt).'\n"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "mismatched input 'T03' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 10: mismatched input 'T03' expecting {';', NL}\n"
+    "no viable alternative at input '2022-03-19T03'": [
+        "ERROR: when parsing line 1 column 10: no viable alternative at input '2022-03-19T03'\n"
     ]
 }

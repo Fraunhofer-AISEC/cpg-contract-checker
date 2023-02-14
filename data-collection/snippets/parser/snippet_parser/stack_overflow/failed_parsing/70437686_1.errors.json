@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioncreateObject(stringmemory_name,uint_dna)public{\\nobject.push(Object(_name,_dna));\\n'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'functioncreateObject(stringmemory_name,uint_dna)public{\\nobject.push(Object(_name,_dna));\\n'\n"
+    ]
+}

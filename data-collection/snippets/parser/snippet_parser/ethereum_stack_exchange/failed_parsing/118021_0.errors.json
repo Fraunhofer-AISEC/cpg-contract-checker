@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'DappTest.sol:'": [
-        "ERROR: when parsing line 1 column 22: no viable alternative at input 'DappTest.sol:'\n"
+    "no viable alternative at input 'contracts/DappTest.sol:'": [
+        "ERROR: when parsing line 1 column 22: no viable alternative at input 'contracts/DappTest.sol:'\n"
     ]
 }

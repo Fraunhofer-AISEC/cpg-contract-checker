@@ -1,17 +1,5 @@
 {
-    "extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 14 column 0: extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n",
-        "ERROR: when parsing line 23 column 0: extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
-    ],
-    "extraneous input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 16 column 18: extraneous input '(' expecting {';', NL}\n"
-    ],
-    "extraneous input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 17 column 20: extraneous input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 18 column 22: extraneous input ',' expecting {'=', ';', NL}\n",
-        "ERROR: when parsing line 19 column 21: extraneous input ',' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input ')' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 21 column 4: extraneous input ')' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'structRound{\\nboolisValue;\\nuint32id;\\nRoundStatestate;\\naddress[]addresses;\\nRoundBet[]bets;\\nmapping(address=>bool)betUsers;\\nmapping(address=>uint256)userBets;\\nuint256winTicket;\\nuint256amount;\\nuint256lastTicket;\\naddresswinner;\\n}\\n.'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'structRound{\\nboolisValue;\\nuint32id;\\nRoundStatestate;\\naddress[]addresses;\\nRoundBet[]bets;\\nmapping(address=>bool)betUsers;\\nmapping(address=>uint256)userBets;\\nuint256winTicket;\\nuint256amount;\\nuint256lastTicket;\\naddresswinner;\\n}\\n.'\n"
     ]
 }

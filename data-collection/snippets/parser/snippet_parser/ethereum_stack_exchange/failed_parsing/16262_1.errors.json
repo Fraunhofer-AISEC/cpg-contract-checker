@@ -1,9 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 6 column 11: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 6 column 23: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "extraneous input ']' expecting {';', NL}": [
-        "ERROR: when parsing line 6 column 48: extraneous input ']' expecting {';', NL}\n"
+    "no viable alternative at input 'functionissue(string_key,\\nstring_identityType,\\nstring_identityHash,\\nstring_dataHash){\\n\\nrequire(!key_exists(sha3(_key,certificates)]'": [
+        "ERROR: when parsing line 6 column 48: no viable alternative at input 'functionissue(string_key,\\nstring_identityType,\\nstring_identityHash,\\nstring_dataHash){\\n\\nrequire(!key_exists(sha3(_key,certificates)]'\n"
     ]
 }

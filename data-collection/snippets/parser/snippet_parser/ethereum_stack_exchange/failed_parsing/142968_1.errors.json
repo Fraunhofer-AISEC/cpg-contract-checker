@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionBuyTickets()publicpayable{\\n\\nrequire(\\nmsg.value%ticketPrice==0,\\nstring.concat(\\n\"the value must be multiple of \",\\nStrings.toString(ticketPrice),\\n\" Ether\"\\n)\\n);\\n\\nuint256numOfTicketsToBuy=msg.value/ticketPrice;\\n'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functionBuyTickets()publicpayable{\\n\\nrequire(\\nmsg.value%ticketPrice==0,\\nstring.concat(\\n\"the value must be multiple of \",\\nStrings.toString(ticketPrice),\\n\" Ether\"\\n)\\n);\\n\\nuint256numOfTicketsToBuy=msg.value/ticketPrice;\\n'\n"
+    ]
+}

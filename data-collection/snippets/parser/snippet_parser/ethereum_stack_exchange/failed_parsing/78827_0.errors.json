@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondepositParty(uintamount)publicpayable{\\nrequire(daitoken.balanceOf(msg.sender)>=amount);\\naccountBalance[msg.sender]+=amount;\\ndaitoken.transferFrom(msg.sender,address(this),amount);\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functiondepositParty(uintamount)publicpayable{\\nrequire(daitoken.balanceOf(msg.sender)>=amount);\\naccountBalance[msg.sender]+=amount;\\ndaitoken.transferFrom(msg.sender,address(this),amount);\\n'\n"
+    ]
+}

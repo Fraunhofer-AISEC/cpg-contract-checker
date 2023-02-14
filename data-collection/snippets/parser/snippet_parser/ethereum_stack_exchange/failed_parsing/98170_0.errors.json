@@ -1,22 +1,5 @@
 {
-    "no viable alternative at input 'balances[0xxx'": [
-        "ERROR: when parsing line 5 column 25: no viable alternative at input 'balances[0xxx'\n",
-        "ERROR: when parsing line 15 column 22: no viable alternative at input 'balances[0xxx'\n"
-    ],
-    "extraneous input 'xxx' expecting {',', ']'}": [
-        "ERROR: when parsing line 5 column 25: extraneous input 'xxx' expecting {',', ']'}\n",
-        "ERROR: when parsing line 15 column 22: extraneous input 'xxx' expecting {',', ']'}\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 23: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 19 column 20: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'xxx' expecting ')'": [
-        "ERROR: when parsing line 7 column 37: mismatched input 'xxx' expecting ')'\n",
-        "ERROR: when parsing line 19 column 29: mismatched input 'xxx' expecting ')'\n"
-    ],
-    "extraneous input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 7 column 52: extraneous input ')' expecting {';', NL}\n",
-        "ERROR: when parsing line 19 column 44: extraneous input ')' expecting {';', NL}\n"
+    "no viable alternative at input 'functiontransfer(address_to,uint256_value)returns(boolsuccess){\\nif(balances[msg.sender]>=_value&&_value>0){\\nbalances[msg.sender]-=_value;\\nbalances[_to]+=_value-(_value/100);\\nbalances[0xxx'": [
+        "ERROR: when parsing line 5 column 25: no viable alternative at input 'functiontransfer(address_to,uint256_value)returns(boolsuccess){\\nif(balances[msg.sender]>=_value&&_value>0){\\nbalances[msg.sender]-=_value;\\nbalances[_to]+=_value-(_value/100);\\nbalances[0xxx'\n"
     ]
 }

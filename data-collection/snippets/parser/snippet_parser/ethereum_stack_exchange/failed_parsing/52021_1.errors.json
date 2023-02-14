@@ -1,8 +1,5 @@
 {
-    "extraneous input 'function' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 44: extraneous input 'function' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input 'view' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 62: mismatched input 'view' expecting {';', NL}\n"
+    "no viable alternative at input 'function(uint256)viewreturns(uint256)a=function'": [
+        "ERROR: when parsing line 1 column 44: no viable alternative at input 'function(uint256)viewreturns(uint256)a=function'\n"
     ]
 }

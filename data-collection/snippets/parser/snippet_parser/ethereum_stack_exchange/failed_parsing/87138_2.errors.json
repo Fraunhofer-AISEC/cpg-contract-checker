@@ -1,5 +1,5 @@
 {
-    "mismatched input '.' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 2 column 50: mismatched input '.' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
+    "no viable alternative at input 'functions1(uint8c)internalpurereturns(uint){\\nif(c==37||c==43||c==45||c==46||.'": [
+        "ERROR: when parsing line 2 column 50: no viable alternative at input 'functions1(uint8c)internalpurereturns(uint){\\nif(c==37||c==43||c==45||c==46||.'\n"
     ]
 }

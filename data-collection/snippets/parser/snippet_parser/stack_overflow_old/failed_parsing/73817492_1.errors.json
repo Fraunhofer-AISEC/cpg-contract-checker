@@ -1,0 +1,8 @@
+{
+    "mismatched input 'import' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 17: mismatched input 'import' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ',' expecting {'as', 'from'}": [
+        "ERROR: when parsing line 1 column 43: mismatched input ',' expecting {'as', 'from'}\n"
+    ]
+}

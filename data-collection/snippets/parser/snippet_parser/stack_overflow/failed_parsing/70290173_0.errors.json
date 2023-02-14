@@ -1,5 +1,5 @@
 {
-    "extraneous input 'memory' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 69: extraneous input 'memory' expecting {'{', 'returns', ';', NL}\n"
+    "no viable alternative at input 'functionaddXtoAccName(address_accNumber,string_xtoName)publicmemory'": [
+        "ERROR: when parsing line 1 column 69: no viable alternative at input 'functionaddXtoAccName(address_accNumber,string_xtoName)publicmemory'\n"
     ]
 }

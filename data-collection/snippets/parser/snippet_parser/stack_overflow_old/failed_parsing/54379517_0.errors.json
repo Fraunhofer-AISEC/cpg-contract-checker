@@ -1,0 +1,12 @@
+{
+    "mismatched input 'conversion' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 17: mismatched input 'conversion' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'address' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 33: mismatched input 'address' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 1 column 44: mismatched input 'address' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 69: extraneous input '.' expecting {'=', ';', NL}\n"
+    ]
+}

@@ -1,12 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 4: mismatched input '(' expecting {';', NL}\n",
-        "ERROR: when parsing line 3 column 43: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "extraneous input '=>' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'for', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 75: extraneous input '=>' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'for', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input 'delagateCallee' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 21: mismatched input 'delagateCallee' expecting {';', NL}\n"
+    "no viable alternative at input 'it('getData function on callee should emit the Received event',async()=>'": [
+        "ERROR: when parsing line 1 column 75: no viable alternative at input 'it('getData function on callee should emit the Received event',async()=>'\n"
     ]
 }

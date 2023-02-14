@@ -1,5 +1,5 @@
 {
-    "extraneous input '=' expecting '{'": [
-        "ERROR: when parsing line 1 column 20: extraneous input '=' expecting '{'\n"
+    "no viable alternative at input 'structregistration='": [
+        "ERROR: when parsing line 1 column 20: no viable alternative at input 'structregistration='\n"
     ]
 }

@@ -1,35 +1,5 @@
 {
-    "mismatched input 'character' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 14: mismatched input 'character' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ':' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 29: mismatched input ':' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'method' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 43: mismatched input 'method' expecting {';', NL}\n"
-    ],
-    "mismatched input 'override' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 57: mismatched input 'override' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 72: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "extraneous input '{' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 108: extraneous input '{' expecting {'~', 'from', '(', 'error', '[', 'address', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "extraneous input ':' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'for', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 1 column 115: extraneous input ':' expecting {<EOF>, 'pragma', '||', '^', '~', '>=', '>', '<', '<=', '=', 'import', '*', 'from', '{', ',', '}', 'abstract', 'contract', 'interface', 'library', '(', ')', 'error', 'for', 'struct', 'function', 'enum', '[', 'address', '.', 'mapping', 'calldata', 'if', 'try', 'while', 'unchecked', ';', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', '**', '/', '%', '<<', '>>', '&', '|', '==', '!=', '&&', '?', '|=', '^=', '&=', '<<=', '>>=', '+=', '-=', '*=', '/=', '%=', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment, NL}\n"
-    ],
-    "mismatched input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 127: mismatched input ',' expecting {';', NL}\n"
-    ],
-    "mismatched input ':' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 133: mismatched input ':' expecting {';', NL}\n"
-    ],
-    "mismatched input '}' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 152: mismatched input '}' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'UNSUPPORTED_OPERATION,'": [
-        "ERROR: when parsing line 1 column 181: no viable alternative at input 'UNSUPPORTED_OPERATION,'\n"
+    "no viable alternative at input 'Errormintingcharacter'": [
+        "ERROR: when parsing line 1 column 14: no viable alternative at input 'Errormintingcharacter'\n"
     ]
 }

@@ -1,8 +1,5 @@
 {
-    "mismatched input 'using' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 22: mismatched input 'using' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'solc:'": [
-        "ERROR: when parsing line 2 column 6: no viable alternative at input 'solc:'\n"
+    "no viable alternative at input 'Compiledsuccessfullyusing'": [
+        "ERROR: when parsing line 1 column 22: no viable alternative at input 'Compiledsuccessfullyusing'\n"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "mismatched input '.' expecting '('": [
+        "ERROR: when parsing line 12 column 15: mismatched input '.' expecting '('\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'database.\\nstruct'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'database.\\nstruct'\n"
+    ]
+}

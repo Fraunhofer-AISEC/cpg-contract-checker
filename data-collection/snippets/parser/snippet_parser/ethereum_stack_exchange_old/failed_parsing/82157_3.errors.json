@@ -1,0 +1,11 @@
+{
+    "mismatched input 'struct' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 1 column 70: mismatched input 'struct' expecting {'from', ')', 'error', 'function', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', 'callback', Int, Uint, Byte, Fixed, Ufixed, 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "extraneous input 'memory' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 1 column 77: extraneous input 'memory' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "extraneous input ')' expecting '{'": [
+        "ERROR: when parsing line 1 column 92: extraneous input ')' expecting '{'\n"
+    ]
+}

@@ -1,6 +1,5 @@
 {
     "mismatched input '.' expecting {'as', 'from'}": [
-        "ERROR: when parsing line 1 column 16: mismatched input '.' expecting {'as', 'from'}\n",
-        "ERROR: when parsing line 12 column 16: mismatched input '.' expecting {'as', 'from'}\n"
+        "ERROR: when parsing line 1 column 16: mismatched input '.' expecting {'as', 'from'}\n"
     ]
 }

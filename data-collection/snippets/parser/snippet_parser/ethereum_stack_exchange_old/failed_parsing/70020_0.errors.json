@@ -1,0 +1,5 @@
+{
+    "mismatched input 'kage' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 34: mismatched input 'kage' expecting {';', NL}\n"
+    ]
+}

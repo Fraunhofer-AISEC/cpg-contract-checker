@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'Untitled.sol:'": [
-        "ERROR: when parsing line 1 column 20: no viable alternative at input 'Untitled.sol:'\n"
+    "no viable alternative at input 'browser/Untitled.sol:'": [
+        "ERROR: when parsing line 1 column 20: no viable alternative at input 'browser/Untitled.sol:'\n"
     ]
 }

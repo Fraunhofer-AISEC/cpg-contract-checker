@@ -1,8 +1,5 @@
 {
-    "no viable alternative at input 'array}'": [
-        "ERROR: when parsing line 3 column 15: no viable alternative at input 'array}'\n"
-    ],
-    "extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 3 column 16: extraneous input '.' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'functionaddElement(stringmemoryinput,stringmemoryarray_name)publiconlyOwnerreturns(boolsuccess)\\n{\\n{array}'": [
+        "ERROR: when parsing line 3 column 15: no viable alternative at input 'functionaddElement(stringmemoryinput,stringmemoryarray_name)publiconlyOwnerreturns(boolsuccess)\\n{\\n{array}'\n"
     ]
 }

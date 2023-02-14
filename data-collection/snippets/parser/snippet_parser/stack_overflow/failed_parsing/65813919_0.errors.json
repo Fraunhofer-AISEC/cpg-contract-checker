@@ -1,17 +1,5 @@
 {
-    "mismatched input 'uint256' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 10: mismatched input 'uint256' expecting {';', NL}\n"
-    ],
-    "mismatched input 'balanceOf' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 10: mismatched input 'balanceOf' expecting {';', NL}\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 10: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'require' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 10: mismatched input 'require' expecting {';', NL}\n"
-    ],
-    "extraneous input '}' expecting {';', NL}": [
-        "ERROR: when parsing line 6 column 6: extraneous input '}' expecting {';', NL}\n"
+    "no viable alternative at input 'functionwithdraw()externalnonReentrant{\\n5uint256'": [
+        "ERROR: when parsing line 2 column 10: no viable alternative at input 'functionwithdraw()externalnonReentrant{\\n5uint256'\n"
     ]
 }

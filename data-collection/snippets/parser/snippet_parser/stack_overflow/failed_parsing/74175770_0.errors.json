@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionvoteForCandidate(string[]calldatanames,string[][]calldatavote)publicreturns(bool){\\nrequire(owner==msg.sender,\"Only owner can call this function\");\\nstringmemoryartistas;\\nfor(uinti=0;i<vote.length;i++){\\nartistas=\"[\";\\nfor(uinty=0;y<vote[i].length;y++)\\n{\\nartistas=append(artistas,\" , \",vote[i][y]);\\nvotesReceived[vote[i][y]]+=1;\\n}\\nartistas=append(artistas,\" ] \",\"\");\\nemitVote(names[i],artistas);\\n}\\nreturntrue;\\n'": [
+        "ERROR: when parsing line 15 column 0: no viable alternative at input 'functionvoteForCandidate(string[]calldatanames,string[][]calldatavote)publicreturns(bool){\\nrequire(owner==msg.sender,\"Only owner can call this function\");\\nstringmemoryartistas;\\nfor(uinti=0;i<vote.length;i++){\\nartistas=\"[\";\\nfor(uinty=0;y<vote[i].length;y++)\\n{\\nartistas=append(artistas,\" , \",vote[i][y]);\\nvotesReceived[vote[i][y]]+=1;\\n}\\nartistas=append(artistas,\" ] \",\"\");\\nemitVote(names[i],artistas);\\n}\\nreturntrue;\\n'\n"
+    ]
+}

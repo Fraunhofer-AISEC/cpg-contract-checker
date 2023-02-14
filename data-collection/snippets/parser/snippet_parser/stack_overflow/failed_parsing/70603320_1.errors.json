@@ -1,32 +1,5 @@
 {
-    "mismatched input 'liwei' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 7: mismatched input 'liwei' expecting {';', NL}\n"
-    ],
-    "mismatched input '-' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 27: mismatched input '-' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Brownie_Simple_Storage' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 32: mismatched input 'Brownie_Simple_Storage' expecting {';', NL}\n"
-    ],
-    "mismatched input 'run' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 65: mismatched input 'run' expecting {';', NL}\n"
-    ],
-    "mismatched input '/' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 74: mismatched input '/' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'Brownie' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 0: mismatched input 'Brownie' expecting {';', NL}\n"
-    ],
-    "mismatched input '.17' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 10: mismatched input '.17' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '.2' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 13: mismatched input '.2' expecting {';', NL}\n"
-    ],
-    "mismatched input 'development' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 25: mismatched input 'development' expecting {';', NL}\n"
-    ],
-    "mismatched input 'for' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 47: mismatched input 'for' expecting {'=', ';', NL}\n"
+    "no viable alternative at input '(base)liwei'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input '(base)liwei'\n"
     ]
 }

@@ -1,11 +1,5 @@
 {
-    "extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 6 column 6: extraneous input '<' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
-    ],
-    "mismatched input 'code' expecting {'(', NL}": [
-        "ERROR: when parsing line 6 column 22: mismatched input 'code' expecting {'(', NL}\n"
-    ],
-    "mismatched input 'in' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 6 column 27: mismatched input 'in' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'functionclaimToken(bytes32message,bytesmemory_signature,addressnativeTokenAddress,uint256amount)public{\\nrequire(amount>0,'Trying to claim 0 tokens.');\\nrequire(nativeTokenAddress!=address(0x0));\\nrequire(recoverSigner(message,_signature)==msg.sender);\\n\\n<'": [
+        "ERROR: when parsing line 6 column 6: no viable alternative at input 'functionclaimToken(bytes32message,bytesmemory_signature,addressnativeTokenAddress,uint256amount)public{\\nrequire(amount>0,'Trying to claim 0 tokens.');\\nrequire(nativeTokenAddress!=address(0x0));\\nrequire(recoverSigner(message,_signature)==msg.sender);\\n\\n<'\n"
     ]
 }

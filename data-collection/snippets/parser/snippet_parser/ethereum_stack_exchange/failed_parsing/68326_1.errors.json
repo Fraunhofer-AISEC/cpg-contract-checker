@@ -1,5 +1,5 @@
 {
-    "mismatched input '.' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 1 column 42: mismatched input '.' expecting {'{', 'returns', ';', NL}\n"
+    "no viable alternative at input 'functionbytesToAddress(bytesmemorybys).'": [
+        "ERROR: when parsing line 1 column 42: no viable alternative at input 'functionbytesToAddress(bytesmemorybys).'\n"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_getValues(uint256tAmount)privateviewreturns(uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256){\\n(uint256tTransferAmount,uint256tFee,uint256tLiquidity,uint256tCharity,uint256tmarketing)=_getTValues(tAmount);\\n(uint256rAmount,uint256rTransferAmount,uint256rFee)=_getRValues(tAmount,tFee,tLiquidity,tCharity,tmarketing,_getRate());\\nreturn(rAmount,rTransferAmount,rFee,tTransferAmount,tFee,tLiquidity,tCharity,tmarketing);\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'function_getValues(uint256tAmount)privateviewreturns(uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256){\\n(uint256tTransferAmount,uint256tFee,uint256tLiquidity,uint256tCharity,uint256tmarketing)=_getTValues(tAmount);\\n(uint256rAmount,uint256rTransferAmount,uint256rFee)=_getRValues(tAmount,tFee,tLiquidity,tCharity,tmarketing,_getRate());\\nreturn(rAmount,rTransferAmount,rFee,tTransferAmount,tFee,tLiquidity,tCharity,tmarketing);\\n'\n"
+    ]
+}

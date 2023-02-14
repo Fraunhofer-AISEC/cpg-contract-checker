@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetLastTen(uintid)constantreturns(uint[10],uint[10]){\\nuint[10]memorylastX;\\nuint[10]memorylastY;\\nFoo[]storagearr=foo[id];\\nuintlen=arr.length;\\nfor(uinti=0;i<20;i++){\\nif(len>i){\\nlastX[20-1-i]=arr[len-1-i].x;\\nlastY[20-1-i]=arr[len-1-i].y;\\n}\\n}\\nreturn(lastX,lastY);\\n'": [
+        "ERROR: when parsing line 13 column 0: no viable alternative at input 'functiongetLastTen(uintid)constantreturns(uint[10],uint[10]){\\nuint[10]memorylastX;\\nuint[10]memorylastY;\\nFoo[]storagearr=foo[id];\\nuintlen=arr.length;\\nfor(uinti=0;i<20;i++){\\nif(len>i){\\nlastX[20-1-i]=arr[len-1-i].x;\\nlastY[20-1-i]=arr[len-1-i].y;\\n}\\n}\\nreturn(lastX,lastY);\\n'\n"
+    ]
+}

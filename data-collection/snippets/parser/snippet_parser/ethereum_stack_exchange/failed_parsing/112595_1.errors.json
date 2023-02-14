@@ -1,5 +1,5 @@
 {
-    "missing ')' at '\\n'": [
-        "ERROR: when parsing line 5 column 12: missing ')' at '\\n'\n"
+    "no viable alternative at input 'functionstartArbitrage(\\naddresstoken0,\\naddresstoken1,\\nuintamount0,\\nuintamount1\\n'": [
+        "ERROR: when parsing line 6 column 0: no viable alternative at input 'functionstartArbitrage(\\naddresstoken0,\\naddresstoken1,\\nuintamount0,\\nuintamount1\\n'\n"
     ]
 }

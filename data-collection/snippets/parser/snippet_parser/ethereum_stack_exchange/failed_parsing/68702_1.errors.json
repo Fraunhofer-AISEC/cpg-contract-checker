@@ -1,5 +1,5 @@
 {
-    "mismatched input 'number' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input 'number' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'onlinenumber'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input 'onlinenumber'\n"
     ]
 }

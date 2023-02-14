@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsupportsInterface(bytes4interfaceId)publicviewvirtualoverride(ERC165,IERC165)returns(bool){\\nreturninterfaceId==type(IERC721).interfaceId\\n||interfaceId==type(IERC721Metadata).interfaceId\\n||super.supportsInterface(interfaceId);\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functionsupportsInterface(bytes4interfaceId)publicviewvirtualoverride(ERC165,IERC165)returns(bool){\\nreturninterfaceId==type(IERC721).interfaceId\\n||interfaceId==type(IERC721Metadata).interfaceId\\n||super.supportsInterface(interfaceId);\\n'\n"
+    ]
+}

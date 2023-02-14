@@ -1,8 +1,5 @@
 {
-    "mismatched input 'import' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input 'import' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input ',' expecting {'as', 'from'}": [
-        "ERROR: when parsing line 1 column 32: mismatched input ',' expecting {'as', 'from'}\n"
+    "no viable alternative at input 'fromsolcximport'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input 'fromsolcximport'\n"
     ]
 }

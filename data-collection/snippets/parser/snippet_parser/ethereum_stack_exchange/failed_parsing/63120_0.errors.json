@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionhashTest()publicreturns(bytes32,bytes32,bytes32){\\nbytes32_solution=0xbc756c25d68ea2f260ea5f15e1e1c734c019cbc014270dd386eacca4699f60f6;\\nbytes32v=keccak256(abi.encodePacked(_solution));\\nbytes32x=sha256(abi.encodePacked(_solution));\\nbytes32z=ripemd160(abi.encodePacked(_solution));\\nPrint(v,x,z);\\nreturn(v,x,z);\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functionhashTest()publicreturns(bytes32,bytes32,bytes32){\\nbytes32_solution=0xbc756c25d68ea2f260ea5f15e1e1c734c019cbc014270dd386eacca4699f60f6;\\nbytes32v=keccak256(abi.encodePacked(_solution));\\nbytes32x=sha256(abi.encodePacked(_solution));\\nbytes32z=ripemd160(abi.encodePacked(_solution));\\nPrint(v,x,z);\\nreturn(v,x,z);\\n'\n"
+    ]
+}

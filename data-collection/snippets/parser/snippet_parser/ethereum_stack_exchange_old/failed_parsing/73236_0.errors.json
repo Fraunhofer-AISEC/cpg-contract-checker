@@ -1,0 +1,23 @@
+{
+    "mismatched input 'approves' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 11: mismatched input 'approves' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'contract' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 24: mismatched input 'contract' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 1 column 33: extraneous input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "mismatched input 'act' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 1 column 44: mismatched input 'act' expecting {'{', 'is'}\n"
+    ],
+    "mismatched input 'their' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 51: mismatched input 'their' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 63: extraneous input '.' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'is' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 2 column 10: mismatched input 'is' expecting {'=', ';', NL}\n"
+    ]
+}

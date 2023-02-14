@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'uintbalance['": [
+        "ERROR: when parsing line 1 column 12: no viable alternative at input 'uintbalance['\n"
+    ]
+}

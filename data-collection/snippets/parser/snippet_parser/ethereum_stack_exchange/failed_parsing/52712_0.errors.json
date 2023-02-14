@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionapproveAndCall(address_spender,uint256_value,bytes\\n_extraData)public\\nreturns(boolsuccess){\\nallowance[msg.sender][_spender]=_value;\\ntokenRecipientspender=tokenRecipient(_spender);\\nif(approve(_spender,_value)){\\nspender.receiveApproval(msg.sender,_value,this,_extraData);\\nreturntrue;\\n}\\n'": [
+        "ERROR: when parsing line 10 column 0: no viable alternative at input 'functionapproveAndCall(address_spender,uint256_value,bytes\\n_extraData)public\\nreturns(boolsuccess){\\nallowance[msg.sender][_spender]=_value;\\ntokenRecipientspender=tokenRecipient(_spender);\\nif(approve(_spender,_value)){\\nspender.receiveApproval(msg.sender,_value,this,_extraData);\\nreturntrue;\\n}\\n'\n"
+    ]
+}

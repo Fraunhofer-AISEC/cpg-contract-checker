@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionapproveRequest(uintindex)public{\\nRequeststoragerequest=requests[index];\\n\\nrequire(approvers[msg.sender]);\\nrequire(!requests[index].approvals[msg.sender]);\\n\\nrequests[index].approvals[msg.sender]=true;\\nrequests[index].approvalCount++;\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionapproveRequest(uintindex)public{\\nRequeststoragerequest=requests[index];\\n\\nrequire(approvers[msg.sender]);\\nrequire(!requests[index].approvals[msg.sender]);\\n\\nrequests[index].approvals[msg.sender]=true;\\nrequests[index].approvalCount++;\\n'\n"
+    ]
+}

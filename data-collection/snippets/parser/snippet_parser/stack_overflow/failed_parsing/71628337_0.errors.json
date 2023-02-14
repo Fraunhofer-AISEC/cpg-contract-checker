@@ -1,5 +1,38 @@
 {
     "no viable alternative at input 'hashData:='": [
         "ERROR: when parsing line 4 column 13: no viable alternative at input 'hashData:='\n"
+    ],
+    "extraneous input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 4 column 37: extraneous input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'byte' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 10: mismatched input 'byte' expecting {';', NL}\n"
+    ],
+    "extraneous input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 74: extraneous input ',' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'data,'": [
+        "ERROR: when parsing line 6 column 12: no viable alternative at input 'data,'\n"
+    ],
+    "no viable alternative at input 'signature,'": [
+        "ERROR: when parsing line 11 column 13: no viable alternative at input 'signature,'\n"
+    ],
+    "mismatched input 'err' expecting {'(', NL}": [
+        "ERROR: when parsing line 12 column 7: mismatched input 'err' expecting {'(', NL}\n"
+    ],
+    "extraneous input '{' expecting {';', NL}": [
+        "ERROR: when parsing line 12 column 18: extraneous input '{' expecting {';', NL}\n"
+    ],
+    "extraneous input '}' expecting {';', NL}": [
+        "ERROR: when parsing line 14 column 4: extraneous input '}' expecting {';', NL}\n"
+    ],
+    "no viable alternative at input 'sigPublicKeyECDSA,'": [
+        "ERROR: when parsing line 17 column 21: no viable alternative at input 'sigPublicKeyECDSA,'\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 18 column 15: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "missing ')' at '('": [
+        "ERROR: when parsing line 18 column 52: missing ')' at '('\n"
     ]
 }

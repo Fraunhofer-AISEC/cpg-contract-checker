@@ -1,5 +1,5 @@
 {
-    "mismatched input 'PUSH1' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 5: mismatched input 'PUSH1' expecting {';', NL}\n"
+    "no viable alternative at input '0026PUSH1'": [
+        "ERROR: when parsing line 1 column 5: no viable alternative at input '0026PUSH1'\n"
     ]
 }

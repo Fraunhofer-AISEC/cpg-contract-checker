@@ -1,5 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 27: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'contractAddress.setMaterial((test,q,u,m)\\n\\nfunction'": [
+        "ERROR: when parsing line 3 column 0: no viable alternative at input 'contractAddress.setMaterial((test,q,u,m)\\n\\nfunction'\n"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetAllDetails(address_addressCandidat)\\npublic\\nview\\nreturns(CVmemory)\\n{\\nreturnCVs[_addressCandidat];\\n'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functiongetAllDetails(address_addressCandidat)\\npublic\\nview\\nreturns(CVmemory)\\n{\\nreturnCVs[_addressCandidat];\\n'\n"
+    ]
+}

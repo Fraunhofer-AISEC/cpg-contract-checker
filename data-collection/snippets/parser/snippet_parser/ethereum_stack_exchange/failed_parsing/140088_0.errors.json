@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionuri(uint256_tokenId)\\npublic\\npure\\noverride\\nreturns(stringmemory)\\n{\\n\\nfunctionsetURI'": [
+        "ERROR: when parsing line 8 column 9: no viable alternative at input 'functionuri(uint256_tokenId)\\npublic\\npure\\noverride\\nreturns(stringmemory)\\n{\\n\\nfunctionsetURI'\n"
+    ]
+}

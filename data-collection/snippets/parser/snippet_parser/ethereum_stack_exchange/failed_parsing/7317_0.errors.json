@@ -1,8 +1,5 @@
 {
-    "mismatched input 'address' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 4 column 12: mismatched input 'address' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
-    ],
-    "mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
-        "ERROR: when parsing line 4 column 19: mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    "no viable alternative at input 'structUser{\\nuint256user_id;\\nbytes32name;\\nbytes32address'": [
+        "ERROR: when parsing line 4 column 12: no viable alternative at input 'structUser{\\nuint256user_id;\\nbytes32name;\\nbytes32address'\n"
     ]
 }

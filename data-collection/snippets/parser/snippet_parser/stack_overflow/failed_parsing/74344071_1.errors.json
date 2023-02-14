@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetIndex(addresswalletAddress)viewprivatereturns(uint){\\nfor(uinti=0;i<kids.length;i++){\\nif(kids[i].walletAddress==walletAddress){{\\nreturni;\\n}\\n}\\nreturn999;\\n}\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functiongetIndex(addresswalletAddress)viewprivatereturns(uint){\\nfor(uinti=0;i<kids.length;i++){\\nif(kids[i].walletAddress==walletAddress){{\\nreturni;\\n}\\n}\\nreturn999;\\n}\\n'\n"
+    ]
+}

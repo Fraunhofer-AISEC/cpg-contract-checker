@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'constcontract'": [
-        "ERROR: when parsing line 4 column 6: no viable alternative at input 'constcontract'\n"
+    "no viable alternative at input 'constethers=require('ethers');\\nconstprovider=newethers.providers.JsonRpcProvider('https://bsc-dataseed1.binance.org:443');\\n\\nconstcontract'": [
+        "ERROR: when parsing line 4 column 6: no viable alternative at input 'constethers=require('ethers');\\nconstprovider=newethers.providers.JsonRpcProvider('https://bsc-dataseed1.binance.org:443');\\n\\nconstcontract'\n"
     ]
 }

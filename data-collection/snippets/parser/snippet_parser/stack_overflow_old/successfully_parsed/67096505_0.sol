@@ -1,0 +1,17 @@
+uint256 private constant MAX = ~uint256(0);
+uint256 private _tTotal = 100000000 * 10**6 * 10**9;
+uint256 private _rTotal = (MAX - (MAX % _tTotal));
+uint256 private _tFeeTotal;
+string private _name = "FromSafeMoon";
+string private _symbol = "FROMSAFE";
+uint8 private _decimals = 5;
+uint256 public _taxFee = 1;
+uint256 private _previousTaxFee = _taxFee;
+uint256 public _liquidityFee = 4;
+uint256 private _previousLiquidityFee = _liquidityFee;
+IUniswapV2Router02 public immutable uniswapV2Router;
+address public immutable uniswapV2Pair;
+bool inSwapAndLiquify;
+bool public swapAndLiquifyEnabled = true;
+uint256 public _maxTxAmount = 5000000 * 10**6 * 10**9;
+uint256 private numTokensSellToAddToLiquidity = 500000 * 10**6 * 10**9;

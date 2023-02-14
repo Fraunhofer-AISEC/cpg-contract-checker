@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '(_value.mul(fee).div(10000);'": [
+        "ERROR: when parsing line 20 column 53: no viable alternative at input '(_value.mul(fee).div(10000);'\n"
+    ]
+}

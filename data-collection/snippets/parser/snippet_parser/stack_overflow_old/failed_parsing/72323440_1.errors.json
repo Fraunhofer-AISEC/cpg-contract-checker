@@ -1,0 +1,5 @@
+{
+    "mismatched input '\\n' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 13 column 4: mismatched input '\\n' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ]
+}

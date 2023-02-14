@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input 'TimeLockedWalletFactory.sol:'": [
-        "ERROR: when parsing line 1 column 37: no viable alternative at input 'TimeLockedWalletFactory.sol:'\n"
+    "no viable alternative at input 'contracts/TimeLockedWalletFactory.sol:'": [
+        "ERROR: when parsing line 1 column 37: no viable alternative at input 'contracts/TimeLockedWalletFactory.sol:'\n"
     ]
 }

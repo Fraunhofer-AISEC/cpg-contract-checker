@@ -1,0 +1,1 @@
+Error minting character Error: non-payable method cannot override value (operation="overrides.value", value={"type":"BigNumber","hex":"0x0eebe0b40e8000"}, code=UNSUPPORTED_OPERATION, version=contracts/5.6.2)

@@ -1,29 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 4: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'function' expecting ')'": [
-        "ERROR: when parsing line 1 column 42: mismatched input 'function' expecting ')'\n"
-    ],
-    "mismatched input 'ethers' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 31: mismatched input 'ethers' expecting {';', NL}\n"
-    ],
-    "mismatched input 'EventEmitter' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 31: mismatched input 'EventEmitter' expecting {';', NL}\n"
-    ],
-    "mismatched input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 4 column 22: mismatched input '.' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '(' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 6 column 16: mismatched input '(' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'emit' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 7 column 10: mismatched input 'emit' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "mismatched input ';' expecting '('": [
-        "ERROR: when parsing line 8 column 26: mismatched input ';' expecting '('\n"
-    ],
-    "extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 9 column 3: extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'struct', 'function', 'enum', '[', 'address', 'mapping', 'calldata', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'it(\"Should emit MyEventWithData\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 42: no viable alternative at input 'it(\"Should emit MyEventWithData\",asyncfunction'\n"
     ]
 }

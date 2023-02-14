@@ -19,5 +19,41 @@
     ],
     "mismatched input 'winner' expecting {'=', ';', NL}": [
         "ERROR: when parsing line 2 column 77: mismatched input 'winner' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'ms' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 28: mismatched input 'ms' expecting {';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 39: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'tests' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 51: mismatched input 'tests' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'hooks' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 61: mismatched input 'hooks' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'is' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 84: mismatched input 'is' expecting {';', NL}\n"
+    ],
+    "mismatched input 'returning' expecting {'(', NL}": [
+        "ERROR: when parsing line 3 column 98: mismatched input 'returning' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'Promise' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 110: mismatched input 'Promise' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'resolves' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 129: mismatched input 'resolves' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'solidityjsbypatrick' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 159: mismatched input 'solidityjsbypatrick' expecting {';', NL}\n"
+    ],
+    "mismatched input '-' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 186: mismatched input '-' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'test' expecting {';', NL}": [
+        "ERROR: when parsing line 3 column 209: mismatched input 'test' expecting {';', NL}\n"
+    ],
+    "mismatched input 'Raffle' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 222: mismatched input 'Raffle' expecting {'=', ';', NL}\n"
     ]
 }

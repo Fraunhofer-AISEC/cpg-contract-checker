@@ -1,8 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 30: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input ')' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 56: mismatched input ')' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'uint16requiredYear=getYear(uintdateStampOfMileStone'": [
+        "ERROR: when parsing line 1 column 36: no viable alternative at input 'uint16requiredYear=getYear(uintdateStampOfMileStone'\n"
     ]
 }

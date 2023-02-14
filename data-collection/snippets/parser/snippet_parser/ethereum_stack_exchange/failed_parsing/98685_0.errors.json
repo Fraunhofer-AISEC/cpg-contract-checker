@@ -1,5 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 6 column 44: mismatched input '(' expecting {';', NL}\n"
+    "no viable alternative at input 'functiongetPrice(addresstokenIn,addresstokenOut)\\nexternal\\nview\\nreturns(uint256price)\\n{\\nIUniswapV3Poolpool=IUniswapV3Pool(factory.getPool(tokenIn,tokenOut,FEE);'": [
+        "ERROR: when parsing line 6 column 84: no viable alternative at input 'functiongetPrice(addresstokenIn,addresstokenOut)\\nexternal\\nview\\nreturns(uint256price)\\n{\\nIUniswapV3Poolpool=IUniswapV3Pool(factory.getPool(tokenIn,tokenOut,FEE);'\n"
     ]
 }

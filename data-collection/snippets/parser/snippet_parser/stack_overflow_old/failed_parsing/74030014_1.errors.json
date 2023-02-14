@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'Source\"@chainlink/contracts/src/v0.8/VRFV2WrapperConsumerBase.sol\"'": [
+        "ERROR: when parsing line 1 column 7: no viable alternative at input 'Source\"@chainlink/contracts/src/v0.8/VRFV2WrapperConsumerBase.sol\"'\n"
+    ]
+}

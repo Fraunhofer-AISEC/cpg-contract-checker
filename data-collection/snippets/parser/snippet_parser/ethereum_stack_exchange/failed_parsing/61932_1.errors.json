@@ -1,8 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 8: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "mismatched input 'cost' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 23: mismatched input 'cost' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'k=375(initialLOG'": [
+        "ERROR: when parsing line 1 column 18: no viable alternative at input 'k=375(initialLOG'\n"
     ]
 }

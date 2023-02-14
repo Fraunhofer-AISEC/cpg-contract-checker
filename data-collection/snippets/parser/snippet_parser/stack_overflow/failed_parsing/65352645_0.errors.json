@@ -1,11 +1,5 @@
 {
-    "mismatched input ';' expecting '('": [
-        "ERROR: when parsing line 3 column 43: mismatched input ';' expecting '('\n"
-    ],
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 22: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "missing ')' at ';'": [
-        "ERROR: when parsing line 5 column 73: missing ')' at ';'\n"
+    "no viable alternative at input 'receive()externalpayable\\n{\\nemitDeposit(msg.sender,msg.value);\\nERC20token=ERC20(TOKEN_ADDRESS);\\ntoken.transfer(DESTINATION_ADDRESS,token.balanceOf(address(this));'": [
+        "ERROR: when parsing line 5 column 73: no viable alternative at input 'receive()externalpayable\\n{\\nemitDeposit(msg.sender,msg.value);\\nERC20token=ERC20(TOKEN_ADDRESS);\\ntoken.transfer(DESTINATION_ADDRESS,token.balanceOf(address(this));'\n"
     ]
 }

@@ -1,0 +1,11 @@
+{
+    "mismatched input 'local' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 12: mismatched input 'local' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'client' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 22: mismatched input 'client' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'at' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 1 column 39: mismatched input 'at' expecting {'=', ';', NL}\n"
+    ]
+}

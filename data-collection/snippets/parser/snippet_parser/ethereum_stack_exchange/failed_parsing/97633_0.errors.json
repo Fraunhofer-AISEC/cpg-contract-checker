@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionrefundAmount(addresspayable_customer)\\nexternal\\npayable{\\nif(registrations[_customer].amount>0){\\nif(address(this).balance>=registrations[_customer].amount){\\n\\nticketsSold=ticketsSold-registrations[_customer].noOfTickets;\\nregistrations[_customer].noOfTickets=0;\\nregistrations[_customer].email=\" \";\\nuintrefundCustAmount=registrations[_customer].amount;\\nregistrations[_customer].amount=0;\\n\\n_customer.transfer(refundCustAmount);\\n\\nemitRefund(_customer,refundCustAmount);\\n}\\n\\n}\\n'": [
+        "ERROR: when parsing line 19 column 0: no viable alternative at input 'functionrefundAmount(addresspayable_customer)\\nexternal\\npayable{\\nif(registrations[_customer].amount>0){\\nif(address(this).balance>=registrations[_customer].amount){\\n\\nticketsSold=ticketsSold-registrations[_customer].noOfTickets;\\nregistrations[_customer].noOfTickets=0;\\nregistrations[_customer].email=\" \";\\nuintrefundCustAmount=registrations[_customer].amount;\\nregistrations[_customer].amount=0;\\n\\n_customer.transfer(refundCustAmount);\\n\\nemitRefund(_customer,refundCustAmount);\\n}\\n\\n}\\n'\n"
+    ]
+}

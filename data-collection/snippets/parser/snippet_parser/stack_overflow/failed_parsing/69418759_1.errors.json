@@ -1,5 +1,5 @@
 {
-    "no viable alternative at input '(address(0);'": [
-        "ERROR: when parsing line 7 column 25: no viable alternative at input '(address(0);'\n"
+    "no viable alternative at input 'functioncreateContract(E.BKLiteMetamemorymeta)\\npublic\\npayable\\nreturns(address)\\n{\\nrequire(meta.publisherAddress==msg.sender,\"only pub\");\\nreturn(address(0);'": [
+        "ERROR: when parsing line 7 column 25: no viable alternative at input 'functioncreateContract(E.BKLiteMetamemorymeta)\\npublic\\npayable\\nreturns(address)\\n{\\nrequire(meta.publisherAddress==msg.sender,\"only pub\");\\nreturn(address(0);'\n"
     ]
 }

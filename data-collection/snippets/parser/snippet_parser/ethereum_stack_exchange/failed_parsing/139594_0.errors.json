@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input '{\\nrequire(msg.value==publicPrice,\"\");\\n_mint(msg.sender,account,id,amount,\"\");\\n}\\n}'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input '{\\nrequire(msg.value==publicPrice,\"\");\\n_mint(msg.sender,account,id,amount,\"\");\\n}\\n}'\n"
+    ]
+}

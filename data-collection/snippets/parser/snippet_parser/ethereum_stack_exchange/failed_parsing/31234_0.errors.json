@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontoken(uint256initialsupply,stringsymbol,stringname,uint256\\nbuyPrice,uint256sellPrice)public{\\n\\ntotalSupply=initialsupply*10**decimals;\\ntokenBalance[msg.sender]=totalSupply;\\ntokenSymbol=symbol;\\ntokenName=name;\\nbuyprice=buyPrice;\\nsellprice=sellPrice;\\nrequire(buyprice<=sellprice);\\nowner=msg.sender;\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functiontoken(uint256initialsupply,stringsymbol,stringname,uint256\\nbuyPrice,uint256sellPrice)public{\\n\\ntotalSupply=initialsupply*10**decimals;\\ntokenBalance[msg.sender]=totalSupply;\\ntokenSymbol=symbol;\\ntokenName=name;\\nbuyprice=buyPrice;\\nsellprice=sellPrice;\\nrequire(buyprice<=sellprice);\\nowner=msg.sender;\\n'\n"
+    ]
+}

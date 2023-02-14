@@ -1,0 +1,19 @@
+{
+    "extraneous input 'swap' expecting {'(', NL}": [
+        "ERROR: when parsing line 7 column 9: extraneous input 'swap' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_tokenIn' expecting {',', ')'}": [
+        "ERROR: when parsing line 8 column 16: extraneous input '_tokenIn' expecting {',', ')'}\n"
+    ],
+    "missing ')' at '_tokenOut'": [
+        "ERROR: when parsing line 9 column 16: missing ')' at '_tokenOut'\n"
+    ],
+    "extraneous input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 9 column 25: extraneous input ',' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 10 column 25: extraneous input ',' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 11 column 29: extraneous input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 13 column 4: mismatched input ')' expecting {'=', ';', NL}\n"
+    ]
+}

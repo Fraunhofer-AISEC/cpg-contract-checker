@@ -1,8 +1,5 @@
 {
-    "mismatched input 'herepragma' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 11: mismatched input 'herepragma' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input '^' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 31: mismatched input '^' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'entercodeherepragma'": [
+        "ERROR: when parsing line 1 column 11: no viable alternative at input 'entercodeherepragma'\n"
     ]
 }

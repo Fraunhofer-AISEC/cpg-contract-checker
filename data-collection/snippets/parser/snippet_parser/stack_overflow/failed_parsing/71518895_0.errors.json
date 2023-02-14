@@ -1,26 +1,5 @@
 {
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 34: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'participants:'": [
-        "ERROR: when parsing line 6 column 24: no viable alternative at input 'participants:'\n"
-    ],
-    "extraneous input ',' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 6 column 48: extraneous input ',' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'amountRequired:'": [
-        "ERROR: when parsing line 7 column 26: no viable alternative at input 'amountRequired:'\n"
-    ],
-    "extraneous input ',' expecting {';', NL}": [
-        "ERROR: when parsing line 10 column 24: extraneous input ',' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'createdTime:'": [
-        "ERROR: when parsing line 11 column 23: no viable alternative at input 'createdTime:'\n"
-    ],
-    "mismatched input '}' expecting {';', NL}": [
-        "ERROR: when parsing line 13 column 8: mismatched input '}' expecting {';', NL}\n"
-    ],
-    "extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
-        "ERROR: when parsing line 13 column 9: extraneous input ')' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    "no viable alternative at input 'functionCreateGame(uintamountRequired,stringmemorytimeoption)publicrestricted{\\nsetGameDuration(timeoption);\\ngameid++;\\n\\nGamememorynewGame=Game({\\nparticipants:address[]participants'": [
+        "ERROR: when parsing line 6 column 36: no viable alternative at input 'functionCreateGame(uintamountRequired,stringmemorytimeoption)publicrestricted{\\nsetGameDuration(timeoption);\\ngameid++;\\n\\nGamememorynewGame=Game({\\nparticipants:address[]participants'\n"
     ]
 }

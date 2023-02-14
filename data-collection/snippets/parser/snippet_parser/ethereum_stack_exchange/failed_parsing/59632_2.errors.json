@@ -1,8 +1,5 @@
 {
-    "mismatched input 'contract' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 13: mismatched input 'contract' expecting {';', NL}\n"
-    ],
-    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 1 column 22: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    "no viable alternative at input 'Crowd-salecontract'": [
+        "ERROR: when parsing line 1 column 13: no viable alternative at input 'Crowd-salecontract'\n"
     ]
 }

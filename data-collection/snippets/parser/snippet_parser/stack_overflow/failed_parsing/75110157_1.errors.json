@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionBuyTickets()publicpayable{\\n\\nIERC20token=IERC20(address(0x123));\\n\\nrequire(\\ntoken.transferFrom(\\nmsg.sender,\\naddress(players),\\nmsg.value%ticketPrice==0,\\nstring.concat(\\n\"the value must be multiple of \",\\nStrings.toString(ticketPrice),\\n\" Ether\"\\n);'": [
+        "ERROR: when parsing line 14 column 13: no viable alternative at input 'functionBuyTickets()publicpayable{\\n\\nIERC20token=IERC20(address(0x123));\\n\\nrequire(\\ntoken.transferFrom(\\nmsg.sender,\\naddress(players),\\nmsg.value%ticketPrice==0,\\nstring.concat(\\n\"the value must be multiple of \",\\nStrings.toString(ticketPrice),\\n\" Ether\"\\n);'\n"
+    ]
+}

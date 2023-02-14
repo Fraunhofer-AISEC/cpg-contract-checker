@@ -1,0 +1,14 @@
+{
+    "mismatched input 'startapp' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 2 column 0: mismatched input 'startapp' expecting {'{', 'is'}\n"
+    ],
+    "mismatched input 'Uncaught' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 0: mismatched input 'Uncaught' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ':' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 18: mismatched input ':' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'property' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 3 column 32: mismatched input 'property' expecting {'=', ';', NL}\n"
+    ]
+}

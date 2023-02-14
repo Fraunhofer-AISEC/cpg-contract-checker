@@ -1,14 +1,5 @@
 {
-    "mismatched input 'Token' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 2: mismatched input 'Token' expecting {';', NL}\n"
-    ],
-    "mismatched input '10' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 0: mismatched input '10' expecting {';', NL}\n"
-    ],
-    "mismatched input 'token' expecting {';', NL}": [
-        "ERROR: when parsing line 3 column 7: mismatched input 'token' expecting {';', NL}\n"
-    ],
-    "mismatched input '=>' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 0: mismatched input '=>' expecting {';', NL}\n"
+    "no viable alternative at input '1Token'": [
+        "ERROR: when parsing line 1 column 2: no viable alternative at input '1Token'\n"
     ]
 }

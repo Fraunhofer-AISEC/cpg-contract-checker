@@ -1,8 +1,55 @@
 {
     "mismatched input ')' expecting {';', NL}": [
-        "ERROR: when parsing line 2 column 5: mismatched input ')' expecting {';', NL}\n"
+        "ERROR: when parsing line 2 column 5: mismatched input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 8 column 3: mismatched input ')' expecting {';', NL}\n"
     ],
     "mismatched input 'the' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 21: mismatched input 'the' expecting {'=', ';', NL}\n"
+        "ERROR: when parsing line 2 column 21: mismatched input 'the' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 9 column 21: mismatched input 'the' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input '0' expecting '('": [
+        "ERROR: when parsing line 5 column 2: mismatched input '0' expecting '('\n"
+    ],
+    "mismatched input 'passing' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 4: mismatched input 'passing' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 12: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input 'ms' expecting {';', NL}": [
+        "ERROR: when parsing line 5 column 16: mismatched input 'ms' expecting {';', NL}\n"
+    ],
+    "extraneous input 'failing' expecting {';', NL}": [
+        "ERROR: when parsing line 6 column 4: extraneous input 'failing' expecting {';', NL}\n"
+    ],
+    "mismatched input 'should' expecting {';', NL}": [
+        "ERROR: when parsing line 9 column 7: mismatched input 'should' expecting {';', NL}\n"
+    ],
+    "extraneous input ':' expecting {'(', NL}": [
+        "ERROR: when parsing line 9 column 42: extraneous input ':' expecting {'(', NL}\n"
+    ],
+    "missing '(' at 'TypeError'": [
+        "ERROR: when parsing line 10 column 5: missing '(' at 'TypeError'\n"
+    ],
+    "mismatched input ':' expecting {',', ')'}": [
+        "ERROR: when parsing line 10 column 14: mismatched input ':' expecting {',', ')'}\n"
+    ],
+    "mismatched input '.' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 28: mismatched input '.' expecting {'=', ';', NL}\n",
+        "ERROR: when parsing line 11 column 16: mismatched input '.' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'function' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 10 column 58: extraneous input 'function' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ':' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 45: mismatched input ':' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 49: mismatched input ':' expecting {';', NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 11 column 48: extraneous input ')' expecting {';', NL}\n",
+        "ERROR: when parsing line 12 column 52: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input '(' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 12 column 26: mismatched input '(' expecting {'=', ';', NL}\n"
     ]
 }

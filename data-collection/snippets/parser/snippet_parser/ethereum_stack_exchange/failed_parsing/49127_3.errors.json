@@ -1,9 +1,5 @@
 {
-    "mismatched input 'shows' expecting {';', NL}": [
-        "ERROR: when parsing line 1 column 48: mismatched input 'shows' expecting {';', NL}\n",
-        "ERROR: when parsing line 2 column 57: mismatched input 'shows' expecting {';', NL}\n"
-    ],
-    "mismatched input 'print' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 2 column 0: mismatched input 'print' expecting {'=', ';', NL}\n"
+    "no viable alternative at input 'print('\\ngetBytes32 raw: {}'.format(zbytes32))shows'": [
+        "ERROR: when parsing line 1 column 48: no viable alternative at input 'print('\\ngetBytes32 raw: {}'.format(zbytes32))shows'\n"
     ]
 }
