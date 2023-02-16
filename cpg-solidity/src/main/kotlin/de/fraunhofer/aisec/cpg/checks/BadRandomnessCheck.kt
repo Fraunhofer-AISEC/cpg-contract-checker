@@ -10,19 +10,13 @@ class BadRandomnessCheck  : Check() {
     }
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
-        var findings: MutableList<PhysicalLocation> = mutableListOf()
-
-        val query = """
-            match (n:MemberExpression)
-            where n.code contains "block.number"
-                or n.code contains "block.timestamp"
-            return n as node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
-            """
-
+        val findings: MutableList<PhysicalLocation> = mutableListOf()
+        val query = object {}.javaClass.getResourceAsStream("/CallReturn")?.bufferedReader()?.readText()
         transaction.run(query).let { result ->
             while (result.hasNext()) {
                 val row: Map<String, Any> = result.next().asMap()
                 findings.add(getPhysicalLocationFromResult(row))
+
             }
         }
         return findings
