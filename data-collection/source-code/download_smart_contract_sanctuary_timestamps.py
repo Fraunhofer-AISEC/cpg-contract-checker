@@ -46,10 +46,12 @@ def main():
 
     w3_api = cycle(range(2))
 
+    all_contracts = set()
     for _, _, files in os.walk("smart-contract-sanctuary-ethereum"):
         for file in files:
             if file.endswith(".sol"):
                 address = Web3.toChecksumAddress("0x"+file.split("_")[0])
+                all_contracts.add(address)
                 exists = collection.find_one({"contractAddress": address.lower()})
                 print(address)
                 if not exists:
@@ -80,7 +82,7 @@ def main():
                     except:
                         print(dt_string, colors.FAIL+"Error: Could not download timestamp for contract:", address, colors.END)
     print("Done.")
-
+    print("Total contracts:", len(all_contracts))
 
 if __name__ == "__main__":
     main()
