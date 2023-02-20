@@ -14,8 +14,8 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |FrontRunning|   |In Construction|Konrad|
 |Time Manipulation|   |In Construction|Florian|
 |Bad Randomness|   |In Construction|Florian|
-|Denial of Service|   |Finished|Konrad||
-|Others| |Planned|Konrad|  |
+|Denial of Service|   |Finished|Konrad| Done |
+|Others| |Finished |Konrad| Done |
 
 
 Christof TODO: Take a look at zero values for HoneyBadger, Maian and Solhint.
