@@ -14,7 +14,7 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |FrontRunning|   |In Construction|Konrad|
 |Time Manipulation|   |In Construction|Florian|
 |Bad Randomness|   |In Construction|Florian|
-|Denial of Service|   |Finished|Konrad||
+|Denial of Service|   |Finished|Konrad| Done |
 |Others| |Finished |Konrad| Done |
 
 
