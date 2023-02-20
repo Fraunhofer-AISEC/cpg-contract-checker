@@ -178,8 +178,8 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
             val type = this.lang.typeHandler.handle(variable.typeName())
             val name = variable.identifier().text
 
-            val decl =
-                NodeBuilder.newVariableDeclaration(name, type, this.lang.getCodeFromRawNode(variable.identifier()), false)
+            val decl = NodeBuilder.newVariableDeclaration(name, type, this.lang.getCodeFromRawNode(variable.identifier()), false)
+            decl.location = lang.getLocationFromRawNode(variable)
 
             decl.initializer = initializer
 

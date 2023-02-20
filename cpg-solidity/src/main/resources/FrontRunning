@@ -1,0 +1,12 @@
+// Current Idea, find sending of values or state changes to targets depending on the msg.sender that have no imput or control flow dependence from message sender
+
+match (interesting)
+where exists(
+
+) or exists { (interesting:CallExpression)-[:BASE*]->(target {code: 'msg.sender'})
+where interesting.name = 'value' and not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:ARGUMENTS]-(interesting)}
+or exists {(interesting)-[:BASE*]->(SpecifiedExpression-[:SPECIFIERS]->(kv:KeyValueExpression)->[:KEY]->({name:'value'})
+where not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:VALUE]-(kv)}
+}
+ // base of send should me the message sender
+}
