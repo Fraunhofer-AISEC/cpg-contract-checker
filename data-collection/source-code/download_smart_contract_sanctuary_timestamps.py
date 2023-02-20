@@ -7,6 +7,7 @@ import requests
 
 from web3 import Web3
 from itertools import cycle
+from datetime import datetime
 
 MONGO_HOST = "sectrs-vascodagama"
 MONGO_PORT = 27017
@@ -15,6 +16,9 @@ ETHERSCAN_API_KEYS = ["ANAZQYWNY3ZBIIMIY9P153TE6Y78PUM226", "M8VPZT5CQ71TUQP9JNT
 
 PROVIDER_1 = Web3.HTTPProvider("https://mainnet.infura.io/v3/59bd984e502449f081d26eba3c624a32")
 PROVIDER_2 = Web3.HTTPProvider("https://mainnet.infura.io/v3/41e2dadcce7245d986bbc9e1196ca43b")
+
+#PROVIDER_1 = Web3.HTTPProvider("http://sectrs-vascodagama:8545")
+#PROVIDER_2 = Web3.HTTPProvider("http://sectrs-vascodagama:8545")
 
 class colors:
     INFO = '\033[94m'
@@ -47,28 +51,36 @@ def main():
             if file.endswith(".sol"):
                 address = Web3.toChecksumAddress("0x"+file.split("_")[0])
                 exists = collection.find_one({"contractAddress": address.lower()})
+                print(address)
                 if not exists:
-                    content = requests.get("https://api.etherscan.io/api?module=contract&action=getcontractcreation&contractaddresses="+str(address)+"&apikey="+str(next(api_key))).json()
-                    if content["status"] == "1" and content["message"] == "OK":
-                        result = content["result"][0]
-                        w3 = w3_1
-                        if next(w3_api) == 1:
-                            w3 = w3_2
-                        transaction = w3.eth.get_transaction(result["txHash"])
-                        result["blockNumber"] = transaction["blockNumber"]
-                        result["blockHash"] = transaction["blockHash"].hex()
-                        block = w3.eth.getBlock(block_identifier=result["blockNumber"], full_transactions=False)
-                        result["timestamp"] = block["timestamp"]
-                        collection.insert_one(result)
-                        # Indexing...
-                        if "contractAddress" not in collection.index_information():
-                            collection.create_index("contractAddress", unique=True)
-                            collection.create_index("contractCreator")
-                            collection.create_index("txHash")
-                            collection.create_index("blockNumber")
-                            collection.create_index("blockHash")
-                            collection.create_index("timestamp")
-                        print("Downloaded timestamp for contract:", colors.INFO+str(result["contractAddress"])+colors.END)
+                    try:
+                        content = requests.get("https://api.etherscan.io/api?module=contract&action=getcontractcreation&contractaddresses="+str(address)+"&apikey="+str(next(api_key))).json()
+                        if content["status"] == "1" and content["message"] == "OK":
+                            result = content["result"][0]
+                            w3 = w3_1
+                            if next(w3_api) == 1:
+                                w3 = w3_2
+                            transaction = w3.eth.get_transaction(result["txHash"])
+                            result["blockNumber"] = transaction["blockNumber"]
+                            result["blockHash"] = transaction["blockHash"].hex()
+                            block = w3.eth.getBlock(block_identifier=result["blockNumber"], full_transactions=False)
+                            result["timestamp"] = block["timestamp"]
+                            collection.insert_one(result)
+                            # Indexing...
+                            if "contractAddress" not in collection.index_information():
+                                collection.create_index("contractAddress", unique=True)
+                                collection.create_index("contractCreator")
+                                collection.create_index("txHash")
+                                collection.create_index("blockNumber")
+                                collection.create_index("blockHash")
+                                collection.create_index("timestamp")
+                            now = datetime.now()
+                            dt_string = now.strftime("%Y-%m-%d %H:%M:%S")
+                            print(dt_string, "Downloaded timestamp for contract:", colors.INFO+str(result["contractAddress"])+colors.END)
+                    except:
+                        print(dt_string, colors.FAIL+"Error: Could not download timestamp for contract:", address, colors.END)
+    print("Done.")
+
 
 if __name__ == "__main__":
     main()
