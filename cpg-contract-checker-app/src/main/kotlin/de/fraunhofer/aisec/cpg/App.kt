@@ -150,6 +150,7 @@ class App : Callable<Int> {
         checks.add(DOSCheck())
         checks.add(TimeManipulationCheck())
         checks.add(AddressPaddingCheck())
+        checks.add(FrontRunningCheck())
         checks.add(LocalWriteToStorageCheck())
         checks.add(OverUnderflowCheck())
     }

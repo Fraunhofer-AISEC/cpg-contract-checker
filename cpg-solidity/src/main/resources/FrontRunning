@@ -1,12 +1,16 @@
-// Current Idea, find sending of values or state changes to targets depending on the msg.sender that have no imput or control flow dependence from message sender
-
-match (interesting)
-where exists(
-
-) or exists { (interesting:CallExpression)-[:BASE*]->(target {code: 'msg.sender'})
-where interesting.name = 'value' and not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:ARGUMENTS]-(interesting)}
-or exists {(interesting)-[:BASE*]->(SpecifiedExpression-[:SPECIFIERS]->(kv:KeyValueExpression)->[:KEY]->({name:'value'})
-where not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:VALUE]-(kv)}
+match p=(f:FunctionDeclaration)-[:EOG*]->(interesting)-[:EOG*]->(last) // basic path to interesting node
+where not exists((last)-[:EOG]->())
+and (exists{ ({code: 'msg.sender'})-[:DFG*]->()<-[:LHS]-(interesting:BinaryOperator {operatorCode: '='})-[:RHS]->()<-[:DFG*]-(source)
+    where not exists(()-[:DFG*]->(source)) and source.code <> 'msg.sender' and source.code <> 'msg.value'
+} or exists {
+(interesting:CallExpression)-[:BASE*]->(target {code: 'msg.sender'})
+where interesting.name in ['value', 'send', 'transfer', 'call']
+and not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:ARGUMENTS]-(interesting)}
+    or exists {(interesting)-[:BASE*]->(SpecifiedExpression)-[:SPECIFIERS]->(kv:KeyValueExpression)-[:KEY]->({name:'value'})
+        where not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:VALUE]-(kv)}
+    }
 }
- // base of send should me the message sender
+) and not exists { // A condition influenced by message sender that avoids the path
+    alt=({code: 'msg.sender'})-[:DFG*]->(branch)-[:EOG*]->(altlast) where not exists((altlast)-[:EOG]->()) and branch in nodes(p) and (not interesting in nodes(alt) or altlast:Rollback)
 }
+return distinct  interesting as interesting, interesting.startLine as sline, interesting.endLine as eline, interesting.startColumn as scol, interesting.endColumn as ecol, interesting.artifact as file, interesting.name as name
