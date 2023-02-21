@@ -33,6 +33,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         val name = ctx.identifier().text
 
         val record = NodeBuilder.newRecordDeclaration(name, "struct", this.lang.getCodeFromRawNode(ctx))
+        lang.declaredTypes.put(name, record)
 
         this.lang.scopeManager.enterScope(record)
 
@@ -65,6 +66,8 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             ctx.identifier().text,
             "contract",
             lang.getCodeFromRawNode(ctx))
+
+        lang.declaredTypes.put(record.name, record)
 
         // enter the record scope
         this.lang.scopeManager.enterScope(record)
@@ -103,6 +106,8 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             "Contract" + filename.subSequence(0, filename.indexOf(".")),
             "contract",
             lang.getCodeFromRawNode(unit))
+
+        lang.declaredTypes.put(record.name, record)
 
         // enter the record scope
         this.lang.scopeManager.enterScope(record)

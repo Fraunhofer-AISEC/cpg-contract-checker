@@ -6,6 +6,7 @@ import de.fraunhofer.aisec.cpg.TranslationConfiguration
 import de.fraunhofer.aisec.cpg.frontends.LanguageFrontend
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.ModifierDefinition
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Rollback
+import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.graph.TypeManager
 import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
@@ -43,6 +44,9 @@ class SolidityLanguageFrontend(
     val modifierMap: MutableMap<ModifierDefinition, SolidityParser.ModifierDefinitionContext> = mutableMapOf()
     val modifierIdentifierMap: MutableMap<SolidityParser.ModifierDefinitionContext, MutableMap<String, SolidityParser.ExpressionContext>> = mutableMapOf()
     var currentIdentifierMapStack: Stack<MutableMap<String, SolidityParser.ExpressionContext>> = Stack<MutableMap<String, SolidityParser.ExpressionContext>>()
+
+
+    public val declaredTypes = mutableMapOf<String,Node>()
 
     val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
 

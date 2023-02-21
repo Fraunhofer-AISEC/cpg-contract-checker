@@ -7,17 +7,23 @@ import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Revert
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression
 import de.fraunhofer.aisec.cpg.graph.NodeBuilder
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.*
+import de.fraunhofer.aisec.cpg.graph.types.ObjectType
+import de.fraunhofer.aisec.cpg.graph.types.Type
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
 import org.antlr.v4.runtime.ParserRuleContext
 import org.antlr.v4.runtime.tree.ParseTree
 import org.antlr.v4.runtime.tree.TerminalNode
+import org.parboiled.common.ImmutableList
 import org.slf4j.LoggerFactory
 
 class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, ParserRuleContext, SolidityLanguageFrontend>(
     ::Expression, lang) {
 
     private var replacingReferenceWithExpression: Boolean = false
+
+    private val baseTypes: MutableSet<String> = mutableSetOf<String>("bool", "int", "uint","fixed", "ufixed", "address", " address payable", "bytes", "string")
+
 
     private val logger = LoggerFactory.getLogger(ExpressionHandler::class.java)
 
@@ -27,6 +33,56 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
         map.put(SolidityParser.FunctionCallContext::class.java) { handleFunctionCall(it as SolidityParser.FunctionCallContext) }
         map.put(SolidityParser.NameValueListContext::class.java) {handleNameValueListExpression(it as SolidityParser.NameValueListContext)}
         map.put(SolidityParser.IdentifierContext::class.java) {handleIdentifier(it as SolidityParser.IdentifierContext)}
+
+        // Adding all signed and unsigned integer type strings
+        for (i in 8..256 step 8){
+            baseTypes.addAll(setOf("uint$i", "int$i"))
+        }
+    }
+
+    private fun isType(type: String): Boolean {
+        var name = type
+        while(type.endsWith("]")){
+            name = type.substring(type.lastIndexOf('['))
+        }
+
+        if(name in baseTypes)
+            return true;
+        if(name.startsWith("uint")){
+            name.substring(4).toIntOrNull()?.let {
+                return (8..256 step 8).contains(it)
+            }
+        }
+        if(name.startsWith("int")){
+            name.substring(3).toIntOrNull()?.let {
+                return (8..256 step 8).contains(it)
+            }
+        }
+
+        if(name.startsWith("bytes")){
+            name.substring(5).toIntOrNull()?.let {
+                return (1..32).contains(it)
+            }
+        }
+
+        if(name.startsWith("fixed")){
+            name.substring(5)?.let {
+                val comps = it.split("x")
+                if(comps.size == 2  && (8..256 step 8).contains(comps[0].toIntOrNull()) && (0..80).contains(comps[1].toIntOrNull())){
+                    return true
+                }
+            }
+        }
+
+        if(name.startsWith("ufixed")){
+            name.substring(6)?.let {
+                val comps = it.split("x")
+                if(comps.size == 2  && (8..256 step 8).contains(comps[0].toIntOrNull()) && (0..80).contains(comps[1].toIntOrNull())){
+                    return true
+                }
+            }
+        }
+        return false;
     }
 
     private fun handleNameValueListExpression(ctx: SolidityParser.NameValueListContext): Expression {
@@ -146,6 +202,20 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                 return call
             }else if(ref is CallExpression){
                 return ref
+            }else if(isType(ref.code?:"") || lang.declaredTypes.contains(ref.code?:"")){
+            var cast = NodeBuilder.newCastExpression(this.lang.getCodeFromRawNode(ctx))
+                val args =ctx.functionCallArguments()?.expressionList()?.expression() ?: listOf()
+                if(args.size == 1){
+                    cast.expression = this.handle(args[0])
+                    cast.castType = ObjectType(
+                        ref.code,
+                        Type.Storage.AUTO,
+                        Type.Qualifier(false,false,false,false),
+                        listOf(),
+                        ObjectType.Modifier.NOT_APPLICABLE,
+                        !lang.declaredTypes.contains(ref.code?:""))
+                    return cast
+                }
             }
 
             logger.warn("Expression {} could not be parsed.", ctx::class.java)
