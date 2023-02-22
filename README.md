@@ -11,9 +11,9 @@ Progress is described in: Planned, In construction, Finished and Improving. Here
 |CallReturn|   |Finished|Konrad|Done|
 |Reentrancy|   |Finished|Konrad| Done |
 |Arithmetic|   |Finished|Konrad| Done |
-|FrontRunning|   |In Construction|Konrad|
-|Time Manipulation|   |In Construction|Florian|
-|Bad Randomness|   |In Construction|Florian|
+|FrontRunning|   |Finished|Konrad|
+|Time Manipulation|   |Finished|Florian|
+|Bad Randomness|   |Finished|Florian|
 |Denial of Service|   |Finished|Konrad| Done |
 |Others| |Finished |Konrad| Done |
 
