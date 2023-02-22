@@ -1,0 +1,82 @@
+// initial query
+match (n:MemberExpression)
+where n.code contains "block.number"
+    or n.code contains "block.timestamp"
+return n as node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+// CPG issues:
+//
+// Expression with casts (e.g., `uint(...)`, `uint24(...)`) not parsed into individual nodes
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/smart_billions.sol#L523
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/smart_billions.sol#L560
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/smart_billions.sol#L700-718
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/random_number_generator.sol#L22
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/lucky_doubler.sol#L130
+
+
+// Unclear what to match
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/etheraffle.sol#L99
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/etheraffle.sol#L101
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/etheraffle.sol#L103
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/blackjack.sol#L17
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/blackjack.sol#L19
+
+
+// Dataflow into field
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/random_number_generator.sol#L12
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/etheraffle.sol#L49,L114,L158
+MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:FieldDeclaration)
+WHERE n.name IN ["timestamp", "number"]
+    AND n.code IN ["block.timestamp", "block.number"]
+RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// Dataflow into variable used in condition leading to `transfer()`; variable value depends on `blockhash()`
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L35
+MATCH (n:CallExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]->(o),
+      p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
+WHERE n.name IN ["blockhash"]
+    AND transferCall.name IN ["transfer", "send"]
+RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// Dataflow into variable used in condition leading to `transfer()`; variable value depends on `block.number`
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L38
+MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]->(o),
+      p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
+WHERE n.name IN ["number"]
+    AND n.code IN ["block.number"]
+    AND transferCall.name IN ["transfer", "send"]
+RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// Dataflow into field through constructor with vulnerable arguments; part 1
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L42
+MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->()<-[:ARGUMENTS]-()-[:DFG]->()-[:REFERS_TO]->(:FieldDeclaration)
+WHERE n.name IN ["number"]
+    AND n.code IN ["block.number"]
+RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+// Dataflow into field through constructor with vulnerable arguments; part 2
+// if argument is vulnerable by itself
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L42
+MATCH p=(n:DeclaredReferenceExpression)<-[:ARGUMENTS]-()-[:DFG]->()-[:REFERS_TO]->(:FieldDeclaration)
+WHERE n.name IN ["number"]
+    AND n.code IN ["block.number"]
+RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// Dataflow into variable using `block.difficulty`, `block.number`, `block.timestamp`
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/etheraffle.sol#L103
+//
+// may not be optimal due to traversing potentially all DFG edges
+MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(:VariableDeclaration)
+WHERE n.name IN ["difficulty", "number", "timestamp"]
+    AND n.code IN ["block.difficulty", "block.number", "block.timestamp"]
+RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
+
+
+// Dataflow into function return value using `block.timestamp`, `block.number`, `block.blockhash(...)`
+// - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/blackjack.sol#L21
+//
+// -> all samples use `uint*(...)`
