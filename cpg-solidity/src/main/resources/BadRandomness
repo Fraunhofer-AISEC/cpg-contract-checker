@@ -1,0 +1,16 @@
+match (r)
+where (r:DeclaredReferenceExpression or r:MemberExpression or (r:CallExpression and r.name in ['blockhash'])) and r.code IN ["block.timestamp", "block.number", "block.difficulty"]
+and (exists { (r)-[:DFG*]->(:ReturnStatement)}
+or exists{ // This should also capture calls to send and transfer
+    (r)-[:DFG*]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}
+
+} or exists {
+    (r)-[:DFG*]->(:FieldDeclaration)
+} or exists {
+    (r)-[:DFG*]->(branch)-[:EOG]->(th)-[:EOG*]->(interesting) where exists {(branch)-[:EOG]->(el) where el <> th
+    and (interesting:Rollback or interesting:CallExpression)
+    and not exists ((el)-[:EOG*]->(interesting))}
+}
+
+)
+return distinct  r as refference, r.startLine as sline, r.endLine as eline, r.startColumn as scol, r.endColumn as ecol, r.artifact as file, r.name as name

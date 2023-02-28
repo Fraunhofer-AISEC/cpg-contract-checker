@@ -153,6 +153,8 @@ class App : Callable<Int> {
         checks.add(FrontRunningCheck())
         checks.add(LocalWriteToStorageCheck())
         checks.add(OverUnderflowCheck())
+        checks.add(DOSThroughExhaustionCheck())
+        checks.add(BadRandomnessCheck())
     }
 
     fun persistGraph(result: TranslationResult){
