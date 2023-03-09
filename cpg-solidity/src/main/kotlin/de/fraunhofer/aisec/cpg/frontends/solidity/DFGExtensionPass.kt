@@ -50,7 +50,7 @@ class DFGExtensionPass: Pass() {
             }
         }
 
-        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("sha3") }.forEach {
+        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("sha3") || it.name.equals("keccak256") }.forEach {
             val call = it
             call.arguments.forEach { call.addPrevDFG(it) }
         }
