@@ -1,8 +1,0 @@
-{
-    "no viable alternative at input 'uint256public'": [
-        "ERROR: when parsing line 5 column 16: no viable alternative at input 'uint256public'\n"
-    ],
-    "extraneous input 'ether' expecting {';', NL}": [
-        "ERROR: when parsing line 5 column 44: extraneous input 'ether' expecting {';', NL}\n"
-    ]
-}

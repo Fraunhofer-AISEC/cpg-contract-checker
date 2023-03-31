@@ -1,1 +1,0 @@
-MyData storage myData = ;

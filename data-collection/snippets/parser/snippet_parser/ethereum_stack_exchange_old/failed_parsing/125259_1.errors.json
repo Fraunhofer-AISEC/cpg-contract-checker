@@ -1,5 +1,0 @@
-{
-    "extraneous input 'currentBid' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 8 column 20: extraneous input 'currentBid' expecting {'=', ';', NL}\n"
-    ]
-}

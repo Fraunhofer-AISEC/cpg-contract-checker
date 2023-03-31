@@ -1,6 +1,0 @@
-pragma solidity ^0.5.16;
-...
-function addUser(string memory name) public returns (int) {
-   require(!userList[msg.sender].isSigned, "You already have an account.");
-   ...
-}

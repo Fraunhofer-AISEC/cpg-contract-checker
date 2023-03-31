@@ -1,3 +1,0 @@
-constructor () {
-    recipient = address(this);
-}

@@ -1,5 +1,0 @@
-{
-    "extraneous input 'contract' expecting {',', ')'}": [
-        "ERROR: when parsing line 9 column 43: extraneous input 'contract' expecting {',', ')'}\n"
-    ]
-}

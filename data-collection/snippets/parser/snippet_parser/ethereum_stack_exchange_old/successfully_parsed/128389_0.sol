@@ -1,3 +1,0 @@
-function purchase() payable public {
-  
-}

@@ -1,5 +1,0 @@
-{
-    "no viable alternative at input 'uint8[12]memory'": [
-        "ERROR: when parsing line 2 column 14: no viable alternative at input 'uint8[12]memory'\n"
-    ]
-}

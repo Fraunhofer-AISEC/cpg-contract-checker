@@ -1,1 +1,0 @@
-DeployedInterface constant private DeployedCOntract = DeployedInterface(deployedInterfaceAddress);

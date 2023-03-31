@@ -1,8 +1,0 @@
-1) Contract: Minter
-       i am the owner of the contract:
-
-      AssertionError: expected '0x00000000000000000000000000000000000…' to equal '0x90F8bf6A479f320ead074411a4B0e7944Ea…'
-      + expected - actual
-
-      -0x0000000000000000000000000000000000000000000000000000000000000000
-      +0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1

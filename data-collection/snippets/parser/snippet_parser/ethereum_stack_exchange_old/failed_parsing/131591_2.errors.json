@@ -1,5 +1,0 @@
-{
-    "no viable alternative at input 'Source\"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.7.0/contracts/access/Ownable.sol\"'": [
-        "ERROR: when parsing line 1 column 7: no viable alternative at input 'Source\"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.7.0/contracts/access/Ownable.sol\"'\n"
-    ]
-}

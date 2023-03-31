@@ -1,8 +1,0 @@
-{
-    "mismatched input 'is' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 121 column 10: mismatched input 'is' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'mint' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 121 column 20: mismatched input 'mint' expecting {'=', ';', NL}\n"
-    ]
-}

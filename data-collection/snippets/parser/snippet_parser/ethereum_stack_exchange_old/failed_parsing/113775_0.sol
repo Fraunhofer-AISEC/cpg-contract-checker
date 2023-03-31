@@ -1,6 +1,0 @@
-   contract ERC165Common: Defines structs / state shared by DiamondProxy and ERC165Facet. 
- 
-   contract DiamondProxy is IERC165, ERC165Common ... 
-
-   contract ERC165Facet  is IERC165, ERC165Common, ...  
-

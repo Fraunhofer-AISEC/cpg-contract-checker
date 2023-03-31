@@ -1,1 +1,0 @@
-':12:6: TypeError: Type struct hoteltranscation.hotel memory is not implicitly convertible to expected type struct hoteltranscation.hotel storage pointer.\n     hotel storage addtrascation =  hotel (_HotelName,_BookingNumber);\

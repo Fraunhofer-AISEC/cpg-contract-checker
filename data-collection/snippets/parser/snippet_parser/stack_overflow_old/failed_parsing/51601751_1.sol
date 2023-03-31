@@ -1,3 +1,0 @@
-function payEntryFee() external payable transitionToReveal(getPlayerCount()) atStage(Stages.AcceptingEntryFees) {
-    ....
-}

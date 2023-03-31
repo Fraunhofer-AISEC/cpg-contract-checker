@@ -1,9 +1,0 @@
-...
-uint256 balance = erc721Enumerable.balanceOf(msg.sender);
-require(balance > 0);
-
-for (uint256 i = 0; i < balance; i++) {
-    uint256 id = erc721Enumerable.tokenOfOwnerByIndex(msg.sender, i);
-    ...
-}
-...

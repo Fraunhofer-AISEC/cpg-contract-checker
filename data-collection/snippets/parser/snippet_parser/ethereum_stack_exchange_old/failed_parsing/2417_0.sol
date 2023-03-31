@@ -1,3 +1,0 @@
-function placeOrder(string _shopName, string _shopType, string _productCode, uint _qty) {
-    ...
-}

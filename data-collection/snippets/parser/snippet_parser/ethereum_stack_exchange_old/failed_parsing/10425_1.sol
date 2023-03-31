@@ -1,3 +1,0 @@
-function exp(uint n) returns (uint) {
-    return ...
-}

@@ -1,8 +1,0 @@
-{
-    "extraneous input 'dup1' expecting {';', NL}": [
-        "ERROR: when parsing line 6 column 2: extraneous input 'dup1' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'revert\\ntag_1:'": [
-        "ERROR: when parsing line 8 column 5: no viable alternative at input 'revert\\ntag_1:'\n"
-    ]
-}

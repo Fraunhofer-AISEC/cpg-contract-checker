@@ -1,8 +1,0 @@
-{
-    "extraneous input 'interface' expecting {'{', 'returns', ';', NL}": [
-        "ERROR: when parsing line 20 column 19: extraneous input 'interface' expecting {'{', 'returns', ';', NL}\n"
-    ],
-    "mismatched input 'public' expecting {'(', NL}": [
-        "ERROR: when parsing line 20 column 37: mismatched input 'public' expecting {'(', NL}\n"
-    ]
-}

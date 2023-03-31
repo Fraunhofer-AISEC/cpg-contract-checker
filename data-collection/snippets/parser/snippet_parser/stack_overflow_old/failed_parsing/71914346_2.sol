@@ -1,3 +1,0 @@
-function getPlayers() public view returns(address[] memory) {
-    ...
-}

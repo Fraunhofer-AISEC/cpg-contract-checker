@@ -1,9 +1,0 @@
-{
-    "extraneous input 'minutes' expecting {';', NL}": [
-        "ERROR: when parsing line 9 column 36: extraneous input 'minutes' expecting {';', NL}\n",
-        "ERROR: when parsing line 13 column 41: extraneous input 'minutes' expecting {';', NL}\n"
-    ],
-    "mismatched input ',' expecting ')'": [
-        "ERROR: when parsing line 23 column 35: mismatched input ',' expecting ')'\n"
-    ]
-}

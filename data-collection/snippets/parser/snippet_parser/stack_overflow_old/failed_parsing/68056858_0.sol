@@ -1,1 +1,0 @@
-function storeName() external payable {

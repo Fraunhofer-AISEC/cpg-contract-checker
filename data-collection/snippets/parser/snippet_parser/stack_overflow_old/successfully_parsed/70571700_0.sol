@@ -1,1 +1,0 @@
-    uint _kLast = kLast; 

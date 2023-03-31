@@ -1,1 +1,0 @@
-address payable owner = owner();

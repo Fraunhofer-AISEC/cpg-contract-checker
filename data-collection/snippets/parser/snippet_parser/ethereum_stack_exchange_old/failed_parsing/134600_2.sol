@@ -1,1 +1,0 @@
-(, uint n) = doSomething(args);

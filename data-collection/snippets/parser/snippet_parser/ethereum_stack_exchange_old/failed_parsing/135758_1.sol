@@ -1,6 +1,0 @@
-function listItemForFixedPrice(uint256 _tokenId, uint256 _amount , uint256 _price , uint256 _royaltyFee, address _nftAddress , address _royaltyRec)public  OnlyTokenHolders(_tokenId , _nftAddress) returns(uint256)
-{
-    ...
-    require(_royaltyRec == nftArtist[_tokenId], "Royalty receiver is not valid");
-    ...
-}

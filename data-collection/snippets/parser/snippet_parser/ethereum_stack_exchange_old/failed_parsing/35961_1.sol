@@ -1,3 +1,0 @@
-function getTrackDetailsNew(bytes32 _iswc) public constant returns(bytes32[10] isrc) {  
-    ...
-}

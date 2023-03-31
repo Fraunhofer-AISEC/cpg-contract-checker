@@ -1,3 +1,0 @@
-function getPercent(uint256 scaledPercentage, uint256 num) {
-  ...
-}

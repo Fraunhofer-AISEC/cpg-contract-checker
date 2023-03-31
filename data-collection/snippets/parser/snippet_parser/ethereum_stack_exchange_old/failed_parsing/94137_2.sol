@@ -1,1 +1,0 @@
-TestVars memory v = vals;

@@ -1,6 +1,0 @@
-mapping(uint256 => Person) map;
-...
-Person storage it = map[id];
-it.name = _name;
-it.age = _age;
-etc...

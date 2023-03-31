@@ -1,8 +1,0 @@
-{
-    "mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
-        "ERROR: when parsing line 16 column 32: mismatched input 'address' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
-    ],
-    "no viable alternative at input 'msg.sender)'": [
-        "ERROR: when parsing line 16 column 53: no viable alternative at input 'msg.sender)'\n"
-    ]
-}

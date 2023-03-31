@@ -1,1 +1,0 @@
-uint userCount = 0;

@@ -1,1 +1,0 @@
-contract VolcanoNFT is ..., Ownable {

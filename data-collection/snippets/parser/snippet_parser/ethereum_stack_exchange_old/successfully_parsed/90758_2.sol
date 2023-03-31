@@ -1,8 +1,0 @@
-function decodeAddressArray(bytes calldata data)external pure returns(address[] memory addresses){
-    uint n = data.length/20;
-    addresses = new address[](n);
-        
-    for(uint i=0; i<n; i++){
-        addresses[i] = bytesToAddress(data[i*20:(i+1)*20]);
-    }
-}

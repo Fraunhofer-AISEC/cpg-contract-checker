@@ -1,6 +1,0 @@
-...
-uint256 tokenId = _tokenIdCounter.current();
-require(tokenId <= MAX_SUPPLY, "All NFTs have been minted"); 
-_tokenIdCounter.increment();
-_safeMint(to, tokenId);
-...

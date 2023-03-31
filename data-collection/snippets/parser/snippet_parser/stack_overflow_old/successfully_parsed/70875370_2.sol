@@ -1,2 +1,0 @@
-contract DEXTransferCoinUserToUser is DEXUserCoin {
-}

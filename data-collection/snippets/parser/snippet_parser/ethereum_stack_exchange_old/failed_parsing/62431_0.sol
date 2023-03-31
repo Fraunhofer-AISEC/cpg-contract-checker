@@ -1,2 +1,0 @@
-
-contract ReservedTokensFinalizeAgent is FinalizeAgent 

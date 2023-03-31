@@ -1,6 +1,0 @@
-{
-    "no viable alternative at input 'msg.value}'": [
-        "ERROR: when parsing line 7 column 41: no viable alternative at input 'msg.value}'\n",
-        "ERROR: when parsing line 9 column 42: no viable alternative at input 'msg.value}'\n"
-    ]
-}

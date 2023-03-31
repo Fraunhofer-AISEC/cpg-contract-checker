@@ -1,9 +1,0 @@
-
-function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut) internal pure returns (uint amountOut) {
-    require(amountIn > 0, 'PancakeLibrary: INSUFFICIENT_INPUT_AMOUNT');
-    require(reserveIn > 0 && reserveOut > 0, 'PancakeLibrary: INSUFFICIENT_LIQUIDITY');
-    uint amountInWithFee = amountIn.mul(998);
-    uint numerator = amountInWithFee.mul(reserveOut);
-    uint denominator = reserveIn.mul(1000).add(amountInWithFee);
-    amountOut = numerator / denominator;
-}

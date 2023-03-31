@@ -1,3 +1,0 @@
-function WolframAlpha() payable {
-  update();
-}

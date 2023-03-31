@@ -1,3 +1,0 @@
-    function greet(address _address) public payable returns (uint8) {
-        TRC20 t = TRC20(_address);
-        ...

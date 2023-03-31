@@ -1,3 +1,0 @@
-quoteOwner memory new_owner;
-...
-quoteOwner[_quote] = new_owner;

@@ -1,5 +1,0 @@
-{
-    "no viable alternative at input 'uintconstant'": [
-        "ERROR: when parsing line 12 column 11: no viable alternative at input 'uintconstant'\n"
-    ]
-}

@@ -1,1 +1,0 @@
-bytes32 internal constant _TOTAL_SUPPLY_SLOT = 0x6cac11967c5738fe648c7b461acdbb3138d8619be340b9043646ca5ab64ec74b;

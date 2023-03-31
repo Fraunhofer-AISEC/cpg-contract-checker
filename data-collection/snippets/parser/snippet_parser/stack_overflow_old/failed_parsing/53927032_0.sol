@@ -1,1 +1,0 @@
-contract SampleCrowdsale is FinalizableCrowdsale, MintedCrowdsale

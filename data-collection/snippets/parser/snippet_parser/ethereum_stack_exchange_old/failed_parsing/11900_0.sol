@@ -1,1 +1,0 @@
-contract App is owned {

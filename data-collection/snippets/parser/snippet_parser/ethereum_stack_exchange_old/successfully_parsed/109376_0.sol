@@ -1,7 +1,0 @@
-address routerAddress = 0x7a250d5630b4cf539739df2c5dacb4c659f2488d;
-address _WETH = address(0);
-
-function setWETHOnChain(address routerAddress) external {
-        IUniswapV2Router02 router = IUniswapV2Router02(routerAddress);
-        _WETH = router.WETH();
-    }
