@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'PRIVATE_KEY_PASSWORD:'": [
+        "ERROR: when parsing line 1 column 21: no viable alternative at input 'PRIVATE_KEY_PASSWORD:'\n"
+    ]
+}

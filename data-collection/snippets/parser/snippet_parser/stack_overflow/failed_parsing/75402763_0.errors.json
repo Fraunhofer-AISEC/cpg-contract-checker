@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionrateSeller(addressseller,addressrater,uintrating)public{\\nreputation[seller][rater]=rating;\\n\\nuintreputationSum=0;\\nuintnumRatings=0;\\nuintreputationAverage=0;\\nfor(addressraterin'": [
+        "ERROR: when parsing line 7 column 29: no viable alternative at input 'functionrateSeller(addressseller,addressrater,uintrating)public{\\nreputation[seller][rater]=rating;\\n\\nuintreputationSum=0;\\nuintnumRatings=0;\\nuintreputationAverage=0;\\nfor(addressraterin'\n"
+    ]
+}

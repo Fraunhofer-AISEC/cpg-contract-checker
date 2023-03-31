@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionverifyLendingSig(\\nuint256_id,\\nuint256_tokenId,\\nuint256_price,\\nuint256_expiredAt,\\nbytescalldata_signature\\n)publicview{\\nbytes32criteriaMessageHash=keccak256(\\nabi.encodePacked(_id,_tokenId,_price,_expiredAt)\\n);\\nbytes32ethSignedMessageHash=ECDSA.toEthSignedMessageHash(\\ncriteriaMessageHash\\n);\\n\\nrequire(\\nECDSA.recover(ethSignedMessageHash,_signature)==signer,\\n\"invalid signature\"\\n);\\n'": [
+        "ERROR: when parsing line 19 column 0: no viable alternative at input 'functionverifyLendingSig(\\nuint256_id,\\nuint256_tokenId,\\nuint256_price,\\nuint256_expiredAt,\\nbytescalldata_signature\\n)publicview{\\nbytes32criteriaMessageHash=keccak256(\\nabi.encodePacked(_id,_tokenId,_price,_expiredAt)\\n);\\nbytes32ethSignedMessageHash=ECDSA.toEthSignedMessageHash(\\ncriteriaMessageHash\\n);\\n\\nrequire(\\nECDSA.recover(ethSignedMessageHash,_signature)==signer,\\n\"invalid signature\"\\n);\\n'\n"
+    ]
+}

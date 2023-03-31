@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constdata=awaitwindow'": [
+        "ERROR: when parsing line 1 column 25: no viable alternative at input 'constdata=awaitwindow'\n"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionremoveAccount(address_account)external{\\nuintcounter=arrayOfAccounts.length;\\nuintindex;\\nfor(uinti;i<counter;i++){\\nif(arrayOfAccounts[i]==_account){\\nindex=i;\\nbreak;\\n}\\nfor(uinti=index;i<counter-1;i++){\\narrayOfAccounts[i]=arrayOfAccounts[i+1];\\n}\\narrayOfAccounts.pop();\\n}\\n}\\n}'": [
+        "ERROR: when parsing line 15 column 8: no viable alternative at input 'functionremoveAccount(address_account)external{\\nuintcounter=arrayOfAccounts.length;\\nuintindex;\\nfor(uinti;i<counter;i++){\\nif(arrayOfAccounts[i]==_account){\\nindex=i;\\nbreak;\\n}\\nfor(uinti=index;i<counter-1;i++){\\narrayOfAccounts[i]=arrayOfAccounts[i+1];\\n}\\narrayOfAccounts.pop();\\n}\\n}\\n}'\n"
+    ]
+}

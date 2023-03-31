@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpush(\\nHistorystorageself,\\nuint8operation\\nuint256'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'functionpush(\\nHistorystorageself,\\nuint8operation\\nuint256'\n"
+    ]
+}

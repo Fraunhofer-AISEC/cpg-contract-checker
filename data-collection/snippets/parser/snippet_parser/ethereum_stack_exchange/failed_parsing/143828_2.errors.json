@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'addresscustomTokenAddress=0xcustom_token_address'": [
+        "ERROR: when parsing line 2 column 32: no viable alternative at input 'addresscustomTokenAddress=0xcustom_token_address'\n"
+    ]
+}

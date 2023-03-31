@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constructor()public{\\n_name=\"PITCROIN\";\\n_decimals=2;\\n_totalSupply=100;\\n_balances[msg.sender]=_totalSupply;\\n\\nemitTransfer(address(0),msg.sender,_totalSupply);\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'constructor()public{\\n_name=\"PITCROIN\";\\n_decimals=2;\\n_totalSupply=100;\\n_balances[msg.sender]=_totalSupply;\\n\\nemitTransfer(address(0),msg.sender,_totalSupply);\\n'\n"
+    ]
+}

@@ -1,0 +1,8 @@
+
+uint256 public constant INITIAL_GENESIS_POOL_DISTRIBUTION = 11000 ether;
+
+
+uint256 public constant INITIAL_TOMB_POOL_DISTRIBUTION = 140000 ether;
+
+
+uint256 public constant INITIAL_AIRDROP_WALLET_DISTRIBUTION = 9000 ether;
