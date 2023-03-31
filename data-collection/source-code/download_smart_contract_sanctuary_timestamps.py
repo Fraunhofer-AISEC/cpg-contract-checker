@@ -14,11 +14,7 @@ MONGO_PORT = 27017
 
 ETHERSCAN_API_KEYS = ["ANAZQYWNY3ZBIIMIY9P153TE6Y78PUM226", "M8VPZT5CQ71TUQP9JNTTWMUMNS1J8KKC5B", "VZ7EMQBT4GNH5F6FBV8FKXAFF6GS4MPKAU"]
 
-PROVIDER_1 = Web3.HTTPProvider("https://mainnet.infura.io/v3/59bd984e502449f081d26eba3c624a32")
-PROVIDER_2 = Web3.HTTPProvider("https://mainnet.infura.io/v3/41e2dadcce7245d986bbc9e1196ca43b")
-
-#PROVIDER_1 = Web3.HTTPProvider("http://sectrs-vascodagama:8545")
-#PROVIDER_2 = Web3.HTTPProvider("http://sectrs-vascodagama:8545")
+PROVIDER = Web3.HTTPProvider("http://sectrs-vascodagama:8545")
 
 class colors:
     INFO = '\033[94m'
@@ -27,15 +23,9 @@ class colors:
     END = '\033[0m'
 
 def main():
-    w3_1 = Web3(PROVIDER_1)
-    if w3_1.isConnected():
-        print(colors.INFO+"Connected to "+w3_1.clientVersion+colors.END)
-    else:
-        print(colors.FAIL+"Error: Could not connect to Ethereum client. Please check the provider!"+colors.END)
-
-    w3_2 = Web3(PROVIDER_2)
-    if w3_2.isConnected():
-        print(colors.INFO+"Connected to "+w3_2.clientVersion+colors.END)
+    w3 = Web3(PROVIDER)
+    if w3.isConnected():
+        print(colors.INFO+"Connected to "+w3.clientVersion+colors.END)
     else:
         print(colors.FAIL+"Error: Could not connect to Ethereum client. Please check the provider!"+colors.END)
 
@@ -43,8 +33,6 @@ def main():
     collection = mongo_connection["smart_contract_snippets"]["smart_contract_sanctuary_timestamps"]
 
     api_key = cycle(ETHERSCAN_API_KEYS)
-
-    w3_api = cycle(range(2))
 
     all_contracts = set()
     for _, _, files in os.walk("smart-contract-sanctuary-ethereum"):
@@ -59,9 +47,6 @@ def main():
                         content = requests.get("https://api.etherscan.io/api?module=contract&action=getcontractcreation&contractaddresses="+str(address)+"&apikey="+str(next(api_key))).json()
                         if content["status"] == "1" and content["message"] == "OK":
                             result = content["result"][0]
-                            w3 = w3_1
-                            if next(w3_api) == 1:
-                                w3 = w3_2
                             transaction = w3.eth.get_transaction(result["txHash"])
                             result["blockNumber"] = transaction["blockNumber"]
                             result["blockHash"] = transaction["blockHash"].hex()

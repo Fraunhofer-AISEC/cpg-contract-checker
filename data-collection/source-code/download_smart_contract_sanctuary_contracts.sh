@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
+rm -rf smart-contract-sanctuary-ethereum
+
 git clone https://github.com/tintinweb/smart-contract-sanctuary-ethereum.git
+
 rm smart-contract-sanctuary-ethereum/README.md
 rm -rf smart-contract-sanctuary-ethereum/.git
 rm -rf smart-contract-sanctuary-ethereum/docs
