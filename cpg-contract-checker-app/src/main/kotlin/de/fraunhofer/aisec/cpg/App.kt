@@ -25,6 +25,7 @@ import java.nio.file.Files
 import java.nio.file.Paths
 import java.util.concurrent.Callable
 import java.util.stream.Collectors
+import kotlin.reflect.full.createInstance
 import kotlin.system.exitProcess
 import kotlin.system.measureTimeMillis
 
@@ -44,6 +45,12 @@ class App : Callable<Int> {
         ["The files to analyze."]
     )
     var files: List<String> = mutableListOf()
+
+    @CommandLine.Option(
+        names = ["--verify-checks", "-vc"],
+        description = ["Provide a comma separated list of checks"]
+    )
+    var optInChecks:String= ""
 
     @CommandLine.Option(names = ["--neo4j-password"], description = ["The Neo4j password"])
     var neo4jPassword: String = "password"
@@ -141,20 +148,34 @@ class App : Callable<Int> {
     }
 
     fun registerChecks(){
-        checks.add(AccessControlSelfdestructCheck())
-        checks.add(CallReturnCheck())
-        checks.add(AccessControlLogicCheck())
-        checks.add(ReentrancyCheck())
-        checks.add(DefaultProxyDelegateCheck())
-        checks.add(TXOriginCheck())
-        checks.add(DOSCheck())
-        checks.add(TimeManipulationCheck())
-        checks.add(AddressPaddingCheck())
-        checks.add(FrontRunningCheck())
-        checks.add(LocalWriteToStorageCheck())
-        checks.add(DOSThroughExhaustionCheck())
-        checks.add(BadRandomnessCheck())
-        checks.add(OverUnderflowCheck())
+            checks.add(AccessControlSelfdestructCheck())
+            checks.add(CallReturnCheck())
+            checks.add(AccessControlLogicCheck())
+            checks.add(ReentrancyCheck())
+            checks.add(DefaultProxyDelegateCheck())
+            checks.add(TXOriginCheck())
+            checks.add(DOSCheck())
+            checks.add(TimeManipulationCheck())
+            checks.add(AddressPaddingCheck())
+            checks.add(FrontRunningCheck())
+            checks.add(LocalWriteToStorageCheck())
+            checks.add(DOSThroughExhaustionCheck())
+            checks.add(BadRandomnessCheck())
+            checks.add(OverUnderflowCheck())
+        if(optInChecks.isNotEmpty()){
+            val avChecks = checks.toList()
+            checks.clear()
+            val checkstrings = optInChecks.split(",").map { it.trim()}
+            for ( check in checkstrings){
+                val checkclass = avChecks.filter { it::class.simpleName.equals(check) }.firstOrNull()
+                if(checkclass != null){
+                    checks.add(checkclass)
+                }else{
+                    log.error("Check wit name $check does not exist.")
+                }
+            }
+        }
+
     }
 
     fun persistGraph(result: TranslationResult){
@@ -203,6 +224,7 @@ class App : Callable<Int> {
             driver.session().use { session ->
                 session.readTransaction() { t: Transaction ->
                         for (check in checks) {
+                            var foundFinding = false
                             val duration = measureTimeMillis {
                                 var checkFindings = check.check(t)
                                 if (checkFindings.isNotEmpty()) {
@@ -211,6 +233,7 @@ class App : Callable<Int> {
                                     }
                                     checkFindings.forEach {
                                         val finding = check.getVulnerabilityName() + ", " + it.artifactLocation.toString().substringAfter("file:") + " " + it.region.toString()
+                                        foundFinding = true
                                         if(PRINT_ON_FIND){
                                             if(!printedFiles.contains(filename)){
                                                 println("File: " + filename)
@@ -225,6 +248,9 @@ class App : Callable<Int> {
                             }
                             compDurations[check.javaClass.simpleName] = duration
                             println(check.javaClass.simpleName + " took " + duration + " ms")
+                            if(optInChecks.isNotEmpty() && foundFinding){
+                                println("Verified: " + check::class.simpleName)
+                            }
                         }
                 }
             }
