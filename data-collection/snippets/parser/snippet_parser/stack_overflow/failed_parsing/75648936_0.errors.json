@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetDelta(addresscalculatorAddress)externalreturns(int256delta){\\nICalculatorcalculator=ICalculator(calculatorAddress);\\n\\nint256preUpdateValue=calculator.getValue();\\n\\ncalculator.update();\\n\\nint256postUpdateValue=calculator.getValue();\\n\\ndelta=postUpdateValue-preUpdateValue;\\n}\\n}'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functiongetDelta(addresscalculatorAddress)externalreturns(int256delta){\\nICalculatorcalculator=ICalculator(calculatorAddress);\\n\\nint256preUpdateValue=calculator.getValue();\\n\\ncalculator.update();\\n\\nint256postUpdateValue=calculator.getValue();\\n\\ndelta=postUpdateValue-preUpdateValue;\\n}\\n}'\n"
+    ]
+}

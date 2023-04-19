@@ -1,6 +1,0 @@
-
-
-
-function () public payable {
-    revert();
-}

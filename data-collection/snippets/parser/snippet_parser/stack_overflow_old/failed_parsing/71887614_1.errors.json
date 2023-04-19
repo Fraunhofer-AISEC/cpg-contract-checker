@@ -1,5 +1,0 @@
-{
-    "mismatched input 'paymentToken' expecting {';', NL}": [
-        "ERROR: when parsing line 4 column 14: mismatched input 'paymentToken' expecting {';', NL}\n"
-    ]
-}

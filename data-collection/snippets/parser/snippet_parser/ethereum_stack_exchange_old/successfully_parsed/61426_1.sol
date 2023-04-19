@@ -1,2 +1,0 @@
-function () public payable {
-}

@@ -1,4 +1,0 @@
-function contribute() external payable {}
-
-
-

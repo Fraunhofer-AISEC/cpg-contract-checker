@@ -1,3 +1,0 @@
-function foo(uint _someVar, bytes calldata _data) public {
-    ...
-}

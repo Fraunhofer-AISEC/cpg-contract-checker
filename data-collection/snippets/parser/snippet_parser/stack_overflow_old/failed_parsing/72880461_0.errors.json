@@ -1,5 +1,0 @@
-{
-    "extraneous input 'byte' expecting {',', ')'}": [
-        "ERROR: when parsing line 1 column 37: extraneous input 'byte' expecting {',', ')'}\n"
-    ]
-}

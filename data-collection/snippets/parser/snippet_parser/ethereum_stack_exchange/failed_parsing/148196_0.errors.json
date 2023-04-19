@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionisValidSignature(addresssigner,bytesmemorysignature)\\npublic\\nview\\nreturns(bool)\\n{\\n\\nbytes32messageHash=keccack256(abi.encodePacked(**'": [
+        "ERROR: when parsing line 9 column 58: no viable alternative at input 'functionisValidSignature(addresssigner,bytesmemorysignature)\\npublic\\nview\\nreturns(bool)\\n{\\n\\nbytes32messageHash=keccack256(abi.encodePacked(**'\n"
+    ]
+}

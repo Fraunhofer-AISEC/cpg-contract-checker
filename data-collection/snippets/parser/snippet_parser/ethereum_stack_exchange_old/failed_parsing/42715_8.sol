@@ -1,1 +1,0 @@
-int[] memory myArray = numbers;

@@ -1,8 +1,0 @@
-{
-    "extraneous input 'failed' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 13: extraneous input 'failed' expecting {'=', ';', NL}\n"
-    ],
-    "no viable alternative at input 'error[2333]:'": [
-        "ERROR: when parsing line 2 column 11: no viable alternative at input 'error[2333]:'\n"
-    ]
-}

@@ -1,4 +1,0 @@
-contract Fallback {
-    function () payable {
-    }
-}

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetAddresses()publicviewreturns(address[]memory){\\nuint256length=0;\\nfor(addressaddrin'": [
+        "ERROR: when parsing line 3 column 22: no viable alternative at input 'functiongetAddresses()publicviewreturns(address[]memory){\\nuint256length=0;\\nfor(addressaddrin'\n"
+    ]
+}

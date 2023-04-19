@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionuniswapV3SwapCallback(\\nint256amount0Delta,\\nint256amount1Delta,\\nbytescalldatadata\\n)externaloverride{\\nUniswapV3SwapCallbackLocalVarsmemoryvars;\\n\\n\\nUniswapV3SwapCallbackParamsmemoryparams=abi.decode(data,(UniswapV3SwapCallbackParams));\\n\\n\\nif(msg.sender!=poolFor(params.poolKey)){\\nrevertFlashUniswapV3__CallNotAuthorized(msg.sender);\\n}\\n\\n\\nvars.mintedHTokenAmount=mintHTokens(.'": [
+        "ERROR: when parsing line 18 column 46: no viable alternative at input 'functionuniswapV3SwapCallback(\\nint256amount0Delta,\\nint256amount1Delta,\\nbytescalldatadata\\n)externaloverride{\\nUniswapV3SwapCallbackLocalVarsmemoryvars;\\n\\n\\nUniswapV3SwapCallbackParamsmemoryparams=abi.decode(data,(UniswapV3SwapCallbackParams));\\n\\n\\nif(msg.sender!=poolFor(params.poolKey)){\\nrevertFlashUniswapV3__CallNotAuthorized(msg.sender);\\n}\\n\\n\\nvars.mintedHTokenAmount=mintHTokens(.'\n"
+    ]
+}

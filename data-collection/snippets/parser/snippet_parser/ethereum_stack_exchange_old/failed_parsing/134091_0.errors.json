@@ -1,8 +1,0 @@
-{
-    "mismatched input '(' expecting {';', NL}": [
-        "ERROR: when parsing line 17 column 15: mismatched input '(' expecting {';', NL}\n"
-    ],
-    "no viable alternative at input 'action._;'": [
-        "ERROR: when parsing line 19 column 9: no viable alternative at input 'action._;'\n"
-    ]
-}

@@ -1,0 +1,20 @@
+{
+    "extraneous input 'checkAlreadyFriend' expecting {'(', NL}": [
+        "ERROR: when parsing line 11 column 10: extraneous input 'checkAlreadyFriend' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'pubkey1' expecting {',', ')'}": [
+        "ERROR: when parsing line 11 column 38: extraneous input 'pubkey1' expecting {',', ')'}\n",
+        "ERROR: when parsing line 13 column 39: extraneous input 'pubkey1' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'pubkey2' expecting ')'": [
+        "ERROR: when parsing line 11 column 55: extraneous input 'pubkey2' expecting ')'\n",
+        "ERROR: when parsing line 13 column 56: extraneous input 'pubkey2' expecting ')'\n"
+    ],
+    "mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 11 column 91: mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 13 column 92: mismatched input ';' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'checkAlreadyFriends' expecting {'(', NL}": [
+        "ERROR: when parsing line 13 column 10: extraneous input 'checkAlreadyFriends' expecting {'(', NL}\n"
+    ]
+}

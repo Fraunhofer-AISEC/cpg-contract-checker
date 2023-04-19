@@ -1,1 +1,0 @@
-uint price = 1

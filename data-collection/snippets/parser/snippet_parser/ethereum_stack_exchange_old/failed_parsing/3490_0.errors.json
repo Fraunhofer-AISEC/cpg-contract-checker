@@ -1,6 +1,0 @@
-{
-    "mismatched input '{' expecting '('": [
-        "ERROR: when parsing line 8 column 16: mismatched input '{' expecting '('\n",
-        "ERROR: when parsing line 12 column 17: mismatched input '{' expecting '('\n"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "extraneous input 'x01' expecting {';', NL}": [
-        "ERROR: when parsing line 44 column 44: extraneous input 'x01' expecting {';', NL}\n"
-    ],
-    "extraneous input 'x1' expecting {';', NL}": [
-        "ERROR: when parsing line 64 column 20: extraneous input 'x1' expecting {';', NL}\n"
-    ]
-}

@@ -1,1 +1,0 @@
-string letters public = "abcdefghijklmnopqrstuvwxyz"

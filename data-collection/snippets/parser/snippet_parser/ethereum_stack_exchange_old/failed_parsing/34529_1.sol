@@ -1,3 +1,0 @@
-function sumAsm(uint[] memory _data) public returns (uint o_sum) {
-    ...
-}

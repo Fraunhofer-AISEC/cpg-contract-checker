@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionpropose(\\naddress[]memorytargets,\\nuint256[]memoryvalues,\\nstring[]memorysignatures,\\nbytes[]memorycalldatas,\\nstringmemorydescription\\n)publiconlyMembersreturns(uint256){\\n\\n.'": [
+        "ERROR: when parsing line 9 column 4: no viable alternative at input 'functionpropose(\\naddress[]memorytargets,\\nuint256[]memoryvalues,\\nstring[]memorysignatures,\\nbytes[]memorycalldatas,\\nstringmemorydescription\\n)publiconlyMembersreturns(uint256){\\n\\n.'\n"
+    ]
+}

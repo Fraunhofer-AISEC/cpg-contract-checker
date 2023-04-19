@@ -1,4 +1,4 @@
-# Generated from ../../../../cpg-solidity/src/main/antlr/Solidity.g4 by ANTLR 4.11.1
+# Generated from ../../../../cpg-solidity/src/main/antlr/Solidity.g4 by ANTLR 4.12.0
 # encoding: utf-8
 from antlr4 import *
 from io import StringIO
@@ -1374,7 +1374,7 @@ class SolidityParser ( Parser ):
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
-        self.checkVersion("4.11.1")
+        self.checkVersion("4.12.0")
         self._interp = ParserATNSimulator(self, self.atn, self.decisionsToDFA, self.sharedContextCache)
         self._predicates = None
 
@@ -1514,7 +1514,7 @@ class SolidityParser ( Parser ):
                 self.state = 210
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448732050171906) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 8057520253) != 0:
+                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448732050171906) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 8057520253) != 0):
                     self.state = 208
                     self._errHandler.sync(self)
                     la_ = self._interp.adaptivePredict(self._input,1,self._ctx)
@@ -1589,7 +1589,7 @@ class SolidityParser ( Parser ):
                 self.state = 220
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -288250843242428927) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15708081149) != 0:
+                while ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -288250843242428927) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15708081149) != 0):
                     self.state = 217
                     self.statement()
                     self.state = 222
@@ -1830,7 +1830,7 @@ class SolidityParser ( Parser ):
             self.state = 257
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 1020) != 0 or _la==104 or _la==130:
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1020) != 0) or _la==104 or _la==130:
                 self.state = 252
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
@@ -1900,7 +1900,7 @@ class SolidityParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 260
             _la = self._input.LA(1)
-            if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 1016) != 0):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 1016) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1975,7 +1975,7 @@ class SolidityParser ( Parser ):
                 self.state = 268
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if ((_la) & ~0x3f) == 0 and ((1 << _la) & 1016) != 0:
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 1016) != 0):
                     self.state = 267
                     self.versionOperator()
 
@@ -2000,7 +2000,7 @@ class SolidityParser ( Parser ):
                 self.state = 278
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if ((_la) & ~0x3f) == 0 and ((1 << _la) & 1016) != 0:
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 1016) != 0):
                     self.state = 277
                     self.versionOperator()
 
@@ -2479,7 +2479,7 @@ class SolidityParser ( Parser ):
 
             self.state = 415
             _la = self._input.LA(1)
-            if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 1835008) != 0):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 1835008) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -2553,7 +2553,7 @@ class SolidityParser ( Parser ):
             self.state = 456
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448732048203776) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 8057520253) != 0:
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448732048203776) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 8057520253) != 0):
                 self.state = 453
                 self.contractPart()
                 self.state = 458
@@ -2644,7 +2644,7 @@ class SolidityParser ( Parser ):
                 self.state = 475
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                     self.state = 474
                     self.expressionList()
 
@@ -2883,7 +2883,7 @@ class SolidityParser ( Parser ):
             self.state = 535
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la - 97)) & ~0x3f) == 0 and ((1 << (_la - 97)) & 13680641) != 0:
+            while ((((_la - 97)) & ~0x3f) == 0 and ((1 << (_la - 97)) & 13680641) != 0):
                 self.state = 533
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
@@ -3357,7 +3357,7 @@ class SolidityParser ( Parser ):
             self.state = 633
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0):
                 self.state = 623
                 self.variableDeclaration()
                 self.state = 624
@@ -3365,7 +3365,7 @@ class SolidityParser ( Parser ):
                 self.state = 630
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0:
+                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0):
                     self.state = 625
                     self.variableDeclaration()
                     self.state = 626
@@ -3601,7 +3601,7 @@ class SolidityParser ( Parser ):
                 self.state = 679
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                     self.state = 678
                     self.expressionList()
 
@@ -3785,7 +3785,7 @@ class SolidityParser ( Parser ):
                 self.state = 708
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                     self.state = 707
                     self.identifier()
 
@@ -3997,7 +3997,7 @@ class SolidityParser ( Parser ):
             self.state = 782
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 7380697091) != 0:
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 7380697091) != 0):
                 self.state = 780
                 self._errHandler.sync(self)
                 la_ = self._interp.adaptivePredict(self._input,94,self._ctx)
@@ -4321,7 +4321,7 @@ class SolidityParser ( Parser ):
             self.state = 823
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                 self.state = 822
                 self.enumValue()
 
@@ -4425,7 +4425,7 @@ class SolidityParser ( Parser ):
             self.state = 866
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0):
                 self.state = 852
                 self.parameter()
                 self.state = 863
@@ -4527,7 +4527,7 @@ class SolidityParser ( Parser ):
             self.state = 880
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                 self.state = 879
                 self.identifier()
 
@@ -4597,7 +4597,7 @@ class SolidityParser ( Parser ):
             self.state = 903
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0):
                 self.state = 889
                 self.eventParameter()
                 self.state = 900
@@ -4714,7 +4714,7 @@ class SolidityParser ( Parser ):
             self.state = 923
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                 self.state = 922
                 self.identifier()
 
@@ -4784,7 +4784,7 @@ class SolidityParser ( Parser ):
             self.state = 946
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0):
                 self.state = 932
                 self.functionTypeParameter()
                 self.state = 943
@@ -4874,7 +4874,7 @@ class SolidityParser ( Parser ):
             self.state = 957
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 3848290697216) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 3848290697216) != 0):
                 self.state = 956
                 self.storageLocation()
 
@@ -5093,7 +5093,7 @@ class SolidityParser ( Parser ):
                     self.state = 995
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
-                    if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                    if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                         self.state = 994
                         self.expression(0)
 
@@ -5550,7 +5550,7 @@ class SolidityParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 1095
             _la = self._input.LA(1)
-            if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 3848290697216) != 0):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 3848290697216) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5622,7 +5622,7 @@ class SolidityParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 1102
             _la = self._input.LA(1)
-            if not((((_la - 111)) & ~0x3f) == 0 and ((1 << (_la - 111)) & 10369) != 0):
+            if not(((((_la - 111)) & ~0x3f) == 0 and ((1 << (_la - 111)) & 10369) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5703,7 +5703,7 @@ class SolidityParser ( Parser ):
             self.state = 1119
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -288250843242428927) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15708081149) != 0:
+            while ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -288250843242428927) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15708081149) != 0):
                 self.state = 1116
                 self.statement()
                 self.state = 1121
@@ -6241,11 +6241,11 @@ class SolidityParser ( Parser ):
             self.state = 1210
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597553717248) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597553717248) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                 self.state = 1207
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                     self.state = 1206
                     self.identifier()
 
@@ -6600,7 +6600,7 @@ class SolidityParser ( Parser ):
             self.state = 1286
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+            if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                 self.state = 1285
                 self.expression(0)
 
@@ -6972,7 +6972,7 @@ class SolidityParser ( Parser ):
             self.state = 1361
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+            if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                 self.state = 1360
                 self.expression(0)
 
@@ -7351,7 +7351,7 @@ class SolidityParser ( Parser ):
             self.state = 1427
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0):
                 self.state = 1426
                 self.variableDeclaration()
 
@@ -7375,7 +7375,7 @@ class SolidityParser ( Parser ):
                 self.state = 1437
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if ((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0:
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 558448725169545216) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778429) != 0):
                     self.state = 1436
                     self.variableDeclaration()
 
@@ -7454,7 +7454,7 @@ class SolidityParser ( Parser ):
                     self.state = 1452
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
-                    if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+                    if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                         self.state = 1451
                         self.identifier()
 
@@ -7478,7 +7478,7 @@ class SolidityParser ( Parser ):
             self.state = 1467
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                 self.state = 1466
                 self.identifier()
 
@@ -7556,7 +7556,7 @@ class SolidityParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 1476
             _la = self._input.LA(1)
-            if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 540431989644197888) != 0 or (((_la - 98)) & ~0x3f) == 0 and ((1 << (_la - 98)) & 31) != 0):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 540431989644197888) != 0) or ((((_la - 98)) & ~0x3f) == 0 and ((1 << (_la - 98)) & 31) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -7844,7 +7844,7 @@ class SolidityParser ( Parser ):
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 13)")
                         self.state = 1560
                         _la = self._input.LA(1)
-                        if not((((_la - 12)) & ~0x3f) == 0 and ((1 << (_la - 12)) & 432345564227567617) != 0):
+                        if not(((((_la - 12)) & ~0x3f) == 0 and ((1 << (_la - 12)) & 432345564227567617) != 0)):
                             self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
@@ -7997,7 +7997,7 @@ class SolidityParser ( Parser ):
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 7)")
                         self.state = 1614
                         _la = self._input.LA(1)
-                        if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 480) != 0):
+                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 480) != 0)):
                             self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
@@ -8136,7 +8136,7 @@ class SolidityParser ( Parser ):
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
                         self.state = 1668
                         _la = self._input.LA(1)
-                        if not(_la==9 or (((_la - 79)) & ~0x3f) == 0 and ((1 << (_la - 79)) & 1023) != 0):
+                        if not(_la==9 or ((((_la - 79)) & ~0x3f) == 0 and ((1 << (_la - 79)) & 1023) != 0)):
                             self._errHandler.recoverInline(self)
                         else:
                             self._errHandler.reportMatch(self)
@@ -8240,7 +8240,7 @@ class SolidityParser ( Parser ):
                         self.state = 1709
                         self._errHandler.sync(self)
                         _la = self._input.LA(1)
-                        if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                        if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                             self.state = 1708
                             self.expression(0)
 
@@ -8260,7 +8260,7 @@ class SolidityParser ( Parser ):
                         self.state = 1719
                         self._errHandler.sync(self)
                         _la = self._input.LA(1)
-                        if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                        if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                             self.state = 1718
                             self.expression(0)
 
@@ -8912,7 +8912,7 @@ class SolidityParser ( Parser ):
                 self.state = 1890
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                     self.state = 1889
                     self.nameValueList()
 
@@ -8935,7 +8935,7 @@ class SolidityParser ( Parser ):
                 self.state = 1900
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                     self.state = 1899
                     self.expressionList()
 
@@ -9089,7 +9089,7 @@ class SolidityParser ( Parser ):
             self.state = 1930
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 309066156482781184) != 0 or (((_la - 89)) & ~0x3f) == 0 and ((1 << (_la - 89)) & 1993454485645) != 0:
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 309066156482781184) != 0) or ((((_la - 89)) & ~0x3f) == 0 and ((1 << (_la - 89)) & 1993454485645) != 0):
                 self.state = 1927
                 self.assemblyItem()
                 self.state = 1932
@@ -9621,7 +9621,7 @@ class SolidityParser ( Parser ):
                 self.state = 2025
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if ((_la) & ~0x3f) == 0 and ((1 << _la) & 308498807874658304) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15573715713) != 0:
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 308498807874658304) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15573715713) != 0):
                     self.state = 2024
                     self.assemblyExpression()
 
@@ -10368,7 +10368,7 @@ class SolidityParser ( Parser ):
             self.state = 2177
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if ((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0:
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
                 self.state = 2176
                 self.assemblyIdentifierList()
 
@@ -10862,7 +10862,7 @@ class SolidityParser ( Parser ):
                 self.state = 2264
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                     self.state = 2263
                     self.expression(0)
 
@@ -10886,7 +10886,7 @@ class SolidityParser ( Parser ):
                     self.state = 2274
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
-                    if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                    if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                         self.state = 2273
                         self.expression(0)
 
@@ -10926,7 +10926,7 @@ class SolidityParser ( Parser ):
                 self.state = 2309
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if (((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0:
+                if ((((_la - 4)) & ~0x3f) == 0 and ((1 << (_la - 4)) & -289356135933935103) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 15707933693) != 0):
                     self.state = 2295
                     self.expression(0)
                     self.state = 2306
@@ -11195,7 +11195,7 @@ class SolidityParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 2349
             _la = self._input.LA(1)
-            if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0 or (((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 18016597549522944) != 0) or ((((_la - 96)) & ~0x3f) == 0 and ((1 << (_la - 96)) & 6983778305) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)

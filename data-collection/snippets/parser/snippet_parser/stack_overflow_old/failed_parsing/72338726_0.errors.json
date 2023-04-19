@@ -1,5 +1,0 @@
-{
-    "no viable alternative at input 'mapping(address=>uintbalance'": [
-        "ERROR: when parsing line 12 column 24: no viable alternative at input 'mapping(address=>uintbalance'\n"
-    ]
-}

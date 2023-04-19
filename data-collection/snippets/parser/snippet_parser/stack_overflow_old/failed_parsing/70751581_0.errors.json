@@ -1,8 +1,0 @@
-{
-    "mismatched input 'import' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 13: mismatched input 'import' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'scripts' expecting {StringLiteralFragment, NL}": [
-        "ERROR: when parsing line 2 column 5: mismatched input 'scripts' expecting {StringLiteralFragment, NL}\n"
-    ]
-}

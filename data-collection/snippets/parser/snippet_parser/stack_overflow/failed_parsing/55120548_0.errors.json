@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"fail test overflow desiredDecimals uint8 contract creating\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 71: no viable alternative at input 'it(\"fail test overflow desiredDecimals uint8 contract creating\",asyncfunction'\n"
+    ]
+}

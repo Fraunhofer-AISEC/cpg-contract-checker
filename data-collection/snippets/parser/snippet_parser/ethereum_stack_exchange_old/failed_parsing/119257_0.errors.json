@@ -1,7 +1,0 @@
-{
-    "no viable alternative at input '_}'": [
-        "ERROR: when parsing line 5 column 65: no viable alternative at input '_}'\n",
-        "ERROR: when parsing line 6 column 65: no viable alternative at input '_}'\n",
-        "ERROR: when parsing line 7 column 93: no viable alternative at input '_}'\n"
-    ]
-}

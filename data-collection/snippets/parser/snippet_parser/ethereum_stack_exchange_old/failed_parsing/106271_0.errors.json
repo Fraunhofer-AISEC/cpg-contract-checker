@@ -1,8 +1,0 @@
-{
-    "mismatched input 'your' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 98 column 18: mismatched input 'your' expecting {'=', ';', NL}\n"
-    ],
-    "extraneous input '.' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 98 column 27: extraneous input '.' expecting {'=', ';', NL}\n"
-    ]
-}

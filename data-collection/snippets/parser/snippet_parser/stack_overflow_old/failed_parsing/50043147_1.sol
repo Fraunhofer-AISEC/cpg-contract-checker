@@ -1,1 +1,0 @@
-string memory expected = "{\"Info\":[{\"id\":\"06bb05b8b3152b0323f4a9c07ae84f0c513b24946a8f8ec685af7cd763f7ffad\",\"studentId\":6532916,\"parenterId\":6187778,\"schemeId\":3853115,\"batchId\":3458926,\"instructorId\":1175723,\"trainingId\":2599715,\"studentSkillState\":1,\"state\":1}]}";

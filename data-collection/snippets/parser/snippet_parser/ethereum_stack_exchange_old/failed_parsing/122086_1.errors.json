@@ -1,8 +1,0 @@
-{
-    "mismatched input 'solc' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 15: mismatched input 'solc' expecting {'=', ';', NL}\n"
-    ],
-    "mismatched input 'available' expecting {'=', ';', NL}": [
-        "ERROR: when parsing line 1 column 28: mismatched input 'available' expecting {'=', ';', NL}\n"
-    ]
-}

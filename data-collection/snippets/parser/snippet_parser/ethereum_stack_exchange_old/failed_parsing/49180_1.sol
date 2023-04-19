@@ -1,3 +1,0 @@
-function transfer(address _to, uint256 _value) public returns (bool) {
-    require(_to != address(0)); 
-    ...

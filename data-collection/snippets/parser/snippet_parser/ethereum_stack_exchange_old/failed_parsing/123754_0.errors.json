@@ -1,5 +1,0 @@
-{
-    "mismatched input '<EOF>' expecting '}'": [
-        "ERROR: when parsing line 18 column 0: mismatched input '<EOF>' expecting '}'\n"
-    ]
-}

@@ -1,1 +1,0 @@
-event LogNewContract(address contract);

@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'structPerson{\\nstringname,'": [
+        "ERROR: when parsing line 2 column 14: no viable alternative at input 'structPerson{\\nstringname,'\n"
+    ]
+}

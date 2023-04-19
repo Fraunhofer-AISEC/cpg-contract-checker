@@ -1,0 +1,14 @@
+{
+    "no viable alternative at input 'balanceis'": [
+        "ERROR: when parsing line 7 column 8: no viable alternative at input 'balanceis'\n"
+    ],
+    "mismatched input ',' expecting {';', NL}": [
+        "ERROR: when parsing line 7 column 20: mismatched input ',' expecting {';', NL}\n"
+    ],
+    "mismatched input 'invocations' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 7 column 32: mismatched input 'invocations' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'require' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 8 column 4: mismatched input 'require' expecting {'=', ';', NL}\n"
+    ]
+}

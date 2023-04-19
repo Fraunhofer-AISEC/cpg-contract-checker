@@ -1,1 +1,0 @@
-function withdrawDividends() public payable {

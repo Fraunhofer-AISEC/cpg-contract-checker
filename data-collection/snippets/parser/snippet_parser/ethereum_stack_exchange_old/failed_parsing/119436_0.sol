@@ -1,1 +1,0 @@
-uint posptr = &pos;

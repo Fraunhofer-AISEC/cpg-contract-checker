@@ -1,1 +1,0 @@
-bool s = setMyVal(newVal);

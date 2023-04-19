@@ -1,8 +1,0 @@
-{
-    "mismatched input 'MAIN' expecting {';', NL}": [
-        "ERROR: when parsing line 36 column 31: mismatched input 'MAIN' expecting {';', NL}\n"
-    ],
-    "mismatched input 'CONTRACT' expecting {';', NL}": [
-        "ERROR: when parsing line 38 column 32: mismatched input 'CONTRACT' expecting {';', NL}\n"
-    ]
-}

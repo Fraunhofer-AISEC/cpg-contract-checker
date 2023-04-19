@@ -1,8 +1,0 @@
-{
-    "missing '}' at 'contract'": [
-        "ERROR: when parsing line 7 column 0: missing '}' at 'contract'\n"
-    ],
-    "mismatched input '}' expecting {'{', 'is'}": [
-        "ERROR: when parsing line 7 column 15: mismatched input '}' expecting {'{', 'is'}\n"
-    ]
-}

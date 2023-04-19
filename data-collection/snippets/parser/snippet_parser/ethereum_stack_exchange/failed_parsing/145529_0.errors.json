@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninitFlash(FlashParamsmemoryparams)external{\\nPoolAddress.PoolKeymemorypoolKey=\\nPoolAddress.PoolKey({token0:params.token0,token1:params.token1,fee:params.fee1});\\nIUniswapV3Poolpool=IUniswapV3Pool(PoolAddress.computeAddress(factory,poolKey));\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functioninitFlash(FlashParamsmemoryparams)external{\\nPoolAddress.PoolKeymemorypoolKey=\\nPoolAddress.PoolKey({token0:params.token0,token1:params.token1,fee:params.fee1});\\nIUniswapV3Poolpool=IUniswapV3Pool(PoolAddress.computeAddress(factory,poolKey));\\n'\n"
+    ]
+}

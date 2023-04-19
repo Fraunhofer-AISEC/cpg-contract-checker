@@ -1,5 +1,0 @@
-    function invest() external payable {
-
-        
-
-    }

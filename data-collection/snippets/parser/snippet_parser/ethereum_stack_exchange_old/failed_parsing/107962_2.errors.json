@@ -1,5 +1,0 @@
-{
-    "extraneous input 'ERC20' expecting {'{', 'is'}": [
-        "ERROR: when parsing line 5 column 17: extraneous input 'ERC20' expecting {'{', 'is'}\n"
-    ]
-}

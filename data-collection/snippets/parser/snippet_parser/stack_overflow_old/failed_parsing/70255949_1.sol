@@ -1,6 +1,0 @@
-
-...
-import "./BaseContract.sol";
-contract DerivedContract is BaseContract{
-...
-}

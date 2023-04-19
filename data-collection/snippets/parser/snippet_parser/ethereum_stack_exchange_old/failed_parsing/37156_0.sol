@@ -1,2 +1,0 @@
-function buyTicket() payable public {
-    

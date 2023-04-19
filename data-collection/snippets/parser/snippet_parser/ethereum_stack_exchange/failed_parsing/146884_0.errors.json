@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongenerateSeed(uint256tokenId)publicviewreturns(uint256){\\nuint256r=random(tokenId);\\nuint256headSeed=100*(r%7+10)+((r>>48)%20+10);\\nuint256faceSeed=100*((r>>96)%6+10)+((r>>96)%20+10);\\nuint256bodySeed=100*((r>>144)%7+10)+((r>>144)%20+10);\\nuint256legsSeed=100*((r>>192)%2+10)+((r>>192)%20+10);\\nreturnheadSeed;\\n'": [
+        "ERROR: when parsing line 8 column 0: no viable alternative at input 'functiongenerateSeed(uint256tokenId)publicviewreturns(uint256){\\nuint256r=random(tokenId);\\nuint256headSeed=100*(r%7+10)+((r>>48)%20+10);\\nuint256faceSeed=100*((r>>96)%6+10)+((r>>96)%20+10);\\nuint256bodySeed=100*((r>>144)%7+10)+((r>>144)%20+10);\\nuint256legsSeed=100*((r>>192)%2+10)+((r>>192)%20+10);\\nreturnheadSeed;\\n'\n"
+    ]
+}
