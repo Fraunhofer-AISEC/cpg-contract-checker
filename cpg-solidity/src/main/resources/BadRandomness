@@ -1,5 +1,6 @@
 match (r)
-where (r:DeclaredReferenceExpression or r:MemberExpression or (r:CallExpression and r.name in ['blockhash'])) and r.code IN ["block.timestamp", "block.number", "block.difficulty"]
+where ((r:DeclaredReferenceExpression or r:MemberExpression)  and r.code IN ["block.timestamp", "block.number", "block.difficulty", "block.coinbase"]
+or (r:CallExpression and r.name in ['blockhash']))
 and (exists { (r)-[:DFG*]->(:ReturnStatement)}
 or exists{ // This should also capture calls to send and transfer
     (r)-[:DFG*]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}

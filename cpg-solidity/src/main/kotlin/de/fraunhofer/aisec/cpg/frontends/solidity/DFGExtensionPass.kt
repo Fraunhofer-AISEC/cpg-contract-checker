@@ -44,15 +44,20 @@ class DFGExtensionPass: Pass() {
 
         nodes.filterIsInstance<CallExpression>().filter { it.name.equals("push") }.forEach {
             val call = it
-            it.base?.let {
+            (it.base as DeclaredReferenceExpression)?.let {
                 val base = it
-                call.arguments.forEach { base.addPrevDFG(it) }
+                call.arguments.forEach { base.refersTo?.addPrevDFG(it) }
             }
         }
 
-        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("sha3") || it.name.equals("keccak256") }.forEach {
+        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("sha3") || it.name.equals("keccak256") || it.name.equals("blockhash")}.forEach {
             val call = it
             call.arguments.forEach { call.addPrevDFG(it) }
+        }
+
+        nodes.filterIsInstance<ConstructExpression>().forEach {
+            val construction = it
+            construction.arguments.forEach { construction.addPrevDFG(it) }
         }
 
 

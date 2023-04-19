@@ -7,15 +7,15 @@ and ('[' in v.code // Check if it is an array
                 (struct:RecordDeclaration {kind: 'struct'}) where struct.kind = 'struct' and struct.name = tv.code
             }
         }
-) and exists {(n:ParamVariableDeclaration)<-[:PARAMETERS]-(f) where not 'ConstructorDeclaration' in labels(f) and (
+) and exists {(f) where not 'ConstructorDeclaration' in labels(f) and (
     exists{
-        (n)-[d:DFG*]->(v)
+        (f)-[:EOG*]->()-[d:DFG]->(v)
     } or exists {
-        (n)-[d:DFG*]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*]-(v)
+        (f)-[:EOG*]->()-[d:DFG]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*]-(v)
         where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
     }
     or exists {
-        (n)-[d:DFG*]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*]-(v)
+        (f)-[:EOG*]->()-[d:DFG]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*]-(v)
         where bin.operatorCode in ['++','--']
     }
 )
