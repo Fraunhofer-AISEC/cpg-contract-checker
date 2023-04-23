@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 path = sys.argv[1]
 
 checkmapping = {
@@ -35,6 +36,16 @@ def parse_vulnerabillities(dirname, filename):
             print(vulnerable_contracts[snippet_name])
     
     
+def collect_timestamps():
+    with open("stack_overflow_posts.json") as f:
+        line = f.readline()
+        while line:
+            sos = json.loads(line)
+            
+            print(sos)
+            
+            line = f.readline()
+    
     
 fname = []
 for root, d_names, f_names in os.walk(path):
@@ -42,4 +53,4 @@ for root, d_names, f_names in os.walk(path):
         if f.endswith("result.log"):
             fname.append(os.path.join(root, f))
             parse_vulnerabillities(root, f)
-print(len(fname))
+# collect_timestamps()
