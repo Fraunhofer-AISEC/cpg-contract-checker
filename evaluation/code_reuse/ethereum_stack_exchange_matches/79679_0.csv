@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,75.00,0x93c9291523cb95c0eB0bC379b0483F4D7fC05072,smart-contract-sanctuary-ethereum/contracts/mainnet/93/93c9291523cb95c0eB0bC379b0483F4D7fC05072_LedToken.sol
+100.00,75.00,0xB9560eacFAd923886e944eDb3EfE847D107099d7,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/B9560eacFAd923886e944eDb3EfE847D107099d7_PrivateSale.sol
+100.00,100.00,0x35488195f26570a8fe0043e47186b0bc5681fe89,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35488195f26570a8fe0043e47186b0bc5681fe89_EOGLottery.sol
+100.00,75.00,0xCA6378fcdf24Ef34B4062Dda9F1862Ea59BaFD4d,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/CA6378fcdf24Ef34B4062Dda9F1862Ea59BaFD4d_God.sol
+100.00,100.00,0x2c2963CB38bb3462857F419Bda262e90abf5b8c9,smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2c2963CB38bb3462857F419Bda262e90abf5b8c9_DloopPayment.sol
+100.00,100.00,0xe087d709FC3E3677E5a462f4296a484f924F3649,smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e087d709FC3E3677E5a462f4296a484f924F3649_TokengateArtPayment.sol
+83.33,75.00,0xbd9e22f92ea5e43d93723af3f23b0346fd5d1f03,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd9e22f92ea5e43d93723af3f23b0346fd5d1f03_Presale.sol

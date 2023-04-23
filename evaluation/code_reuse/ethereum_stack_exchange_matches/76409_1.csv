@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,73.81,0xdE0D03F110B9fe57C8253e92f400e37FbbA53095,smart-contract-sanctuary-ethereum/contracts/mainnet/de/dE0D03F110B9fe57C8253e92f400e37FbbA53095_Access.sol
+97.50,76.19,0x6bec1f35d729051afd252fba026ea548ddb37bce,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6bec1f35d729051afd252fba026ea548ddb37bce_BattleRoyaleDao.sol
+97.50,76.19,0x1b2b139ef6b5a81c8d91cdaa25d852f1df55fcb3,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b2b139ef6b5a81c8d91cdaa25d852f1df55fcb3_BattleRoyaleDao.sol
+97.50,76.19,0xfe32c9ea528fead75cce950be5062abdd363db33,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe32c9ea528fead75cce950be5062abdd363db33_Gswap_stake.sol

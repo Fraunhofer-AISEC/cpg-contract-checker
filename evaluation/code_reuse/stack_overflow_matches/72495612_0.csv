@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.67,74.07,0x263320ab819cfd409f07368ac8b6c9fd8753c94d,smart-contract-sanctuary-ethereum/contracts/mainnet/26/263320ab819cfd409f07368ac8b6c9fd8753c94d_YurdSale.sol
+91.67,74.07,0x0a65d3aa522278c18ae0cbad4021ffad7276e904,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0a65d3aa522278c18ae0cbad4021ffad7276e904_YurdSale.sol
+91.67,78.79,0x53b8a0db419c265f644b4ef7ade6f1bd46643e05,smart-contract-sanctuary-ethereum/contracts/mainnet/53/53b8a0db419c265f644b4ef7ade6f1bd46643e05_xmaldenlab.sol
+91.67,73.08,0x76254e1102bc0b4d73036950f8877336030542c7,smart-contract-sanctuary-ethereum/contracts/mainnet/76/76254e1102bc0b4d73036950f8877336030542c7_SafeMath.sol
+87.50,74.07,0x41315c3af33657a94de841e51d3ab602041d0fdf,smart-contract-sanctuary-ethereum/contracts/mainnet/41/41315c3af33657a94de841e51d3ab602041d0fdf_WEDRIPZ.sol
+83.33,88.89,0xc247a2f1eaa2f76612bf1eabd168e22b0bc8922e,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c247a2f1eaa2f76612bf1eabd168e22b0bc8922e_Geosale.sol
+75.00,70.00,0xfe4afb98416e3892c129e7508a7ed3078f605189,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe4afb98416e3892c129e7508a7ed3078f605189_VulnerableContract.sol

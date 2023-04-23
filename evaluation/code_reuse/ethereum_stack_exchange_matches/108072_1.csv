@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+77.78,72.83,0xEf77C8203E4e48A88BA53A5a6E551E4a0211b924,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/Ef77C8203E4e48A88BA53A5a6E551E4a0211b924_PreSaleBuff.sol
+74.44,72.83,0x166012f219fb070330e814c9fc24eea578a33765,smart-contract-sanctuary-ethereum/contracts/mainnet/16/166012f219fb070330e814c9fc24eea578a33765_CappedSTO.sol
+74.44,72.83,0x2aa1b133f464ac08f66c2f702581d014e4603d31,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2aa1b133f464ac08f66c2f702581d014e4603d31_CappedSTOFactory.sol

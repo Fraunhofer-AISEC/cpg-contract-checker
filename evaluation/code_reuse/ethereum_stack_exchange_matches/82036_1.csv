@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+67.50,73.33,0xaeed349cdd52c8505be087969b397798ff8e6331,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/aeed349cdd52c8505be087969b397798ff8e6331_gametoken.sol
+65.00,76.19,0x9ef0eb9d97e4e7c8612d4e5aaf9201e35bd3670b,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9ef0eb9d97e4e7c8612d4e5aaf9201e35bd3670b_EAI_TokenERC.sol
+65.00,76.19,0x97c103d006bd363588a98659a4d3b5cab9a29348,smart-contract-sanctuary-ethereum/contracts/mainnet/97/97c103d006bd363588a98659a4d3b5cab9a29348_BaliToken.sol
+65.00,76.19,0xa7d021ca3df31f9b2460a7a70d0243a3f272cb9f,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7d021ca3df31f9b2460a7a70d0243a3f272cb9f_NFTERC20.sol

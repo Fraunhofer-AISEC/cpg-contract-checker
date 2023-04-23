@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+81.73,75.79,0xfbc9C7aE92abea562429d96Ee998030997f702C9,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fbc9C7aE92abea562429d96Ee998030997f702C9_SkullpunksXG.sol
+70.19,71.36,0x3adee1605de9b0fcab1cce19bdd40ffbacd08e82,smart-contract-sanctuary-ethereum/contracts/mainnet/3a/3adee1605de9b0fcab1cce19bdd40ffbacd08e82_MCFToken.sol
+70.19,71.36,0x0a875d2a9c567fee1237ccd7709a707121e8d11d,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0a875d2a9c567fee1237ccd7709a707121e8d11d_MCFToken.sol

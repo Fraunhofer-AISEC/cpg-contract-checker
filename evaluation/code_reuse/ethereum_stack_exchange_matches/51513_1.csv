@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.65,80.00,0x811437d9fbe43be7ecff117d9986253c36bc2438,smart-contract-sanctuary-ethereum/contracts/mainnet/81/811437d9fbe43be7ecff117d9986253c36bc2438_AirDrop.sol
+91.30,71.43,0x0CE087c4bd3C0bd59B08a658834c5DeC394BdB47,smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0CE087c4bd3C0bd59B08a658834c5DeC394BdB47_MultiSend.sol
+91.30,71.43,0x7bd9084fdd5d021c226918d86c0721cb088b9b4a,smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7bd9084fdd5d021c226918d86c0721cb088b9b4a_MultiSend.sol
+86.96,70.31,0x37afbfb4330d449ce7d231f2356f4f9297c32bc1,smart-contract-sanctuary-ethereum/contracts/mainnet/37/37afbfb4330d449ce7d231f2356f4f9297c32bc1_DistributeETH.sol
+84.78,81.82,0x339Aebfba17Ca857b8E72349897413dEA0573B54,smart-contract-sanctuary-ethereum/contracts/mainnet/33/339Aebfba17Ca857b8E72349897413dEA0573B54_XenBatchMain.sol
+73.91,75.00,0x11111111aa58c2c51a1dd968050d3329573faa39,smart-contract-sanctuary-ethereum/contracts/mainnet/11/11111111aa58c2c51a1dd968050d3329573faa39_AlphaClub001.sol

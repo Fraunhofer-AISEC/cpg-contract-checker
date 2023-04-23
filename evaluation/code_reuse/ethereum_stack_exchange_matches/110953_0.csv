@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+66.67,71.05,0x024cb480c6bf81eea0067c2682a706e5da5c6024,smart-contract-sanctuary-ethereum/contracts/mainnet/02/024cb480c6bf81eea0067c2682a706e5da5c6024_BuyBack.sol
+66.67,72.97,0xe58633a7c2affb6f84f9659c21b2485845643c01,smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e58633a7c2affb6f84f9659c21b2485845643c01_DeciserToken.sol
+66.67,72.97,0xbda4f6c850f67f263bc2c1ea94bbccbf0c44de03,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bda4f6c850f67f263bc2c1ea94bbccbf0c44de03_DeciserToken.sol
+63.64,71.43,0xF73c97245B3bE2559d01343bFFAa3e3a69F6dD3b,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/F73c97245B3bE2559d01343bFFAa3e3a69F6dD3b_ItemMarket.sol
+63.64,71.43,0xf4c3a48f27666ef8bedab8d73c0117e1aeaf1ba0,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f4c3a48f27666ef8bedab8d73c0117e1aeaf1ba0_ItemMarket.sol
+60.61,71.43,0x3cd90d2dfd9b6f8eee2ef02d6719180c5b6e721b,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3cd90d2dfd9b6f8eee2ef02d6719180c5b6e721b_UploadIMG.sol

@@ -1,0 +1,9 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x30535831E3244DC15153cE173C2803af4eE7E374,smart-contract-sanctuary-ethereum/contracts/mainnet/30/30535831E3244DC15153cE173C2803af4eE7E374_Splat.sol
+98.29,95.14,0xe5b52EB1250A6C860a0088a2Ba275C5FeD8457B9,smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e5b52EB1250A6C860a0088a2Ba275C5FeD8457B9_DURMANN.sol
+98.29,95.14,0xc380470A387E1915C25EEB3CeDeD151FF0d5e3e7,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c380470A387E1915C25EEB3CeDeD151FF0d5e3e7_DURMANN.sol
+98.29,95.14,0x28f139197E8E916cA79B42935e6CAcEaA75dEe56,smart-contract-sanctuary-ethereum/contracts/mainnet/28/28f139197E8E916cA79B42935e6CAcEaA75dEe56_Sploot.sol
+98.29,95.14,0xC7184671835B30077944134bD3B3B34d4210D451,smart-contract-sanctuary-ethereum/contracts/mainnet/c7/C7184671835B30077944134bD3B3B34d4210D451_Sploot.sol
+97.37,88.62,0xBD8d98C1fdBAA4006fe1865eC65302a1aF896095,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/BD8d98C1fdBAA4006fe1865eC65302a1aF896095_Spray.sol
+97.37,88.70,0xc3888e07D7501ba03b5B0fEb57b63206D4b18894,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c3888e07D7501ba03b5B0fEb57b63206D4b18894_Spray.sol
+95.14,89.23,0xC3A781bB4e19bAd54C5c280DA4fD2DE99225C355,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/C3A781bB4e19bAd54C5c280DA4fD2DE99225C355_NotVandal.sol

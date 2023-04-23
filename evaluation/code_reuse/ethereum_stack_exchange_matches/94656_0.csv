@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+80.00,75.16,0x0d7cd88c78910ff1b6b90d0e647d671eb861890e,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d7cd88c78910ff1b6b90d0e647d671eb861890e_HookableStakingPool.sol
+77.14,72.53,0xf407983B8dB463A7686196147fa3f967E7418A00,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f407983B8dB463A7686196147fa3f967E7418A00_EvilNoundleStakingPool.sol
+77.14,72.53,0x714981eB968A33E58310d950fa19DA2CB82316F9,smart-contract-sanctuary-ethereum/contracts/mainnet/71/714981eB968A33E58310d950fa19DA2CB82316F9_CompanionStakingPool.sol
+77.14,72.53,0x68bad609cc5f41bb29bc4fe11c67073b7f0697a2,smart-contract-sanctuary-ethereum/contracts/mainnet/68/68bad609cc5f41bb29bc4fe11c67073b7f0697a2_NoundleStakingPool.sol

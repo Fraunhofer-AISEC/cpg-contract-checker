@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+82.80,77.93,0x4665e227c521849a202f808E927d1dc5F63C7941,smart-contract-sanctuary-ethereum/contracts/mainnet/46/4665e227c521849a202f808E927d1dc5F63C7941_OCCoin.sol
+82.26,73.99,0xB7813d0F0ff024Feb86F9D3A734d73AF489163A4,smart-contract-sanctuary-ethereum/contracts/mainnet/b7/B7813d0F0ff024Feb86F9D3A734d73AF489163A4_ICanHasCheezburgerToken.sol
+78.23,74.69,0x3C978Fc9a42C80A127863d786D8883614B01b3Cd,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3C978Fc9a42C80A127863d786D8883614B01b3Cd_USDTOKEN.sol
+77.96,74.55,0xA0a4F4bbF8D9111cc34d0D031Eb7113AD170b132,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/A0a4F4bbF8D9111cc34d0D031Eb7113AD170b132_Elysium.sol
+77.69,75.10,0xae57090a656c3829FC7380B3081db6193FEE90E8,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/ae57090a656c3829FC7380B3081db6193FEE90E8_dabloons.sol

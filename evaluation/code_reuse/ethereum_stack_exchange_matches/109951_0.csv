@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x1fad8faf11E027f8630F394599830dBeb97004EE,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1fad8faf11E027f8630F394599830dBeb97004EE_ChainlinkPriceFeed.sol
+100.00,100.00,0x2E45f9B3fd5871cCaf4eB415dFCcbDD126F57C4f,smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2E45f9B3fd5871cCaf4eB415dFCcbDD126F57C4f_AggregatedDerivativePriceFeed.sol
+90.93,70.04,0x083B8F465BbA2BB274E48387e3f9C56323341286,smart-contract-sanctuary-ethereum/contracts/mainnet/08/083B8F465BbA2BB274E48387e3f9C56323341286_BalancerV2WeightedPoolPriceFeed.sol

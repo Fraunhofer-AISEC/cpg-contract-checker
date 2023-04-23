@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+68.75,73.31,0x252dDf4F275CD29A1af7fB0Ec69029b2aDb907e4,smart-contract-sanctuary-ethereum/contracts/mainnet/25/252dDf4F275CD29A1af7fB0Ec69029b2aDb907e4_SecureRpcProvider.sol
+68.75,70.58,0xFEb6d5238Ed8F1d59DCaB2db381AA948e625966D,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/FEb6d5238Ed8F1d59DCaB2db381AA948e625966D_DogeTV.sol
+65.62,70.09,0x02cdb64f20422a3f593216afb403fe9524412c03,smart-contract-sanctuary-ethereum/contracts/mainnet/02/02cdb64f20422a3f593216afb403fe9524412c03_GTST5.sol
+65.62,70.09,0x377B183A4232efbB24f426b8949c1be4aD1f279D,smart-contract-sanctuary-ethereum/contracts/mainnet/37/377B183A4232efbB24f426b8949c1be4aD1f279D_MeteoraPreSale.sol

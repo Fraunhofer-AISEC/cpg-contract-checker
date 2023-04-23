@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+88.37,70.45,0x46e772210f01647fa573b915be287ff9b65ad4b0,smart-contract-sanctuary-ethereum/contracts/mainnet/46/46e772210f01647fa573b915be287ff9b65ad4b0_DropMetadataRenderer.sol
+86.05,77.27,0xA8442a267fE3193d89E381f7C2548A49Cc6ddaD5,smart-contract-sanctuary-ethereum/contracts/mainnet/a8/A8442a267fE3193d89E381f7C2548A49Cc6ddaD5_USBStakingFactory.sol
+86.05,77.27,0x57F94d980B8fd990707094cFDD90FA2C8CAD440f,smart-contract-sanctuary-ethereum/contracts/mainnet/57/57F94d980B8fd990707094cFDD90FA2C8CAD440f_USBStakingYield.sol
+86.05,77.27,0x92F403f5526A542816A95e7D2de49c519c3A0FBa,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92F403f5526A542816A95e7D2de49c519c3A0FBa_USBStaking.sol
+86.05,72.73,0xDFBF1C5951C26b5f5ec850673ABB4806a4DF9E57,smart-contract-sanctuary-ethereum/contracts/mainnet/df/DFBF1C5951C26b5f5ec850673ABB4806a4DF9E57_HodlDex.sol
+83.72,72.73,0xa04e7224679a372309fd4dc6400beb278e5b70dc,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a04e7224679a372309fd4dc6400beb278e5b70dc_BAPE.sol

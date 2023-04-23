@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,97.47,0x90918403c6f81422607eb164e5a62b738c5d8646,smart-contract-sanctuary-ethereum/contracts/mainnet/90/90918403c6f81422607eb164e5a62b738c5d8646_MarkCuckerbergContract.sol
+100.00,85.39,0x66b7fa08b73a45ce4ad71b004f51e570f90450aa,smart-contract-sanctuary-ethereum/contracts/mainnet/66/66b7fa08b73a45ce4ad71b004f51e570f90450aa_GoldenTicket.sol
+96.10,94.94,0x3d15053e9Eb87A5c7100Fa0ef233c53c22766838,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3d15053e9Eb87A5c7100Fa0ef233c53c22766838_IR_2023.sol
+88.31,71.58,0x551056ee6823b97220845981cf4f8469a521115f,smart-contract-sanctuary-ethereum/contracts/mainnet/55/551056ee6823b97220845981cf4f8469a521115f_MignonWorldsGenesis.sol
+85.71,72.53,0x1a96cA863808CC650A8DfB88EbE662858b460F8b,smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1a96cA863808CC650A8DfB88EbE662858b460F8b_Meow.sol
+83.12,72.53,0xd211EfD3F35bEF637b2878e084eA773D2D8733d3,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d211EfD3F35bEF637b2878e084eA773D2D8733d3_MEOW.sol

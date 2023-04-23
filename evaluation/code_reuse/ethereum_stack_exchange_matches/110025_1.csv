@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+88.24,73.92,0xDef92Dff0A91629f91A49b87fd38aEC92ab4Dc19,smart-contract-sanctuary-ethereum/contracts/mainnet/de/Def92Dff0A91629f91A49b87fd38aEC92ab4Dc19_Blocklist.sol
+88.24,73.92,0x8083ff84A133835Dc5F5abC2a88458F4Dcda9C38,smart-contract-sanctuary-ethereum/contracts/mainnet/80/8083ff84A133835Dc5F5abC2a88458F4Dcda9C38_Allowlist.sol
+84.31,70.59,0x59bC0f9a7Db12b874BFA30DDa9d1945FbDE06cda,smart-contract-sanctuary-ethereum/contracts/mainnet/59/59bC0f9a7Db12b874BFA30DDa9d1945FbDE06cda_vLit.sol
+82.35,70.70,0xE6c2Ad271877C48b78ee696F0ed8a2C1F27BA6fD,smart-contract-sanctuary-ethereum/contracts/mainnet/e6/E6c2Ad271877C48b78ee696F0ed8a2C1F27BA6fD_PandolfiniEscrow.sol

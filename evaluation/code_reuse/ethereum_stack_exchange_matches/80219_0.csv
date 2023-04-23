@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xbc2afc039d2bfa67d582ac181dab5be17ec91f82,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc2afc039d2bfa67d582ac181dab5be17ec91f82_Mining.sol
+95.12,72.09,0xf18c105D0375E80980e4EED829a4A68A539E6178,smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f18c105D0375E80980e4EED829a4A68A539E6178_RequesterAuthorizerWithAirnode.sol
+90.24,72.09,0x12D82f38a038A71b0843BD3256CD1E0A1De74834,smart-contract-sanctuary-ethereum/contracts/mainnet/12/12D82f38a038A71b0843BD3256CD1E0A1De74834_AccessControlRegistry.sol
+80.49,72.09,0x92E5125adF385d86beDb950793526106143b6Df1,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92E5125adF385d86beDb950793526106143b6Df1_AccessControlRegistry.sol

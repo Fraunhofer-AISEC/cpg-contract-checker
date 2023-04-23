@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,73.63,0xC3D6707E421d86E595c01247147320e49887D0ef,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/C3D6707E421d86E595c01247147320e49887D0ef_OnChainPixelArt.sol
+100.00,73.63,0xfCBaD2f45676397792381612913491321E2aad75,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fCBaD2f45676397792381612913491321E2aad75_OnChainPixelArtv2.sol
+92.00,71.35,0x0000000000b3F879cb30FE243b4Dfee438691c04,smart-contract-sanctuary-ethereum/contracts/mainnet/00/0000000000b3F879cb30FE243b4Dfee438691c04_GasToken2.sol
+92.00,73.63,0xD781c3c63023366EAC84121DFb0B122Ad590Db26,smart-contract-sanctuary-ethereum/contracts/mainnet/d7/D781c3c63023366EAC84121DFb0B122Ad590Db26_OnChainPixelArtLibrary.sol

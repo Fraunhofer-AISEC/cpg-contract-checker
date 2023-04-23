@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.32,80.90,0x364ce4e74a1ddd42e6f96a5ee69280e7596b0aaf,smart-contract-sanctuary-ethereum/contracts/mainnet/36/364ce4e74a1ddd42e6f96a5ee69280e7596b0aaf_WrappedPhrocks.sol
+94.32,80.90,0x1a36F665cb3053AA30ea96A7cE6Dcb3D10137430,smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1a36F665cb3053AA30ea96A7cE6Dcb3D10137430_PunkRocks.sol
+94.32,80.90,0x99067efa6b3a76f8ecd81469540a156581b98c54,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99067efa6b3a76f8ecd81469540a156581b98c54_UpsidedownRocks.sol
+94.32,80.90,0x23fc142a6ba57a37855d9d52702fda2ec4b4fd53,smart-contract-sanctuary-ethereum/contracts/mainnet/23/23fc142a6ba57a37855d9d52702fda2ec4b4fd53_Phrocks.sol

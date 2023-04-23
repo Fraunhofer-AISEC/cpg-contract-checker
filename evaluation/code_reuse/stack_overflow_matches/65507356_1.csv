@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+81.11,83.48,0x02b2b9bedefd428880db1a8aebce8a310760bc7a,smart-contract-sanctuary-ethereum/contracts/mainnet/02/02b2b9bedefd428880db1a8aebce8a310760bc7a_SmartEdMatrix.sol
+81.11,83.48,0x42039d4e63bc5ba1b219adf9f2eee446005adfdb,smart-contract-sanctuary-ethereum/contracts/mainnet/42/42039d4e63bc5ba1b219adf9f2eee446005adfdb_SmartEdMatrix.sol
+71.11,73.12,0xb41090a6bcfc5aeb4c089528669a5411f951ca53,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b41090a6bcfc5aeb4c089528669a5411f951ca53_Strategy.sol
+69.44,71.33,0xa9f6897c3b73325Be635e95D83390a4c216f6198,smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a9f6897c3b73325Be635e95D83390a4c216f6198_Withdrawal.sol
+69.44,71.33,0xd3d0eF10Ef740dB5d7DeDc2b5fE816e99c2dB44e,smart-contract-sanctuary-ethereum/contracts/mainnet/d3/d3d0eF10Ef740dB5d7DeDc2b5fE816e99c2dB44e_Withdrawal.sol
+67.78,71.36,0x7ccf879361a594685cbcad53de5926dc0477876e,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7ccf879361a594685cbcad53de5926dc0477876e_Cert.sol
+67.78,72.26,0xc50be38bb25c57c68625a54468f117719c6942a3,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c50be38bb25c57c68625a54468f117719c6942a3_WealthBuilder_M1.sol

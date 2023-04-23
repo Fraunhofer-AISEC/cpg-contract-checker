@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.48,71.79,0x65fa08ED6Da4e113024e30107a2D7BFA2D733C07,smart-contract-sanctuary-ethereum/contracts/mainnet/65/65fa08ED6Da4e113024e30107a2D7BFA2D733C07_Member.sol
+90.48,71.79,0xfad84E2995cF1ADc5097C75A577a4Ea54dccc9d2,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fad84E2995cF1ADc5097C75A577a4Ea54dccc9d2_Member.sol
+90.48,71.79,0x56cda9679a3Ac8c3353107b7061fDA45c6dF8D8c,smart-contract-sanctuary-ethereum/contracts/mainnet/56/56cda9679a3Ac8c3353107b7061fDA45c6dF8D8c_Member.sol
+87.30,70.13,0xceda8318522d348f1d1aca48b24629b8fbf09020,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ceda8318522d348f1d1aca48b24629b8fbf09020_RebalancingSetIssuanceModule.sol
+85.71,72.15,0x4fED8C313Cbb58CAA0ddf42dC4E4a3653F410b39,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4fED8C313Cbb58CAA0ddf42dC4E4a3653F410b39_TalkToTheHandRight.sol
+84.13,81.54,0x046502394e437FA70e842f76e215f4737630b58F,smart-contract-sanctuary-ethereum/contracts/mainnet/04/046502394e437FA70e842f76e215f4737630b58F_Burnft.sol

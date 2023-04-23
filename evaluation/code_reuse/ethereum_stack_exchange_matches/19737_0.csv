@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+76.67,76.47,0xbee149d5cef48724918836c48f2749a5c5f75f8c,smart-contract-sanctuary-ethereum/contracts/mainnet/be/bee149d5cef48724918836c48f2749a5c5f75f8c_SimpleAuction.sol
+76.67,76.47,0x207ff240d2f5baaefce160785f38ebd5d7bbdce4,smart-contract-sanctuary-ethereum/contracts/mainnet/20/207ff240d2f5baaefce160785f38ebd5d7bbdce4_SimpleAuction.sol
+76.67,76.47,0x041d26dcceda7fd82898cd7dce0ae7da6031ee51,smart-contract-sanctuary-ethereum/contracts/mainnet/04/041d26dcceda7fd82898cd7dce0ae7da6031ee51_SimpleAuction.sol

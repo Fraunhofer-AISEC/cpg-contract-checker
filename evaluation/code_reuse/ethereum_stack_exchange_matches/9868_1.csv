@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+87.50,72.22,0xa98ad92a642570b83b369c4eb70efefe638bc895,smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a98ad92a642570b83b369c4eb70efefe638bc895_Fishbank.sol
+87.50,72.22,0xe8bbf054b788c98d9993be5513254d6b64a1ba97,smart-contract-sanctuary-ethereum/contracts/mainnet/e8/e8bbf054b788c98d9993be5513254d6b64a1ba97_Fishbank.sol
+87.50,72.22,0xdf0f851ce2214febdc2d111cc591246ff813087d,smart-contract-sanctuary-ethereum/contracts/mainnet/df/df0f851ce2214febdc2d111cc591246ff813087d_FishbankChests.sol
+75.00,83.33,0x73dd069c299a5d691e9836243bcaec9c8c1d8734,smart-contract-sanctuary-ethereum/contracts/mainnet/73/73dd069c299a5d691e9836243bcaec9c8c1d8734_Bitcoineum.sol
+75.00,72.22,0xf6c54455f01e03f8ff992e2a6aaae5349898259e,smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6c54455f01e03f8ff992e2a6aaae5349898259e_TokenStaking.sol
+68.75,72.22,0x33b63042865242739bA410aC32AB68723E6CF4b9,smart-contract-sanctuary-ethereum/contracts/mainnet/33/33b63042865242739bA410aC32AB68723E6CF4b9_BDVFacet.sol

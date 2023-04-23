@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.44,77.75,0xed7a1b95fc6b4f88d8389974a7f0ac4291220496,smart-contract-sanctuary-ethereum/contracts/mainnet/ed/ed7a1b95fc6b4f88d8389974a7f0ac4291220496_UniswapHexStake.sol
+91.67,77.90,0xCe54E655fF7d0d2D35455242d9Dd561DF32bf50C,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/Ce54E655fF7d0d2D35455242d9Dd561DF32bf50C_ZyxBridge.sol
+80.56,73.80,0x35b62cb442a3b67082080a1e8f5c377811a45613,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35b62cb442a3b67082080a1e8f5c377811a45613_DPiggy.sol

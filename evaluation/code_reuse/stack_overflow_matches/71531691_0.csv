@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+88.50,70.26,0x602454de8fffae1ad6bdcd58f2a6e98f92bc63ec,smart-contract-sanctuary-ethereum/contracts/mainnet/60/602454de8fffae1ad6bdcd58f2a6e98f92bc63ec_Refundable.sol
+87.61,71.11,0xebed6da3e9355f1aa402f976c054db7bc16be7e0,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/ebed6da3e9355f1aa402f976c054db7bc16be7e0_IgfContract.sol
+86.73,73.52,0xEB5A24b40d6433EE0Abd7cB766aE7289C7e1251b,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/EB5A24b40d6433EE0Abd7cB766aE7289C7e1251b_Caladex.sol
+83.19,70.33,0xf0e534fe303bd4725436091da949fa008c76cc23,smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0e534fe303bd4725436091da949fa008c76cc23_V3Contract.sol

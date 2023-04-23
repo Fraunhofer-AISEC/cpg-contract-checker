@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+89.36,77.53,0x43377d26bf2394d3cce3dde3fc612609b62fd100,smart-contract-sanctuary-ethereum/contracts/mainnet/43/43377d26bf2394d3cce3dde3fc612609b62fd100_ExToke.sol
+89.36,77.53,0x4d74a7db43bbd1de7708cdf55acbbdd71b65cf6d,smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4d74a7db43bbd1de7708cdf55acbbdd71b65cf6d_ExToke.sol
+85.96,72.80,0x54a7c606ea45f9b20cff8dbe232cdf6146cb7d26,smart-contract-sanctuary-ethereum/contracts/mainnet/54/54a7c606ea45f9b20cff8dbe232cdf6146cb7d26_ExToke.sol

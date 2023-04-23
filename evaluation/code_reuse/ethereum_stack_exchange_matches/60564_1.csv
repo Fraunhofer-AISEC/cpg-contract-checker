@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+81.82,86.53,0x4445e84086D7531A2Da9A6472c0b17555DA2F3F4,smart-contract-sanctuary-ethereum/contracts/mainnet/44/4445e84086D7531A2Da9A6472c0b17555DA2F3F4_ClaimContractV3.sol
+81.82,86.53,0x48927745fCd4b89fc5122F827d47AE649F04D0e6,smart-contract-sanctuary-ethereum/contracts/mainnet/48/48927745fCd4b89fc5122F827d47AE649F04D0e6_ClaimContractV3.sol
+81.82,86.53,0xA11310b3CEAEF7A743a83e10C7b58fcB57841c77,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/A11310b3CEAEF7A743a83e10C7b58fcB57841c77_ClaimContractV5.sol
+79.22,77.24,0xbD6507E58e60F633C38E71036ba950254409eD56,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bD6507E58e60F633C38E71036ba950254409eD56_Collectible.sol
+72.73,74.79,0x2686BFa46F4249033f7d4EBBC46eFB0687A903a1,smart-contract-sanctuary-ethereum/contracts/mainnet/26/2686BFa46F4249033f7d4EBBC46eFB0687A903a1_PropsERC721AUpgradeableAccess.sol

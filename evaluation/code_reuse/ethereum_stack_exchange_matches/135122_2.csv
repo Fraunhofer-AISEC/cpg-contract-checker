@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.91,93.42,0xfd45f0c9363cf24d58d61b4c32ebe9095df1a3cc,smart-contract-sanctuary-ethereum/contracts/mainnet/fd/fd45f0c9363cf24d58d61b4c32ebe9095df1a3cc_HeavyHitters.sol
+89.61,77.53,0x2e6e1b66da3dd61f118a6d03c12c451f39cde0fb,smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2e6e1b66da3dd61f118a6d03c12c451f39cde0fb_skullSyndicate.sol
+87.01,85.53,0x0a1f81ae3339745ba623b0f3acb43d97b88cdefd,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0a1f81ae3339745ba623b0f3acb43d97b88cdefd_SBFPunks.sol
+87.01,81.93,0x937Abcaf1A8f5bB3b7419D2BD6878DdFD5078186,smart-contract-sanctuary-ethereum/contracts/mainnet/93/937Abcaf1A8f5bB3b7419D2BD6878DdFD5078186_Duckheadz.sol
+85.71,81.93,0x965377dceB5fA116599A080A3C0FF4dE02F8BF64,smart-contract-sanctuary-ethereum/contracts/mainnet/96/965377dceB5fA116599A080A3C0FF4dE02F8BF64_DuckheadzOfficial.sol
+84.42,78.67,0x62951b28ef19e3b0e1e11600e6e8ce16050e2724,smart-contract-sanctuary-ethereum/contracts/mainnet/62/62951b28ef19e3b0e1e11600e6e8ce16050e2724_Liferz.sol
+80.52,77.79,0x1712CF8044E51eCEba81f22C0C03cDd7Eb404b1e,smart-contract-sanctuary-ethereum/contracts/mainnet/17/1712CF8044E51eCEba81f22C0C03cDd7Eb404b1e_TokenTrader.sol

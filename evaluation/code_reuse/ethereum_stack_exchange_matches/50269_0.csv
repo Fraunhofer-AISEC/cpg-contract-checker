@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x6acd16200a2a046bf207d1b263202ec1a75a7d51,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6acd16200a2a046bf207d1b263202ec1a75a7d51_dappVolumeHearts.sol
+88.67,78.23,0x495b71d2e1f280bff2d7f1f26d4cbc12b7389d0c,smart-contract-sanctuary-ethereum/contracts/mainnet/49/495b71d2e1f280bff2d7f1f26d4cbc12b7389d0c_DappVolumeHearts.sol
+87.33,73.16,0x9737495934d40430dd4ea0de9b1727435c8c2a21,smart-contract-sanctuary-ethereum/contracts/mainnet/97/9737495934d40430dd4ea0de9b1727435c8c2a21_DappVolumeHearts.sol
+87.33,76.98,0x66e8d8a12e643b974d18df0bd5804fb00fc7d9d4,smart-contract-sanctuary-ethereum/contracts/mainnet/66/66e8d8a12e643b974d18df0bd5804fb00fc7d9d4_DappVolumeHearts.sol
+74.67,70.05,0x352dbba201af66f98a47f2b280bff45f9050dbf8,smart-contract-sanctuary-ethereum/contracts/mainnet/35/352dbba201af66f98a47f2b280bff45f9050dbf8_Hack.sol
+72.67,70.05,0xb620cee6b52f96f3c6b253e6eea556aa2d214a99,smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b620cee6b52f96f3c6b253e6eea556aa2d214a99_DrainMe.sol

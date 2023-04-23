@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+78.57,84.73,0xf788dffa63540db2bf071ffb596a654057c9d6f5,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f788dffa63540db2bf071ffb596a654057c9d6f5_CryptoDo.sol
+75.00,73.18,0x35b749aAbc741915E203Df213A8C854A39fcEC7b,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35b749aAbc741915E203Df213A8C854A39fcEC7b_CoinToken.sol
+75.00,73.18,0x137d423ECc99EbE6Ad612caC9C81964184629E2c,smart-contract-sanctuary-ethereum/contracts/mainnet/13/137d423ECc99EbE6Ad612caC9C81964184629E2c_MoontokPay.sol
+75.00,89.66,0xa7f8d97305b65ceb36d6ed7ccd27d91c31d05926,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7f8d97305b65ceb36d6ed7ccd27d91c31d05926_SendEther.sol
+67.86,83.52,0x7524FDb1b240f511546d5BA847A9824AB6980810,smart-contract-sanctuary-ethereum/contracts/mainnet/75/7524FDb1b240f511546d5BA847A9824AB6980810_ServiceReceiver.sol

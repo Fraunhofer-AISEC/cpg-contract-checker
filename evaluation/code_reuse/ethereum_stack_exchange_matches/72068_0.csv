@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.43,71.59,0x3ab1d534bb477f516817efaaf0b569f419b8e292,smart-contract-sanctuary-ethereum/contracts/mainnet/3a/3ab1d534bb477f516817efaaf0b569f419b8e292_LogoVote.sol
+91.43,71.59,0x0bB3B818A83cFd8c1c86082a4ce191188EBD8f12,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0bB3B818A83cFd8c1c86082a4ce191188EBD8f12_GenaroTokenSale.sol
+88.57,71.59,0x75e3f62bf58a615d9bb3b599456d1b4b2e4c27a5,smart-contract-sanctuary-ethereum/contracts/mainnet/75/75e3f62bf58a615d9bb3b599456d1b4b2e4c27a5_IGCoin.sol
+85.71,71.59,0x4baa1614c9f57367a9abf63027b9341ea4042a20,smart-contract-sanctuary-ethereum/contracts/mainnet/4b/4baa1614c9f57367a9abf63027b9341ea4042a20_DOGEMEX_Token.sol

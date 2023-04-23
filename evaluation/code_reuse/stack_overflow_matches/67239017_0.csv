@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+76.19,81.82,0xf98624E9924CAA2cbD21cC6288215Ec2ef7cFE80,smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f98624E9924CAA2cbD21cC6288215Ec2ef7cFE80_Controller.sol
+71.43,81.82,0xe8218cACb0a5421BC6409e498d9f8CC8869945ea,smart-contract-sanctuary-ethereum/contracts/mainnet/e8/e8218cACb0a5421BC6409e498d9f8CC8869945ea_Oracle.sol
+71.43,81.82,0x3b0f3eaEFaAc9f8F7FDe406919ecEb5270fE0607,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b0f3eaEFaAc9f8F7FDe406919ecEb5270fE0607_Treasury.sol
+71.43,81.82,0xD9157453E2668B2fc45b7A803D3FEF3642430cC0,smart-contract-sanctuary-ethereum/contracts/mainnet/d9/D9157453E2668B2fc45b7A803D3FEF3642430cC0_TellorFlex.sol
+71.43,81.82,0x356E1363897033759181727e4BFf12396c51A7E0,smart-contract-sanctuary-ethereum/contracts/mainnet/35/356E1363897033759181727e4BFf12396c51A7E0_Luftballons.sol

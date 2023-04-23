@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.67,80.35,0xBF1Aa6E9DcB03C6f6DE9ECa533C2cB7F1017E81E,smart-contract-sanctuary-ethereum/contracts/mainnet/bf/BF1Aa6E9DcB03C6f6DE9ECa533C2cB7F1017E81E_PridePass.sol
+87.04,75.39,0xBA3f6D90D8c2F4a80b52dCF10dC61de53C2c1070,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/BA3f6D90D8c2F4a80b52dCF10dC61de53C2c1070_OGFknApesEth.sol
+86.11,70.65,0xdd473605f52680b2234f2527d88a6cf34df24693,smart-contract-sanctuary-ethereum/contracts/mainnet/dd/dd473605f52680b2234f2527d88a6cf34df24693_MetaScam.sol

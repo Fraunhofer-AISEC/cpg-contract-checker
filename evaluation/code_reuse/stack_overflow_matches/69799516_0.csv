@@ -1,0 +1,9 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.92,71.44,0xbe457663218c3527a82d4021b1dce5802997063b,smart-contract-sanctuary-ethereum/contracts/mainnet/be/be457663218c3527a82d4021b1dce5802997063b_Core.sol
+97.92,71.44,0xd60f0a53c7e97f78fe4ac9013f5749920c601494,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d60f0a53c7e97f78fe4ac9013f5749920c601494_Core.sol
+97.92,71.44,0xf5d690c9d61092112660feaf62e542a670fa886d,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5d690c9d61092112660feaf62e542a670fa886d_SwaprateMatch.sol
+97.92,71.44,0x09a439c50465e447cb1a662da536f23a7e39374e,smart-contract-sanctuary-ethereum/contracts/mainnet/09/09a439c50465e447cb1a662da536f23a7e39374e_SwaprateMatch.sol
+97.92,71.44,0xee7391c8a24e256ef73108caaf8d806d501e649c,smart-contract-sanctuary-ethereum/contracts/mainnet/ee/ee7391c8a24e256ef73108caaf8d806d501e649c_Match.sol
+93.75,72.24,0x8e05B43aB4EE7B25157B757f90c6575BB2c4F54B,smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8e05B43aB4EE7B25157B757f90c6575BB2c4F54B_AragonNFT.sol
+91.67,71.98,0xA18C99732952F2498B2F4BD19f199450E292E102,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/A18C99732952F2498B2F4BD19f199450E292E102_Metadata.sol
+91.67,71.98,0x6dFbB531bC9D024f1e7CF0D20D2D706b949155dA,smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6dFbB531bC9D024f1e7CF0D20D2D706b949155dA_MetadataStorage.sol

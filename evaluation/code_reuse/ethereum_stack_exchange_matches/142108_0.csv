@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+79.41,71.36,0x4f503eb464c02505a0d6dbe7c534717829911a96,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4f503eb464c02505a0d6dbe7c534717829911a96_Crowdsale.sol
+79.41,71.36,0x4a3d584808a3F3C726957169EBC517EF91F7F2F7,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4a3d584808a3F3C726957169EBC517EF91F7F2F7_Carbonix.sol
+79.41,71.36,0xb491963f13C670B2b8E48f2c616762737bfc25e2,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b491963f13C670B2b8E48f2c616762737bfc25e2_KWH.sol

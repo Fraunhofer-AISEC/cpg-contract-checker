@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+77.66,73.25,0x604e244d5157c3ae734642364ace6c633fb1f278,smart-contract-sanctuary-ethereum/contracts/mainnet/60/604e244d5157c3ae734642364ace6c633fb1f278_EthernityFinancialOracle.sol
+75.53,71.49,0xea663d14bf15b201dc5e0c63f718cabe5d03a325,smart-contract-sanctuary-ethereum/contracts/mainnet/ea/ea663d14bf15b201dc5e0c63f718cabe5d03a325_AceDice.sol
+72.34,70.43,0x71a2a69fb4b03cfb3419992ce13c389e784cfcae,smart-contract-sanctuary-ethereum/contracts/mainnet/71/71a2a69fb4b03cfb3419992ce13c389e784cfcae_Minado.sol
+70.21,75.99,0x8bacaa76933c0d3b8e64764c4fbcd25998de4c74,smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8bacaa76933c0d3b8e64764c4fbcd25998de4c74_Vault.sol
+68.09,70.56,0x578d2069F4b5825437305e58397ea601522aaC2A,smart-contract-sanctuary-ethereum/contracts/mainnet/57/578d2069F4b5825437305e58397ea601522aaC2A_OwOToken.sol
+68.09,70.55,0x352dbba201af66f98a47f2b280bff45f9050dbf8,smart-contract-sanctuary-ethereum/contracts/mainnet/35/352dbba201af66f98a47f2b280bff45f9050dbf8_Hack.sol

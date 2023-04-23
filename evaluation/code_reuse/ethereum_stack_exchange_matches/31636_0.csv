@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+84.12,71.16,0x291de53a16b76dfe28551fd3335225f506db8b82,smart-contract-sanctuary-ethereum/contracts/mainnet/29/291de53a16b76dfe28551fd3335225f506db8b82__0xGoldToken.sol
+84.12,71.16,0x97a89a0286a673ac8cdabbc42e5b2aaae74b09e5,smart-contract-sanctuary-ethereum/contracts/mainnet/97/97a89a0286a673ac8cdabbc42e5b2aaae74b09e5__0xDogecoin.sol
+84.12,71.16,0x2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d,smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d__KiwiToken.sol

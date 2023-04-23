@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+79.31,77.42,0x29a63b622ad9b77563932d0d5d51177e4f7c3c3c,smart-contract-sanctuary-ethereum/contracts/mainnet/29/29a63b622ad9b77563932d0d5d51177e4f7c3c3c_CustomContract.sol
+79.31,77.42,0xb3fb0e8a58ada850dad5ee8e084352fb014b381f,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b3fb0e8a58ada850dad5ee8e084352fb014b381f_CustomContract.sol
+79.31,74.19,0x38700ae038d25ff7ae170a733e43e28c64e5b39b,smart-contract-sanctuary-ethereum/contracts/mainnet/38/38700ae038d25ff7ae170a733e43e28c64e5b39b_RedFundCrowdsale.sol
+79.31,70.97,0x01c2d503c83a40a91986d54a804935622d5f756c,smart-contract-sanctuary-ethereum/contracts/mainnet/01/01c2d503c83a40a91986d54a804935622d5f756c_PlutoDoge.sol
+62.07,77.42,0x44731a7649df116b65a805d82f25bc954f97fb38,smart-contract-sanctuary-ethereum/contracts/mainnet/44/44731a7649df116b65a805d82f25bc954f97fb38_TheOneToken.sol

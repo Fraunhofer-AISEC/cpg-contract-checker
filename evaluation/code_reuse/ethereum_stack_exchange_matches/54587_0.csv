@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+87.50,77.78,0xc8b34e97773ffaca00c06298d9e2233ad56dff93,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c8b34e97773ffaca00c06298d9e2233ad56dff93_CrowdsalePorto.sol
+87.50,77.78,0xfc7d60b31937edb9f2fd1f0f00f3bb2021cab386,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fc7d60b31937edb9f2fd1f0f00f3bb2021cab386_CrowdsalePorto.sol
+87.50,77.78,0x25166ec66ae40029589dcca100e598f22fecc8bf,smart-contract-sanctuary-ethereum/contracts/mainnet/25/25166ec66ae40029589dcca100e598f22fecc8bf_CrowdsaleGummy.sol
+75.00,80.00,0x08b9355a1960165b576376dcec81d26cb1ee73a6,smart-contract-sanctuary-ethereum/contracts/mainnet/08/08b9355a1960165b576376dcec81d26cb1ee73a6_KickTheCoinFactory.sol
+75.00,80.00,0xFECbDc28F7fd30f24170fDE058D36a29C21B3fad,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/FECbDc28F7fd30f24170fDE058D36a29C21B3fad_Conteract.sol
+75.00,80.00,0x75aa66b8405dcef0e935de1c1627196b704a0e91,smart-contract-sanctuary-ethereum/contracts/mainnet/75/75aa66b8405dcef0e935de1c1627196b704a0e91_DonationGuestbook.sol

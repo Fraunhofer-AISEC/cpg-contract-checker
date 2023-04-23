@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,71.03,0x78fd5d570ad8d2a8af142118cd044010ca0ad9e5,smart-contract-sanctuary-ethereum/contracts/mainnet/78/78fd5d570ad8d2a8af142118cd044010ca0ad9e5_BlocksquareSeriesA.sol
+100.00,70.93,0x9473481877cb241b0c8f647bf841973196e61a1d,smart-contract-sanctuary-ethereum/contracts/mainnet/94/9473481877cb241b0c8f647bf841973196e61a1d_PropToken.sol
+100.00,70.68,0x224aD51e9fe291Aa98dfBB455ecD88C1476ff4C3,smart-contract-sanctuary-ethereum/contracts/mainnet/22/224aD51e9fe291Aa98dfBB455ecD88C1476ff4C3_GiveAnAngelCS.sol
+100.00,70.68,0xaf7a0f3f8ac97c9934652ed2dd1e2ebbbff7a4f1,smart-contract-sanctuary-ethereum/contracts/mainnet/af/af7a0f3f8ac97c9934652ed2dd1e2ebbbff7a4f1_Crowdsale.sol

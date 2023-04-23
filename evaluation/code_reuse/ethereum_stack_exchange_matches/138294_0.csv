@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+81.20,70.04,0x8effd494eb698cc399af6231fccd39e08fd20b15,smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8effd494eb698cc399af6231fccd39e08fd20b15_PIXToken.sol
+72.10,72.03,0x85dd50bb40b7770564d35d71b0c6eaf3ec1d9603,smart-contract-sanctuary-ethereum/contracts/mainnet/85/85dd50bb40b7770564d35d71b0c6eaf3ec1d9603_Founders.sol
+71.98,72.52,0x8170fdafa281530ab8353de4d29a3f45949ee50c,smart-contract-sanctuary-ethereum/contracts/mainnet/81/8170fdafa281530ab8353de4d29a3f45949ee50c_Flame.sol
+68.62,75.96,0x157df9ddcb381a6605ec6c697ae8eb82796eaf0a,smart-contract-sanctuary-ethereum/contracts/mainnet/15/157df9ddcb381a6605ec6c697ae8eb82796eaf0a_Crisis.sol
+68.50,73.44,0x7a29fdf7ebadfd96b483e1eceda758f068293950,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7a29fdf7ebadfd96b483e1eceda758f068293950_TheMoneyPit.sol
+68.38,73.44,0x47da38fafb29abe0f1c9caa382df3e414fd44eb3,smart-contract-sanctuary-ethereum/contracts/mainnet/47/47da38fafb29abe0f1c9caa382df3e414fd44eb3_Valence.sol
+68.38,73.44,0xeb22c49bebb1073e47c8446e62f6455f8f9d092a,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eb22c49bebb1073e47c8446e62f6455f8f9d092a_MACCCOIN.sol

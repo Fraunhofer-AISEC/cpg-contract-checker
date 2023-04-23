@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.10,70.27,0xDD510ce28dfD085d9cf58F5402cA6d63985e83C0,smart-contract-sanctuary-ethereum/contracts/mainnet/dd/DD510ce28dfD085d9cf58F5402cA6d63985e83C0_Asagi.sol
+85.51,72.60,0xa24faf282be68837ddeb285933465118e96567ad,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a24faf282be68837ddeb285933465118e96567ad_AscendedVX.sol
+85.51,73.24,0xeED6d92dfc227636D818211Ec1645fD2E136F462,smart-contract-sanctuary-ethereum/contracts/mainnet/ee/eED6d92dfc227636D818211Ec1645fD2E136F462_ScrapHub.sol
+62.32,71.83,0x9a368683815eA85f0D4EF431123de0D74b9be0EB,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9a368683815eA85f0D4EF431123de0D74b9be0EB_YakuzaDeposit.sol

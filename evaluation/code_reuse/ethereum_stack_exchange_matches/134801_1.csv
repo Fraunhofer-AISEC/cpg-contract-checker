@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+80.00,73.33,0x50e7FE47a3ea0A0469DE7c435E25A4a90f9f02b6,smart-contract-sanctuary-ethereum/contracts/mainnet/50/50e7FE47a3ea0A0469DE7c435E25A4a90f9f02b6_MarketReward.sol
+76.67,72.41,0xa1ed6f7b343b66d90f37e438881c147679f4bf38,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a1ed6f7b343b66d90f37e438881c147679f4bf38_Swapper.sol
+76.67,72.41,0x8a708bbf697fd1a45ede3f8c42bce76c00d94c82,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8a708bbf697fd1a45ede3f8c42bce76c00d94c82_Swapper.sol
+73.33,76.67,0xdda1a955543245213eae5aaaf05b45bc202908ac,smart-contract-sanctuary-ethereum/contracts/mainnet/dd/dda1a955543245213eae5aaaf05b45bc202908ac_EthPenis.sol
+70.00,76.26,0x5e7fDe13483e5b51da88D2898e0f6a6d7B0c6899,smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e7fDe13483e5b51da88D2898e0f6a6d7B0c6899_ChizDispenser.sol
+70.00,76.26,0xC4D7286786E013782Ea7470192226f1E1182F47f,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/C4D7286786E013782Ea7470192226f1E1182F47f_ChizDispenserV2.sol
+70.00,76.26,0x623497357f6B6821a41773395f4305A576bef237,smart-contract-sanctuary-ethereum/contracts/mainnet/62/623497357f6B6821a41773395f4305A576bef237_ChizDispenserV2.sol

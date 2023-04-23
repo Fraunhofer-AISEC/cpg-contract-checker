@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,71.15,0x9C3F96975324c51ecfE3722191655d1028575282,smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9C3F96975324c51ecfE3722191655d1028575282_GOONZ.sol
+97.22,73.08,0xaC9733Dd0Ff5Ef997F2DA2103a34140b0a9E88a4,smart-contract-sanctuary-ethereum/contracts/mainnet/ac/aC9733Dd0Ff5Ef997F2DA2103a34140b0a9E88a4_DividendTracker.sol
+88.89,85.71,0xdf956c93906a59e1726e917d68434c2c3995a047,smart-contract-sanctuary-ethereum/contracts/mainnet/df/df956c93906a59e1726e917d68434c2c3995a047_IterableMapping.sol
+88.89,85.71,0xb4d04efa8a9499f5e2e9e6f08cfc0f59bd6d6ab2,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b4d04efa8a9499f5e2e9e6f08cfc0f59bd6d6ab2_BLUME.sol

@@ -1,0 +1,9 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.48,72.20,0x219FfeDA22C323b249A88aF64483b16423A2c185,smart-contract-sanctuary-ethereum/contracts/mainnet/21/219FfeDA22C323b249A88aF64483b16423A2c185_TokenFarm.sol
+95.48,72.20,0xf20D68d8027FC8639ae5853A60806EcEff9890e7,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f20D68d8027FC8639ae5853A60806EcEff9890e7_TokenFarm.sol
+95.48,72.26,0xD35775fB87dD73848185839AB563d093BD3D9Cb1,smart-contract-sanctuary-ethereum/contracts/mainnet/d3/D35775fB87dD73848185839AB563d093BD3D9Cb1_TokenFarm.sol
+94.52,70.64,0xA1c5612838713B01c955B3116cAE3aF3ac335223,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/A1c5612838713B01c955B3116cAE3aF3ac335223_TokenFarm.sol
+92.42,71.21,0x05fC96Dd49dA90865Ee6DF9e2ed54dA11558b070,smart-contract-sanctuary-ethereum/contracts/mainnet/05/05fC96Dd49dA90865Ee6DF9e2ed54dA11558b070_TokenFarm.sol
+92.42,71.14,0xffAb5D179997E4402C79a4560a791d36d350aA63,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/ffAb5D179997E4402C79a4560a791d36d350aA63_TokenFarm.sol
+92.42,71.21,0x80f1502Bac484332201bE5B316F8c17cEE296DB1,smart-contract-sanctuary-ethereum/contracts/mainnet/80/80f1502Bac484332201bE5B316F8c17cEE296DB1_TokenFarm.sol
+92.10,71.14,0x212f11c7E1523fF15D28D5a1946Dd17a191aB725,smart-contract-sanctuary-ethereum/contracts/mainnet/21/212f11c7E1523fF15D28D5a1946Dd17a191aB725_TokenFarm.sol

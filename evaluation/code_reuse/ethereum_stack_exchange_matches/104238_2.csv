@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.51,98.38,0x98addbc3089d76c030d2842a59aceb4968655466,smart-contract-sanctuary-ethereum/contracts/mainnet/98/98addbc3089d76c030d2842a59aceb4968655466_Doodle.sol
+95.51,98.38,0x3f01fa3ebaf10b496630808d4fa87f82ba40b926,smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3f01fa3ebaf10b496630808d4fa87f82ba40b926_WAGMI.sol
+95.51,98.38,0x36d46fcd8128b6069ad984a8d8b430cfafe4ddc0,smart-contract-sanctuary-ethereum/contracts/mainnet/36/36d46fcd8128b6069ad984a8d8b430cfafe4ddc0_Taotao.sol
+95.51,98.38,0x30381065c2e856e971895a07584f06ae9fe3e745,smart-contract-sanctuary-ethereum/contracts/mainnet/30/30381065c2e856e971895a07584f06ae9fe3e745_Owned.sol
+92.24,96.76,0x8B2Ce7309ea3fC85175E6b24DBc27C62a27c4d90,smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8B2Ce7309ea3fC85175E6b24DBc27C62a27c4d90_WSBDOGE.sol

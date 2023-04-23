@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.23,87.75,0x31e5f2a0a593ff1ab85a093a04b44dcd2a6d0672,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31e5f2a0a593ff1ab85a093a04b44dcd2a6d0672_TokenFarm.sol
+84.38,79.97,0x3ba24ffcdb84fe9cedaedb662e202c6c86d2b38f,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3ba24ffcdb84fe9cedaedb662e202c6c86d2b38f_RISINGBIRD_DAPP.sol
+84.38,84.27,0x3b4E9B7B13e105bf3a0C6C8A9440457a3C2A97fE,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b4E9B7B13e105bf3a0C6C8A9440457a3C2A97fE_AufStaking.sol
+84.38,84.27,0x091d57812a7D26405Da9b74C85d23A5a24d63f83,smart-contract-sanctuary-ethereum/contracts/mainnet/09/091d57812a7D26405Da9b74C85d23A5a24d63f83_AufStaking2.sol
+84.38,81.64,0x4929000a05e5b404b8bf3baa088be5042e8ff99e,smart-contract-sanctuary-ethereum/contracts/mainnet/49/4929000a05e5b404b8bf3baa088be5042e8ff99e_AufStaking.sol
+83.59,76.49,0x9f308a113BA70cf8BD21FDccb93727BA30aCd387,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9f308a113BA70cf8BD21FDccb93727BA30aCd387_AufFarmingIBY.sol
+83.59,78.28,0xBd7f800B7E54D3f78043A10d53Cc26FC42A3c697,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/Bd7f800B7E54D3f78043A10d53Cc26FC42A3c697_AufFarming.sol

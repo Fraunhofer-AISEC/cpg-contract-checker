@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+82.19,77.28,0x32cEdFfF6e64f6cD1907Ae0b27b78c36320587E7,smart-contract-sanctuary-ethereum/contracts/mainnet/32/32cEdFfF6e64f6cD1907Ae0b27b78c36320587E7_ChangeProxyOwner.sol
+82.19,77.28,0x81cA52CfE66421d0ceF82d5F33230e43b5F23D2B,smart-contract-sanctuary-ethereum/contracts/mainnet/81/81cA52CfE66421d0ceF82d5F33230e43b5F23D2B_ChangeProxyOwner.sol
+76.71,77.28,0xfc7b5881d36F7Cfa40380E26D6Dc8eBf2C942CB6,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fc7b5881d36F7Cfa40380E26D6Dc8eBf2C942CB6_DFSProxyRegistryController.sol
+76.71,77.28,0xF8f8B3C98Cf2E63Df3041b73f80F362a4cf3A576,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/F8f8B3C98Cf2E63Df3041b73f80F362a4cf3A576_DFSProxyRegistryController.sol

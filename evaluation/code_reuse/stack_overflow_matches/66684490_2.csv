@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+77.42,75.76,0xf11ba5135e3b02d01b149a410e689833536f208a,smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f11ba5135e3b02d01b149a410e689833536f208a_CryptoTorch.sol
+77.42,75.76,0x4970e5635fd9cbd51a9abf7d708943f613b74d51,smart-contract-sanctuary-ethereum/contracts/mainnet/49/4970e5635fd9cbd51a9abf7d708943f613b74d51_CryptoTorch.sol
+77.42,75.76,0xc67a3da58b43b0652a22c6f50826c9ebe7b78e49,smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c67a3da58b43b0652a22c6f50826c9ebe7b78e49_CryptoTorch.sol
+64.52,70.59,0xe845db81a54ffe3c9a5a854c9ba9abd66a7d1b18,smart-contract-sanctuary-ethereum/contracts/mainnet/e8/e845db81a54ffe3c9a5a854c9ba9abd66a7d1b18_LootGenerator.sol

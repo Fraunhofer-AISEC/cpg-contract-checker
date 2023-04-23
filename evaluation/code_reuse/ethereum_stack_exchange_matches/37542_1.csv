@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.30,77.07,0xb07ec2c28834b889b1ce527ca0f19364cd38935c,smart-contract-sanctuary-ethereum/contracts/mainnet/b0/b07ec2c28834b889b1ce527ca0f19364cd38935c_CardStackToken.sol
+89.13,70.77,0xf771733a465441437ecf64ff410e261516c7c5f3,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f771733a465441437ecf64ff410e261516c7c5f3_Relay3rV1.sol
+86.96,79.11,0x1e7c6b740f45e42c722db1b286b23a60acfdf6e2,smart-contract-sanctuary-ethereum/contracts/mainnet/1e/1e7c6b740f45e42c722db1b286b23a60acfdf6e2_Bounty0xEscrow.sol
+86.96,79.11,0xa520524ea67040ad51b1b84cca82dfb19dfc6c19,smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a520524ea67040ad51b1b84cca82dfb19dfc6c19_Bounty0xEscrow.sol
+84.78,70.74,0x0bbb5a54767166b21e4a74d30500248a05ed985f,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0bbb5a54767166b21e4a74d30500248a05ed985f_StarambaToken.sol
+84.78,70.54,0x9a4059c1cf329a017e0ee1337c503137fd9463b2,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9a4059c1cf329a017e0ee1337c503137fd9463b2_LCDToken.sol

@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.13,90.61,0x150db41d9b5a4deec83b25f045a641763b6ec8f1,smart-contract-sanctuary-ethereum/contracts/mainnet/15/150db41d9b5a4deec83b25f045a641763b6ec8f1_CallistoBridge.sol
+94.13,90.61,0x942a07c8199ff548542f65b7ec7bf8dc0d7e8596,smart-contract-sanctuary-ethereum/contracts/mainnet/94/942a07c8199ff548542f65b7ec7bf8dc0d7e8596_CallistoBridge.sol
+93.84,90.61,0x5c671b7ea7fc0633fb7fc3df046deb38a4f3cc44,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5c671b7ea7fc0633fb7fc3df046deb38a4f3cc44_CallistoBridge.sol
+93.26,90.61,0xde5ef4d37f2b9053afed197c8a10ef7fb68cf510,smart-contract-sanctuary-ethereum/contracts/mainnet/de/de5ef4d37f2b9053afed197c8a10ef7fb68cf510_CallistoBridge.sol

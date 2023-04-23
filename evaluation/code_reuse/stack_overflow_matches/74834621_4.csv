@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.91,76.47,0x14d9178cdf1cB3F156Da2AcC5b0F2b8D9828028a,smart-contract-sanctuary-ethereum/contracts/mainnet/14/14d9178cdf1cB3F156Da2AcC5b0F2b8D9828028a_MGHPublicOffering.sol
+90.91,70.17,0xf7C51f0814Cc3DA65E5410dC77c2De6AC3f5Ca34,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f7C51f0814Cc3DA65E5410dC77c2De6AC3f5Ca34_MRC1155Bridge.sol
+81.82,75.84,0xeae5ce18fe34d1ee46c67f326c4a7f2038e6bd78,smart-contract-sanctuary-ethereum/contracts/mainnet/ea/eae5ce18fe34d1ee46c67f326c4a7f2038e6bd78_U3ProxyUpgradablity.sol

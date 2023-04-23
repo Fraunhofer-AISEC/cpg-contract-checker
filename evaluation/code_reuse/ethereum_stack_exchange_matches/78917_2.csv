@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,84.62,0x95184813D62E301A048337B97C91FfAD8619B303,smart-contract-sanctuary-ethereum/contracts/mainnet/95/95184813D62E301A048337B97C91FfAD8619B303_NipplePunks.sol
+100.00,76.92,0x47ac431887edf2ed8796152e1322a093ddf3ff27,smart-contract-sanctuary-ethereum/contracts/mainnet/47/47ac431887edf2ed8796152e1322a093ddf3ff27_EasygoldToken.sol
+90.91,76.92,0xd32919fcdd0b2af289e45c9a916fd9f18cacc448,smart-contract-sanctuary-ethereum/contracts/mainnet/d3/d32919fcdd0b2af289e45c9a916fd9f18cacc448_envoContract.sol

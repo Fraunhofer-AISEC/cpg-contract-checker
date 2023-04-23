@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+69.09,70.29,0xE75113D4a417c2d33C67Fb127B419E5f47C5D62c,smart-contract-sanctuary-ethereum/contracts/mainnet/e7/E75113D4a417c2d33C67Fb127B419E5f47C5D62c_PiratesOfTheMetaverse.sol
+65.45,72.50,0x4488062671eea4e97b0f31dc4e46b80decc67a07,smart-contract-sanctuary-ethereum/contracts/mainnet/44/4488062671eea4e97b0f31dc4e46b80decc67a07_TokenSale.sol
+65.45,72.50,0x54484fe83a51c3151f4075a04ff65d029475a471,smart-contract-sanctuary-ethereum/contracts/mainnet/54/54484fe83a51c3151f4075a04ff65d029475a471_TokenSale.sol
+61.82,70.09,0xF9A42C357709DbB27C77109823D7F1641d86aEE9,smart-contract-sanctuary-ethereum/contracts/mainnet/f9/F9A42C357709DbB27C77109823D7F1641d86aEE9_BinaryDex.sol

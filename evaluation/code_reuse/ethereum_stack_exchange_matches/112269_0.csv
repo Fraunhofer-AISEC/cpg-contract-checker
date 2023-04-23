@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+89.34,81.45,0x4f2f20a3143c5ff8cc0adcca3d5ba4e6e4bb51ce,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4f2f20a3143c5ff8cc0adcca3d5ba4e6e4bb51ce_CryptoBroskiLuck.sol
+79.51,74.52,0x89efc0ce424e797ed2863b3f2f4a4c3f4eda1b4a,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89efc0ce424e797ed2863b3f2f4a4c3f4eda1b4a_CoinFlipper.sol
+79.51,74.52,0x4a880e585a31685a5462a8cf8bef028510359500,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4a880e585a31685a5462a8cf8bef028510359500_CoinFlipper.sol

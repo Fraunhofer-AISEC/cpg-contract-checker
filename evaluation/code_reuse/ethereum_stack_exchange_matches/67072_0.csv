@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+84.91,78.59,0xdc0a5a5a93eddb03d68629ad3ca13769c4a01629,smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dc0a5a5a93eddb03d68629ad3ca13769c4a01629_MultiSigWallet.sol
+81.13,74.69,0x35a5bc8eBD7e8f3820b4D40D56cdBB259B020001,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35a5bc8eBD7e8f3820b4D40D56cdBB259B020001_BondlyLaunchPad.sol
+81.13,74.54,0xae6830466f92b7bd4f335a7d67017ce97ad88731,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/ae6830466f92b7bd4f335a7d67017ce97ad88731_TheDudesStaking.sol
+69.81,70.37,0x6A39cE9604FAD060B32bc35BE2e0D3825B2b8D4B,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6A39cE9604FAD060B32bc35BE2e0D3825B2b8D4B_BatchBlockhashStore.sol

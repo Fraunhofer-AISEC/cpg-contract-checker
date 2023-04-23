@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.91,71.74,0xd29c0213314151807cc11f3dc585a788040f74d6,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d29c0213314151807cc11f3dc585a788040f74d6_GDFLotto.sol
+90.91,73.91,0x9571617156d14a79d38562d4348b869b7dcda964,smart-contract-sanctuary-ethereum/contracts/mainnet/95/9571617156d14a79d38562d4348b869b7dcda964_WrappedCryptoHouse.sol
+90.91,73.91,0xddC5FeF7B6e41672f2595b8BEf48354EeBaae1Ed,smart-contract-sanctuary-ethereum/contracts/mainnet/dd/ddC5FeF7B6e41672f2595b8BEf48354EeBaae1Ed_WrappedCryptoItems.sol
+87.88,71.74,0x89efc0ce424e797ed2863b3f2f4a4c3f4eda1b4a,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89efc0ce424e797ed2863b3f2f4a4c3f4eda1b4a_CoinFlipper.sol
+87.88,71.74,0x4a880e585a31685a5462a8cf8bef028510359500,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4a880e585a31685a5462a8cf8bef028510359500_CoinFlipper.sol
+87.88,88.57,0x55bcae5ed6d3fa19e002f1c3cd9f3909f8e91e17,smart-contract-sanctuary-ethereum/contracts/mainnet/55/55bcae5ed6d3fa19e002f1c3cd9f3909f8e91e17_Cryptoraces.sol

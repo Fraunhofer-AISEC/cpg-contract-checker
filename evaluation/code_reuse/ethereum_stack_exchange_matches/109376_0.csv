@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,73.68,0x347aEA5307083Ae87EC3281CDE72D820e952E352,smart-contract-sanctuary-ethereum/contracts/mainnet/34/347aEA5307083Ae87EC3281CDE72D820e952E352_AMFI.sol
+100.00,73.68,0xDF5d8a684BB7fD0751DF35203F072867a2567C7a,smart-contract-sanctuary-ethereum/contracts/mainnet/df/DF5d8a684BB7fD0751DF35203F072867a2567C7a_Dogboss.sol
+100.00,75.68,0x74a165e5c6548a0acdaf41cb14b87f8873767724,smart-contract-sanctuary-ethereum/contracts/mainnet/74/74a165e5c6548a0acdaf41cb14b87f8873767724_DreamMarketplace.sol

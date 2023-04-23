@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.33,71.42,0xf4Adb23E8DBEC77c06Bbe09ED52958cC8D6943c9,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f4Adb23E8DBEC77c06Bbe09ED52958cC8D6943c9_ASCIIGenerator.sol
+88.65,71.45,0xA877A0A06F141217ec15aF907E9617d5eD246B6f,smart-contract-sanctuary-ethereum/contracts/mainnet/a8/A877A0A06F141217ec15aF907E9617d5eD246B6f_CouncilOfKingzMintPass.sol
+83.69,81.82,0xEcb2B50E2a96a24D9D1c35Bd46829b2817FE462e,smart-contract-sanctuary-ethereum/contracts/mainnet/ec/Ecb2B50E2a96a24D9D1c35Bd46829b2817FE462e_AnimatedOctoGarden.sol
+82.27,81.82,0xe6da43bcfa2ae0ed8c6ac4b3beea1ec9ae65daba,smart-contract-sanctuary-ethereum/contracts/mainnet/e6/e6da43bcfa2ae0ed8c6ac4b3beea1ec9ae65daba_NegativeValueCertificates.sol

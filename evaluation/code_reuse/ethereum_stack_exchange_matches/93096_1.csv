@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+83.78,77.47,0x366c513514176bc0edc1e17c290f54f308e43ac3,smart-contract-sanctuary-ethereum/contracts/mainnet/36/366c513514176bc0edc1e17c290f54f308e43ac3_FundCenter.sol
+83.78,71.86,0x5f14647ec15652c632266929255cd4f94ba7f65d,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f14647ec15652c632266929255cd4f94ba7f65d_DomiSale.sol
+81.08,71.43,0x6b78E8412e1F048357DD53E2d25337906020934b,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6b78E8412e1F048357DD53E2d25337906020934b_QwanToken.sol
+70.27,76.32,0x352323A342eA5BCB1FF4509d67242f6DF35798D5,smart-contract-sanctuary-ethereum/contracts/mainnet/35/352323A342eA5BCB1FF4509d67242f6DF35798D5_NewImplementation.sol

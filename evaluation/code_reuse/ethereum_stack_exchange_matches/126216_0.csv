@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+79.31,70.53,0x412ed94b5e5f9f56D30825Ad880D8edCEA6d04Ac,smart-contract-sanctuary-ethereum/contracts/mainnet/41/412ed94b5e5f9f56D30825Ad880D8edCEA6d04Ac_AnnouncementsFacet.sol
+79.31,70.97,0x880af717abBA38F31Ca21673843636A355Fb45f3,smart-contract-sanctuary-ethereum/contracts/mainnet/88/880af717abBA38F31Ca21673843636A355Fb45f3_DripDrop.sol
+79.31,76.80,0xec260f5a7a729bb3d0c42d292de159b4cb1844a3,smart-contract-sanctuary-ethereum/contracts/mainnet/ec/ec260f5a7a729bb3d0c42d292de159b4cb1844a3_RariFundManager.sol
+75.86,71.86,0x832D01a564A40bC568dD8AFa674dDE7a1ffec1Ba,smart-contract-sanctuary-ethereum/contracts/mainnet/83/832D01a564A40bC568dD8AFa674dDE7a1ffec1Ba_ForeignAMB.sol
+72.41,74.17,0xf36457e052Be9543a6F3b3603B3F7c7a3c53be5e,smart-contract-sanctuary-ethereum/contracts/mainnet/f3/f36457e052Be9543a6F3b3603B3F7c7a3c53be5e_ERC20Proxy.sol

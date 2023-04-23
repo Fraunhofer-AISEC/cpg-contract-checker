@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+85.59,75.11,0xc8fb8b458c64648c6d113237fa2bde420a5baf1a,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c8fb8b458c64648c6d113237fa2bde420a5baf1a_LizogeNFTS.sol
+82.20,79.36,0x84eF735bc6981Bcc36C3059e74396513394C41c2,smart-contract-sanctuary-ethereum/contracts/mainnet/84/84eF735bc6981Bcc36C3059e74396513394C41c2_RoyaltySharing.sol
+80.51,71.88,0x1fF8fE884DB9124cC47405Fd2859dE1A8d9cE4e4,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1fF8fE884DB9124cC47405Fd2859dE1A8d9cE4e4_CollectingMeta.sol
+77.97,70.83,0xc726247566cdd16978d9b52aceaf2426ec6bc7ae,smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c726247566cdd16978d9b52aceaf2426ec6bc7ae_ProfitSplitter.sol

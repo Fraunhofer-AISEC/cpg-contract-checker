@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+82.69,76.86,0x330a3d25fbf143ed2b0994dc9a1f6517d3156c11,smart-contract-sanctuary-ethereum/contracts/mainnet/33/330a3d25fbf143ed2b0994dc9a1f6517d3156c11_SwopXLending.sol
+76.92,71.70,0xBD3e8d41874bC123fB6913a2a6c6C8984c71876c,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/BD3e8d41874bC123fB6913a2a6c6C8984c71876c_AxelarGatewayMultisig.sol
+76.92,71.70,0xbc421722add7ad3cf23e7bbefe709330bbfd6188,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc421722add7ad3cf23e7bbefe709330bbfd6188_AxelarGatewayMultisig.sol
+76.92,71.70,0xEb1Ef7358A9C52c488cfF20B046DEDac8807C845,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/Eb1Ef7358A9C52c488cfF20B046DEDac8807C845_AxelarGatewayMultisig.sol
+76.92,71.70,0x46E1F8E746ee9037fA42b3a718dcE6c36CB3f16f,smart-contract-sanctuary-ethereum/contracts/mainnet/46/46E1F8E746ee9037fA42b3a718dcE6c36CB3f16f_AxelarGatewayMultisig.sol

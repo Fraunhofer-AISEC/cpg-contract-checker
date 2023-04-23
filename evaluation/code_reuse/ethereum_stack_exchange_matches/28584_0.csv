@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+89.36,72.34,0x611387aEbcB5dCB8b044b6305DC83b04CF63183C,smart-contract-sanctuary-ethereum/contracts/mainnet/61/611387aEbcB5dCB8b044b6305DC83b04CF63183C_NFT721.sol
+87.23,77.95,0x0144b7e66993c6bfab85581e8601f96bfe50c9df,smart-contract-sanctuary-ethereum/contracts/mainnet/01/0144b7e66993c6bfab85581e8601f96bfe50c9df_ERC721PUNK.sol
+85.11,72.34,0x1b01Dad9AA5C77F4AAb334545A5b924E394B1190,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b01Dad9AA5C77F4AAb334545A5b924E394B1190_BlueSparrowNFT.sol
+85.11,72.34,0xCaa1c15fe6c71033172133C65C2e6CA327c13ac2,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/Caa1c15fe6c71033172133C65C2e6CA327c13ac2_BlueSparrowNFT.sol

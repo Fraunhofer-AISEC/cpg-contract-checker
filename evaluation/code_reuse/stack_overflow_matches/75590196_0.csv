@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+79.73,79.04,0xdeadbfdcc5ebd7b67d094f05dc3761bcf276fbbf,smart-contract-sanctuary-ethereum/contracts/mainnet/de/deadbfdcc5ebd7b67d094f05dc3761bcf276fbbf_MoneyFundsToken.sol
+78.38,74.36,0xae11e3aed2cfdae53753662187c14ba6f26ee869,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/ae11e3aed2cfdae53753662187c14ba6f26ee869_Perrycoin.sol
+75.68,70.12,0xdbb6b23520472c5070078cd3e7097b36b001fb57,smart-contract-sanctuary-ethereum/contracts/mainnet/db/dbb6b23520472c5070078cd3e7097b36b001fb57_TheBigBangOnline.sol
+75.68,75.00,0x6e3990c89bd13397f3c080500805863275cc85ec,smart-contract-sanctuary-ethereum/contracts/mainnet/6e/6e3990c89bd13397f3c080500805863275cc85ec_POSV.sol
+75.68,75.00,0x56637c1656f038e6cf71a2b907072110fd72bc68,smart-contract-sanctuary-ethereum/contracts/mainnet/56/56637c1656f038e6cf71a2b907072110fd72bc68_PODH.sol

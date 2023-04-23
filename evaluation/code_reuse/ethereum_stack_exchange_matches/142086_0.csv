@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+96.77,71.88,0x76458b78566cbcf6daf7a4ad02d2d92825c6b0a5,smart-contract-sanctuary-ethereum/contracts/mainnet/76/76458b78566cbcf6daf7a4ad02d2d92825c6b0a5_HE3.sol
+96.77,71.88,0x35d6d7df0d07b4e2756b26d6bebda172ec24a2a3,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35d6d7df0d07b4e2756b26d6bebda172ec24a2a3_HE3.sol
+96.77,71.88,0xa15bfa50d2169ef5ba7a938db2f1c09584bd93fe,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a15bfa50d2169ef5ba7a938db2f1c09584bd93fe_HE3.sol
+93.55,75.00,0x85e4cd785887cad7c6be93f2f34d5fa683f9bfcd,smart-contract-sanctuary-ethereum/contracts/mainnet/85/85e4cd785887cad7c6be93f2f34d5fa683f9bfcd_apexSolids.sol
+93.55,75.00,0xaa3e4a3389c95432e4e22c73020570f1922575aa,smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aa3e4a3389c95432e4e22c73020570f1922575aa_APGSolids.sol
+93.55,75.00,0xc41594ce7bb0db33a03f52074a83116c080a43fe,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/c41594ce7bb0db33a03f52074a83116c080a43fe_apexAmorphousSolids.sol
+87.10,71.06,0xc45169e383aa5fbc9c8f2ab7718517789c94963f,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/c45169e383aa5fbc9c8f2ab7718517789c94963f_ExchangeERC721.sol
