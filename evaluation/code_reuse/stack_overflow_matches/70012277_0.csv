@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+82.82,71.88,0xEEC8109730111fE1f17D55a814e831A1a211E3a7,smart-contract-sanctuary-ethereum/contracts/mainnet/ee/EEC8109730111fE1f17D55a814e831A1a211E3a7_SportFeed.sol
+81.06,72.49,0xE09Dc8EA4339D6E58c966bd57bC5d62D959BdaF2,smart-contract-sanctuary-ethereum/contracts/mainnet/e0/E09Dc8EA4339D6E58c966bd57bC5d62D959BdaF2_NFTMarket.sol
+81.06,73.44,0x3ce9CE2F0a82D0F207e2bC8610aa41852A3b1b1b,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3ce9CE2F0a82D0F207e2bC8610aa41852A3b1b1b_NFTMarket.sol

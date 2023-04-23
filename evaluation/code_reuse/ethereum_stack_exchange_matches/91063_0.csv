@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.74,70.58,0xAccbBaad2182FfA54996a480f70b2301cce7F5F7,smart-contract-sanctuary-ethereum/contracts/mainnet/ac/AccbBaad2182FfA54996a480f70b2301cce7F5F7_RevenueShareVault.sol
+88.89,72.22,0xAD1Fc0E22C13159884Cf9FD1d46e3C2Ad60C8F36,smart-contract-sanctuary-ethereum/contracts/mainnet/ad/AD1Fc0E22C13159884Cf9FD1d46e3C2Ad60C8F36_NarfexExchangerPool.sol
+88.89,72.22,0x4CC22BA6A0fFaA248B6a704330d26Be84DcC1405,smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4CC22BA6A0fFaA248B6a704330d26Be84DcC1405_NarfexExchangerPool.sol
+88.89,70.58,0xb86142472D87b8d3187F4D7cA449032ad1F38E2a,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/b86142472D87b8d3187F4D7cA449032ad1F38E2a_RevenueShareVault.sol
+88.89,70.58,0x04d69Aec4eFdb5613120758d6c4cDB970f64a4E5,smart-contract-sanctuary-ethereum/contracts/mainnet/04/04d69Aec4eFdb5613120758d6c4cDB970f64a4E5_RevenueShareVault.sol

@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.54,92.63,0xfa3859ec80c591804a75ac7859a5099531f4f8da,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa3859ec80c591804a75ac7859a5099531f4f8da_DappTokenSale.sol
+84.65,87.18,0x416a2DCa0B7691a18a5B00d29A1DCc575Ecf621B,smart-contract-sanctuary-ethereum/contracts/mainnet/41/416a2DCa0B7691a18a5B00d29A1DCc575Ecf621B_GOONappTokenSale.sol
+76.24,80.25,0xf796eb0a13b5a75e94f13fd14fb66b2b8007f69b,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f796eb0a13b5a75e94f13fd14fb66b2b8007f69b_CoinByInsomnia.sol

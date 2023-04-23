@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+93.55,79.13,0x9ccfe523e588d7a80366e871666a228ef999a414,smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9ccfe523e588d7a80366e871666a228ef999a414_Lootlang.sol
+90.32,76.30,0xa28f219BF1e15f5217B8Eb5f406BcbE8f13d16DC,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a28f219BF1e15f5217B8Eb5f406BcbE8f13d16DC_EcoClaim.sol
+87.10,73.14,0xc581D2f2a2ffEb0D1F4aA2c569C59369753Ac295,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c581D2f2a2ffEb0D1F4aA2c569C59369753Ac295_AppRegistryFacet.sol
+83.87,70.72,0xC8EEc1c5D08A695b82B5d7182Ea7FDBba4aC537f,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/C8EEc1c5D08A695b82B5d7182Ea7FDBba4aC537f_OnChainPhunks.sol
+83.87,70.72,0xc82fa5a2b904f55a10ab66656ac5ac492be5ce25,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c82fa5a2b904f55a10ab66656ac5ac492be5ce25_OnChainPhunks.sol

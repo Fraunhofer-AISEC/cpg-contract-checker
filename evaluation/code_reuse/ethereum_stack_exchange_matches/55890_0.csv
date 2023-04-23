@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.84,86.00,0x461e321444b1c7eed88e7e71ad76d3bb21c00863,smart-contract-sanctuary-ethereum/contracts/mainnet/46/461e321444b1c7eed88e7e71ad76d3bb21c00863_PirovaniToken.sol
+73.47,70.50,0xb9e9cdf54db0bee1e561f425d026b4e92055c359,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b9e9cdf54db0bee1e561f425d026b4e92055c359_Token.sol
+65.31,70.00,0x5b2fba919f7ccd6db0edc58adbc785c189c4ee1c,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b2fba919f7ccd6db0edc58adbc785c189c4ee1c_DBCC.sol

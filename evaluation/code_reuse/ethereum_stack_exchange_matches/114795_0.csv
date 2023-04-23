@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,72.21,0x0223f73a53a549b8f5a9661adb4cd9dd4e25beda,smart-contract-sanctuary-ethereum/contracts/mainnet/02/0223f73a53a549b8f5a9661adb4cd9dd4e25beda_EtHero.sol
+100.00,72.21,0xcc1229e33a4d5f011ce9bf7ab605a8a6264bd01d,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc1229e33a4d5f011ce9bf7ab605a8a6264bd01d_EtheroStabilizationFund.sol
+100.00,72.21,0x05f49e3e0a27efa05d60c19cd8f0ecc951d3717e,smart-contract-sanctuary-ethereum/contracts/mainnet/05/05f49e3e0a27efa05d60c19cd8f0ecc951d3717e_Etherhero.sol
+100.00,72.21,0x83928d7a16e0cbdf77d555c405a3975d11dcf0fa,smart-contract-sanctuary-ethereum/contracts/mainnet/83/83928d7a16e0cbdf77d555c405a3975d11dcf0fa_Etherhero.sol

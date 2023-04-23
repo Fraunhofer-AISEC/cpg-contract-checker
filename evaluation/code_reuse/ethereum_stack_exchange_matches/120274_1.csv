@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.57,76.73,0x51Ae5e2533854495f6c587865Af64119db8F59b4,smart-contract-sanctuary-ethereum/contracts/mainnet/51/51Ae5e2533854495f6c587865Af64119db8F59b4_PunkScape.sol
+88.68,75.51,0x091a9A8c8e4582802B1A7280091050D2e7fE6c44,smart-contract-sanctuary-ethereum/contracts/mainnet/09/091a9A8c8e4582802B1A7280091050D2e7fE6c44_TronicMiniRacer.sol
+88.68,73.08,0x5537d90A4A2DC9d9b37BAb49B490cF67D4C54E91,smart-contract-sanctuary-ethereum/contracts/mainnet/55/5537d90A4A2DC9d9b37BAb49B490cF67D4C54E91_OneDayPunk.sol
+88.68,73.96,0x611387aEbcB5dCB8b044b6305DC83b04CF63183C,smart-contract-sanctuary-ethereum/contracts/mainnet/61/611387aEbcB5dCB8b044b6305DC83b04CF63183C_NFT721.sol
+75.47,82.30,0xf8169576dcef7573941b693a19c44ceb2bc1f1ab,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f8169576dcef7573941b693a19c44ceb2bc1f1ab_StakingTransferFunctionality.sol

@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+88.51,76.40,0x33d8e7737df050f9673966f3cdc306a440045a1f,smart-contract-sanctuary-ethereum/contracts/mainnet/33/33d8e7737df050f9673966f3cdc306a440045a1f_NftDrop.sol
+88.51,76.40,0xde03b1b0f4d5d3ac9ada41eeb68ed9b626d82638,smart-contract-sanctuary-ethereum/contracts/mainnet/de/de03b1b0f4d5d3ac9ada41eeb68ed9b626d82638_NftDrop.sol
+85.06,71.91,0x58D427B2A45c35AC650bc16b8FEA6900c3C5c3EF,smart-contract-sanctuary-ethereum/contracts/mainnet/58/58D427B2A45c35AC650bc16b8FEA6900c3C5c3EF_VaultHubPermission.sol
+78.16,71.91,0x436cc556d9a9517d0808ace3ba1f52fe7a15d831,smart-contract-sanctuary-ethereum/contracts/mainnet/43/436cc556d9a9517d0808ace3ba1f52fe7a15d831_Onitama.sol

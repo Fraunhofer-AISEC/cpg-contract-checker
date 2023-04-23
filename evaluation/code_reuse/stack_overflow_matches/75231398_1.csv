@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+79.22,70.34,0xbbbcb8834bdd5cf931ac6b12b68eae85faf2e580,smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bbbcb8834bdd5cf931ac6b12b68eae85faf2e580_TokenTimelockController.sol
+79.22,70.34,0xfa4c5e8f1182b4aba0b990bd10e04fd3b4717f0f,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa4c5e8f1182b4aba0b990bd10e04fd3b4717f0f_TokenTimelockController.sol
+79.22,70.34,0xa36c23ac9eee57966616c0d17884f77948c00ddb,smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a36c23ac9eee57966616c0d17884f77948c00ddb_TokenTimelockController.sol
+79.22,70.34,0x4ddf94bba3093e113033c7eec01c60123fa5d3b8,smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4ddf94bba3093e113033c7eec01c60123fa5d3b8_TokenTimelockController.sol

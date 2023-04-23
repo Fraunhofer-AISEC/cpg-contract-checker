@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,97.93,0x67fB9399E45Ae95a4B88817Facb8e6938f63f52E,smart-contract-sanctuary-ethereum/contracts/mainnet/67/67fB9399E45Ae95a4B88817Facb8e6938f63f52E_ExclusibleRaffle.sol
+96.58,89.39,0xFFFFffF30f66fc0A49b120d80bb0872b8071ef26,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/FFFFffF30f66fc0A49b120d80bb0872b8071ef26_LotteryFee.sol
+93.16,81.96,0x688b7e5DDd5600Ec7494b21cEB442A6F9B5eb2FA,smart-contract-sanctuary-ethereum/contracts/mainnet/68/688b7e5DDd5600Ec7494b21cEB442A6F9B5eb2FA_Lottery.sol
+92.31,80.60,0x227fa0397565d1be5728b586fb9042e52e9e85c9,smart-contract-sanctuary-ethereum/contracts/mainnet/22/227fa0397565d1be5728b586fb9042e52e9e85c9_Giveaway.sol

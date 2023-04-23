@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.62,70.71,0xbc321c2e7a7fa48dcf0c09e088950c8172c2ecc9,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc321c2e7a7fa48dcf0c09e088950c8172c2ecc9_CoffinBox.sol
+97.62,70.71,0xF5BCE5077908a1b7370B9ae04AdC565EBd643966,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/F5BCE5077908a1b7370B9ae04AdC565EBd643966_BentoBoxV1.sol
+97.62,70.71,0xd96f48665a1410C0cd669A88898ecA36B9Fc2cce,smart-contract-sanctuary-ethereum/contracts/mainnet/d9/d96f48665a1410C0cd669A88898ecA36B9Fc2cce_DegenBox.sol
+83.33,75.55,0x05aa0d3feec41af089bf1cbbb2c33dd90d648fce,smart-contract-sanctuary-ethereum/contracts/mainnet/05/05aa0d3feec41af089bf1cbbb2c33dd90d648fce_ClearCoinAdExchange.sol

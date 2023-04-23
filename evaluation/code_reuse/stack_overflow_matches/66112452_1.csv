@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,73.68,0xa0768DC386712ed355f41D56bdbc05bfBb9C797b,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a0768DC386712ed355f41D56bdbc05bfBb9C797b_Voiceverse.sol
+100.00,73.68,0xB37F1A18D07C1b13993bf2432e6873fD8807EDB9,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/B37F1A18D07C1b13993bf2432e6873fD8807EDB9_Equalipsis.sol
+83.33,72.22,0x9c28DbB28Cf2B1A19eD056EE1995d6EcC58aFf6E,smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9c28DbB28Cf2B1A19eD056EE1995d6EcC58aFf6E_Lock.sol

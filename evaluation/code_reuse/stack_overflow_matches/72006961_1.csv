@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,70.64,0xb9af0cb75e85DDE21ded738ebCaCc99218D6f734,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b9af0cb75e85DDE21ded738ebCaCc99218D6f734_SketchyGames.sol
+100.00,70.64,0x4d46d5d2Bda8516c73D70ca2dADbE76edFCF6532,smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4d46d5d2Bda8516c73D70ca2dADbE76edFCF6532_NFT2022.sol
+96.00,70.64,0x0f2461df1fd992d55007f62c075dee3ed175d9da,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0f2461df1fd992d55007f62c075dee3ed175d9da_SmashMarblesArenaV1.sol
+96.00,70.64,0x1beab96758612acd327e39e4f359a56153eca69f,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1beab96758612acd327e39e4f359a56153eca69f_SmashMarblesArenaV2.sol

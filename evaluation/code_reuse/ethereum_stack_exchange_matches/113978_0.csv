@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.09,70.11,0x272822fd00A61181e5ff1Cefc2db4dfC501Fe3b1,smart-contract-sanctuary-ethereum/contracts/mainnet/27/272822fd00A61181e5ff1Cefc2db4dfC501Fe3b1_BoogieCustom.sol
+90.09,70.47,0x9FCf5530CdDC8460Af830aE18a5Bf8dcfEc6A567,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9FCf5530CdDC8460Af830aE18a5Bf8dcfEc6A567_RoyaltiesPOC.sol
+83.78,71.87,0x7831B113616a42Dc4a69f1FfBe42cE08AA31Aeb2,smart-contract-sanctuary-ethereum/contracts/mainnet/78/7831B113616a42Dc4a69f1FfBe42cE08AA31Aeb2_HonoraryPrimeApes.sol
+64.86,70.00,0xd9582f457d4a7c40d6e371b4f295355698fdf938,smart-contract-sanctuary-ethereum/contracts/mainnet/d9/d9582f457d4a7c40d6e371b4f295355698fdf938_PolybetShares.sol
+64.86,70.00,0x39cc9e47cce7dc1bb18cd014ca4c460a9fc7e957,smart-contract-sanctuary-ethereum/contracts/mainnet/39/39cc9e47cce7dc1bb18cd014ca4c460a9fc7e957_HashbetShares.sol
+64.86,70.00,0x705660531d3B38E797B7F4b469215C1E51c30226,smart-contract-sanctuary-ethereum/contracts/mainnet/70/705660531d3B38E797B7F4b469215C1E51c30226_PolybetShares.sol

@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+92.59,72.41,0x35077D1F5e27D06E935e0065E52CfCEBd3E3Ab8e,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35077D1F5e27D06E935e0065E52CfCEBd3E3Ab8e_TCSERC721A.sol
+85.19,72.41,0xc71f367cd67788771b7eDeF9498F699a473Ae92C,smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c71f367cd67788771b7eDeF9498F699a473Ae92C_Auctions.sol
+81.48,79.31,0x5cDB6298e9546AAB02558A0419E6556E6b822aD8,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5cDB6298e9546AAB02558A0419E6556E6b822aD8_BabyBoomerNFT.sol

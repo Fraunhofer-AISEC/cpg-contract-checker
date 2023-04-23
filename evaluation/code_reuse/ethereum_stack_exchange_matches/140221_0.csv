@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+84.09,80.43,0x82deC129129817AF8421C0c8583893c89847B6C0,smart-contract-sanctuary-ethereum/contracts/mainnet/82/82deC129129817AF8421C0c8583893c89847B6C0_ETHsportsWC22.sol
+81.82,75.47,0xD1890F4eDaD49F48e1Fd13577D4f6D7A07e59074,smart-contract-sanctuary-ethereum/contracts/mainnet/d1/D1890F4eDaD49F48e1Fd13577D4f6D7A07e59074_MetacityLandBoxer.sol
+75.00,76.09,0xf7D1F4F8a7818CA3D92B1cA01b8051520B054D57,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f7D1F4F8a7818CA3D92B1cA01b8051520B054D57_DenDekaDenOmikuji.sol
+68.18,73.91,0x6469e799be4947e7eb9ac31f3fe3545e47a14ddc,smart-contract-sanctuary-ethereum/contracts/mainnet/64/6469e799be4947e7eb9ac31f3fe3545e47a14ddc_RizeLinkToken_V001.sol

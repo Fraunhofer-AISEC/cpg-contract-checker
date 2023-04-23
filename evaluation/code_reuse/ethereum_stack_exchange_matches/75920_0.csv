@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+69.84,70.81,0x61b76f7a6af4e96ca726d6ca04bf9c378d58ce57,smart-contract-sanctuary-ethereum/contracts/mainnet/61/61b76f7a6af4e96ca726d6ca04bf9c378d58ce57_VampTokenSale.sol
+69.84,70.95,0xefe3baf0bd81c956b490e20f3df1e1c54fa90112,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/efe3baf0bd81c956b490e20f3df1e1c54fa90112_VampTokenSale.sol
+69.84,71.50,0x6bc41b2638ce3a166b8ecb88abd2bf6fc0796a10,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6bc41b2638ce3a166b8ecb88abd2bf6fc0796a10_VampTokenSale.sol

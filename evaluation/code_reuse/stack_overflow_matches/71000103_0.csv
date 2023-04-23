@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x491ff72e7b511123b6a6c074fbaef158546982fe,smart-contract-sanctuary-ethereum/contracts/mainnet/49/491ff72e7b511123b6a6c074fbaef158546982fe_FunFairSale.sol
+96.40,93.39,0x55c44fbad82686afb0ca41cefb8d086cb937b2e6,smart-contract-sanctuary-ethereum/contracts/mainnet/55/55c44fbad82686afb0ca41cefb8d086cb937b2e6_FunFairSale.sol
+70.69,78.99,0x267808e5246d14ac39720aa62da5b33651b680ce,smart-contract-sanctuary-ethereum/contracts/mainnet/26/267808e5246d14ac39720aa62da5b33651b680ce_Controller.sol

@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.86,89.03,0x53eC5F3444BabAB9E5e48428C0B31e557f5985ef,smart-contract-sanctuary-ethereum/contracts/mainnet/53/53eC5F3444BabAB9E5e48428C0B31e557f5985ef_TheDrones.sol
+94.61,88.90,0x352bB674Cd16aD62eeB2266809c9C2A395166C56,smart-contract-sanctuary-ethereum/contracts/mainnet/35/352bB674Cd16aD62eeB2266809c9C2A395166C56_TheDrones.sol
+90.45,82.66,0x232defa1b115e467405e951231f08738f5757bb0,smart-contract-sanctuary-ethereum/contracts/mainnet/23/232defa1b115e467405e951231f08738f5757bb0_BooBunch.sol
+84.46,74.59,0x8dd295837c25dc2227b078642cbbb70a0241ee3d,smart-contract-sanctuary-ethereum/contracts/mainnet/8d/8dd295837c25dc2227b078642cbbb70a0241ee3d_Seiko.sol

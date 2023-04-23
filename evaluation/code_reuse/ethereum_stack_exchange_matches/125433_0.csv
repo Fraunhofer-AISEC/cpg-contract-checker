@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.67,70.29,0xeddcbfebb20935b1fa1d432368c0110755c51334,smart-contract-sanctuary-ethereum/contracts/mainnet/ed/eddcbfebb20935b1fa1d432368c0110755c51334_USDBToken.sol
+91.67,70.00,0x841DBdf83A0ae570724126679D7AaB130963D05F,smart-contract-sanctuary-ethereum/contracts/mainnet/84/841DBdf83A0ae570724126679D7AaB130963D05F_StableCurrencyToken.sol
+91.67,70.29,0x13939ac9f1e0f99872fa873b6e00de9248ac95a0,smart-contract-sanctuary-ethereum/contracts/mainnet/13/13939ac9f1e0f99872fa873b6e00de9248ac95a0_BZRxToken.sol
+87.50,70.00,0x8141dF220aEb0229c1067bC4F3ce0C28431a9FFb,smart-contract-sanctuary-ethereum/contracts/mainnet/81/8141dF220aEb0229c1067bC4F3ce0C28431a9FFb_BluePass.sol

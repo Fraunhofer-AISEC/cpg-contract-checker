@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+88.24,74.29,0x20794b4cCcE8a6FE872E554B817709373bA5e2b8,smart-contract-sanctuary-ethereum/contracts/mainnet/20/20794b4cCcE8a6FE872E554B817709373bA5e2b8_Bloom.sol
+88.24,74.29,0x8a5E183F562Bea25Fe658456c621FE8764192Fa7,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8a5E183F562Bea25Fe658456c621FE8764192Fa7_BennuProtocol.sol
+82.35,74.29,0x918a7cab286cf286566baf2d3e3da7564694fc78,smart-contract-sanctuary-ethereum/contracts/mainnet/91/918a7cab286cf286566baf2d3e3da7564694fc78_Eye.sol
+82.35,74.29,0x4b0b2e6a6df4b4610b1e9902b46411fa7afcdb87,smart-contract-sanctuary-ethereum/contracts/mainnet/4b/4b0b2e6a6df4b4610b1e9902b46411fa7afcdb87_Cleopatra.sol
+82.35,74.29,0x3ac93d1ef17a518654ed9aa684acf9d48016c4a5,smart-contract-sanctuary-ethereum/contracts/mainnet/3a/3ac93d1ef17a518654ed9aa684acf9d48016c4a5_Cleopatra.sol

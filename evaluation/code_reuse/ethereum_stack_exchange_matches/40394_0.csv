@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.77,98.80,0x9eead2301792af12115d125c48966246e5b455a1,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9eead2301792af12115d125c48966246e5b455a1_BedOracleV1.sol
+83.95,79.52,0xf290d6422c64222dabe98c5f4acd646acab6f81f,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f290d6422c64222dabe98c5f4acd646acab6f81f_ENSNFT.sol
+83.95,79.52,0x14a2d2c497cef8b971b2c29880f295edd1f1abed,smart-contract-sanctuary-ethereum/contracts/mainnet/14/14a2d2c497cef8b971b2c29880f295edd1f1abed_ENSNFT.sol
+81.48,79.52,0xb52511f49f3ed76ad1f77998985ee452f29ba0fd,smart-contract-sanctuary-ethereum/contracts/mainnet/b5/b52511f49f3ed76ad1f77998985ee452f29ba0fd_ENSNFT.sol
+81.48,79.52,0x4278f978ace505eb27565c91116427cb99fda837,smart-contract-sanctuary-ethereum/contracts/mainnet/42/4278f978ace505eb27565c91116427cb99fda837_ENSNFT.sol
+81.48,79.52,0x88d4f99341de4afdd94cfb7c1c67c885b79ba6bc,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88d4f99341de4afdd94cfb7c1c67c885b79ba6bc_ENSNFT.sol

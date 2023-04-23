@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+80.36,70.03,0xa20afa7e869eb81edc147a36d5221288a2e4fe22,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a20afa7e869eb81edc147a36d5221288a2e4fe22_PinMo.sol
+80.36,70.03,0x818776f0968bdaa39a692260fb3d1168f55370b2,smart-contract-sanctuary-ethereum/contracts/mainnet/81/818776f0968bdaa39a692260fb3d1168f55370b2_XMLY.sol
+80.18,70.03,0x0f0901ce7fd93b1644dc746eb2916c86a0dc0f8b,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0f0901ce7fd93b1644dc746eb2916c86a0dc0f8b_Anno.sol
+80.18,70.03,0x725baee3c9f194a467bf8260146bea95d0efabf6,smart-contract-sanctuary-ethereum/contracts/mainnet/72/725baee3c9f194a467bf8260146bea95d0efabf6_Anno.sol
+77.68,71.14,0xf4c27b8b002389864ac214cb13bfeef4cc5c4e8d,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f4c27b8b002389864ac214cb13bfeef4cc5c4e8d_Ethen.sol
+76.25,72.20,0xcba65975b1c66586bfe7910f32377e0ee55f783e,smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cba65975b1c66586bfe7910f32377e0ee55f783e_LavaWallet.sol
+76.07,72.43,0x2f9cc1042d889353caf2e346b63ccfec985ae515,smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2f9cc1042d889353caf2e346b63ccfec985ae515_LavaWallet.sol

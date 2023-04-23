@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+75.00,70.20,0x4185bf06f956286ce1c6d75fa1bd56b0e96b3edd,smart-contract-sanctuary-ethereum/contracts/mainnet/41/4185bf06f956286ce1c6d75fa1bd56b0e96b3edd_HorseyPilot.sol
+75.00,70.20,0xdcf67546f2253c9c90c2b55447e1efecebcf83d6,smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dcf67546f2253c9c90c2b55447e1efecebcf83d6_HorseyToken.sol
+75.00,70.20,0xf688b76988ae1230470b6bc4f43d2983928cc59d,smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f688b76988ae1230470b6bc4f43d2983928cc59d_HorseyExchange.sol

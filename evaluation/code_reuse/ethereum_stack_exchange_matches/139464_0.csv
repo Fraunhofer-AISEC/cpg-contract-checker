@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x26d4e062d9e3049b8ff0210d9bb6e518ed4e0c0e,smart-contract-sanctuary-ethereum/contracts/mainnet/26/26d4e062d9e3049b8ff0210d9bb6e518ed4e0c0e_BubbleQuoter.sol
+100.00,100.00,0x0bba0a2515ad5209424df344d37e263acf449f7f,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0bba0a2515ad5209424df344d37e263acf449f7f_Quoter.sol
+100.00,100.00,0x1961860C8AEF7469d2A16b2D54185711361af3D8,smart-contract-sanctuary-ethereum/contracts/mainnet/19/1961860C8AEF7469d2A16b2D54185711361af3D8_Quoter.sol
+100.00,100.00,0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b27308f9F90D607463bb33eA1BeBb41C27CE5AB6_Quoter.sol
+100.00,100.00,0xA6E5ac275fB7455C2b43f30d9539989858710E91,smart-contract-sanctuary-ethereum/contracts/mainnet/a6/A6E5ac275fB7455C2b43f30d9539989858710E91_Quoter.sol
+80.77,70.45,0xa1fAdFEB2485c00a2C310480eCEa6FbcbeC4334e,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a1fAdFEB2485c00a2C310480eCEa6FbcbeC4334e_UniswapFlashSwap.sol

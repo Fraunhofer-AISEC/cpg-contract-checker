@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.41,71.17,0x674F169DDB2484D9112cd3d1703d4dc42Ab55C6b,smart-contract-sanctuary-ethereum/contracts/mainnet/67/674F169DDB2484D9112cd3d1703d4dc42Ab55C6b_EthBox.sol
+96.83,71.16,0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e,smart-contract-sanctuary-ethereum/contracts/mainnet/07/07f7ecb66d788ab01dc93b9b71a88401de7d0f2e_PoCGame.sol
+96.83,74.56,0x3b57690f17e1724ecf7c7b691dd66564cd9da0ea,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b57690f17e1724ecf7c7b691dd66564cd9da0ea_NelCoin.sol
+96.83,71.94,0x428AB584653Df257B81bE711831025e711AF3806,smart-contract-sanctuary-ethereum/contracts/mainnet/42/428AB584653Df257B81bE711831025e711AF3806_CrypTards.sol
+93.65,71.16,0x7d09edb07d23acb532a82be3da5c17d9d85806b4,smart-contract-sanctuary-ethereum/contracts/mainnet/7d/7d09edb07d23acb532a82be3da5c17d9d85806b4_PoCGame.sol
+84.13,71.00,0xc44fdd442d851b71f3288bf32cabefbbc26e5cfb,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/c44fdd442d851b71f3288bf32cabefbbc26e5cfb_Homeverse.sol

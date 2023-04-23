@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+70.59,83.02,0x011e73470f92b3e9e718ea4b0efe71ec8aefd4be,smart-contract-sanctuary-ethereum/contracts/mainnet/01/011e73470f92b3e9e718ea4b0efe71ec8aefd4be_DexnesPresaleAndLiquidityLock.sol
+70.59,83.02,0xb7e2c8e2ca60220c4b59c8891bd9b01d50f52752,smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b7e2c8e2ca60220c4b59c8891bd9b01d50f52752_DexnesPresaleAndLiquidityLock.sol
+68.63,77.78,0x31e5f2a0a593ff1ab85a093a04b44dcd2a6d0672,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31e5f2a0a593ff1ab85a093a04b44dcd2a6d0672_TokenFarm.sol

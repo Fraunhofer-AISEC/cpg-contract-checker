@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+83.33,70.83,0xb2F5d1147aF0d4cF922Fe7f3003759C54AFC4393,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b2F5d1147aF0d4cF922Fe7f3003759C54AFC4393_Quado.sol
+83.33,70.83,0x46dfc3f8a86e521c823cc08f671f748c105a0fcb,smart-contract-sanctuary-ethereum/contracts/mainnet/46/46dfc3f8a86e521c823cc08f671f748c105a0fcb_EddaLpNftStake.sol
+83.33,70.83,0xd79a6de8b75afb87adeda7f45e343c0b6958838c,smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d79a6de8b75afb87adeda7f45e343c0b6958838c_EddaNftStake.sol
+83.33,70.83,0x2a99792f7c310874f3c24860c06322e26d162c6b,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2a99792f7c310874f3c24860c06322e26d162c6b_ApolloNFT.sol
+83.33,70.83,0x3E58801d8F3379bb5090Dc742e60614bC94b1bd8,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3E58801d8F3379bb5090Dc742e60614bC94b1bd8_UniftyFarmShopAddon.sol
+66.67,75.00,0x2d60ac9eac20a5be66fd62676232d9a7c96bb1dc,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2d60ac9eac20a5be66fd62676232d9a7c96bb1dc_MintyProxy.sol

@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+89.23,78.15,0xf7cc9DEf288CAe957283A686A5110514840336bc,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f7cc9DEf288CAe957283A686A5110514840336bc_RedeemTicket.sol
+84.62,74.45,0xbc566BeF3dc1D80e7a841D8CD04aeB3722080651,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc566BeF3dc1D80e7a841D8CD04aeB3722080651_YeyeTicket.sol
+80.00,73.00,0x7d857bECa5ED641a2B6F57d85b1660b528Ae5f77,smart-contract-sanctuary-ethereum/contracts/mainnet/7d/7d857bECa5ED641a2B6F57d85b1660b528Ae5f77_DollarCheck.sol
+80.00,70.27,0x0B1288Ca52A61df240e1c9331d16835892D5087B,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0B1288Ca52A61df240e1c9331d16835892D5087B_CloudPresale.sol

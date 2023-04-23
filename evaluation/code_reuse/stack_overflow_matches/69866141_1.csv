@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.30,83.93,0xa6783B5970B29F37aD1A2ccA4ddd803E73A88ab0,smart-contract-sanctuary-ethereum/contracts/mainnet/a6/a6783B5970B29F37aD1A2ccA4ddd803E73A88ab0_PalestineCoin.sol
+84.06,70.96,0x5537d90A4A2DC9d9b37BAb49B490cF67D4C54E91,smart-contract-sanctuary-ethereum/contracts/mainnet/55/5537d90A4A2DC9d9b37BAb49B490cF67D4C54E91_OneDayPunk.sol
+78.26,73.83,0xc6f8d8c52face008d366bb4579b479c191bfd3fc,smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c6f8d8c52face008d366bb4579b479c191bfd3fc_Q.sol
+76.81,72.06,0xa51fc71422a30fa7ffa605b360c3b283501b5bf6,smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a51fc71422a30fa7ffa605b360c3b283501b5bf6_AWX.sol
+69.57,71.00,0x18b8b9f2d474774948127d498bf2b1e5cf084c93,smart-contract-sanctuary-ethereum/contracts/mainnet/18/18b8b9f2d474774948127d498bf2b1e5cf084c93_ToTheMoon.sol

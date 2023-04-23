@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.61,74.32,0x99D95C45437d70e96a23eaB918F5Af08FE9f33eC,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99D95C45437d70e96a23eaB918F5Af08FE9f33eC_ERC1155CrowdsaleV2.sol
+98.61,78.41,0x3845badade8e6dff049820680d1f14bd3903a5d0,smart-contract-sanctuary-ethereum/contracts/mainnet/38/3845badade8e6dff049820680d1f14bd3903a5d0_Sand.sol
+98.61,78.41,0x954f330b662c937bc64c874d2100c6075b1a99c6,smart-contract-sanctuary-ethereum/contracts/mainnet/95/954f330b662c937bc64c874d2100c6075b1a99c6_Dotori.sol
+95.83,78.41,0x76B4D068BE84B58172904736430B76d50383d4CC,smart-contract-sanctuary-ethereum/contracts/mainnet/76/76B4D068BE84B58172904736430B76d50383d4CC_TenderToken.sol
+94.44,75.82,0x969Ba364a8EDDeeBea03Dc8Acc92866f843D9105,smart-contract-sanctuary-ethereum/contracts/mainnet/96/969Ba364a8EDDeeBea03Dc8Acc92866f843D9105_PolkaSeed.sol
+94.44,75.82,0x94E85152719cF757f8Bcd5D0745ADe65a0E59Fcd,smart-contract-sanctuary-ethereum/contracts/mainnet/94/94E85152719cF757f8Bcd5D0745ADe65a0E59Fcd_LunarDAO.sol

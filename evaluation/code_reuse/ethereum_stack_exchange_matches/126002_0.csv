@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.67,71.43,0xDf79224d959126BEf179D3FE37De77DE353a2BF6,smart-contract-sanctuary-ethereum/contracts/mainnet/df/Df79224d959126BEf179D3FE37De77DE353a2BF6_ScumbugsNFT.sol
+83.33,71.43,0x45085c6b5fa075727d826249e6b67087ab664275,smart-contract-sanctuary-ethereum/contracts/mainnet/45/45085c6b5fa075727d826249e6b67087ab664275_Donations.sol
+75.00,71.43,0xa965A26c00371D32Fef402CB1E7F268E61710e15,smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a965A26c00371D32Fef402CB1E7F268E61710e15_ApcrdaZebichain.sol
+75.00,71.43,0xc3a3d9f2263a82b740b921fbb386ec5820fddf9e,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c3a3d9f2263a82b740b921fbb386ec5820fddf9e_PlayingCards.sol
+75.00,85.71,0xC07AB547e7803793ef0216e5710b6A8100d523bb,smart-contract-sanctuary-ethereum/contracts/mainnet/c0/C07AB547e7803793ef0216e5710b6A8100d523bb_Adapter02.sol
+75.00,85.71,0x91c8f8fc3A2023f33D3e38973aE55F20BA6Ef134,smart-contract-sanctuary-ethereum/contracts/mainnet/91/91c8f8fc3A2023f33D3e38973aE55F20BA6Ef134_Adapter02.sol
+75.00,85.71,0xFC2Ba6E830a04C25e207B8214b26d8C713F6881F,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/FC2Ba6E830a04C25e207B8214b26d8C713F6881F_Adapter02.sol

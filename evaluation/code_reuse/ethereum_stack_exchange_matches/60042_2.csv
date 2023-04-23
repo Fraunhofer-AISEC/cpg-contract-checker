@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+75.00,71.43,0x11cc71471c8a615f9386de5b81f81d4cd9ea680d,smart-contract-sanctuary-ethereum/contracts/mainnet/11/11cc71471c8a615f9386de5b81f81d4cd9ea680d_LaunchSwap.sol
+75.00,71.43,0x5b3ed69738c167c4f11c0b00a95b6006ad92db87,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b3ed69738c167c4f11c0b00a95b6006ad92db87_BonfidaCoinTradingContract.sol
+60.00,71.43,0x06ac03d295f04f21ab862bb40672f79f6e4e802d,smart-contract-sanctuary-ethereum/contracts/mainnet/06/06ac03d295f04f21ab862bb40672f79f6e4e802d_RestorationModernizeBless.sol

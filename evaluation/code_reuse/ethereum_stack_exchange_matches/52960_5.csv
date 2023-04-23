@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+75.00,72.22,0x5f768e6ac49cbca86b95f2e1b56b8f0798fc856c,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f768e6ac49cbca86b95f2e1b56b8f0798fc856c_FoshaAirdrop.sol
+70.00,75.00,0xBe93A0B589302Bfd163B52C1915b9E67132146A9,smart-contract-sanctuary-ethereum/contracts/mainnet/be/Be93A0B589302Bfd163B52C1915b9E67132146A9_NTOracle.sol
+70.00,75.00,0x1641dba4593e32528bd8937fc751901dc66aa60e,smart-contract-sanctuary-ethereum/contracts/mainnet/16/1641dba4593e32528bd8937fc751901dc66aa60e_Ehfirst.sol
+65.00,81.27,0xf2a3c843a15644641991db386A2Ca4874f9A6c05,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f2a3c843a15644641991db386A2Ca4874f9A6c05_Counter.sol

@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+72.41,70.24,0xe7934EE0c8b877269A5688ee26dd853785212618,smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e7934EE0c8b877269A5688ee26dd853785212618_TwabRewards.sol
+70.69,70.24,0x0D33612870cd9A475bBBbB7CC38fC66680dEcAC5,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0D33612870cd9A475bBBbB7CC38fC66680dEcAC5_DrawBeacon.sol
+70.69,70.24,0xdD1cba915Be9c7a1e60c4B99DADE1FC49F67f80D,smart-contract-sanctuary-ethereum/contracts/mainnet/dd/dD1cba915Be9c7a1e60c4B99DADE1FC49F67f80D_PrizeTierHistory.sol

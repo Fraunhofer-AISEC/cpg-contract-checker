@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+77.42,71.39,0xdf1347e36308df47f6a06d0a93a7eca9f0ac2840,smart-contract-sanctuary-ethereum/contracts/mainnet/df/df1347e36308df47f6a06d0a93a7eca9f0ac2840_Token.sol
+76.34,72.99,0xa184eb83c616365a6e43416a900387d8126715b4,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a184eb83c616365a6e43416a900387d8126715b4_RaisemanaCampaignToken.sol
+76.34,72.99,0x89eade596a1ee3f6088a578810fd126935e99d74,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89eade596a1ee3f6088a578810fd126935e99d74_RaisemanaCampaignToken.sol
+76.34,72.99,0xe4a880A0484b5659323BE4Bf225cDb7c41B75Ca5,smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e4a880A0484b5659323BE4Bf225cDb7c41B75Ca5_RaisemanaCampaignToken.sol
+74.73,72.13,0x9e780beee23f424c26dd075075a90e7b8714ac3d,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e780beee23f424c26dd075075a90e7b8714ac3d_SPACE.sol

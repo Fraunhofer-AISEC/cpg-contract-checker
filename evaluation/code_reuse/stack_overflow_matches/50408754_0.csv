@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+81.25,70.83,0x839192fc5a302732736060a0d59eefa1ed92cbe8,smart-contract-sanctuary-ethereum/contracts/mainnet/83/839192fc5a302732736060a0d59eefa1ed92cbe8_EthernalCup.sol
+81.25,70.83,0x2fc7a61a978204f467c417f757447421d6367528,smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2fc7a61a978204f467c417f757447421d6367528_EthernalCup.sol
+77.08,71.15,0x604e244d5157c3ae734642364ace6c633fb1f278,smart-contract-sanctuary-ethereum/contracts/mainnet/60/604e244d5157c3ae734642364ace6c633fb1f278_EthernityFinancialOracle.sol

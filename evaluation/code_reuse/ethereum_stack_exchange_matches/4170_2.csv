@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+88.18,74.05,0x95568c9d79f46e8048344e7319754aec4b1965d4,smart-contract-sanctuary-ethereum/contracts/mainnet/95/95568c9d79f46e8048344e7319754aec4b1965d4_TweedentityStore.sol
+87.27,70.62,0x1d2fc99af78b3e3ac07aecac4b8aefac3aa28d92,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d2fc99af78b3e3ac07aecac4b8aefac3aa28d92_QRFID_gold.sol
+85.45,70.62,0x86192e6649f3d5459ae613a985cf4ccf01838380,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86192e6649f3d5459ae613a985cf4ccf01838380_QRFID_gold.sol
+85.45,70.62,0x25069b859c4a49713aea51866da4f5015ccee384,smart-contract-sanctuary-ethereum/contracts/mainnet/25/25069b859c4a49713aea51866da4f5015ccee384_QRFID_gold.sol

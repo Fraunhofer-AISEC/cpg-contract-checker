@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,76.92,0x1b5e08B9783587D39a0AdFd537bA0282EA98fc38,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b5e08B9783587D39a0AdFd537bA0282EA98fc38_AdventurersOfEther.sol
+83.33,73.08,0x322169E268A57cD35B6858FAE2a18505EE31A6AF,smart-contract-sanctuary-ethereum/contracts/mainnet/32/322169E268A57cD35B6858FAE2a18505EE31A6AF_EnchantedCreaturesClub.sol
+83.33,73.08,0x49EE64Bc2b365E1e1Aad0e4f31Bd46B3806ab325,smart-contract-sanctuary-ethereum/contracts/mainnet/49/49EE64Bc2b365E1e1Aad0e4f31Bd46B3806ab325_KaijuLegends.sol
+79.17,73.08,0x66eDFD6B074bc7eE5C07c5C90c7db8286F096BA6,smart-contract-sanctuary-ethereum/contracts/mainnet/66/66eDFD6B074bc7eE5C07c5C90c7db8286F096BA6_GoldenEggis.sol
+75.00,80.77,0x033d95b10e9d67f93bf71350c6e9c85f460e55de,smart-contract-sanctuary-ethereum/contracts/mainnet/03/033d95b10e9d67f93bf71350c6e9c85f460e55de_ERC1155Mintable.sol
+70.83,73.08,0x00E679Ba63B509182c349F5614F0A07cDd0CE0c5,smart-contract-sanctuary-ethereum/contracts/mainnet/00/00E679Ba63B509182c349F5614F0A07cDd0CE0c5_DAMEXToken.sol

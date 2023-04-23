@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,72.37,0x02fd30bE3C287890A6FDC6E9Fca22c8b189DeF32,smart-contract-sanctuary-ethereum/contracts/mainnet/02/02fd30bE3C287890A6FDC6E9Fca22c8b189DeF32_Moonopoly.sol
+92.86,70.42,0x9D3A390c898ECf778288B69ec1f8C6dB543c97e7,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9D3A390c898ECf778288B69ec1f8C6dB543c97e7_FunPass.sol
+92.86,87.88,0x8C5A98720C6f886899756EF8f1A3eD5080801898,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8C5A98720C6f886899756EF8f1A3eD5080801898_GHGRum.sol
+92.86,75.31,0xB1d0F44218F2708481349fe831c7E1e3c1175662,smart-contract-sanctuary-ethereum/contracts/mainnet/b1/B1d0F44218F2708481349fe831c7E1e3c1175662_Alpha.sol

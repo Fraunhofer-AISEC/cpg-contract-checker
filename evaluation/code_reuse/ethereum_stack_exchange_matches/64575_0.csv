@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+76.47,76.19,0x112302a8f1efe3a9765e38cf485a4ae113ed8987,smart-contract-sanctuary-ethereum/contracts/mainnet/11/112302a8f1efe3a9765e38cf485a4ae113ed8987_EtherCityRank.sol
+76.47,76.19,0x7c6949901227d685d2fd06a3a01fb5dee8100b05,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7c6949901227d685d2fd06a3a01fb5dee8100b05_EtherCity.sol
+76.47,76.19,0x050bef729d913e6ce6c06e829c3ee7a817cef1cf,smart-contract-sanctuary-ethereum/contracts/mainnet/05/050bef729d913e6ce6c06e829c3ee7a817cef1cf_EtherCityConfig.sol
+76.47,76.19,0xcce70c8fd5c876f7be92706b8b296b7c18bab908,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cce70c8fd5c876f7be92706b8b296b7c18bab908_EtherCityData.sol
+76.47,70.00,0x0AB54e29C375Bb7FecC8e08B3cd1D9095EAe8c8b,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0AB54e29C375Bb7FecC8e08B3cd1D9095EAe8c8b_LazyMintFacet.sol
+76.47,70.00,0x9d2dB6eFB970d45342b8782b95658D0648E0E732,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d2dB6eFB970d45342b8782b95658D0648E0E732_MerkleTreeAllowlistFacet.sol

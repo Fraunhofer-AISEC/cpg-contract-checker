@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+83.33,75.96,0xfee27fb71ae3feeef2c11f8e02037c42945e87c4,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fee27fb71ae3feeef2c11f8e02037c42945e87c4_Colorverse.sol
+78.43,75.00,0x9c3e5a4689D8A53886C2476f71e079Df6fBA4FC6,smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9c3e5a4689D8A53886C2476f71e079Df6fBA4FC6_TheSpirals.sol
+78.43,75.00,0x9fdb31F8CE3cB8400C7cCb2299492F2A498330a4,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9fdb31F8CE3cB8400C7cCb2299492F2A498330a4_TheColors.sol
+78.43,75.00,0xc22f6c6f04c24Fac546A43Eb2E2eB10b1D2953DA,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c22f6c6f04c24Fac546A43Eb2E2eB10b1D2953DA_TheColors.sol
+74.51,71.15,0x2177Ee14C5E3986d1C69fb746b3C87c5b1430FF0,smart-contract-sanctuary-ethereum/contracts/mainnet/21/2177Ee14C5E3986d1C69fb746b3C87c5b1430FF0_CirculatingMarketCapOracle.sol

@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+87.50,73.08,0x22f8426b590812d6a3e9cf4ccba66325ac2c1a2f,smart-contract-sanctuary-ethereum/contracts/mainnet/22/22f8426b590812d6a3e9cf4ccba66325ac2c1a2f_ThreeNityNFTICO.sol
+87.50,73.08,0x63c94177d0312f287ea01007cc3e05ac23b10945,smart-contract-sanctuary-ethereum/contracts/mainnet/63/63c94177d0312f287ea01007cc3e05ac23b10945_OceanIncNFTICO.sol
+79.17,73.08,0xf3752bc7d33cc2c20e1fca860c451c5497de86c5,smart-contract-sanctuary-ethereum/contracts/mainnet/f3/f3752bc7d33cc2c20e1fca860c451c5497de86c5_BASTARDGANPUNKSV2PROXYSALE.sol

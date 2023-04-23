@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+80.21,73.57,0x3728597B436C55cF91f8558035600c907ebd308c,smart-contract-sanctuary-ethereum/contracts/mainnet/37/3728597B436C55cF91f8558035600c907ebd308c_LockedCacheGoldAPIConsumer.sol
+79.68,76.29,0x6b6e9ae0262337d33cbfbd6008c6a2335dc63cfa,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6b6e9ae0262337d33cbfbd6008c6a2335dc63cfa_APIConsumer.sol
+78.07,71.01,0x0f56768281f0B3F4960e47C3cFB700B667AF2C3e,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0f56768281f0B3F4960e47C3cFB700B667AF2C3e_MembershipContract.sol

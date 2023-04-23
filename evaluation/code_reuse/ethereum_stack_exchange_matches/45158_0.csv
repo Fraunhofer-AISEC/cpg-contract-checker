@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.17,76.87,0xd281359c4ffc2cc666b31a4470e359d5c591661f,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d281359c4ffc2cc666b31a4470e359d5c591661f_CFTSale.sol
+97.17,76.87,0xfc4a176d1db069c92fa5d673543772dc05d18b10,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fc4a176d1db069c92fa5d673543772dc05d18b10_CQSSale.sol
+97.17,75.74,0x07c206f253605a9ac4e21a9cf99d7841e8636468,smart-contract-sanctuary-ethereum/contracts/mainnet/07/07c206f253605a9ac4e21a9cf99d7841e8636468_RYCSale.sol
+94.34,75.18,0x46d1ebf7bb93044e078e0496e4661ec772607d9d,smart-contract-sanctuary-ethereum/contracts/mainnet/46/46d1ebf7bb93044e078e0496e4661ec772607d9d_TTCSale.sol
+94.34,75.18,0x376cbf6b8b7583f52192009e0cee250855ca9ea5,smart-contract-sanctuary-ethereum/contracts/mainnet/37/376cbf6b8b7583f52192009e0cee250855ca9ea5_TTCSale.sol
+92.45,72.73,0x233d0f4c69f0fecdf539642ebcef7ba5f1eedfbb,smart-contract-sanctuary-ethereum/contracts/mainnet/23/233d0f4c69f0fecdf539642ebcef7ba5f1eedfbb_CHIPSale.sol

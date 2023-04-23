@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+79.71,71.51,0x61ba9477dfE6Ee62b3e8Be252864e72cBF6e9600,smart-contract-sanctuary-ethereum/contracts/mainnet/61/61ba9477dfE6Ee62b3e8Be252864e72cBF6e9600_InstaMint.sol
+78.99,70.02,0xfeA0291ab755BFcBF917f212678492646E0e92d7,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/feA0291ab755BFcBF917f212678492646E0e92d7_XenomorphChaos.sol
+78.99,70.02,0x6D2652E02EF792C651c883730dBBE47E7459C9A7,smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6D2652E02EF792C651c883730dBBE47E7459C9A7_QuantumPortraits.sol
+78.99,70.02,0xcc406828621bc831c31378eb9fbca219b57d6fba,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc406828621bc831c31378eb9fbca219b57d6fba_QuantumPortraits.sol

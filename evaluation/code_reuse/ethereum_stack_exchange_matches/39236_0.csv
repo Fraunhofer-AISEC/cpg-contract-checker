@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.91,76.09,0x4f32dEfF86Daed546e5A9A10C98e068f9bB5eA60,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4f32dEfF86Daed546e5A9A10C98e068f9bB5eA60_HowlerzChamps.sol
+86.36,73.91,0x98314a3b56166ed5b6ae0438b32a099d1bcc66cc,smart-contract-sanctuary-ethereum/contracts/mainnet/98/98314a3b56166ed5b6ae0438b32a099d1bcc66cc_PathsAdvisor.sol
+86.36,73.91,0x24b08cbf4e6fe0c7d614438159b965b68be9e6fd,smart-contract-sanctuary-ethereum/contracts/mainnet/24/24b08cbf4e6fe0c7d614438159b965b68be9e6fd_OneRouter.sol
+86.36,73.91,0x548a6610378e80a0cfee1f1738b9e70176366c64,smart-contract-sanctuary-ethereum/contracts/mainnet/54/548a6610378e80a0cfee1f1738b9e70176366c64_OneRouterView.sol

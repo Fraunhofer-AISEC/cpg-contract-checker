@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+70.83,75.00,0xCc534c09B45A0052096CCf24931a28291b6B07dD,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/Cc534c09B45A0052096CCf24931a28291b6B07dD_Member.sol
+64.58,75.00,0x0EB1872d15A208Ab03EC26adaeEeCE95EA78860A,smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0EB1872d15A208Ab03EC26adaeEeCE95EA78860A_MembershipFactory.sol
+62.50,75.00,0xFB1D3B0d5f419bEb9172eEa41529Aabe5C20870B,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/FB1D3B0d5f419bEb9172eEa41529Aabe5C20870B_MembershipFactory.sol
+62.50,75.00,0xE152236E12b695d1e1F96BC984A6Ca25d2870972,smart-contract-sanctuary-ethereum/contracts/mainnet/e1/E152236E12b695d1e1F96BC984A6Ca25d2870972_MembershipFactory.sol
+62.50,75.00,0xe328512e063200Ae5907d21130EF2877BABc615e,smart-contract-sanctuary-ethereum/contracts/mainnet/e3/e328512e063200Ae5907d21130EF2877BABc615e_MembershipFactory.sol
+62.50,75.00,0x80659c5318693e2AE5877eaCCf2Ee93992bb786e,smart-contract-sanctuary-ethereum/contracts/mainnet/80/80659c5318693e2AE5877eaCCf2Ee93992bb786e_MembershipFactory.sol

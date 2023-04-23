@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+96.77,71.33,0x27b552e523D4107006Fc8CBcE1172D6989CB4529,smart-contract-sanctuary-ethereum/contracts/mainnet/27/27b552e523D4107006Fc8CBcE1172D6989CB4529_Staking.sol
+96.77,71.33,0x8483bDc146cd1d7f904Fe2E4B2f0C92096a61020,smart-contract-sanctuary-ethereum/contracts/mainnet/84/8483bDc146cd1d7f904Fe2E4B2f0C92096a61020_StakingAssist.sol
+96.77,71.33,0x0994f36872271618A1477DE94f0A1d0883b68215,smart-contract-sanctuary-ethereum/contracts/mainnet/09/0994f36872271618A1477DE94f0A1d0883b68215_StakingAssist.sol
+93.55,71.62,0xC53Dc593b69c67A209Cf70d4172078c9125449bB,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/C53Dc593b69c67A209Cf70d4172078c9125449bB_NameTag.sol
+93.55,71.62,0x973Cc91CA50B4740ae1B33adB1E164A8D69D7D9c,smart-contract-sanctuary-ethereum/contracts/mainnet/97/973Cc91CA50B4740ae1B33adB1E164A8D69D7D9c_NameTag.sol
+87.10,73.32,0x64DD6A0979Fb64c972CFd98Ae0eb274088245801,smart-contract-sanctuary-ethereum/contracts/mainnet/64/64DD6A0979Fb64c972CFd98Ae0eb274088245801_CoingeckoOracle.sol

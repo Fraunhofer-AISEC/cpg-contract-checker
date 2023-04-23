@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+92.16,71.15,0x23e552a194bc16d3a85cc47be61be3b3cccd0fa2,smart-contract-sanctuary-ethereum/contracts/mainnet/23/23e552a194bc16d3a85cc47be61be3b3cccd0fa2_LumiOro.sol
+92.16,76.30,0x9B3F4c8429cb7B56Ed823C15B0a2F4fFCe0FEDde,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9B3F4c8429cb7B56Ed823C15B0a2F4fFCe0FEDde_TaxChecker.sol
+92.16,71.15,0x5c0deda08fd34620fa35dd7d719c4cac69424ffe,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5c0deda08fd34620fa35dd7d719c4cac69424ffe_GasFees.sol
+86.27,77.64,0x4e9be1916f4f61fc198c57e633a5d92a9a3ab77b,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e9be1916f4f61fc198c57e633a5d92a9a3ab77b_Forwarder.sol
+86.27,70.46,0x6f3c294288c62ff70d6274c73741e16d3113f37d,smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6f3c294288c62ff70d6274c73741e16d3113f37d_Forward.sol
+78.43,73.58,0x8b944a12fc4c4f7cb3c5403e0a034c239f43f6b7,smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8b944a12fc4c4f7cb3c5403e0a034c239f43f6b7_Forwarder.sol

@@ -1,0 +1,9 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+92.45,73.58,0xbD16C356e4dea7b0bB821b853F684ddEB8Dd1620,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bD16C356e4dea7b0bB821b853F684ddEB8Dd1620_WizarDAO.sol
+92.45,71.70,0x132e570dcEa4863da83FEAE9F0a7Bd47a43a45B3,smart-contract-sanctuary-ethereum/contracts/mainnet/13/132e570dcEa4863da83FEAE9F0a7Bd47a43a45B3_PixaRewards.sol
+90.57,70.19,0x47CC01712235e081ea2B01308fCA6C582dA5a049,smart-contract-sanctuary-ethereum/contracts/mainnet/47/47CC01712235e081ea2B01308fCA6C582dA5a049_AlphaToken.sol
+90.57,70.19,0x85796e07543Cdf7B4F99A9c2341ddf6de2879e36,smart-contract-sanctuary-ethereum/contracts/mainnet/85/85796e07543Cdf7B4F99A9c2341ddf6de2879e36_AlphaToken.sol
+90.57,70.57,0x54994ba4b4a42297b3b88e27185cde1f51dca288,smart-contract-sanctuary-ethereum/contracts/mainnet/54/54994ba4b4a42297b3b88e27185cde1f51dca288_NFT721.sol
+88.68,75.63,0xa500912022ed8472fd106489fc7ffbfdde3190f0,smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a500912022ed8472fd106489fc7ffbfdde3190f0_Lockable.sol
+84.91,75.47,0x32d552205b4e40fb5cf090beca0941d980d8b232,smart-contract-sanctuary-ethereum/contracts/mainnet/32/32d552205b4e40fb5cf090beca0941d980d8b232_$WBL.sol
+79.25,71.69,0x2463f9f8cb6644aff56d1724d8ea7b6d07f26e7b,smart-contract-sanctuary-ethereum/contracts/mainnet/24/2463f9f8cb6644aff56d1724d8ea7b6d07f26e7b_FancyRatsInc.sol

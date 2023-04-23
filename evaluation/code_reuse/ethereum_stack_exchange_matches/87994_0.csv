@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,70.00,0x5f474f2cb42de99392a2669b7e9b8a6834a40958,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f474f2cb42de99392a2669b7e9b8a6834a40958_EtherDrop.sol
+100.00,70.00,0x528c99bf21e0dae3466fecaa3315948bf6a418bc,smart-contract-sanctuary-ethereum/contracts/mainnet/52/528c99bf21e0dae3466fecaa3315948bf6a418bc_EtherDrop.sol
+100.00,70.00,0x81b1ff50d5bca9150700e7265f7216e65c8936e6,smart-contract-sanctuary-ethereum/contracts/mainnet/81/81b1ff50d5bca9150700e7265f7216e65c8936e6_EtherDrop.sol
+94.12,70.00,0x4Fec101D781716CBFdbb07e6f91f6B66652bb0A6,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4Fec101D781716CBFdbb07e6f91f6B66652bb0A6_Lottery.sol
+94.12,70.00,0x4ad97fd79f8a2ae0e5415821bc06781bf5a164e1,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4ad97fd79f8a2ae0e5415821bc06781bf5a164e1_ChillFinance.sol
+94.12,73.68,0xf459034afc1fc2e0e8bddc8e3645c2b2935186f6,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f459034afc1fc2e0e8bddc8e3645c2b2935186f6_Game.sol
+94.12,73.68,0xb8c5952d4ec0407f0edf23480655bca641480623,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/b8c5952d4ec0407f0edf23480655bca641480623_Game.sol
