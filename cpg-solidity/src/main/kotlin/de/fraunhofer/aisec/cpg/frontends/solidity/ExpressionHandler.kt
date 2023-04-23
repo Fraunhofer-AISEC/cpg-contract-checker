@@ -42,8 +42,8 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
     private fun isType(type: String): Boolean {
         var name = type
-        while(type.endsWith("]")){
-            name = type.substring(type.lastIndexOf('['))
+        while(name.endsWith("]")){
+            name = type.substring(0,type.lastIndexOf('['))
         }
 
         if(name in baseTypes)
