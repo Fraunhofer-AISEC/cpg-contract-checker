@@ -136,7 +136,8 @@ def eliminate_impossible_causal_clones():
         v["clones"] = [clone for clone in v["clones"] if clone not in incorrect_clones]
         v["clones"] = remove_dublicates(v["clones"])
         current += 1
-        print("Done: " + str(current) + " / "+ str(size))
+        if current % 500 == 0:
+            print("Done: " + str(current) + " / "+ str(size))
     
                     
                 
