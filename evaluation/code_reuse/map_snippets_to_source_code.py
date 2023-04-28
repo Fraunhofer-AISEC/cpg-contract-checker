@@ -17,16 +17,19 @@ class colors:
     END = "\033[0m"
 
 NGRAM_SIZE = 3
-NGRAM_THRESHOLD = 0.5
-LEVENSHTEIN_TRESHOLD = 0.7
+NGRAM_THRESHOLD = 1.0
+LEVENSHTEIN_TRESHOLD = 1.0
 
 MORPHEUS_PATH = "/Users/christof/ETH_Zurich/Projects/Morpheus/morpheus/morpheus.py"
 
 ELASTICSEARCH_INDEX = "smart-contract-sanctuary-index"
 
+#SNIPPETS_DATASET = "../../data-collection/snippets/parser/snippet_parser/stack_overflow/successfully_parsed"
+SNIPPETS_DATASET = "../../data-collection/snippets/parser/snippet_parser/ethereum_stack_exchange/successfully_parsed"
+
 def main():
     all_snippets = list()
-    for path, _, files in os.walk("../../data-collection/snippets/parser/snippet_parser/ethereum_stack_exchange/successfully_parsed"):
+    for path, _, files in os.walk(SNIPPETS_DATASET):
         for name in files:
             if name.endswith(".sol"):
                 all_snippets.append(os.path.join(path, name))
@@ -57,7 +60,6 @@ def main():
                 ngram_records, ngram_execution_time = 0, 0.0
                 levenshtein_records, levenshtein_execution_time = 0, 0.0
                 for line in out.decode("utf-8").split("\n"):
-                    #print(line)
                     if "matching an n-gram threshold" in line:
                         ngram_records = line.split()[1].replace("\x1b[94m", "").replace("\x1b[0m", "")
                         ngram_execution_time = line.split()[4].replace("\x1b[94m", "").replace("\x1b[0m", "")

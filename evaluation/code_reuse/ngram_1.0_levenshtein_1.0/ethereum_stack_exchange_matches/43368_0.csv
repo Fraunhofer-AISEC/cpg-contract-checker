@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xaeda514f21fd708e96583373681cbd36e4cd5c98,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/aeda514f21fd708e96583373681cbd36e4cd5c98_KKToken.sol
+100.00,100.00,0x43348971FF5516a9ff339F9002D828a2348AEE02,smart-contract-sanctuary-ethereum/contracts/mainnet/43/43348971FF5516a9ff339F9002D828a2348AEE02_SchmeckleToken.sol
+100.00,100.00,0x5044e2e924a139fd7da98dc29bbc070218197986,smart-contract-sanctuary-ethereum/contracts/mainnet/50/5044e2e924a139fd7da98dc29bbc070218197986_TokenTemplate.sol
+100.00,100.00,0x5bca6ee0a776cc4f40c7221646f6d3daa2bd19d9,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bca6ee0a776cc4f40c7221646f6d3daa2bd19d9_RootCoin.sol
+100.00,100.00,0xde3ef098c2b8a1f1598a272e959c479b8376265d,smart-contract-sanctuary-ethereum/contracts/mainnet/de/de3ef098c2b8a1f1598a272e959c479b8376265d_CHEXToken.sol
