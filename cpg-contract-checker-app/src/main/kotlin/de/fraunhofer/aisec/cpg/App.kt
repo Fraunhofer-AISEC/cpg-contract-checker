@@ -12,6 +12,9 @@ import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
+import org.codehaus.jettison.json.JSONObject
+import org.codehaus.jettison.json.JSONTokener
+import org.eclipse.jetty.util.ajax.JSON
 import org.neo4j.driver.AuthTokens
 import org.neo4j.driver.GraphDatabase
 import org.neo4j.driver.Transaction
@@ -55,6 +58,7 @@ class App : Callable<Int> {
     @CommandLine.Option(names = ["--neo4j-password"], description = ["The Neo4j password"])
     var neo4jPassword: String = "password"
     var checks: MutableList<Check> = mutableListOf()
+    var avChecks: MutableList<Check> = mutableListOf()
 
     var findings: MutableMap<String, MutableList<String>> = mutableMapOf()
 
@@ -119,6 +123,7 @@ class App : Callable<Int> {
     }
 
     fun getGraph(filename: String) : TranslationResult{
+        updateChecks(filename)
         var path = filename
         val config =
             TranslationConfiguration.builder()
@@ -148,20 +153,38 @@ class App : Callable<Int> {
     }
 
     fun registerChecks(){
-            checks.add(AccessControlSelfdestructCheck())
-            checks.add(CallReturnCheck())
-            checks.add(AccessControlLogicCheck())
-            checks.add(ReentrancyCheck())
-            checks.add(DefaultProxyDelegateCheck())
-            checks.add(TXOriginCheck())
-            checks.add(DOSCheck())
-            checks.add(TimeManipulationCheck())
-            checks.add(AddressPaddingCheck())
-            checks.add(FrontRunningCheck())
-            checks.add(LocalWriteToStorageCheck())
-            checks.add(DOSThroughExhaustionCheck())
-            checks.add(BadRandomnessCheck())
-            checks.add(OverUnderflowCheck())
+
+            avChecks.add(AccessControlSelfdestructCheck())
+            avChecks.add(CallReturnCheck())
+            avChecks.add(AccessControlLogicCheck())
+            avChecks.add(ReentrancyCheck())
+            avChecks.add(DefaultProxyDelegateCheck())
+            avChecks.add(TXOriginCheck())
+            avChecks.add(DOSCheck())
+            avChecks.add(TimeManipulationCheck())
+            avChecks.add(AddressPaddingCheck())
+            avChecks.add(FrontRunningCheck())
+            avChecks.add(LocalWriteToStorageCheck())
+            avChecks.add(DOSThroughExhaustionCheck())
+            avChecks.add(BadRandomnessCheck())
+            avChecks.add(OverUnderflowCheck())
+
+    }
+
+    fun updateChecks(filename: String){
+        checks.addAll(avChecks)
+        val checkfile =object {}.javaClass.getResourceAsStream("/contract_checks_verify.json")?.bufferedReader()?.readText()
+        var jsonObject = JSONTokener(checkfile).nextValue() as JSONObject
+        if(jsonObject.has(filename.substringAfter("source-code/"))){
+            var jsonChecks = jsonObject.getJSONArray(filename.substringAfter("source-code/"))
+            jsonChecks?.let {
+                optInChecks = ""
+                for(i in 0 until jsonChecks.length()){
+                    optInChecks =optInChecks +  jsonChecks[i] + ","
+                }
+                optInChecks= optInChecks.trim(',')
+            }
+        }
         if(optInChecks.isNotEmpty()){
             val avChecks = checks.toList()
             checks.clear()
@@ -175,7 +198,6 @@ class App : Callable<Int> {
                 }
             }
         }
-
     }
 
     fun persistGraph(result: TranslationResult){
