@@ -254,3 +254,7 @@ with open('snippets_to_checks.json', 'w') as f:
     
 with open('contract_checks_verify.json', 'w') as f:
     json.dump(clone_checks, f, cls=SetEncoder)
+    
+with open('contract_to_verify.txt', 'w') as f:
+    for contract in clone_checks:
+        f.write(sys.argv[3] + contract + "\n")
