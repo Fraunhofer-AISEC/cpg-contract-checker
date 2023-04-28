@@ -231,7 +231,7 @@ collect_clone_mapping(sys.argv[2] + "/ethereum_stack_exchange_matches" )
 collect_clone_mapping(sys.argv[2] + "/stack_overflow_matches")
 print("Of which snippets have clones: " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])))
 eliminate_impossible_causal_clones()
-print("After filtering for timestamp " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])) + " of clones remain.")
+print("After filtering for timestamp " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])) + " of snippets remain.")
 collect_statistics()
 # TODO Print statistics
 # Number of snippets with vuln, number of snippets that also have a vulnerable clone.
