@@ -44,8 +44,8 @@ class DFGExtensionPass: Pass() {
 
         nodes.filterIsInstance<CallExpression>().filter { it.name.equals("push") }.forEach {
             val call = it
-            (it.base as DeclaredReferenceExpression)?.let {
-                val base = it
+            val base = getCoarseGrainedTarget(call) as? DeclaredReferenceExpression
+            base?.let {
                 call.arguments.forEach { base.refersTo?.addPrevDFG(it) }
             }
         }

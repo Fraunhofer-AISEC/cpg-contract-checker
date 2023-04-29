@@ -1,7 +1,11 @@
 import os
 import sys
 import json
+import filecmp
+import re
 path = sys.argv[1]
+import hashlib
+import functools
 
 checkmapping = {
   "AccessControlLogicCheck": "Non constructor function insufficiently restricts writes to to access control variables",
@@ -27,9 +31,15 @@ clone_checks = {}
 
 contract_creation_times = {}
 
+normalized_file_hash = {}
+
+normalized_file_content = {}
+
 
 of = 0
 excludenr = 0
+
+dublicates= set()
 
 class SetEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -102,7 +112,7 @@ def collect_clone_mapping(snippet_to_contract):
                     clone = []
                     line = mapping.readline()
                     while line:
-                        sos = line.split(",")[3]
+                        sos = line.split(",")[3].strip().replace("$","DOLLAR")
                         
                         if not sos.startswith("File Path"):
                             vulnerable_contracts[snippet_file]["clones"].append(sos)
@@ -112,6 +122,8 @@ def collect_clone_mapping(snippet_to_contract):
                     
 def eliminate_impossible_causal_clones():
     global of, excludenr
+    size = len(vulnerable_contracts)
+    current = 0
     for k, v in vulnerable_contracts.items():
         incorrect_clones = []
         of += len(v["clones"])
@@ -122,6 +134,10 @@ def eliminate_impossible_causal_clones():
                     excludenr += 1
                     incorrect_clones.append(clone)
         v["clones"] = [clone for clone in v["clones"] if clone not in incorrect_clones]
+        v["clones"] = remove_dublicates(v["clones"])
+        current += 1
+        if current % 500 == 0:
+            print("Done: " + str(current) + " / "+ str(size))
     
                     
                 
@@ -136,6 +152,67 @@ def collect_statistics():
             if not clone in clone_checks:
                 clone_checks[clone] = set()
             clone_checks[clone] = clone_checks[clone].union(set(v["findings"]))
+
+def comment_remover(text):
+    def replacer(match):
+        s = match.group(0)
+        if s.startswith('/'):
+            return " " # note: a space and not an empty string
+        else:
+            return s
+    pattern = re.compile(
+        r'//.*?$|/\*.*?\*/|\'(?:\\.|[^\\\'])*\'|"(?:\\.|[^\\"])*"',
+        re.DOTALL | re.MULTILINE
+    )
+    return re.sub(pattern, replacer, text)
+            
+def remove_dublicates(candidates):
+    dubfree = []
+    basepath = sys.argv[3]
+    candlen = len(candidates)
+    while candidates:
+        candidate = candidates.pop(0)
+        isDub=False
+        for ref in dubfree:
+            if codecmp(basepath + candidate, basepath + ref):
+            #if filecmp.cmp(basepath + candidate, basepath + ref, shallow=False):
+                isDub=True
+                break
+        if not isDub:
+            dubfree.append(candidate)
+    return dubfree
+    
+def codecmp(a,b):
+    if a+b in dublicates:
+        return True
+    #with open(a) as f:
+    #    at = ''.join(comment_remover(f.read()).split())
+    #    with open(b) as g:
+    #        bt = ''.join(comment_remover(g.read()).split())
+    if is_equal(a,b):
+        dublicates.add(a+b)
+        dublicates.add(b+a)  
+        return True
+    return False
+
+def is_equal(a, b):
+    if not a in normalized_file_hash:
+        with open(a) as f:
+            normalized = ''.join(comment_remover(f.read()).split())
+            normalized_file_content[a] = normalized
+            normalized_file_hash[a] = sha512(normalized)
+    if not b in normalized_file_hash:
+        with open(b) as g:
+            normalized = ''.join(comment_remover(g.read()).split())
+            normalized_file_content[b] = normalized
+            normalized_file_hash[b] = sha512(normalized)
+    
+    return normalized_file_hash[a] == normalized_file_hash[b] and normalized_file_content[a] == normalized_file_content[b]
+
+def sha512(data):
+    return hashlib.sha256(data.encode('utf-8')).digest()
+
+
     
     
     
@@ -154,7 +231,7 @@ collect_clone_mapping(sys.argv[2] + "/ethereum_stack_exchange_matches" )
 collect_clone_mapping(sys.argv[2] + "/stack_overflow_matches")
 print("Of which snippets have clones: " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])))
 eliminate_impossible_causal_clones()
-print("After filtering for timestamp " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])) + " of clones remain.")
+print("After filtering for timestamp " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])) + " of snippets remain.")
 collect_statistics()
 # TODO Print statistics
 # Number of snippets with vuln, number of snippets that also have a vulnerable clone.
@@ -170,8 +247,14 @@ print(nr / len(clone_checks))
 
 print(check_frequency)
 
+distinct = set([clone.split("_")[-1] for clone in clone_checks])
+print("nr names: " + str(len(distinct)))
 with open('snippets_to_checks.json', 'w') as f:
     json.dump(vulnerable_contracts, f, cls=SetEncoder)
     
 with open('contract_checks_verify.json', 'w') as f:
     json.dump(clone_checks, f, cls=SetEncoder)
+    
+with open('contract_to_verify.txt', 'w') as f:
+    for contract in clone_checks:
+        f.write(sys.argv[3] + contract + "\n")
