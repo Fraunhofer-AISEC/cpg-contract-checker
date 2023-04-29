@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+78.95,90.62,0xab60CcAC0d4157c2b03e5D883bDbe60317992f58,smart-contract-sanctuary-ethereum/contracts/mainnet/ab/ab60CcAC0d4157c2b03e5D883bDbe60317992f58_LodeXToken.sol
+78.95,90.62,0x897f505d9637622219e4687eC1A71b4Acf204816,smart-contract-sanctuary-ethereum/contracts/mainnet/89/897f505d9637622219e4687eC1A71b4Acf204816_LodeXToken.sol
+78.95,90.62,0x69CF1e63090Acf1e1E16ec0066055f8973fc9Ec8,smart-contract-sanctuary-ethereum/contracts/mainnet/69/69CF1e63090Acf1e1E16ec0066055f8973fc9Ec8_LodeXToken.sol
+78.95,90.00,0x2fF1c56BA5dE00078e4279b793ae4A595dD6Bbc0,smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2fF1c56BA5dE00078e4279b793ae4A595dD6Bbc0_HomeGate.sol

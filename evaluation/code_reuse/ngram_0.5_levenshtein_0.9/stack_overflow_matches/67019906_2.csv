@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,96.67,0xb29504F3C1ab32b43FcFbFd59f7d5462436fFF7f,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b29504F3C1ab32b43FcFbFd59f7d5462436fFF7f_UniWallet.sol
+100.00,96.67,0xe27bc35e04bf29BEA2aeA270F90B23726Eaf22B8,smart-contract-sanctuary-ethereum/contracts/mainnet/e2/e27bc35e04bf29BEA2aeA270F90B23726Eaf22B8_UniWallet.sol
+100.00,96.67,0x242836a2e8D34D72e75C2bfC5F8b36B2409956B8,smart-contract-sanctuary-ethereum/contracts/mainnet/24/242836a2e8D34D72e75C2bfC5F8b36B2409956B8_UniWallet.sol

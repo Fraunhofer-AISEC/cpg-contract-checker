@@ -1,0 +1,9 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+85.71,94.44,0xA546f56929631F3F48Eec4B392660A2663312813,smart-contract-sanctuary-ethereum/contracts/mainnet/a5/A546f56929631F3F48Eec4B392660A2663312813_SING.sol
+85.71,94.44,0xD52CFDb7893086a411Ebf40F9215Ee2582570c50,smart-contract-sanctuary-ethereum/contracts/mainnet/d5/D52CFDb7893086a411Ebf40F9215Ee2582570c50_SING.sol
+85.71,94.44,0x4e237342a63F65c5FBa9AfFE9187f1bd4385876B,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e237342a63F65c5FBa9AfFE9187f1bd4385876B_DavidToken.sol
+85.71,94.44,0x9ccEd7b27bcBBB7C6a729cd4146b72b94950a7f3,smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9ccEd7b27bcBBB7C6a729cd4146b72b94950a7f3_FracEcosystemToken.sol
+82.86,97.22,0xd2b411c5e00a9450b2c0a09402158967f8494dfc,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d2b411c5e00a9450b2c0a09402158967f8494dfc_ShibaBlastar.sol
+77.14,91.67,0x963e8A136e917DEdDec9f46666FED47Bfa14b387,smart-contract-sanctuary-ethereum/contracts/mainnet/96/963e8A136e917DEdDec9f46666FED47Bfa14b387_REIN.sol
+77.14,91.67,0xbea16e7ad33a4e98092cf5335f1dc45a74f5102b,smart-contract-sanctuary-ethereum/contracts/mainnet/be/bea16e7ad33a4e98092cf5335f1dc45a74f5102b_TMR.sol
+77.14,91.67,0xFD967715C5654c04461CDD0Cc2B173Ef718ecF76,smart-contract-sanctuary-ethereum/contracts/mainnet/fd/FD967715C5654c04461CDD0Cc2B173Ef718ecF76_Austin.sol

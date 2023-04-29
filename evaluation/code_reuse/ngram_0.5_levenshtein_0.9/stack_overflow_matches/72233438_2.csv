@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+91.43,94.74,0xe11af478af241fab926f4c111d50139ae003f7fd,smart-contract-sanctuary-ethereum/contracts/mainnet/e1/e11af478af241fab926f4c111d50139ae003f7fd_Grill.sol
+91.43,94.74,0xe1e7b6ec1342445feaf3184edde5d96887a8ab0d,smart-contract-sanctuary-ethereum/contracts/mainnet/e1/e1e7b6ec1342445feaf3184edde5d96887a8ab0d_Grill.sol
+88.57,92.11,0x06BCab7137b300dA5A4d0Ce047a71F4e7192c1a3,smart-contract-sanctuary-ethereum/contracts/mainnet/06/06BCab7137b300dA5A4d0Ce047a71F4e7192c1a3_CurioGlobes.sol

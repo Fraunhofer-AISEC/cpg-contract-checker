@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+85.19,91.91,0x51180f7e497caa9eb91bd76c77c3a5ea1cf559ec,smart-contract-sanctuary-ethereum/contracts/mainnet/51/51180f7e497caa9eb91bd76c77c3a5ea1cf559ec_GTGGame.sol
+85.19,91.91,0xdfa7d990be64334df934eef4eb29974d167e814d,smart-contract-sanctuary-ethereum/contracts/mainnet/df/dfa7d990be64334df934eef4eb29974d167e814d_Mines.sol
+81.48,91.91,0xF783D93F4065a6349819a426d6b56D265687DDED,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/F783D93F4065a6349819a426d6b56D265687DDED_CedarPaymentSplitterV0Factory.sol
+81.48,91.91,0xF8C616bDEc0e6B9FE30209405E4D89CaeC3364F0,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/F8C616bDEc0e6B9FE30209405E4D89CaeC3364F0_CozyInvestRibbon.sol

@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+82.35,90.28,0x88a23aabb0eb055b6c5ee5df390b986ad7bf1c99,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88a23aabb0eb055b6c5ee5df390b986ad7bf1c99_contracts_openzeppelin-solidity_contracts_examples_SampleCrowdsale.sol
+82.35,100.00,0x07baC35846e5eD502aA91AdF6A9e7aA210F2DcbE,smart-contract-sanctuary-ethereum/contracts/mainnet/07/07baC35846e5eD502aA91AdF6A9e7aA210F2DcbE_BridgeToken.sol
+76.47,94.44,0x8aC32F0a635a0896a8428A9c31fBf1AB06ecf489,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8aC32F0a635a0896a8428A9c31fBf1AB06ecf489_xROOK.sol

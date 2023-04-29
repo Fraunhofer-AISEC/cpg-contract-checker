@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+87.50,97.56,0xa877302a06b2f6f38e87da4df8d6b40a2768d6c7,smart-contract-sanctuary-ethereum/contracts/mainnet/a8/a877302a06b2f6f38e87da4df8d6b40a2768d6c7_BctTokenAirdrop.sol
+87.50,97.56,0xf8928417f49e520e201576cf34019059c427a75f,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f8928417f49e520e201576cf34019059c427a75f_HyperionAirdrop.sol
+87.50,95.12,0xc9ff82c958ec92dac048b6fb804c3f7517603c89,smart-contract-sanctuary-ethereum/contracts/mainnet/c9/c9ff82c958ec92dac048b6fb804c3f7517603c89_VolAirCoinCrowdsale.sol
+85.00,90.96,0xa357d572b77d321a9be38f9c9080fc26f16ef340,smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a357d572b77d321a9be38f9c9080fc26f16ef340_NuMoneyCoin.sol
