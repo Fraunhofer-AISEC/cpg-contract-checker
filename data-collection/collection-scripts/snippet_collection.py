@@ -112,7 +112,7 @@ def collect_clone_mapping(snippet_to_contract):
                     clone = []
                     line = mapping.readline()
                     while line:
-                        sos = line.split(",")[3].strip()
+                        sos = line.split(",")[3].strip().replace("$","DOLLAR")
                         
                         if not sos.startswith("File Path"):
                             vulnerable_contracts[snippet_file]["clones"].append(sos)
