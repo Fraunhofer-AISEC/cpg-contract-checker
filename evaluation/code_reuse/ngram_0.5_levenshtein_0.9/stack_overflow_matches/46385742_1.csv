@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+92.00,100.00,0x03f725ffec59473805649b621ff085dd3760bc91,smart-contract-sanctuary-ethereum/contracts/mainnet/03/03f725ffec59473805649b621ff085dd3760bc91_DTWDToken.sol
+92.00,92.31,0x384Eab89048520e35309E48Ea933D845C495A613,smart-contract-sanctuary-ethereum/contracts/mainnet/38/384Eab89048520e35309E48Ea933D845C495A613_Liquidator.sol
+92.00,92.31,0x1cc72efBDfB08803Bdda911aD895A861E1f91c78,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1cc72efBDfB08803Bdda911aD895A861E1f91c78_Liquidator.sol
+92.00,92.31,0x48fa7528bFD6164DdF09dF0Ed22451cF59c84130,smart-contract-sanctuary-ethereum/contracts/mainnet/48/48fa7528bFD6164DdF09dF0Ed22451cF59c84130_Liquidator.sol
+88.00,92.31,0x99dB6b517683237dE9C494bbd17861f3608F3585,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99dB6b517683237dE9C494bbd17861f3608F3585_JBETHERC20ProjectPayerDeployer.sol

@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.00,91.25,0x3c12f7d8cbfe49ec341c80cb0e5517638e8f0550,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3c12f7d8cbfe49ec341c80cb0e5517638e8f0550_VesperWBTCPlus.sol
+90.00,91.25,0x1b48D2ea2F9b868Ea2f276b431f49879Ae58082d,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b48D2ea2F9b868Ea2f276b431f49879Ae58082d_VesperWBTCPlus.sol
+87.50,92.50,0x5FC22AA87851C800387E6c2B776613a962F6BCa9,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5FC22AA87851C800387E6c2B776613a962F6BCa9_FlapperMassBidFactory.sol

@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.48,91.13,0x6E96Fb1f6D8cb1463E018A2Cc6E09C64eD474deA,smart-contract-sanctuary-ethereum/contracts/mainnet/6e/6E96Fb1f6D8cb1463E018A2Cc6E09C64eD474deA_Mandelbrot.sol
+85.71,91.36,0x9ac63e7a52247b05ac878f1ede7b1e1285a54843,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9ac63e7a52247b05ac878f1ede7b1e1285a54843_BountyHunter.sol
+85.71,91.36,0x99c65c81c15cB84DEEC9809fDF755C286B280087,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99c65c81c15cB84DEEC9809fDF755C286B280087_BountyHunter.sol
+85.71,91.36,0x805d6f1827e35a60c4b6d63fd04281bfbc2c3823,smart-contract-sanctuary-ethereum/contracts/mainnet/80/805d6f1827e35a60c4b6d63fd04281bfbc2c3823_BountyHunter.sol

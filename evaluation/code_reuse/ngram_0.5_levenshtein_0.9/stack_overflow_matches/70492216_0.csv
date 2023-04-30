@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+86.15,93.19,0x93317E87a3a47821803CAADC54Ae418Af80603DA,smart-contract-sanctuary-ethereum/contracts/mainnet/93/93317E87a3a47821803CAADC54Ae418Af80603DA_CameoPass.sol
+83.08,90.54,0xA45E9b86F929A32A91Ec81e8F9362f524B058dC8,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/A45E9b86F929A32A91Ec81e8F9362f524B058dC8_RNFT.sol
+80.00,91.56,0xef48df1d388aa7222da0b83d8b7cb265ef8d0b4a,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/ef48df1d388aa7222da0b83d8b7cb265ef8d0b4a_SporoRabbit.sol
+78.46,90.03,0x32A984F84E056b6E553cD0C3729fDDd2d897769c,smart-contract-sanctuary-ethereum/contracts/mainnet/32/32A984F84E056b6E553cD0C3729fDDd2d897769c_MillionPieces.sol
+76.92,90.54,0x82cE91C3e59F360c475Deae9d99C11aae02B7E00,smart-contract-sanctuary-ethereum/contracts/mainnet/82/82cE91C3e59F360c475Deae9d99C11aae02B7E00_ERC1155.sol
+76.92,91.35,0x39648F3d1BCA7CaE541b7b0389956a5f22Ea2E11,smart-contract-sanctuary-ethereum/contracts/mainnet/39/39648F3d1BCA7CaE541b7b0389956a5f22Ea2E11_PITPrizes.sol

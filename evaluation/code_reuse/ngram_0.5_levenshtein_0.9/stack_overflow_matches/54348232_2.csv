@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.36,95.58,0x9fd317e712b86cc59d411690bca66a48ce6498e7,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9fd317e712b86cc59d411690bca66a48ce6498e7_AlphaStaking.sol
+90.36,95.58,0x2aa297c3208bd98a9a477514d3c80ace570a6dee,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2aa297c3208bd98a9a477514d3c80ace570a6dee_TransparentUpgradeableProxyImpl.sol
+90.36,90.15,0x184b6f31aeAa6a19Eb207dFeA01F4289629e0f0f,smart-contract-sanctuary-ethereum/contracts/mainnet/18/184b6f31aeAa6a19Eb207dFeA01F4289629e0f0f_FiveKMKMT.sol
+90.36,95.58,0xd0Df5A352D74A746754C592a6277c9060A7c9c87,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d0Df5A352D74A746754C592a6277c9060A7c9c87_DefiRound.sol
