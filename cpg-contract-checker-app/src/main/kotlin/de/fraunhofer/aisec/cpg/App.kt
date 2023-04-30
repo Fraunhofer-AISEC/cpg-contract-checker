@@ -218,22 +218,16 @@ class App : Callable<Int> {
             val b = Benchmark(App::class.java, "Saving nodes to database")
             result.translationUnits.forEach {
                 println("Saving file:" + it.name)
-                session.save(it)
             }
 
             val nodes = mutableListOf<Node>()
             nodes.addAll(result.additionalNodes)
             nodes.addAll(result.translationUnits)
 
-            session.save(result.translationUnits)
-            result.translationUnits.forEach {
-                log.info(it.name)
-                session.save(it)
-                                                                                                                                                                                                                                                                                                                                                                                        }
-
-            b.stop()
+            session.save(nodes)
 
             transaction.commit()
+            b.stop()
         }
 
         session.clear()
