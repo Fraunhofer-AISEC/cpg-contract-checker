@@ -172,11 +172,12 @@ class App : Callable<Int> {
     }
 
     fun updateChecks(filename: String){
+        val filenameMappingNormalized = "smart-contract-sanctuary-ethereum/contracts/mainnet/" + filename.substringAfterLast("/")
         checks.addAll(avChecks)
         val checkfile =object {}.javaClass.getResourceAsStream("/contract_checks_verify.json")?.bufferedReader()?.readText()
         var jsonObject = JSONTokener(checkfile).nextValue() as JSONObject
-        if(jsonObject.has(filename.substringAfter("source-code/"))){
-            var jsonChecks = jsonObject.getJSONArray(filename.substringAfter("source-code/"))
+        if(jsonObject.has(filenameMappingNormalized)){
+            var jsonChecks = jsonObject.getJSONArray(filenameMappingNormalized)
             jsonChecks?.let {
                 optInChecks = ""
                 for(i in 0 until jsonChecks.length()){
