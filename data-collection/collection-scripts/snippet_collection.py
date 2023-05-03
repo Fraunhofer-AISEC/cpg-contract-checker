@@ -23,9 +23,45 @@ checkmapping = {
   "TXOriginCheck": "Access control enforcement through transactions origin is vulnerable to phishing attacks "
 }
 
+validated_checks = {
+  "AccessControlLogicCheck": [],
+  "AccessControlSelfdestructCheck": [],
+  "AddressPaddingCheck": [],
+  "BadRandomnessCheck": [],
+  "CallReturnCheck": [],
+  "DefaultProxyDelegateCheck": [],
+  "DOSThroughExhaustionCheck": [],
+  "FrontRunningCheck": [],
+  "LocalWriteToStorageCheck": [],
+  "OverUnderflowCheck": [],
+  "ReentrancyCheck": [],
+  "TimeManipulationCheck": [],
+  "TXOriginCheck": [],
+}
+
+snippets_by_check = {
+  "AccessControlLogicCheck": [],
+  "AccessControlSelfdestructCheck": [],
+  "AddressPaddingCheck": [],
+  "BadRandomnessCheck": [],
+  "CallReturnCheck": [],
+  "DefaultProxyDelegateCheck": [],
+  "DOSThroughExhaustionCheck": [],
+  "FrontRunningCheck": [],
+  "LocalWriteToStorageCheck": [],
+  "OverUnderflowCheck": [],
+  "ReentrancyCheck": [],
+  "TimeManipulationCheck": [],
+  "TXOriginCheck": [],
+}
+
+clone_reverse_lookup = {}
+
 check_frequency = {}
 
 vulnerable_contracts = {}
+
+validated_contracts = {}
 
 clone_checks = {}
 
@@ -59,6 +95,20 @@ def parse_vulnerabillities(dirname, filename):
         if(findings):
             entry = {"findings": findings, "clones": []}
             vulnerable_contracts[snippet_name] = entry
+            
+def parse_validations(dirname, filename):
+    snippet_folder = os.path.basename(os.path.normpath(dirname))
+    snippet_name = snippet_folder + ".sol"
+    with open(os.path.join(dirname, filename)) as f:
+        findings = []
+        content = f.read()
+        for k,v in checkmapping.items():
+            if v in content:
+                findings.append(k)
+                validated_checks[k].append(snippet_name)
+        if(findings):
+            entry = {"findings": findings}
+            validated_contracts[snippet_name] = entry
     
     
 def collect_timestamps():
@@ -112,10 +162,15 @@ def collect_clone_mapping(snippet_to_contract):
                     clone = []
                     line = mapping.readline()
                     while line:
-                        sos = line.split(",")[3].strip().replace("$","DOLLAR")
+                        sos = line.split(",")[3].strip()
                         
                         if not sos.startswith("File Path"):
                             vulnerable_contracts[snippet_file]["clones"].append(sos)
+                            shortened = sos.split("/")[-1].replace("$","DOLLAR")
+                            if not shortened in clone_reverse_lookup:
+                                clone_reverse_lookup[shortened] = [snippet_name]
+                            else:
+                                clone_reverse_lookup[shortened].append(snippet_name)
                             
                         line = mapping.readline()
 
@@ -148,6 +203,7 @@ def collect_statistics():
     for k,v in vulnerable_contracts.items():
         for check in v["findings"]:
             check_frequency[check] += 1
+            snippets_by_check[check].append(k)
         for clone in v["clones"]:
             if not clone in clone_checks:
                 clone_checks[clone] = set()
@@ -211,6 +267,39 @@ def is_equal(a, b):
 
 def sha512(data):
     return hashlib.sha256(data.encode('utf-8')).digest()
+    
+    
+def parse_validation_results(resultpath):
+    contracts_with_results = 0
+    for root, d_names, f_names in os.walk(resultpath):
+        for f in f_names:
+            if f.endswith("result.log"):
+                fname.append(os.path.join(root, f))
+                parse_validations(root, f)
+                contracts_with_results += 1
+    
+    
+def print_review_sample():
+    # print(clone_reverse_lookup)
+    with open('review_sample.txt', 'w') as f:
+        for k,v in validated_checks.items():
+            f.write(k+"\n")
+            i = 0
+            snippets = []
+            contracts = []
+            for contract in v:
+                if len(snippets) >= 20:
+                    break
+                for snippet in clone_reverse_lookup[contract.split("/")[-1].replace("$","DOLLAR")]:
+                    if not contract in contracts:
+                        if snippet + ".sol" in snippets_by_check[k]:
+                            if not snippet in snippets:
+                                i += 1
+                                snippets.append(snippet)
+                                contracts.append(contract)
+                                f.write(snippet + ".sol [ ]; is clone []; " + contract + " []\n")
+                            
+            f.write("\n")
 
 
     
@@ -230,7 +319,7 @@ collect_timestamps()
 collect_clone_mapping(sys.argv[2] + "/ethereum_stack_exchange_matches" )
 collect_clone_mapping(sys.argv[2] + "/stack_overflow_matches")
 print("Of which snippets have clones: " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])))
-eliminate_impossible_causal_clones()
+# eliminate_impossible_causal_clones()
 print("After filtering for timestamp " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])) + " of snippets remain.")
 collect_statistics()
 # TODO Print statistics
@@ -249,6 +338,10 @@ print(check_frequency)
 
 distinct = set([clone.split("_")[-1] for clone in clone_checks])
 print("nr names: " + str(len(distinct)))
+for k,v in vulnerable_contracts.items():
+    v["clones"] = [clone.replace("$","DOLLAR") for clone in v["clones"]]
+
+
 with open('snippets_to_checks.json', 'w') as f:
     json.dump(vulnerable_contracts, f, cls=SetEncoder)
     
@@ -257,4 +350,12 @@ with open('contract_checks_verify.json', 'w') as f:
     
 with open('contract_to_verify.txt', 'w') as f:
     for contract in clone_checks:
-        f.write(sys.argv[3] + contract + "\n")
+        f.write(sys.argv[3] + contract.replace("$","DOLLAR") + "\n")
+        
+if sys.argv[4]:
+    parse_validation_results(sys.argv[4])
+    print_review_sample()
+    
+print("Number of vulnerbale code clones: " + str(len(validated_contracts)))
+    
+print({k: len(v) for k,v in validated_checks.items()})
