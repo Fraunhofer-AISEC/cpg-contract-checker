@@ -1,4 +1,4 @@
-match p=(field:FieldDeclaration)-[:DFG*]->()<-[:BASE*]-(b:CallExpression)-[:EOG*]->(writing)-[:DFG]->(field)
+match p=(field:FieldDeclaration)-[:DFG*10]->()<-[:BASE*]-(b:CallExpression)-[:EOG*]->(writing)-[:DFG]->(field)
 where not exists{(b)<-[:EOG*]-(:ConstructorDeclaration)}
 and (not exists ((b)-[:INVOKES]->()) or exists {(b)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}})
 and not exists {

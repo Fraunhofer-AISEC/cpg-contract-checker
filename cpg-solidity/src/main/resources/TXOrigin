@@ -1,6 +1,6 @@
 match (b1)<-[:EOG]-(n)-[:EOG]->(b2)
-where b1 <> b2 and exists (({code : 'tx.origin'})-[:DFG*]->(n)) and (
-    exists ((:FieldDeclaration)-[:DFG*]->(n))
-    or exists ((:FieldDeclaration)<-[:REFERS_TO]-()-[:DFG*]->(n))
+where b1 <> b2 and exists (({code : 'tx.origin'})-[:DFG*10]->(n)) and (
+    exists ((:FieldDeclaration)-[:DFG*10]->(n))
+    or exists ((:FieldDeclaration)<-[:REFERS_TO]-()-[:DFG*10]->(n))
 )
 return distinct n as write, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file

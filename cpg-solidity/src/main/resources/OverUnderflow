@@ -4,20 +4,20 @@ and exists {(b)<-[:DFG*10]-(param:ParamVariableDeclaration)<--(argf:FunctionDecl
 and(
     (
     exists{
-        (b)-[d:DFG*]->(:FieldDeclaration)
+        (b)-[d:DFG*10]->(:FieldDeclaration)
     } or exists {
-        (b)-[d:DFG*]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*]-(:FieldDeclaration)
+        (b)-[d:DFG*10]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*10]-(:FieldDeclaration)
         where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
     }or exists {
-        (b)-[d:DFG*]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*]-(:FieldDeclaration)
+        (b)-[d:DFG*10]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*10]-(:FieldDeclaration)
         where bin.operatorCode in ['++','--']
 
     } or exists{
-        (b)-[:DFG*]->()<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
+        (b)-[:DFG*10]->()<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
     } or exists{
         (b)<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
     }or exists {
-        (b)-[:DFG*]->()<-[:VALUE]-(:SpecifiedExpression)
+        (b)-[:DFG*10]->()<-[:VALUE]-(:SpecifiedExpression)
     }or exists {
         (b)<-[:VALUE]-(:SpecifiedExpression)
     }
@@ -26,8 +26,8 @@ and(
     where branch in nodes(p) and not exists((l)-[:EOG]->())
         and (not b in nodes(bpath) or 'Rollback' in labels(l))
         and not exists {
-            (dfOrigin)-[:DFG*]->(b) where not exists(()-[:DFG]->(dfOrigin)) and not exists ((dfOrigin)-[:DFG*]->(branch))
-        } and not exists{(b)-[:DFG*]->(branch)}
+            (dfOrigin)-[:DFG*10]->(b) where not exists(()-[:DFG]->(dfOrigin)) and not exists ((dfOrigin)-[:DFG*]->(branch))
+        } and not exists{(b)-[:DFG*10]->(branch)}
 }
 
 )

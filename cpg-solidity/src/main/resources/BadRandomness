@@ -1,14 +1,14 @@
 match (r)
 where ((r:DeclaredReferenceExpression or r:MemberExpression)  and r.code IN ["block.timestamp", "block.number", "block.difficulty", "block.coinbase"]
 or (r:CallExpression and r.name in ['blockhash']))
-and (exists { (r)-[:DFG*]->(:ReturnStatement)}
+and (exists { (r)-[:DFG*10]->(:ReturnStatement)}
 or exists{ // This should also capture calls to send and transfer
-    (r)-[:DFG*]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}
+    (r)-[:DFG*10]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}
 
 } or exists {
-    (r)-[:DFG*]->(:FieldDeclaration)
+    (r)-[:DFG*10]->(:FieldDeclaration)
 } or exists {
-    (r)-[:DFG*]->(branch)-[:EOG]->(th)-[:EOG*]->(interesting) where exists {(branch)-[:EOG]->(el) where el <> th
+    (r)-[:DFG*10]->(branch)-[:EOG]->(th)-[:EOG*]->(interesting) where exists {(branch)-[:EOG]->(el) where el <> th
     and (interesting:Rollback or interesting:CallExpression)
     and not exists ((el)-[:EOG*]->(interesting))}
 }
