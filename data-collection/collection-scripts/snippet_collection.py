@@ -319,12 +319,10 @@ collect_timestamps()
 collect_clone_mapping(sys.argv[2] + "/ethereum_stack_exchange_matches" )
 collect_clone_mapping(sys.argv[2] + "/stack_overflow_matches")
 print("Of which snippets have clones: " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])))
-# eliminate_impossible_causal_clones()
+eliminate_impossible_causal_clones()
 print("After filtering for timestamp " + str(len([snip for snip in vulnerable_contracts if vulnerable_contracts[snip]["clones"]])) + " of snippets remain.")
 collect_statistics()
-# TODO Print statistics
-# Number of snippets with vuln, number of snippets that also have a vulnerable clone.
-# avg number of checks to rerun per clone file, appearances of each vulnerbaility in vuln snippets
+
 
 print(str(excludenr) + " of " + str(of) +" clone relations were not valid")
 print("Number of clones to analyze: " + str(len(clone_checks)))
@@ -358,4 +356,10 @@ if sys.argv[4]:
     
 print("Number of vulnerbale code clones: " + str(len(validated_contracts)))
     
-print({k: len(v) for k,v in validated_checks.items()})
+print({k: len(set(v)) for k,v in validated_checks.items()})
+
+prob_snippets = set()
+for contract in validated_contracts:
+    prob_snippets.update(clone_reverse_lookup[contract])
+
+print("Nr. of problematic snippets: " + str(len(prob_snippets)))
