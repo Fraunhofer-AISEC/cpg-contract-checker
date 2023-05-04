@@ -1,6 +1,6 @@
 match p=(f:FunctionDeclaration)-[:EOG*]->(b:BinaryOperator)-[:EOG*]->(last)
 where not exists((last)-[:EOG*]->()) and b.operatorCode in ['+','+=','-','-=','*','*=']
-and exists {(argf:FunctionDeclaration)-->(param:ParamVariableDeclaration)-[:DFG*]->(b) where not 'ConstructorDeclaration' in labels(f)}
+and exists {(b)<-[:DFG*10]-(param:ParamVariableDeclaration)<--(argf:FunctionDeclaration) where not 'ConstructorDeclaration' in labels(f)}
 and(
     (
     exists{
