@@ -13,7 +13,8 @@ class AccessControlSelfdestructCheck : Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query =object {}.javaClass.getResourceAsStream("/AccessControlSelfdestruct")?.bufferedReader()?.readText()
+        var query =object {}.javaClass.getResourceAsStream("/AccessControlSelfdestruct")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {

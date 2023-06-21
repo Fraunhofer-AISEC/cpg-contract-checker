@@ -3,7 +3,7 @@ where (b:ForStatement or b:WhileStatement or b:DoStatement or b:ForEachStatement
     or exists{(exp:CallExpression) where exp in nodes(p) and not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}}
     ) and  ( // Here for now we choose a number as threshhold to specify what to many iterations are
     exists {(l:Literal)-[:DFG]->(cond:BinaryOperator) where cond.operatorCode in ['<','<=','>','>='] and l.value > 100}
-    or exists { (cond)<-[:DFG*10]-(userC:ParamVariableDeclaration)<-[:PARAMETERS]-(f:FunctionDeclaration) where not 'ConstructorDeclaration' in labels(f)}
+    or exists { (cond)<-[:DFG*#]-(userC:ParamVariableDeclaration)<-[:PARAMETERS]-(f:FunctionDeclaration) where not 'ConstructorDeclaration' in labels(f)}
     )
 // or exists {(cond)<-[:DFG*]-(:MemberExpression {name: 'length'})}
 return  distinct  b as call, b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file, b.name as name

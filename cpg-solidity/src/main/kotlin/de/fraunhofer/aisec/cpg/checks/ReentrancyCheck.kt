@@ -14,7 +14,8 @@ class ReentrancyCheck: Check() {
     }
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
-        val baseReentrency = object {}.javaClass.getResourceAsStream("/Reentrancy")?.bufferedReader()?.readText()
+        var baseReentrency = object {}.javaClass.getResourceAsStream("/Reentrancy")?.bufferedReader()?.readText()
+        baseReentrency = configurePaths(baseReentrency)
         var findings: MutableList<PhysicalLocation> = mutableListOf()
             transaction.run(baseReentrency).let { result ->
             while (result.hasNext()) {

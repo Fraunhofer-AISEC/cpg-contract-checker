@@ -5,6 +5,7 @@ import SolidityParser
 import de.fraunhofer.aisec.cpg.TranslationConfiguration
 import de.fraunhofer.aisec.cpg.frontends.LanguageFrontend
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.ModifierDefinition
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.PragmaDeclaration
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Rollback
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.graph.TypeManager
@@ -50,6 +51,8 @@ class SolidityLanguageFrontend(
 
     val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
 
+    val pragmas: MutableList<PragmaDeclaration> = mutableListOf()
+
     override fun parse(file: File): TranslationUnitDeclaration {
        TypeManager.getInstance().setLanguageFrontend(this)
 
@@ -75,6 +78,11 @@ class SolidityLanguageFrontend(
         this.scopeManager.resetToGlobal(tu)
 
         this.scopeManager.lang = this
+
+        for(pragma in unit.pragmaDirective()) {
+            var pragmaCPG = this.declarationHandler.handle(pragma) as PragmaDeclaration
+            pragmas.add(pragmaCPG)
+        }
 
         for(contract in unit.contractDefinition()) {
             var decl = this.declarationHandler.handle(contract)

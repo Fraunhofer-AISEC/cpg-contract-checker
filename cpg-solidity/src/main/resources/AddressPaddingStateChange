@@ -1,7 +1,7 @@
 match p=({name: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(last)
     where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)}) 
         and exists{
-        (f)-[vulna:PARAMETERS]->(vuln)-[:DFG*10]->(m)-[:DFG*10]->(state:FieldDeclaration)
+        (f)-[vulna:PARAMETERS]->(vuln)-[:DFG*#]->(m)-[:DFG*#]->(state:FieldDeclaration)
             where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > vulna.INDEX} and adr.INDEX < vulna.INDEX
             and not exists{
                 ({code : 'msg.data.length'})-[:DFG*]->(n)

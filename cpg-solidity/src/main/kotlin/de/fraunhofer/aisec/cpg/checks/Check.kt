@@ -28,4 +28,11 @@ abstract class Check {
         }
         return -1
     }
+
+    fun configurePaths(query: String?): String? {
+        query?.let {
+            return query.replace("*#", "*")
+        }
+        return null
+    }
 }

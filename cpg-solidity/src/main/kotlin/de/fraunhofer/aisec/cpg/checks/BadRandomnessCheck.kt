@@ -11,7 +11,8 @@ class BadRandomnessCheck  : Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         val findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query = object {}.javaClass.getResourceAsStream("/BadRandomness")?.bufferedReader()?.readText()
+        var query = object {}.javaClass.getResourceAsStream("/BadRandomness")?.bufferedReader()?.readText()
+        query = configurePaths(query)
         transaction.run(query).let { result ->
             while (result.hasNext()) {
                 val row: Map<String, Any> = result.next().asMap()
