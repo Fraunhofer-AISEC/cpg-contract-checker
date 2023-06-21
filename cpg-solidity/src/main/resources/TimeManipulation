@@ -1,13 +1,13 @@
 match (r:DeclaredReferenceExpression)
 where r.code in ['now','block.timestamp']
-and (exists { (r)-[:DFG*]->(:ReturnStatement)}
+and (exists { (r)-[:DFG*#]->(:ReturnStatement)}
 or exists{ // This should also capture calls to send and transfer
-    (r)-[:DFG*]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}
+    (r)-[:DFG*#]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}
 
 } or exists {
-    (r)-[:DFG*]->(:FieldDeclaration)
+    (r)-[:DFG*#]->(:FieldDeclaration)
 } or exists {
-    (r)-[:DFG*]->(branch)-[:EOG]->(th)-[:EOG*]->(interesting) where exists {(branch)-[:EOG]->(el) where el <> th
+    (r)-[:DFG*#]->(branch)-[:EOG]->(th)-[:EOG*]->(interesting) where exists {(branch)-[:EOG]->(el) where el <> th
     and (interesting:Rollback or interesting:CallExpression)
     and not exists ((el)-[:EOG*]->(interesting))}
 }

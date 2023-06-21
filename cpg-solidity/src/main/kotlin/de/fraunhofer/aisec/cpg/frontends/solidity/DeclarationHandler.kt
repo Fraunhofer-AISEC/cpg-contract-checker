@@ -3,10 +3,13 @@ package de.fraunhofer.aisec.cpg.frontends.solidity
 import SolidityParser
 import de.fraunhofer.aisec.cpg.frontends.Handler
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.ModifierDefinition
+import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.PragmaDeclaration
 import de.fraunhofer.aisec.cpg.graph.NodeBuilder
 import de.fraunhofer.aisec.cpg.graph.declarations.*
 import de.fraunhofer.aisec.cpg.graph.statements.CompoundStatement
 import de.fraunhofer.aisec.cpg.graph.statements.Statement
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.BinaryOperator
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.DeclaredReferenceExpression
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
@@ -27,6 +30,32 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         map.put(SolidityParser.VariableDeclarationContext::class.java) { handleVariableDeclaration(it as SolidityParser.VariableDeclarationContext) }
         map.put(SolidityParser.StructDefinitionContext::class.java) { handleStructDefinition(it as SolidityParser.StructDefinitionContext) }
         map.put(SolidityParser.ModifierDefinitionContext::class.java) { handleModifierDefinition(it as SolidityParser.ModifierDefinitionContext) }
+        map.put(SolidityParser.PragmaDirectiveContext::class.java) {handlePragmaDirectiveContext(it as SolidityParser.PragmaDirectiveContext)}
+    }
+
+    private fun handlePragmaDirectiveContext(ctx: SolidityParser.PragmaDirectiveContext): Declaration {
+        val d:PragmaDeclaration = PragmaDeclaration()
+        d.name = ctx.pragmaName().text
+        ctx.pragmaValue().version()?.let {
+
+            for( versionC in it.versionConstraint()){
+                val b = BinaryOperator()
+                b.operatorCode = "="
+                versionC.versionOperator()?.let { b.operatorCode = it.text }
+                // Capture ^ under ==
+                versionC.VersionLiteral()?.let { b.rhs =  NodeBuilder.newLiteral(it.text, TypeParser.createFrom("string", true), it.text) }
+                versionC.DecimalNumber()?.let { b.rhs =  NodeBuilder.newLiteral(it.text, TypeParser.createFrom("string", true), it.text) }
+
+                b.lhs = NodeBuilder.newDeclaredReferenceExpression("version",
+                    UnknownType.getUnknownType(),
+                    this.lang.getCodeFromRawNode(ctx))
+
+                d.expressions.add(b)
+            }
+
+        }
+
+        return d
     }
 
     private fun handleStructDefinition(ctx: SolidityParser.StructDefinitionContext): Declaration {

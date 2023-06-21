@@ -14,6 +14,7 @@ class DOSCheck : Check() {
 
         // Adding secondary query that checks if one of our state changes can be influenced by a padded value
         var query =object {}.javaClass.getResourceAsStream("/DOSThroughExhaustion")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
@@ -24,6 +25,7 @@ class DOSCheck : Check() {
         }
         // A query that finds if we make an external call and potentially forward attacked values
         query =object {}.javaClass.getResourceAsStream("/CallBlocksStateChangesOrCalls")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
@@ -35,6 +37,7 @@ class DOSCheck : Check() {
 
         // A query that finds if we make an external call whos failure stops other calls from executing
         query =object {}.javaClass.getResourceAsStream("/CallBlocksFutureCall")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
@@ -46,6 +49,7 @@ class DOSCheck : Check() {
 
         // A query that finds if we make an external call whos failure stops other calls from executing
         query =object {}.javaClass.getResourceAsStream("/EmptyCollectionUsedForTransfers")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {

@@ -1,6 +1,6 @@
 match p=(f:FunctionDeclaration)-[:EOG*]->(interesting)-[:EOG*]->(last) // basic path to interesting node
 where not 'ConstructorDeclaration' in labels(f) and not exists((last)-[:EOG]->())
-and (exists{ ({code: 'msg.sender'})-[:DFG*]->()<-[:LHS]-(interesting:BinaryOperator {operatorCode: '='})-[:RHS]->()<-[:DFG*]-(source)
+and (exists{ ({code: 'msg.sender'})-[:DFG*#]->()<-[:LHS]-(interesting:BinaryOperator {operatorCode: '='})-[:RHS]->()<-[:DFG*]-(source)
     where not exists(()-[:DFG*]->(source)) and source.code <> 'msg.sender' and source.code <> 'msg.value'
 } or exists {
 (interesting:CallExpression)-[:BASE*]->(target {code: 'msg.sender'})

@@ -11,7 +11,8 @@ class DOSThroughExhaustionCheck : Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         var findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query = object {}.javaClass.getResourceAsStream("/DOSThroughExhaustion")?.bufferedReader()?.readText()
+        var query = object {}.javaClass.getResourceAsStream("/DOSThroughExhaustion")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {

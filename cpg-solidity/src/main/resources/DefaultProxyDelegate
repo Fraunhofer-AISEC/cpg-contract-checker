@@ -4,7 +4,7 @@ and not exists ((last)-[:EOG|INVOKES]->())
 and not 'Rollback' in labels(last)
 and (exists {
     ({code: 'msg.data'})<-[:ARGUMENTS]-(c)
-} or exists{({code: 'msg.data'})-[:DFG*]->()<-[:ARGUMENTS]-(c)})
+} or exists{({code: 'msg.data'})-[:DFG*#]->()<-[:ARGUMENTS]-(c)})
 and not exists{
     ({code: 'msg.data'})-[:DFG*]->(n)-[:EOG]->(apath) where n in nodes(p) and exists {
     d=(f)-[:EOG|INVOKES*]->(n)-[:EOG|INVOKES*]->(otherpath) where not exists{ (otherpath)-[:EOG|INVOKES]->() } and not c in nodes(d) or 'Rollback' in labels(otherpath)

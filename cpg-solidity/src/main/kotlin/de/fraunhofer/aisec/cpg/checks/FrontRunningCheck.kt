@@ -14,6 +14,7 @@ class FrontRunningCheck  : Check() {
 
         // Adding secondary query that checks if one of our state changes can be influenced by a padded value
         var query =object {}.javaClass.getResourceAsStream("/FrontRunning")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
