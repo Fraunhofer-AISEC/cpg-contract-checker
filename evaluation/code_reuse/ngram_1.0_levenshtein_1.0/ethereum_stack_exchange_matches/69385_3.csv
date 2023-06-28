@@ -1,12 +1,12 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xC3cE480376A6340e0A4CDd3E4843BDC0bc765a45,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/C3cE480376A6340e0A4CDd3E4843BDC0bc765a45_CryptowalkersFemales.sol
-100.00,100.00,0xf026D795A7F28E0197Bf9ae6fBe8c8F8A25277bc,smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f026D795A7F28E0197Bf9ae6fBe8c8F8A25277bc_CamelCoin.sol
-100.00,100.00,0xf29d869ee7ebe30fde045d26a9146654c392eaca,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f29d869ee7ebe30fde045d26a9146654c392eaca_Avatar.sol
-100.00,100.00,0xb2112b646C7FC53e8D121e709fC32F725C9590AC,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b2112b646C7FC53e8D121e709fC32F725C9590AC_BridgeState.sol
-100.00,100.00,0x469855ccc63f22fB4e17159e1cC3f51ed56D672a,smart-contract-sanctuary-ethereum/contracts/mainnet/46/469855ccc63f22fB4e17159e1cC3f51ed56D672a_CamelCoin.sol
-100.00,100.00,0x1e97398d276541a8e004e63Fdb22B98e4Ae39ff5,smart-contract-sanctuary-ethereum/contracts/mainnet/1e/1e97398d276541a8e004e63Fdb22B98e4Ae39ff5_CamelSandstormCollector.sol
-100.00,100.00,0xA7b604147d510D545B7D365ada165BEAf4EAF733,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/A7b604147d510D545B7D365ada165BEAf4EAF733_CamelSandstormCollector.sol
-100.00,100.00,0xb95351e280E2dd8a6fA269d8C9595D2F0b97fbb5,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b95351e280E2dd8a6fA269d8C9595D2F0b97fbb5_CamelConverterProcessor.sol
-100.00,100.00,0x2b6A25EDe8b6B3E870C03f0e5e25893097499Cf0,smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b6A25EDe8b6B3E870C03f0e5e25893097499Cf0_CamelCoin.sol
-100.00,100.00,0x5752fDAEd236794831ed942a8288a866ca4ccF3e,smart-contract-sanctuary-ethereum/contracts/mainnet/57/5752fDAEd236794831ed942a8288a866ca4ccF3e_CamelLiquidityManager.sol
-100.00,100.00,0x0ef5743B94854d74A33440b0A6c4fD8a93340255,smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0ef5743B94854d74A33440b0A6c4fD8a93340255_CamelLiquidityProcessor.sol
+100.00,100.00,0xC3cE480376A6340e0A4CDd3E4843BDC0bc765a45,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c3/C3cE480376A6340e0A4CDd3E4843BDC0bc765a45_CryptowalkersFemales.sol
+100.00,100.00,0xf026D795A7F28E0197Bf9ae6fBe8c8F8A25277bc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f026D795A7F28E0197Bf9ae6fBe8c8F8A25277bc_CamelCoin.sol
+100.00,100.00,0xf29d869ee7ebe30fde045d26a9146654c392eaca,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f29d869ee7ebe30fde045d26a9146654c392eaca_Avatar.sol
+100.00,100.00,0xb2112b646C7FC53e8D121e709fC32F725C9590AC,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b2112b646C7FC53e8D121e709fC32F725C9590AC_BridgeState.sol
+100.00,100.00,0x1e97398d276541a8e004e63Fdb22B98e4Ae39ff5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1e/1e97398d276541a8e004e63Fdb22B98e4Ae39ff5_CamelSandstormCollector.sol
+100.00,100.00,0x469855ccc63f22fB4e17159e1cC3f51ed56D672a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/46/469855ccc63f22fB4e17159e1cC3f51ed56D672a_CamelCoin.sol
+100.00,100.00,0xA7b604147d510D545B7D365ada165BEAf4EAF733,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a7/A7b604147d510D545B7D365ada165BEAf4EAF733_CamelSandstormCollector.sol
+100.00,100.00,0xb95351e280E2dd8a6fA269d8C9595D2F0b97fbb5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b95351e280E2dd8a6fA269d8C9595D2F0b97fbb5_CamelConverterProcessor.sol
+100.00,100.00,0x2b6A25EDe8b6B3E870C03f0e5e25893097499Cf0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b6A25EDe8b6B3E870C03f0e5e25893097499Cf0_CamelCoin.sol
+100.00,100.00,0x5752fDAEd236794831ed942a8288a866ca4ccF3e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/57/5752fDAEd236794831ed942a8288a866ca4ccF3e_CamelLiquidityManager.sol
+100.00,100.00,0x0ef5743B94854d74A33440b0A6c4fD8a93340255,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0ef5743B94854d74A33440b0A6c4fD8a93340255_CamelLiquidityProcessor.sol

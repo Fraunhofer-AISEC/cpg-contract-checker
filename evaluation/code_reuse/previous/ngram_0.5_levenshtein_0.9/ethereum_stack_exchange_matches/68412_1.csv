@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,91.67,0xaed8d42feb9ae945dff7d7e2c2dba5fd6c2f7d03,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/aed8d42feb9ae945dff7d7e2c2dba5fd6c2f7d03_ChessLottery.sol
+100.00,91.67,0x309dfe127881922c356fe8f571846150768c551e,smart-contract-sanctuary-ethereum/contracts/mainnet/30/309dfe127881922c356fe8f571846150768c551e_ChessLotto.sol
+100.00,100.00,0x207ac3fda4f6d6fc70cb009854b3f87950575a47,smart-contract-sanctuary-ethereum/contracts/mainnet/20/207ac3fda4f6d6fc70cb009854b3f87950575a47_Marketplace.sol

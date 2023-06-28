@@ -1,0 +1,9 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+78.57,90.48,0xe945bfb9cee4103b0026565eaa179d3bebb53c4d,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e945bfb9cee4103b0026565eaa179d3bebb53c4d_Cat.sol
+78.57,90.48,0x12ce820dd8224c2a5911bc7196ec7a46a09cf0a4,smart-contract-sanctuary-ethereum/contracts/mainnet/12/12ce820dd8224c2a5911bc7196ec7a46a09cf0a4_Cat.sol
+78.57,90.48,0x26fbe4f306d09469a8e7bd792c875f0bb0b3a360,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/26/26fbe4f306d09469a8e7bd792c875f0bb0b3a360_CatICO.sol
+78.57,90.48,0x0dd85300caae26fcf0547231c63c68ea212223b3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0dd85300caae26fcf0547231c63c68ea212223b3_CatICO.sol
+78.57,90.00,0xab20c032831832b2095796ee824be9b5de5d2ec5,smart-contract-sanctuary-ethereum/contracts/mainnet/ab/ab20c032831832b2095796ee824be9b5de5d2ec5_ForkRC.sol
+78.57,90.00,0x69524b84856a25d7e99fa5f714a80cfcc4c84d74,smart-contract-sanctuary-ethereum/contracts/mainnet/69/69524b84856a25d7e99fa5f714a80cfcc4c84d74_CrowdGenerator.sol
+78.57,100.00,0x5f84a30e819fe1d62452899a28a8b3d0776f9ff0,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f84a30e819fe1d62452899a28a8b3d0776f9ff0_SkillChainPresale.sol
+78.57,90.48,0xE9EdEa6BDE27e6420e2004cC5046C3044D73D0c7,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E9EdEa6BDE27e6420e2004cC5046C3044D73D0c7_sBigFoot.sol

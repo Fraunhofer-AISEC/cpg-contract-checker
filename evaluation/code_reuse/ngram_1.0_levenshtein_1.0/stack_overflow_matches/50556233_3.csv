@@ -1,13 +1,13 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x11595fFB2D3612d810612e34Bc1C2E6D6de55d26,smart-contract-sanctuary-ethereum/contracts/mainnet/11/11595fFB2D3612d810612e34Bc1C2E6D6de55d26_RocketComponent.sol
-100.00,100.00,0x6B00de202e3Cd03c523CA05d8b47231DBdD9142b,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6B00de202e3Cd03c523CA05d8b47231DBdD9142b_RocketFactory.sol
-100.00,100.00,0x7c7fc6d9f2c2e45f12657dab3581ead2bd53bdf1,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7c7fc6d9f2c2e45f12657dab3581ead2bd53bdf1_Cryptomancy.sol
-100.00,100.00,0x99221ad4b9da43016569cf8cb17df5cf04fe4155,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99221ad4b9da43016569cf8cb17df5cf04fe4155_SmartInvestments.sol
-100.00,100.00,0x863526b39A4C48a3F9D0a3947c1A6e388071c41b,smart-contract-sanctuary-ethereum/contracts/mainnet/86/863526b39A4C48a3F9D0a3947c1A6e388071c41b_LockContract.sol
-100.00,100.00,0xc8bddeffd870f2a66409d888f4d1517b78bd8312,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c8bddeffd870f2a66409d888f4d1517b78bd8312_Staker.sol
-100.00,100.00,0xd894e7766070bb54b9cf0d855cbdbb24d6c76328,smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d894e7766070bb54b9cf0d855cbdbb24d6c76328_Staker.sol
-100.00,100.00,0x1de0aef4d0135a561ffeaa84f74dd00eb747a489,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1de0aef4d0135a561ffeaa84f74dd00eb747a489_Staker.sol
-100.00,100.00,0x13ce0C47c418fD6aA06E0b5ea56901DFC6f1bbc8,smart-contract-sanctuary-ethereum/contracts/mainnet/13/13ce0C47c418fD6aA06E0b5ea56901DFC6f1bbc8_DeezRoleManager.sol
-100.00,100.00,0x72039f532D1C0B334760365EDbA7A4C77C776867,smart-contract-sanctuary-ethereum/contracts/mainnet/72/72039f532D1C0B334760365EDbA7A4C77C776867_DeezNutsCasino.sol
-100.00,100.00,0x179798746CfbdfDd2335D6aD62F91Cd21e15E47a,smart-contract-sanctuary-ethereum/contracts/mainnet/17/179798746CfbdfDd2335D6aD62F91Cd21e15E47a_DeezNutsCasino.sol
-100.00,100.00,0x8fcC1A129F7212aeF0FF273a51e747592835158e,smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8fcC1A129F7212aeF0FF273a51e747592835158e_DeezNutsCasino.sol
+100.00,100.00,0x11595fFB2D3612d810612e34Bc1C2E6D6de55d26,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/11/11595fFB2D3612d810612e34Bc1C2E6D6de55d26_RocketComponent.sol
+100.00,100.00,0x6B00de202e3Cd03c523CA05d8b47231DBdD9142b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6B00de202e3Cd03c523CA05d8b47231DBdD9142b_RocketFactory.sol
+100.00,100.00,0x7c7fc6d9f2c2e45f12657dab3581ead2bd53bdf1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7c7fc6d9f2c2e45f12657dab3581ead2bd53bdf1_Cryptomancy.sol
+100.00,100.00,0x99221ad4b9da43016569cf8cb17df5cf04fe4155,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/99/99221ad4b9da43016569cf8cb17df5cf04fe4155_SmartInvestments.sol
+100.00,100.00,0x863526b39A4C48a3F9D0a3947c1A6e388071c41b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/863526b39A4C48a3F9D0a3947c1A6e388071c41b_LockContract.sol
+100.00,100.00,0xc8bddeffd870f2a66409d888f4d1517b78bd8312,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c8bddeffd870f2a66409d888f4d1517b78bd8312_Staker.sol
+100.00,100.00,0xd894e7766070bb54b9cf0d855cbdbb24d6c76328,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d894e7766070bb54b9cf0d855cbdbb24d6c76328_Staker.sol
+100.00,100.00,0x1de0aef4d0135a561ffeaa84f74dd00eb747a489,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1de0aef4d0135a561ffeaa84f74dd00eb747a489_Staker.sol
+100.00,100.00,0x13ce0C47c418fD6aA06E0b5ea56901DFC6f1bbc8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/13/13ce0C47c418fD6aA06E0b5ea56901DFC6f1bbc8_DeezRoleManager.sol
+100.00,100.00,0x72039f532D1C0B334760365EDbA7A4C77C776867,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/72/72039f532D1C0B334760365EDbA7A4C77C776867_DeezNutsCasino.sol
+100.00,100.00,0x179798746CfbdfDd2335D6aD62F91Cd21e15E47a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/17/179798746CfbdfDd2335D6aD62F91Cd21e15E47a_DeezNutsCasino.sol
+100.00,100.00,0x8fcC1A129F7212aeF0FF273a51e747592835158e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8fcC1A129F7212aeF0FF273a51e747592835158e_DeezNutsCasino.sol

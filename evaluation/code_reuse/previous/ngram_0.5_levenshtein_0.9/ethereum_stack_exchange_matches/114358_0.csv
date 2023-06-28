@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+77.55,98.04,0xbB9102a6fC26fa3101890D3fAa3834136A2ee790,smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bB9102a6fC26fa3101890D3fAa3834136A2ee790_FiatTokenV4.sol
+77.55,98.04,0xEFa8C71fc037AB5BcAeFD6Ac3bd4FdFF27AEBA87,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/EFa8C71fc037AB5BcAeFD6Ac3bd4FdFF27AEBA87_FiatTokenV3.sol
+77.55,94.85,0x595705b8Dd884BEb7119F6165CbF1A7D0A260FDB,smart-contract-sanctuary-ethereum/contracts/mainnet/59/595705b8Dd884BEb7119F6165CbF1A7D0A260FDB_FiatTokenV2_1.sol
+77.55,90.69,0x31724cA0C982A31fbb5C57f4217AB585271fc9a5,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31724cA0C982A31fbb5C57f4217AB585271fc9a5_StakedTokenV1.sol
+77.55,90.69,0x08Ed36720987c86a195f404f7073Cb534a20a15D,smart-contract-sanctuary-ethereum/contracts/mainnet/08/08Ed36720987c86a195f404f7073Cb534a20a15D_FiatTokenV3.sol
+71.43,94.07,0xa12f77d7b39a7b556Ba4BE6ec7328B0049288ac3,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a12f77d7b39a7b556Ba4BE6ec7328B0049288ac3_Exhibit.sol

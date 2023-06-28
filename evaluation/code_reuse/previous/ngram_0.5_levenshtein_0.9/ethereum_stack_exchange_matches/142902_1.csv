@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+93.33,91.72,0x8d1f583d31a9634c436d2d9e950e0d32cee1977a,smart-contract-sanctuary-ethereum/contracts/mainnet/8d/8d1f583d31a9634c436d2d9e950e0d32cee1977a_Proposal.sol
+86.67,91.59,0x0f5fac3d7e314eb0e6bb99af32cea8c2373f694e,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0f5fac3d7e314eb0e6bb99af32cea8c2373f694e_Hypnotica.sol
+86.67,92.02,0xb31e9501e24405e0F964E89a7be0e99c6dA9bD6E,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b31e9501e24405e0F964E89a7be0e99c6dA9bD6E_ConditionMakerVaultUnSafePosition.sol

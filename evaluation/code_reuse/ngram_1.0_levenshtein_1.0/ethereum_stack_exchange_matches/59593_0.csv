@@ -1,14 +1,14 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x41031e4C5b018816a631be1FFA8Aa97A4de5E1EA,smart-contract-sanctuary-ethereum/contracts/mainnet/41/41031e4C5b018816a631be1FFA8Aa97A4de5E1EA_SowtenNFTNeoV1.sol
-100.00,100.00,0xd7657bdf782f43ba7f5f5e8456b481616e636ae9,smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d7657bdf782f43ba7f5f5e8456b481616e636ae9_Citizen.sol
-100.00,100.00,0xfa9ebd13769b3033dbc2d81043f621022a0c3b72,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa9ebd13769b3033dbc2d81043f621022a0c3b72_ve.sol
-100.00,100.00,0xD1AB323dBe96B1A3b973FB964c8e402b25aAa2b2,smart-contract-sanctuary-ethereum/contracts/mainnet/d1/D1AB323dBe96B1A3b973FB964c8e402b25aAa2b2_LazyMintERC721.sol
-100.00,100.00,0x89B2F879F71Ab537F42D5DDFB90Eeb8552FdAd91,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89B2F879F71Ab537F42D5DDFB90Eeb8552FdAd91_WarriorCollectible.sol
-100.00,100.00,0x02575ca9424acd6aed8d8dc1b01fa7175000cef0,smart-contract-sanctuary-ethereum/contracts/mainnet/02/02575ca9424acd6aed8d8dc1b01fa7175000cef0_NameProvider.sol
-100.00,100.00,0x5242562a82DD13CcaB1fbFF9C89821cf2fB35aD5,smart-contract-sanctuary-ethereum/contracts/mainnet/52/5242562a82DD13CcaB1fbFF9C89821cf2fB35aD5_ve.sol
-100.00,100.00,0xbba4115ecb1f811061ecb5a8dc8fcdee2748ceba,smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bba4115ecb1f811061ecb5a8dc8fcdee2748ceba_ve.sol
-100.00,100.00,0x7bBCa7973cE67f05564a9020F2B8F29eCd5de708,smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7bBCa7973cE67f05564a9020F2B8F29eCd5de708_JevelsERC1155.sol
-100.00,100.00,0x1d530D62CFB8bB8cF86C9D48F8bF840ba5240e97,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d530D62CFB8bB8cF86C9D48F8bF840ba5240e97_Locker.sol
-100.00,100.00,0x951f99350d816c0e160a2c71defe828bdfc17f12,smart-contract-sanctuary-ethereum/contracts/mainnet/95/951f99350d816c0e160a2c71defe828bdfc17f12_FeeDistributor.sol
-100.00,100.00,0xfB0ADc74e93d07adA6a0a6B99b24c827F196964a,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fB0ADc74e93d07adA6a0a6B99b24c827F196964a_ShadowToken.sol
-100.00,100.00,0xd665215893ce709b72951a816d157be616899cd2,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d665215893ce709b72951a816d157be616899cd2_WastedWorld.sol
+100.00,100.00,0x41031e4C5b018816a631be1FFA8Aa97A4de5E1EA,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/41/41031e4C5b018816a631be1FFA8Aa97A4de5E1EA_SowtenNFTNeoV1.sol
+100.00,100.00,0xd7657bdf782f43ba7f5f5e8456b481616e636ae9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d7657bdf782f43ba7f5f5e8456b481616e636ae9_Citizen.sol
+100.00,100.00,0xfa9ebd13769b3033dbc2d81043f621022a0c3b72,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa9ebd13769b3033dbc2d81043f621022a0c3b72_ve.sol
+100.00,100.00,0xD1AB323dBe96B1A3b973FB964c8e402b25aAa2b2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d1/D1AB323dBe96B1A3b973FB964c8e402b25aAa2b2_LazyMintERC721.sol
+100.00,100.00,0x89B2F879F71Ab537F42D5DDFB90Eeb8552FdAd91,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/89/89B2F879F71Ab537F42D5DDFB90Eeb8552FdAd91_WarriorCollectible.sol
+100.00,100.00,0x02575ca9424acd6aed8d8dc1b01fa7175000cef0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/02/02575ca9424acd6aed8d8dc1b01fa7175000cef0_NameProvider.sol
+100.00,100.00,0x5242562a82DD13CcaB1fbFF9C89821cf2fB35aD5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/52/5242562a82DD13CcaB1fbFF9C89821cf2fB35aD5_ve.sol
+100.00,100.00,0xbba4115ecb1f811061ecb5a8dc8fcdee2748ceba,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bba4115ecb1f811061ecb5a8dc8fcdee2748ceba_ve.sol
+100.00,100.00,0x7bBCa7973cE67f05564a9020F2B8F29eCd5de708,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7bBCa7973cE67f05564a9020F2B8F29eCd5de708_JevelsERC1155.sol
+100.00,100.00,0x1d530D62CFB8bB8cF86C9D48F8bF840ba5240e97,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d530D62CFB8bB8cF86C9D48F8bF840ba5240e97_Locker.sol
+100.00,100.00,0x951f99350d816c0e160a2c71defe828bdfc17f12,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/95/951f99350d816c0e160a2c71defe828bdfc17f12_FeeDistributor.sol
+100.00,100.00,0xfB0ADc74e93d07adA6a0a6B99b24c827F196964a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fB0ADc74e93d07adA6a0a6B99b24c827F196964a_ShadowToken.sol
+100.00,100.00,0xd665215893ce709b72951a816d157be616899cd2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d665215893ce709b72951a816d157be616899cd2_WastedWorld.sol

@@ -17,10 +17,10 @@ class colors:
     END = "\033[0m"
 
 NGRAM_SIZE = 3
-NGRAM_THRESHOLD = 0.5
-LEVENSHTEIN_TRESHOLD = 0.9
+NGRAM_THRESHOLD = 1.0
+LEVENSHTEIN_TRESHOLD = 1.0
 
-MORPHEUS_PATH = "/Users/christof/ETH_Zurich/Projects/Morpheus/morpheus/morpheus.py"
+MORPHEUS_PATH = "/Users/christof/ETH\ Zurich/Projects/Morpheus/morpheus/morpheus.py"
 
 ELASTICSEARCH_INDEX = "smart-contract-sanctuary-index"
 

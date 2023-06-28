@@ -1,11 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x4178aed28518f8565928990dd113e3a4ef648a8a,smart-contract-sanctuary-ethereum/contracts/mainnet/41/4178aed28518f8565928990dd113e3a4ef648a8a_NFTWithErc1155.sol
-100.00,100.00,0x186AD46979eB242De19Adbf990d3D7dB707Ad9Ad,smart-contract-sanctuary-ethereum/contracts/mainnet/18/186AD46979eB242De19Adbf990d3D7dB707Ad9Ad_LiquidiftyERC1155.sol
-100.00,100.00,0x88D8fB10091DB15cFa3f8CdeeBD2a80CC8989D4A,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88D8fB10091DB15cFa3f8CdeeBD2a80CC8989D4A_LQT1155.sol
-100.00,100.00,0x5e154683F9d0f9E1211132215EB151C0603E008c,smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e154683F9d0f9E1211132215EB151C0603E008c_LiquidiftyERC1155Factory.sol
-100.00,100.00,0x1CE08a1972b40980fb85b368929A42535a5C6B2f,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1CE08a1972b40980fb85b368929A42535a5C6B2f_LiquidiftyERC1155Master.sol
-100.00,100.00,0x6A8FB67d4bbd0AAbE1e32A8953E5328a123CC76A,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6A8FB67d4bbd0AAbE1e32A8953E5328a123CC76A_LQT1155Ownable.sol
-100.00,100.00,0x946c32ac31ea5660533d4c4d5c71cdbc7e9800f2,smart-contract-sanctuary-ethereum/contracts/mainnet/94/946c32ac31ea5660533d4c4d5c71cdbc7e9800f2_POOS.sol
-100.00,100.00,0x35485d89150457cE01098BCa4bd47d5daAd43f59,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35485d89150457cE01098BCa4bd47d5daAd43f59_DAO721.sol
-100.00,100.00,0x8b709b5a92ce8db86d92b03ccdc7c38301948924,smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8b709b5a92ce8db86d92b03ccdc7c38301948924_Derivative1155Token.sol
-100.00,100.00,0xE3Bc9D0C626D92aC29719A349225a4dBe98F3cd2,smart-contract-sanctuary-ethereum/contracts/mainnet/e3/E3Bc9D0C626D92aC29719A349225a4dBe98F3cd2_LicenseToken.sol
+100.00,100.00,0x4178aed28518f8565928990dd113e3a4ef648a8a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/41/4178aed28518f8565928990dd113e3a4ef648a8a_NFTWithErc1155.sol
+100.00,100.00,0x186AD46979eB242De19Adbf990d3D7dB707Ad9Ad,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/18/186AD46979eB242De19Adbf990d3D7dB707Ad9Ad_LiquidiftyERC1155.sol
+100.00,100.00,0x88D8fB10091DB15cFa3f8CdeeBD2a80CC8989D4A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88D8fB10091DB15cFa3f8CdeeBD2a80CC8989D4A_LQT1155.sol
+100.00,100.00,0x5e154683F9d0f9E1211132215EB151C0603E008c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e154683F9d0f9E1211132215EB151C0603E008c_LiquidiftyERC1155Factory.sol
+100.00,100.00,0x1CE08a1972b40980fb85b368929A42535a5C6B2f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1CE08a1972b40980fb85b368929A42535a5C6B2f_LiquidiftyERC1155Master.sol
+100.00,100.00,0x6A8FB67d4bbd0AAbE1e32A8953E5328a123CC76A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6A8FB67d4bbd0AAbE1e32A8953E5328a123CC76A_LQT1155Ownable.sol
+100.00,100.00,0x946c32ac31ea5660533d4c4d5c71cdbc7e9800f2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/94/946c32ac31ea5660533d4c4d5c71cdbc7e9800f2_POOS.sol
+100.00,100.00,0x35485d89150457cE01098BCa4bd47d5daAd43f59,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/35/35485d89150457cE01098BCa4bd47d5daAd43f59_DAO721.sol
+100.00,100.00,0x8b709b5a92ce8db86d92b03ccdc7c38301948924,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8b709b5a92ce8db86d92b03ccdc7c38301948924_Derivative1155Token.sol
+100.00,100.00,0xE3Bc9D0C626D92aC29719A349225a4dBe98F3cd2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e3/E3Bc9D0C626D92aC29719A349225a4dBe98F3cd2_LicenseToken.sol

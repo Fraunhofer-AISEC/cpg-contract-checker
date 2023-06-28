@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+83.33,92.31,0x27F4De8F9BB7A47A6550508573036A5547adDAEC,smart-contract-sanctuary-ethereum/contracts/mainnet/27/27F4De8F9BB7A47A6550508573036A5547adDAEC_GovernorBravoDelegate.sol
+83.33,92.31,0x1015bD1Ff0AF19D8Ce63380B636907F2C4390A5C,smart-contract-sanctuary-ethereum/contracts/mainnet/10/1015bD1Ff0AF19D8Ce63380B636907F2C4390A5C_GovernorBravoDelegate.sol
+83.33,92.31,0xE69D411ebB798638cd9AA4C668d48f09378D6fE4,smart-contract-sanctuary-ethereum/contracts/mainnet/e6/E69D411ebB798638cd9AA4C668d48f09378D6fE4_GovernorBravoDelegate.sol
+75.00,92.31,0x8455e7bDA4E629903165aB029eab18a2360DbA3e,smart-contract-sanctuary-ethereum/contracts/mainnet/84/8455e7bDA4E629903165aB029eab18a2360DbA3e_GovernorBravoDelegate.sol

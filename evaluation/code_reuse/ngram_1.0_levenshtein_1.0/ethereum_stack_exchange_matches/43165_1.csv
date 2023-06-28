@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xbc63f11d42860d7e41a4ce856581f0ce15ac4008,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc63f11d42860d7e41a4ce856581f0ce15ac4008_DAILYC.sol
-100.00,100.00,0x51f171b6bc39456dd94a303537d995ea990e1146,smart-contract-sanctuary-ethereum/contracts/mainnet/51/51f171b6bc39456dd94a303537d995ea990e1146_TTOH.sol
-100.00,100.00,0x74956d3e06b9edfab13f91ac45d8d22420545fd9,smart-contract-sanctuary-ethereum/contracts/mainnet/74/74956d3e06b9edfab13f91ac45d8d22420545fd9_TEGTY.sol
-100.00,100.00,0x10f135ce102eee47dca8fe8e19dca6324dfbd684,smart-contract-sanctuary-ethereum/contracts/mainnet/10/10f135ce102eee47dca8fe8e19dca6324dfbd684_TCDC.sol
-100.00,100.00,0x22c422d57638ff48af2e471e6f9fa5dc5b5edbd5,smart-contract-sanctuary-ethereum/contracts/mainnet/22/22c422d57638ff48af2e471e6f9fa5dc5b5edbd5_CONEGTY.sol
+100.00,100.00,0xbc63f11d42860d7e41a4ce856581f0ce15ac4008,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc63f11d42860d7e41a4ce856581f0ce15ac4008_DAILYC.sol
+100.00,100.00,0x51f171b6bc39456dd94a303537d995ea990e1146,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/51/51f171b6bc39456dd94a303537d995ea990e1146_TTOH.sol
+100.00,100.00,0x74956d3e06b9edfab13f91ac45d8d22420545fd9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/74/74956d3e06b9edfab13f91ac45d8d22420545fd9_TEGTY.sol
+100.00,100.00,0x10f135ce102eee47dca8fe8e19dca6324dfbd684,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/10/10f135ce102eee47dca8fe8e19dca6324dfbd684_TCDC.sol
+100.00,100.00,0x22c422d57638ff48af2e471e6f9fa5dc5b5edbd5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/22/22c422d57638ff48af2e471e6f9fa5dc5b5edbd5_CONEGTY.sol

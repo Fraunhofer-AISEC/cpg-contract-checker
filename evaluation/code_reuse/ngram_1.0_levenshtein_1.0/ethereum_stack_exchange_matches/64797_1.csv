@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xbc74C101ecCd29dC72689544A88403622138eC89,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc74C101ecCd29dC72689544A88403622138eC89_LevelingUpHeroesEpic.sol
-100.00,100.00,0xCDDA382ddCC19F3e64A612F37AFC2c45Ff343eD8,smart-contract-sanctuary-ethereum/contracts/mainnet/cd/CDDA382ddCC19F3e64A612F37AFC2c45Ff343eD8_BaseDutchAuctionERC721A.sol
-100.00,100.00,0xFa5f186b397d67aFa5CE938c0Cc765A523486d9F,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/Fa5f186b397d67aFa5CE938c0Cc765A523486d9F_BaseDutchAuctionERC721A.sol
-100.00,100.00,0x92663953ea67Ff4C84F6A3E3d7f6EDA48a646CFf,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92663953ea67Ff4C84F6A3E3d7f6EDA48a646CFf_BaseDutchAuctionERC721A.sol
-100.00,100.00,0x5fc045f01A83bd0bfa755815cfc1238F6a0f7D1D,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5fc045f01A83bd0bfa755815cfc1238F6a0f7D1D_BaseDutchAuctionERC721A.sol
-100.00,100.00,0x50A0510d0000d8F58099b06Efb74D95564B56ad7,smart-contract-sanctuary-ethereum/contracts/mainnet/50/50A0510d0000d8F58099b06Efb74D95564B56ad7_BaseDutchAuctionERC721A.sol
-100.00,100.00,0x4dDc6D77c37c6c11DD5Dbde85D96290ff3B2Cab5,smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4dDc6D77c37c6c11DD5Dbde85D96290ff3B2Cab5_BaseDutchAuctionERC721A.sol
+100.00,100.00,0xbc74C101ecCd29dC72689544A88403622138eC89,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc74C101ecCd29dC72689544A88403622138eC89_LevelingUpHeroesEpic.sol
+100.00,100.00,0xCDDA382ddCC19F3e64A612F37AFC2c45Ff343eD8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cd/CDDA382ddCC19F3e64A612F37AFC2c45Ff343eD8_BaseDutchAuctionERC721A.sol
+100.00,100.00,0xFa5f186b397d67aFa5CE938c0Cc765A523486d9F,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fa/Fa5f186b397d67aFa5CE938c0Cc765A523486d9F_BaseDutchAuctionERC721A.sol
+100.00,100.00,0x92663953ea67Ff4C84F6A3E3d7f6EDA48a646CFf,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/92663953ea67Ff4C84F6A3E3d7f6EDA48a646CFf_BaseDutchAuctionERC721A.sol
+100.00,100.00,0x5fc045f01A83bd0bfa755815cfc1238F6a0f7D1D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5fc045f01A83bd0bfa755815cfc1238F6a0f7D1D_BaseDutchAuctionERC721A.sol
+100.00,100.00,0x50A0510d0000d8F58099b06Efb74D95564B56ad7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/50/50A0510d0000d8F58099b06Efb74D95564B56ad7_BaseDutchAuctionERC721A.sol
+100.00,100.00,0x4dDc6D77c37c6c11DD5Dbde85D96290ff3B2Cab5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4dDc6D77c37c6c11DD5Dbde85D96290ff3B2Cab5_BaseDutchAuctionERC721A.sol

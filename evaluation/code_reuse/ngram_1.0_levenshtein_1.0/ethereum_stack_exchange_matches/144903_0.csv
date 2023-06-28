@@ -1,7 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x01db9cf9e6d4f4624723f982dc096d2d07612fce,smart-contract-sanctuary-ethereum/contracts/mainnet/01/01db9cf9e6d4f4624723f982dc096d2d07612fce_HYPE_Finance.sol
-100.00,100.00,0x610c67be018a5c5bdc70acd8dc19688a11421073,smart-contract-sanctuary-ethereum/contracts/mainnet/61/610c67be018a5c5bdc70acd8dc19688a11421073_HYPE_Finance.sol
-100.00,100.00,0x428d941e0a014bb5cdeb09bb00bc7b245221bdb0,smart-contract-sanctuary-ethereum/contracts/mainnet/42/428d941e0a014bb5cdeb09bb00bc7b245221bdb0_LVECoin.sol
-100.00,100.00,0x3335Bb9A86d9dc5f4497122d940c85aaF23838E0,smart-contract-sanctuary-ethereum/contracts/mainnet/33/3335Bb9A86d9dc5f4497122d940c85aaF23838E0_DepositNFT.sol
-100.00,100.00,0x95289299e8443888DECC60f74B2322f874837b29,smart-contract-sanctuary-ethereum/contracts/mainnet/95/95289299e8443888DECC60f74B2322f874837b29_DepositNFT.sol
-100.00,100.00,0xD3579C14a4181EfC3DF35C3103D20823A8C8d718,smart-contract-sanctuary-ethereum/contracts/mainnet/d3/D3579C14a4181EfC3DF35C3103D20823A8C8d718_ExitERC721.sol
+100.00,100.00,0x01db9cf9e6d4f4624723f982dc096d2d07612fce,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/01/01db9cf9e6d4f4624723f982dc096d2d07612fce_HYPE_Finance.sol
+100.00,100.00,0x610c67be018a5c5bdc70acd8dc19688a11421073,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/61/610c67be018a5c5bdc70acd8dc19688a11421073_HYPE_Finance.sol
+100.00,100.00,0x428d941e0a014bb5cdeb09bb00bc7b245221bdb0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/42/428d941e0a014bb5cdeb09bb00bc7b245221bdb0_LVECoin.sol
+100.00,100.00,0x95289299e8443888DECC60f74B2322f874837b29,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/95/95289299e8443888DECC60f74B2322f874837b29_DepositNFT.sol
+100.00,100.00,0x3335Bb9A86d9dc5f4497122d940c85aaF23838E0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/33/3335Bb9A86d9dc5f4497122d940c85aaF23838E0_DepositNFT.sol

@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x5a782703fc2090008c59a7734be236506a40e45a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5a/5a782703fc2090008c59a7734be236506a40e45a_RepaymentDefault.sol
+100.00,100.00,0x81989cd57271565dbffe9807e917afc098b30c9a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/81/81989cd57271565dbffe9807e917afc098b30c9a_ERC721BridgeV2.sol
+100.00,100.00,0x3110694ec930249738083266b22ca4c6f7d0b270,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/3110694ec930249738083266b22ca4c6f7d0b270_MultiMerkleMineWithGasToken.sol
+100.00,100.00,0x667b7a99d6912ec21c242f4410d86626c8b9416d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/66/667b7a99d6912ec21c242f4410d86626c8b9416d_MemeAwards2018.sol

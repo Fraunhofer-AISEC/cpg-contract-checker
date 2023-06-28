@@ -1,12 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xB94C3fd0016888bAB09DBC229f9397294e828a54,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/B94C3fd0016888bAB09DBC229f9397294e828a54_ForgottenRunesComic.sol
-100.00,100.00,0xbd4AB595f66d2F13983160964B70Bf9b0D4c0Cc3,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd4AB595f66d2F13983160964B70Bf9b0D4c0Cc3_KompeteGameAsset.sol
-100.00,100.00,0x56cA59ab1b3c7086b3c4aF417593fDeE566A3320,smart-contract-sanctuary-ethereum/contracts/mainnet/56/56cA59ab1b3c7086b3c4aF417593fDeE566A3320_JapaneseApesFlowerShop.sol
-100.00,100.00,0xc6cef0fcd9ade5b60c25b14e46a47bd48d4c397f,smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c6cef0fcd9ade5b60c25b14e46a47bd48d4c397f_LempiverseRootMintableERC1155.sol
-100.00,100.00,0x17eB72390Dcc2755692056363b0F61EA2CD1873D,smart-contract-sanctuary-ethereum/contracts/mainnet/17/17eB72390Dcc2755692056363b0F61EA2CD1873D_CheersUpEmoji.sol
-100.00,100.00,0xCc982d33525EBFB14B9c504428d02082043817D7,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/Cc982d33525EBFB14B9c504428d02082043817D7_L1ERC1155Bridge.sol
-100.00,100.00,0x67f7e0c322a067c70e1ee99873fe4163f4a02edd,smart-contract-sanctuary-ethereum/contracts/mainnet/67/67f7e0c322a067c70e1ee99873fe4163f4a02edd_Commemorative.sol
-100.00,100.00,0x4f1fb9d590ac35742b7431f620cccc47ab667bdd,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4f1fb9d590ac35742b7431f620cccc47ab667bdd_NFTFairERC1155.sol
-100.00,100.00,0x8c34ce443b0684455a689100CC0839Db1bdb5e6B,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c34ce443b0684455a689100CC0839Db1bdb5e6B_KompeteGameAssetFactory.sol
-100.00,100.00,0xa16891897378a82e9f0ad44a705b292c9753538c,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a16891897378a82e9f0ad44a705b292c9753538c_Core.sol
-100.00,100.00,0x67B630e70E793d48F1329c00Cad9D60977605dF5,smart-contract-sanctuary-ethereum/contracts/mainnet/67/67B630e70E793d48F1329c00Cad9D60977605dF5_GaiminERC1155.sol
+100.00,100.00,0xB94C3fd0016888bAB09DBC229f9397294e828a54,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b9/B94C3fd0016888bAB09DBC229f9397294e828a54_ForgottenRunesComic.sol
+100.00,100.00,0xbd4AB595f66d2F13983160964B70Bf9b0D4c0Cc3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd4AB595f66d2F13983160964B70Bf9b0D4c0Cc3_KompeteGameAsset.sol
+100.00,100.00,0x56cA59ab1b3c7086b3c4aF417593fDeE566A3320,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/56/56cA59ab1b3c7086b3c4aF417593fDeE566A3320_JapaneseApesFlowerShop.sol
+100.00,100.00,0xc6cef0fcd9ade5b60c25b14e46a47bd48d4c397f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c6cef0fcd9ade5b60c25b14e46a47bd48d4c397f_LempiverseRootMintableERC1155.sol
+100.00,100.00,0x17eB72390Dcc2755692056363b0F61EA2CD1873D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/17/17eB72390Dcc2755692056363b0F61EA2CD1873D_CheersUpEmoji.sol
+100.00,100.00,0xCc982d33525EBFB14B9c504428d02082043817D7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cc/Cc982d33525EBFB14B9c504428d02082043817D7_L1ERC1155Bridge.sol
+100.00,100.00,0x67f7e0c322a067c70e1ee99873fe4163f4a02edd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/67/67f7e0c322a067c70e1ee99873fe4163f4a02edd_Commemorative.sol
+100.00,100.00,0x4f1fb9d590ac35742b7431f620cccc47ab667bdd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4f1fb9d590ac35742b7431f620cccc47ab667bdd_NFTFairERC1155.sol
+100.00,100.00,0x8c34ce443b0684455a689100CC0839Db1bdb5e6B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c34ce443b0684455a689100CC0839Db1bdb5e6B_KompeteGameAssetFactory.sol
+100.00,100.00,0x67B630e70E793d48F1329c00Cad9D60977605dF5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/67/67B630e70E793d48F1329c00Cad9D60977605dF5_GaiminERC1155.sol

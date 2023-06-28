@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x4813074856374b2b38810a5652783148e3a46a74,smart-contract-sanctuary-ethereum/contracts/mainnet/48/4813074856374b2b38810a5652783148e3a46a74_Taker.sol
-100.00,100.00,0x304d79b16e5aae13e929d55bf045929a7ce6da2f,smart-contract-sanctuary-ethereum/contracts/mainnet/30/304d79b16e5aae13e929d55bf045929a7ce6da2f_BonkToken.sol
-100.00,100.00,0x614f70c089dcbc1b4bf9e18feb73846b520bf358,smart-contract-sanctuary-ethereum/contracts/mainnet/61/614f70c089dcbc1b4bf9e18feb73846b520bf358_BonkToken.sol
+100.00,100.00,0x4813074856374b2b38810a5652783148e3a46a74,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/48/4813074856374b2b38810a5652783148e3a46a74_Taker.sol
+100.00,100.00,0x304d79b16e5aae13e929d55bf045929a7ce6da2f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/30/304d79b16e5aae13e929d55bf045929a7ce6da2f_BonkToken.sol
+100.00,100.00,0x614f70c089dcbc1b4bf9e18feb73846b520bf358,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/61/614f70c089dcbc1b4bf9e18feb73846b520bf358_BonkToken.sol

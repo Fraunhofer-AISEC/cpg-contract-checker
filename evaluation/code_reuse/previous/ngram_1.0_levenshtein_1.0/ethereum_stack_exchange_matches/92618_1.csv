@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xC8E662D50c92c737Ae774FDd674eFF76e69bE6Dc,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/C8E662D50c92c737Ae774FDd674eFF76e69bE6Dc_PToken.sol
+100.00,100.00,0x70b2c1B8f364dA3e721554be34B8988A0584D0c1,smart-contract-sanctuary-ethereum/contracts/mainnet/70/70b2c1B8f364dA3e721554be34B8988A0584D0c1_PToken.sol
+100.00,100.00,0x81c393d003cfbc7f143ec1bbfe2b52f3c5419c2f,smart-contract-sanctuary-ethereum/contracts/mainnet/81/81c393d003cfbc7f143ec1bbfe2b52f3c5419c2f_PToken.sol
+100.00,100.00,0xA990A66bC8Db3Bd07Eb1b1d73C5c3009739c4505,smart-contract-sanctuary-ethereum/contracts/mainnet/a9/A990A66bC8Db3Bd07Eb1b1d73C5c3009739c4505_PToken.sol
+100.00,100.00,0xe307c4e649ebe7589f46f09ddbd47345c4739133,smart-contract-sanctuary-ethereum/contracts/mainnet/e3/e307c4e649ebe7589f46f09ddbd47345c4739133_PToken.sol
+100.00,100.00,0xaec4a55077cd69e93c27567e40da6755983bb34c,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/aec4a55077cd69e93c27567e40da6755983bb34c_PToken.sol
+100.00,100.00,0x0AeA75C84e3Cb431361Fb12f372c5bd28B2387Bd,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0AeA75C84e3Cb431361Fb12f372c5bd28B2387Bd_PTokenWithLPS.sol

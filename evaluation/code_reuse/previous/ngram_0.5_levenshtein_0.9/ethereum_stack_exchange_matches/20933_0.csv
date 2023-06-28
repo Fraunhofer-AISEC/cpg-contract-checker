@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+85.71,100.00,0x99D202b98Fea061243b708ECe53A3319a685DF92,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99D202b98Fea061243b708ECe53A3319a685DF92_ForeignMediator.sol
+85.71,100.00,0xAc2b6CED00383473cDa4D3f823c36f8e0Cc9D4f3,smart-contract-sanctuary-ethereum/contracts/mainnet/ac/Ac2b6CED00383473cDa4D3f823c36f8e0Cc9D4f3_ForeignAMB.sol
+85.71,93.33,0x7A78801C5CA8c1563c8931EafEFA6b4847E49eb6,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7A78801C5CA8c1563c8931EafEFA6b4847E49eb6_ForeignOmnibridge.sol
+78.57,100.00,0x3a1796372d69d3668c9a78db40cfe13d92c27410,smart-contract-sanctuary-ethereum/contracts/mainnet/3a/3a1796372d69d3668c9a78db40cfe13d92c27410_ERC677BridgeToken.sol

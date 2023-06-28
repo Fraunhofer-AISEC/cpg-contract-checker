@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x2e4a14314cc95c237efDA45e4364390826557b90,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2e4a14314cc95c237efDA45e4364390826557b90_EtherWallet.sol
+100.00,100.00,0x3d6e0cafe8354f3699fd56a26b19177928714ae8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3d6e0cafe8354f3699fd56a26b19177928714ae8_ERC20.sol
+100.00,100.00,0xCe574C530C4EA93E15d2f495C9b89a1528F92961,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ce/Ce574C530C4EA93E15d2f495C9b89a1528F92961_ERC20.sol
+100.00,100.00,0xbdafddc47d1cbac27f80a918908922aa6bf4b5bc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bdafddc47d1cbac27f80a918908922aa6bf4b5bc_GrowDollar.sol

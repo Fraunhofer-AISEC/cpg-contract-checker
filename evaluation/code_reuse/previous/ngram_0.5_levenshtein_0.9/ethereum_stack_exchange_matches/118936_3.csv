@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+75.00,91.18,0x3f8a7f9ccd72f8b81c02c4cd3cfdfa30f1be5463,smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3f8a7f9ccd72f8b81c02c4cd3cfdfa30f1be5463_OlympusIndex.sol
+75.00,91.18,0x0F8FC63E9DD0418b52Fa409d544aBb80444b1Fe1,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0F8FC63E9DD0418b52Fa409d544aBb80444b1Fe1_MERC721TokenUser.sol
+66.67,91.18,0x9519424eacac5ea1ce83790667ba192426bd03f9,smart-contract-sanctuary-ethereum/contracts/mainnet/95/9519424eacac5ea1ce83790667ba192426bd03f9_JustTheTipCrowdsale.sol
+66.67,91.18,0x7c3c696bb3c3844fbf540175d0afc7b879e696c5,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7c3c696bb3c3844fbf540175d0afc7b879e696c5_TokensGate.sol
+66.67,91.18,0x52c09ea7b04fb680b2dac86612c8a396f665004c,smart-contract-sanctuary-ethereum/contracts/mainnet/52/52c09ea7b04fb680b2dac86612c8a396f665004c_TGCToken.sol
+66.67,91.18,0x37fc82964212e2af52b6352520fa0698e6fb4a06,smart-contract-sanctuary-ethereum/contracts/mainnet/37/37fc82964212e2af52b6352520fa0698e6fb4a06_TGCToken.sol
+66.67,91.18,0xf1ada8ab9b75375c05c1af0acec6f6d975470a24,smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f1ada8ab9b75375c05c1af0acec6f6d975470a24_TokensGate.sol

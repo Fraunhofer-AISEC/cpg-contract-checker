@@ -1,1 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x88a23aabb0eb055b6c5ee5df390b986ad7bf1c99,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88a23aabb0eb055b6c5ee5df390b986ad7bf1c99_contracts_openzeppelin-solidity_contracts_payment_escrow_Escrow.sol
+100.00,100.00,0x9D0D3D54c9007f7666dA7F4a69b7E5791e567310,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9D0D3D54c9007f7666dA7F4a69b7E5791e567310_KojiCrowdSale.sol
+100.00,100.00,0x70988224d9b203cf10FAbD550249e383F39f3707,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/70/70988224d9b203cf10FAbD550249e383F39f3707_KojiCrowdSale.sol
+100.00,100.00,0x23DAB939B141E0480dd61dFDcFB3e06D79682476,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/23/23DAB939B141E0480dd61dFDcFB3e06D79682476_KojiCrowdSale.sol
+100.00,100.00,0xCFa9537Bfb0BBc9139008fFae4597Ee838a0551A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cf/CFa9537Bfb0BBc9139008fFae4597Ee838a0551A_CMIRPDCrowdsale.sol

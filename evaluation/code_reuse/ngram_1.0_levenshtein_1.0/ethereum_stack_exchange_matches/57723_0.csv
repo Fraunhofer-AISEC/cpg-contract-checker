@@ -1,9 +1,9 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x4d07e5d100311b4a5c535c48101b340f1735c307,smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4d07e5d100311b4a5c535c48101b340f1735c307_NENCToken.sol
-100.00,100.00,0xaba7f149abcf485422d5c4263b480eb205cb2f52,smart-contract-sanctuary-ethereum/contracts/mainnet/ab/aba7f149abcf485422d5c4263b480eb205cb2f52_MyToken.sol
-100.00,100.00,0x47a6fb3c875840fa31bc1aad018705a658f618d4,smart-contract-sanctuary-ethereum/contracts/mainnet/47/47a6fb3c875840fa31bc1aad018705a658f618d4_wehome.sol
-100.00,100.00,0xe288e13070866228b43d80b96b44781077712624,smart-contract-sanctuary-ethereum/contracts/mainnet/e2/e288e13070866228b43d80b96b44781077712624_MyToken.sol
-100.00,100.00,0x4824b7595175417b81dfc9350941bf3a35afe8f6,smart-contract-sanctuary-ethereum/contracts/mainnet/48/4824b7595175417b81dfc9350941bf3a35afe8f6_MyToken.sol
-100.00,100.00,0x20f3648677f3aa39875787a349ef76ed1d9140ef,smart-contract-sanctuary-ethereum/contracts/mainnet/20/20f3648677f3aa39875787a349ef76ed1d9140ef_MYCCToken.sol
-100.00,100.00,0x6d3fbe62dd0832cc8cdbb727e6dca9b64077d184,smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d3fbe62dd0832cc8cdbb727e6dca9b64077d184_ArkyTokenGenerator.sol
-100.00,100.00,0x07A95738eAe75849c0dF71007B98d0E1F5fB20d7,smart-contract-sanctuary-ethereum/contracts/mainnet/07/07A95738eAe75849c0dF71007B98d0E1F5fB20d7_DushiCoin.sol
+100.00,100.00,0x4d07e5d100311b4a5c535c48101b340f1735c307,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4d07e5d100311b4a5c535c48101b340f1735c307_NENCToken.sol
+100.00,100.00,0xaba7f149abcf485422d5c4263b480eb205cb2f52,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ab/aba7f149abcf485422d5c4263b480eb205cb2f52_MyToken.sol
+100.00,100.00,0xe288e13070866228b43d80b96b44781077712624,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e2/e288e13070866228b43d80b96b44781077712624_MyToken.sol
+100.00,100.00,0x20f3648677f3aa39875787a349ef76ed1d9140ef,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/20/20f3648677f3aa39875787a349ef76ed1d9140ef_MYCCToken.sol
+100.00,100.00,0x4824b7595175417b81dfc9350941bf3a35afe8f6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/48/4824b7595175417b81dfc9350941bf3a35afe8f6_MyToken.sol
+100.00,100.00,0x47a6fb3c875840fa31bc1aad018705a658f618d4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/47/47a6fb3c875840fa31bc1aad018705a658f618d4_wehome.sol
+100.00,100.00,0x6d3fbe62dd0832cc8cdbb727e6dca9b64077d184,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d3fbe62dd0832cc8cdbb727e6dca9b64077d184_ArkyTokenGenerator.sol
+100.00,100.00,0x07A95738eAe75849c0dF71007B98d0E1F5fB20d7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/07/07A95738eAe75849c0dF71007B98d0E1F5fB20d7_DushiCoin.sol

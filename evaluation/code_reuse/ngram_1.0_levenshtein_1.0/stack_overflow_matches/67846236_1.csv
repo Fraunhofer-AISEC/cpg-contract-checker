@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xd7d57b4b1d7a6d04683653376f721a8bcb45adec,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d7d57b4b1d7a6d04683653376f721a8bcb45adec_Withdrawable.sol
+100.00,100.00,0x981b21A2912A427f491f1e5b9Bf9cCa16FA794e1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/98/981b21A2912A427f491f1e5b9Bf9cCa16FA794e1_ExchangeIssuanceLeveraged.sol
+100.00,100.00,0x2F2C59212d1D0468eFA456fe51F49ED4A5538D64,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2F2C59212d1D0468eFA456fe51F49ED4A5538D64_ExchangeIssuanceLeveraged.sol
+100.00,100.00,0xeA716Ed94964Ed0126Fb2fA3b546eD7F209cC2b8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ea/eA716Ed94964Ed0126Fb2fA3b546eD7F209cC2b8_FlashMintLeveragedForCompound.sol

@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+80.00,92.86,0x65e19f967b3f3cb6466110ad238039f5423e3177,smart-contract-sanctuary-ethereum/contracts/mainnet/65/65e19f967b3f3cb6466110ad238039f5423e3177_LiquityEthGainToTrove.sol
+80.00,92.86,0x20b78854658011394c931ef2bf3ceea2fe62e7f0,smart-contract-sanctuary-ethereum/contracts/mainnet/20/20b78854658011394c931ef2bf3ceea2fe62e7f0_LiquityRedeem.sol
+80.00,92.86,0x5ab0244a00a733f16e6b238b462bdf3538c698e1,smart-contract-sanctuary-ethereum/contracts/mainnet/5a/5ab0244a00a733f16e6b238b462bdf3538c698e1_LiquitySPDeposit.sol
+80.00,92.86,0x86fdd4a6438d448a794a44abbe47d57590b3350d,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86fdd4a6438d448a794a44abbe47d57590b3350d_LiquityUnstake.sol
+80.00,92.86,0x671280800b540cbf073561d84a297a2c4c5d529f,smart-contract-sanctuary-ethereum/contracts/mainnet/67/671280800b540cbf073561d84a297a2c4c5d529f_LiquityStake.sol

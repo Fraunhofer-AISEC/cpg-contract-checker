@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+65.38,91.67,0x29611ae9fff401857552232f44024b8b9f24c1ae,smart-contract-sanctuary-ethereum/contracts/mainnet/29/29611ae9fff401857552232f44024b8b9f24c1ae_ForeignBridgeNativeToErc.sol
+65.38,91.67,0x6682d90e4d291056df976ec102e27d69210ef036,smart-contract-sanctuary-ethereum/contracts/mainnet/66/6682d90e4d291056df976ec102e27d69210ef036_ForeignBridgeErcToNative.sol
+65.38,91.67,0xc1b7f22d0bc15edfed4fccde5dcdd3ceefa9717a,smart-contract-sanctuary-ethereum/contracts/mainnet/c1/c1b7f22d0bc15edfed4fccde5dcdd3ceefa9717a_CompFarmingSummaryV3.sol

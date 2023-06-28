@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xf5110FE13F59343D7f522546F73078903671a67e,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5110FE13F59343D7f522546F73078903671a67e_ProfitStrategySushiDelegate.sol
-100.00,100.00,0xf6B7A9F7f104d469B499CB06F12dC33eBCeE3cd5,smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6B7A9F7f104d469B499CB06F12dC33eBCeE3cd5_YearnV2Adapter.sol
-100.00,100.00,0x885Ddf80a7a3b4148240415d9a2cDBF96E3f8144,smart-contract-sanctuary-ethereum/contracts/mainnet/88/885Ddf80a7a3b4148240415d9a2cDBF96E3f8144_CurveV1AdapterDeposit.sol
-100.00,100.00,0xF293825119212CeDeFE42AB14bD48D99DfD7baD7,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/F293825119212CeDeFE42AB14bD48D99DfD7baD7_LidoV1Adapter.sol
+100.00,100.00,0xf5110FE13F59343D7f522546F73078903671a67e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5110FE13F59343D7f522546F73078903671a67e_ProfitStrategySushiDelegate.sol
+100.00,100.00,0xf6B7A9F7f104d469B499CB06F12dC33eBCeE3cd5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6B7A9F7f104d469B499CB06F12dC33eBCeE3cd5_YearnV2Adapter.sol
+100.00,100.00,0x885Ddf80a7a3b4148240415d9a2cDBF96E3f8144,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/885Ddf80a7a3b4148240415d9a2cDBF96E3f8144_CurveV1AdapterDeposit.sol
+100.00,100.00,0xF293825119212CeDeFE42AB14bD48D99DfD7baD7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f2/F293825119212CeDeFE42AB14bD48D99DfD7baD7_LidoV1Adapter.sol

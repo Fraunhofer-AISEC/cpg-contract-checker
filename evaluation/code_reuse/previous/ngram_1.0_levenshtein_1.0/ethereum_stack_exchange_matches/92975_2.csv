@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x07c0f18d662e1c906dea67b6c5b58ae0edb120d3,smart-contract-sanctuary-ethereum/contracts/mainnet/07/07c0f18d662e1c906dea67b6c5b58ae0edb120d3_L1EventLogger.sol
+100.00,100.00,0x20780C94c88b9436e7F00da98896bbEaF1bF2eAF,smart-contract-sanctuary-ethereum/contracts/mainnet/20/20780C94c88b9436e7F00da98896bbEaF1bF2eAF_L1EventLogger.sol
+100.00,100.00,0x74B92f22bCb3eA996d6b027dA62361f02C6a631e,smart-contract-sanctuary-ethereum/contracts/mainnet/74/74B92f22bCb3eA996d6b027dA62361f02C6a631e_L1EventLogger.sol

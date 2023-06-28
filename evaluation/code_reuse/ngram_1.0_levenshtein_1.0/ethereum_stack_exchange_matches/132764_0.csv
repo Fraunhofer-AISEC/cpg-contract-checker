@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xc7ab7ffc4fc2f3c75ffb621f574d4b9c861330f0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c7ab7ffc4fc2f3c75ffb621f574d4b9c861330f0_Registry.sol
+100.00,100.00,0x4a96396566fad1033470c9ff848fd69c101a87e2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4a96396566fad1033470c9ff848fd69c101a87e2_PublicTokenRegister.sol
+100.00,100.00,0x1748b24faf9780b74e5a9f3feb41553e712e94aa,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/17/1748b24faf9780b74e5a9f3feb41553e712e94aa_ApeRides.sol
+100.00,100.00,0xE9626Ef8dc3a8Bb6Bf9E18b44d35266a7Ba3D11D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E9626Ef8dc3a8Bb6Bf9E18b44d35266a7Ba3D11D_ApeRidersClub.sol
