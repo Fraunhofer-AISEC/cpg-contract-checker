@@ -17,6 +17,9 @@ class GraphExtensionsPass: Pass() {
         result?.let {
             addAdditionalEOGEdges(it)
             addReturnNodes(it)
+
+            (lang as SolidityLanguageFrontend).pragmas.forEach { result += it }
+
         }
     }
 

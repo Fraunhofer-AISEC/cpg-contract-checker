@@ -11,7 +11,8 @@ class TimeManipulationCheck : Check() {
 
     override fun check(transaction: Transaction): List<PhysicalLocation> {
         val findings: MutableList<PhysicalLocation> = mutableListOf()
-        val query = object {}.javaClass.getResourceAsStream("/TimeManipulation")?.bufferedReader()?.readText()
+        var query = object {}.javaClass.getResourceAsStream("/TimeManipulation")?.bufferedReader()?.readText()
+        query = configurePaths(query)
 
         transaction.run(query).let { result ->
             while (result.hasNext()) {
