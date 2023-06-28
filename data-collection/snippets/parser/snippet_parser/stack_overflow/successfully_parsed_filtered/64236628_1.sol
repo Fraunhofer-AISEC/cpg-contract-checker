@@ -1,0 +1,3 @@
+constructor ()  {
+       owner = msg.sender;
+   }

@@ -1,0 +1,1 @@
+uint result = 0;
