@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,97.75,0xD2B8054E33f7F46504B3aeA94EC8C4aE104593AF,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d2/D2B8054E33f7F46504B3aeA94EC8C4aE104593AF_FlashLoanerSushi.sol
+100.00,96.62,0xa7B9A48394618a78496BdadD1267F74413605e60,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7B9A48394618a78496BdadD1267F74413605e60_FlashLoaner.sol
+100.00,100.00,0x61604f552B07464c009F4F71532CA7955731627B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/61/61604f552B07464c009F4F71532CA7955731627B_FlashLoaner.sol
+98.65,90.97,0xC137ff5be764F0298460521278a4104639239e36,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c1/C137ff5be764F0298460521278a4104639239e36_FlashLoanerSushi.sol

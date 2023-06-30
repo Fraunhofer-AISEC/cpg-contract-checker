@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+87.50,90.00,0xbe16ba60960a5e92bc878814dddc736252db8f32,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/be/be16ba60960a5e92bc878814dddc736252db8f32_DappTutorial.sol
+87.50,90.00,0xd7f0cC50AD69408aE58be033F4f85D2367C2e468,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d7f0cC50AD69408aE58be033F4f85D2367C2e468_VeraDefi.sol
+87.50,90.00,0x08ba718F288c3b12B01146816bef9FA03cC635bc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/08/08ba718F288c3b12B01146816bef9FA03cC635bc_CentaurifyToken.sol
+87.50,90.00,0xcd1faff6e578fa5cac469d2418c95671ba1a62fe,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cd/cd1faff6e578fa5cac469d2418c95671ba1a62fe_Torum.sol
+87.50,90.00,0x23894dc9da6c94ecb439911caf7d337746575a72,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/23/23894dc9da6c94ecb439911caf7d337746575a72_JamEth.sol
+87.50,90.00,0x07345baD63aB4dE51a1395317a8ECf050A71d69d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/07/07345baD63aB4dE51a1395317a8ECf050A71d69d_ScaleSwapToken.sol
+87.50,90.00,0x1fbd3df007eb8a7477a1eab2c63483dcc24effd6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1fbd3df007eb8a7477a1eab2c63483dcc24effd6_ScaleSwapToken.sol

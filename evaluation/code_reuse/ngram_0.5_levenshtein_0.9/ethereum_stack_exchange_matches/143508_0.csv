@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.37,97.44,0x5041A99684D38e280e4B0B356185BF18c991F88B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/50/5041A99684D38e280e4B0B356185BF18c991F88B_Legionnaire.sol
+97.37,97.44,0xA9c775D8d6AB7caE5F3b089d019Ee9B98a69Ea40,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a9/A9c775D8d6AB7caE5F3b089d019Ee9B98a69Ea40_Legionnaire.sol
+94.74,97.44,0x320cb39d51ACfF8A9A18084b168917372654223f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/320cb39d51ACfF8A9A18084b168917372654223f_Satoshiverse.sol
+94.74,97.44,0x2836590b5c6678dB15415D71a439FeA49B8b7C8b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/28/2836590b5c6678dB15415D71a439FeA49B8b7C8b_Satoshiverse.sol
+94.74,97.44,0x6BFA4E3DC20329449eC44280d0133e64c7b4f0cf,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6BFA4E3DC20329449eC44280d0133e64c7b4f0cf_SatoshiVerse.sol

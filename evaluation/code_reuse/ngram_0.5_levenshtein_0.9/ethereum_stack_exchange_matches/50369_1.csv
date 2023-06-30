@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+92.93,90.83,0xc321aa2cb7a0336aa829ea153b4ea422f5d806c4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c321aa2cb7a0336aa829ea153b4ea422f5d806c4_BuddyBuddyTags.sol
+91.92,96.08,0x189289e154816342bb145ea4d6e8601c5668fcd8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/18/189289e154816342bb145ea4d6e8601c5668fcd8_Words.sol
+89.90,93.20,0x587A9bE02B75406557e3dDC13a281cA8ab54239d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/58/587A9bE02B75406557e3dDC13a281cA8ab54239d_TextLogoElementDescriptor.sol
+89.90,93.20,0xC743402D6E91143E5d40a2f75b47f4e8a1789F9B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c7/C743402D6E91143E5d40a2f75b47f4e8a1789F9B_EmoticonLogoElementDescriptor.sol

@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.74,92.31,0x74959a66BDA4BDA158f2B0f2Ca0272cEf45FA741,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/74/74959a66BDA4BDA158f2B0f2Ca0272cEf45FA741_RiotGirls.sol
+93.42,92.31,0x6278949d3b4C10569BEB696Ff8864B5c772c740d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/6278949d3b4C10569BEB696Ff8864B5c772c740d_ERC20TransferableReceivable.sol
+88.16,91.03,0xe4aa79ab49b446eb06c51bdd1d1183fe229233f2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e4aa79ab49b446eb06c51bdd1d1183fe229233f2_MetaFigure.sol
+88.16,91.03,0xb8bab3c84ed35951aca4c05c36c802346ff2dfa3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b8/b8bab3c84ed35951aca4c05c36c802346ff2dfa3_GrandpaGoblinz.sol
+88.16,91.03,0x890bf61c65d2150c0edd735b29ef163d80b7c6ee,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/89/890bf61c65d2150c0edd735b29ef163d80b7c6ee_AthleteHeroTeam.sol
+88.16,91.03,0xd23a4e9bb4636b22695d174e0c83e526a74880af,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d23a4e9bb4636b22695d174e0c83e526a74880af_AthleteHero.sol
+88.16,91.03,0xcfd4d72b8250dbf4482438f044d7026cbe2cee71,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cf/cfd4d72b8250dbf4482438f044d7026cbe2cee71_AthleteHero.sol

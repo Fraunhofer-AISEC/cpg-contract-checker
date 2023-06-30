@@ -1,0 +1,10 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,93.51,0x8ce2236bb743ef077409b43e541eaa4f5b928db3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8ce2236bb743ef077409b43e541eaa4f5b928db3_BunToken.sol
+80.95,90.91,0xd6ccd3c7b0882988f46c8d3d29000968010babcd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d6ccd3c7b0882988f46c8d3d29000968010babcd_MultiEtherSender.sol
+80.95,90.91,0x516e40879548fb1dd5342a80bcb25f765df117d8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/51/516e40879548fb1dd5342a80bcb25f765df117d8_ed.sol
+80.95,90.91,0x96fd68b56946126d25d8cb6e7df68cb8ed13152a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/96/96fd68b56946126d25d8cb6e7df68cb8ed13152a__ERC20Pool.sol
+80.95,90.91,0x136c016c3216d7b15cb5f613b97d9e9c5d04fc6b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/13/136c016c3216d7b15cb5f613b97d9e9c5d04fc6b__ERC20Pool.sol
+76.19,90.91,0xf9083b4d79339f02eb8a5db22099854b92854cc3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f9083b4d79339f02eb8a5db22099854b92854cc3_PayChannel.sol
+76.19,90.91,0xbd6840005d25b208650414053244064f2d280c01,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd6840005d25b208650414053244064f2d280c01_Forwarder.sol
+76.19,90.91,0x6c211566a6ac8e579c3738684c371142903ad83d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c211566a6ac8e579c3738684c371142903ad83d_efw.sol
+76.19,90.91,0xe511af0c7b022b6e7d1b2d313b8e3f594870d504,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e511af0c7b022b6e7d1b2d313b8e3f594870d504_forwardEth.sol

@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,93.10,0x34628b19f2267f31e4acee652a234216903e2385,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/34/34628b19f2267f31e4acee652a234216903e2385_TokenTimelock.sol
+100.00,90.62,0x97927BCE35E0feB729528F5a8390903bAbA741fb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/97/97927BCE35E0feB729528F5a8390903bAbA741fb_EmissionManager.sol
+92.59,93.10,0x2f23014513136095f9323d3b2396d3032b8cdec7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2f23014513136095f9323d3b2396d3032b8cdec7_QLF_HISTORY_POSITION_1000_MASK_MAIN.sol
+92.59,93.10,0x16ecc3f8ecc7ae4279d38a2eabbc6b70cdd44ed6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/16/16ecc3f8ecc7ae4279d38a2eabbc6b70cdd44ed6_QLF_HISTORY_POSITION_500_MASK_MAIN.sol

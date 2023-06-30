@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x75619E83290A03F86fE473C2d6C177498cD651D5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/75/75619E83290A03F86fE473C2d6C177498cD651D5_ArrayMapping.sol
+100.00,100.00,0x95f7f4527cd84b2c8a170d940ce3bc6f1917b5fc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/95/95f7f4527cd84b2c8a170d940ce3bc6f1917b5fc_Callee.sol
+89.29,93.37,0x600c9892b294ef4cb7d22c1f6045c972c0a086e5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/60/600c9892b294ef4cb7d22c1f6045c972c0a086e5_ItemsStorage.sol
+89.29,93.37,0x27b95a9231a022923e9b52d71beb662fdd5d6cbc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/27/27b95a9231a022923e9b52d71beb662fdd5d6cbc_ItemsStorage.sol

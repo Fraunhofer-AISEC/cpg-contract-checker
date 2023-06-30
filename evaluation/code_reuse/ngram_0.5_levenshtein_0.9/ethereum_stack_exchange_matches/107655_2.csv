@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+75.00,90.00,0x6cd30c3964d04adcfc6a2a3b6031e21d94d3d91f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6cd30c3964d04adcfc6a2a3b6031e21d94d3d91f_IkuraAuthority.sol
+75.00,90.00,0x11c46022541b64052c766c37c9a877e8ddcc6c76,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/11/11c46022541b64052c766c37c9a877e8ddcc6c76_IkuraAssociation.sol
+75.00,90.00,0x95709a816a56195062e0a37d1e96a3370613a444,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/95/95709a816a56195062e0a37d1e96a3370613a444_IkuraToken.sol
+75.00,90.00,0x12d618a6f26105efb017ddd360c05d8aed4b00f9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/12/12d618a6f26105efb017ddd360c05d8aed4b00f9_RAcoinToken.sol
+75.00,90.00,0xea8c9db193996bbc3f6a9afbdbea2b3b62c11253,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ea/ea8c9db193996bbc3f6a9afbdbea2b3b62c11253_RAcoinToken.sol
+75.00,90.00,0x39689fE671C01fcE173395f6BC45D4C332026666,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/39/39689fE671C01fcE173395f6BC45D4C332026666_IkuraController.sol
+75.00,90.00,0xfd64fa5976687c2048f08f5df89c9a78e31df680,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fd/fd64fa5976687c2048f08f5df89c9a78e31df680_Bridge.sol

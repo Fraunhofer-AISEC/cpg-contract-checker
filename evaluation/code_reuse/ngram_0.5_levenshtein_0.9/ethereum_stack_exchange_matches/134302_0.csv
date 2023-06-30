@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.12,90.00,0x6336ea4701b2f5f77c58ac76b2db519b9a53ccfd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/63/6336ea4701b2f5f77c58ac76b2db519b9a53ccfd_BurnableTaxToken.sol
+94.12,90.00,0xb580b793c7e0baa828c90379b623663d2e7b123d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b5/b580b793c7e0baa828c90379b623663d2e7b123d_BurnableTaxHolderToken.sol
+94.12,90.00,0xc1b99ef55968ec4084f7b832d1f5a79c876e9fe6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c1/c1b99ef55968ec4084f7b832d1f5a79c876e9fe6_TaxToken.sol
+94.12,90.00,0x18a648842956c0001a18fac23b163e66cb7d8e28,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/18/18a648842956c0001a18fac23b163e66cb7d8e28_BurnableMintableTaxToken.sol
+94.12,90.00,0xbc9f3c0fd0bf21df9dfde2e5a2333aaf3640ea76,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc9f3c0fd0bf21df9dfde2e5a2333aaf3640ea76_BurnableMintableTaxHolderToken.sol

@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+93.02,91.77,0x86949dc8043a5fd7619a1289d65964ad5ec3d25c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/86949dc8043a5fd7619a1289d65964ad5ec3d25c_GCSToken.sol
+93.02,91.77,0x6cfc8568d8f0ba9855f76f4ab68234f97e074a67,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6cfc8568d8f0ba9855f76f4ab68234f97e074a67_GCCToken.sol
+93.02,91.77,0xfd784da5c740c617aafb80399fa81b86e1da99a5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fd/fd784da5c740c617aafb80399fa81b86e1da99a5_ITSToken.sol
+93.02,90.84,0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/89/89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7_MyToken.sol
+90.70,91.77,0x4f47702ce67bd0774327f3d5d82fe3113cb35625,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4f47702ce67bd0774327f3d5d82fe3113cb35625_WSXToken.sol
+90.70,91.77,0xc2bca141ab9199f23bd29f416e1f6efe21f59d59,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c2bca141ab9199f23bd29f416e1f6efe21f59d59_VPTToken.sol

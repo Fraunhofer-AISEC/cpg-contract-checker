@@ -1,0 +1,10 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.92,92.35,0x3631959CdefdeFFdBb0e3bF900aC10b492F63a92,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/36/3631959CdefdeFFdBb0e3bF900aC10b492F63a92_TaggerzXL.sol
+95.83,96.43,0xF394AbA28d717a27b0cdbf32FbFeFF312f65e6a0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f3/F394AbA28d717a27b0cdbf32FbFeFF312f65e6a0_RGC.sol
+95.83,96.43,0x0C99b3101E2a06bc85eEE5AD43D299e3eCf4e7e7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0C99b3101E2a06bc85eEE5AD43D299e3eCf4e7e7_EcoNFT.sol
+93.75,92.86,0x03009AFBae923B00bA4F85F871CE80568fbA88B2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/03/03009AFBae923B00bA4F85F871CE80568fbA88B2_RainbowClaim.sol
+93.75,92.86,0x826bC1Ec8c5B5190946C6bED785B7c69F04d5C6b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/82/826bC1Ec8c5B5190946C6bED785B7c69F04d5C6b_RainbowClaim.sol
+93.75,92.86,0xe9A9b25304aB01552c3bc8eDc265230F9A0dFd10,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e9A9b25304aB01552c3bc8eDc265230F9A0dFd10_SandboxDrop.sol
+93.75,92.86,0xd3Ec87E3e95EC3BEDaEF152D1F1b4f2215B1B810,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d3/d3Ec87E3e95EC3BEDaEF152D1F1b4f2215B1B810_PCP.sol
+91.67,93.00,0x32DD7851939C463e22d066eBdd7006F23b5359A7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/32DD7851939C463e22d066eBdd7006F23b5359A7_TryYourLuck.sol
+91.67,93.00,0x045de89D8B4431133B91c05EB3C58369aE20E7EF,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/04/045de89D8B4431133B91c05EB3C58369aE20E7EF_FkFtxTreasure.sol

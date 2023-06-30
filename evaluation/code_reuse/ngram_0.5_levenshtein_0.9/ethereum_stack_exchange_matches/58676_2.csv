@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.14,91.78,0x92fb4ed3f64aba14f871dcd56df399b2ac67dc10,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/92fb4ed3f64aba14f871dcd56df399b2ac67dc10_RefundVault.sol
+90.14,91.78,0x3fccf0963c6dcef5858f77f83bf99cb46b2c34f5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3fccf0963c6dcef5858f77f83bf99cb46b2c34f5_Vault.sol
+90.14,91.78,0x2b7a6374fbf06c080c36ff43fa99f9d6f09019ab,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b7a6374fbf06c080c36ff43fa99f9d6f09019ab_BitMEDCrowdsale.sol
+90.14,91.78,0x1b53d25fd98511b02ab71d2e4638d897e65b178c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b53d25fd98511b02ab71d2e4638d897e65b178c_BitMEDSmartToken.sol

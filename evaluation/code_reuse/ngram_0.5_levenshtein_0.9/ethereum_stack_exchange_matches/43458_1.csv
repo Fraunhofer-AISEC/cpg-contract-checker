@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,92.52,0x711f388038efef6ca032ef9d9a0c79efc1579db6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/71/711f388038efef6ca032ef9d9a0c79efc1579db6_BitcoinStore.sol
+100.00,92.52,0x6c7a3c832e573b1d7f3c9f7d51b2ec13f461dbe1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c7a3c832e573b1d7f3c9f7d51b2ec13f461dbe1_BitcoinStore.sol
+100.00,98.53,0x4c9b31eeca8da5a63237097176691bef68e8b8c5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4c9b31eeca8da5a63237097176691bef68e8b8c5_PunkLombard.sol
+100.00,95.84,0xe7c79deb6a9b74f691d5f882b7c588bba5db1a20,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e7c79deb6a9b74f691d5f882b7c588bba5db1a20_MintingContract.sol
+100.00,95.88,0xb72fc3f647c9bb4fda13ea2a1ba9b779eb786770,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b72fc3f647c9bb4fda13ea2a1ba9b779eb786770_EligmaMintingContract.sol

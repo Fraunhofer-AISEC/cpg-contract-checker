@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,90.48,0x29539bcb0b0fc23b9a49dfd87a68f0a0f5765ea7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/29/29539bcb0b0fc23b9a49dfd87a68f0a0f5765ea7_SoundcoinsToken.sol
+100.00,100.00,0x23be14b17f481a04d7a42aa18ffc4d9d502e70e3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/23/23be14b17f481a04d7a42aa18ffc4d9d502e70e3_vBond.sol
+100.00,100.00,0x80C1f0479b052bfA95109B5EF38bc343Cf7fCe31,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/80/80C1f0479b052bfA95109B5EF38bc343Cf7fCe31_YUANDelegate.sol
+100.00,100.00,0xbac4378d14b6a4cf302e288e6d64282db4f31b2c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ba/bac4378d14b6a4cf302e288e6d64282db4f31b2c_Proposal33.sol
+100.00,100.00,0x30bb8D13047204CA2AB8f94D4c96e9Dab85bAc28,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/30/30bb8D13047204CA2AB8f94D4c96e9Dab85bAc28_YUANDelegator.sol
+100.00,97.62,0xcd56ea123192e9066efa1a5b56b2a574f75ca964,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cd/cd56ea123192e9066efa1a5b56b2a574f75ca964_Treasury.sol
+95.12,92.13,0x5b9348E7d9D6c1C8044108955e60Cf732a3FBBeb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b9348E7d9D6c1C8044108955e60Cf732a3FBBeb_LBCToken.sol

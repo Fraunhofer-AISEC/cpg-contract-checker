@@ -1,0 +1,10 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.94,95.36,0xaf61B950A3D2e6518AC488c05183eC08452fA46a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/af/af61B950A3D2e6518AC488c05183eC08452fA46a_TestUniswap.sol
+97.35,91.92,0xdbec0e19c321dC41660E2b73AFb3310b4fd1961C,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/db/dbec0e19c321dC41660E2b73AFb3310b4fd1961C_VoltInuSwap.sol
+96.83,93.82,0xeef588f0c0525a63b02c3ac7518a4e9ba4ba2ad5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ee/eef588f0c0525a63b02c3ac7518a4e9ba4ba2ad5_tokenSwap.sol
+96.83,93.82,0x26d794c9679D2851182f9773682d1300aFAf242c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/26/26d794c9679D2851182f9773682d1300aFAf242c_tokenSwap.sol
+96.83,93.82,0x4DE716E187B63D798A4D8f226817fE7702168e4E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4DE716E187B63D798A4D8f226817fE7702168e4E_tokenSwap.sol
+96.83,93.82,0x6D5c0e9Ffabd5f536EE763A703abF9cb36a7f03c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6D5c0e9Ffabd5f536EE763A703abF9cb36a7f03c_tokenSwap.sol
+96.83,93.82,0x859b6446ba378b395cd6f28a7ef18c0dcb4ccb0d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/85/859b6446ba378b395cd6f28a7ef18c0dcb4ccb0d_tokenSwap.sol
+96.83,93.82,0xa7c1d73767d498ed545fe190d3ce88e0169cc033,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7c1d73767d498ed545fe190d3ce88e0169cc033_tokenSwap.sol
+96.83,93.82,0xa36f7b97900cfe58e17fc951539656c231d751b8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a36f7b97900cfe58e17fc951539656c231d751b8_tokenSwap.sol

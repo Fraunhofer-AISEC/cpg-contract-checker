@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+88.24,90.48,0x7842Fa3B2d87Ff1cd52C4152382f7C4B3406E5A6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/78/7842Fa3B2d87Ff1cd52C4152382f7C4B3406E5A6_SideStaking.sol
+88.24,90.48,0x8bA04715B1b210f710426b21A29887EEd4EA6751,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8bA04715B1b210f710426b21A29887EEd4EA6751_Dispenser.sol
+88.24,90.28,0xc5e7B779Fe174D360D1d53Cb549839904012Fd7b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c5e7B779Fe174D360D1d53Cb549839904012Fd7b_FundamentaWrappedToken.sol
+88.24,90.48,0xfa48673a7C36A2A768f89AC1ee8C355D5c367B02,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa48673a7C36A2A768f89AC1ee8C355D5c367B02_FixedRateExchange.sol

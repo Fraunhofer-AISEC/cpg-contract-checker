@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+99.04,97.54,0x514D66588B031100bA9304BCB0EdDE2f817dF7A9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/51/514D66588B031100bA9304BCB0EdDE2f817dF7A9_JRNYRaffle.sol
+96.14,94.51,0xb602e964bc95d5b3b994ad3e8fc99825b29ca875,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b602e964bc95d5b3b994ad3e8fc99825b29ca875_VRFv2DirectFundingConsumer.sol
+96.14,94.51,0x45581c6aa05e288e2ed95636e9e4c7ab21aa237a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/45/45581c6aa05e288e2ed95636e9e4c7ab21aa237a_AgentsRaffle.sol
+96.14,94.51,0x319d4f73d7d1ded1143080582744d307ceb5324c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/319d4f73d7d1ded1143080582744d307ceb5324c_AgentsRaffle.sol
+96.14,94.51,0x1b0d3bf28aab3c4b9943e49993a9c2c402b3f4e0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b0d3bf28aab3c4b9943e49993a9c2c402b3f4e0_AgentsRaffle.sol

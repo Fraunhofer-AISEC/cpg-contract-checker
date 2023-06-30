@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,90.40,0x0c5778a97e5f143fefdaa251b6b7ac3404c21a85,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0c5778a97e5f143fefdaa251b6b7ac3404c21a85_CookToken.sol
+92.31,92.59,0x1b0a83bc73a8c82128a88226994adb616aee1a35,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b0a83bc73a8c82128a88226994adb616aee1a35_GremlinsAirdrops.sol
+88.46,92.59,0x8d2b74b88182fa94a6bf0e972b3090bbd7868fe8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8d/8d2b74b88182fa94a6bf0e972b3090bbd7868fe8_BNKToken.sol
+88.46,92.78,0x479f523e99c7418933774f415794075dd0160b7d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/47/479f523e99c7418933774f415794075dd0160b7d_Zero2HeroToken.sol
+84.62,92.59,0xb2ca0f2BeEf8D9aF86B56cd941D2270360883adF,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b2ca0f2BeEf8D9aF86B56cd941D2270360883adF_TRYC_v1.sol
+84.62,92.78,0x40b6457e49071d0b9565934EbD92627ad6CB378F,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/40/40b6457e49071d0b9565934EbD92627ad6CB378F_HHHmainnet.sol

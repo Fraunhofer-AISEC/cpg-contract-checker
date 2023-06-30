@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x78CA99e1445412DBB29bE698801a0a3c86D9e975,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/78/78CA99e1445412DBB29bE698801a0a3c86D9e975_TokenSaleFactory.sol
+93.10,96.77,0x3a1cdf8e12419379561b384688867bb8e66e5e30,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3a/3a1cdf8e12419379561b384688867bb8e66e5e30_TokenICO.sol
+93.10,91.18,0x0c199144D2952294daDBE14ea2D01155eE921232,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0c199144D2952294daDBE14ea2D01155eE921232_TokenFactory.sol
+89.66,93.55,0x7abc1fbc4f113e63f73450a59b0dcdd1cd237128,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7abc1fbc4f113e63f73450a59b0dcdd1cd237128_Gartier.sol
+89.66,93.55,0x09593af1330e010eaf4cbfaa57de84e9cec731ed,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/09/09593af1330e010eaf4cbfaa57de84e9cec731ed_GoldFarmYield.sol
+89.66,93.55,0x76eda1485707285f88d4c9404222c3f6cc5166ca,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/76/76eda1485707285f88d4c9404222c3f6cc5166ca_GoldTieraETF.sol

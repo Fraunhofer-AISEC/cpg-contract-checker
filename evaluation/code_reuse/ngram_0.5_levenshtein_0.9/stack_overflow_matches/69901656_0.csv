@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xab806051e2c335b1b15af5ec77227e4fb4f4d8bb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ab/ab806051e2c335b1b15af5ec77227e4fb4f4d8bb_TokenSale.sol
+100.00,100.00,0xa4fcbc5f1e99909ace6c6f8ec934e2526eb85c22,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4fcbc5f1e99909ace6c6f8ec934e2526eb85c22_TokenSale.sol
+100.00,100.00,0x7684dabd7872b93663d33ed39b0bade7d15f7400,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/76/7684dabd7872b93663d33ed39b0bade7d15f7400_TokenSale.sol
+98.52,99.19,0x83d0b7053576b65a16b5d4cbf015ef7dade60b21,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/83/83d0b7053576b65a16b5d4cbf015ef7dade60b21_NTokenSale.sol

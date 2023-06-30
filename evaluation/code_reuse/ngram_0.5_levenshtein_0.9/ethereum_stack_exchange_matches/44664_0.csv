@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+86.03,90.51,0x1292c67cd6c60be9a2da2c0b113eba9f5a6a342f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/12/1292c67cd6c60be9a2da2c0b113eba9f5a6a342f_GuardiansOfTheDoge.sol
+85.15,90.06,0x435019c97f34cc1aeed7aeffc4bbb59db88494cb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/43/435019c97f34cc1aeed7aeffc4bbb59db88494cb_CoinFast.sol
+85.15,90.06,0x025068c7d1b37af42ab01f6349da473564c368ab,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/02/025068c7d1b37af42ab01f6349da473564c368ab_TravalaDoge.sol

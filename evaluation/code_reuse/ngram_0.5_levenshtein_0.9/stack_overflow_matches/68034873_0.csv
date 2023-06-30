@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+93.75,91.81,0x43376277553840AEcCAeB798e03f54AB321bCff2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/43/43376277553840AEcCAeB798e03f54AB321bCff2_FairXYZWallets.sol
+93.75,91.55,0x96fC21EfC5c030E0012199638992c8a703086866,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/96/96fC21EfC5c030E0012199638992c8a703086866_FairXYZWallets.sol
+93.75,91.55,0x82B666B0978B571e76d6408b4bd5bCfFFDdBFE13,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/82/82B666B0978B571e76d6408b4bd5bCfFFDdBFE13_FairXYZWallets.sol
+93.75,91.55,0x033870acf44FaB6342EF1a114A6826D2F8D15B03,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/03/033870acf44FaB6342EF1a114A6826D2F8D15B03_FairXYZWallets.sol

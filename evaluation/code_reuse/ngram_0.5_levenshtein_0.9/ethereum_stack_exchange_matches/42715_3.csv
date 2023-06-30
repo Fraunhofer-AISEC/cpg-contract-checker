@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+78.79,91.18,0xe68c4c39153eb5c18a30365a3fce00fb8363a16c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e6/e68c4c39153eb5c18a30365a3fce00fb8363a16c_SmartPyramid.sol
+78.79,91.18,0x3da6d8f14dfcd576c46f9994d8fd94883a8f3fe8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3da6d8f14dfcd576c46f9994d8fd94883a8f3fe8_SmartPyramid.sol
+78.79,91.18,0xa9fa841e2b56be2d8b645819b46fedfd9e331206,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a9fa841e2b56be2d8b645819b46fedfd9e331206_SmartPyramid.sol

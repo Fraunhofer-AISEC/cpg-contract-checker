@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,92.59,0x64BD22E4DF27795AC52405C1d90b75381Cb3e9B6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/64/64BD22E4DF27795AC52405C1d90b75381Cb3e9B6_ChilliswapMarket.sol
+100.00,92.59,0x7FadD134Df4061cF34D287ceCc38a240a25DC0a0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7f/7FadD134Df4061cF34D287ceCc38a240a25DC0a0_KokoswapMarket.sol
+96.00,96.30,0x0a54468c18bce768876b00cdc82c3164afc74e05,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0a54468c18bce768876b00cdc82c3164afc74e05_InitialTestMT.sol
+96.00,96.30,0x4aa0ee508f8c5dfb6d3cff1ed2c539a522980071,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4aa0ee508f8c5dfb6d3cff1ed2c539a522980071_InitialMoneyTokenIMT.sol
+96.00,96.30,0x13119e34e140097a507b07a5564bde1bc375d9e6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/13/13119e34e140097a507b07a5564bde1bc375d9e6_InitialMTTokenIMT.sol
+92.00,96.30,0x034a15bece9794d5aed23c30a8d343e8a8c23831,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/03/034a15bece9794d5aed23c30a8d343e8a8c23831_AHEC.sol
+92.00,96.30,0x5300c35a90f750c2f41c8cc461a7ed5939c888f0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/53/5300c35a90f750c2f41c8cc461a7ed5939c888f0_YFEC.sol

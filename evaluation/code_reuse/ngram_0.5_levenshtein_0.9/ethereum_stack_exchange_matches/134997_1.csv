@@ -1,0 +1,10 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.67,91.75,0x41aC9FEe31050Bb72A5eea1435A21b22589697da,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/41/41aC9FEe31050Bb72A5eea1435A21b22589697da_NFTContractERC721A.sol
+97.67,93.02,0x51012eCb5C63253317ed6fE70B53F1E40ebCbBa5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/51/51012eCb5C63253317ed6fE70B53F1E40ebCbBa5_NFTFTF.sol
+95.35,90.42,0x3b51809702c7019d7c9ba4d3f46374034a4efb8b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b51809702c7019d7c9ba4d3f46374034a4efb8b_EMOJI_GANGS.sol
+95.35,93.31,0x6ae3225e10869bd9c15fffa2cfe9c928e5def696,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6ae3225e10869bd9c15fffa2cfe9c928e5def696_gurts.sol
+95.35,91.28,0x91D91dCFB29C55f66d97Fdf67f89c0c6d5529e38,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/91/91D91dCFB29C55f66d97Fdf67f89c0c6d5529e38_gurts.sol
+95.35,96.10,0x0116E8F93C4228D84fA87f53D4AC02142c4Bd639,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/01/0116E8F93C4228D84fA87f53D4AC02142c4Bd639_Kevinmom.sol
+95.35,90.05,0x3c08a4d4b50b8720a9b3ad7477412ad368dd0029,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3c08a4d4b50b8720a9b3ad7477412ad368dd0029_loremporium.sol
+93.02,93.69,0xd64291d842212BcF20dB9dbEcE7823Fe103061ab,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d64291d842212BcF20dB9dbEcE7823Fe103061ab_CyberBrokersMint.sol
+93.02,92.51,0x892848074ddeA461A15f337250Da3ce55580CA85,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/89/892848074ddeA461A15f337250Da3ce55580CA85_CyberBrokers.sol

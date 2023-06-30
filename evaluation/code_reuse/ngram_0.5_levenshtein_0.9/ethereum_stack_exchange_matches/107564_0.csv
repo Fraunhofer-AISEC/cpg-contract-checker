@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x9C7FfE06A4c5C58A5D60bC95baAb56F558A4dACf,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9C7FfE06A4c5C58A5D60bC95baAb56F558A4dACf_UniswapV2QueryBundler.sol
+100.00,100.00,0xf522b378273394Bea84a31Db3D627c9a6fd522F0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f522b378273394Bea84a31Db3D627c9a6fd522F0_FlashBotsUniswapQuery.sol
+100.00,100.00,0x5EF1009b9FCD4fec3094a5564047e190D72Bd511,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5EF1009b9FCD4fec3094a5564047e190D72Bd511_FlashBotsUniswapQuery.sol
+100.00,100.00,0xc7b2104002db5b37f90838f3b35490965cd37214,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c7b2104002db5b37f90838f3b35490965cd37214_OpenMevUniswapQuery.sol

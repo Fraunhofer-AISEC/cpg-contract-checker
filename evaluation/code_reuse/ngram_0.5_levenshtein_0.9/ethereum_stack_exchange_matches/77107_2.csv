@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xc922b15b76e6a660bc5e9fbc6e171c702d0f708f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c9/c922b15b76e6a660bc5e9fbc6e171c702d0f708f_RFSCrowdsale.sol
+100.00,93.75,0xa2185aa4e9ddf0e6f58dc76a1fbc6376f64cd8f2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a2185aa4e9ddf0e6f58dc76a1fbc6376f64cd8f2_OsstToken.sol
+100.00,90.62,0xa51454e04fb3e979aba8a4e34437e8523919499f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a51454e04fb3e979aba8a4e34437e8523919499f_RFSCrowdsaleDeployer.sol

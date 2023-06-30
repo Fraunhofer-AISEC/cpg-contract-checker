@@ -1,0 +1,9 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x9275e8386a5bdda160c0e621e9a6067b8fd88ea2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/9275e8386a5bdda160c0e621e9a6067b8fd88ea2_SimpleToken.sol
+100.00,100.00,0x6C0344a47A0268a0bFCD984660986d00B20D7608,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6C0344a47A0268a0bFCD984660986d00B20D7608_CapitanCoin.sol
+100.00,100.00,0x41142e89758aee987d617a1306dcede6d26cc433,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/41/41142e89758aee987d617a1306dcede6d26cc433_RFS.sol
+100.00,100.00,0x0988437bd7f3ce6132da52af60163bf9dc80c8e5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/09/0988437bd7f3ce6132da52af60163bf9dc80c8e5_RFSCrowdsaleDeployer.sol
+100.00,100.00,0xa51454e04fb3e979aba8a4e34437e8523919499f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a51454e04fb3e979aba8a4e34437e8523919499f_RFSCrowdsaleDeployer.sol
+92.86,96.55,0x68E3B39333bEbCcBEeBb713890d98B8a4464a539,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/68/68E3B39333bEbCcBEeBb713890d98B8a4464a539_Token.sol
+89.29,93.10,0x3FAb0bBAa03BCEAF7C49E2b12877dB0142BE65FC,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3FAb0bBAa03BCEAF7C49E2b12877dB0142BE65FC_Token.sol
+89.29,96.55,0x959c1Ed7E629Ec48a75590Df1d895E5F081367bD,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/95/959c1Ed7E629Ec48a75590Df1d895E5F081367bD_AnzenToken.sol

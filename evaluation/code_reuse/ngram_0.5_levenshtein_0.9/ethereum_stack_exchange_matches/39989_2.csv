@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.09,96.19,0x7799d387ffb6dcbe8b8f6404d811dbaae8f79f54,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/77/7799d387ffb6dcbe8b8f6404d811dbaae8f79f54_HexUtils.sol
+96.17,95.24,0xae9a070bed8b80050e3b8a26c169496b55c00d94,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ae/ae9a070bed8b80050e3b8a26c169496b55c00d94_HexUtils.sol
+94.26,92.86,0xf7c2df4db0ab7a1d4fc524a910b6a18eb108a960,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f7c2df4db0ab7a1d4fc524a910b6a18eb108a960_LoFiSkylines.sol
+89.00,90.05,0x787DA142Bb2002ae7849a3813B594025A5020f76,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/78/787DA142Bb2002ae7849a3813B594025A5020f76_ApeEventFetcher.sol
+88.04,90.05,0x993F28700E2303543978CEA15E9f04eD5c9FBF6a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/99/993F28700E2303543978CEA15E9f04eD5c9FBF6a_ApeEventFetcher.sol
