@@ -13,4 +13,5 @@ rm -rf smart-contract-sanctuary-ethereum/contracts/goerli
 rm -rf smart-contract-sanctuary-ethereum/contracts/kovan
 rm -rf smart-contract-sanctuary-ethereum/contracts/rinkeby
 rm -rf smart-contract-sanctuary-ethereum/contracts/ropsten
+rm -rf smart-contract-sanctuary-ethereum/contracts/sepolia
 rm smart-contract-sanctuary-ethereum/contracts/mainnet/contracts.json
