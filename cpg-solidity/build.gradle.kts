@@ -6,7 +6,7 @@ plugins {
     java
     `java-library`
     antlr
-    kotlin("jvm") version "1.6.21"
+    kotlin("jvm") version "1.8.22"
 }
 
 repositories {
@@ -15,7 +15,7 @@ repositories {
     maven { setUrl("https://jitpack.io") }
 
     ivy {
-        setUrl("https://download.eclipse.org/tools/cdt/releases/10.3/cdt-10.3.2/plugins")
+        setUrl("https://download.eclipse.org/tools/cdt/releases/11.0/cdt-11.0.0/plugins")
         metadataSources {
             artifact()
         }
@@ -26,7 +26,7 @@ repositories {
 }
 
 val versions = mapOf(
-    "cpg" to "4.2.1",
+    "cpg" to "7.0.0",
     "junit5" to "5.8.2",
     "neo4j" to "3.2.35"
 )

@@ -1,7 +1,7 @@
 package de.fraunhofer.aisec.cpg.frontends.solidity
 
+import de.fraunhofer.aisec.cpg.TranslationContext
 import de.fraunhofer.aisec.cpg.TranslationResult
-import de.fraunhofer.aisec.cpg.frontends.CallableInterface
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.*
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
@@ -18,17 +18,17 @@ import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
 import java.util.function.Consumer
 import java.util.stream.Collectors
 
-class EOGExtensionPass: EvaluationOrderGraphPass() {
+class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
 
     private var tr: TranslationResult? = null
 
     init {
-        map[UncheckedStatement::class.java] = CallableInterface(::handleUncheckedStatement)
-        map[EmitStatement::class.java] = CallableInterface(::handleEmitStatement)
-        map[Revert::class.java] = CallableInterface(::handleRevert)
-        map[Require::class.java] = CallableInterface(::handleRequire)
-        map[SpecifiedExpression::class.java] = CallableInterface(::handleSpecifiedExpression)
-        map[CallExpression::class.java] = CallableInterface(::handleCallExpression)
+        map[UncheckedStatement::class.java] = {handleUncheckedStatement(it as UncheckedStatement)}
+        map[EmitStatement::class.java] = {handleUncheckedStatement(it as EmitStatement)}
+        map[Revert::class.java] = {handleUncheckedStatement(it as Revert)}
+        map[Require::class.java] = {handleUncheckedStatement(it as Require)}
+        map[SpecifiedExpression::class.java] = {handleUncheckedStatement(it as SpecifiedExpression)}
+        map[CallExpression::class.java] = {handleUncheckedStatement(it as CallExpression)}
     }
 
     override fun accept(result: TranslationResult) {
@@ -47,8 +47,8 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
     fun handleCallExpression(node: Node) {
         val callExpression = node as CallExpression
 
-        if (callExpression.base != null) {
-            createEOG(callExpression.base)
+        if (callExpression.callee != null) {
+            createEOG(callExpression.callee)
         }
 
         // first the arguments
@@ -122,7 +122,7 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
         createEOG(revert.message)
         pushToEOG(node)
 
-        val solidityLanguageFrontend = lang as SolidityLanguageFrontend
+        val solidityLanguageFrontend = node.language!!.frontend as SolidityLanguageFrontend
 
         solidityLanguageFrontend?.scopeManager?.currentFunction?.let {
 
@@ -148,7 +148,7 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
         val openConditionEOGs: List<Node> = ArrayList(currentEOG)
         //currentProperties[Properties.BRANCH] = false
 
-        val solidityLanguageFrontend = lang as SolidityLanguageFrontend
+        val solidityLanguageFrontend = node.language!!.frontend as SolidityLanguageFrontend
         solidityLanguageFrontend?.scopeManager?.currentFunction?.let {
 
             val rollback = solidityLanguageFrontend.rollbackNodes.getOrPut(it) {Rollback()}
