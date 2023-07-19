@@ -6,10 +6,10 @@ and(
     exists{
         (b)-[d:DFG*#]->(:FieldDeclaration)
     } or exists {
-        (b)-[d:DFG*#]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(:FieldDeclaration)
+        (b)-[d:DFG*#]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|CALLEE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(:FieldDeclaration)
         where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
     }or exists {
-        (b)-[d:DFG*#]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(:FieldDeclaration)
+        (b)-[d:DFG*#]->(bin:UnaryOperator)-[:INPUT|BASE|CALLEE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(:FieldDeclaration)
         where bin.operatorCode in ['++','--']
 
     } or exists{

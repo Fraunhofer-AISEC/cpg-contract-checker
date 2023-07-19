@@ -11,11 +11,11 @@ and ('[' in v.code // Check if it is an array
     exists{
         (f)-[:EOG*]->()-[d:DFG]->(v)
     } or exists {
-        (f)-[:EOG*]->()-[d:DFG]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(v)
+        (f)-[:EOG*]->()-[d:DFG]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|CALLEE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(v)
         where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
     }
     or exists {
-        (f)-[:EOG*]->()-[d:DFG]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(v)
+        (f)-[:EOG*]->()-[d:DFG]->(bin:UnaryOperator)-[:INPUT|BASE|CALLEE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(v)
         where bin.operatorCode in ['++','--']
     }
 )

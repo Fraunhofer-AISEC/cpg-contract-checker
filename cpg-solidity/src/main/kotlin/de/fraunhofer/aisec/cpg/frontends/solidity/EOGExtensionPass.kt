@@ -31,32 +31,8 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
         map[CallExpression::class.java] = {handleUncheckedStatement(it as CallExpression)}
     }
 
-    override fun accept(result: TranslationResult) {
-        tr = result
-        for (tu in result.translationUnits) {
-            createEOG(tu)
-            // overriddenRemoveUnreachableEOGEdges(tu!!) // Should not be necessary as we have no indirect jumps over gotos
-            // checkEOGInvariant(tu); To insert when trying to check if the invariant holds
-        }
-    }
-
-    /**
-     * We explicitly need to add the base to the eog in all cases as we have calls with call expressions that are more
-     * complex then simple bases
-     */
-    fun handleCallExpression(node: Node) {
-        val callExpression = node as CallExpression
-
-        if (callExpression.callee != null) {
-            createEOG(callExpression.callee)
-        }
-
-        // first the arguments
-        for (arg in callExpression.arguments) {
-            createEOG(arg)
-        }
-        // then the call itself
-        pushToEOG(callExpression)
+    override fun accept(unit: TranslationUnitDeclaration) {
+        createEOG(unit)
     }
 
     fun overriddenRemoveUnreachableEOGEdges(tu: TranslationUnitDeclaration) {
