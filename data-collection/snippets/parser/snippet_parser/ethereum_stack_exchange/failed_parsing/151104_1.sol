@@ -1,0 +1,3 @@
+function listUser(<arguments here>) public payable {
+    ... function logig here ...
+}

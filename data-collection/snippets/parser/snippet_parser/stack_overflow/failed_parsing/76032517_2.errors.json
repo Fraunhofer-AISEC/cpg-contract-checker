@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionmintToken()externalpayable{\\n(intresponseCode,address_tokenAddress)=htsProxy.mintToken{value:msg.value}(\\n\"OraCRE\",\\n\"OraCRE\",\\naddress(this),\\n1000000000,\\n8\\n);\\n'": [
+        "ERROR: when parsing line 9 column 0: no viable alternative at input 'functionmintToken()externalpayable{\\n(intresponseCode,address_tokenAddress)=htsProxy.mintToken{value:msg.value}(\\n\"OraCRE\",\\n\"OraCRE\",\\naddress(this),\\n1000000000,\\n8\\n);\\n'\n"
+    ]
+}

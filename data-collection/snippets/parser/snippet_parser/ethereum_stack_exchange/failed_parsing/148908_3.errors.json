@@ -1,0 +1,14 @@
+{
+    "extraneous input 'generateTypeDaysAndStock' expecting {'(', NL}": [
+        "ERROR: when parsing line 4 column 9: extraneous input 'generateTypeDaysAndStock' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'start' expecting {',', ')'}": [
+        "ERROR: when parsing line 4 column 40: extraneous input 'start' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'end' expecting ')'": [
+        "ERROR: when parsing line 4 column 53: extraneous input 'end' expecting ')'\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 114: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ]
+}

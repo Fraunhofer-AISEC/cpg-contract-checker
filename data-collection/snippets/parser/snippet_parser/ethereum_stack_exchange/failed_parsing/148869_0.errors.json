@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionupdate(\\nmapping(int24=>Tick.Info)storage_self,\\nint24_tick,\\nint128_liquidityDelta,\\nbool_upper\\n)internalreturns(boolflipped){\\n.'": [
+        "ERROR: when parsing line 7 column 4: no viable alternative at input 'functionupdate(\\nmapping(int24=>Tick.Info)storage_self,\\nint24_tick,\\nint128_liquidityDelta,\\nbool_upper\\n)internalreturns(boolflipped){\\n.'\n"
+    ]
+}

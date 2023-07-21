@@ -1,0 +1,10 @@
+Error: VM Exception while processing transaction: reverted with reason string 'TransferHelper: TRANSFER_FROM_FAILED'
+    at <UnrecognizedContract>.<unknown> (0x7a250d5630b4cf539739df2c5dacb4c659f2488d)
+    at Coin2.swapTokensForEth (contracts/ERC20 copy.sol:289)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:526:9)
+    at processTimers (node:internal/timers:500:7)
+    at HardhatNode._mineBlockWithPendingTxs (node_modules/hardhat/src/internal/hardhat-network/provider/node.ts:1840:23)
+    at HardhatNode.mineBlock (node_modules/hardhat/src/internal/hardhat-network/provider/node.ts:517:16)
+    at EthModule._sendTransactionAndReturnHash (node_modules/hardhat/src/internal/hardhat-network/provider/modules/eth.ts:1532:18)

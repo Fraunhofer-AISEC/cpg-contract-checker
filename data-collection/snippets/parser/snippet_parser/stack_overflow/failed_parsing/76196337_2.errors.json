@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'vrf_coordinator=VRFCoordinatorV2Mock.deploy(\\nconfig[\"networks\"][network.show_active()][\"fee\"],\\nGAS_PRICE_LINK,\\n{'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'vrf_coordinator=VRFCoordinatorV2Mock.deploy(\\nconfig[\"networks\"][network.show_active()][\"fee\"],\\nGAS_PRICE_LINK,\\n{'\n"
+    ]
+}

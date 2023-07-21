@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiongetDonators(uint256_id)viewpublicreturns(address[]memory,uint256[]memory){\\nreturn(campaigns[_id].donators,campaigns[_id].donations);\\n\\n'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functiongetDonators(uint256_id)viewpublicreturns(address[]memory,uint256[]memory){\\nreturn(campaigns[_id].donators,campaigns[_id].donations);\\n\\n'\n"
+    ]
+}

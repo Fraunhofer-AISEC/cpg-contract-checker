@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functioninitializeGenesisBlock(\\nExchangeData.StatestorageS,\\naddress_Addr,\\nbytes32_genesisMerkleRoot,\\nbytes32_genesisMerkleAssetRoot,\\nbytes32_domainSeparator\\n)\\npublic\\n{\\nrequire(address(0)!=_Addr,\"INVALID_ADDRESS\");\\nrequire(_genesisMerkleRoot!=0,\"INVALID_GENESIS_MERKLE_ROOT\");\\nrequire(_genesisMerkleAssetRoot!=0,\"INVALID_GENESIS_MERKLE_ASSET_ROOT\");\\n\\n\\n.'": [
+        "ERROR: when parsing line 15 column 2: no viable alternative at input 'functioninitializeGenesisBlock(\\nExchangeData.StatestorageS,\\naddress_Addr,\\nbytes32_genesisMerkleRoot,\\nbytes32_genesisMerkleAssetRoot,\\nbytes32_domainSeparator\\n)\\npublic\\n{\\nrequire(address(0)!=_Addr,\"INVALID_ADDRESS\");\\nrequire(_genesisMerkleRoot!=0,\"INVALID_GENESIS_MERKLE_ROOT\");\\nrequire(_genesisMerkleAssetRoot!=0,\"INVALID_GENESIS_MERKLE_ASSET_ROOT\");\\n\\n\\n.'\n"
+    ]
+}

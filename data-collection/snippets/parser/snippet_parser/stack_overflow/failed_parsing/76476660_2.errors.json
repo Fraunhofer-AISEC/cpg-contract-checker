@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionsetAssetPrice(\\nuint256assetId,\\nuint256newPrice\\n)externalonlyOwner{\\nrequire(assetId>0&&assetId<=assetCount,\"Invalid asset ID.\");\\nAssetstorageasset=assets[assetId];\\nrequire(asset.owner!=address(0),\"Asset does not exist.\");\\n\\n\\nasset.pricePerShare=newPrice;\\n\\nemitSetAssetPrice(assetId,newPrice);\\n}\\n}'": [
+        "ERROR: when parsing line 14 column 0: no viable alternative at input 'functionsetAssetPrice(\\nuint256assetId,\\nuint256newPrice\\n)externalonlyOwner{\\nrequire(assetId>0&&assetId<=assetCount,\"Invalid asset ID.\");\\nAssetstorageasset=assets[assetId];\\nrequire(asset.owner!=address(0),\"Asset does not exist.\");\\n\\n\\nasset.pricePerShare=newPrice;\\n\\nemitSetAssetPrice(assetId,newPrice);\\n}\\n}'\n"
+    ]
+}

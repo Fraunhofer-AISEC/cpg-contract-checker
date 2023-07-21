@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionbulkExcludeFee(address[]memoryaccounts,boolstate)externalonlyOwner{\\nfor(uint256i=0;i<accounts.length;i++){\\n_isExcludedFromFee[accounts[i]]=state;\\n'": [
+        "ERROR: when parsing line 4 column 0: no viable alternative at input 'functionbulkExcludeFee(address[]memoryaccounts,boolstate)externalonlyOwner{\\nfor(uint256i=0;i<accounts.length;i++){\\n_isExcludedFromFee[accounts[i]]=state;\\n'\n"
+    ]
+}

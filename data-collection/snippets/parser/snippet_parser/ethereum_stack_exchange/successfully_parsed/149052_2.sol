@@ -1,0 +1,1 @@
+IERC20 public constant token = IERC20(0xfd3a409a40A00E99AAbE072e304a540aa25Fd4e9);

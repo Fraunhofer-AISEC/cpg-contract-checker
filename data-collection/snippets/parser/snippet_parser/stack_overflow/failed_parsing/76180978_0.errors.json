@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiontestFunction(uint256_value)publicviewreturns(uint256){\\nuint256value=_value;\\nreturnvalue;\\n}\\n}'": [
+        "ERROR: when parsing line 5 column 0: no viable alternative at input 'functiontestFunction(uint256_value)publicviewreturns(uint256){\\nuint256value=_value;\\nreturnvalue;\\n}\\n}'\n"
+    ]
+}

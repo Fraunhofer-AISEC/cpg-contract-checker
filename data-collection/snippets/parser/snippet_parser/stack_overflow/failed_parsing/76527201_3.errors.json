@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionswapTokensForEth(uinttokenAmount)public{\\nrequire(tokenAmount>0,\"Need to send some tokens\");\\nrequire(tradingOpen,\"Trading is not open yet\");\\n\\n\\n\\n\\n\\n\\naddress[]memorypath=newaddress[](2);\\npath[0]=address(this);\\npath[1]=uniswapV2Router.WETH();\\n\\n\\ntransferFrom(msg.sender,address(this),tokenAmount);\\nthis.approve(uniswapV2Router.address'": [
+        "ERROR: when parsing line 16 column 33: no viable alternative at input 'functionswapTokensForEth(uinttokenAmount)public{\\nrequire(tokenAmount>0,\"Need to send some tokens\");\\nrequire(tradingOpen,\"Trading is not open yet\");\\n\\n\\n\\n\\n\\n\\naddress[]memorypath=newaddress[](2);\\npath[0]=address(this);\\npath[1]=uniswapV2Router.WETH();\\n\\n\\ntransferFrom(msg.sender,address(this),tokenAmount);\\nthis.approve(uniswapV2Router.address'\n"
+    ]
+}

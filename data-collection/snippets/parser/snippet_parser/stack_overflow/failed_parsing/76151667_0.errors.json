@@ -1,0 +1,33 @@
+{
+    "extraneous input 'is' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 4 column 5: extraneous input 'is' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 28 column 9: extraneous input 'is' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ],
+    "mismatched input 'address' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 4 column 11: mismatched input 'address' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'other' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 28 column 15: mismatched input 'other' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'contract' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 28 column 27: mismatched input 'contract' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'creat' expecting {'{', 'is'}": [
+        "ERROR: when parsing line 28 column 39: mismatched input 'creat' expecting {'{', 'is'}\n"
+    ],
+    "mismatched input 'and' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 28 column 55: mismatched input 'and' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input 'function' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 28 column 66: mismatched input 'function' expecting {'=', ';', NL}\n"
+    ],
+    "missing '(' at 'send'": [
+        "ERROR: when parsing line 28 column 78: missing '(' at 'send'\n"
+    ],
+    "mismatched input 'to' expecting {',', ')'}": [
+        "ERROR: when parsing line 28 column 90: mismatched input 'to' expecting {',', ')'}\n"
+    ],
+    "extraneous input '.' expecting {'{', 'returns', ';', NL}": [
+        "ERROR: when parsing line 28 column 121: extraneous input '.' expecting {'{', 'returns', ';', NL}\n"
+    ]
+}

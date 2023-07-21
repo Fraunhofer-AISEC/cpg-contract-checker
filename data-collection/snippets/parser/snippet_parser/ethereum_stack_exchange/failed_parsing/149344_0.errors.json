@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionfetchListedNFT()publicreturns(MarketItem[]memory){\\nuinttotalCount=_tokenIds.current();\\nuintitemCount=0;\\nuintcurrentIndex=0;\\nfor(uinti=0;i<itemCount;i++)\\n{\\nif(idMarketItem[i+1].seller==msg.sender)\\n{\\nitemCount++;\\n}\\n}\\nfor(uinti=0;i<itemCount;i++)\\n{\\nif(idMarketItem[i+1].seller==msg.sender)\\n{\\nuintcurrentId=i+1;\\nMarketItemstoragecurrentItem=idMarketItem[currentId];<'": [
+        "ERROR: when parsing line 17 column 70: no viable alternative at input 'functionfetchListedNFT()publicreturns(MarketItem[]memory){\\nuinttotalCount=_tokenIds.current();\\nuintitemCount=0;\\nuintcurrentIndex=0;\\nfor(uinti=0;i<itemCount;i++)\\n{\\nif(idMarketItem[i+1].seller==msg.sender)\\n{\\nitemCount++;\\n}\\n}\\nfor(uinti=0;i<itemCount;i++)\\n{\\nif(idMarketItem[i+1].seller==msg.sender)\\n{\\nuintcurrentId=i+1;\\nMarketItemstoragecurrentItem=idMarketItem[currentId];<'\n"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "no viable alternative at input 'uintpublic'": [
+        "ERROR: when parsing line 5 column 5: no viable alternative at input 'uintpublic'\n",
+        "ERROR: when parsing line 6 column 5: no viable alternative at input 'uintpublic'\n"
+    ]
+}

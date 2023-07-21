@@ -1,0 +1,16 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 29 column 25: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 30 column 26: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}": [
+        "ERROR: when parsing line 29 column 32: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n",
+        "ERROR: when parsing line 30 column 33: mismatched input '.' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier, NL}\n"
+    ],
+    "extraneous input ')' expecting {';', NL}": [
+        "ERROR: when parsing line 29 column 47: extraneous input ')' expecting {';', NL}\n"
+    ],
+    "mismatched input 'D5' expecting {';', NL}": [
+        "ERROR: when parsing line 30 column 41: mismatched input 'D5' expecting {';', NL}\n"
+    ]
+}

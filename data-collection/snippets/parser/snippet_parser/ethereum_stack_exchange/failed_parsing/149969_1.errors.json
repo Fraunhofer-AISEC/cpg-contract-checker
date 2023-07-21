@@ -1,0 +1,11 @@
+{
+    "mismatched input '(' expecting {';', NL}": [
+        "ERROR: when parsing line 19 column 35: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 20 column 41: mismatched input '(' expecting {';', NL}\n",
+        "ERROR: when parsing line 21 column 42: mismatched input '(' expecting {';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 19 column 59: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 21 column 59: mismatched input ')' expecting {'from', 'error', 'calldata', 'revert', 'callback', 'override', 'constant', 'immutable', 'leave', 'internal', 'payable', 'private', 'public', 'constructor', 'receive', Identifier}\n"
+    ]
+}

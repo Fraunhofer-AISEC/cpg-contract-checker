@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionregisterAsset(\\n\\n\\nexternal'": [
+        "ERROR: when parsing line 4 column 4: no viable alternative at input 'functionregisterAsset(\\n\\n\\nexternal'\n"
+    ]
+}

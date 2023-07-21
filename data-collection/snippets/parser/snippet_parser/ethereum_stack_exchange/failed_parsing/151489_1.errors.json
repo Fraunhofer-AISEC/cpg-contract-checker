@@ -1,0 +1,82 @@
+{
+    "extraneous input 'callme_re_ent7' expecting {'(', NL}": [
+        "ERROR: when parsing line 19 column 13: extraneous input 'callme_re_ent7' expecting {'(', NL}\n"
+    ],
+    "mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 19 column 30: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 32 column 8: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 38 column 34: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 53 column 31: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 66 column 8: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 72 column 34: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 81 column 56: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 86 column 41: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 96 column 60: mismatched input 'public' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'transfer' expecting {'(', NL}": [
+        "ERROR: when parsing line 31 column 13: extraneous input 'transfer' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_to' expecting {',', ')'}": [
+        "ERROR: when parsing line 31 column 30: extraneous input '_to' expecting {',', ')'}\n"
+    ],
+    "extraneous input '_value' expecting ')'": [
+        "ERROR: when parsing line 31 column 43: extraneous input '_value' expecting ')'\n",
+        "ERROR: when parsing line 65 column 47: extraneous input '_value' expecting ')'\n"
+    ],
+    "extraneous input 'returns' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}": [
+        "ERROR: when parsing line 33 column 8: extraneous input 'returns' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 67 column 8: extraneous input 'returns' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n",
+        "ERROR: when parsing line 82 column 8: extraneous input 'returns' expecting {<EOF>, 'pragma', '~', 'import', 'from', '{', '}', 'abstract', 'contract', 'interface', 'library', '(', 'error', 'using', 'for', 'struct', 'modifier', 'function', 'event', 'enum', '[', 'address', 'mapping', 'calldata', 'if', 'else', 'try', 'while', 'unchecked', 'assembly', 'do', 'return', 'throw', 'emit', 'revert', 'var', 'bool', 'string', 'byte', '++', '--', 'new', '+', '-', 'after', 'delete', '!', 'callback', Int, Uint, Byte, Fixed, Ufixed, BooleanLiteral, DecimalNumber, HexNumber, HexLiteralFragment, 'break', 'continue', 'leave', 'payable', 'type', 'constructor', 'fallback', 'receive', Identifier, StringLiteralFragment}\n"
+    ],
+    "extraneous input 'buyTicket_re_ent23' expecting {'(', NL}": [
+        "ERROR: when parsing line 38 column 13: extraneous input 'buyTicket_re_ent23' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'transferFrom' expecting {'(', NL}": [
+        "ERROR: when parsing line 49 column 13: extraneous input 'transferFrom' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_from' expecting {',', ')'}": [
+        "ERROR: when parsing line 49 column 34: extraneous input '_from' expecting {',', ')'}\n"
+    ],
+    "missing ')' at '_to'": [
+        "ERROR: when parsing line 49 column 49: missing ')' at '_to'\n"
+    ],
+    "mismatched input ',' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 49 column 52: mismatched input ',' expecting {'=', ';', NL}\n"
+    ],
+    "mismatched input ')' expecting {'=', ';', NL}": [
+        "ERROR: when parsing line 49 column 68: mismatched input ')' expecting {'=', ';', NL}\n"
+    ],
+    "extraneous input 'callme_re_ent14' expecting {'(', NL}": [
+        "ERROR: when parsing line 53 column 13: extraneous input 'callme_re_ent14' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'approve' expecting {'(', NL}": [
+        "ERROR: when parsing line 65 column 13: extraneous input 'approve' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_spender' expecting {',', ')'}": [
+        "ERROR: when parsing line 65 column 29: extraneous input '_spender' expecting {',', ')'}\n"
+    ],
+    "extraneous input 'buyTicket_re_ent30' expecting {'(', NL}": [
+        "ERROR: when parsing line 72 column 13: extraneous input 'buyTicket_re_ent30' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'allowance' expecting {'(', NL}": [
+        "ERROR: when parsing line 81 column 13: extraneous input 'allowance' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_owner' expecting {',', ')'}": [
+        "ERROR: when parsing line 81 column 31: extraneous input '_owner' expecting {',', ')'}\n"
+    ],
+    "extraneous input '_spender' expecting ')'": [
+        "ERROR: when parsing line 81 column 47: extraneous input '_spender' expecting ')'\n"
+    ],
+    "extraneous input 'withdraw_balances_re_ent8' expecting {'(', NL}": [
+        "ERROR: when parsing line 86 column 13: extraneous input 'withdraw_balances_re_ent8' expecting {'(', NL}\n"
+    ],
+    "extraneous input 'withdrawFunds_re_ent31' expecting {'(', NL}": [
+        "ERROR: when parsing line 96 column 13: extraneous input 'withdrawFunds_re_ent31' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_weiToWithdraw' expecting {',', ')'}": [
+        "ERROR: when parsing line 96 column 44: extraneous input '_weiToWithdraw' expecting {',', ')'}\n"
+    ],
+    "mismatched input 'event' expecting '}'": [
+        "ERROR: when parsing line 103 column 4: mismatched input 'event' expecting '}'\n"
+    ]
+}

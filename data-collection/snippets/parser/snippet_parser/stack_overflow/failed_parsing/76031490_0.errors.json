@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'constoriginalMessage=\"I agree to the terms and conditions of this site.\";\\nconsttimestamp=Math.floor(Date.now()/1000)+3600;\\nconstmessageWithTimestamp=${originalMessage}'": [
+        "ERROR: when parsing line 3 column 47: no viable alternative at input 'constoriginalMessage=\"I agree to the terms and conditions of this site.\";\\nconsttimestamp=Math.floor(Date.now()/1000)+3600;\\nconstmessageWithTimestamp=${originalMessage}'\n"
+    ]
+}

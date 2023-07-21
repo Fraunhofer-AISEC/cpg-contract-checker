@@ -1,0 +1,19 @@
+{
+    "extraneous input 'correctMap' expecting {'(', NL}": [
+        "ERROR: when parsing line 98 column 9: extraneous input 'correctMap' expecting {'(', NL}\n"
+    ],
+    "extraneous input '_mapId' expecting {',', ')'}": [
+        "ERROR: when parsing line 98 column 28: extraneous input '_mapId' expecting {',', ')'}\n",
+        "ERROR: when parsing line 108 column 34: extraneous input '_mapId' expecting {',', ')'}\n"
+    ],
+    "mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}": [
+        "ERROR: when parsing line 98 column 45: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n",
+        "ERROR: when parsing line 108 column 51: mismatched input '{' expecting {'from', 'error', 'memory', 'storage', 'calldata', 'revert', 'callback', 'leave', 'payable', 'constructor', 'receive', Identifier}\n"
+    ],
+    "extraneous input 'reportInvalidMap' expecting {'(', NL}": [
+        "ERROR: when parsing line 108 column 9: extraneous input 'reportInvalidMap' expecting {'(', NL}\n"
+    ],
+    "mismatched input '<EOF>' expecting '}'": [
+        "ERROR: when parsing line 116 column 0: mismatched input '<EOF>' expecting '}'\n"
+    ]
+}

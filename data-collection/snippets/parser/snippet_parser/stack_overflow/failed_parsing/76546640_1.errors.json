@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'it(\"Tax wallet should receive tokens as fee\",asyncfunction'": [
+        "ERROR: when parsing line 1 column 52: no viable alternative at input 'it(\"Tax wallet should receive tokens as fee\",asyncfunction'\n"
+    ]
+}

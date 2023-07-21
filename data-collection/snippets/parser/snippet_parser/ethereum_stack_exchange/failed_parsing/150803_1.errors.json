@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionexample(){\\nuintvar1;\\n{\\n(uintvarA,uintvarB)=getVars();\\nvar1=varA+varB;\\n}\\n.'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functionexample(){\\nuintvar1;\\n{\\n(uintvarA,uintvarB)=getVars();\\nvar1=varA+varB;\\n}\\n.'\n"
+    ]
+}

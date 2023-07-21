@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functiondonate()publicpayable{\\nrequire(requiredAmount>receivedAmount,\"required amount fullfilled\");\\nowner.transfer(msg.value);\\nreceivedAmount+=msg.value;\\nemitdonated(msg.sender,msg.value,block.timestamp);\\n}\\n}'": [
+        "ERROR: when parsing line 7 column 0: no viable alternative at input 'functiondonate()publicpayable{\\nrequire(requiredAmount>receivedAmount,\"required amount fullfilled\");\\nowner.transfer(msg.value);\\nreceivedAmount+=msg.value;\\nemitdonated(msg.sender,msg.value,block.timestamp);\\n}\\n}'\n"
+    ]
+}

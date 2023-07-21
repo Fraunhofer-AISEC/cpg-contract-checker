@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'function_transfer(\\naddressfrom,\\naddressto,\\nuint256amount\\n)internaloverride{\\nrequire(from!=address(0),\"ERC20: transfer from the zero address\");\\nrequire(to!=address(0),\"ERC20: transfer to the zero address\");\\n\\nif(amount==0){\\nsuper._transfer(from,to,0);\\nreturn;\\n}\\n\\nif(limitsInEffect){\\nif(\\nfrom!=owner()&&\\nto!=owner()&&\\nto!=address(0)&&\\nto!=address(0xdead)&&\\n!swapping\\n){\\n'": [
+        "ERROR: when parsing line 22 column 0: no viable alternative at input 'function_transfer(\\naddressfrom,\\naddressto,\\nuint256amount\\n)internaloverride{\\nrequire(from!=address(0),\"ERC20: transfer from the zero address\");\\nrequire(to!=address(0),\"ERC20: transfer to the zero address\");\\n\\nif(amount==0){\\nsuper._transfer(from,to,0);\\nreturn;\\n}\\n\\nif(limitsInEffect){\\nif(\\nfrom!=owner()&&\\nto!=owner()&&\\nto!=address(0)&&\\nto!=address(0xdead)&&\\n!swapping\\n){\\n'\n"
+    ]
+}

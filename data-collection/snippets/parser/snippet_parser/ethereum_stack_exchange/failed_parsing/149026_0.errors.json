@@ -1,0 +1,5 @@
+{
+    "no viable alternative at input 'functionnextInitializedTickWithinOneWord(\\nmapping(int16=>uint256)storageself,\\nint24tick,\\nint24tickSpacing,\\nboollte\\n)internalviewreturns(int24next,boolinitialized){\\nint24compressed=tick/tickSpacing;\\nif(lte){\\n(int16wordPos,uint8bitPos)=position(compressed);\\nuint256mask=(1<<bitPos)-1+(1<<bitPos);\\nuint256masked=self[wordPos]&mask;\\n'": [
+        "ERROR: when parsing line 12 column 0: no viable alternative at input 'functionnextInitializedTickWithinOneWord(\\nmapping(int16=>uint256)storageself,\\nint24tick,\\nint24tickSpacing,\\nboollte\\n)internalviewreturns(int24next,boolinitialized){\\nint24compressed=tick/tickSpacing;\\nif(lte){\\n(int16wordPos,uint8bitPos)=position(compressed);\\nuint256mask=(1<<bitPos)-1+(1<<bitPos);\\nuint256masked=self[wordPos]&mask;\\n'\n"
+    ]
+}
