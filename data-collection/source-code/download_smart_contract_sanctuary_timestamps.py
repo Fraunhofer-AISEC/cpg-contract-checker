@@ -14,7 +14,9 @@ MONGO_PORT = 27017
 
 ETHERSCAN_API_KEYS = ["ANAZQYWNY3ZBIIMIY9P153TE6Y78PUM226", "M8VPZT5CQ71TUQP9JNTTWMUMNS1J8KKC5B", "VZ7EMQBT4GNH5F6FBV8FKXAFF6GS4MPKAU"]
 
-PROVIDER = Web3.HTTPProvider("http://sectrs-vascodagama:8545")
+#PROVIDER = Web3.HTTPProvider("http://sectrs-vascodagama:8545")
+PROVIDER = Web3.HTTPProvider("https://eth-mainnet.g.alchemy.com/v2/XLFoe1bukluID5-Y8wZqmxFzjQ9dluOo")
+
 
 class colors:
     INFO = '\033[94m'
@@ -41,7 +43,7 @@ def main():
                 address = Web3.toChecksumAddress("0x"+file.split("_")[0])
                 all_contracts.add(address)
                 exists = collection.find_one({"contractAddress": address.lower()})
-                print(address)
+                print(address.lower())
                 if not exists:
                     try:
                         content = requests.get("https://api.etherscan.io/api?module=contract&action=getcontractcreation&contractaddresses="+str(address)+"&apikey="+str(next(api_key))).json()
@@ -64,8 +66,10 @@ def main():
                             now = datetime.now()
                             dt_string = now.strftime("%Y-%m-%d %H:%M:%S")
                             print(dt_string, "Downloaded timestamp for contract:", colors.INFO+str(result["contractAddress"])+colors.END)
-                    except:
-                        print(dt_string, colors.FAIL+"Error: Could not download timestamp for contract:", address, colors.END)
+                    except Exception as e:
+                        now = datetime.now()
+                        dt_string = now.strftime("%Y-%m-%d %H:%M:%S")
+                        print(dt_string, colors.FAIL+"Error: Could not download timestamp for contract:", address, e, colors.END)
     print("Done.")
     print("Total contracts:", len(all_contracts))
 
