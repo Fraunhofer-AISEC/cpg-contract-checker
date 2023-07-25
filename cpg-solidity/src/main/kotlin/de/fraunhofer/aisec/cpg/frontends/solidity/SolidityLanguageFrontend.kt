@@ -15,6 +15,8 @@ import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
 import de.fraunhofer.aisec.cpg.graph.newTranslationUnitDeclaration
+import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
+import de.fraunhofer.aisec.cpg.passes.order.ReplacePass
 import de.fraunhofer.aisec.cpg.sarif.PhysicalLocation
 import de.fraunhofer.aisec.cpg.sarif.Region
 import org.antlr.v4.runtime.ANTLRInputStream
@@ -27,7 +29,7 @@ import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileInputStream
 import java.util.*
-
+@ReplacePass(EvaluationOrderGraphPass::class, SolidityLanguage::class, EOGExtensionPass::class)
 class SolidityLanguageFrontend(language: Language<SolidityLanguageFrontend>, ctx: TranslationContext) : LanguageFrontend(language, ctx) {
 
     private val logger = LoggerFactory.getLogger(SolidityLanguageFrontend.javaClass)

@@ -1,5 +1,5 @@
 # Build container
-FROM eclipse-temurin:11-jdk as builder
+FROM eclipse-temurin:17-jdk as builder
 
 WORKDIR /build
 COPY . .
@@ -8,7 +8,7 @@ RUN ./gradlew --no-daemon --parallel build installDist
 
 
 # App container
-FROM eclipse-temurin:11-jre
+FROM eclipse-temurin:17-jre
 
 # Install and configure Neo4j
 RUN apt-get update \

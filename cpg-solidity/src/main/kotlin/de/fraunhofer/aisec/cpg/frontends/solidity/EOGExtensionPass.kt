@@ -24,15 +24,15 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
 
     init {
         map[UncheckedStatement::class.java] = {handleUncheckedStatement(it as UncheckedStatement)}
-        map[EmitStatement::class.java] = {handleUncheckedStatement(it as EmitStatement)}
-        map[Revert::class.java] = {handleUncheckedStatement(it as Revert)}
-        map[Require::class.java] = {handleUncheckedStatement(it as Require)}
-        map[SpecifiedExpression::class.java] = {handleUncheckedStatement(it as SpecifiedExpression)}
-        map[CallExpression::class.java] = {handleUncheckedStatement(it as CallExpression)}
+        map[EmitStatement::class.java] = {handleEmitStatement(it as EmitStatement)}
+        map[Revert::class.java] = {handleRevert(it as Revert)}
+        map[Require::class.java] = {handleRequire(it as Require)}
+        map[SpecifiedExpression::class.java] = {handleSpecifiedExpression(it as SpecifiedExpression)}
+        map[CallExpression::class.java] = {handleCallExpression(it as CallExpression)}
     }
 
-    override fun accept(unit: TranslationUnitDeclaration) {
-        createEOG(unit)
+    override fun accept(tu: TranslationUnitDeclaration) {
+        createEOG(tu)
     }
 
     fun overriddenRemoveUnreachableEOGEdges(tu: TranslationUnitDeclaration) {
@@ -107,7 +107,7 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
             tr?.let { it += rollback }
         }
 
-        currentEOG.clear()
+        currentPredecessors.clear()
 
 
     }
@@ -121,7 +121,7 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
 
 
         val openBranchNodes: List<Node> = ArrayList()
-        val openConditionEOGs: List<Node> = ArrayList(currentEOG)
+        val openConditionEOGs: List<Node> = ArrayList(currentPredecessors)
         //currentProperties[Properties.BRANCH] = false
 
         val solidityLanguageFrontend = node.language!!.frontend as SolidityLanguageFrontend
@@ -132,7 +132,7 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
             tr?.let { it += rollback }
         }
 
-        currentEOG.clear()
+        currentPredecessors.clear()
 
         setCurrentEOGs(openConditionEOGs)
         // currentProperties[Properties.BRANCH] = true

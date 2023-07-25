@@ -20,7 +20,7 @@ class GraphExtensionsPass(ctx: TranslationContext): TranslationResultPass(ctx) {
             addAdditionalEOGEdges(it)
             addReturnNodes(it)
             result.components
-            result.components.map { it.language!!.frontend }.filterIsInstance<SolidityLanguageFrontend>().forEach {
+            result.components.map { it.language?.frontend }.filterIsInstance<SolidityLanguageFrontend>().forEach {
                 it.pragmas.forEach { result += it }
             }
 

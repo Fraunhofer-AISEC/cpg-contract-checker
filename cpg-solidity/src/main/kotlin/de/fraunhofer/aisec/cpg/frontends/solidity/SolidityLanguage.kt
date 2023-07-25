@@ -17,6 +17,7 @@ class SolidityLanguage : Language<SolidityLanguageFrontend>(), HasShortCircuitOp
         setOf("+=", "-=", "*=", "/=", "%=", "<<=", ">>=",  "&=", "|=", "^=")
     override val fileExtensions: List<String> = listOf("sol")
     override val namespaceDelimiter: String = "."
+    @Transient
     override val builtInTypes: Map<String, Type>
 
 

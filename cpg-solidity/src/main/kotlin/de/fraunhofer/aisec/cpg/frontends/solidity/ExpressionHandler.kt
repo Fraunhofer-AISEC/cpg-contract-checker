@@ -323,13 +323,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
     }
 
     private fun handlePrimaryExpression(ctx: SolidityParser.PrimaryExpressionContext): Expression {
-        handle(ctx.identifier())?.let {
-            //if(it.text == "_" && lang.modifierStack.isNotEmpty()){
-            //    println("Found wildcard in modifier step")
-            //}else {
-            //}
-            return it
-        }
+        ctx.identifier()?.let { handle(it)?.let { return it } }
 
         ctx.numberLiteral()?.let {
 

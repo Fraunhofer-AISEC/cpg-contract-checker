@@ -83,64 +83,30 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     }
 
     private fun handleStatement(ctx: SolidityParser.StatementContext): Statement {
-        handle(ctx.ifStatement())?.let {
-            return it
-        }
-        handle(ctx.tryStatement())?.let {
-            return it
-        }
-        handle(ctx.whileStatement())?.let {
-            return it
-        }
-        handle(ctx.forStatement())?.let {
-            return it
-        }
-        handle(ctx.block())?.let {
-            return it
-        }
-        handle(ctx.inlineAssemblyStatement())?.let {
-            return it
-        }
-        handle(ctx.doWhileStatement())?.let {
-            return it
-        }
-        handle(ctx.continueStatement())?.let {
-            return it
-        }
-        handle(ctx.breakStatement())?.let {
-            return it
-        }
-        handle(ctx.returnStatement())?.let {
-            return it
-        }
-        handle(ctx.throwStatement())?.let {
-            return it
-        }
-        handle(ctx.emitStatement())?.let {
-            return it
-        }
-        handle(ctx.simpleStatement())?.let {
-            return it
-        }
-        handle(ctx.uncheckedStatement())?.let {
-            return it
-        }
-        handle(ctx.revertStatement())?.let {
-            return it
-        }
+        ctx.ifStatement()?.let { handle(it)?.let { return it } }
+        ctx.tryStatement()?.let { handle(it)?.let { return it } }
+        ctx.whileStatement()?.let { handle(it)?.let { return it } }
+        ctx.forStatement()?.let { handle(it)?.let { return it } }
+        ctx.block()?.let { handle(it)?.let { return it } }
+        ctx.inlineAssemblyStatement()?.let { handle(it)?.let { return it } }
+        ctx.doWhileStatement()?.let { handle(it)?.let { return it } }
+        ctx.continueStatement()?.let { handle(it)?.let { return it } }
+        ctx.breakStatement()?.let { handle(it)?.let { return it } }
+        ctx.returnStatement()?.let { handle(it)?.let { return it } }
+        ctx.throwStatement()?.let { handle(it)?.let { return it } }
+        ctx.emitStatement()?.let { handle(it)?.let { return it } }
+        ctx.simpleStatement()?.let { handle(it)?.let { return it } }
+        ctx.uncheckedStatement()?.let { handle(it)?.let { return it } }
+        ctx.revertStatement()?.let { handle(it)?.let { return it } }
         logger.warn("Statement {} could not be parsed.", ctx::class.java)
 
         return newProblemExpression("Statement type not implemented for translation.", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
 
     private fun handleSimpleStatement(ctx: SolidityParser.SimpleStatementContext): Statement {
-        handle(ctx.expressionStatement())?.let {
-            return it
-        }
+        ctx.expressionStatement()?.let { handle(it)?.let { return it } }
 
-        handle(ctx.variableDeclarationStatement())?.let {
-            return it
-        }
+        ctx.variableDeclarationStatement()?.let { handle(it)?.let { return it } }
 
         return newProblemExpression("Statement type not implemented for translation.", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
