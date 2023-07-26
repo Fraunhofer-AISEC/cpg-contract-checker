@@ -4,7 +4,7 @@ and (exists{ ({code: 'msg.sender'})-[:DFG*#]->()<-[:LHS]-(interesting:BinaryOper
     where not exists(()-[:DFG*]->(source)) and source.code <> 'msg.sender' and source.code <> 'msg.value'
 } or exists {
 (interesting:CallExpression)-[:BASE|CALLEE*]->(target {code: 'msg.sender'})
-where interesting.name in ['value', 'send', 'transfer', 'call']
+where interesting.localName in ['value', 'send', 'transfer', 'call']
 and not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:ARGUMENTS]-(interesting)}
     or exists {(interesting)-[:BASE|CALLEE*]->(SpecifiedExpression)-[:SPECIFIERS]->(kv:KeyValueExpression)-[:KEY]->({name:'value'})
         where not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:VALUE]-(kv)}
@@ -13,4 +13,4 @@ and not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:ARGUMENTS]-(interesting)}
 ) and not exists { // A condition influenced by message sender that avoids the path
     alt=({code: 'msg.sender'})-[:DFG*]->(branch)-[:EOG*]->(altlast) where not exists((altlast)-[:EOG]->()) and branch in nodes(p) and (not interesting in nodes(alt) or altlast:Rollback)
 }
-return distinct  interesting as interesting, interesting.startLine as sline, interesting.endLine as eline, interesting.startColumn as scol, interesting.endColumn as ecol, interesting.artifact as file, interesting.name as name
+return distinct  interesting as interesting, interesting.startLine as sline, interesting.endLine as eline, interesting.startColumn as scol, interesting.endColumn as ecol, interesting.artifact as file, interesting.localName as name

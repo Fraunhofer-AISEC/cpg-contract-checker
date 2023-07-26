@@ -26,7 +26,7 @@ return n as node, n.startLine as sline, n.endLine as eline, n.startColumn as sco
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/random_number_generator.sol#L12
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/etheraffle.sol#L49,L114,L158
 MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:FieldDeclaration)
-WHERE n.name IN ["timestamp", "number"]
+WHERE n.localName IN ["timestamp", "number"]
     AND n.code IN ["block.timestamp", "block.number"]
 RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
@@ -35,8 +35,8 @@ RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColu
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L35
 MATCH (n:CallExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]->(o),
       p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
-WHERE n.name IN ["blockhash"]
-    AND transferCall.name IN ["transfer", "send"]
+WHERE n.localName IN ["blockhash"]
+    AND transferCall.localName IN ["transfer", "send"]
 RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
 
@@ -44,16 +44,16 @@ RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColu
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L38
 MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]->(o),
       p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
-WHERE n.name IN ["number"]
+WHERE n.localName IN ["number"]
     AND n.code IN ["block.number"]
-    AND transferCall.name IN ["transfer", "send"]
+    AND transferCall.localName IN ["transfer", "send"]
 RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
 
 // Dataflow into field through constructor with vulnerable arguments; part 1
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L42
 MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->()<-[:ARGUMENTS]-()-[:DFG]->()-[:REFERS_TO]->(:FieldDeclaration)
-WHERE n.name IN ["number"]
+WHERE n.localName IN ["number"]
     AND n.code IN ["block.number"]
 RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
@@ -61,7 +61,7 @@ RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColu
 // if argument is vulnerable by itself
 // - https://github.com/smartbugs/smartbugs-curated/blob/main/dataset/bad_randomness/old_blockhash.sol#L42
 MATCH p=(n:DeclaredReferenceExpression)<-[:ARGUMENTS]-()-[:DFG]->()-[:REFERS_TO]->(:FieldDeclaration)
-WHERE n.name IN ["number"]
+WHERE n.localName IN ["number"]
     AND n.code IN ["block.number"]
 RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
@@ -71,7 +71,7 @@ RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColu
 //
 // may not be optimal due to traversing potentially all DFG edges
 MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(:VariableDeclaration)
-WHERE n.name IN ["difficulty", "number", "timestamp"]
+WHERE n.localName IN ["difficulty", "number", "timestamp"]
     AND n.code IN ["block.difficulty", "block.number", "block.timestamp"]
 RETURN DISTINCT n AS node, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 

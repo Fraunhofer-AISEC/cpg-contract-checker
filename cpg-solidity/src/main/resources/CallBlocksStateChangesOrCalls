@@ -1,5 +1,5 @@
 match (c:CallExpression)-[:EOG*]->(write1)-[:DFG]->(f:FieldDeclaration)
-where (c.name in ['transfer'] or c.name = 'send' and exists{
+where (c.localName in ['transfer'] or c.localName = 'send' and exists{
     avoidingpath=(c)-[:DFG]->(branchNeg)-[:EOG*]->(last) where not exists ((last)-[:EOG]->()) and not write1 in nodes(avoidingpath)
 })
     and not exists { alt=(f)<-[:DFG]-(write2)-[:EOG*]->(func:FunctionDeclaration)
@@ -7,4 +7,4 @@ where (c.name in ['transfer'] or c.name = 'send' and exists{
         (write2)-[:EOG*]->(branching)-[:EOG*]->(c)
     }
     }
-return distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.name as name
+return distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.localName as name

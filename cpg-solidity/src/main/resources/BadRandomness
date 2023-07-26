@@ -1,6 +1,6 @@
 match (r)
 where ((r:DeclaredReferenceExpression or r:MemberExpression)  and r.code IN ["block.timestamp", "block.number", "block.difficulty", "block.coinbase"]
-or (r:CallExpression and r.name in ['blockhash']))
+or (r:CallExpression and r.localName in ['blockhash']))
 and (exists { (r)-[:DFG*#]->(:ReturnStatement)}
 or exists{ // This should also capture calls to send and transfer
     (r)-[:DFG*#]->(exp:CallExpression) where not exists ((exp)-[:INVOKES]->()) or exists {(exp)-[:INVOKES]->(target) where not exists {(target)-[:BODY]->()}}
@@ -14,4 +14,4 @@ or exists{ // This should also capture calls to send and transfer
 }
 
 )
-return distinct  r as refference, r.startLine as sline, r.endLine as eline, r.startColumn as scol, r.endColumn as ecol, r.artifact as file, r.name as name
+return distinct  r as refference, r.startLine as sline, r.endLine as eline, r.startColumn as scol, r.endColumn as ecol, r.artifact as file, r.localName as name

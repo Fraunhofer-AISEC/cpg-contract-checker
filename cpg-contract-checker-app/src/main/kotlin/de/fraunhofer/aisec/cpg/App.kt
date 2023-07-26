@@ -6,6 +6,7 @@ package de.fraunhofer.aisec.cpg;
 import de.fraunhofer.aisec.cpg.checks.*
 import de.fraunhofer.aisec.cpg.frontends.solidity.*
 import de.fraunhofer.aisec.cpg.graph.Node
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
@@ -31,6 +32,8 @@ import java.nio.file.Paths
 import java.util.concurrent.Callable
 import java.util.stream.Collectors
 import kotlin.reflect.full.createInstance
+import kotlin.reflect.full.memberProperties
+import kotlin.reflect.jvm.javaField
 import kotlin.system.exitProcess
 import kotlin.system.measureTimeMillis
 
@@ -189,27 +192,29 @@ class App : Callable<Int> {
         val filenameMappingNormalized = "smart-contract-sanctuary-ethereum/contracts/mainnet/" + filename.substringAfterLast("/").substring(0,2).lowercase()+ "/" + filename.substringAfterLast("/")
         checks.addAll(avChecks)
         val checkfile =object {}.javaClass.getResourceAsStream("/contract_checks_verify.json")?.bufferedReader()?.readText()
-        var jsonObject = JSONTokener(checkfile).nextValue() as JSONObject
-        if(jsonObject.has(filenameMappingNormalized)){
-            var jsonChecks = jsonObject.getJSONArray(filenameMappingNormalized)
-            jsonChecks?.let {
-                optInChecks = ""
-                for(i in 0 until jsonChecks.length()){
-                    optInChecks =optInChecks +  jsonChecks[i] + ","
+        checkfile?.let {
+            var jsonObject = JSONTokener(checkfile).nextValue() as JSONObject
+            if(jsonObject.has(filenameMappingNormalized)){
+                var jsonChecks = jsonObject.getJSONArray(filenameMappingNormalized)
+                jsonChecks?.let {
+                    optInChecks = ""
+                    for(i in 0 until jsonChecks.length()){
+                        optInChecks =optInChecks +  jsonChecks[i] + ","
+                    }
+                    optInChecks= optInChecks.trim(',')
                 }
-                optInChecks= optInChecks.trim(',')
             }
-        }
-        if(optInChecks.isNotEmpty()){
-            val avChecks = checks.toList()
-            checks.clear()
-            val checkstrings = optInChecks.split(",").map { it.trim()}
-            for ( check in checkstrings){
-                val checkclass = avChecks.filter { it::class.simpleName.equals(check) }.firstOrNull()
-                if(checkclass != null){
-                    checks.add(checkclass)
-                }else{
-                    log.error("Check wit name $check does not exist.")
+            if(optInChecks.isNotEmpty()){
+                val avChecks = checks.toList()
+                checks.clear()
+                val checkstrings = optInChecks.split(",").map { it.trim()}
+                for ( check in checkstrings){
+                    val checkclass = avChecks.filter { it::class.simpleName.equals(check) }.firstOrNull()
+                    if(checkclass != null){
+                        checks.add(checkclass)
+                    }else{
+                        log.error("Check wit name $check does not exist.")
+                    }
                 }
             }
         }
@@ -270,7 +275,7 @@ class App : Callable<Int> {
                         "de.fraunhofer.aisec.cpg.graph",
                         "de.fraunhofer.aisec.cpg.frontends"
                     )
-                //sessionFactory.register(AstChildrenEventListener())
+                sessionFactory.register(AstChildrenEventListener())
 
                 session = sessionFactory.openSession()
             } catch (ex: ConnectionException) {
@@ -333,6 +338,27 @@ class App : Callable<Int> {
                 }
             }
         }
+    }
+}
+
+class AstChildrenEventListener : EventListenerAdapter() {
+    private val nodeNameField =
+        Node::class
+            .memberProperties
+            .first() { it.name == "name" }
+            .javaField
+            .also { it?.isAccessible = true }
+
+    override fun onPreSave(event: Event?) {
+        val node = event?.`object` as? Node ?: return
+        node.astChildren = SubgraphWalker.getAstChildren(node)
+        if (node is CallExpression) fixBackingFields(node)
+    }
+
+    private fun fixBackingFields(node: CallExpression) {
+        // CallExpression overwrites name property and must be copied to JvmField
+        // to be visible by Neo4jOGM
+        nodeNameField?.set(node, node.name)
     }
 }
 

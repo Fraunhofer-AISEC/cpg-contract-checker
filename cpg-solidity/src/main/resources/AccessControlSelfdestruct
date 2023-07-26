@@ -1,5 +1,5 @@
 match p=(:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
-        where toUpper(c.name) in ['SELFDESTRUCT' , 'SUICIDE'] 
+        where toUpper(c.localName) in ['SELFDESTRUCT' , 'SUICIDE']
         and not exists ((last)-[:EOG|INVOKES]->()) 
         and not 'Rollback' in labels(last) 
         and not exists{

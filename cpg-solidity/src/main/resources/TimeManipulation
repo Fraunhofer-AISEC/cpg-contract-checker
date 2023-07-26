@@ -13,4 +13,4 @@ or exists{ // This should also capture calls to send and transfer
 }
 
 )
-return distinct  r as refference, r.startLine as sline, r.endLine as eline, r.startColumn as scol, r.endColumn as ecol, r.artifact as file, r.name as name
+return distinct  r as refference, r.startLine as sline, r.endLine as eline, r.startColumn as scol, r.endColumn as ecol, r.artifact as file, r.localName as name

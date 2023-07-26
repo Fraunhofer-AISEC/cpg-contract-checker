@@ -4,4 +4,4 @@ and (not exists ((b)-[:INVOKES]->()) or exists {(b)-[:INVOKES]->(target) where n
 and not exists {
     r=(f:FunctionDeclaration)-[:EOG*]->()-[:DFG]->(field) where not b in nodes(r) and not 'ConstructorDeclaration' in labels(f)
 }
-return  distinct  b as call, b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file, b.name as name
+return  distinct  b as call, b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file, b.localName as name
