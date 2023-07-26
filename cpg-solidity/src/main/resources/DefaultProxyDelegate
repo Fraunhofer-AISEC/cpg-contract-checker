@@ -1,5 +1,5 @@
 match p=(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
-where (not exists(f.name) or f.name = null or f.name = '') and  toUpper(c.name) in ['DELEGATECALL' , 'CALLCODE'] 
+where (f.name IS NULL or f.name = null or f.name = '') and  toUpper(c.name) in ['DELEGATECALL' , 'CALLCODE']
 and not exists ((last)-[:EOG|INVOKES]->()) 
 and not 'Rollback' in labels(last)
 and (exists {
