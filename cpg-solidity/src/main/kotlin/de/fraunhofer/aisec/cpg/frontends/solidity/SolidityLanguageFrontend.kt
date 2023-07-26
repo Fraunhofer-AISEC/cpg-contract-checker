@@ -3,6 +3,8 @@ package de.fraunhofer.aisec.cpg.frontends.solidity;
 import SolidityLexer
 import SolidityParser
 import de.fraunhofer.aisec.cpg.TranslationConfiguration
+import de.fraunhofer.aisec.cpg.TranslationContext
+import de.fraunhofer.aisec.cpg.frontends.Language
 import de.fraunhofer.aisec.cpg.frontends.LanguageFrontend
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.ModifierDefinition
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.PragmaDeclaration
@@ -12,7 +14,9 @@ import de.fraunhofer.aisec.cpg.graph.TypeManager
 import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
 import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
-import de.fraunhofer.aisec.cpg.passes.scopes.ScopeManager
+import de.fraunhofer.aisec.cpg.graph.newTranslationUnitDeclaration
+import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
+import de.fraunhofer.aisec.cpg.passes.order.ReplacePass
 import de.fraunhofer.aisec.cpg.sarif.PhysicalLocation
 import de.fraunhofer.aisec.cpg.sarif.Region
 import org.antlr.v4.runtime.ANTLRInputStream
@@ -25,11 +29,8 @@ import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileInputStream
 import java.util.*
-
-class SolidityLanguageFrontend(
-    config: @NonNull TranslationConfiguration,
-    scopeManager: ScopeManager?,
-) : LanguageFrontend(config, scopeManager, ".") {
+@ReplacePass(EvaluationOrderGraphPass::class, SolidityLanguage::class, EOGExtensionPass::class)
+class SolidityLanguageFrontend(language: Language<SolidityLanguageFrontend>, ctx: TranslationContext) : LanguageFrontend(language, ctx) {
 
     private val logger = LoggerFactory.getLogger(SolidityLanguageFrontend.javaClass)
 
@@ -54,7 +55,6 @@ class SolidityLanguageFrontend(
     val pragmas: MutableList<PragmaDeclaration> = mutableListOf()
 
     override fun parse(file: File): TranslationUnitDeclaration {
-       TypeManager.getInstance().setLanguageFrontend(this)
 
         val lexer = SolidityLexer(ANTLRInputStream(FileInputStream(file)))
         val stream = CommonTokenStream(lexer)
@@ -62,7 +62,6 @@ class SolidityLanguageFrontend(
         currentFile = file
 
         val tu  = handleSourceUnit(file.name, parser.sourceUnit())
-        tu.name = file.name
         return tu
     }
 
@@ -71,7 +70,7 @@ class SolidityLanguageFrontend(
     }
 
     private fun handleSourceUnit(filename: String, unit: SolidityParser.SourceUnitContext): TranslationUnitDeclaration {
-        var tu = TranslationUnitDeclaration()
+        var tu = newTranslationUnitDeclaration(filename,unit.text, unit)
 
 
         // reset global scope to this translation unit

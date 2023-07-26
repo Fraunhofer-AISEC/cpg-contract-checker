@@ -9,7 +9,7 @@ where not exists ((last)-[:EOG]->()) and not 'Rollback' in labels(last)
 }
 and (c.name in ['call', 'callcode', 'delegatecall', 'send']
     or c.name in ['value','gas'] and exists {
-        (c)-[:BASE*]->({name: 'call'})
+        (c)-[:BASE|CALLEE*]->({name: 'call'})
     }
 )
 return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file

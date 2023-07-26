@@ -6,17 +6,15 @@ import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.EmitStatement
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.InlineAssemblyStatement
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Revert
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.UncheckedStatement
-import de.fraunhofer.aisec.cpg.graph.NodeBuilder
+import de.fraunhofer.aisec.cpg.graph.*
 import de.fraunhofer.aisec.cpg.graph.statements.*
-import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
-import de.fraunhofer.aisec.cpg.graph.statements.expressions.DeclaredReferenceExpression
-import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
-import de.fraunhofer.aisec.cpg.graph.statements.expressions.UnaryOperator
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.*
 import org.antlr.v4.runtime.ParserRuleContext
 import org.slf4j.LoggerFactory
+import java.util.function.Supplier
 
 class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, ParserRuleContext, SolidityLanguageFrontend>(
-    ::Statement, lang) {
+    Supplier { ProblemExpression() }, lang) {
 
 
     private val logger = LoggerFactory.getLogger(StatementHandler::class.java)
@@ -45,120 +43,93 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     }
 
     private fun handleReturnStatement(ctx: SolidityParser.ReturnStatementContext): ReturnStatement {
-        val statement = NodeBuilder.newReturnStatement(this.lang.getCodeFromRawNode(ctx))
+        val statement = newReturnStatement(this.frontend.getCodeFromRawNode(ctx))
 
-        statement.returnValue = this.lang.expressionHandler.handle(ctx.expression())
+        statement.returnValue = frontend.expressionHandler.handle(ctx.expression())
 
         return statement
     }
 
     private fun handleBlock(ctx: SolidityParser.BlockContext): CompoundStatement {
-        val compound = NodeBuilder.newCompoundStatement(this.lang.getCodeFromRawNode(ctx))
+        val compound = newCompoundStatement(frontend.getCodeFromRawNode(ctx))
 
-        lang.scopeManager.enterScope(compound)
+        frontend.scopeManager.enterScope(compound)
 
         for(stmt in ctx.statement()) {
-            compound.addStatement(this.handle(stmt))
+            handle(stmt)?.let {
+                compound.addStatement(it)
+            }
         }
 
-        lang.scopeManager.leaveScope(compound)
+        frontend.scopeManager.leaveScope(compound)
 
         return compound
     }
 
     public fun handleMissingBlock(ctx: SolidityParser.SourceUnitContext): CompoundStatement {
-        val compound = NodeBuilder.newCompoundStatement(this.lang.getCodeFromRawNode(ctx))
+        val compound = newCompoundStatement(frontend.getCodeFromRawNode(ctx))
 
-        lang.scopeManager.enterScope(compound)
+        frontend.scopeManager.enterScope(compound)
 
         for(stmt in ctx.statement()) {
-            compound.addStatement(this.handle(stmt))
+            handle(stmt)?.let {
+                compound.addStatement(it)
+            }
         }
 
-        lang.scopeManager.leaveScope(compound)
+        frontend.scopeManager.leaveScope(compound)
 
         return compound
     }
 
     private fun handleStatement(ctx: SolidityParser.StatementContext): Statement {
-        ctx.ifStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.tryStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.whileStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.forStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.block()?.let {
-            return this.handle(it)
-        }
-        ctx.inlineAssemblyStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.doWhileStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.continueStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.breakStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.returnStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.throwStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.emitStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.simpleStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.uncheckedStatement()?.let {
-            return this.handle(it)
-        }
-        ctx.revertStatement()?.let {
-            return this.handle(it)
-        }
+        ctx.ifStatement()?.let { handle(it)?.let { return it } }
+        ctx.tryStatement()?.let { handle(it)?.let { return it } }
+        ctx.whileStatement()?.let { handle(it)?.let { return it } }
+        ctx.forStatement()?.let { handle(it)?.let { return it } }
+        ctx.block()?.let { handle(it)?.let { return it } }
+        ctx.inlineAssemblyStatement()?.let { handle(it)?.let { return it } }
+        ctx.doWhileStatement()?.let { handle(it)?.let { return it } }
+        ctx.continueStatement()?.let { handle(it)?.let { return it } }
+        ctx.breakStatement()?.let { handle(it)?.let { return it } }
+        ctx.returnStatement()?.let { handle(it)?.let { return it } }
+        ctx.throwStatement()?.let { handle(it)?.let { return it } }
+        ctx.emitStatement()?.let { handle(it)?.let { return it } }
+        ctx.simpleStatement()?.let { handle(it)?.let { return it } }
+        ctx.uncheckedStatement()?.let { handle(it)?.let { return it } }
+        ctx.revertStatement()?.let { handle(it)?.let { return it } }
         logger.warn("Statement {} could not be parsed.", ctx::class.java)
 
-        return Statement()
+        return newProblemExpression("Statement type not implemented for translation.", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
 
     private fun handleSimpleStatement(ctx: SolidityParser.SimpleStatementContext): Statement {
-        ctx.expressionStatement()?.let {
-            return this.handle(ctx.expressionStatement())
-        }
+        ctx.expressionStatement()?.let { handle(it)?.let { return it } }
 
-        ctx.variableDeclarationStatement()?.let {
-            return this.handle(ctx.variableDeclarationStatement())
-        }
+        ctx.variableDeclarationStatement()?.let { handle(it)?.let { return it } }
 
-        return Statement()
+        return newProblemExpression("Statement type not implemented for translation.", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
 
     private fun handleExpressionStatement(ctx: SolidityParser.ExpressionStatementContext): Statement {
         // unwrap expression
-        var expression: Statement = this.lang.expressionHandler.handle(ctx.expression())
-        if(expression is DeclaredReferenceExpression && expression.name == "_" && lang.modifierStack.isNotEmpty()){
-            var modifier = lang.modifierStack.pop()
-            lang.currentIdentifierMapStack.push(lang.modifierIdentifierMap[modifier])
-            expression = lang.declarationHandler.expandBodyWithModifiers(modifier)
-            lang.modifierStack.push(modifier)
-            lang.currentIdentifierMapStack.pop()
+        var expression: Statement? = frontend.expressionHandler.handle(ctx.expression())
+        if(expression != null && expression is DeclaredReferenceExpression && expression.code == "_" && frontend.modifierStack.isNotEmpty()){ // TODO Is name correct here or do we need local name or code?
+            var modifier = frontend.modifierStack.pop()
+            frontend.currentIdentifierMapStack.push(frontend.modifierIdentifierMap[modifier])
+            expression = frontend.declarationHandler.expandBodyWithModifiers(modifier)
+            frontend.modifierStack.push(modifier)
+            frontend.currentIdentifierMapStack.pop()
 
         }
-        return expression
+        expression?.let {
+            return it
+        }
+        return newProblemExpression("Translation of Expression failed.", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
 
     private fun handleVariableDeclarationStatement(ctx: SolidityParser.VariableDeclarationStatementContext): DeclarationStatement {
-        val declStatement = NodeBuilder.newDeclarationStatement(this.lang.getCodeFromRawNode(ctx))
+        val declStatement = newDeclarationStatement(frontend.getCodeFromRawNode(ctx))
 
         val list = mutableListOf<SolidityParser.VariableDeclarationContext>()
         ctx.variableDeclarationList()?.let {
@@ -171,21 +142,21 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
 
         var initializer: Expression? = null
         ctx.expression()?.let {
-            initializer = this.lang.expressionHandler.handle(it)
+            initializer = frontend.expressionHandler.handle(it)
         }
 
         for(variable in list) {
-            val type = this.lang.typeHandler.handle(variable.typeName())
+            val type = frontend.typeHandler.handle(variable.typeName())
             val name = variable.identifier().text
 
-            val decl = NodeBuilder.newVariableDeclaration(name, type, this.lang.getCodeFromRawNode(variable.identifier()), false)
-            decl.location = lang.getLocationFromRawNode(variable)
+            val decl = newVariableDeclaration(name, type?: newUnknownType(), frontend.getCodeFromRawNode(variable.identifier()), false)
+            decl.location = frontend.getLocationFromRawNode(variable)
 
             decl.initializer = initializer
 
             declStatement.addToPropertyEdgeDeclaration(decl)
 
-            this.lang.scopeManager.addDeclaration(decl)
+            frontend.scopeManager.addDeclaration(decl)
         }
 
         return declStatement
@@ -193,12 +164,12 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
 
     private fun handleIfStatement(ctx: SolidityParser.IfStatementContext): IfStatement {
 
-        val ifStatement: IfStatement = NodeBuilder.newIfStatement(lang.getCodeFromRawNode(ctx))
+        val ifStatement: IfStatement = newIfStatement(frontend.getCodeFromRawNode(ctx))
 
-        lang.scopeManager.enterScope(ifStatement)
+        frontend.scopeManager.enterScope(ifStatement)
 
         ctx.expression()?.let {
-            ifStatement.condition = lang.expressionHandler.handle(it)
+            ifStatement.condition = frontend.expressionHandler.handle(it)
         }
 
         ctx.statement(0)?.let{
@@ -209,80 +180,80 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
             ifStatement.elseStatement= handle(it)
         }
 
-        lang.scopeManager.leaveScope(ifStatement)
+        frontend.scopeManager.leaveScope(ifStatement)
 
         return ifStatement
 
     }
 
     private fun handleWhileStatement(ctx: SolidityParser.WhileStatementContext): WhileStatement {
-        val whileStatement: WhileStatement = NodeBuilder.newWhileStatement(lang.getCodeFromRawNode(ctx))
+        val whileStatement: WhileStatement = newWhileStatement(frontend.getCodeFromRawNode(ctx))
 
-        lang.scopeManager.enterScope(whileStatement)
+        frontend.scopeManager.enterScope(whileStatement)
 
         ctx.expression()?.let {
-            whileStatement.condition = lang.expressionHandler.handle(it)
+            whileStatement.condition = frontend.expressionHandler.handle(it)
         }
 
         ctx.statement()?.let{
             whileStatement.statement = handle(it)
         }
 
-        lang.scopeManager.leaveScope(whileStatement)
+        frontend.scopeManager.leaveScope(whileStatement)
 
         return whileStatement
     }
 
     private fun handleForStatement(ctx: SolidityParser.ForStatementContext): ForStatement {
-        val forStatement: ForStatement = NodeBuilder.newForStatement(lang.getCodeFromRawNode(ctx))
+        val forStatement: ForStatement = newForStatement(frontend.getCodeFromRawNode(ctx))
 
-        lang.scopeManager.enterScope(forStatement)
+        frontend.scopeManager.enterScope(forStatement)
 
         ctx.simpleStatement()?.let {
             forStatement.initializerStatement = handle(it)
         }
 
         ctx.expressionStatement()?.let{
-            forStatement.condition = lang.expressionHandler.handle(it.expression())
+            forStatement.condition = frontend.expressionHandler.handle(it.expression())
         }
 
         ctx.expression()?.let {
-            forStatement.iterationStatement= lang.expressionHandler.handle(it)
+            forStatement.iterationStatement= frontend.expressionHandler.handle(it)
         }
 
         ctx.statement()?.let{
             forStatement.statement = handle(it)
         }
 
-        lang.scopeManager.leaveScope(forStatement)
+        frontend.scopeManager.leaveScope(forStatement)
 
         return forStatement
     }
 
     private fun handleDoWhileStatement(ctx: SolidityParser.DoWhileStatementContext): DoStatement {
-        val doStatement: DoStatement= NodeBuilder.newDoStatement(lang.getCodeFromRawNode(ctx))
+        val doStatement: DoStatement= newDoStatement(frontend.getCodeFromRawNode(ctx))
 
-        lang.scopeManager.enterScope(doStatement)
+        frontend.scopeManager.enterScope(doStatement)
 
         ctx.statement()?.let{
             doStatement.statement = handle(it)
         }
 
         ctx.expression()?.let {
-            doStatement.condition = lang.expressionHandler.handle(it)
+            doStatement.condition = frontend.expressionHandler.handle(it)
         }
 
-        lang.scopeManager.leaveScope(doStatement)
+        frontend.scopeManager.leaveScope(doStatement)
 
         return doStatement
     }
 
     private fun handleContinueStatement(ctx: SolidityParser.ContinueStatementContext): ContinueStatement {
-        return NodeBuilder.newContinueStatement(lang.getCodeFromRawNode(ctx))
+        return newContinueStatement(frontend.getCodeFromRawNode(ctx))
     }
 
     private fun handleBreakStatement(ctx: SolidityParser.BreakStatementContext): BreakStatement {
-        return NodeBuilder.newBreakStatement(lang.getCodeFromRawNode(ctx))
+        return newBreakStatement(frontend.getCodeFromRawNode(ctx))
     }
 
     private fun handleInlineAssemblyStatement(ctx: SolidityParser.InlineAssemblyStatementContext): Statement {
@@ -290,7 +261,7 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     }
 
     private fun handleTryStatement(ctx: SolidityParser.TryStatementContext): TryStatement {
-        val tryStmt: TryStatement = NodeBuilder.newTryStatement(lang.getCodeFromRawNode(ctx)?: "")
+        val tryStmt: TryStatement = newTryStatement(frontend.getCodeFromRawNode(ctx)?: "")
 
         // TODO look into different type of try statement
 
@@ -298,26 +269,26 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     }
 
     private fun handleThrowStatement(ctx: SolidityParser.ThrowStatementContext): UnaryOperator {
-        return NodeBuilder.newUnaryOperator("throw", false, false, ctx.text)
+        return newUnaryOperator("throw", false, false, ctx.text)
     }
 
     private fun handleEmitStatement(ctx: SolidityParser.EmitStatementContext): Statement {
         val emit = EmitStatement()
-        emit.emits = lang.expressionHandler.handle(ctx.functionCall())
+        emit.emits = frontend.expressionHandler.handle(ctx.functionCall())
         return emit
     }
 
     private fun handleUncheckedStatement(ctx: SolidityParser.UncheckedStatementContext): Statement {
         val uncheckedStmt = UncheckedStatement()
         uncheckedStmt.uncheckedBlock = ctx.block()?.let { handle(it) }?: null
-        uncheckedStmt.code = this.lang.getCodeFromRawNode(ctx)
+        uncheckedStmt.code = frontend.getCodeFromRawNode(ctx)
         return uncheckedStmt
     }
 
     private fun handleRevertStatement(ctx: SolidityParser.RevertStatementContext): Statement {
         val revert: Revert = Revert()
         ctx.functionCall()?.let {
-            revert.message = lang.expressionHandler.handle(it) as CallExpression
+            revert.message = frontend.expressionHandler.handle(it) as CallExpression
         }
         return revert
     }

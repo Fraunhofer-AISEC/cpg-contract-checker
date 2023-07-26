@@ -14,10 +14,7 @@ class ExamplesTest {
                 topLevel,
                 true
             ) {
-                it.registerLanguage(
-                    SolidityLanguageFrontend::class.java,
-                    SolidityLanguageFrontend.SOLIDITY_EXTENSIONS
-                )
+                it.registerLanguage<SolidityLanguage>()
             }
         assertNotNull(tu)
     }
