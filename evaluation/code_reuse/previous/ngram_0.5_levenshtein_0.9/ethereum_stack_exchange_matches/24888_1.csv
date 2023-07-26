@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x9e6c849ab00670ece0ddcb1b16afadfba7c21eb9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e6c849ab00670ece0ddcb1b16afadfba7c21eb9_GVSFjackpot.sol
+100.00,100.00,0x76880e1ab0bf868bd7ff97264dc23880739dfbdc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/76/76880e1ab0bf868bd7ff97264dc23880739dfbdc_KingOfNarnia.sol
+96.43,96.87,0xaf7aea249098f2c2f50cc11d4000ccf798194373,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/af/af7aea249098f2c2f50cc11d4000ccf798194373_ZTCrowdsale.sol
+96.43,96.87,0x36cddd1281258e4373ad313a995272f525cc4e63,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/36/36cddd1281258e4373ad313a995272f525cc4e63_CoinoorCrowdsale.sol

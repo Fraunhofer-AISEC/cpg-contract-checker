@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-63.38,72.65,0x72237Caa65c3092Be989D997D19C2b6c694ac8b0,smart-contract-sanctuary-ethereum/contracts/mainnet/72/72237Caa65c3092Be989D997D19C2b6c694ac8b0_GovernanceFactory.sol
-63.38,72.65,0x86b2e0c563199b1eb54c197095b98642e91dedd8,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86b2e0c563199b1eb54c197095b98642e91dedd8_GovernanceFactory.sol
-63.38,72.65,0x044f501d2b48cfd522699a88eab5ed8186b57a6f,smart-contract-sanctuary-ethereum/contracts/mainnet/04/044f501d2b48cfd522699a88eab5ed8186b57a6f_GovernanceToken.sol
-61.97,71.29,0x038b266ef399abc291685e1096ef101ffca97f59,smart-contract-sanctuary-ethereum/contracts/mainnet/03/038b266ef399abc291685e1096ef101ffca97f59_InfiniteVest.sol
-60.56,71.86,0x6cae87e30445665ca5125d574aa02db4aa9edb96,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6cae87e30445665ca5125d574aa02db4aa9edb96_ConjureGovernorAlpha.sol

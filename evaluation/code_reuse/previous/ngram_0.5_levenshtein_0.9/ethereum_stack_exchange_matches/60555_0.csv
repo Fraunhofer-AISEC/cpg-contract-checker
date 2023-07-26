@@ -1,1 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+93.68,90.55,0xd02de1429a516b3313b6bffde502bd0ad6821304,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d02de1429a516b3313b6bffde502bd0ad6821304_StudentCoin.sol
+93.68,90.55,0x3b4b29c4c1872a60d09937686bd2b358db9dee8a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b4b29c4c1872a60d09937686bd2b358db9dee8a_TeacherCoin.sol
+93.68,90.55,0x2fc310068686e78acfd8075aeb515113dc30d676,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2fc310068686e78acfd8075aeb515113dc30d676_TeacherCoin.sol
+93.68,90.55,0xea4c5b7088823f6851198ae908a59ee1d6a9c8c9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ea/ea4c5b7088823f6851198ae908a59ee1d6a9c8c9_StripperToken.sol
+93.68,90.03,0x8344a773a73d645f82d881616b3c458e685825f5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/83/8344a773a73d645f82d881616b3c458e685825f5_Ordient.sol

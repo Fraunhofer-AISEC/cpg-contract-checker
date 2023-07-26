@@ -1,1 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,91.53,0x90ee3Cf59FcDe2FE11838b9075Ea4681462362F1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/90/90ee3Cf59FcDe2FE11838b9075Ea4681462362F1_nonFungibleFungiGenerative.sol
+100.00,100.00,0x0c64034984293EB44f0aD19bb48E7a8d3aC05e94,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0c64034984293EB44f0aD19bb48E7a8d3aC05e94_SigmaIndexPoolV1.sol
+96.67,90.32,0x164c6f974a9dab180bc763412624107e413af8a2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/16/164c6f974a9dab180bc763412624107e413af8a2_LoanToken2.sol
+96.67,90.32,0x017deac7bceec08aca1e71acb639065a3492e830,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/01/017deac7bceec08aca1e71acb639065a3492e830_Curves.sol
+96.67,90.32,0x52f1ee265befa61c83a654d242348b18ad85c3d3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/52/52f1ee265befa61c83a654d242348b18ad85c3d3_Curve.sol
+96.67,90.32,0xcAB2f2a8ab011ED7cD74fB77C49f057d9F90C2A7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ca/cAB2f2a8ab011ED7cD74fB77C49f057d9F90C2A7_LoanToken.sol
+93.33,93.55,0x31e43cee5433945dba82c09dffe8ae29edbb27c3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/31e43cee5433945dba82c09dffe8ae29edbb27c3_Keep3rV2OracleFactory.sol

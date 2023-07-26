@@ -1,3 +1,2 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xf9dd22dfd54ef9c0885c1c61985cd4e63cbc20b3,smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f9dd22dfd54ef9c0885c1c61985cd4e63cbc20b3_VoterProxy.sol
-100.00,100.00,0xE25E53220Df33D41b0422FeDBD2D23A94045cFf3,smart-contract-sanctuary-ethereum/contracts/mainnet/e2/E25E53220Df33D41b0422FeDBD2D23A94045cFf3_VoterProxy.sol
+100.00,100.00,0xf9dd22dfd54ef9c0885c1c61985cd4e63cbc20b3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f9dd22dfd54ef9c0885c1c61985cd4e63cbc20b3_VoterProxy.sol

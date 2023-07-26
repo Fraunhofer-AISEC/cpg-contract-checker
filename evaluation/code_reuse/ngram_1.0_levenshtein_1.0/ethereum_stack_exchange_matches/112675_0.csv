@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x342ddbc773f7d8b83461ed36acc453a41bdc8c0b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/34/342ddbc773f7d8b83461ed36acc453a41bdc8c0b_Navatar.sol
-100.00,100.00,0xBe107404375800c7E9b1f9A608E5633FB2f4E097,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/be/Be107404375800c7E9b1f9A608E5633FB2f4E097_NftCollectionV1.sol
-100.00,100.00,0x01234567bac6fF94d7E4f0EE23119CF848F93245,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/01/01234567bac6fF94d7E4f0EE23119CF848F93245_EthBlocks.sol
-100.00,100.00,0x9A44C846221322E8c114525dac3f8b34eE138BFE,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9A44C846221322E8c114525dac3f8b34eE138BFE_CarNFT.sol
-100.00,100.00,0xfC04a26c8814804EB8EF5E53c956f2e4D76F035f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fC04a26c8814804EB8EF5E53c956f2e4D76F035f_Hapc.sol
-100.00,100.00,0x8b3a7d074856fbbf1facf907e1bdc011a9ee72aa,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8b3a7d074856fbbf1facf907e1bdc011a9ee72aa_Thingdoms.sol
-100.00,100.00,0x59bB4518B99E238C762e02e99f7CEfa8b7cf5c79,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/59/59bB4518B99E238C762e02e99f7CEfa8b7cf5c79_NFT.sol
+100.00,100.00,0x342ddbc773f7d8b83461ed36acc453a41bdc8c0b,smart-contract-sanctuary-ethereum/contracts/mainnet/34/342ddbc773f7d8b83461ed36acc453a41bdc8c0b_Navatar.sol
+100.00,100.00,0xBe107404375800c7E9b1f9A608E5633FB2f4E097,smart-contract-sanctuary-ethereum/contracts/mainnet/be/Be107404375800c7E9b1f9A608E5633FB2f4E097_NftCollectionV1.sol
+100.00,100.00,0x01234567bac6fF94d7E4f0EE23119CF848F93245,smart-contract-sanctuary-ethereum/contracts/mainnet/01/01234567bac6fF94d7E4f0EE23119CF848F93245_EthBlocks.sol
+100.00,100.00,0x9A44C846221322E8c114525dac3f8b34eE138BFE,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9A44C846221322E8c114525dac3f8b34eE138BFE_CarNFT.sol
+100.00,100.00,0xfC04a26c8814804EB8EF5E53c956f2e4D76F035f,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fC04a26c8814804EB8EF5E53c956f2e4D76F035f_Hapc.sol
+100.00,100.00,0x8b3a7d074856fbbf1facf907e1bdc011a9ee72aa,smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8b3a7d074856fbbf1facf907e1bdc011a9ee72aa_Thingdoms.sol
+100.00,100.00,0x59bB4518B99E238C762e02e99f7CEfa8b7cf5c79,smart-contract-sanctuary-ethereum/contracts/mainnet/59/59bB4518B99E238C762e02e99f7CEfa8b7cf5c79_NFT.sol

@@ -1,1 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x5e17a18B3984F1d0db9EfA8E13A1091aB7ADCb30,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e17a18B3984F1d0db9EfA8E13A1091aB7ADCb30_RushCoin.sol
+96.88,90.91,0x6Fd1383d75e4576ce9140Fe2f56b7875D6020057,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6Fd1383d75e4576ce9140Fe2f56b7875D6020057_Brainz.sol
+96.88,90.91,0xe1d4892E63f15d3d24Af4C71393956a588199B1e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e1/e1d4892E63f15d3d24Af4C71393956a588199B1e_Brainz.sol
+93.75,95.29,0x42dbbd5ae373fea2fc320f62d44c058522bb3758,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/42/42dbbd5ae373fea2fc320f62d44c058522bb3758_Memecoin.sol
+90.62,96.97,0xb0F9b4274FE7067815e41fc090696b9Ce52f84Bd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b0/b0F9b4274FE7067815e41fc090696b9Ce52f84Bd_Ethereum.sol
+90.62,93.94,0x367eB1D2da765d552b03F193EEc6696329D9a166,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/36/367eB1D2da765d552b03F193EEc6696329D9a166_Compensation.sol
+90.62,93.94,0x238D61CC3eFF2446116f1dC2d2dF43c1237cB8D4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/23/238D61CC3eFF2446116f1dC2d2dF43c1237cB8D4_Refund.sol
+90.62,93.94,0x8ca3BD13BbF3468D48369DF508b9B614D9aa1802,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8ca3BD13BbF3468D48369DF508b9B614D9aa1802_Compensation.sol
+90.62,93.94,0x9eCd8D889D20AddC0334Fa602804da0e439Ed61E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9eCd8D889D20AddC0334Fa602804da0e439Ed61E_Refund.sol
+90.62,93.94,0xb7ab91Ca09fE5E6E9Ab9a8A8415843934304d707,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b7ab91Ca09fE5E6E9Ab9a8A8415843934304d707_Refund.sol

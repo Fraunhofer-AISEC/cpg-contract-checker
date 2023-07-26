@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xb39d10435d7d0f2ea26a1c86c42be0fd8a94f59b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b39d10435d7d0f2ea26a1c86c42be0fd8a94f59b_TittyPurchase.sol
-100.00,100.00,0x1558b9afb91a2185495debc22a9cce11dabe33c5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/15/1558b9afb91a2185495debc22a9cce11dabe33c5_CTBoatGame.sol
-100.00,100.00,0xa0acc9fe716c39a68dafb8f10c75b1276b08a17c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a0acc9fe716c39a68dafb8f10c75b1276b08a17c_CTAuction.sol
-100.00,100.00,0x40AF8f21096b9a424AC92C2E83536485EeCB4d8e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/40/40AF8f21096b9a424AC92C2E83536485EeCB4d8e_SingleToken.sol
-100.00,100.00,0xad527B838DE3A8719F335975BA7FADEb5F082C71,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ad/ad527B838DE3A8719F335975BA7FADEb5F082C71_SingleToken.sol
+100.00,100.00,0xb39d10435d7d0f2ea26a1c86c42be0fd8a94f59b,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b39d10435d7d0f2ea26a1c86c42be0fd8a94f59b_TittyPurchase.sol
+100.00,100.00,0x1558b9afb91a2185495debc22a9cce11dabe33c5,smart-contract-sanctuary-ethereum/contracts/mainnet/15/1558b9afb91a2185495debc22a9cce11dabe33c5_CTBoatGame.sol
+100.00,100.00,0xa0acc9fe716c39a68dafb8f10c75b1276b08a17c,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a0acc9fe716c39a68dafb8f10c75b1276b08a17c_CTAuction.sol
+100.00,100.00,0x40AF8f21096b9a424AC92C2E83536485EeCB4d8e,smart-contract-sanctuary-ethereum/contracts/mainnet/40/40AF8f21096b9a424AC92C2E83536485EeCB4d8e_SingleToken.sol
+100.00,100.00,0xad527B838DE3A8719F335975BA7FADEb5F082C71,smart-contract-sanctuary-ethereum/contracts/mainnet/ad/ad527B838DE3A8719F335975BA7FADEb5F082C71_SingleToken.sol

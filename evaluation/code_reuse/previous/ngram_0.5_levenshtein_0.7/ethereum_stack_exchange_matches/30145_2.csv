@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-71.43,78.26,0x49Be14dB3b6Cc6d0dEDFbFedC9E579340af98baf,smart-contract-sanctuary-ethereum/contracts/mainnet/49/49Be14dB3b6Cc6d0dEDFbFedC9E579340af98baf_EtherPointFactory.sol
-71.43,78.26,0x2A514206395FCC7b360c4cee969a4dE322E6C95c,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2A514206395FCC7b360c4cee969a4dE322E6C95c_Erc721ItemFactory.sol
-71.43,78.26,0x660cBDcBa671d9f702119d996cB14D88699E7Ce9,smart-contract-sanctuary-ethereum/contracts/mainnet/66/660cBDcBa671d9f702119d996cB14D88699E7Ce9_Erc721CountFactory.sol
-71.43,82.61,0x1c5e984bc2955e91b524fd7aa78e3c60bce4d002,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1c5e984bc2955e91b524fd7aa78e3c60bce4d002_DepositEth.sol
-61.90,78.26,0xe53b216555BaEF1226A580EC4D845FD50798d4Fe,smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e53b216555BaEF1226A580EC4D845FD50798d4Fe_Erc20CountPointFactory.sol

@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xa5f611c238239eb69c044cc50014f076e4fa9383,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a5f611c238239eb69c044cc50014f076e4fa9383_CheckMerge.sol
-100.00,100.00,0x1109fc83bd708f85279d4be23d1c108ac63928a2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/11/1109fc83bd708f85279d4be23d1c108ac63928a2_CheckMergev2.sol
-100.00,100.00,0x3d2c03b2504e4e593169fac757788aac9d303a4e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3d2c03b2504e4e593169fac757788aac9d303a4e_Mason.sol
-100.00,100.00,0x7bbf2560092705c6010ccbad7b2e451b203f8e28,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7bbf2560092705c6010ccbad7b2e451b203f8e28_Mason.sol
-100.00,100.00,0xef0bf36dccc89d3adadef016d89d3ce5c4f2f9d5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ef/ef0bf36dccc89d3adadef016d89d3ce5c4f2f9d5_Mason.sol
+100.00,100.00,0xa5f611c238239eb69c044cc50014f076e4fa9383,smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a5f611c238239eb69c044cc50014f076e4fa9383_CheckMerge.sol
+100.00,100.00,0x1109fc83bd708f85279d4be23d1c108ac63928a2,smart-contract-sanctuary-ethereum/contracts/mainnet/11/1109fc83bd708f85279d4be23d1c108ac63928a2_CheckMergev2.sol
+100.00,100.00,0x3d2c03b2504e4e593169fac757788aac9d303a4e,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3d2c03b2504e4e593169fac757788aac9d303a4e_Mason.sol
+100.00,100.00,0xef0bf36dccc89d3adadef016d89d3ce5c4f2f9d5,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/ef0bf36dccc89d3adadef016d89d3ce5c4f2f9d5_Mason.sol
+100.00,100.00,0x7bbf2560092705c6010ccbad7b2e451b203f8e28,smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7bbf2560092705c6010ccbad7b2e451b203f8e28_Mason.sol

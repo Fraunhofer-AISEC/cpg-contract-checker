@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-84.91,91.07,0x6cfbc758c0c077323e1b6f8991280e2668864420,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6cfbc758c0c077323e1b6f8991280e2668864420_Raffle.sol
-84.91,91.07,0x5a5b3978904ab2d85d8095aaaabbc85e99c1c5f4,smart-contract-sanctuary-ethereum/contracts/mainnet/5a/5a5b3978904ab2d85d8095aaaabbc85e99c1c5f4_Raffle.sol
-84.91,91.07,0x25E838983830fc9b65Be168C3D4fB6420BA9382D,smart-contract-sanctuary-ethereum/contracts/mainnet/25/25E838983830fc9b65Be168C3D4fB6420BA9382D_Raffle.sol
-84.91,91.07,0x3F37f0F8012c132Bd9a757FF5f4023901Cf8f395,smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3F37f0F8012c132Bd9a757FF5f4023901Cf8f395_Raffle.sol
-84.91,91.07,0x86acc38693940c9cc5daeef69cfba7bf5da16796,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86acc38693940c9cc5daeef69cfba7bf5da16796_Raffle.sol
+84.91,91.07,0x5a5b3978904ab2d85d8095aaaabbc85e99c1c5f4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5a/5a5b3978904ab2d85d8095aaaabbc85e99c1c5f4_Raffle.sol
+84.91,91.07,0x6cfbc758c0c077323e1b6f8991280e2668864420,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6cfbc758c0c077323e1b6f8991280e2668864420_Raffle.sol
+84.91,91.07,0x25E838983830fc9b65Be168C3D4fB6420BA9382D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/25/25E838983830fc9b65Be168C3D4fB6420BA9382D_Raffle.sol
+84.91,91.07,0x86acc38693940c9cc5daeef69cfba7bf5da16796,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/86acc38693940c9cc5daeef69cfba7bf5da16796_Raffle.sol
+84.91,91.07,0x3F37f0F8012c132Bd9a757FF5f4023901Cf8f395,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3F37f0F8012c132Bd9a757FF5f4023901Cf8f395_Raffle.sol

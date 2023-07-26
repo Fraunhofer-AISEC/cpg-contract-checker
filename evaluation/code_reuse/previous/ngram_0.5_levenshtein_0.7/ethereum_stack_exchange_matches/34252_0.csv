@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-70.83,73.08,0xdf9ecafee99e2954df6258ef85f18cf88462f452,smart-contract-sanctuary-ethereum/contracts/mainnet/df/df9ecafee99e2954df6258ef85f18cf88462f452_RaindropClient.sol
-62.50,73.08,0x8dbb99cc3721f5c9cc7c9e92db260813cf78cdd3,smart-contract-sanctuary-ethereum/contracts/mainnet/8d/8dbb99cc3721f5c9cc7c9e92db260813cf78cdd3_CertifiedPartners.sol
-62.50,73.08,0x1f6e6af195376fb39bb7fede37aa5fb28ac12b44,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1f6e6af195376fb39bb7fede37aa5fb28ac12b44_RaindropClient.sol

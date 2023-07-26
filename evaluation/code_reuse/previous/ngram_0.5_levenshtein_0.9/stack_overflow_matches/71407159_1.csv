@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x9102817c135B489B629A9aa9eD079F6Cd6caDe24,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/91/9102817c135B489B629A9aa9eD079F6Cd6caDe24_SummerTestNft.sol
+100.00,96.55,0xE920527FFd7705AAaFB78DD908f5A543F1E3404c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E920527FFd7705AAaFB78DD908f5A543F1E3404c_NFT.sol
+100.00,96.55,0xB7802Cc30b7765eC35D6f9D543a9250606f210f3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b7/B7802Cc30b7765eC35D6f9D543a9250606f210f3_Marketplace.sol
+96.55,91.03,0x8f58ad52bae5cb152e0bcaaf7121a79f25493f3c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8f58ad52bae5cb152e0bcaaf7121a79f25493f3c_BurnMe.sol

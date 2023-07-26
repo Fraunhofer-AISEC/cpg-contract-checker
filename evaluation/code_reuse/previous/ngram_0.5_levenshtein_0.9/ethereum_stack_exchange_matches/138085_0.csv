@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.71,99.56,0x5B848475FbFAc8735068Cd73f3ee89377DB98359,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5B848475FbFAc8735068Cd73f3ee89377DB98359_M2NFT.sol
+95.69,95.58,0xd0dea3b7b17ed78674b14564e3eaf8e9e9bb8eeb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d0dea3b7b17ed78674b14564e3eaf8e9e9bb8eeb_AUREWORLDNFT.sol
+95.26,94.04,0x0e71d89e7921a78569ecb882c044a0b21df8307d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0e71d89e7921a78569ecb882c044a0b21df8307d_TheGreedyMachinesVol2.sol
+93.10,90.17,0x3b9a62c6dd4d93f8a6fa4a350da32d28fac80863,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b9a62c6dd4d93f8a6fa4a350da32d28fac80863_WAODAONFT.sol

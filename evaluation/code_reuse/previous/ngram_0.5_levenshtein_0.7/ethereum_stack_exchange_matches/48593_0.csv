@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-87.33,74.69,0x9482a18ed523b1a2f097b480d38852dfff83e0b9,smart-contract-sanctuary-ethereum/contracts/mainnet/94/9482a18ed523b1a2f097b480d38852dfff83e0b9_UserContract.sol
-85.34,73.45,0x58f745e66fc8bb2307e8d73d7dafeda47030113c,smart-contract-sanctuary-ethereum/contracts/mainnet/58/58f745e66fc8bb2307e8d73d7dafeda47030113c_MasterDeployer.sol
-84.12,70.32,0xfb7206c361d48de7d2dbeb32c77c476d833adb42,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fb7206c361d48de7d2dbeb32c77c476d833adb42_ProdToken.sol
-83.21,70.12,0x279912e1b62c49b87e4166851f4c1c0d71bab0f3,smart-contract-sanctuary-ethereum/contracts/mainnet/27/279912e1b62c49b87e4166851f4c1c0d71bab0f3_WrapToken.sol
-82.14,70.23,0x3990240a9ba025c1bdc0116521ed0bfd9b40ec99,smart-contract-sanctuary-ethereum/contracts/mainnet/39/3990240a9ba025c1bdc0116521ed0bfd9b40ec99_VikkyToken.sol
-81.68,70.23,0x1ac68e35dbd49a7250fa1b1ceb9dbd3110edaf50,smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1ac68e35dbd49a7250fa1b1ceb9dbd3110edaf50_VikkyToken.sol
-79.69,71.01,0x89cf87c35e69a9b84f7a3e50eaf54bfc3cabc377,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89cf87c35e69a9b84f7a3e50eaf54bfc3cabc377_GetPaidToken.sol

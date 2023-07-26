@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-72.73,75.00,0xcf76715f101dcbfa3efc4ce635dd0a9f8a03de78,smart-contract-sanctuary-ethereum/contracts/mainnet/cf/cf76715f101dcbfa3efc4ce635dd0a9f8a03de78_WXMR.sol
-72.73,77.78,0xC5F75A14F83038bFDD10838C30953E95A9dd3209,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/C5F75A14F83038bFDD10838C30953E95A9dd3209_JuiceBox.sol
-72.73,77.78,0x21c8e4aBf7378296F677f0A2D7FAf4D650c9AC81,smart-contract-sanctuary-ethereum/contracts/mainnet/21/21c8e4aBf7378296F677f0A2D7FAf4D650c9AC81_JuiceBox.sol
-63.64,72.00,0xF43520884f9d15031fff9aF9dab7e22bB8c99a74,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/F43520884f9d15031fff9aF9dab7e22bB8c99a74_DriveInTheatre.sol
-63.64,72.00,0x0D868eD2b09ca8fE234aB8ec8E6c21EF62B11472,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0D868eD2b09ca8fE234aB8ec8E6c21EF62B11472_DriveInTheatre.sol
-63.64,72.00,0x14E3bC2A8B260750Ac31A57f6AC1e3cBCe7b4600,smart-contract-sanctuary-ethereum/contracts/mainnet/14/14E3bC2A8B260750Ac31A57f6AC1e3cBCe7b4600_FutureGalerieSimple.sol

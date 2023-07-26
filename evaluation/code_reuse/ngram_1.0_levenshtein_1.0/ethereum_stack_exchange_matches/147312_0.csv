@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xb43a1b5AEa22F89c8Ed0757BfCA65EB3AD33E759,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b43a1b5AEa22F89c8Ed0757BfCA65EB3AD33E759_AQPMembership.sol
-100.00,100.00,0xD42DF66453989b61CEd12DD6c957ee01a74bA78c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d4/D42DF66453989b61CEd12DD6c957ee01a74bA78c_atom_catalyst.sol
-100.00,100.00,0x310e9709df50e0f2af8619f8c922d91a808b7238,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/310e9709df50e0f2af8619f8c922d91a808b7238_MintifyAirdrop.sol
-100.00,100.00,0x51cebD11B6b17e7F0613647089e5b2692E7E9a58,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/51/51cebD11B6b17e7F0613647089e5b2692E7E9a58_MyToken.sol
-100.00,100.00,0xC7978A0C1900873e83Ef08E96a78037aC3C7875b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c7/C7978A0C1900873e83Ef08E96a78037aC3C7875b_ApeInvadersCollectibles.sol
+100.00,100.00,0xb43a1b5AEa22F89c8Ed0757BfCA65EB3AD33E759,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b43a1b5AEa22F89c8Ed0757BfCA65EB3AD33E759_AQPMembership.sol
+100.00,100.00,0xD42DF66453989b61CEd12DD6c957ee01a74bA78c,smart-contract-sanctuary-ethereum/contracts/mainnet/d4/D42DF66453989b61CEd12DD6c957ee01a74bA78c_atom_catalyst.sol
+100.00,100.00,0x310e9709df50e0f2af8619f8c922d91a808b7238,smart-contract-sanctuary-ethereum/contracts/mainnet/31/310e9709df50e0f2af8619f8c922d91a808b7238_MintifyAirdrop.sol
+100.00,100.00,0x51cebD11B6b17e7F0613647089e5b2692E7E9a58,smart-contract-sanctuary-ethereum/contracts/mainnet/51/51cebD11B6b17e7F0613647089e5b2692E7E9a58_MyToken.sol
+100.00,100.00,0xC7978A0C1900873e83Ef08E96a78037aC3C7875b,smart-contract-sanctuary-ethereum/contracts/mainnet/c7/C7978A0C1900873e83Ef08E96a78037aC3C7875b_ApeInvadersCollectibles.sol

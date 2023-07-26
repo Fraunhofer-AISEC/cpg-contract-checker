@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-94.33,72.35,0x86ed663b4cacda7f1bf73532cb64da007b18d99b,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86ed663b4cacda7f1bf73532cb64da007b18d99b_TimeLockedWalletFactory.sol
-91.49,73.07,0x841f2869bdf55257f66a42e8b1c0eaa4c7733313,smart-contract-sanctuary-ethereum/contracts/mainnet/84/841f2869bdf55257f66a42e8b1c0eaa4c7733313_TimeLockedWalletFactory.sol
-91.49,73.07,0xae1500b00dcbc545f0dc3e4cc117a075ec849756,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/ae1500b00dcbc545f0dc3e4cc117a075ec849756_TimeLockedWalletFactory.sol
-89.36,70.06,0xcb172d4602643ecece8382b4e35e152b0597a707,smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cb172d4602643ecece8382b4e35e152b0597a707_GoldMiningLockerFactory.sol

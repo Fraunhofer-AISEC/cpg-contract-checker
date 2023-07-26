@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xD0e9FAF06Ff4cc3948295B665CCFf764Ec696f47,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d0/D0e9FAF06Ff4cc3948295B665CCFf764Ec696f47_FeatheredFrens.sol
+100.00,100.00,0xCCf04bEdd9dFd7192d98C99250F7700790F1B299,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cc/CCf04bEdd9dFd7192d98C99250F7700790F1B299_DegenHounds.sol
+100.00,100.00,0x680f743161F47810665C3C332040ACB4cDf3A7F6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/68/680f743161F47810665C3C332040ACB4cDf3A7F6_GameObjectEthMinter.sol
+100.00,100.00,0x6ed9C69D533071f7a79d9EF47AFA86ECeA7C15D2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6e/6ed9C69D533071f7a79d9EF47AFA86ECeA7C15D2_PiratesMinter.sol

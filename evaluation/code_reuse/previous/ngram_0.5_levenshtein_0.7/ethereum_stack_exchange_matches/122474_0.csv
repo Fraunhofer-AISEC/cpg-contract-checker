@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-75.00,72.73,0xc598b180b358a8c1703144a3c1138f3531f3e6e4,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c598b180b358a8c1703144a3c1138f3531f3e6e4_Crowdsale.sol
-75.00,72.73,0xe53965850110c8333b5f3a957786d21e427b1af8,smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e53965850110c8333b5f3a957786d21e427b1af8_Crowdsale.sol
-62.50,70.00,0x4bf9e798cc40b6ccce801dec622af66a653e9f11,smart-contract-sanctuary-ethereum/contracts/mainnet/4b/4bf9e798cc40b6ccce801dec622af66a653e9f11_TimeLockedWallet.sol
-62.50,70.00,0x3abe5285ed57c8b028d62d30c456ca9eb3e74105,smart-contract-sanctuary-ethereum/contracts/mainnet/3a/3abe5285ed57c8b028d62d30c456ca9eb3e74105_ChooseWHGReturnAddress.sol
-62.50,70.00,0x8cfFDb63527b5E0687b0dC25b488AfF57656A2f6,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8cfFDb63527b5E0687b0dC25b488AfF57656A2f6_EVMthroughCTFs.sol
-62.50,70.00,0x1ebd04228ae2900ccad55193233492ddc3b09de9,smart-contract-sanctuary-ethereum/contracts/mainnet/1e/1ebd04228ae2900ccad55193233492ddc3b09de9_Sales.sol

@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x0c64034984293EB44f0aD19bb48E7a8d3aC05e94,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0c64034984293EB44f0aD19bb48E7a8d3aC05e94_SigmaIndexPoolV1.sol
-100.00,100.00,0x71ed5fa0fde7b6dd8bc0dc25f7235d477e0faf77,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/71/71ed5fa0fde7b6dd8bc0dc25f7235d477e0faf77_IndexPool.sol
-100.00,100.00,0x417d412fc4c0e21620eebd5122dcbe5e9bba89fc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/41/417d412fc4c0e21620eebd5122dcbe5e9bba89fc_IndexPool.sol
-100.00,100.00,0x54f725689f18759e996f6358b8edcef864698c43,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/54/54f725689f18759e996f6358b8edcef864698c43_IndexPool.sol
-100.00,100.00,0x15b4ea34b545bd819935cc2e9656fcc6bd36e6bc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/15/15b4ea34b545bd819935cc2e9656fcc6bd36e6bc_IndexPool.sol
+100.00,100.00,0x0c64034984293EB44f0aD19bb48E7a8d3aC05e94,smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0c64034984293EB44f0aD19bb48E7a8d3aC05e94_SigmaIndexPoolV1.sol
+100.00,100.00,0x417d412fc4c0e21620eebd5122dcbe5e9bba89fc,smart-contract-sanctuary-ethereum/contracts/mainnet/41/417d412fc4c0e21620eebd5122dcbe5e9bba89fc_IndexPool.sol
+100.00,100.00,0x71ed5fa0fde7b6dd8bc0dc25f7235d477e0faf77,smart-contract-sanctuary-ethereum/contracts/mainnet/71/71ed5fa0fde7b6dd8bc0dc25f7235d477e0faf77_IndexPool.sol
+100.00,100.00,0x15b4ea34b545bd819935cc2e9656fcc6bd36e6bc,smart-contract-sanctuary-ethereum/contracts/mainnet/15/15b4ea34b545bd819935cc2e9656fcc6bd36e6bc_IndexPool.sol
+100.00,100.00,0x54f725689f18759e996f6358b8edcef864698c43,smart-contract-sanctuary-ethereum/contracts/mainnet/54/54f725689f18759e996f6358b8edcef864698c43_IndexPool.sol

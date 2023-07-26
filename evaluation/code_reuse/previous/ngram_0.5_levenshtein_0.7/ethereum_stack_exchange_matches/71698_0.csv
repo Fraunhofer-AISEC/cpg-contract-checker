@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-93.62,71.35,0xD21C89eA620d489776e2A19cb4636EE435a38dD3,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/D21C89eA620d489776e2A19cb4636EE435a38dD3_SpectrumPass.sol
-93.62,75.56,0x6c8cca9dbbfb8172415dfacf722d3a1289e00bc5,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c8cca9dbbfb8172415dfacf722d3a1289e00bc5_LootPlaces.sol
-92.91,78.57,0x1a718915e725c6b764da9e5032acaaf696428939,smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1a718915e725c6b764da9e5032acaaf696428939_WolfNFT.sol
-92.91,78.57,0x0254294703b01e75e1165f5d763aead76d7d487b,smart-contract-sanctuary-ethereum/contracts/mainnet/02/0254294703b01e75e1165f5d763aead76d7d487b_JuraNFT.sol
-92.20,70.16,0x3439cf24121115a1d9898bba876037272e2f0bd2,smart-contract-sanctuary-ethereum/contracts/mainnet/34/3439cf24121115a1d9898bba876037272e2f0bd2_Moon.sol
-92.20,71.56,0x3bB6Ea2b157B6418497a23A5e9D3F436c9705993,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3bB6Ea2b157B6418497a23A5e9D3F436c9705993_DungeonLoot.sol
-85.11,70.30,0x0540912a921e8e4a212beb8db94ff44ce0b0aeb8,smart-contract-sanctuary-ethereum/contracts/mainnet/05/0540912a921e8e4a212beb8db94ff44ce0b0aeb8_ShontelleNFT.sol

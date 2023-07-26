@@ -1,7 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x0A25F019be4C4aAa0B04C0d43dff519dc720D275,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0A25F019be4C4aAa0B04C0d43dff519dc720D275_StakeAllMemory.sol
-100.00,100.00,0xa7904C92703375EACedbf81C223f9eC3b2A534bA,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7904C92703375EACedbf81C223f9eC3b2A534bA_ERC721Sovreign.sol
-100.00,100.00,0x86aA5b41db8705b63e625fE59fD4496AbEeCfB06,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/86aA5b41db8705b63e625fE59fD4496AbEeCfB06_DropKitPass.sol
-100.00,100.00,0x2f9b2ec511d3c6765fa2a5de1b29033f15a6a0d5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2f9b2ec511d3c6765fa2a5de1b29033f15a6a0d5_TheFutureIsHistory.sol
-100.00,100.00,0x8Aa66969f6Da1D609dc9Cff41321FB50B79fd8f5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8Aa66969f6Da1D609dc9Cff41321FB50B79fd8f5_DropKitPass.sol
-100.00,100.00,0xa7bef6cc047f7d466b70b1754f702916ce9b1619,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7bef6cc047f7d466b70b1754f702916ce9b1619_MachinaSale.sol
+100.00,100.00,0x0A25F019be4C4aAa0B04C0d43dff519dc720D275,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0A25F019be4C4aAa0B04C0d43dff519dc720D275_StakeAllMemory.sol
+100.00,100.00,0xa7904C92703375EACedbf81C223f9eC3b2A534bA,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7904C92703375EACedbf81C223f9eC3b2A534bA_ERC721Sovreign.sol
+100.00,100.00,0x86aA5b41db8705b63e625fE59fD4496AbEeCfB06,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86aA5b41db8705b63e625fE59fD4496AbEeCfB06_DropKitPass.sol
+100.00,100.00,0x2f9b2ec511d3c6765fa2a5de1b29033f15a6a0d5,smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2f9b2ec511d3c6765fa2a5de1b29033f15a6a0d5_TheFutureIsHistory.sol
+100.00,100.00,0x8Aa66969f6Da1D609dc9Cff41321FB50B79fd8f5,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8Aa66969f6Da1D609dc9Cff41321FB50B79fd8f5_DropKitPass.sol

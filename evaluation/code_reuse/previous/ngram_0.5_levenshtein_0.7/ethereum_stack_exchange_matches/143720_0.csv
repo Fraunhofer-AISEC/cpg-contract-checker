@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-93.56,72.24,0xFE6c4adE9039c9191f37787dEDF51f8c78d09007,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/FE6c4adE9039c9191f37787dEDF51f8c78d09007_FlashLoan.sol
-89.70,71.12,0x85f6Fd319cDcd183a5c4CaD813DF9E6755A914E7,smart-contract-sanctuary-ethereum/contracts/mainnet/85/85f6Fd319cDcd183a5c4CaD813DF9E6755A914E7_FlashLoan.sol
-86.27,75.63,0x9388b1010b75471ac9Fdd983E5054Ef400e11b34,smart-contract-sanctuary-ethereum/contracts/mainnet/93/9388b1010b75471ac9Fdd983E5054Ef400e11b34_FlashLoan.sol

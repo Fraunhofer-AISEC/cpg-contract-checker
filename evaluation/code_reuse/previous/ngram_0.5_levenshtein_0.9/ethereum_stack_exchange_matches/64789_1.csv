@@ -1,1 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x21fa491fdbbf9f471e09513360563a9798e8f112,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/21/21fa491fdbbf9f471e09513360563a9798e8f112_PDOne.sol
+98.32,93.49,0xe79d2818b0039052a77b0065948f0d94496bc775,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e79d2818b0039052a77b0065948f0d94496bc775_INFLIV.sol
+98.32,93.49,0x09e9666c667f0b2df3b5a9e8c9cb1a669e164d30,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/09/09e9666c667f0b2df3b5a9e8c9cb1a669e164d30_FricaCoin.sol
+98.32,93.49,0x100614ffda1bd77a694e215ca0f618da1bf8b7af,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/10/100614ffda1bd77a694e215ca0f618da1bf8b7af_FlexionCoin.sol
+98.32,93.49,0x56de19f26241960cad08340e81eb61b71a27b89c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/56/56de19f26241960cad08340e81eb61b71a27b89c_FricaCoin.sol
+97.31,92.90,0x5d2f6108c30a8f93d4a956f74d2289e5ed86e5c3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5d/5d2f6108c30a8f93d4a956f74d2289e5ed86e5c3_TANDER.sol
+97.31,92.90,0xcc77bfC17Ec7Ce8a91b16e6E79695f9BB4fbF708,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc77bfC17Ec7Ce8a91b16e6E79695f9BB4fbF708_SPCoin.sol
+96.30,91.88,0x28b85bc9e851271214fe70f433874b9aedc5a94a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/28/28b85bc9e851271214fe70f433874b9aedc5a94a_IDMONEY.sol
+96.30,91.88,0x870f62518f97b70f20bcca000b8385cab048b007,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/87/870f62518f97b70f20bcca000b8385cab048b007_IDMONEY.sol
+95.29,90.35,0xc33d0345d1c0320577f9aed42a51bec6e6cc13b6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c33d0345d1c0320577f9aed42a51bec6e6cc13b6_Bitron.sol

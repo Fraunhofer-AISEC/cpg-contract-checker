@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-77.32,70.34,0xfffb285a7252410ba60b85732ce5492c0f30686c,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/fffb285a7252410ba60b85732ce5492c0f30686c_TrueUSD.sol
-76.29,72.16,0xaD62978707bffEE58BD59FADC4739E43cBB5cbb6,smart-contract-sanctuary-ethereum/contracts/mainnet/ad/aD62978707bffEE58BD59FADC4739E43cBB5cbb6_TemplateCrowdsale.sol
-75.26,70.39,0x09541e5e03e3f10730fee50131168a99c5ce15c1,smart-contract-sanctuary-ethereum/contracts/mainnet/09/09541e5e03e3f10730fee50131168a99c5ce15c1_Crowdsale.sol
-75.26,70.34,0xd6c03398c2113447d736c869a5c9118823cce9ca,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d6c03398c2113447d736c869a5c9118823cce9ca_TrueUSD.sol
-69.07,75.72,0xe9483ead9dbbe43b59efbeb1dcb71d7413b5118d,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e9483ead9dbbe43b59efbeb1dcb71d7413b5118d_ADXProxy.sol

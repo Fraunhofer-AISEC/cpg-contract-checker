@@ -1,11 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x11cc71471c8a615f9386de5b81f81d4cd9ea680d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/11/11cc71471c8a615f9386de5b81f81d4cd9ea680d_LaunchSwap.sol
-100.00,100.00,0xbea571937556f83dc6572278e11b2ba8941fc9c0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/be/bea571937556f83dc6572278e11b2ba8941fc9c0_EcroContract.sol
-100.00,100.00,0xebed6da3e9355f1aa402f976c054db7bc16be7e0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/eb/ebed6da3e9355f1aa402f976c054db7bc16be7e0_IgfContract.sol
-100.00,100.00,0x1305e4B5662C686A9d7ba8f2eCa41FC2DBD1290D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/13/1305e4B5662C686A9d7ba8f2eCa41FC2DBD1290D_SimpleStorage.sol
-100.00,100.00,0x31cB46E3895330751820B29b2d70D4964413c231,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/31cB46E3895330751820B29b2d70D4964413c231_EtherLotto.sol
-100.00,100.00,0x5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621_Inuyasha.sol
-100.00,100.00,0xe043e3ee3a1c044abc013050356f15bdbbb5ba92,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e043e3ee3a1c044abc013050356f15bdbbb5ba92_Inuyasha.sol
-100.00,100.00,0xf0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701_ShinjaDoge.sol
-100.00,100.00,0x5e9cd8f000467f9f306e790f6308bbc927cd94ce,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e9cd8f000467f9f306e790f6308bbc927cd94ce_testContract.sol
-100.00,100.00,0xd433b62c3925e46bc4298732cc7efa017a3b8dd2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d4/d433b62c3925e46bc4298732cc7efa017a3b8dd2_testContract.sol
+100.00,100.00,0x11cc71471c8a615f9386de5b81f81d4cd9ea680d,smart-contract-sanctuary-ethereum/contracts/mainnet/11/11cc71471c8a615f9386de5b81f81d4cd9ea680d_LaunchSwap.sol
+100.00,100.00,0xbea571937556f83dc6572278e11b2ba8941fc9c0,smart-contract-sanctuary-ethereum/contracts/mainnet/be/bea571937556f83dc6572278e11b2ba8941fc9c0_EcroContract.sol
+100.00,100.00,0xebed6da3e9355f1aa402f976c054db7bc16be7e0,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/ebed6da3e9355f1aa402f976c054db7bc16be7e0_IgfContract.sol
+100.00,100.00,0x1305e4B5662C686A9d7ba8f2eCa41FC2DBD1290D,smart-contract-sanctuary-ethereum/contracts/mainnet/13/1305e4B5662C686A9d7ba8f2eCa41FC2DBD1290D_SimpleStorage.sol
+100.00,100.00,0x31cB46E3895330751820B29b2d70D4964413c231,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31cB46E3895330751820B29b2d70D4964413c231_EtherLotto.sol
+100.00,100.00,0xf0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701,smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701_ShinjaDoge.sol
+100.00,100.00,0x5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621_Inuyasha.sol
+100.00,100.00,0xe043e3ee3a1c044abc013050356f15bdbbb5ba92,smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e043e3ee3a1c044abc013050356f15bdbbb5ba92_Inuyasha.sol
+100.00,100.00,0x5e9cd8f000467f9f306e790f6308bbc927cd94ce,smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e9cd8f000467f9f306e790f6308bbc927cd94ce_testContract.sol
+100.00,100.00,0xd433b62c3925e46bc4298732cc7efa017a3b8dd2,smart-contract-sanctuary-ethereum/contracts/mainnet/d4/d433b62c3925e46bc4298732cc7efa017a3b8dd2_testContract.sol

@@ -1,14 +1,14 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x1dad862095d40d43c2109370121cf087632874db,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1dad862095d40d43c2109370121cf087632874db_ProofOfHumanityProxy.sol
-100.00,100.00,0xBA940b56CF4D6fd48DB5C574145618F111647039,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/BA940b56CF4D6fd48DB5C574145618F111647039_KYFToken.sol
-100.00,100.00,0x7f5c86bb449f0bb112cc5f69b94c77fda4b92d2a,smart-contract-sanctuary-ethereum/contracts/mainnet/7f/7f5c86bb449f0bb112cc5f69b94c77fda4b92d2a_KLEToken.sol
-100.00,100.00,0x7E40EB47e66E680aA33D891f7653e1816F693a09,smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7E40EB47e66E680aA33D891f7653e1816F693a09_UBIProxy.sol
-100.00,100.00,0x86b714dca366b22bbfe2f81045dd35a997ed5e9a,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86b714dca366b22bbfe2f81045dd35a997ed5e9a_KLEToken.sol
-100.00,100.00,0xa3db848dd84beb0da60fec0005ad40272cc75562,smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a3db848dd84beb0da60fec0005ad40272cc75562_OdinToken.sol
-100.00,100.00,0xf0cf016ce7504ffa257262cc686f4f7647a65563,smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0cf016ce7504ffa257262cc686f4f7647a65563_OdinToken.sol
-100.00,100.00,0xa4a119fdc6fe2256bacb9780c80a4ebeec4c7232,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4a119fdc6fe2256bacb9780c80a4ebeec4c7232_DQDOK.sol
-100.00,100.00,0x3ba4ECfb611c9694e7c35D3baf90aB137AFF137b,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3ba4ECfb611c9694e7c35D3baf90aB137AFF137b_Reputation.sol
-100.00,100.00,0xc3aC93E563d1Ba3Cd61791d79fd9bF7a488F7962,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c3aC93E563d1Ba3Cd61791d79fd9bF7a488F7962_Reputation.sol
-100.00,100.00,0x21d6c16db26c955229e749be34b4445529782632,smart-contract-sanctuary-ethereum/contracts/mainnet/21/21d6c16db26c955229e749be34b4445529782632_SimpleTokenCoin.sol
-100.00,100.00,0xb4cab58e9a7fece7fd6d4840036d36964113b6c3,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b4cab58e9a7fece7fd6d4840036d36964113b6c3_Free10.sol
-100.00,100.00,0x1Ff3D45E2c6c638A8d6BD1c81c99E6dB6D585EEb,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1Ff3D45E2c6c638A8d6BD1c81c99E6dB6D585EEb_ForgeBond.sol
+100.00,100.00,0x1dad862095d40d43c2109370121cf087632874db,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1dad862095d40d43c2109370121cf087632874db_ProofOfHumanityProxy.sol
+100.00,100.00,0xBA940b56CF4D6fd48DB5C574145618F111647039,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ba/BA940b56CF4D6fd48DB5C574145618F111647039_KYFToken.sol
+100.00,100.00,0x7f5c86bb449f0bb112cc5f69b94c77fda4b92d2a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7f/7f5c86bb449f0bb112cc5f69b94c77fda4b92d2a_KLEToken.sol
+100.00,100.00,0x7E40EB47e66E680aA33D891f7653e1816F693a09,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7E40EB47e66E680aA33D891f7653e1816F693a09_UBIProxy.sol
+100.00,100.00,0x86b714dca366b22bbfe2f81045dd35a997ed5e9a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/86b714dca366b22bbfe2f81045dd35a997ed5e9a_KLEToken.sol
+100.00,100.00,0xa3db848dd84beb0da60fec0005ad40272cc75562,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a3db848dd84beb0da60fec0005ad40272cc75562_OdinToken.sol
+100.00,100.00,0xf0cf016ce7504ffa257262cc686f4f7647a65563,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0cf016ce7504ffa257262cc686f4f7647a65563_OdinToken.sol
+100.00,100.00,0xa4a119fdc6fe2256bacb9780c80a4ebeec4c7232,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4a119fdc6fe2256bacb9780c80a4ebeec4c7232_DQDOK.sol
+100.00,100.00,0x3ba4ECfb611c9694e7c35D3baf90aB137AFF137b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3ba4ECfb611c9694e7c35D3baf90aB137AFF137b_Reputation.sol
+100.00,100.00,0xc3aC93E563d1Ba3Cd61791d79fd9bF7a488F7962,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c3aC93E563d1Ba3Cd61791d79fd9bF7a488F7962_Reputation.sol
+100.00,100.00,0x21d6c16db26c955229e749be34b4445529782632,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/21/21d6c16db26c955229e749be34b4445529782632_SimpleTokenCoin.sol
+100.00,100.00,0xb4cab58e9a7fece7fd6d4840036d36964113b6c3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b4cab58e9a7fece7fd6d4840036d36964113b6c3_Free10.sol
+100.00,100.00,0x1Ff3D45E2c6c638A8d6BD1c81c99E6dB6D585EEb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1Ff3D45E2c6c638A8d6BD1c81c99E6dB6D585EEb_ForgeBond.sol

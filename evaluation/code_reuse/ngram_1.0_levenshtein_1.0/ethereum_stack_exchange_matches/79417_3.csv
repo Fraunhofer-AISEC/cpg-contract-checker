@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xA4719763aDE1e7F981ce1135E1Becbc2F3ccB7c0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/A4719763aDE1e7F981ce1135E1Becbc2F3ccB7c0_CowProtocolVirtualToken.sol
-100.00,100.00,0xd057b63f5e69cf1b929b356b579cba08d7688048,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d057b63f5e69cf1b929b356b579cba08d7688048_CowProtocolVirtualToken.sol
-100.00,100.00,0x6d04B3ad33594978D0D4B01CdB7c3bA4a90a7DFe,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d04B3ad33594978D0D4B01CdB7c3bA4a90a7DFe_CowProtocolVirtualToken.sol
-100.00,100.00,0xce3bC429b47fBE0e9c51102d294D56d733a675d2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce3bC429b47fBE0e9c51102d294D56d733a675d2_CubeX.sol
+100.00,100.00,0xd057b63f5e69cf1b929b356b579cba08d7688048,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d057b63f5e69cf1b929b356b579cba08d7688048_CowProtocolVirtualToken.sol
+100.00,100.00,0xA4719763aDE1e7F981ce1135E1Becbc2F3ccB7c0,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/A4719763aDE1e7F981ce1135E1Becbc2F3ccB7c0_CowProtocolVirtualToken.sol
+100.00,100.00,0x6d04B3ad33594978D0D4B01CdB7c3bA4a90a7DFe,smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d04B3ad33594978D0D4B01CdB7c3bA4a90a7DFe_CowProtocolVirtualToken.sol
+100.00,100.00,0xce3bC429b47fBE0e9c51102d294D56d733a675d2,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce3bC429b47fBE0e9c51102d294D56d733a675d2_CubeX.sol

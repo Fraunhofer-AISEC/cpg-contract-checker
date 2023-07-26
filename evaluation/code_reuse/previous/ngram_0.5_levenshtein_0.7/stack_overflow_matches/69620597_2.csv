@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-66.67,70.45,0xC037fBD2d1BC9b38318671694D4Dd0B9ae1E8383,smart-contract-sanctuary-ethereum/contracts/mainnet/c0/C037fBD2d1BC9b38318671694D4Dd0B9ae1E8383_MultiSigWallet.sol
-66.67,70.83,0x7e4a4e42fca1c6527e8d373320299893e5a396e9,smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7e4a4e42fca1c6527e8d373320299893e5a396e9_ParallelWorld.sol
-64.29,70.83,0x3012d31fcc4b6a7fa03bb0af1fba9639f405edea,smart-contract-sanctuary-ethereum/contracts/mainnet/30/3012d31fcc4b6a7fa03bb0af1fba9639f405edea_CityToken.sol
-64.29,70.83,0xbADF157A0ACfbeEbBee23EBC887DF0e9BEA0EB6D,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/bADF157A0ACfbeEbBee23EBC887DF0e9BEA0EB6D_ItemToken.sol
-61.90,77.78,0xcc6cc2f648686af73d1efbe7f9b7e4ae3566652a,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc6cc2f648686af73d1efbe7f9b7e4ae3566652a_ETH10K.sol
-61.90,70.83,0x9f87c89d4b96628f3f5bc6ab981bab71997d99bb,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9f87c89d4b96628f3f5bc6ab981bab71997d99bb_CryptoThreeKingdoms.sol

@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-96.23,71.19,0x54df6e2D8f0E9a015Bf804b64ed8e9BAd6ccbaca,smart-contract-sanctuary-ethereum/contracts/mainnet/54/54df6e2D8f0E9a015Bf804b64ed8e9BAd6ccbaca_VideoPublisher.sol
-94.34,79.63,0xd4839d4affaaf5dbf4f7bbccffdf00bca9c5dcb7,smart-contract-sanctuary-ethereum/contracts/mainnet/d4/d4839d4affaaf5dbf4f7bbccffdf00bca9c5dcb7_Campaign.sol
-92.45,76.54,0x256017eb3758eee7a78af838078ae95fe3ebbd3f,smart-contract-sanctuary-ethereum/contracts/mainnet/25/256017eb3758eee7a78af838078ae95fe3ebbd3f_StiltonGamingPlatform.sol
-81.13,71.81,0x68b6d1787a77c0098365760988fdd5a992b7c278,smart-contract-sanctuary-ethereum/contracts/mainnet/68/68b6d1787a77c0098365760988fdd5a992b7c278_MyContract.sol
-81.13,70.56,0xbf0d73d5735964989240a22ac8e4cee2c124a7ce,smart-contract-sanctuary-ethereum/contracts/mainnet/bf/bf0d73d5735964989240a22ac8e4cee2c124a7ce_RaidPartyInsurance.sol
-81.13,70.56,0xe61ab5b5348ee383561676d8b76353a9234d0179,smart-contract-sanctuary-ethereum/contracts/mainnet/e6/e61ab5b5348ee383561676d8b76353a9234d0179_RaidPartyInsurance.sol

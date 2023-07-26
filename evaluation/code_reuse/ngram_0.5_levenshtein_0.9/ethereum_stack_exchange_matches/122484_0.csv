@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x17Dd798A5ec57F18350236e7c80C583733bd7875,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/17/17Dd798A5ec57F18350236e7c80C583733bd7875_NFT.sol
-97.83,95.18,0x62b595258f5025bf92ED1b37c029a00F7D50724e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/62b595258f5025bf92ED1b37c029a00F7D50724e_NFT.sol
-91.30,92.39,0x459dc8d0e7fe10f401c70b82d62f98dad460b651,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/45/459dc8d0e7fe10f401c70b82d62f98dad460b651_CyrusNFT.sol
-91.30,92.39,0x4c7a1875b98f95bbcff600a2b777af0888f7346b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4c7a1875b98f95bbcff600a2b777af0888f7346b_CyrusNFT.sol
-90.22,93.48,0xe5F4Aa3e4264e51d5a8fa9c2099B5460c3115E50,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e5F4Aa3e4264e51d5a8fa9c2099B5460c3115E50_ERC721.sol
-90.22,93.48,0x96c71c194a05f3322988b34d9854356a58146539,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/96/96c71c194a05f3322988b34d9854356a58146539_NFT.sol

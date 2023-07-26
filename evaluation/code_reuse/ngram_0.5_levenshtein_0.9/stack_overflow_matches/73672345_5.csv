@@ -1,9 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x564e3283055471966F2D23dd8b63e39A268adb9e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/56/564e3283055471966F2D23dd8b63e39A268adb9e_Hello.sol
-100.00,100.00,0x49E2bf2a26f4559E104648364d97dFFf1Eb33f75,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/49/49E2bf2a26f4559E104648364d97dFFf1Eb33f75_FayreSharedCollection721.sol
-100.00,100.00,0x345C2Fa23160C63218DfAA25D37269F26C85cA47,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/34/345C2Fa23160C63218DfAA25D37269F26C85cA47_SamuraiSaga.sol
-100.00,100.00,0x9407154943D99c4412Fd8375613A74Fb937e80B2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/94/9407154943D99c4412Fd8375613A74Fb937e80B2_Governance.sol
-100.00,100.00,0x2d004B72d8B7d36f9da2e4a14516618BF53Bac57,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2d004B72d8B7d36f9da2e4a14516618BF53Bac57_Furballs.sol
-100.00,93.33,0x7Ff2a00Ff543f913b76010A05b5446E36D403675,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7f/7Ff2a00Ff543f913b76010A05b5446E36D403675_ThePixels.sol
-100.00,100.00,0xf37B3ed28A2E1cAE09A8440AB94240287666a801,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f3/f37B3ed28A2E1cAE09A8440AB94240287666a801_Zones.sol
-83.33,92.86,0x26fbd3272bf42b716fd679762c2bb0b76f0271ef,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/26/26fbd3272bf42b716fd679762c2bb0b76f0271ef_SusageMfer.sol

@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x85f81e8eaeada5af24cbeea0e69c4f93afb2ed6c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/85/85f81e8eaeada5af24cbeea0e69c4f93afb2ed6c_BuildToken.sol
-100.00,100.00,0xb763dd5cf99b56a75f4ff8809d5afb162b01430c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b763dd5cf99b56a75f4ff8809d5afb162b01430c_MyTokenCollection.sol
-100.00,100.00,0x273f7f8e6489682df756151f5525576e322d51a3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/27/273f7f8e6489682df756151f5525576e322d51a3_HeroAsset.sol
-100.00,100.00,0x946048a75af11c300a274344887ec39452218b3d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/94/946048a75af11c300a274344887ec39452218b3d_HeroPresale.sol
+100.00,100.00,0x85f81e8eaeada5af24cbeea0e69c4f93afb2ed6c,smart-contract-sanctuary-ethereum/contracts/mainnet/85/85f81e8eaeada5af24cbeea0e69c4f93afb2ed6c_BuildToken.sol
+100.00,100.00,0xb763dd5cf99b56a75f4ff8809d5afb162b01430c,smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b763dd5cf99b56a75f4ff8809d5afb162b01430c_MyTokenCollection.sol
+100.00,100.00,0x273f7f8e6489682df756151f5525576e322d51a3,smart-contract-sanctuary-ethereum/contracts/mainnet/27/273f7f8e6489682df756151f5525576e322d51a3_HeroAsset.sol
+100.00,100.00,0x946048a75af11c300a274344887ec39452218b3d,smart-contract-sanctuary-ethereum/contracts/mainnet/94/946048a75af11c300a274344887ec39452218b3d_HeroPresale.sol

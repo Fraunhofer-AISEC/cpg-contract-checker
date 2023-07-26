@@ -1,1 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.35,91.57,0x745253f975644b664defc5b89366b437f4c45948,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/74/745253f975644b664defc5b89366b437f4c45948_LPLeverageLaunch.sol
+95.35,91.57,0xe365f52b5eef5357fd7ac0fc866054e2570a0dd9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e3/e365f52b5eef5357fd7ac0fc866054e2570a0dd9_LPLeverageLaunch.sol
+95.35,91.57,0xec6c55a4423dd088df40a5eed3cba85d7ce992c7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ec/ec6c55a4423dd088df40a5eed3cba85d7ce992c7_LPLeverageLaunch.sol
+95.35,91.57,0x26063b1f8dd844c07039f3bd172493d9fcfbdbbd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/26/26063b1f8dd844c07039f3bd172493d9fcfbdbbd_LPLeverageLaunch.sol
+95.35,90.07,0x4d756257Df43D5B00242461A60C94C906eedFe67,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4d756257Df43D5B00242461A60C94C906eedFe67_MoreOrLessVote.sol
+93.80,91.66,0x811e245b74fa05a6514723ead75157f2f26a2cb5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/81/811e245b74fa05a6514723ead75157f2f26a2cb5_ETHPaint.sol
+90.70,90.14,0xd758d245a345ffdd88590b8382936c2b401ace48,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d758d245a345ffdd88590b8382936c2b401ace48_IOU.sol

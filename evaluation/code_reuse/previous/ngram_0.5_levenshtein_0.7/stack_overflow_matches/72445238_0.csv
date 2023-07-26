@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,76.92,0x5d78e0bd03E73CfE8496e33851A3273dB8A4d40c,smart-contract-sanctuary-ethereum/contracts/mainnet/5d/5d78e0bd03E73CfE8496e33851A3273dB8A4d40c_FeeCollectorV2.sol
-100.00,77.27,0xb280c5b87498038ccb966dca51ae27e73525e283,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b280c5b87498038ccb966dca51ae27e73525e283_WastedWhalesDispensary.sol
-100.00,77.27,0xff0c412915d4964771262177dfd2e16623ef8bef,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/ff0c412915d4964771262177dfd2e16623ef8bef_WastedWhalesDispensary.sol
-90.00,72.73,0xc20f00395c347c15806c4d26ce74dcb8d9fa8f9f,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c20f00395c347c15806c4d26ce74dcb8d9fa8f9f_Likedapp.sol

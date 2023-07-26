@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-77.46,71.01,0x1be3026fb5d9574bd839dc2c933c81002f957e99,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1be3026fb5d9574bd839dc2c933c81002f957e99_ConvexFRAXBPStaker.sol
-77.46,71.01,0x3e1FD7877dD193b6C66AB48c12a726850476cEFa,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3e1FD7877dD193b6C66AB48c12a726850476cEFa_Convex3CRVStaker.sol
-77.46,71.01,0x91ECB2ffcEA991B47052429393B6901C0A8A1CFD,smart-contract-sanctuary-ethereum/contracts/mainnet/91/91ECB2ffcEA991B47052429393B6901C0A8A1CFD_ConvexLUSDv3CRVStaker.sol
-71.83,72.46,0xb663b9804540539c956aeFFf64bAfC19aDbc5e23,smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b663b9804540539c956aeFFf64bAfC19aDbc5e23_LimitOrderQuoter.sol
-71.83,73.91,0x04CcA8b78227f07eCaeAeA9B12E7724732343c0A,smart-contract-sanctuary-ethereum/contracts/mainnet/04/04CcA8b78227f07eCaeAeA9B12E7724732343c0A_ConvexEthMim3crv.sol

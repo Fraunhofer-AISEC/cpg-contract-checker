@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-95.65,83.91,0x6d72601a6b045527ac1b3a9fffa36c81795d4429,smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d72601a6b045527ac1b3a9fffa36c81795d4429_RocketRace.sol
-93.48,92.93,0x515d324654ae8A79fCf91B57430Ae175D4AfB98D,smart-contract-sanctuary-ethereum/contracts/mainnet/51/515d324654ae8A79fCf91B57430Ae175D4AfB98D_ChewZ.sol
-93.48,92.93,0xfd499b9Eaa71627E2818D67a5766b93f61655464,smart-contract-sanctuary-ethereum/contracts/mainnet/fd/fd499b9Eaa71627E2818D67a5766b93f61655464_ChewZ.sol
-91.30,74.94,0xa7bf6541c109db78ce67a2897604eebcd36ac1bd,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7bf6541c109db78ce67a2897604eebcd36ac1bd_WalletHelper.sol
-89.13,74.23,0x1C62EdE54d41FF56E804CA54dC68327457c4dFf5,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1C62EdE54d41FF56E804CA54dC68327457c4dFf5_NyxNFT.sol
-84.78,70.14,0x3529Fd3c2EDD0D6147f1dAecC91e16E7A0600826,smart-contract-sanctuary-ethereum/contracts/mainnet/35/3529Fd3c2EDD0D6147f1dAecC91e16E7A0600826_ECVerify.sol

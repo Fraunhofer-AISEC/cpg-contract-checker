@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x88A93A0389C8a8a331d261F8C8DAe7cEc36Be016,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88A93A0389C8a8a331d261F8C8DAe7cEc36Be016_MintProxy.sol
-100.00,100.00,0x0B8Ff20f6f5516A43e7994334933DEb076E01a13,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0B8Ff20f6f5516A43e7994334933DEb076E01a13_ChubbyKaijuDAOInvasion.sol
-100.00,100.00,0x65b28ED75c12D8ce29d892DE9f8304A6D2e176A7,smart-contract-sanctuary-ethereum/contracts/mainnet/65/65b28ED75c12D8ce29d892DE9f8304A6D2e176A7_KaijuDAO.sol
-100.00,100.00,0xa51cee4dd9a4e254dd5b8923024de5aab050391d,smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a51cee4dd9a4e254dd5b8923024de5aab050391d_Avatar.sol
-100.00,100.00,0xEB8270432c57645401376c7c9306Cb98B5450bCf,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/EB8270432c57645401376c7c9306Cb98B5450bCf_Treasure.sol
-100.00,100.00,0xbE3026082402c7BB344729ce3a51b259bF1e5915,smart-contract-sanctuary-ethereum/contracts/mainnet/be/bE3026082402c7BB344729ce3a51b259bF1e5915_StakedN.sol
-100.00,100.00,0x52E666155936193e7b8990960010d31317d02080,smart-contract-sanctuary-ethereum/contracts/mainnet/52/52E666155936193e7b8990960010d31317d02080_DBLOOT.sol
+100.00,100.00,0x88A93A0389C8a8a331d261F8C8DAe7cEc36Be016,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88A93A0389C8a8a331d261F8C8DAe7cEc36Be016_MintProxy.sol
+100.00,100.00,0x0B8Ff20f6f5516A43e7994334933DEb076E01a13,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0B8Ff20f6f5516A43e7994334933DEb076E01a13_ChubbyKaijuDAOInvasion.sol
+100.00,100.00,0x65b28ED75c12D8ce29d892DE9f8304A6D2e176A7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/65/65b28ED75c12D8ce29d892DE9f8304A6D2e176A7_KaijuDAO.sol
+100.00,100.00,0xa51cee4dd9a4e254dd5b8923024de5aab050391d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a51cee4dd9a4e254dd5b8923024de5aab050391d_Avatar.sol
+100.00,100.00,0xEB8270432c57645401376c7c9306Cb98B5450bCf,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/eb/EB8270432c57645401376c7c9306Cb98B5450bCf_Treasure.sol
+100.00,100.00,0xbE3026082402c7BB344729ce3a51b259bF1e5915,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/be/bE3026082402c7BB344729ce3a51b259bF1e5915_StakedN.sol
+100.00,100.00,0x52E666155936193e7b8990960010d31317d02080,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/52/52E666155936193e7b8990960010d31317d02080_DBLOOT.sol

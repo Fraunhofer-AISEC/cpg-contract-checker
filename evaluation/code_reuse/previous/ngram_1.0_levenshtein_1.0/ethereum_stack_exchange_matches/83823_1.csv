@@ -1,1 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xe2bef3e4da2dfce1fd970c8a9d233951c5c4382f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e2/e2bef3e4da2dfce1fd970c8a9d233951c5c4382f_ItemsCore.sol
+100.00,100.00,0x81eaf1ff62bb8ccaa5314287b14e75e04e21b8f2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/81/81eaf1ff62bb8ccaa5314287b14e75e04e21b8f2_AnimecardCore.sol
+100.00,100.00,0x37b99aabab9e6d8fd70b4255623b2aa7eb92ec12,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/37/37b99aabab9e6d8fd70b4255623b2aa7eb92ec12_RocsCore.sol
+100.00,100.00,0x050cC9EEB69d23c88d5E9f455E4c96A418FdCE9d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/05/050cC9EEB69d23c88d5E9f455E4c96A418FdCE9d_CryptoCardsStorage.sol

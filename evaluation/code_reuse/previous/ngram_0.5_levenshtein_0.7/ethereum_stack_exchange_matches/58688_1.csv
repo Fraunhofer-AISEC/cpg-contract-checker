@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-94.87,79.67,0xbd75121570b0fa650ee706d53a16b8bd996b103f,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd75121570b0fa650ee706d53a16b8bd996b103f_BondManager.sol
-92.31,70.56,0x7a74c8b0d5993e358f109750cf1ead1cb49cc6dd,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7a74c8b0d5993e358f109750cf1ead1cb49cc6dd_WeaponTokenize.sol
-89.74,75.74,0x8149276f275EEFAc110D74AFE8AFECEaeC7d1593,smart-contract-sanctuary-ethereum/contracts/mainnet/81/8149276f275EEFAc110D74AFE8AFECEaeC7d1593_FactoryRouter.sol
-87.18,80.96,0x58285b88951de1c9a5255ddfde28a68b30ee7559,smart-contract-sanctuary-ethereum/contracts/mainnet/58/58285b88951de1c9a5255ddfde28a68b30ee7559_StabFund.sol
-87.18,79.67,0xa8081b99550fa2e6baba05b806553cb894d51fd8,smart-contract-sanctuary-ethereum/contracts/mainnet/a8/a8081b99550fa2e6baba05b806553cb894d51fd8_TokenManager.sol
-84.62,75.83,0xde2fe402A285363283853bEC903d134426DB3Ff7,smart-contract-sanctuary-ethereum/contracts/mainnet/de/de2fe402A285363283853bEC903d134426DB3Ff7_StealthVault.sol
-84.62,75.83,0x966fa7acf1b6c732458e4d3264fd2393aec840ba,smart-contract-sanctuary-ethereum/contracts/mainnet/96/966fa7acf1b6c732458e4d3264fd2393aec840ba_StealthVault.sol

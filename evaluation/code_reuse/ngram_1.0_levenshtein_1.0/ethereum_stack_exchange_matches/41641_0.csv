@@ -1,7 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x60b5ae3b8247f00276539c6f3ea6cba5785242a0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/60/60b5ae3b8247f00276539c6f3ea6cba5785242a0_ExominiumToken.sol
-100.00,100.00,0x61524de92c2f798861a07d9d02deeff3890b17d6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/61/61524de92c2f798861a07d9d02deeff3890b17d6_SZETOKEN.sol
-100.00,100.00,0x614970620abf764822539c31e826ddd1635bf173,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/61/614970620abf764822539c31e826ddd1635bf173_GangnamToken.sol
-100.00,100.00,0xfe131c21ac78996dbce22a2dade59f657f8df4db,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe131c21ac78996dbce22a2dade59f657f8df4db_SZETOKEN.sol
-100.00,100.00,0x55eabc711e3481e7194111d89ae3564bfd66eee8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/55/55eabc711e3481e7194111d89ae3564bfd66eee8_TronClone.sol
-100.00,100.00,0x01417fea37677b581c1237b74a86c225136b3465,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/01/01417fea37677b581c1237b74a86c225136b3465_GangnamToken.sol
+100.00,100.00,0xfe131c21ac78996dbce22a2dade59f657f8df4db,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe131c21ac78996dbce22a2dade59f657f8df4db_SZETOKEN.sol
+100.00,100.00,0x01417fea37677b581c1237b74a86c225136b3465,smart-contract-sanctuary-ethereum/contracts/mainnet/01/01417fea37677b581c1237b74a86c225136b3465_GangnamToken.sol
+100.00,100.00,0x55eabc711e3481e7194111d89ae3564bfd66eee8,smart-contract-sanctuary-ethereum/contracts/mainnet/55/55eabc711e3481e7194111d89ae3564bfd66eee8_TronClone.sol
+100.00,100.00,0x60b5ae3b8247f00276539c6f3ea6cba5785242a0,smart-contract-sanctuary-ethereum/contracts/mainnet/60/60b5ae3b8247f00276539c6f3ea6cba5785242a0_ExominiumToken.sol
+100.00,100.00,0x61524de92c2f798861a07d9d02deeff3890b17d6,smart-contract-sanctuary-ethereum/contracts/mainnet/61/61524de92c2f798861a07d9d02deeff3890b17d6_SZETOKEN.sol
+100.00,100.00,0x614970620abf764822539c31e826ddd1635bf173,smart-contract-sanctuary-ethereum/contracts/mainnet/61/614970620abf764822539c31e826ddd1635bf173_GangnamToken.sol

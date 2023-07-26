@@ -1,11 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xbd42bf20b5db720df96f57e64d6b4b4e184f2194,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd42bf20b5db720df96f57e64d6b4b4e184f2194_Testtoken4.sol
-100.00,100.00,0x678eb319ba870e76f0a7d75a2cad987e03e76545,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/67/678eb319ba870e76f0a7d75a2cad987e03e76545_Testtoken5.sol
-100.00,100.00,0x4e6fb9da2819642283aaa031f585bfeb9548e648,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e6fb9da2819642283aaa031f585bfeb9548e648_Airdrop.sol
-100.00,100.00,0x06f1d05d813bc4e2c7b5923be46145521a69ad79,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/06/06f1d05d813bc4e2c7b5923be46145521a69ad79_Mengudara.sol
-100.00,100.00,0xce9a5619b3bfb2c11cdffcc15843eab11f6c8280,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce9a5619b3bfb2c11cdffcc15843eab11f6c8280_Airdrop.sol
-100.00,100.00,0xcc80fc341c179cb2995cde8db258d713f40c6f9c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc80fc341c179cb2995cde8db258d713f40c6f9c_Mengudara.sol
-100.00,100.00,0xf1afe1dfcf10bb720c7c5c38c80c0624afba32f9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f1afe1dfcf10bb720c7c5c38c80c0624afba32f9_Airdrop.sol
-100.00,100.00,0x1bfd8b5bc03f18324ca9d59252927132403a88c7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1bfd8b5bc03f18324ca9d59252927132403a88c7_Airdrop.sol
-100.00,100.00,0x4818eadce82fdcb668834c50fa06fa01a3b8af95,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/48/4818eadce82fdcb668834c50fa06fa01a3b8af95_Airdrop.sol
-100.00,100.00,0x9861119724f1358ea1ac8c1ce130528331d1b4b3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/98/9861119724f1358ea1ac8c1ce130528331d1b4b3_Testtoken4.sol
+100.00,100.00,0xbd42bf20b5db720df96f57e64d6b4b4e184f2194,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd42bf20b5db720df96f57e64d6b4b4e184f2194_Testtoken4.sol
+100.00,100.00,0x678eb319ba870e76f0a7d75a2cad987e03e76545,smart-contract-sanctuary-ethereum/contracts/mainnet/67/678eb319ba870e76f0a7d75a2cad987e03e76545_Testtoken5.sol
+100.00,100.00,0x06f1d05d813bc4e2c7b5923be46145521a69ad79,smart-contract-sanctuary-ethereum/contracts/mainnet/06/06f1d05d813bc4e2c7b5923be46145521a69ad79_Mengudara.sol
+100.00,100.00,0xce9a5619b3bfb2c11cdffcc15843eab11f6c8280,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce9a5619b3bfb2c11cdffcc15843eab11f6c8280_Airdrop.sol
+100.00,100.00,0xf1afe1dfcf10bb720c7c5c38c80c0624afba32f9,smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f1afe1dfcf10bb720c7c5c38c80c0624afba32f9_Airdrop.sol
+100.00,100.00,0xcc80fc341c179cb2995cde8db258d713f40c6f9c,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc80fc341c179cb2995cde8db258d713f40c6f9c_Mengudara.sol
+100.00,100.00,0x4e6fb9da2819642283aaa031f585bfeb9548e648,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e6fb9da2819642283aaa031f585bfeb9548e648_Airdrop.sol
+100.00,100.00,0x1bfd8b5bc03f18324ca9d59252927132403a88c7,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1bfd8b5bc03f18324ca9d59252927132403a88c7_Airdrop.sol
+100.00,100.00,0x4818eadce82fdcb668834c50fa06fa01a3b8af95,smart-contract-sanctuary-ethereum/contracts/mainnet/48/4818eadce82fdcb668834c50fa06fa01a3b8af95_Airdrop.sol
+100.00,100.00,0x9861119724f1358ea1ac8c1ce130528331d1b4b3,smart-contract-sanctuary-ethereum/contracts/mainnet/98/9861119724f1358ea1ac8c1ce130528331d1b4b3_Testtoken4.sol

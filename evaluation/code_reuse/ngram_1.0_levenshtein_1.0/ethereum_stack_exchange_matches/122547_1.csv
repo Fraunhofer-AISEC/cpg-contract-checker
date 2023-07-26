@@ -1,13 +1,13 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xa02120696c7b8fe16c09c749e4598819b2b0e915,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a02120696c7b8fe16c09c749e4598819b2b0e915_WirexToken.sol
-100.00,100.00,0x41dd071d394bd0740a7e104407a4842e0c706ddd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/41/41dd071d394bd0740a7e104407a4842e0c706ddd_MyToken.sol
-100.00,100.00,0x46403C3Ed3F8E27b36A549B9DEF2598d5c62dA18,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/46/46403C3Ed3F8E27b36A549B9DEF2598d5c62dA18_FantasyIslands.sol
-100.00,100.00,0x9beb4d6bbb7208bce6a8584464de3477e46a550f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9beb4d6bbb7208bce6a8584464de3477e46a550f_RODToken.sol
-100.00,100.00,0x9d62526f5Ce701950c30F2cACa70Edf70f9fbf0F,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d62526f5Ce701950c30F2cACa70Edf70f9fbf0F_Blocktane.sol
-100.00,100.00,0xb46539D312315eA6B13Ec0557cAf658F2FEDb018,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b46539D312315eA6B13Ec0557cAf658F2FEDb018_DAXT.sol
-100.00,100.00,0x92afbff472eeeeaf70bf72596748f72a1793d5a5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/92afbff472eeeeaf70bf72596748f72a1793d5a5_ARDT.sol
-100.00,100.00,0x2625Db35feeb6E5f7b0D93Dc6E4393018A519e6e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/26/2625Db35feeb6E5f7b0D93Dc6E4393018A519e6e_A90A.sol
-100.00,100.00,0x29b24FC10f0499fe8c14C41ffE59dF23aF52e8A8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/29/29b24FC10f0499fe8c14C41ffE59dF23aF52e8A8_SuperYachtCoin.sol
-100.00,100.00,0x4920fc25e47ee73a21c24a344b89952b7b60a5ec,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/49/4920fc25e47ee73a21c24a344b89952b7b60a5ec_SuperYachtCoin.sol
-100.00,100.00,0x3eA63BE5Cfa8D242bd8c42F0E22E3379fA37438d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3eA63BE5Cfa8D242bd8c42F0E22E3379fA37438d_StpMemes.sol
-100.00,100.00,0x2Dd79b3e8a8B9e7AFe4e1843282383f7704499E4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2Dd79b3e8a8B9e7AFe4e1843282383f7704499E4_Mugshots.sol
+100.00,100.00,0xa02120696c7b8fe16c09c749e4598819b2b0e915,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a02120696c7b8fe16c09c749e4598819b2b0e915_WirexToken.sol
+100.00,100.00,0x41dd071d394bd0740a7e104407a4842e0c706ddd,smart-contract-sanctuary-ethereum/contracts/mainnet/41/41dd071d394bd0740a7e104407a4842e0c706ddd_MyToken.sol
+100.00,100.00,0x46403C3Ed3F8E27b36A549B9DEF2598d5c62dA18,smart-contract-sanctuary-ethereum/contracts/mainnet/46/46403C3Ed3F8E27b36A549B9DEF2598d5c62dA18_FantasyIslands.sol
+100.00,100.00,0x9beb4d6bbb7208bce6a8584464de3477e46a550f,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9beb4d6bbb7208bce6a8584464de3477e46a550f_RODToken.sol
+100.00,100.00,0x9d62526f5Ce701950c30F2cACa70Edf70f9fbf0F,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d62526f5Ce701950c30F2cACa70Edf70f9fbf0F_Blocktane.sol
+100.00,100.00,0x92afbff472eeeeaf70bf72596748f72a1793d5a5,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92afbff472eeeeaf70bf72596748f72a1793d5a5_ARDT.sol
+100.00,100.00,0x2625Db35feeb6E5f7b0D93Dc6E4393018A519e6e,smart-contract-sanctuary-ethereum/contracts/mainnet/26/2625Db35feeb6E5f7b0D93Dc6E4393018A519e6e_A90A.sol
+100.00,100.00,0xb46539D312315eA6B13Ec0557cAf658F2FEDb018,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b46539D312315eA6B13Ec0557cAf658F2FEDb018_DAXT.sol
+100.00,100.00,0x29b24FC10f0499fe8c14C41ffE59dF23aF52e8A8,smart-contract-sanctuary-ethereum/contracts/mainnet/29/29b24FC10f0499fe8c14C41ffE59dF23aF52e8A8_SuperYachtCoin.sol
+100.00,100.00,0x4920fc25e47ee73a21c24a344b89952b7b60a5ec,smart-contract-sanctuary-ethereum/contracts/mainnet/49/4920fc25e47ee73a21c24a344b89952b7b60a5ec_SuperYachtCoin.sol
+100.00,100.00,0x3eA63BE5Cfa8D242bd8c42F0E22E3379fA37438d,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3eA63BE5Cfa8D242bd8c42F0E22E3379fA37438d_StpMemes.sol
+100.00,100.00,0x2Dd79b3e8a8B9e7AFe4e1843282383f7704499E4,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2Dd79b3e8a8B9e7AFe4e1843282383f7704499E4_Mugshots.sol

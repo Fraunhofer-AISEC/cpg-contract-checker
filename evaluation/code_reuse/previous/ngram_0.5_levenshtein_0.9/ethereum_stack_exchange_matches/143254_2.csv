@@ -1,1 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xeb27a30c2265632b4e9c79f3fda5889809094495,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eb27a30c2265632b4e9c79f3fda5889809094495_Saja.sol
+100.00,98.55,0x325666Dc330080608e25AB658212a562A3555f34,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/325666Dc330080608e25AB658212a562A3555f34_FotToken.sol
+100.00,100.00,0x4184FCC07ADAe394f09326A9Ac4fFB7935a9684B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/41/4184FCC07ADAe394f09326A9Ac4fFB7935a9684B_TokenFactory.sol
+100.00,100.00,0x0afee744b6d9ff2b78f76fe10b3e0199c413fd34,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0afee744b6d9ff2b78f76fe10b3e0199c413fd34_SovToken.sol
+100.00,91.30,0xf4f140a406d5749f40dab9634384b6941f50f8eb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f4f140a406d5749f40dab9634384b6941f50f8eb_CheemsInu.sol
+100.00,91.30,0xdce3e71a011b287434abab50f5ada66891c47dfe,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dce3e71a011b287434abab50f5ada66891c47dfe_Dogemurai.sol
+98.51,98.55,0x7fb3ecc2c566ec63ebb370230dcc290332490f42,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7f/7fb3ecc2c566ec63ebb370230dcc290332490f42_yLEAF.sol
+98.51,94.44,0xedb7b7842f7986a7f211d791e8f306c4ce82ba32,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ed/edb7b7842f7986a7f211d791e8f306c4ce82ba32_Polkazeck.sol
+98.51,98.55,0x5011df01895b88f6c52811307e02021f9906c978,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/50/5011df01895b88f6c52811307e02021f9906c978_SolidFactory.sol
+98.51,90.41,0xa9A1D15463e1720013A4C5362cd7A7276635a5aA,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a9A1D15463e1720013A4C5362cd7A7276635a5aA_TrueINR.sol

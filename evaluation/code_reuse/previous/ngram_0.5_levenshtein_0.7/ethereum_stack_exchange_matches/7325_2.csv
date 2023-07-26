@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-91.35,86.96,0xff5c4b7ec93dd70b862af027bb7f3d9900002c4d,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/ff5c4b7ec93dd70b862af027bb7f3d9900002c4d_RequestFactory.sol
-91.35,86.96,0x56efae8a6d07fb29c24e67d76f3eccac180cf527,smart-contract-sanctuary-ethereum/contracts/mainnet/56/56efae8a6d07fb29c24e67d76f3eccac180cf527_BlockScheduler.sol
-91.35,86.96,0x4e201a5a5534bb334a3d7df4c82cd5db3bd82f29,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e201a5a5534bb334a3d7df4c82cd5db3bd82f29_TransactionRequestCore.sol
-91.35,86.96,0x09e0c54ed4cffca45d691d5eb7b976d650f5904c,smart-contract-sanctuary-ethereum/contracts/mainnet/09/09e0c54ed4cffca45d691d5eb7b976d650f5904c_TimestampScheduler.sol

@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-88.89,72.41,0xd64291d842212BcF20dB9dbEcE7823Fe103061ab,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d64291d842212BcF20dB9dbEcE7823Fe103061ab_CyberBrokersMint.sol
-81.48,79.31,0x393b5fd2b993eaf419fbadab630bc9bd3d5792e9,smart-contract-sanctuary-ethereum/contracts/mainnet/39/393b5fd2b993eaf419fbadab630bc9bd3d5792e9_OpinionToken.sol
-81.48,73.33,0xfBa40A041B615755a8B2741537E8942910E57698,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fBa40A041B615755a8B2741537E8942910E57698_CyberBrokersMetadata.sol
-70.37,75.00,0x2D7a678EB9196D0dE4F5467141038dbc949C97a1,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2D7a678EB9196D0dE4F5467141038dbc949C97a1_MinerManage.sol
-66.67,75.00,0x6455219b188ea785f54aba960803af3434df6eda,smart-contract-sanctuary-ethereum/contracts/mainnet/64/6455219b188ea785f54aba960803af3434df6eda_HeartBoutSale.sol

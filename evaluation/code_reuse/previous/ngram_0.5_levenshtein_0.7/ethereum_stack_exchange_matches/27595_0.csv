@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-92.31,70.15,0xfb7da9863e030495db8b4d067d665fc8433fff85,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fb7da9863e030495db8b4d067d665fc8433fff85_PccToken.sol
-92.31,70.15,0x31b5e97294e1afd6fff6ffe4cba89a344555f753,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31b5e97294e1afd6fff6ffe4cba89a344555f753_TripAlly.sol
-88.46,70.15,0x4933dea7ea497a87d41acc5d8048ac2d8e6cedfb,smart-contract-sanctuary-ethereum/contracts/mainnet/49/4933dea7ea497a87d41acc5d8048ac2d8e6cedfb_OrganizeFunds.sol
-88.46,73.16,0xcfF0e58d0D24563f0C7f945B92b0d46EBcb906e1,smart-contract-sanctuary-ethereum/contracts/mainnet/cf/cfF0e58d0D24563f0C7f945B92b0d46EBcb906e1_LoopringAmmSharedConfig.sol
-88.46,75.05,0xedf19b437d1a67e18b15dd4a859dd52f9cfa012f,smart-contract-sanctuary-ethereum/contracts/mainnet/ed/edf19b437d1a67e18b15dd4a859dd52f9cfa012f_OrcaCrowdsale.sol

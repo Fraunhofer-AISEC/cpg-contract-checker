@@ -1,9 +1,9 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,90.62,0xc0a668d27f344dc723abc87f88792722e623d254,smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c0a668d27f344dc723abc87f88792722e623d254_SaddleVoterProxy.sol
-100.00,90.62,0x92812d2734ec455fcea5fba3fccd0cd2988586ed,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92812d2734ec455fcea5fba3fccd0cd2988586ed_SaddleVoterProxy.sol
-100.00,90.62,0x7b82229128b7e412565e9b50802438ce5e70bcff,smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7b82229128b7e412565e9b50802438ce5e70bcff_FraxVoterProxy.sol
-100.00,90.91,0x3cC47874dC50D98425ec79e647d83495637C55e3,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3cC47874dC50D98425ec79e647d83495637C55e3_Controller.sol
-93.33,96.88,0xc7c68aca652b603d59d52eec076a6dfab02b27e6,smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c7c68aca652b603d59d52eec076a6dfab02b27e6_StrategyBalancerEthUsdc.sol
-93.33,96.88,0x7b2ef5c86bfb4d9b50100391e289b7dcf445c9a9,smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7b2ef5c86bfb4d9b50100391e289b7dcf445c9a9_StrategyBalancerEthWbtc.sol
-93.33,96.88,0xbec7de67579642df01fec1eae1833d668a6b3fdb,smart-contract-sanctuary-ethereum/contracts/mainnet/be/bec7de67579642df01fec1eae1833d668a6b3fdb_StrategySushiEthUsdc.sol
-93.33,96.88,0x129a8d8000b8e80a99aa09fe40d189947108bcad,smart-contract-sanctuary-ethereum/contracts/mainnet/12/129a8d8000b8e80a99aa09fe40d189947108bcad_StrategySushiEthWbtc.sol
+100.00,90.62,0xc0a668d27f344dc723abc87f88792722e623d254,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c0a668d27f344dc723abc87f88792722e623d254_SaddleVoterProxy.sol
+100.00,90.62,0x92812d2734ec455fcea5fba3fccd0cd2988586ed,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/92812d2734ec455fcea5fba3fccd0cd2988586ed_SaddleVoterProxy.sol
+100.00,90.62,0x7b82229128b7e412565e9b50802438ce5e70bcff,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7b82229128b7e412565e9b50802438ce5e70bcff_FraxVoterProxy.sol
+100.00,90.91,0x3cC47874dC50D98425ec79e647d83495637C55e3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3cC47874dC50D98425ec79e647d83495637C55e3_Controller.sol
+93.33,96.88,0xc7c68aca652b603d59d52eec076a6dfab02b27e6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c7c68aca652b603d59d52eec076a6dfab02b27e6_StrategyBalancerEthUsdc.sol
+93.33,96.88,0x7b2ef5c86bfb4d9b50100391e289b7dcf445c9a9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7b/7b2ef5c86bfb4d9b50100391e289b7dcf445c9a9_StrategyBalancerEthWbtc.sol
+93.33,96.88,0xbec7de67579642df01fec1eae1833d668a6b3fdb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/be/bec7de67579642df01fec1eae1833d668a6b3fdb_StrategySushiEthUsdc.sol
+93.33,96.88,0x129a8d8000b8e80a99aa09fe40d189947108bcad,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/12/129a8d8000b8e80a99aa09fe40d189947108bcad_StrategySushiEthWbtc.sol

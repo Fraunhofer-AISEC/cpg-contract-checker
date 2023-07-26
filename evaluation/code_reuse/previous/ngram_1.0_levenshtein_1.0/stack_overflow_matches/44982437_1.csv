@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x80406b7d3b9189968e3499d4f69cb015ae6f4b96,smart-contract-sanctuary-ethereum/contracts/mainnet/80/80406b7d3b9189968e3499d4f69cb015ae6f4b96_Random.sol
-100.00,100.00,0xd18e2A433664F9459CCCbd4bEe0057A7BC57E707,smart-contract-sanctuary-ethereum/contracts/mainnet/d1/d18e2A433664F9459CCCbd4bEe0057A7BC57E707_contracts_common_test_WithdrawableTest.sol
-100.00,100.00,0x1d847fb6e04437151736a53f09b6e49713a52aad,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d847fb6e04437151736a53f09b6e49713a52aad_contracts_common_test_WithdrawableTest.sol
+100.00,100.00,0x80406b7d3b9189968e3499d4f69cb015ae6f4b96,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/80/80406b7d3b9189968e3499d4f69cb015ae6f4b96_Random.sol
+100.00,100.00,0xd18e2A433664F9459CCCbd4bEe0057A7BC57E707,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d1/d18e2A433664F9459CCCbd4bEe0057A7BC57E707_contracts_common_test_WithdrawableTest.sol
+100.00,100.00,0x1d847fb6e04437151736a53f09b6e49713a52aad,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d847fb6e04437151736a53f09b6e49713a52aad_contracts_common_test_WithdrawableTest.sol

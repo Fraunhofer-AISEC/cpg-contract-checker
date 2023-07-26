@@ -1,10 +1,10 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x3Dbc16b63d77a113314B7D8Ca4b5eDecF3FC1aff,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3Dbc16b63d77a113314B7D8Ca4b5eDecF3FC1aff_Hop3.sol
-100.00,100.00,0xD803B4357B3749b2fcCdCDf427BBBe18112A4A71,smart-contract-sanctuary-ethereum/contracts/mainnet/d8/D803B4357B3749b2fcCdCDf427BBBe18112A4A71_AlphaHQ.sol
-97.56,95.35,0xe62eb6B4956c9472044C31a286420F63C2A55d73,smart-contract-sanctuary-ethereum/contracts/mainnet/e6/e62eb6B4956c9472044C31a286420F63C2A55d73_WoWZukiverse.sol
-97.56,95.35,0x25C4599C28F2d190Ae2363e9a8cd2cD7B3c6318A,smart-contract-sanctuary-ethereum/contracts/mainnet/25/25C4599C28F2d190Ae2363e9a8cd2cD7B3c6318A_OxKK.sol
-95.12,95.35,0x909091b4fCCcfcc612Da39Ceb4a2771715613Ff9,smart-contract-sanctuary-ethereum/contracts/mainnet/90/909091b4fCCcfcc612Da39Ceb4a2771715613Ff9_RecentHistory.sol
-95.12,95.35,0x12Ec212Ca9476999770c636B14579847F6858605,smart-contract-sanctuary-ethereum/contracts/mainnet/12/12Ec212Ca9476999770c636B14579847F6858605_COEFounderPacks.sol
-92.68,90.70,0xf6945Fbc645958A0bF90c9643B04A5C7E95B6cf3,smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6945Fbc645958A0bF90c9643B04A5C7E95B6cf3_BOBLCarePackage.sol
-92.68,90.70,0x45590Bc89a8e829c6de6DAb0C0709737C153412B,smart-contract-sanctuary-ethereum/contracts/mainnet/45/45590Bc89a8e829c6de6DAb0C0709737C153412B_BOBLCarePackage.sol
-92.68,90.70,0xE9f5cD35e6D87FFAdF8459795b6c28d437772628,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E9f5cD35e6D87FFAdF8459795b6c28d437772628_BOBLCarePackage.sol
+100.00,100.00,0x3Dbc16b63d77a113314B7D8Ca4b5eDecF3FC1aff,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3Dbc16b63d77a113314B7D8Ca4b5eDecF3FC1aff_Hop3.sol
+100.00,100.00,0xD803B4357B3749b2fcCdCDf427BBBe18112A4A71,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d8/D803B4357B3749b2fcCdCDf427BBBe18112A4A71_AlphaHQ.sol
+97.56,95.35,0xe62eb6B4956c9472044C31a286420F63C2A55d73,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e6/e62eb6B4956c9472044C31a286420F63C2A55d73_WoWZukiverse.sol
+97.56,95.35,0x25C4599C28F2d190Ae2363e9a8cd2cD7B3c6318A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/25/25C4599C28F2d190Ae2363e9a8cd2cD7B3c6318A_OxKK.sol
+95.12,95.35,0x909091b4fCCcfcc612Da39Ceb4a2771715613Ff9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/90/909091b4fCCcfcc612Da39Ceb4a2771715613Ff9_RecentHistory.sol
+95.12,95.35,0x12Ec212Ca9476999770c636B14579847F6858605,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/12/12Ec212Ca9476999770c636B14579847F6858605_COEFounderPacks.sol
+92.68,90.70,0xf6945Fbc645958A0bF90c9643B04A5C7E95B6cf3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6945Fbc645958A0bF90c9643B04A5C7E95B6cf3_BOBLCarePackage.sol
+92.68,90.70,0x45590Bc89a8e829c6de6DAb0C0709737C153412B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/45/45590Bc89a8e829c6de6DAb0C0709737C153412B_BOBLCarePackage.sol
+92.68,90.70,0xE9f5cD35e6D87FFAdF8459795b6c28d437772628,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E9f5cD35e6D87FFAdF8459795b6c28d437772628_BOBLCarePackage.sol

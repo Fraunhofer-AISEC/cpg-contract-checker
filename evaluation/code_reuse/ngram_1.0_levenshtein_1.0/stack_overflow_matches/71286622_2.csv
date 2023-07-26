@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x2b139777178Dc11516D3446367F5Bef96AB29941,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b139777178Dc11516D3446367F5Bef96AB29941_CaptureTheFlag.sol
-100.00,100.00,0xc8aecc774140b3a89bc6665d90d243b599bf1afb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c8aecc774140b3a89bc6665d90d243b599bf1afb_RelayHub.sol
-100.00,100.00,0x9e59ea5333cd4f402dac320a04fafa023fe3810d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e59ea5333cd4f402dac320a04fafa023fe3810d_RelayHub.sol
-100.00,100.00,0x97b6ebd38f2000b6e446de24d9805606b882a1c5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/97/97b6ebd38f2000b6e446de24d9805606b882a1c5_VersionRegistry.sol
-100.00,100.00,0xaa3e82b4c4093b4ba13cb5714382c99adbf750ca,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aa3e82b4c4093b4ba13cb5714382c99adbf750ca_Forwarder.sol
-100.00,100.00,0xeb230bf62267e94e657b5cbe74bdcea78eb3a5ab,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eb230bf62267e94e657b5cbe74bdcea78eb3a5ab_Penalizer.sol
-100.00,100.00,0x2d5304836e29242399479e44ff916bc1ba2a1999,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2d5304836e29242399479e44ff916bc1ba2a1999_StakeManager.sol
+100.00,100.00,0x2b139777178Dc11516D3446367F5Bef96AB29941,smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b139777178Dc11516D3446367F5Bef96AB29941_CaptureTheFlag.sol
+100.00,100.00,0xc8aecc774140b3a89bc6665d90d243b599bf1afb,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c8aecc774140b3a89bc6665d90d243b599bf1afb_RelayHub.sol
+100.00,100.00,0x97b6ebd38f2000b6e446de24d9805606b882a1c5,smart-contract-sanctuary-ethereum/contracts/mainnet/97/97b6ebd38f2000b6e446de24d9805606b882a1c5_VersionRegistry.sol
+100.00,100.00,0xeb230bf62267e94e657b5cbe74bdcea78eb3a5ab,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eb230bf62267e94e657b5cbe74bdcea78eb3a5ab_Penalizer.sol
+100.00,100.00,0xaa3e82b4c4093b4ba13cb5714382c99adbf750ca,smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aa3e82b4c4093b4ba13cb5714382c99adbf750ca_Forwarder.sol
+100.00,100.00,0x2d5304836e29242399479e44ff916bc1ba2a1999,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2d5304836e29242399479e44ff916bc1ba2a1999_StakeManager.sol
+100.00,100.00,0x9e59ea5333cd4f402dac320a04fafa023fe3810d,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e59ea5333cd4f402dac320a04fafa023fe3810d_RelayHub.sol

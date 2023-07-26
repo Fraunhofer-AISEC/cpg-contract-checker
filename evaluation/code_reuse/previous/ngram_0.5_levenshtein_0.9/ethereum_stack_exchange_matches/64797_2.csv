@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x658db023BfCf0DA17034dcaDE8A0680A58b953B6,smart-contract-sanctuary-ethereum/contracts/mainnet/65/658db023BfCf0DA17034dcaDE8A0680A58b953B6_KSLottery.sol
-100.00,100.00,0xb76891Af144F1fF8738688B88e0990f47FeAf6D3,smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b76891Af144F1fF8738688B88e0990f47FeAf6D3_AngelShare001NFTDistributor.sol
-100.00,100.00,0xE94Ed346616fF2Bc946AC3FeE42Bf59374E6e24E,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E94Ed346616fF2Bc946AC3FeE42Bf59374E6e24E_AltProofOfIntegrity.sol
-96.67,93.75,0xA675D33B4B4cb498916865B421d7ca1073594a72,smart-contract-sanctuary-ethereum/contracts/mainnet/a6/A675D33B4B4cb498916865B421d7ca1073594a72_PickRandomWinner.sol
+100.00,100.00,0x658db023BfCf0DA17034dcaDE8A0680A58b953B6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/65/658db023BfCf0DA17034dcaDE8A0680A58b953B6_KSLottery.sol
+100.00,100.00,0xb76891Af144F1fF8738688B88e0990f47FeAf6D3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b76891Af144F1fF8738688B88e0990f47FeAf6D3_AngelShare001NFTDistributor.sol
+100.00,100.00,0xE94Ed346616fF2Bc946AC3FeE42Bf59374E6e24E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E94Ed346616fF2Bc946AC3FeE42Bf59374E6e24E_AltProofOfIntegrity.sol
+96.67,93.75,0xA675D33B4B4cb498916865B421d7ca1073594a72,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a6/A675D33B4B4cb498916865B421d7ca1073594a72_PickRandomWinner.sol

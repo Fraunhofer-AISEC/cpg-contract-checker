@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-79.55,73.47,0x7c33284fe491A1212A99C0eDC499E282920a265c,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7c33284fe491A1212A99C0eDC499E282920a265c_dungeonsGenerator.sol
-72.73,76.47,0xcD6C0ea4b7e94FA5Bba7f249D5CAD99B41a5172C,smart-contract-sanctuary-ethereum/contracts/mainnet/cd/cD6C0ea4b7e94FA5Bba7f249D5CAD99B41a5172C_EthereumBridgeStorageV2.sol
-72.73,76.47,0x8d0B44f450b3c9feADD4738589bb61eFD143677c,smart-contract-sanctuary-ethereum/contracts/mainnet/8d/8d0B44f450b3c9feADD4738589bb61eFD143677c_EthereumBridgeStorage.sol

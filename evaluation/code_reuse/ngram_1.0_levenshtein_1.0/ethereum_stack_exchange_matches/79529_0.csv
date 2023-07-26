@@ -1,10 +1,10 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xa4ab50b677d4eafce4e018a4b48d40e0344a4dbd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4ab50b677d4eafce4e018a4b48d40e0344a4dbd_DSProxyCache.sol
-100.00,100.00,0x683E917f1F7C001D7512243150E906A655ac706b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/68/683E917f1F7C001D7512243150E906A655ac706b_ProxyRegistry.sol
-100.00,100.00,0x326Feeb9110BF218D7F9e2322Db2d77f478f3aE6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/326Feeb9110BF218D7F9e2322Db2d77f478f3aE6_DSProxy.sol
-100.00,100.00,0x078E43b73C60C8777Ccd5cF96E88695DCE26d90a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/07/078E43b73C60C8777Ccd5cF96E88695DCE26d90a_DSProxyFactory.sol
-100.00,100.00,0x431A319B8Ea6c7852aA95D6a8C673ED7D899a09F,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/43/431A319B8Ea6c7852aA95D6a8C673ED7D899a09F_DSProxy.sol
-100.00,100.00,0xC25d715F3613760f2989fD4f44bd90811eca0aBc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c2/C25d715F3613760f2989fD4f44bd90811eca0aBc_DSProxyCache.sol
-100.00,100.00,0x4678f0a6958e4d2bc4f1baf7bc52e8f3564f3fe4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/46/4678f0a6958e4d2bc4f1baf7bc52e8f3564f3fe4_ProxyRegistry.sol
-100.00,100.00,0xa26e15c895efc0616177b7c1e7270a4c7d51c997,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a26e15c895efc0616177b7c1e7270a4c7d51c997_DSProxyFactory.sol
-100.00,100.00,0x7288c942abe178234f643d33b498056c798b7e65,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/72/7288c942abe178234f643d33b498056c798b7e65_DSAuth.sol
+100.00,100.00,0x326Feeb9110BF218D7F9e2322Db2d77f478f3aE6,smart-contract-sanctuary-ethereum/contracts/mainnet/32/326Feeb9110BF218D7F9e2322Db2d77f478f3aE6_DSProxy.sol
+100.00,100.00,0x4678f0a6958e4d2bc4f1baf7bc52e8f3564f3fe4,smart-contract-sanctuary-ethereum/contracts/mainnet/46/4678f0a6958e4d2bc4f1baf7bc52e8f3564f3fe4_ProxyRegistry.sol
+100.00,100.00,0xa4ab50b677d4eafce4e018a4b48d40e0344a4dbd,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4ab50b677d4eafce4e018a4b48d40e0344a4dbd_DSProxyCache.sol
+100.00,100.00,0x431A319B8Ea6c7852aA95D6a8C673ED7D899a09F,smart-contract-sanctuary-ethereum/contracts/mainnet/43/431A319B8Ea6c7852aA95D6a8C673ED7D899a09F_DSProxy.sol
+100.00,100.00,0xC25d715F3613760f2989fD4f44bd90811eca0aBc,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/C25d715F3613760f2989fD4f44bd90811eca0aBc_DSProxyCache.sol
+100.00,100.00,0x078E43b73C60C8777Ccd5cF96E88695DCE26d90a,smart-contract-sanctuary-ethereum/contracts/mainnet/07/078E43b73C60C8777Ccd5cF96E88695DCE26d90a_DSProxyFactory.sol
+100.00,100.00,0x683E917f1F7C001D7512243150E906A655ac706b,smart-contract-sanctuary-ethereum/contracts/mainnet/68/683E917f1F7C001D7512243150E906A655ac706b_ProxyRegistry.sol
+100.00,100.00,0xa26e15c895efc0616177b7c1e7270a4c7d51c997,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a26e15c895efc0616177b7c1e7270a4c7d51c997_DSProxyFactory.sol
+100.00,100.00,0x7288c942abe178234f643d33b498056c798b7e65,smart-contract-sanctuary-ethereum/contracts/mainnet/72/7288c942abe178234f643d33b498056c798b7e65_DSAuth.sol

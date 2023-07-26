@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,75.00,0x06BCab7137b300dA5A4d0Ce047a71F4e7192c1a3,smart-contract-sanctuary-ethereum/contracts/mainnet/06/06BCab7137b300dA5A4d0Ce047a71F4e7192c1a3_CurioGlobes.sol
-97.14,70.27,0x3918b5bb1185cc84311815937cbed23aea257529,smart-contract-sanctuary-ethereum/contracts/mainnet/39/3918b5bb1185cc84311815937cbed23aea257529_DoseVoucherRedeemer.sol
-97.14,70.27,0x9dfecc75d2b9df1ae2cd4e76b5d4a4bdb4365e0d,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9dfecc75d2b9df1ae2cd4e76b5d4a4bdb4365e0d_UMADVoucherRedeemer.sol
-91.43,70.27,0x4fB5f5Ec81a89f4a2a77Ec9150160BE75BD19466,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4fB5f5Ec81a89f4a2a77Ec9150160BE75BD19466_Lottery.sol

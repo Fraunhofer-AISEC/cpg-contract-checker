@@ -1,1 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xc4fa0ac077a69934d2db0a37654c31395a05b8c9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c4/c4fa0ac077a69934d2db0a37654c31395a05b8c9_SimplePHXExchange.sol
+100.00,100.00,0xeb71e963645f1e76f233f70e1b0815e8f089bbc8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eb71e963645f1e76f233f70e1b0815e8f089bbc8_SimplePHXExchange.sol
+100.00,94.53,0x0bbb5a54767166b21e4a74d30500248a05ed985f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0bbb5a54767166b21e4a74d30500248a05ed985f_StarambaToken.sol
+100.00,94.23,0x9a4059c1cf329a017e0ee1337c503137fd9463b2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9a4059c1cf329a017e0ee1337c503137fd9463b2_LCDToken.sol
+96.88,95.54,0xE94C6E2393DbD1c838189ffc891391398FC8B6d4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/E94C6E2393DbD1c838189ffc891391398FC8B6d4_EEGGSCOIN.sol

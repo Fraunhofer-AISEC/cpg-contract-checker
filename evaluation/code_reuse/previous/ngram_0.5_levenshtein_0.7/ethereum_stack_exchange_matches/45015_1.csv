@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-81.46,71.47,0xa50c298118e89e0cc465f2a1705c7579f67b6f26,smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a50c298118e89e0cc465f2a1705c7579f67b6f26_UController.sol
-80.49,71.22,0xe000e03d1f4eaa3f7eb33d3473e720ca1b44f145,smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e000e03d1f4eaa3f7eb33d3473e720ca1b44f145_GlobalConstraintRegistrar.sol
-80.49,71.22,0xd96e541d8559a45bb226dc5488fd38bdc15e9c84,smart-contract-sanctuary-ethereum/contracts/mainnet/d9/d96e541d8559a45bb226dc5488fd38bdc15e9c84_UpgradeScheme.sol
-80.49,71.22,0xc282f494a0619592a2410166dcc749155804f548,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c282f494a0619592a2410166dcc749155804f548_ContributionReward.sol
-80.00,71.22,0x9e8252b6db9a604c2e89b01b1573b4fc26ed0110,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e8252b6db9a604c2e89b01b1573b4fc26ed0110_AbsoluteVote.sol

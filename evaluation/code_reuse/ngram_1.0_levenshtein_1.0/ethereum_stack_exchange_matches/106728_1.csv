@@ -1,12 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x66295fCb8C010b92fD0F58Ef51e583633A81a8f4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/66/66295fCb8C010b92fD0F58Ef51e583633A81a8f4_Found.sol
-100.00,100.00,0x2F57883d43Db6118D9E5d65059baf7Fe13a9c349,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2F57883d43Db6118D9E5d65059baf7Fe13a9c349_BumpMarketV2.sol
-100.00,100.00,0x35c52ac0d56de966755f3c8bc01020ede9114ae0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/35/35c52ac0d56de966755f3c8bc01020ede9114ae0_BumpMarket.sol
-100.00,100.00,0x42EBF340068092795415d3AeeFE44B1A38fb7d90,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/42/42EBF340068092795415d3AeeFE44B1A38fb7d90_BumpMarketV2.sol
-100.00,100.00,0xaAD483F97f13C6A20B9D05d07c397CE85c42C393,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aAD483F97f13C6A20B9D05d07c397CE85c42C393_WonklyLimitedMinteable.sol
-100.00,100.00,0x46242e446aa798a62fb1e45bec1bf2c5e62ca0ea,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/46/46242e446aa798a62fb1e45bec1bf2c5e62ca0ea_BUMPToken.sol
-100.00,100.00,0x756d7bb41882039dba88dda242e123be85a29e2c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/75/756d7bb41882039dba88dda242e123be85a29e2c_NFTF.sol
-100.00,100.00,0xc6ee07b80d56bc4d586fe03f32d57c83e007b60a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c6ee07b80d56bc4d586fe03f32d57c83e007b60a_BOIT.sol
-100.00,100.00,0x604183b3ce47ff4cc627ced93fa75acb42a3a5a4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/60/604183b3ce47ff4cc627ced93fa75acb42a3a5a4_DDRLToken.sol
-100.00,100.00,0xD2EBB721397c9278A5921741f9f53cEF74BeAdF0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d2/D2EBB721397c9278A5921741f9f53cEF74BeAdF0_FruitTownGremlinsWTFruit.sol
-100.00,100.00,0x16a85e619709769dc275cf9284f8c835a8ebec78,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/16/16a85e619709769dc275cf9284f8c835a8ebec78_DDRLTokenVendingMachine.sol
+100.00,100.00,0x66295fCb8C010b92fD0F58Ef51e583633A81a8f4,smart-contract-sanctuary-ethereum/contracts/mainnet/66/66295fCb8C010b92fD0F58Ef51e583633A81a8f4_Found.sol
+100.00,100.00,0x2F57883d43Db6118D9E5d65059baf7Fe13a9c349,smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2F57883d43Db6118D9E5d65059baf7Fe13a9c349_BumpMarketV2.sol
+100.00,100.00,0x35c52ac0d56de966755f3c8bc01020ede9114ae0,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35c52ac0d56de966755f3c8bc01020ede9114ae0_BumpMarket.sol
+100.00,100.00,0x42EBF340068092795415d3AeeFE44B1A38fb7d90,smart-contract-sanctuary-ethereum/contracts/mainnet/42/42EBF340068092795415d3AeeFE44B1A38fb7d90_BumpMarketV2.sol
+100.00,100.00,0xaAD483F97f13C6A20B9D05d07c397CE85c42C393,smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aAD483F97f13C6A20B9D05d07c397CE85c42C393_WonklyLimitedMinteable.sol
+100.00,100.00,0x46242e446aa798a62fb1e45bec1bf2c5e62ca0ea,smart-contract-sanctuary-ethereum/contracts/mainnet/46/46242e446aa798a62fb1e45bec1bf2c5e62ca0ea_BUMPToken.sol
+100.00,100.00,0x756d7bb41882039dba88dda242e123be85a29e2c,smart-contract-sanctuary-ethereum/contracts/mainnet/75/756d7bb41882039dba88dda242e123be85a29e2c_NFTF.sol
+100.00,100.00,0xc6ee07b80d56bc4d586fe03f32d57c83e007b60a,smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c6ee07b80d56bc4d586fe03f32d57c83e007b60a_BOIT.sol
+100.00,100.00,0x604183b3ce47ff4cc627ced93fa75acb42a3a5a4,smart-contract-sanctuary-ethereum/contracts/mainnet/60/604183b3ce47ff4cc627ced93fa75acb42a3a5a4_DDRLToken.sol
+100.00,100.00,0xD2EBB721397c9278A5921741f9f53cEF74BeAdF0,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/D2EBB721397c9278A5921741f9f53cEF74BeAdF0_FruitTownGremlinsWTFruit.sol

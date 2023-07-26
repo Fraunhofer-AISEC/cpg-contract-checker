@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-95.77,98.55,0xF7A1a5eeD7DaB1a7bCdA127B43DfAa1FF1800888,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/F7A1a5eeD7DaB1a7bCdA127B43DfAa1FF1800888_PiggyBank.sol
-95.77,98.55,0x0AFC9430e3C5B0949A58f49Bc9d134DEe87c74D1,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0AFC9430e3C5B0949A58f49Bc9d134DEe87c74D1_PiggyBank.sol
-90.14,85.75,0x08573698b2b0aAF07F16395bE3D3530598c0d972,smart-contract-sanctuary-ethereum/contracts/mainnet/08/08573698b2b0aAF07F16395bE3D3530598c0d972_PiggyBank.sol
-90.14,85.14,0x0b4ABe9E916E9c00CC80C4c473386D1116d5Bd8E,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0b4ABe9E916E9c00CC80C4c473386D1116d5Bd8E_PiggyBank.sol
-71.83,73.63,0x59670e7f172eafea08f44a308158c65e314a0df9,smart-contract-sanctuary-ethereum/contracts/mainnet/59/59670e7f172eafea08f44a308158c65e314a0df9_PumpAndDump.sol

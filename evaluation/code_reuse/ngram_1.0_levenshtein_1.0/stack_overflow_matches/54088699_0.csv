@@ -1,3 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x32a5e6cb3679007a0e83caf37c3681f8c70be5bb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/32a5e6cb3679007a0e83caf37c3681f8c70be5bb_BapetaverseNFT.sol
-100.00,100.00,0x70eb907cb2c51bda4e199f54d4c21b97676bb451,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/70/70eb907cb2c51bda4e199f54d4c21b97676bb451_Agent.sol
+100.00,100.00,0x32a5e6cb3679007a0e83caf37c3681f8c70be5bb,smart-contract-sanctuary-ethereum/contracts/mainnet/32/32a5e6cb3679007a0e83caf37c3681f8c70be5bb_BapetaverseNFT.sol
+100.00,100.00,0x7475966745f4eA4B859bf8D7DAe93dc4D7148233,smart-contract-sanctuary-ethereum/contracts/mainnet/74/7475966745f4eA4B859bf8D7DAe93dc4D7148233_EthTransfer.sol
+100.00,100.00,0x70eb907cb2c51bda4e199f54d4c21b97676bb451,smart-contract-sanctuary-ethereum/contracts/mainnet/70/70eb907cb2c51bda4e199f54d4c21b97676bb451_Agent.sol

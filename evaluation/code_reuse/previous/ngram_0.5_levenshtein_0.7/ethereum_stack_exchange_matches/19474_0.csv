@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-90.08,72.09,0xa7937555Ed02C585bAB27B54a68901098C014850,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7937555Ed02C585bAB27B54a68901098C014850_EscrowContract.sol
-82.44,73.35,0x852c50881d93abc23d8466d085f42564e7d7b4e7,smart-contract-sanctuary-ethereum/contracts/mainnet/85/852c50881d93abc23d8466d085f42564e7d7b4e7_ELShareToken.sol
-80.15,71.49,0x9B0E5F3278f3AD8C671795102D1FDEc336682F04,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9B0E5F3278f3AD8C671795102D1FDEc336682F04_PGM_Coin.sol
-80.15,71.49,0x81d4703c5b3499b57397c999a72f492fc681410d,smart-contract-sanctuary-ethereum/contracts/mainnet/81/81d4703c5b3499b57397c999a72f492fc681410d_CERB_Coin.sol

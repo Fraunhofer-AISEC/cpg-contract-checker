@@ -1,5 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x1cd3468ce25241d6f7b294063dababe8e2ead09d,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1cd3468ce25241d6f7b294063dababe8e2ead09d_TrumpsPlanToSolveInflation.sol
-100.00,100.00,0x50faEE3dFE8516be44F84B40870693Bfeaa62178,smart-contract-sanctuary-ethereum/contracts/mainnet/50/50faEE3dFE8516be44F84B40870693Bfeaa62178_BagOfEthereum.sol
-100.00,100.00,0x88Ccb5EFE745704ee061C41d0DD0D202F5A3573d,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88Ccb5EFE745704ee061C41d0DD0D202F5A3573d_BagOfBones.sol
-100.00,100.00,0x3396a1c2f0d3Fac7790d83F95cEc55c6e8fBf0d4,smart-contract-sanctuary-ethereum/contracts/mainnet/33/3396a1c2f0d3Fac7790d83F95cEc55c6e8fBf0d4_Main.sol
+100.00,100.00,0x1cd3468ce25241d6f7b294063dababe8e2ead09d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1cd3468ce25241d6f7b294063dababe8e2ead09d_TrumpsPlanToSolveInflation.sol
+100.00,100.00,0x50faEE3dFE8516be44F84B40870693Bfeaa62178,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/50/50faEE3dFE8516be44F84B40870693Bfeaa62178_BagOfEthereum.sol
+100.00,100.00,0x88Ccb5EFE745704ee061C41d0DD0D202F5A3573d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88Ccb5EFE745704ee061C41d0DD0D202F5A3573d_BagOfBones.sol

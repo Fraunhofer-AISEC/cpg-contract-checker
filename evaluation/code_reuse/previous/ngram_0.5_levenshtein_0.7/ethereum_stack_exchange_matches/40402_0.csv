@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-53.19,75.15,0x2b1fa42146c97390eeaa8f8dc799884e71f7cd23,smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b1fa42146c97390eeaa8f8dc799884e71f7cd23_DEFINIS.sol
-51.06,70.83,0x70cfF57185d156ca3B09A95Db581f8106cf6D23D,smart-contract-sanctuary-ethereum/contracts/mainnet/70/70cfF57185d156ca3B09A95Db581f8106cf6D23D_HRO.sol
-51.06,71.03,0x27Ec53CC96C18C777D962dDeE17b8c507238e69b,smart-contract-sanctuary-ethereum/contracts/mainnet/27/27Ec53CC96C18C777D962dDeE17b8c507238e69b_OperationExecutor.sol
-48.94,75.15,0x27b34adb1f8d57eddc1510606a3e1826677007b3,smart-contract-sanctuary-ethereum/contracts/mainnet/27/27b34adb1f8d57eddc1510606a3e1826677007b3_MortgageEthereumToken.sol
-48.94,75.15,0x2a27877ae9a92d899fdf47e709095866c52d98ac,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2a27877ae9a92d899fdf47e709095866c52d98ac_CrowdsaleMortgage.sol

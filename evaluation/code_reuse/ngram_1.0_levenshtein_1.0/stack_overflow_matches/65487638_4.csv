@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x874f89edc13130569398d7cabe7442f70e6fd8e0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/87/874f89edc13130569398d7cabe7442f70e6fd8e0_Router01.sol
-100.00,100.00,0x00636D0fD88135b8865c6C2caa4C498D602A4052,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/00/00636D0fD88135b8865c6C2caa4C498D602A4052_PyramidPool.sol
-100.00,100.00,0x1Ee05530f2BEB59E7D6f2838fCc7D9c9464C253d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1e/1Ee05530f2BEB59E7D6f2838fCc7D9c9464C253d_GreatestLARP.sol
-100.00,100.00,0x6d4e063585c9772eb72ab951835e120e8bfb2909,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d4e063585c9772eb72ab951835e120e8bfb2909_CHER.sol
-100.00,100.00,0x8EC9C306D203FE7E2fA596d1b19790a9Db05Ccd2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8EC9C306D203FE7E2fA596d1b19790a9Db05Ccd2_CreatureJourneyArtifacts.sol
-100.00,100.00,0x31c2415c946928e9FD1Af83cdFA38d3eDBD4326f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/31c2415c946928e9FD1Af83cdFA38d3eDBD4326f_UMAD.sol
-100.00,100.00,0x248860749950555ea3Ff40fF79B710095EB4828E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/24/248860749950555ea3Ff40fF79B710095EB4828E_DTX.sol
+100.00,100.00,0x874f89edc13130569398d7cabe7442f70e6fd8e0,smart-contract-sanctuary-ethereum/contracts/mainnet/87/874f89edc13130569398d7cabe7442f70e6fd8e0_Router01.sol
+100.00,100.00,0x00636D0fD88135b8865c6C2caa4C498D602A4052,smart-contract-sanctuary-ethereum/contracts/mainnet/00/00636D0fD88135b8865c6C2caa4C498D602A4052_PyramidPool.sol
+100.00,100.00,0x1Ee05530f2BEB59E7D6f2838fCc7D9c9464C253d,smart-contract-sanctuary-ethereum/contracts/mainnet/1e/1Ee05530f2BEB59E7D6f2838fCc7D9c9464C253d_GreatestLARP.sol
+100.00,100.00,0x6d4e063585c9772eb72ab951835e120e8bfb2909,smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d4e063585c9772eb72ab951835e120e8bfb2909_CHER.sol
+100.00,100.00,0x8EC9C306D203FE7E2fA596d1b19790a9Db05Ccd2,smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8EC9C306D203FE7E2fA596d1b19790a9Db05Ccd2_CreatureJourneyArtifacts.sol
+100.00,100.00,0x31c2415c946928e9FD1Af83cdFA38d3eDBD4326f,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31c2415c946928e9FD1Af83cdFA38d3eDBD4326f_UMAD.sol
+100.00,100.00,0x248860749950555ea3Ff40fF79B710095EB4828E,smart-contract-sanctuary-ethereum/contracts/mainnet/24/248860749950555ea3Ff40fF79B710095EB4828E_DTX.sol

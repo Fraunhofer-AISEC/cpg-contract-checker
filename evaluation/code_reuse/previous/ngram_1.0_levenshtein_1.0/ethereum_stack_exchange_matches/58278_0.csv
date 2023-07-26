@@ -1,1 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x439f4b2d7B7DfCdE4d63EfB075eBE250613bEBD6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/43/439f4b2d7B7DfCdE4d63EfB075eBE250613bEBD6_myTime.sol
+100.00,100.00,0xfe489b05dCceEfBbACC7efa27Afe0f22032Aef03,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe489b05dCceEfBbACC7efa27Afe0f22032Aef03_myTime.sol
+100.00,100.00,0x2b6A73Ef2aE3Fd3D8D09c3e4Eb9d2cEd5Fb97030,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b6A73Ef2aE3Fd3D8D09c3e4Eb9d2cEd5Fb97030_Treasury.sol
+100.00,100.00,0x0e00f8819384b297dd2029f6b018ec07484c91ba,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0e00f8819384b297dd2029f6b018ec07484c91ba_ForkOracle.sol
+100.00,100.00,0x3c45122a41d36b3fff486442d02e9db2cc33cbe6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3c45122a41d36b3fff486442d02e9db2cc33cbe6_myTime.sol
+100.00,100.00,0xb7ebd737ce08de1e0b289c5d8842d21d3f3d0e6c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b7ebd737ce08de1e0b289c5d8842d21d3f3d0e6c_Lock.sol
+100.00,100.00,0x5b38a73f9db3f5e12bb4dcb5a434fb3bd3972e53,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b38a73f9db3f5e12bb4dcb5a434fb3bd3972e53_Split.sol
+100.00,100.00,0x8e91f893d2e6a2d4de7bdd4bbafa8e9e28d88e87,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8e91f893d2e6a2d4de7bdd4bbafa8e9e28d88e87_fERC20.sol
+100.00,100.00,0x2cdf107d3d92aedc333ca45201e8d8f36a47cb9d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2cdf107d3d92aedc333ca45201e8d8f36a47cb9d_SplitFactory.sol
+100.00,100.00,0x5b657659feb8e9e215841dd853039e1b7053df56,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b657659feb8e9e215841dd853039e1b7053df56_Treasury.sol

@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x5Bb39cacC2a585c6e0c16b00b8aF968154CaF49d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5Bb39cacC2a585c6e0c16b00b8aF968154CaF49d_OneForgeToken.sol
-96.55,91.15,0xa46877c54ed29df41c06038d8c8e0c428b8f4227,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a46877c54ed29df41c06038d8c8e0c428b8f4227_TestToken.sol
-96.55,91.15,0x74B5D15f316a4939dA6349169D266B0dB0820c20,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/74/74B5D15f316a4939dA6349169D266B0dB0820c20_LiteLauncher.sol
-93.10,93.87,0x44F5909E97E1CBf5FBbDF0FC92FD83cde5d5c58A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/44/44F5909E97E1CBf5FBbDF0FC92FD83cde5d5c58A_AcriaToken.sol

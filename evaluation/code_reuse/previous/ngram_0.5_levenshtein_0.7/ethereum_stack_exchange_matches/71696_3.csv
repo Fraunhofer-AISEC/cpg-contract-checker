@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-83.61,85.07,0xfb6eec3929e45beb21eb3ce342df9596ced07b92,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fb6eec3929e45beb21eb3ce342df9596ced07b92_Controller.sol
-83.61,85.07,0x84b6241ed47e935597bc5a14d5e9ef9fb53e77de,smart-contract-sanctuary-ethereum/contracts/mainnet/84/84b6241ed47e935597bc5a14d5e9ef9fb53e77de_Controller.sol
-83.61,85.07,0xce4383e7309090ac0a7ead826991094c852c68ff,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce4383e7309090ac0a7ead826991094c852c68ff_Controller.sol
-83.61,85.07,0xd1DD82d1dED8f40c200b89455050E9C18D918504,smart-contract-sanctuary-ethereum/contracts/mainnet/d1/d1DD82d1dED8f40c200b89455050E9C18D918504_UserWallet.sol
-83.61,85.07,0xa3c1e324ca1ce40db73ed6026c4a177f099b5770,smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a3c1e324ca1ce40db73ed6026c4a177f099b5770_Controller.sol
-83.61,85.07,0x20d0cd0fcc12cfce583deb8c627066ba795fca76,smart-contract-sanctuary-ethereum/contracts/mainnet/20/20d0cd0fcc12cfce583deb8c627066ba795fca76_UserWallet.sol
-83.61,85.07,0xb2233FCEC42c588Ee71A594d9A25AA695345426c,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b2233FCEC42c588Ee71A594d9A25AA695345426c_DefaultSweeper.sol

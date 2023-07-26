@@ -1,5 +1,2 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-87.18,92.31,0xd04588cf848b9a5b1dbe6818a624b4969bb08f5c,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d04588cf848b9a5b1dbe6818a624b4969bb08f5c_WhiteListed.sol
-87.18,92.31,0xae5b9300c9812d4719b2ed6da62ab0efa80613cc,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/ae5b9300c9812d4719b2ed6da62ab0efa80613cc_GOeureka.sol
-87.18,92.31,0x0bdc423052d4728423fc0ad6d4c64b92e0ef5cd2,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0bdc423052d4728423fc0ad6d4c64b92e0ef5cd2_RobotLiability.sol
-87.18,92.31,0xc5d3a89ef914654aa18d181e2f1122fd7ff5da58,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c5d3a89ef914654aa18d181e2f1122fd7ff5da58_RobotLiability.sol
+97.44,92.31,0x92a06f3ed11af181d832bb474d017906acb8c299,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/92a06f3ed11af181d832bb474d017906acb8c299_ZeePinToken.sol

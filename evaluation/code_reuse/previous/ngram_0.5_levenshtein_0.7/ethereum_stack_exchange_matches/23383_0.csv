@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-96.36,72.89,0xcafea9D0264D36Defa4BB10bC68E182C4c5A8A46,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/cafea9D0264D36Defa4BB10bC68E182C4c5A8A46_Gateway.sol
-94.55,72.89,0xcafea80F156a860d9Fa7C05AC540f1FaDdaeCf78,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/cafea80F156a860d9Fa7C05AC540f1FaDdaeCf78_ClaimsReward.sol
-94.55,70.54,0xcafea332B66eE4b2c3a2d9C9A2f9618C9C94a1e9,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/cafea332B66eE4b2c3a2d9C9A2f9618C9C94a1e9_Claims.sol
-80.00,73.41,0x98ca85c59dee34dbc26667eac04f13e39f5f765a,smart-contract-sanctuary-ethereum/contracts/mainnet/98/98ca85c59dee34dbc26667eac04f13e39f5f765a_Cryptex.sol

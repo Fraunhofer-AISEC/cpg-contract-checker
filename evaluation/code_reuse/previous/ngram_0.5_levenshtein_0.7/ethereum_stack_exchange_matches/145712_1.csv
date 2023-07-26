@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-85.71,72.41,0xD182b697f776CfA4bB93BEbC1B93898fC766AbaE,smart-contract-sanctuary-ethereum/contracts/mainnet/d1/D182b697f776CfA4bB93BEbC1B93898fC766AbaE_crowdsalePhaseZero.sol
-83.93,71.43,0x0959482CbFB3c3C85ECd7bf690a0cde808eE8471,smart-contract-sanctuary-ethereum/contracts/mainnet/09/0959482CbFB3c3C85ECd7bf690a0cde808eE8471_PurchaseHook.sol
-76.79,77.42,0x6A76157A757f877A2Db866c0CB30A3330eDb655E,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6A76157A757f877A2Db866c0CB30A3330eDb655E_Minter.sol
-76.79,77.42,0x13F57C00ee0A97B8360Cf5cd8002D55c7C167C04,smart-contract-sanctuary-ethereum/contracts/mainnet/13/13F57C00ee0A97B8360Cf5cd8002D55c7C167C04_Memory.sol
-73.21,70.69,0x936Ed3E71b5990bC9A94074835D08C6ca7bbFad0,smart-contract-sanctuary-ethereum/contracts/mainnet/93/936Ed3E71b5990bC9A94074835D08C6ca7bbFad0_PurchaseHook.sol

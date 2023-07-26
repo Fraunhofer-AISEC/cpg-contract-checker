@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-92.31,70.00,0xbdafddc47d1cbac27f80a918908922aa6bf4b5bc,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bdafddc47d1cbac27f80a918908922aa6bf4b5bc_GrowDollar.sol
-92.31,70.00,0x3d6e0cafe8354f3699fd56a26b19177928714ae8,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3d6e0cafe8354f3699fd56a26b19177928714ae8_ERC20.sol
-92.31,70.00,0xCe574C530C4EA93E15d2f495C9b89a1528F92961,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/Ce574C530C4EA93E15d2f495C9b89a1528F92961_ERC20.sol
-87.18,70.62,0xBD3e8d41874bC123fB6913a2a6c6C8984c71876c,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/BD3e8d41874bC123fB6913a2a6c6C8984c71876c_AxelarGatewayMultisig.sol
-82.05,73.00,0x042b6475E8e0B8B12D001E2eAFb036Bbea0C4e52,smart-contract-sanctuary-ethereum/contracts/mainnet/04/042b6475E8e0B8B12D001E2eAFb036Bbea0C4e52_Chance.sol
-82.05,79.15,0xef967fb8d61ddc193914c0176637a3c952ff9656,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/ef967fb8d61ddc193914c0176637a3c952ff9656_PRNG.sol
-74.36,75.64,0xf1636c1324d8fdd50502e48b4e22cc95e6843650,smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f1636c1324d8fdd50502e48b4e22cc95e6843650_Lottery.sol

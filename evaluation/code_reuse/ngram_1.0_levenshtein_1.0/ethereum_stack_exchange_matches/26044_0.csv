@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xb8a202bf1da6a35786d8333f6d040830415638bc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b8/b8a202bf1da6a35786d8333f6d040830415638bc_F2UPay.sol
-100.00,100.00,0x1fa1a89f72c1011122e62261bb962b123ac40a76,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1fa1a89f72c1011122e62261bb962b123ac40a76_FRPoint.sol
-100.00,100.00,0x0ac3f549b293f6ed67d8f765bb0d6bf86053a886,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0ac3f549b293f6ed67d8f765bb0d6bf86053a886_FRPoint.sol
+100.00,100.00,0x1fa1a89f72c1011122e62261bb962b123ac40a76,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1fa1a89f72c1011122e62261bb962b123ac40a76_FRPoint.sol
+100.00,100.00,0x0ac3f549b293f6ed67d8f765bb0d6bf86053a886,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0ac3f549b293f6ed67d8f765bb0d6bf86053a886_FRPoint.sol
+100.00,100.00,0xb8a202bf1da6a35786d8333f6d040830415638bc,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/b8a202bf1da6a35786d8333f6d040830415638bc_F2UPay.sol

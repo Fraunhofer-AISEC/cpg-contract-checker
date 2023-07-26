@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-91.67,75.00,0x377B183A4232efbB24f426b8949c1be4aD1f279D,smart-contract-sanctuary-ethereum/contracts/mainnet/37/377B183A4232efbB24f426b8949c1be4aD1f279D_MeteoraPreSale.sol
-87.50,71.76,0xbCBA036086185AA99bdE479d1659b7Df360c9bb6,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bCBA036086185AA99bdE479d1659b7Df360c9bb6_StakeCOC.sol
-87.50,71.76,0xebadff3ed1efd777d15f998d7f8732cc3ae36c2c,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/ebadff3ed1efd777d15f998d7f8732cc3ae36c2c_StakeMojitoETH.sol
-87.50,81.55,0xfe489b05dCceEfBbACC7efa27Afe0f22032Aef03,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe489b05dCceEfBbACC7efa27Afe0f22032Aef03_myTime.sol
-87.50,81.55,0x439f4b2d7B7DfCdE4d63EfB075eBE250613bEBD6,smart-contract-sanctuary-ethereum/contracts/mainnet/43/439f4b2d7B7DfCdE4d63EfB075eBE250613bEBD6_myTime.sol
-83.33,80.00,0x7666CA32eF844Ff435506568f66D6de6792e8425,smart-contract-sanctuary-ethereum/contracts/mainnet/76/7666CA32eF844Ff435506568f66D6de6792e8425_SATStaking.sol
-70.83,70.83,0xB3ac67A24d5BA7762B2b6F121AD425EEBC1b21Eb,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/B3ac67A24d5BA7762B2b6F121AD425EEBC1b21Eb_MockOracleAncillary.sol

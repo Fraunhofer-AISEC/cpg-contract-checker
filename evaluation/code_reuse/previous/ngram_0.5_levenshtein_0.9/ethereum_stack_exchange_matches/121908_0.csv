@@ -1,13 +1,13 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-98.77,90.36,0x21b36e50191895CF62d0Cc794958488d1fcDFCca,smart-contract-sanctuary-ethereum/contracts/mainnet/21/21b36e50191895CF62d0Cc794958488d1fcDFCca_BearXNFTStaking.sol
-98.77,90.36,0xf2C33B7c6D6ca3896c9Bf22CBBA05922DfB416Fc,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f2C33B7c6D6ca3896c9Bf22CBBA05922DfB416Fc_BearXNFTStaking.sol
-98.77,90.36,0x78B23686E18F13dD4fdeaeBe634adB88bAf03278,smart-contract-sanctuary-ethereum/contracts/mainnet/78/78B23686E18F13dD4fdeaeBe634adB88bAf03278_BearXNFTStaking.sol
-98.77,90.36,0x4a38a69BeE8456b0Fc8d403Ec472fD05a5160385,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4a38a69BeE8456b0Fc8d403Ec472fD05a5160385_BearXNFTStaking.sol
-98.77,90.36,0x35Fb958109b70799a8f9Bc2a8b1Ee4cC62034193,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35Fb958109b70799a8f9Bc2a8b1Ee4cC62034193_BearXNFTStaking.sol
-97.53,90.36,0x588dc358ecf7b6063636993c6f13bb300e7b771f,smart-contract-sanctuary-ethereum/contracts/mainnet/58/588dc358ecf7b6063636993c6f13bb300e7b771f_BearXNFTStaking.sol
-97.53,90.36,0x9BfE25566775C86183c25AE53f1C09dd2C3f16F6,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9BfE25566775C86183c25AE53f1C09dd2C3f16F6_BearXNFTStaking.sol
-97.53,90.36,0x20271b001eAD859b674b8ccCF165e8B6b9d07Afd,smart-contract-sanctuary-ethereum/contracts/mainnet/20/20271b001eAD859b674b8ccCF165e8B6b9d07Afd_BearXNFTStaking.sol
-97.53,90.36,0x034579D52Ef374939B1a4d8edBb1D70915aD199f,smart-contract-sanctuary-ethereum/contracts/mainnet/03/034579D52Ef374939B1a4d8edBb1D70915aD199f_BearXNFTStaking.sol
-97.53,90.36,0xb30cbaf010e1ec58e4dec4dc673ee7b8b09af556,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b30cbaf010e1ec58e4dec4dc673ee7b8b09af556_BearXNFTStaking.sol
-97.53,90.36,0xbCb206Bf43865590a2D4729cc2a9D23a844187f2,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bCb206Bf43865590a2D4729cc2a9D23a844187f2_BearXNFTStaking.sol
-97.53,90.36,0x3E19cCc39ad471149AA03Df033BD9F5A01ADCDD0,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3E19cCc39ad471149AA03Df033BD9F5A01ADCDD0_BearXNFTStaking.sol
+98.77,90.36,0x21b36e50191895CF62d0Cc794958488d1fcDFCca,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/21/21b36e50191895CF62d0Cc794958488d1fcDFCca_BearXNFTStaking.sol
+98.77,90.36,0xf2C33B7c6D6ca3896c9Bf22CBBA05922DfB416Fc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f2C33B7c6D6ca3896c9Bf22CBBA05922DfB416Fc_BearXNFTStaking.sol
+98.77,90.36,0x4a38a69BeE8456b0Fc8d403Ec472fD05a5160385,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4a38a69BeE8456b0Fc8d403Ec472fD05a5160385_BearXNFTStaking.sol
+98.77,90.36,0x78B23686E18F13dD4fdeaeBe634adB88bAf03278,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/78/78B23686E18F13dD4fdeaeBe634adB88bAf03278_BearXNFTStaking.sol
+98.77,90.36,0x35Fb958109b70799a8f9Bc2a8b1Ee4cC62034193,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/35/35Fb958109b70799a8f9Bc2a8b1Ee4cC62034193_BearXNFTStaking.sol
+97.53,90.36,0x588dc358ecf7b6063636993c6f13bb300e7b771f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/58/588dc358ecf7b6063636993c6f13bb300e7b771f_BearXNFTStaking.sol
+97.53,90.36,0x034579D52Ef374939B1a4d8edBb1D70915aD199f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/03/034579D52Ef374939B1a4d8edBb1D70915aD199f_BearXNFTStaking.sol
+97.53,90.36,0x9BfE25566775C86183c25AE53f1C09dd2C3f16F6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9BfE25566775C86183c25AE53f1C09dd2C3f16F6_BearXNFTStaking.sol
+97.53,90.36,0xb30cbaf010e1ec58e4dec4dc673ee7b8b09af556,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b30cbaf010e1ec58e4dec4dc673ee7b8b09af556_BearXNFTStaking.sol
+97.53,90.36,0x20271b001eAD859b674b8ccCF165e8B6b9d07Afd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/20/20271b001eAD859b674b8ccCF165e8B6b9d07Afd_BearXNFTStaking.sol
+97.53,90.36,0xbCb206Bf43865590a2D4729cc2a9D23a844187f2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bCb206Bf43865590a2D4729cc2a9D23a844187f2_BearXNFTStaking.sol
+97.53,90.36,0x3E19cCc39ad471149AA03Df033BD9F5A01ADCDD0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3E19cCc39ad471149AA03Df033BD9F5A01ADCDD0_BearXNFTStaking.sol

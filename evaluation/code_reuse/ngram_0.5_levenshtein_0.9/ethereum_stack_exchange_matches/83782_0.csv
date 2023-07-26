@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-94.74,90.74,0xc744ffb6debbe29c8896d3338ad144876b387582,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c744ffb6debbe29c8896d3338ad144876b387582_BatchTransfer.sol
-94.74,90.74,0xcc16643aa020fc23011c209e7d3f1abf2240ead1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc16643aa020fc23011c209e7d3f1abf2240ead1_MultiSend.sol
-94.74,95.80,0x927e1c4345b1bf94cb874a19d4c9091f07327ba0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/927e1c4345b1bf94cb874a19d4c9091f07327ba0_OpenseaPayoutsReceiver.sol
-94.74,95.80,0x83d841d496e9de55717cc1ba4f8195b7b04bb157,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/83/83d841d496e9de55717cc1ba4f8195b7b04bb157_OpenseaPayoutsReceiver.sol

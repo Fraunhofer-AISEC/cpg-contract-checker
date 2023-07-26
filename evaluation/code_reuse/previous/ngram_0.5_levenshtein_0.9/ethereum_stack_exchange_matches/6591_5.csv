@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-95.79,94.06,0xb66A62D42fe531FFaBEa6E45DaC368a438B6AcBE,smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b66A62D42fe531FFaBEa6E45DaC368a438B6AcBE_Color.sol
-92.63,91.75,0x14a2d2c497cef8b971b2c29880f295edd1f1abed,smart-contract-sanctuary-ethereum/contracts/mainnet/14/14a2d2c497cef8b971b2c29880f295edd1f1abed_ENSNFT.sol
-92.63,91.75,0xf290d6422c64222dabe98c5f4acd646acab6f81f,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f290d6422c64222dabe98c5f4acd646acab6f81f_ENSNFT.sol
-91.58,91.75,0xbf75f8d6c645684a82f1f25f204dd8d62ff25341,smart-contract-sanctuary-ethereum/contracts/mainnet/bf/bf75f8d6c645684a82f1f25f204dd8d62ff25341_Metadata.sol
-91.58,91.75,0x75190b1cd717eb74820c7c15e121bae9ad28b67c,smart-contract-sanctuary-ethereum/contracts/mainnet/75/75190b1cd717eb74820c7c15e121bae9ad28b67c_Metadata.sol
+95.79,94.06,0xb66A62D42fe531FFaBEa6E45DaC368a438B6AcBE,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b66A62D42fe531FFaBEa6E45DaC368a438B6AcBE_Color.sol
+92.63,91.75,0x14a2d2c497cef8b971b2c29880f295edd1f1abed,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/14/14a2d2c497cef8b971b2c29880f295edd1f1abed_ENSNFT.sol
+92.63,91.75,0xf290d6422c64222dabe98c5f4acd646acab6f81f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f290d6422c64222dabe98c5f4acd646acab6f81f_ENSNFT.sol
+91.58,91.75,0xbf75f8d6c645684a82f1f25f204dd8d62ff25341,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bf/bf75f8d6c645684a82f1f25f204dd8d62ff25341_Metadata.sol
+91.58,91.75,0x75190b1cd717eb74820c7c15e121bae9ad28b67c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/75/75190b1cd717eb74820c7c15e121bae9ad28b67c_Metadata.sol

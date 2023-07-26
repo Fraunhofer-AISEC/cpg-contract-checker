@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-86.49,79.21,0x1Df22edCca5DBD944474b44d9121cB833CDBb336,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1Df22edCca5DBD944474b44d9121cB833CDBb336_EIP2981RoyaltyOverrideFactory.sol
-86.49,79.21,0x3C2253Ab95dd4A6F1A2fd2211866aDaa422f0873,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3C2253Ab95dd4A6F1A2fd2211866aDaa422f0873_EIP2981RoyaltyOverrideFactory.sol
-86.49,79.21,0x4Cc22d43bC646C1e496D4F739A5a0d875eB968C4,smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4Cc22d43bC646C1e496D4F739A5a0d875eB968C4_EIP2981RoyaltyOverrideFactory.sol
-68.92,70.27,0xF5791261fc5C8a72a8BF33237e0E213148ACB073,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/F5791261fc5C8a72a8BF33237e0E213148ACB073_NotesProxyFactory.sol

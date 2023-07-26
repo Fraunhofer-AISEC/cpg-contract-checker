@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x42059697E8800576EAF454Fc8C2380302a85fb8A,smart-contract-sanctuary-ethereum/contracts/mainnet/42/42059697E8800576EAF454Fc8C2380302a85fb8A_StakingToken.sol
-100.00,100.00,0x1dbf3469a68c261d219cdd9d1ccdd7da2d8e3579,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1dbf3469a68c261d219cdd9d1ccdd7da2d8e3579_Zethroll.sol
-100.00,100.00,0x7ea6b937fe5c8734e057c9e86784f734392eb344,smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7ea6b937fe5c8734e057c9e86784f734392eb344_Zethroll.sol
-100.00,100.00,0x1fe2401bd6f4de5eff1661086440297baa9a2e12,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1fe2401bd6f4de5eff1661086440297baa9a2e12_Zethroll.sol
+100.00,100.00,0x42059697E8800576EAF454Fc8C2380302a85fb8A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/42/42059697E8800576EAF454Fc8C2380302a85fb8A_StakingToken.sol
+100.00,100.00,0x1dbf3469a68c261d219cdd9d1ccdd7da2d8e3579,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1dbf3469a68c261d219cdd9d1ccdd7da2d8e3579_Zethroll.sol
+100.00,100.00,0x7ea6b937fe5c8734e057c9e86784f734392eb344,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7ea6b937fe5c8734e057c9e86784f734392eb344_Zethroll.sol
+100.00,100.00,0x1fe2401bd6f4de5eff1661086440297baa9a2e12,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1fe2401bd6f4de5eff1661086440297baa9a2e12_Zethroll.sol

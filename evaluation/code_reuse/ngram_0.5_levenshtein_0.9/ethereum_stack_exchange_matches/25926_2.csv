@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-88.89,90.00,0x5b642a698d864eeeda0fa9370cf325b029055614,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b642a698d864eeeda0fa9370cf325b029055614_Fanaply.sol
-88.89,90.00,0xdf0f851ce2214febdc2d111cc591246ff813087d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/df/df0f851ce2214febdc2d111cc591246ff813087d_FishbankChests.sol
-88.89,90.00,0xe8bbf054b788c98d9993be5513254d6b64a1ba97,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e8/e8bbf054b788c98d9993be5513254d6b64a1ba97_Fishbank.sol
-88.89,90.00,0xa98ad92a642570b83b369c4eb70efefe638bc895,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a98ad92a642570b83b369c4eb70efefe638bc895_Fishbank.sol

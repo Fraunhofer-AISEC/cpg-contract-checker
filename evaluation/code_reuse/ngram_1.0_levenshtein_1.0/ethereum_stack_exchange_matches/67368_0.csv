@@ -1,12 +1,12 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xe315960c319519d8d91bc84cbe4c59c26a28d206,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e3/e315960c319519d8d91bc84cbe4c59c26a28d206_GBEToken.sol
-100.00,100.00,0x9ba4ed4ce177e3f5100fefc75fc61ecf3120ab95,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9ba4ed4ce177e3f5100fefc75fc61ecf3120ab95_httpstmePuppySocks.sol
-100.00,100.00,0x5b2d07da4707baaf2cdd92ec8ec31ad9f551545f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b2d07da4707baaf2cdd92ec8ec31ad9f551545f_DOGO.sol
-100.00,100.00,0xdc84abedac76ed0749199f44fe2a3a8d09f55889,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dc84abedac76ed0749199f44fe2a3a8d09f55889_SQIDCOIN.sol
-100.00,100.00,0x48cf01fcbbf6a471b2b37a8e199eae6335ab1d9c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/48/48cf01fcbbf6a471b2b37a8e199eae6335ab1d9c_ARGON.sol
-100.00,100.00,0xd8c52f9d223C8531131dC66a502b018C617c69C4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d8c52f9d223C8531131dC66a502b018C617c69C4_DeimosInu.sol
-100.00,100.00,0xb29122338b0c560291e4e0427f854748d54fb7b7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b29122338b0c560291e4e0427f854748d54fb7b7_MetaFacebook.sol
-100.00,100.00,0x35eee718C20ef361d75E1c7D57BDa9D1adB30302,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/35/35eee718C20ef361d75E1c7D57BDa9D1adB30302_PFANToken.sol
-100.00,100.00,0xcba44b4f7fc8e95541a9b0de411d8614ebf5513c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cba44b4f7fc8e95541a9b0de411d8614ebf5513c_PINGONGCOIN.sol
-100.00,100.00,0xe0df31d06d72b2f5231489af0edc422b372f49f1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e0df31d06d72b2f5231489af0edc422b372f49f1_MarsX.sol
-100.00,100.00,0xefb67969a8eb34f610ed2982954f99a836c29efc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ef/efb67969a8eb34f610ed2982954f99a836c29efc_GOLDT.sol
+100.00,100.00,0xe315960c319519d8d91bc84cbe4c59c26a28d206,smart-contract-sanctuary-ethereum/contracts/mainnet/e3/e315960c319519d8d91bc84cbe4c59c26a28d206_GBEToken.sol
+100.00,100.00,0xdc84abedac76ed0749199f44fe2a3a8d09f55889,smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dc84abedac76ed0749199f44fe2a3a8d09f55889_SQIDCOIN.sol
+100.00,100.00,0x5b2d07da4707baaf2cdd92ec8ec31ad9f551545f,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b2d07da4707baaf2cdd92ec8ec31ad9f551545f_DOGO.sol
+100.00,100.00,0x9ba4ed4ce177e3f5100fefc75fc61ecf3120ab95,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9ba4ed4ce177e3f5100fefc75fc61ecf3120ab95_httpstmePuppySocks.sol
+100.00,100.00,0x48cf01fcbbf6a471b2b37a8e199eae6335ab1d9c,smart-contract-sanctuary-ethereum/contracts/mainnet/48/48cf01fcbbf6a471b2b37a8e199eae6335ab1d9c_ARGON.sol
+100.00,100.00,0xcba44b4f7fc8e95541a9b0de411d8614ebf5513c,smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cba44b4f7fc8e95541a9b0de411d8614ebf5513c_PINGONGCOIN.sol
+100.00,100.00,0xd8c52f9d223C8531131dC66a502b018C617c69C4,smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d8c52f9d223C8531131dC66a502b018C617c69C4_DeimosInu.sol
+100.00,100.00,0xe0df31d06d72b2f5231489af0edc422b372f49f1,smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e0df31d06d72b2f5231489af0edc422b372f49f1_MarsX.sol
+100.00,100.00,0x35eee718C20ef361d75E1c7D57BDa9D1adB30302,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35eee718C20ef361d75E1c7D57BDa9D1adB30302_PFANToken.sol
+100.00,100.00,0xb29122338b0c560291e4e0427f854748d54fb7b7,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b29122338b0c560291e4e0427f854748d54fb7b7_MetaFacebook.sol
+100.00,100.00,0xefb67969a8eb34f610ed2982954f99a836c29efc,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/efb67969a8eb34f610ed2982954f99a836c29efc_GOLDT.sol

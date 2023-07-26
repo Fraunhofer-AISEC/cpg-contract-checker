@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-85.00,77.40,0x68a2948DFbD993017c9cB6BC5116Ed843b705e12,smart-contract-sanctuary-ethereum/contracts/mainnet/68/68a2948DFbD993017c9cB6BC5116Ed843b705e12_SquidMulticall.sol
-78.33,71.37,0xB876301ed61015fdD8A675077F2D39dB331c13a5,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/B876301ed61015fdD8A675077F2D39dB331c13a5_AkaChanFriendsByAnata.sol
-73.33,77.40,0xce16F69375520ab01377ce7B88f5BA8C48F8D666,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce16F69375520ab01377ce7B88f5BA8C48F8D666_SquidRouterProxy.sol
-73.33,77.40,0x2d5d7d31f671f86c782533cc367f14109a082712,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2d5d7d31f671f86c782533cc367f14109a082712_AxelarGasServiceProxy.sol
-73.33,70.17,0xbD82DE7c06f5c2088E05BC93F5998491b11bf81A,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bD82DE7c06f5c2088E05BC93F5998491b11bf81A_BatchTransferNft.sol

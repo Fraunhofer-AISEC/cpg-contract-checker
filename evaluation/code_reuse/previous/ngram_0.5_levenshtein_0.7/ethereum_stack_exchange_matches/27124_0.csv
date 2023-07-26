@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-88.89,86.21,0x89f44a8AD59c7416A910D2b041A76C1D9010DAa9,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89f44a8AD59c7416A910D2b041A76C1D9010DAa9_GCTToken.sol
-85.19,75.76,0x8fd34b20c4c298c8da5a3edacb0d0d18001f333f,smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8fd34b20c4c298c8da5a3edacb0d0d18001f333f_Crowdsale.sol
-85.19,75.76,0xb30308bc705f723a1ceb74779309776b32644a00,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b30308bc705f723a1ceb74779309776b32644a00_GAX.sol
-85.19,82.76,0x3439cf24121115a1d9898bba876037272e2f0bd2,smart-contract-sanctuary-ethereum/contracts/mainnet/34/3439cf24121115a1d9898bba876037272e2f0bd2_Moon.sol
-85.19,83.33,0x5203deab886c7e84f84549865baf0ece0ff98667,smart-contract-sanctuary-ethereum/contracts/mainnet/52/5203deab886c7e84f84549865baf0ece0ff98667_Moon.sol
-81.48,79.31,0xfbc4de106d12c8b541a1d2dcb141927dfbf065a4,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fbc4de106d12c8b541a1d2dcb141927dfbf065a4_METADOLLAR.sol

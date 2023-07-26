@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-75.00,73.08,0x3ba8ad37211ad070dca1a5f0a7f1fee6aab3fdc1,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3ba8ad37211ad070dca1a5f0a7f1fee6aab3fdc1_StickManERC721.sol
-75.00,73.08,0xa85766c23f6d69fd2e167b08c3389485dfa81a40,smart-contract-sanctuary-ethereum/contracts/mainnet/a8/a85766c23f6d69fd2e167b08c3389485dfa81a40_StickManERC721.sol
-66.67,76.92,0x1B4DC8dbbc32E16f3059010678a0d4f3AfB1fB26,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1B4DC8dbbc32E16f3059010678a0d4f3AfB1fB26_Sale.sol
-66.67,73.08,0x2ae8c6e17f6b994a16ee0d2172577ee4ace560ef,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2ae8c6e17f6b994a16ee0d2172577ee4ace560ef_Bet.sol

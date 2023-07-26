@@ -1,9 +1,9 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x0dD1C99aC9BC48A1d482878ECC8B9760Aa1e8De2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0dD1C99aC9BC48A1d482878ECC8B9760Aa1e8De2_InToken.sol
-100.00,100.00,0x0E0a1b27651F3E9B3910BE90988B2BF2D4015E95,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0E0a1b27651F3E9B3910BE90988B2BF2D4015E95_Project.sol
-100.00,100.00,0x71AFEf554AD288AcCee9652d7954D01F8502d238,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/71/71AFEf554AD288AcCee9652d7954D01F8502d238_Sale.sol
-100.00,100.00,0x5f196b452f8Bb39fcd5f11f5459cE917bfc97f47,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f196b452f8Bb39fcd5f11f5459cE917bfc97f47_SushiHodlStrategyMainnet_USDT_WETH.sol
-100.00,100.00,0x21396b545f70617fc957b0858610bb1626de0197,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/21/21396b545f70617fc957b0858610bb1626de0197_YelHodlStrategyMainnet_YEL_WETH.sol
-100.00,100.00,0x118eea40EAd55E96a605C488cB2C93833f89C9a4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/11/118eea40EAd55E96a605C488cB2C93833f89C9a4_SushiHodlStrategyMainnet_WBTC_WETH.sol
-100.00,100.00,0x52B320AD57302a9815dC7889303B269d2DeBa9b7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/52/52B320AD57302a9815dC7889303B269d2DeBa9b7_SushiHodlStrategyMainnet_DAI_WETH.sol
-100.00,100.00,0x3596552272dEF342AFDa867CD8EA09CE78dD1449,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/35/3596552272dEF342AFDa867CD8EA09CE78dD1449_SushiHodlStrategyMainnet_WETH_USDC.sol
+100.00,100.00,0x0dD1C99aC9BC48A1d482878ECC8B9760Aa1e8De2,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0dD1C99aC9BC48A1d482878ECC8B9760Aa1e8De2_InToken.sol
+100.00,100.00,0x0E0a1b27651F3E9B3910BE90988B2BF2D4015E95,smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0E0a1b27651F3E9B3910BE90988B2BF2D4015E95_Project.sol
+100.00,100.00,0x71AFEf554AD288AcCee9652d7954D01F8502d238,smart-contract-sanctuary-ethereum/contracts/mainnet/71/71AFEf554AD288AcCee9652d7954D01F8502d238_Sale.sol
+100.00,100.00,0x5f196b452f8Bb39fcd5f11f5459cE917bfc97f47,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f196b452f8Bb39fcd5f11f5459cE917bfc97f47_SushiHodlStrategyMainnet_USDT_WETH.sol
+100.00,100.00,0x118eea40EAd55E96a605C488cB2C93833f89C9a4,smart-contract-sanctuary-ethereum/contracts/mainnet/11/118eea40EAd55E96a605C488cB2C93833f89C9a4_SushiHodlStrategyMainnet_WBTC_WETH.sol
+100.00,100.00,0x52B320AD57302a9815dC7889303B269d2DeBa9b7,smart-contract-sanctuary-ethereum/contracts/mainnet/52/52B320AD57302a9815dC7889303B269d2DeBa9b7_SushiHodlStrategyMainnet_DAI_WETH.sol
+100.00,100.00,0x3596552272dEF342AFDa867CD8EA09CE78dD1449,smart-contract-sanctuary-ethereum/contracts/mainnet/35/3596552272dEF342AFDa867CD8EA09CE78dD1449_SushiHodlStrategyMainnet_WETH_USDC.sol
+100.00,100.00,0x21396b545f70617fc957b0858610bb1626de0197,smart-contract-sanctuary-ethereum/contracts/mainnet/21/21396b545f70617fc957b0858610bb1626de0197_YelHodlStrategyMainnet_YEL_WETH.sol

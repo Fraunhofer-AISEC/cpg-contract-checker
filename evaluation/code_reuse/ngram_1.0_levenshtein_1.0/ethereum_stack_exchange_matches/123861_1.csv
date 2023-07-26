@@ -1,7 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x5f6210139235178a02617cf2a8f5f5b69C6dCdaf,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f6210139235178a02617cf2a8f5f5b69C6dCdaf_ReadModule.sol
-100.00,100.00,0x3301A8C3F26f100C5426771e45aa5eC1680b6435,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/33/3301A8C3F26f100C5426771e45aa5eC1680b6435_ReadModule.sol
-100.00,100.00,0x5371F063Ef419fb0DC75885B059FDfa3148f408f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/53/5371F063Ef419fb0DC75885B059FDfa3148f408f_ReadModule.sol
-100.00,100.00,0x89e8c43778541b1042986002d7286c6022235209,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/89/89e8c43778541b1042986002d7286c6022235209_DaoToken.sol
-100.00,100.00,0xC459F36e1415d2baa6CE3dFA73A20480cD3ab721,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c4/C459F36e1415d2baa6CE3dFA73A20480cD3ab721_DaoTokenV2.sol
-100.00,100.00,0x1F2349A209aE1ED1B18743eFeEc82bD1C5dc6E45,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1F2349A209aE1ED1B18743eFeEc82bD1C5dc6E45_StablecoinV0.sol
+100.00,100.00,0x5f6210139235178a02617cf2a8f5f5b69C6dCdaf,smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f6210139235178a02617cf2a8f5f5b69C6dCdaf_ReadModule.sol
+100.00,100.00,0x3301A8C3F26f100C5426771e45aa5eC1680b6435,smart-contract-sanctuary-ethereum/contracts/mainnet/33/3301A8C3F26f100C5426771e45aa5eC1680b6435_ReadModule.sol
+100.00,100.00,0x5371F063Ef419fb0DC75885B059FDfa3148f408f,smart-contract-sanctuary-ethereum/contracts/mainnet/53/5371F063Ef419fb0DC75885B059FDfa3148f408f_ReadModule.sol
+100.00,100.00,0x8B68A6951df7CA5639F22847d09aebBB6E3C3185,smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8B68A6951df7CA5639F22847d09aebBB6E3C3185_REDAO.sol
+100.00,100.00,0x89e8c43778541b1042986002d7286c6022235209,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89e8c43778541b1042986002d7286c6022235209_DaoToken.sol
+100.00,100.00,0xC459F36e1415d2baa6CE3dFA73A20480cD3ab721,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/C459F36e1415d2baa6CE3dFA73A20480cD3ab721_DaoTokenV2.sol
+100.00,100.00,0x1F2349A209aE1ED1B18743eFeEc82bD1C5dc6E45,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1F2349A209aE1ED1B18743eFeEc82bD1C5dc6E45_StablecoinV0.sol

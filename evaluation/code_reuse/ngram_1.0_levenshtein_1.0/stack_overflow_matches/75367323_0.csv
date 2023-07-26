@@ -1,11 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x301d144a216a23c9343e970d1b7cA1128C24BC91,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/30/301d144a216a23c9343e970d1b7cA1128C24BC91_xCollective.sol
-100.00,100.00,0xB50808dEa4Dd28A336D69f4b70AA13c97364B3Fb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b5/B50808dEa4Dd28A336D69f4b70AA13c97364B3Fb_Frankencoin.sol
-100.00,100.00,0xe469f12f4746b5ae105a1b888bff5a1b9e27fee5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e469f12f4746b5ae105a1b888bff5a1b9e27fee5_CrunchMultiVesting.sol
-100.00,100.00,0x422d17ccC1442501D039595ffcaAa71b4686Bf4E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/42/422d17ccC1442501D039595ffcaAa71b4686Bf4E_Frankencoin.sol
-100.00,100.00,0xCc4B224b4647F090D323A0B6F78A1A31963DDf5E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cc/Cc4B224b4647F090D323A0B6F78A1A31963DDf5E_Equity.sol
-100.00,100.00,0x9A759Af91FC5Bd375EBFAfEBC6F5eAfcFd0f6235,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9A759Af91FC5Bd375EBFAfEBC6F5eAfcFd0f6235_P125Token.sol
-100.00,100.00,0xC28675bC5E8925B3590843fb5437cB6414F043c3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c2/C28675bC5E8925B3590843fb5437cB6414F043c3_TroopCardsNFTv2.sol
-100.00,100.00,0xbabe0b589598767f1e99730b12ad40d56156babe,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ba/babe0b589598767f1e99730b12ad40d56156babe_Devotion.sol
-100.00,100.00,0x15384a1241a8c6cbddd85e0b4d2c7a480cfedf49,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/15/15384a1241a8c6cbddd85e0b4d2c7a480cfedf49_NFT_Minter.sol
-100.00,100.00,0x132ef3dac69f8e4a1669494764dc8141841e3bca,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/13/132ef3dac69f8e4a1669494764dc8141841e3bca_TTXNFT_Asuka_Kirara.sol
+100.00,100.00,0x301d144a216a23c9343e970d1b7cA1128C24BC91,smart-contract-sanctuary-ethereum/contracts/mainnet/30/301d144a216a23c9343e970d1b7cA1128C24BC91_xCollective.sol
+100.00,100.00,0xB50808dEa4Dd28A336D69f4b70AA13c97364B3Fb,smart-contract-sanctuary-ethereum/contracts/mainnet/b5/B50808dEa4Dd28A336D69f4b70AA13c97364B3Fb_Frankencoin.sol
+100.00,100.00,0xe469f12f4746b5ae105a1b888bff5a1b9e27fee5,smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e469f12f4746b5ae105a1b888bff5a1b9e27fee5_CrunchMultiVesting.sol
+100.00,100.00,0x422d17ccC1442501D039595ffcaAa71b4686Bf4E,smart-contract-sanctuary-ethereum/contracts/mainnet/42/422d17ccC1442501D039595ffcaAa71b4686Bf4E_Frankencoin.sol
+100.00,100.00,0xCc4B224b4647F090D323A0B6F78A1A31963DDf5E,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/Cc4B224b4647F090D323A0B6F78A1A31963DDf5E_Equity.sol
+100.00,100.00,0x9A759Af91FC5Bd375EBFAfEBC6F5eAfcFd0f6235,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9A759Af91FC5Bd375EBFAfEBC6F5eAfcFd0f6235_P125Token.sol
+100.00,100.00,0xbabe0b589598767f1e99730b12ad40d56156babe,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/babe0b589598767f1e99730b12ad40d56156babe_Devotion.sol
+100.00,100.00,0xC28675bC5E8925B3590843fb5437cB6414F043c3,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/C28675bC5E8925B3590843fb5437cB6414F043c3_TroopCardsNFTv2.sol
+100.00,100.00,0x15384a1241a8c6cbddd85e0b4d2c7a480cfedf49,smart-contract-sanctuary-ethereum/contracts/mainnet/15/15384a1241a8c6cbddd85e0b4d2c7a480cfedf49_NFT_Minter.sol
+100.00,100.00,0x132ef3dac69f8e4a1669494764dc8141841e3bca,smart-contract-sanctuary-ethereum/contracts/mainnet/13/132ef3dac69f8e4a1669494764dc8141841e3bca_TTXNFT_Asuka_Kirara.sol

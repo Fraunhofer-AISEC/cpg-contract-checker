@@ -1,14 +1,14 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x3797aFd759a92BCADCB6e340536823433caE6f0a,smart-contract-sanctuary-ethereum/contracts/mainnet/37/3797aFd759a92BCADCB6e340536823433caE6f0a_FeeSettings.sol
-100.00,100.00,0xff1667bddc9b832a0022bbfc6c586bd299262d94,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/ff1667bddc9b832a0022bbfc6c586bd299262d94_Crowdsale.sol
-100.00,100.00,0xbfe5385a506e65f12926eff9b1f98dde2a570201,smart-contract-sanctuary-ethereum/contracts/mainnet/bf/bfe5385a506e65f12926eff9b1f98dde2a570201_RivetzRegistrar.sol
-100.00,100.00,0x4fd2d9d6ef05e13bf0b167509151a4ec3d4d4b93,smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4fd2d9d6ef05e13bf0b167509151a4ec3d4d4b93_BNum.sol
-100.00,100.00,0xba31aef54734a89d7b89aba2e0c7bf2564f6657f,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/ba31aef54734a89d7b89aba2e0c7bf2564f6657f_BNum.sol
-100.00,100.00,0x209a6919956c35201c1488addcd8dc5a1d5c3c53,smart-contract-sanctuary-ethereum/contracts/mainnet/20/209a6919956c35201c1488addcd8dc5a1d5c3c53_BNum.sol
-100.00,100.00,0xf8062eedf80d8d2527ce89435f670cb996ab4e54,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f8062eedf80d8d2527ce89435f670cb996ab4e54_BNum.sol
-100.00,100.00,0x1232b1601419b8b9874683f680e793343f8cbda6,smart-contract-sanctuary-ethereum/contracts/mainnet/12/1232b1601419b8b9874683f680e793343f8cbda6_BNum.sol
-100.00,100.00,0x6c19e4cc4c87adb224697a1022f262b424f44d46,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c19e4cc4c87adb224697a1022f262b424f44d46_BNum.sol
-100.00,100.00,0x0d3303ffaf107cd732396570bf07b2dbd79b619f,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d3303ffaf107cd732396570bf07b2dbd79b619f_BNum.sol
-100.00,100.00,0x69c2fe4f5dfa40dd6d09fadd0681f9364a1aada0,smart-contract-sanctuary-ethereum/contracts/mainnet/69/69c2fe4f5dfa40dd6d09fadd0681f9364a1aada0_BNum.sol
-100.00,100.00,0x136d6f80bb3a853d151686bfed2c9309aea6ddec,smart-contract-sanctuary-ethereum/contracts/mainnet/13/136d6f80bb3a853d151686bfed2c9309aea6ddec_BNum.sol
-100.00,100.00,0xeE734859C63e4Ec39Fc0CBa44Dacc5351C494fA1,smart-contract-sanctuary-ethereum/contracts/mainnet/ee/eE734859C63e4Ec39Fc0CBa44Dacc5351C494fA1_FoodPresale.sol
+100.00,100.00,0x3797aFd759a92BCADCB6e340536823433caE6f0a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/37/3797aFd759a92BCADCB6e340536823433caE6f0a_FeeSettings.sol
+100.00,100.00,0xff1667bddc9b832a0022bbfc6c586bd299262d94,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ff/ff1667bddc9b832a0022bbfc6c586bd299262d94_Crowdsale.sol
+100.00,100.00,0xbfe5385a506e65f12926eff9b1f98dde2a570201,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bf/bfe5385a506e65f12926eff9b1f98dde2a570201_RivetzRegistrar.sol
+100.00,100.00,0x209a6919956c35201c1488addcd8dc5a1d5c3c53,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/20/209a6919956c35201c1488addcd8dc5a1d5c3c53_BNum.sol
+100.00,100.00,0xf8062eedf80d8d2527ce89435f670cb996ab4e54,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f8062eedf80d8d2527ce89435f670cb996ab4e54_BNum.sol
+100.00,100.00,0x4fd2d9d6ef05e13bf0b167509151a4ec3d4d4b93,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4f/4fd2d9d6ef05e13bf0b167509151a4ec3d4d4b93_BNum.sol
+100.00,100.00,0xba31aef54734a89d7b89aba2e0c7bf2564f6657f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ba/ba31aef54734a89d7b89aba2e0c7bf2564f6657f_BNum.sol
+100.00,100.00,0x1232b1601419b8b9874683f680e793343f8cbda6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/12/1232b1601419b8b9874683f680e793343f8cbda6_BNum.sol
+100.00,100.00,0x69c2fe4f5dfa40dd6d09fadd0681f9364a1aada0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/69/69c2fe4f5dfa40dd6d09fadd0681f9364a1aada0_BNum.sol
+100.00,100.00,0x0d3303ffaf107cd732396570bf07b2dbd79b619f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d3303ffaf107cd732396570bf07b2dbd79b619f_BNum.sol
+100.00,100.00,0x6c19e4cc4c87adb224697a1022f262b424f44d46,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c19e4cc4c87adb224697a1022f262b424f44d46_BNum.sol
+100.00,100.00,0x136d6f80bb3a853d151686bfed2c9309aea6ddec,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/13/136d6f80bb3a853d151686bfed2c9309aea6ddec_BNum.sol
+100.00,100.00,0xeE734859C63e4Ec39Fc0CBa44Dacc5351C494fA1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ee/eE734859C63e4Ec39Fc0CBa44Dacc5351C494fA1_FoodPresale.sol

@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x693f87d7f397dd3be02fe9899d2a6d2132d5a460,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/69/693f87d7f397dd3be02fe9899d2a6d2132d5a460_GrapevineCrowdsale.sol
-100.00,100.00,0x77b2d3681c8c715e7def3ac47e35b00b73de4272,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/77/77b2d3681c8c715e7def3ac47e35b00b73de4272_GrapevineCrowdsale.sol
-100.00,100.00,0x2c70003b49761d1d58d09ac74f26a250088a6b7a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2c70003b49761d1d58d09ac74f26a250088a6b7a_KratosPresale.sol
-100.00,100.00,0x153b61f2f26fdff3745f611f884ae899992ca7d9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/15/153b61f2f26fdff3745f611f884ae899992ca7d9_VictorTokenSale.sol
-100.00,100.00,0x3574f8565bf42a241f607d71bd2faeb2001ca2ef,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/35/3574f8565bf42a241f607d71bd2faeb2001ca2ef_COTCoinPublicSaleCrowdsale.sol
-100.00,100.00,0xB9CDb9d5240e5Cdf2a5d19e3Ac475D16735A89c1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b9/B9CDb9d5240e5Cdf2a5d19e3Ac475D16735A89c1_DEAPCoinCrowdsale.sol
-100.00,100.00,0x19eb6a7104bdf0eeebb09153a49a5e9c6c5f0d83,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/19/19eb6a7104bdf0eeebb09153a49a5e9c6c5f0d83_ERC20Token.sol
+100.00,100.00,0x77b2d3681c8c715e7def3ac47e35b00b73de4272,smart-contract-sanctuary-ethereum/contracts/mainnet/77/77b2d3681c8c715e7def3ac47e35b00b73de4272_GrapevineCrowdsale.sol
+100.00,100.00,0x693f87d7f397dd3be02fe9899d2a6d2132d5a460,smart-contract-sanctuary-ethereum/contracts/mainnet/69/693f87d7f397dd3be02fe9899d2a6d2132d5a460_GrapevineCrowdsale.sol
+100.00,100.00,0x2c70003b49761d1d58d09ac74f26a250088a6b7a,smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2c70003b49761d1d58d09ac74f26a250088a6b7a_KratosPresale.sol
+100.00,100.00,0x153b61f2f26fdff3745f611f884ae899992ca7d9,smart-contract-sanctuary-ethereum/contracts/mainnet/15/153b61f2f26fdff3745f611f884ae899992ca7d9_VictorTokenSale.sol
+100.00,100.00,0x3574f8565bf42a241f607d71bd2faeb2001ca2ef,smart-contract-sanctuary-ethereum/contracts/mainnet/35/3574f8565bf42a241f607d71bd2faeb2001ca2ef_COTCoinPublicSaleCrowdsale.sol
+100.00,100.00,0xB9CDb9d5240e5Cdf2a5d19e3Ac475D16735A89c1,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/B9CDb9d5240e5Cdf2a5d19e3Ac475D16735A89c1_DEAPCoinCrowdsale.sol
+100.00,100.00,0x19eb6a7104bdf0eeebb09153a49a5e9c6c5f0d83,smart-contract-sanctuary-ethereum/contracts/mainnet/19/19eb6a7104bdf0eeebb09153a49a5e9c6c5f0d83_ERC20Token.sol

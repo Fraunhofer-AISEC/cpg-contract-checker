@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xb53626aaa587d2ee9bf79cf072e9b4fa74ea92de,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b5/b53626aaa587d2ee9bf79cf072e9b4fa74ea92de_SmartDigitalCoin.sol
-100.00,100.00,0x93c5c01be2853ea7c189db4b46c4b1bb8f9e58cc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/93/93c5c01be2853ea7c189db4b46c4b1bb8f9e58cc_SmartDigitalCoin.sol
-100.00,100.00,0xd8f5ae485a2b62bc2f14525e526d4f15b41453cd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d8f5ae485a2b62bc2f14525e526d4f15b41453cd_SmartDigitalCoin.sol
-100.00,100.00,0x535a7f0568c6fec02c14a2679baa2986d621dd50,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/53/535a7f0568c6fec02c14a2679baa2986d621dd50_SmartDigitalCoin.sol
+100.00,100.00,0xb53626aaa587d2ee9bf79cf072e9b4fa74ea92de,smart-contract-sanctuary-ethereum/contracts/mainnet/b5/b53626aaa587d2ee9bf79cf072e9b4fa74ea92de_SmartDigitalCoin.sol
+100.00,100.00,0x93c5c01be2853ea7c189db4b46c4b1bb8f9e58cc,smart-contract-sanctuary-ethereum/contracts/mainnet/93/93c5c01be2853ea7c189db4b46c4b1bb8f9e58cc_SmartDigitalCoin.sol
+100.00,100.00,0xd8f5ae485a2b62bc2f14525e526d4f15b41453cd,smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d8f5ae485a2b62bc2f14525e526d4f15b41453cd_SmartDigitalCoin.sol
+100.00,100.00,0x535a7f0568c6fec02c14a2679baa2986d621dd50,smart-contract-sanctuary-ethereum/contracts/mainnet/53/535a7f0568c6fec02c14a2679baa2986d621dd50_SmartDigitalCoin.sol

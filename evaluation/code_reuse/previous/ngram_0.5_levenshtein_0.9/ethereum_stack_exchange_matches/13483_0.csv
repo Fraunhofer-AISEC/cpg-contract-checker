@@ -1,1 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x68b4d1e81e9e3D1845d4C6ff9e4f021D3867A3e9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/68/68b4d1e81e9e3D1845d4C6ff9e4f021D3867A3e9_AlwaysOn.sol
+100.00,100.00,0xde8be787dde0ff2b9bb7c4e1a27a04714db000c7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/de/de8be787dde0ff2b9bb7c4e1a27a04714db000c7_BasicUpKeep.sol
+100.00,100.00,0x3F5BDFD2c67b73754b150d20Be28Ef05c3Bf7259,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3F5BDFD2c67b73754b150d20Be28Ef05c3Bf7259_Upkeep.sol
+90.00,100.00,0xd18e2A433664F9459CCCbd4bEe0057A7BC57E707,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d1/d18e2A433664F9459CCCbd4bEe0057A7BC57E707_contracts_common_test_ReentrancyChecker.sol
+90.00,100.00,0x1d847fb6e04437151736a53f09b6e49713a52aad,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d847fb6e04437151736a53f09b6e49713a52aad_contracts_common_test_ReentrancyChecker.sol

@@ -1,1 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x00a4A3e9279678CA1b564Bca66396bb5801192dA,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/00/00a4A3e9279678CA1b564Bca66396bb5801192dA_BNIToken.sol
+100.00,100.00,0xf0d991d7505b4bf77cd48eb61af465841838f466,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0d991d7505b4bf77cd48eb61af465841838f466_DACToken.sol
+100.00,100.00,0x8458a70741e6eb1339b98a35e2871c3cd9ff2f6a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/84/8458a70741e6eb1339b98a35e2871c3cd9ff2f6a_ZUE.sol

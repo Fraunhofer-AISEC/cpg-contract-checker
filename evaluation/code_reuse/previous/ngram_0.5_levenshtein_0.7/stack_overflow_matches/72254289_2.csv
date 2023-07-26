@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-73.33,71.75,0x6c5d62c394358734bf79607ccab489483533a62a,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c5d62c394358734bf79607ccab489483533a62a_SimpleExchange.sol
-73.33,71.75,0xec50afffc4dc23b629c74c0998d16209c6398f6e,smart-contract-sanctuary-ethereum/contracts/mainnet/ec/ec50afffc4dc23b629c74c0998d16209c6398f6e_SimpleExchange.sol
-73.33,75.56,0x35f06858577b526a9351C6d42c89748281b6FE30,smart-contract-sanctuary-ethereum/contracts/mainnet/35/35f06858577b526a9351C6d42c89748281b6FE30_MyAdvancedToken.sol
-66.67,71.11,0x3dcff2492b076b2a78eac9979f50a413121fc70b,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3dcff2492b076b2a78eac9979f50a413121fc70b_RajTestICO.sol
-66.67,71.11,0x04a4b43352a78294bc7b6d520450825ac639ea21,smart-contract-sanctuary-ethereum/contracts/mainnet/04/04a4b43352a78294bc7b6d520450825ac639ea21_RajTestICO.sol
-63.33,71.11,0xb7cc4f093436b966b671ad9d0c09e7a6c37b4a81,smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b7cc4f093436b966b671ad9d0c09e7a6c37b4a81_RajTest.sol

@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-90.84,70.02,0x3bc5bd64fff1b1a4054732abf23d8b100d991031,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3bc5bd64fff1b1a4054732abf23d8b100d991031_FootBall.sol
-90.84,70.02,0x80227caa0bb499cfe1b6cc24c5ce32fc50ea0fcb,smart-contract-sanctuary-ethereum/contracts/mainnet/80/80227caa0bb499cfe1b6cc24c5ce32fc50ea0fcb_FootBall.sol
-88.55,70.13,0x548d32216d01617452892ea360bfce9ce8dc9729,smart-contract-sanctuary-ethereum/contracts/mainnet/54/548d32216d01617452892ea360bfce9ce8dc9729_ChemistryCore.sol
-86.26,70.67,0xbc34b85205affe0c941c784f6d76d1d6fbf2caa8,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bc34b85205affe0c941c784f6d76d1d6fbf2caa8_Solethium.sol
-85.24,70.48,0xb3b1f75b8b6c3c0f941bff34241a102454832943,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b3b1f75b8b6c3c0f941bff34241a102454832943_MineralMarket.sol
-83.97,71.31,0xc22faf9f506e63e6f4f0088d15e9197b27c77ac7,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c22faf9f506e63e6f4f0088d15e9197b27c77ac7_Curio.sol
-80.92,71.24,0x2898ca01df2dc4062e8b269806de4996295a1f5c,smart-contract-sanctuary-ethereum/contracts/mainnet/28/2898ca01df2dc4062e8b269806de4996295a1f5c_BlockCoreOne.sol

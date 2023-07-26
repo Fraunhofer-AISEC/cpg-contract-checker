@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-94.29,70.79,0x6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b_LescoinPreSale.sol
-94.29,70.79,0x94add786881a945e68f3dfd1478f586ba36769b5,smart-contract-sanctuary-ethereum/contracts/mainnet/94/94add786881a945e68f3dfd1478f586ba36769b5_FLescoinSale.sol
-91.43,73.81,0x97465a514b53127f6980b925587e508f07691da7,smart-contract-sanctuary-ethereum/contracts/mainnet/97/97465a514b53127f6980b925587e508f07691da7_DelayedPayments.sol
-91.43,73.81,0x024cb480c6bf81eea0067c2682a706e5da5c6024,smart-contract-sanctuary-ethereum/contracts/mainnet/02/024cb480c6bf81eea0067c2682a706e5da5c6024_BuyBack.sol
-85.71,73.81,0x24384c4626eb895c99ea4225af309ad22a75be2f,smart-contract-sanctuary-ethereum/contracts/mainnet/24/24384c4626eb895c99ea4225af309ad22a75be2f_MultiEventsHistory.sol

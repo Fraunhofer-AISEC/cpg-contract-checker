@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-68.97,70.07,0x1B42d76E90E81dfAbF734a094f1A6241C5276Af8,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1B42d76E90E81dfAbF734a094f1A6241C5276Af8_Bank.sol
-65.52,70.74,0x6225623d0dc19c4d72cec1b9cf8d3d88f5c7f633,smart-contract-sanctuary-ethereum/contracts/mainnet/62/6225623d0dc19c4d72cec1b9cf8d3d88f5c7f633_EthHelper.sol
-65.52,71.02,0x3712539b4f1D514E2CeD75651149c02620C63Af6,smart-contract-sanctuary-ethereum/contracts/mainnet/37/3712539b4f1D514E2CeD75651149c02620C63Af6_Upgrader.sol
-62.07,71.02,0x6202af2dd1fca037fbe5c212573a52bc3609867d,smart-contract-sanctuary-ethereum/contracts/mainnet/62/6202af2dd1fca037fbe5c212573a52bc3609867d_XCMintTest.sol
-62.07,70.31,0x87fa022af629e58eCC8e0A40dc85e6Eb952a2327,smart-contract-sanctuary-ethereum/contracts/mainnet/87/87fa022af629e58eCC8e0A40dc85e6Eb952a2327_WorldsOfTrains.sol
-62.07,70.31,0x542b59Aa671818756c6089Ca1FBe8C5bcC75312E,smart-contract-sanctuary-ethereum/contracts/mainnet/54/542b59Aa671818756c6089Ca1FBe8C5bcC75312E_WorldsOfTrains.sol

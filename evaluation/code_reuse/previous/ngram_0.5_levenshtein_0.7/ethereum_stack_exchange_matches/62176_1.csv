@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-88.89,72.93,0x772c5AA73719B06e8838771b79bF34C3F3092223,smart-contract-sanctuary-ethereum/contracts/mainnet/77/772c5AA73719B06e8838771b79bF34C3F3092223_Staking.sol
-80.00,71.74,0xa39a6e35d98E531058b52C28aF4fFDeEAfb1749d,smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a39a6e35d98E531058b52C28aF4fFDeEAfb1749d_TestaExchange.sol
-80.00,71.74,0xEc7B95ba343224A9ED1EEe230912055DcD7081CA,smart-contract-sanctuary-ethereum/contracts/mainnet/ec/Ec7B95ba343224A9ED1EEe230912055DcD7081CA_JTestaToken.sol
-80.00,71.74,0x1da65B1868e2d36d06d7A44DBD2Be98e49E1f7f9,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1da65B1868e2d36d06d7A44DBD2Be98e49E1f7f9_TestaToken.sol

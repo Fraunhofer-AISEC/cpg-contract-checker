@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x88a23aabb0eb055b6c5ee5df390b986ad7bf1c99,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88a23aabb0eb055b6c5ee5df390b986ad7bf1c99_contracts_openzeppelin-solidity_contracts_mocks_RolesMock.sol
-100.00,100.00,0x62d026c8a1abc3c208488d08f60bea385f46b21a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/62d026c8a1abc3c208488d08f60bea385f46b21a_TerminusClaim.sol
-100.00,100.00,0x6f2235864cf897078fcdcc2854b76c482cd16874,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6f2235864cf897078fcdcc2854b76c482cd16874_PoapDelegatedMint.sol
-100.00,100.00,0xb66dce2da6afaaa98f2013446dbcb0f4b0ab2842,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b66dce2da6afaaa98f2013446dbcb0f4b0ab2842_Resolver.sol
-100.00,100.00,0x0a4e9f69f5b2e1e661da9ed98956f928200ea4ba,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0a4e9f69f5b2e1e661da9ed98956f928200ea4ba_YieldContract.sol
+100.00,100.00,0x88a23aabb0eb055b6c5ee5df390b986ad7bf1c99,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88a23aabb0eb055b6c5ee5df390b986ad7bf1c99_contracts_openzeppelin-solidity_contracts_mocks_RolesMock.sol
+100.00,100.00,0x62d026c8a1abc3c208488d08f60bea385f46b21a,smart-contract-sanctuary-ethereum/contracts/mainnet/62/62d026c8a1abc3c208488d08f60bea385f46b21a_TerminusClaim.sol
+100.00,100.00,0x6f2235864cf897078fcdcc2854b76c482cd16874,smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6f2235864cf897078fcdcc2854b76c482cd16874_PoapDelegatedMint.sol
+100.00,100.00,0xb66dce2da6afaaa98f2013446dbcb0f4b0ab2842,smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b66dce2da6afaaa98f2013446dbcb0f4b0ab2842_Resolver.sol
+100.00,100.00,0x0a4e9f69f5b2e1e661da9ed98956f928200ea4ba,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0a4e9f69f5b2e1e661da9ed98956f928200ea4ba_YieldContract.sol

@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x5dfdc8168c8cf48cd174fad3f8881289929b1f94,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5d/5dfdc8168c8cf48cd174fad3f8881289929b1f94_Dice.sol
-100.00,100.00,0xc5F17B0e16a7557644D8e87743AeA26A1ee33F48,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c5F17B0e16a7557644D8e87743AeA26A1ee33F48_FloydsWorld.sol
-100.00,100.00,0x39C1Fb9a9b3b39f1953E7967156A8f11A831Fd44,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/39/39C1Fb9a9b3b39f1953E7967156A8f11A831Fd44_FloydsWorld.sol
+100.00,100.00,0x5dfdc8168c8cf48cd174fad3f8881289929b1f94,smart-contract-sanctuary-ethereum/contracts/mainnet/5d/5dfdc8168c8cf48cd174fad3f8881289929b1f94_Dice.sol
+100.00,100.00,0x39C1Fb9a9b3b39f1953E7967156A8f11A831Fd44,smart-contract-sanctuary-ethereum/contracts/mainnet/39/39C1Fb9a9b3b39f1953E7967156A8f11A831Fd44_FloydsWorld.sol
+100.00,100.00,0xc5F17B0e16a7557644D8e87743AeA26A1ee33F48,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c5F17B0e16a7557644D8e87743AeA26A1ee33F48_FloydsWorld.sol

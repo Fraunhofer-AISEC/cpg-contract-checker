@@ -1,7 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,90.91,0xa4337c343132e134a23439d5386c29c610b93d5b,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4337c343132e134a23439d5386c29c610b93d5b_CryptoAndDragonsAuction.sol
-100.00,90.91,0xac625cbd6d8628f9de1b69a2e057073e0dca0a0d,smart-contract-sanctuary-ethereum/contracts/mainnet/ac/ac625cbd6d8628f9de1b69a2e057073e0dca0a0d_CryptoAndDragonsPresale.sol
-100.00,91.67,0x33d38Cd8e66758Df83f9d2E7DEb5f898936764bA,smart-contract-sanctuary-ethereum/contracts/mainnet/33/33d38Cd8e66758Df83f9d2E7DEb5f898936764bA_LL420Reveal.sol
-100.00,91.67,0x6c57F51f88b1898967734d8117c854C15810fF40,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c57F51f88b1898967734d8117c854C15810fF40_AloePoolCapped.sol
-100.00,91.67,0xf5F30EaF55Fd9fFc70651b13b791410aAd663846,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5F30EaF55Fd9fFc70651b13b791410aAd663846_AloePoolCapped.sol
-100.00,91.67,0x759704b23a25bC8cdb90859D9D99Fe45a58031A4,smart-contract-sanctuary-ethereum/contracts/mainnet/75/759704b23a25bC8cdb90859D9D99Fe45a58031A4_AloePoolCapped.sol
+100.00,90.91,0xa4337c343132e134a23439d5386c29c610b93d5b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4337c343132e134a23439d5386c29c610b93d5b_CryptoAndDragonsAuction.sol
+100.00,90.91,0xac625cbd6d8628f9de1b69a2e057073e0dca0a0d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ac/ac625cbd6d8628f9de1b69a2e057073e0dca0a0d_CryptoAndDragonsPresale.sol
+100.00,91.67,0x33d38Cd8e66758Df83f9d2E7DEb5f898936764bA,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/33/33d38Cd8e66758Df83f9d2E7DEb5f898936764bA_LL420Reveal.sol
+100.00,91.67,0x6c57F51f88b1898967734d8117c854C15810fF40,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c57F51f88b1898967734d8117c854C15810fF40_AloePoolCapped.sol
+100.00,91.67,0x759704b23a25bC8cdb90859D9D99Fe45a58031A4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/75/759704b23a25bC8cdb90859D9D99Fe45a58031A4_AloePoolCapped.sol
+100.00,91.67,0xf5F30EaF55Fd9fFc70651b13b791410aAd663846,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5F30EaF55Fd9fFc70651b13b791410aAd663846_AloePoolCapped.sol

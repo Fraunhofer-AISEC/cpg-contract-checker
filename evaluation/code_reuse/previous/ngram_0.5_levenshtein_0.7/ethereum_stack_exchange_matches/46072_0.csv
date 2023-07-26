@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-73.33,70.59,0x14b2d558687942834839874d33a73c852be5401d,smart-contract-sanctuary-ethereum/contracts/mainnet/14/14b2d558687942834839874d33a73c852be5401d_AuctionableWorldCupPlayerToken.sol
-66.67,77.78,0x1738b62e403090666687243e758b1c29edffc90e,smart-contract-sanctuary-ethereum/contracts/mainnet/17/1738b62e403090666687243e758b1c29edffc90e_BlockHashRNGFallback.sol
-66.67,70.59,0x70222593b28FD91e03B9C383AA0Fa28084a8b988,smart-contract-sanctuary-ethereum/contracts/mainnet/70/70222593b28FD91e03B9C383AA0Fa28084a8b988_Blockedchain.sol

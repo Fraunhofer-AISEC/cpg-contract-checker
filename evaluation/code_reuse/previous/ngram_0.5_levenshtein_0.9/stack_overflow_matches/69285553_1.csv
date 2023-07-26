@@ -1,1 +1,10 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+96.23,98.08,0xd7f0cC50AD69408aE58be033F4f85D2367C2e468,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d7f0cC50AD69408aE58be033F4f85D2367C2e468_VeraDefi.sol
+96.23,98.08,0xcd1faff6e578fa5cac469d2418c95671ba1a62fe,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cd/cd1faff6e578fa5cac469d2418c95671ba1a62fe_Torum.sol
+96.23,98.08,0x08ba718F288c3b12B01146816bef9FA03cC635bc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/08/08ba718F288c3b12B01146816bef9FA03cC635bc_CentaurifyToken.sol
+96.23,98.08,0x3757232b55e60da4a8793183ac030cfce4c3865d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/37/3757232b55e60da4a8793183ac030cfce4c3865d_YDR.sol
+94.34,98.08,0x7EFBbeFF457cd39E345234589B4B5ef4c40C4db1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7EFBbeFF457cd39E345234589B4B5ef4c40C4db1_HIGH.sol
+94.34,98.08,0x4910661Be7D09D442DF1A6Db4D8Ab350d97D1062,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/49/4910661Be7D09D442DF1A6Db4D8Ab350d97D1062_HIGH.sol
+94.34,98.08,0xB57420FaD6731B004309D5a0ec7C6C906Adb8df7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b5/B57420FaD6731B004309D5a0ec7C6C906Adb8df7_DTOToken.sol
+94.34,98.08,0xE22020F47B7378dfedcedd2C81d4137c22fE1152,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e2/E22020F47B7378dfedcedd2C81d4137c22fE1152_MyLiquidityPool.sol
+92.45,96.15,0xcbE771323587EA16dACB6016e269D7F08A7ACC4E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cbE771323587EA16dACB6016e269D7F08A7ACC4E_SporesToken.sol

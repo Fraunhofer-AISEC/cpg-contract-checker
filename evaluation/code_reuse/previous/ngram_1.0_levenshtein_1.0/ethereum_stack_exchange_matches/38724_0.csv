@@ -1,7 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x52ccd0c8e783743bfcb4f7b6794e817bee3d0473,smart-contract-sanctuary-ethereum/contracts/mainnet/52/52ccd0c8e783743bfcb4f7b6794e817bee3d0473_Medikia.sol
-100.00,100.00,0xa98c0e2c01eff351ec67e2fda240340f63fff228,smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a98c0e2c01eff351ec67e2fda240340f63fff228_Kurecoin.sol
-100.00,100.00,0x931ce41f5145a501a120e96c73a023e96c742124,smart-contract-sanctuary-ethereum/contracts/mainnet/93/931ce41f5145a501a120e96c73a023e96c742124_Ulti.sol
-100.00,100.00,0xB401faaf8E3De776668D3695F224D0A38EA9C2E8,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/B401faaf8E3De776668D3695F224D0A38EA9C2E8_MMOcoin.sol
-100.00,100.00,0x31A6ba952064f3895E29A5A7f0731287368AB89E,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31A6ba952064f3895E29A5A7f0731287368AB89E_NutrioCoin.sol
-100.00,100.00,0xc2eD97336F036A457B48CBa7BFDA743581Bd24C1,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c2eD97336F036A457B48CBa7BFDA743581Bd24C1_TestToken5.sol
+100.00,100.00,0x52ccd0c8e783743bfcb4f7b6794e817bee3d0473,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/52/52ccd0c8e783743bfcb4f7b6794e817bee3d0473_Medikia.sol
+100.00,100.00,0xa98c0e2c01eff351ec67e2fda240340f63fff228,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a98c0e2c01eff351ec67e2fda240340f63fff228_Kurecoin.sol
+100.00,100.00,0xB401faaf8E3De776668D3695F224D0A38EA9C2E8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b4/B401faaf8E3De776668D3695F224D0A38EA9C2E8_MMOcoin.sol
+100.00,100.00,0x931ce41f5145a501a120e96c73a023e96c742124,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/93/931ce41f5145a501a120e96c73a023e96c742124_Ulti.sol
+100.00,100.00,0x31A6ba952064f3895E29A5A7f0731287368AB89E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/31A6ba952064f3895E29A5A7f0731287368AB89E_NutrioCoin.sol
+100.00,100.00,0xc2eD97336F036A457B48CBa7BFDA743581Bd24C1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c2eD97336F036A457B48CBa7BFDA743581Bd24C1_TestToken5.sol

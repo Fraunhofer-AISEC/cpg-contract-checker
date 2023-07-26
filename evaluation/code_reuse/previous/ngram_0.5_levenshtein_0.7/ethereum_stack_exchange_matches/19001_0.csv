@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-83.42,78.84,0x45e09dd6fd492fa317c36e8f94cb19a566758426,smart-contract-sanctuary-ethereum/contracts/mainnet/45/45e09dd6fd492fa317c36e8f94cb19a566758426_Association.sol
-79.14,79.37,0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7_MyToken.sol
-71.12,70.90,0xd4a3cb9d6b18c1c06a981585720a59cb92505699,smart-contract-sanctuary-ethereum/contracts/mainnet/d4/d4a3cb9d6b18c1c06a981585720a59cb92505699_QuantumGoldDAO.sol
-71.12,70.90,0x70d91bafc49de2b132aae5766a5d13656f9efbbd,smart-contract-sanctuary-ethereum/contracts/mainnet/70/70d91bafc49de2b132aae5766a5d13656f9efbbd_QWoodDAO.sol

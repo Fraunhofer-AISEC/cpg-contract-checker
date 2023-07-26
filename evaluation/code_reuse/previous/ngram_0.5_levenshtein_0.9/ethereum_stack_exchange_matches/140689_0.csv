@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-97.24,94.65,0x5c671b7ea7fc0633fb7fc3df046deb38a4f3cc44,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5c671b7ea7fc0633fb7fc3df046deb38a4f3cc44_CallistoBridge.sol
-97.24,94.65,0x150db41d9b5a4deec83b25f045a641763b6ec8f1,smart-contract-sanctuary-ethereum/contracts/mainnet/15/150db41d9b5a4deec83b25f045a641763b6ec8f1_CallistoBridge.sol
-97.24,94.65,0x942a07c8199ff548542f65b7ec7bf8dc0d7e8596,smart-contract-sanctuary-ethereum/contracts/mainnet/94/942a07c8199ff548542f65b7ec7bf8dc0d7e8596_CallistoBridge.sol
+97.24,94.65,0x5c671b7ea7fc0633fb7fc3df046deb38a4f3cc44,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5c671b7ea7fc0633fb7fc3df046deb38a4f3cc44_CallistoBridge.sol
+97.24,94.65,0x942a07c8199ff548542f65b7ec7bf8dc0d7e8596,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/94/942a07c8199ff548542f65b7ec7bf8dc0d7e8596_CallistoBridge.sol
+97.24,94.65,0x150db41d9b5a4deec83b25f045a641763b6ec8f1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/15/150db41d9b5a4deec83b25f045a641763b6ec8f1_CallistoBridge.sol

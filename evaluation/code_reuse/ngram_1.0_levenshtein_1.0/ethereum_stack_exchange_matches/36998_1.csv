@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x9d3053e598b3332dde14825c03141dc32eab4e77,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d3053e598b3332dde14825c03141dc32eab4e77_Crowdsale.sol
-100.00,100.00,0x6f7d68ae5ecc966ff4415197de4756211deda0ff,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6f7d68ae5ecc966ff4415197de4756211deda0ff_Crowdsale.sol
-100.00,100.00,0xd25cd68fd05176d6188c55eed8e2f079158b6237,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d25cd68fd05176d6188c55eed8e2f079158b6237_Crowdsale.sol
+100.00,100.00,0x6f7d68ae5ecc966ff4415197de4756211deda0ff,smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6f7d68ae5ecc966ff4415197de4756211deda0ff_Crowdsale.sol
+100.00,100.00,0xd25cd68fd05176d6188c55eed8e2f079158b6237,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d25cd68fd05176d6188c55eed8e2f079158b6237_Crowdsale.sol
+100.00,100.00,0x9d3053e598b3332dde14825c03141dc32eab4e77,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d3053e598b3332dde14825c03141dc32eab4e77_Crowdsale.sol

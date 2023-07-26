@@ -1,2 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x8f5044d55bcdd79b8ab5b137b918307fce13378c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8f5044d55bcdd79b8ab5b137b918307fce13378c_TREETOKEN.sol
+100.00,100.00,0x8f5044d55bcdd79b8ab5b137b918307fce13378c,smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8f5044d55bcdd79b8ab5b137b918307fce13378c_TREETOKEN.sol
+100.00,100.00,0x725327faaf837e843b6ca0ec867a4f0f67f18f24,smart-contract-sanctuary-ethereum/contracts/mainnet/72/725327faaf837e843b6ca0ec867a4f0f67f18f24_BYN.sol
+100.00,100.00,0x7f7584465ab12b67ecefe8fde6e799c16d1ae273,smart-contract-sanctuary-ethereum/contracts/mainnet/7f/7f7584465ab12b67ecefe8fde6e799c16d1ae273_Fricacoin.sol
+100.00,100.00,0xf6b76452f7f4c48663a37f933b2a5b5a3aa7c6c7,smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6b76452f7f4c48663a37f933b2a5b5a3aa7c6c7_GcoinProto.sol
+100.00,100.00,0xb2be0a05475e095c35fa41e77c54b35492160714,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b2be0a05475e095c35fa41e77c54b35492160714_BYN.sol

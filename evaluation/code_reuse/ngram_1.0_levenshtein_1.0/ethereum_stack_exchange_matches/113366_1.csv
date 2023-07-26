@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xeBd8065CbBe0C13917a0E31FE1F85D91649E2244,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eBd8065CbBe0C13917a0E31FE1F85D91649E2244_contracts_feeCharger_VELOFeeCharger.sol
-100.00,100.00,0x98ad9B32dD10f8D8486927D846D4Df8BAf39Abe2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/98/98ad9B32dD10f8D8486927D846D4Df8BAf39Abe2_contracts_feeCharger_VELOFeeCharger.sol
-100.00,100.00,0xe9bDA17C6667623F47Afff9b4a2b6e754Fe8d5D9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e9bDA17C6667623F47Afff9b4a2b6e754Fe8d5D9_contracts_feeCharger_VELOFeeCharger.sol
-100.00,100.00,0x7357397c090F5ac0Ab4b1194020dB94F77c4D4da,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/73/7357397c090F5ac0Ab4b1194020dB94F77c4D4da_MSPT.sol
-100.00,100.00,0x7cdc6bb9534f18e6e532b37f4cbcf90bd641e73b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7cdc6bb9534f18e6e532b37f4cbcf90bd641e73b_Crowdsale.sol
+100.00,100.00,0x98ad9B32dD10f8D8486927D846D4Df8BAf39Abe2,smart-contract-sanctuary-ethereum/contracts/mainnet/98/98ad9B32dD10f8D8486927D846D4Df8BAf39Abe2_contracts_feeCharger_VELOFeeCharger.sol
+100.00,100.00,0xeBd8065CbBe0C13917a0E31FE1F85D91649E2244,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eBd8065CbBe0C13917a0E31FE1F85D91649E2244_contracts_feeCharger_VELOFeeCharger.sol
+100.00,100.00,0xe9bDA17C6667623F47Afff9b4a2b6e754Fe8d5D9,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e9bDA17C6667623F47Afff9b4a2b6e754Fe8d5D9_contracts_feeCharger_VELOFeeCharger.sol
+100.00,100.00,0x7357397c090F5ac0Ab4b1194020dB94F77c4D4da,smart-contract-sanctuary-ethereum/contracts/mainnet/73/7357397c090F5ac0Ab4b1194020dB94F77c4D4da_MSPT.sol
+100.00,100.00,0x7cdc6bb9534f18e6e532b37f4cbcf90bd641e73b,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7cdc6bb9534f18e6e532b37f4cbcf90bd641e73b_Crowdsale.sol

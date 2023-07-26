@@ -1,7 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x2CE34b1bb247f242f1d2A33811E01138968EFBFF,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2CE34b1bb247f242f1d2A33811E01138968EFBFF_CRVStrategyStableMainnet.sol
-100.00,100.00,0x1C47343eA7135c2bA3B2d24202AD960aDaFAa81c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1C47343eA7135c2bA3B2d24202AD960aDaFAa81c_CRVStrategyStableMainnet.sol
-100.00,100.00,0xa2bd15c3611caa3e7d492a7feaf5f5181553897c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a2bd15c3611caa3e7d492a7feaf5f5181553897c_CRVStrategyStableMainnet.sol
-100.00,100.00,0x9D356Fda8437f7c7B6A4BC84466a98A4A6Eec462,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9D356Fda8437f7c7B6A4BC84466a98A4A6Eec462_CRVStrategyStableMainnet.sol
-100.00,100.00,0x810B83fC33E6f5dA9Be9AE5dd0F918338e980938,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/81/810B83fC33E6f5dA9Be9AE5dd0F918338e980938_CRVStrategyStableMainnet.sol
-100.00,100.00,0x801f300cb81db5bb2f3d7a29d03f766650ad770d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/80/801f300cb81db5bb2f3d7a29d03f766650ad770d_CRVStrategyStableMainnet.sol
+100.00,100.00,0x2CE34b1bb247f242f1d2A33811E01138968EFBFF,smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2CE34b1bb247f242f1d2A33811E01138968EFBFF_CRVStrategyStableMainnet.sol
+100.00,100.00,0x1C47343eA7135c2bA3B2d24202AD960aDaFAa81c,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1C47343eA7135c2bA3B2d24202AD960aDaFAa81c_CRVStrategyStableMainnet.sol
+100.00,100.00,0xa2bd15c3611caa3e7d492a7feaf5f5181553897c,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a2bd15c3611caa3e7d492a7feaf5f5181553897c_CRVStrategyStableMainnet.sol
+100.00,100.00,0x9D356Fda8437f7c7B6A4BC84466a98A4A6Eec462,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9D356Fda8437f7c7B6A4BC84466a98A4A6Eec462_CRVStrategyStableMainnet.sol
+100.00,100.00,0x810B83fC33E6f5dA9Be9AE5dd0F918338e980938,smart-contract-sanctuary-ethereum/contracts/mainnet/81/810B83fC33E6f5dA9Be9AE5dd0F918338e980938_CRVStrategyStableMainnet.sol
+100.00,100.00,0x801f300cb81db5bb2f3d7a29d03f766650ad770d,smart-contract-sanctuary-ethereum/contracts/mainnet/80/801f300cb81db5bb2f3d7a29d03f766650ad770d_CRVStrategyStableMainnet.sol

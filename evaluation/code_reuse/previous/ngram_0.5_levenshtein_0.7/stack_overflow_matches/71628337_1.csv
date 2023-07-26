@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-74.47,70.69,0x22fd5f761d1e49b8b56f86d2dba5aaf311d800d6,smart-contract-sanctuary-ethereum/contracts/mainnet/22/22fd5f761d1e49b8b56f86d2dba5aaf311d800d6_MysteryBoxToken.sol
-74.47,72.73,0xCcDF1373040D9Ca4B5BE1392d1945C1DaE4a862c,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/CcDF1373040D9Ca4B5BE1392d1945C1DaE4a862c_RoadsToDreams.sol
-72.34,70.69,0xd796a8754D7bc88EF6258E48d1D0Fc2Af0e533c7,smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d796a8754D7bc88EF6258E48d1D0Fc2Af0e533c7_TccBuyer.sol

@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-90.91,95.83,0x6a71b9e9b907b6f3a09a641dbdda06886a47fd26,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6a71b9e9b907b6f3a09a641dbdda06886a47fd26_BFF.sol
-90.91,95.83,0x084FE7aa7B09e539eCBAD29dBCE00fcE1aEaB183,smart-contract-sanctuary-ethereum/contracts/mainnet/08/084FE7aa7B09e539eCBAD29dBCE00fcE1aEaB183_BFF.sol
-81.82,73.08,0xbA7F5a804b11c1497f778656A19bC0D67F20dF95,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/bA7F5a804b11c1497f778656A19bC0D67F20dF95_InterswapBuffer.sol
-81.82,75.00,0x0FBA3630ddf56457D3fFC2864f260fbE73167f42,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0FBA3630ddf56457D3fFC2864f260fbE73167f42_TransmuterBuffer.sol
-81.82,75.00,0x4370675aB54fc710A27e29Ea2BB5563468b5948f,smart-contract-sanctuary-ethereum/contracts/mainnet/43/4370675aB54fc710A27e29Ea2BB5563468b5948f_TransmuterBuffer.sol
-81.82,75.00,0xAD2A6C1C6025bE8C703930dCd921a2Fa25220298,smart-contract-sanctuary-ethereum/contracts/mainnet/ad/AD2A6C1C6025bE8C703930dCd921a2Fa25220298_TransmuterV2.sol
-77.27,75.00,0x15a23eee2988a54e1a6b326fd469c94bed98ae5a,smart-contract-sanctuary-ethereum/contracts/mainnet/15/15a23eee2988a54e1a6b326fd469c94bed98ae5a_MichCoin.sol

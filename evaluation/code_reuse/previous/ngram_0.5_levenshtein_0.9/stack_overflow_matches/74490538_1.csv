@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xe4a83523edde40a2ad14f7841ffd1a7e75ee48b2,smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e4a83523edde40a2ad14f7841ffd1a7e75ee48b2_CubismCanvas.sol
-91.67,94.87,0xaf9CE4B327A3b690ABEA6F78eCCBfeFFfbEa9FDf,smart-contract-sanctuary-ethereum/contracts/mainnet/af/af9CE4B327A3b690ABEA6F78eCCBfeFFfbEa9FDf_SyntheticPunks.sol
-91.67,94.87,0xb5217ded19f081f0176c8522548fdcf62eeba790,smart-contract-sanctuary-ethereum/contracts/mainnet/b5/b5217ded19f081f0176c8522548fdcf62eeba790_MadMangaFOMOStone.sol
-91.67,94.87,0x3cab982c10ca41f1a1992815b9185375c472cedc,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3cab982c10ca41f1a1992815b9185375c472cedc_MadMangaFOMOStone.sol
+100.00,100.00,0xe4a83523edde40a2ad14f7841ffd1a7e75ee48b2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e4a83523edde40a2ad14f7841ffd1a7e75ee48b2_CubismCanvas.sol
+91.67,94.87,0xaf9CE4B327A3b690ABEA6F78eCCBfeFFfbEa9FDf,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/af/af9CE4B327A3b690ABEA6F78eCCBfeFFfbEa9FDf_SyntheticPunks.sol
+91.67,94.87,0x3cab982c10ca41f1a1992815b9185375c472cedc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3cab982c10ca41f1a1992815b9185375c472cedc_MadMangaFOMOStone.sol
+91.67,94.87,0xb5217ded19f081f0176c8522548fdcf62eeba790,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b5/b5217ded19f081f0176c8522548fdcf62eeba790_MadMangaFOMOStone.sol

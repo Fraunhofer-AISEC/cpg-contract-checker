@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-97.24,95.19,0x1Ff57F8DC8618618240A1867c61Ca467021C9f80,smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1Ff57F8DC8618618240A1867c61Ca467021C9f80_SwapTest.sol
-96.13,91.35,0x2f00765410833f80a6b0e13a00b8bfe0a2001aa1,smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2f00765410833f80a6b0e13a00b8bfe0a2001aa1_CryptoSwapper.sol
-92.27,90.62,0xaf61B950A3D2e6518AC488c05183eC08452fA46a,smart-contract-sanctuary-ethereum/contracts/mainnet/af/af61B950A3D2e6518AC488c05183eC08452fA46a_TestUniswap.sol
+97.24,95.19,0x1Ff57F8DC8618618240A1867c61Ca467021C9f80,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1f/1Ff57F8DC8618618240A1867c61Ca467021C9f80_SwapTest.sol
+96.13,91.35,0x2f00765410833f80a6b0e13a00b8bfe0a2001aa1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2f/2f00765410833f80a6b0e13a00b8bfe0a2001aa1_CryptoSwapper.sol
+92.27,90.62,0xaf61B950A3D2e6518AC488c05183eC08452fA46a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/af/af61B950A3D2e6518AC488c05183eC08452fA46a_TestUniswap.sol

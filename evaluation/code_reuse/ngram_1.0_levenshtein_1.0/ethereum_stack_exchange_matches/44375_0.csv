@@ -1,7 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xd3Fe77Ca1661D01385C5e6C3D51f7Ee47CE08fdE,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d3/d3Fe77Ca1661D01385C5e6C3D51f7Ee47CE08fdE_Token.sol
-100.00,100.00,0x0d3124958093f17f9a5cb912b9adb7cf641b9c62,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d3124958093f17f9a5cb912b9adb7cf641b9c62_ExoCoin.sol
-100.00,100.00,0x287c5c26309cc514dadbbd88ba297934bdbac473,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/28/287c5c26309cc514dadbbd88ba297934bdbac473_Elonium.sol
-100.00,100.00,0x62ec24e85a833847b0d08ca524dd9873729db5f3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/62ec24e85a833847b0d08ca524dd9873729db5f3_KrautFunDing.sol
-100.00,100.00,0x6e5b9ef2126f0bdb13a4654df8623f4be1848f1d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6e/6e5b9ef2126f0bdb13a4654df8623f4be1848f1d_GOLD_TOKEN_100.sol
-100.00,100.00,0xa163a2ad76f89566bbf420031a9846bf8e9401b5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a163a2ad76f89566bbf420031a9846bf8e9401b5_Tcoin.sol
+100.00,100.00,0xd3Fe77Ca1661D01385C5e6C3D51f7Ee47CE08fdE,smart-contract-sanctuary-ethereum/contracts/mainnet/d3/d3Fe77Ca1661D01385C5e6C3D51f7Ee47CE08fdE_Token.sol
+100.00,100.00,0xa163a2ad76f89566bbf420031a9846bf8e9401b5,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a163a2ad76f89566bbf420031a9846bf8e9401b5_Tcoin.sol
+100.00,100.00,0x6e5b9ef2126f0bdb13a4654df8623f4be1848f1d,smart-contract-sanctuary-ethereum/contracts/mainnet/6e/6e5b9ef2126f0bdb13a4654df8623f4be1848f1d_GOLD_TOKEN_100.sol
+100.00,100.00,0x0d3124958093f17f9a5cb912b9adb7cf641b9c62,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d3124958093f17f9a5cb912b9adb7cf641b9c62_ExoCoin.sol
+100.00,100.00,0x287c5c26309cc514dadbbd88ba297934bdbac473,smart-contract-sanctuary-ethereum/contracts/mainnet/28/287c5c26309cc514dadbbd88ba297934bdbac473_Elonium.sol
+100.00,100.00,0x62ec24e85a833847b0d08ca524dd9873729db5f3,smart-contract-sanctuary-ethereum/contracts/mainnet/62/62ec24e85a833847b0d08ca524dd9873729db5f3_KrautFunDing.sol

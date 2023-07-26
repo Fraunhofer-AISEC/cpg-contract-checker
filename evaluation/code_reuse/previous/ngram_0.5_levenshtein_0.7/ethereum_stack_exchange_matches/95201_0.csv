@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-97.33,71.71,0x6b6e9ae0262337d33cbfbd6008c6a2335dc63cfa,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6b6e9ae0262337d33cbfbd6008c6a2335dc63cfa_APIConsumer.sol
-96.67,81.58,0x66f2b991387732584858cd9e2f9ee4bae4e5ecd2,smart-contract-sanctuary-ethereum/contracts/mainnet/66/66f2b991387732584858cd9e2f9ee4bae4e5ecd2_TruflationIndicator.sol
-95.33,79.17,0x2022b1c3d10ccc7ccae72d848c4e545a26b74aad,smart-contract-sanctuary-ethereum/contracts/mainnet/20/2022b1c3d10ccc7ccae72d848c4e545a26b74aad_TfiExample.sol
-91.33,73.51,0x8497b661d54c22229f017b8ce7700ba1c728dd70,smart-contract-sanctuary-ethereum/contracts/mainnet/84/8497b661d54c22229f017b8ce7700ba1c728dd70_Climate.sol
-89.33,75.66,0xEEC8109730111fE1f17D55a814e831A1a211E3a7,smart-contract-sanctuary-ethereum/contracts/mainnet/ee/EEC8109730111fE1f17D55a814e831A1a211E3a7_SportFeed.sol
-89.33,76.32,0xf0D684586F347A6Be3487f3ec4Dc1C7BC1617304,smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0D684586F347A6Be3487f3ec4Dc1C7BC1617304_SportFeedOracleInstance.sol

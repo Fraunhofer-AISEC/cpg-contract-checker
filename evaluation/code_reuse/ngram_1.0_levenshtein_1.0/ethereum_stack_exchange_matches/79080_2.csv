@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x62baada255c752f27877693ce83dcdb5d73d52b8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/62baada255c752f27877693ce83dcdb5d73d52b8_FlyingCashToken.sol
-100.00,100.00,0x55b4b25f50b5954faf52c4e3ff6a6824216c7461,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/55/55b4b25f50b5954faf52c4e3ff6a6824216c7461_HKDFToken.sol
-100.00,100.00,0xe470a51d750cff9e74252441b89b625121475049,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e470a51d750cff9e74252441b89b625121475049_AUDFToken.sol
-100.00,100.00,0xA0B8eFCE9eE02a4f62aF27D5eeA63040fad35DEC,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a0/A0B8eFCE9eE02a4f62aF27D5eeA63040fad35DEC_FullTokenContract.sol
-100.00,100.00,0x8c82039a7bf7a7bc75a12ba2f50ddd860f9a756c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c82039a7bf7a7bc75a12ba2f50ddd860f9a756c_TsunamiPayCoinUSD.sol
+100.00,100.00,0x62baada255c752f27877693ce83dcdb5d73d52b8,smart-contract-sanctuary-ethereum/contracts/mainnet/62/62baada255c752f27877693ce83dcdb5d73d52b8_FlyingCashToken.sol
+100.00,100.00,0xA0B8eFCE9eE02a4f62aF27D5eeA63040fad35DEC,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/A0B8eFCE9eE02a4f62aF27D5eeA63040fad35DEC_FullTokenContract.sol
+100.00,100.00,0x55b4b25f50b5954faf52c4e3ff6a6824216c7461,smart-contract-sanctuary-ethereum/contracts/mainnet/55/55b4b25f50b5954faf52c4e3ff6a6824216c7461_HKDFToken.sol
+100.00,100.00,0x8c82039a7bf7a7bc75a12ba2f50ddd860f9a756c,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c82039a7bf7a7bc75a12ba2f50ddd860f9a756c_TsunamiPayCoinUSD.sol
+100.00,100.00,0xe470a51d750cff9e74252441b89b625121475049,smart-contract-sanctuary-ethereum/contracts/mainnet/e4/e470a51d750cff9e74252441b89b625121475049_AUDFToken.sol

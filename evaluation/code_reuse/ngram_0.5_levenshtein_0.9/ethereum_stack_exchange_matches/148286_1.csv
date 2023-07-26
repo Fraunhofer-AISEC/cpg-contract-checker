@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-97.30,96.21,0xca275ea9921d9693ba0fe489ed9bb58955538dea,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ca/ca275ea9921d9693ba0fe489ed9bb58955538dea_TwoKeyExchangeRateContract.sol
-94.59,96.10,0x2bB08e868f5fD578b3AB874d28C5715B0513b546,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2bB08e868f5fD578b3AB874d28C5715B0513b546_transferToken.sol
-89.19,95.78,0x7594fbef8f23f028e0904c0948853D6f6b4165C4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/75/7594fbef8f23f028e0904c0948853D6f6b4165C4_CompoundLendingStrategyMainnetUSDC.sol
-89.19,95.78,0x07b56315F558Df79ee15ffC70114c58F4C6232ba,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/07/07b56315F558Df79ee15ffC70114c58F4C6232ba_CompoundLendingStrategyMainnetUSDC.sol

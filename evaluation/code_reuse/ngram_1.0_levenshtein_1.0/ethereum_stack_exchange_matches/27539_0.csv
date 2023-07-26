@@ -1,10 +1,10 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xD0E858368D0Bc574aB25fAaA7e79bA4a7539C5b3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d0/D0E858368D0Bc574aB25fAaA7e79bA4a7539C5b3_BitGCoin.sol
-100.00,100.00,0x9d3310e13a1D8fd38ab4e58eEbEc2f3594ecDAa1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d3310e13a1D8fd38ab4e58eEbEc2f3594ecDAa1_MyToken.sol
-100.00,100.00,0x9da069db21d27fd9040328f7bebf1941d8c2d7a0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9da069db21d27fd9040328f7bebf1941d8c2d7a0_BChain.sol
-100.00,100.00,0xfce5f3b672d13f0f66a4cb7fb46741e5a854413d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fce5f3b672d13f0f66a4cb7fb46741e5a854413d_MyToken.sol
-100.00,100.00,0xbaf8691279a5a863a51e6ebdacce90973a93ba67,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ba/baf8691279a5a863a51e6ebdacce90973a93ba67_Licensium.sol
-100.00,100.00,0xC50948bac01116F246259070Ea6084C04649efDF,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c5/C50948bac01116F246259070Ea6084C04649efDF_MyToken.sol
-100.00,100.00,0x99c7361f4f86a5a179ea35fed9ebf02e95fec0ed,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/99/99c7361f4f86a5a179ea35fed9ebf02e95fec0ed_LENRCoin.sol
-100.00,100.00,0xf6f7b7ab9cb5bc3da86cb59b75e8475faa0113c7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6f7b7ab9cb5bc3da86cb59b75e8475faa0113c7_MyToken.sol
-100.00,100.00,0x2ccdcfe7cc79174417480463ed429e7e48fd8341,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2ccdcfe7cc79174417480463ed429e7e48fd8341_LENRCoin.sol
+100.00,100.00,0xD0E858368D0Bc574aB25fAaA7e79bA4a7539C5b3,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/D0E858368D0Bc574aB25fAaA7e79bA4a7539C5b3_BitGCoin.sol
+100.00,100.00,0x99c7361f4f86a5a179ea35fed9ebf02e95fec0ed,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99c7361f4f86a5a179ea35fed9ebf02e95fec0ed_LENRCoin.sol
+100.00,100.00,0xC50948bac01116F246259070Ea6084C04649efDF,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/C50948bac01116F246259070Ea6084C04649efDF_MyToken.sol
+100.00,100.00,0x2ccdcfe7cc79174417480463ed429e7e48fd8341,smart-contract-sanctuary-ethereum/contracts/mainnet/2c/2ccdcfe7cc79174417480463ed429e7e48fd8341_LENRCoin.sol
+100.00,100.00,0xf6f7b7ab9cb5bc3da86cb59b75e8475faa0113c7,smart-contract-sanctuary-ethereum/contracts/mainnet/f6/f6f7b7ab9cb5bc3da86cb59b75e8475faa0113c7_MyToken.sol
+100.00,100.00,0xfce5f3b672d13f0f66a4cb7fb46741e5a854413d,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/fce5f3b672d13f0f66a4cb7fb46741e5a854413d_MyToken.sol
+100.00,100.00,0x9d3310e13a1D8fd38ab4e58eEbEc2f3594ecDAa1,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d3310e13a1D8fd38ab4e58eEbEc2f3594ecDAa1_MyToken.sol
+100.00,100.00,0x9da069db21d27fd9040328f7bebf1941d8c2d7a0,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9da069db21d27fd9040328f7bebf1941d8c2d7a0_BChain.sol
+100.00,100.00,0xbaf8691279a5a863a51e6ebdacce90973a93ba67,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/baf8691279a5a863a51e6ebdacce90973a93ba67_Licensium.sol

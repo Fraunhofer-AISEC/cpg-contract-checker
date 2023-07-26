@@ -1,9 +1,9 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x73281c0c4325d714408712b7313d5b6e87bd00e7,smart-contract-sanctuary-ethereum/contracts/mainnet/73/73281c0c4325d714408712b7313d5b6e87bd00e7_BigchainToken.sol
-100.00,100.00,0x0d63b3c752b6ca7fb966fec55655616fc8239fcd,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d63b3c752b6ca7fb966fec55655616fc8239fcd_TRADELOANTokenFundraiser.sol
-100.00,100.00,0xa2c5256d3eb2a3706a4aa9cb096c33181c0d0ca2,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a2c5256d3eb2a3706a4aa9cb096c33181c0d0ca2_FAVOURTokenFundraiser.sol
-100.00,100.00,0x7e22ca9892e0c87a2a30d3fa2958a1bde5a0ce92,smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7e22ca9892e0c87a2a30d3fa2958a1bde5a0ce92_MELTTokenFundraiser.sol
-100.00,100.00,0x89f01d9f53ff7bbf1111bd25be651b4751c300a1,smart-contract-sanctuary-ethereum/contracts/mainnet/89/89f01d9f53ff7bbf1111bd25be651b4751c300a1_AdultXTokenFundraiser.sol
-100.00,100.00,0x78bce8a5f5227b6aa5d1c517b7b7da0e51082bd4,smart-contract-sanctuary-ethereum/contracts/mainnet/78/78bce8a5f5227b6aa5d1c517b7b7da0e51082bd4_HOWTokenFundraiser.sol
-100.00,100.00,0xd166d58c086e086ba95113400ed7d021f11e78b7,smart-contract-sanctuary-ethereum/contracts/mainnet/d1/d166d58c086e086ba95113400ed7d021f11e78b7_HOWTokenFundraiser.sol
-100.00,100.00,0x839d06efaa98229f41792cdcf9e9aeb0a300d537,smart-contract-sanctuary-ethereum/contracts/mainnet/83/839d06efaa98229f41792cdcf9e9aeb0a300d537_HOWTokenFundraiser.sol
+100.00,100.00,0x73281c0c4325d714408712b7313d5b6e87bd00e7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/73/73281c0c4325d714408712b7313d5b6e87bd00e7_BigchainToken.sol
+100.00,100.00,0xa2c5256d3eb2a3706a4aa9cb096c33181c0d0ca2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a2c5256d3eb2a3706a4aa9cb096c33181c0d0ca2_FAVOURTokenFundraiser.sol
+100.00,100.00,0x0d63b3c752b6ca7fb966fec55655616fc8239fcd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d63b3c752b6ca7fb966fec55655616fc8239fcd_TRADELOANTokenFundraiser.sol
+100.00,100.00,0x7e22ca9892e0c87a2a30d3fa2958a1bde5a0ce92,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7e22ca9892e0c87a2a30d3fa2958a1bde5a0ce92_MELTTokenFundraiser.sol
+100.00,100.00,0x89f01d9f53ff7bbf1111bd25be651b4751c300a1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/89/89f01d9f53ff7bbf1111bd25be651b4751c300a1_AdultXTokenFundraiser.sol
+100.00,100.00,0xd166d58c086e086ba95113400ed7d021f11e78b7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d1/d166d58c086e086ba95113400ed7d021f11e78b7_HOWTokenFundraiser.sol
+100.00,100.00,0x839d06efaa98229f41792cdcf9e9aeb0a300d537,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/83/839d06efaa98229f41792cdcf9e9aeb0a300d537_HOWTokenFundraiser.sol
+100.00,100.00,0x78bce8a5f5227b6aa5d1c517b7b7da0e51082bd4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/78/78bce8a5f5227b6aa5d1c517b7b7da0e51082bd4_HOWTokenFundraiser.sol

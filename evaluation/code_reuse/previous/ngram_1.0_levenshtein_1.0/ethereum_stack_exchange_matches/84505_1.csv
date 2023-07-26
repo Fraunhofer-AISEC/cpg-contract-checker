@@ -1,1 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x1752190e9d4c7b22bf6ed379f43255af1aa45d27,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/17/1752190e9d4c7b22bf6ed379f43255af1aa45d27_FiatTokenV1.sol
+100.00,100.00,0x0882477e7895bdc5cea7cb1552ed914ab157fe56,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/08/0882477e7895bdc5cea7cb1552ed914ab157fe56_FiatTokenV1.sol
+100.00,100.00,0x837510313085a492562bbc3d6fbbbd1850546583,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/83/837510313085a492562bbc3d6fbbbd1850546583_NGNB.sol
+100.00,100.00,0x91b802383c86b0c34ce5b48a9b320caeb46606da,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/91/91b802383c86b0c34ce5b48a9b320caeb46606da_USDB.sol
+100.00,100.00,0x5f88d1a517b670a14ded5d0cf8b3d37e554d977b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5f/5f88d1a517b670a14ded5d0cf8b3d37e554d977b_FiatTokenV2.sol

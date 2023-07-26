@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x38abf4997e28d04a60a4a749b7467e39266e21f0,smart-contract-sanctuary-ethereum/contracts/mainnet/38/38abf4997e28d04a60a4a749b7467e39266e21f0_asses.sol
-100.00,100.00,0xf28c387c5782c0ffb58e11b118b33ae56533b28c,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f28c387c5782c0ffb58e11b118b33ae56533b28c_AMBLE_DAO.sol
-75.00,90.91,0xdeb4637d8078395514b891b8c8bff4b77989c1af,smart-contract-sanctuary-ethereum/contracts/mainnet/de/deb4637d8078395514b891b8c8bff4b77989c1af_WOAALIAS.sol
+100.00,100.00,0x38abf4997e28d04a60a4a749b7467e39266e21f0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/38/38abf4997e28d04a60a4a749b7467e39266e21f0_asses.sol
+100.00,100.00,0xf28c387c5782c0ffb58e11b118b33ae56533b28c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f2/f28c387c5782c0ffb58e11b118b33ae56533b28c_AMBLE_DAO.sol
+75.00,90.91,0xdeb4637d8078395514b891b8c8bff4b77989c1af,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/de/deb4637d8078395514b891b8c8bff4b77989c1af_WOAALIAS.sol

@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xa916d786e90d81dc7e41751d0201c87548a231d4,smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a916d786e90d81dc7e41751d0201c87548a231d4_threeToken.sol
-100.00,100.00,0xfe969530C92dDdf26625acE255A64A5a58f388D1,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe969530C92dDdf26625acE255A64A5a58f388D1_EsgSHIP.sol
-100.00,100.00,0x66057c96E03D057Da745C3F36A033e877d5A341a,smart-contract-sanctuary-ethereum/contracts/mainnet/66/66057c96E03D057Da745C3F36A033e877d5A341a_EsgSHIP.sol
-100.00,100.00,0x1a988d2891D81701D348B9CDf482d2443228285e,smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1a988d2891D81701D348B9CDf482d2443228285e_EsgSHIP.sol
-100.00,100.00,0xcBBCba58D851D7bee2dEB14E0f47151a77De064E,smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cBBCba58D851D7bee2dEB14E0f47151a77De064E_Oracle.sol
+100.00,100.00,0xa916d786e90d81dc7e41751d0201c87548a231d4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a9/a916d786e90d81dc7e41751d0201c87548a231d4_threeToken.sol
+100.00,100.00,0x66057c96E03D057Da745C3F36A033e877d5A341a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/66/66057c96E03D057Da745C3F36A033e877d5A341a_EsgSHIP.sol
+100.00,100.00,0xfe969530C92dDdf26625acE255A64A5a58f388D1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe969530C92dDdf26625acE255A64A5a58f388D1_EsgSHIP.sol
+100.00,100.00,0x1a988d2891D81701D348B9CDf482d2443228285e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1a988d2891D81701D348B9CDf482d2443228285e_EsgSHIP.sol
+100.00,100.00,0xcBBCba58D851D7bee2dEB14E0f47151a77De064E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cBBCba58D851D7bee2dEB14E0f47151a77De064E_Oracle.sol

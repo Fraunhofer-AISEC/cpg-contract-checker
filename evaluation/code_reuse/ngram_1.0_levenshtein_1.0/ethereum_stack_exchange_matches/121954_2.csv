@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xb399c0e0A3D8a60921c542227d05b78C1E1FE3fC,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b399c0e0A3D8a60921c542227d05b78C1E1FE3fC_RewardToken.sol
-100.00,100.00,0x4544c6d225dd5e643f71535c4b7b1f5107d2c043,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/45/4544c6d225dd5e643f71535c4b7b1f5107d2c043_RewardToken.sol
-100.00,100.00,0xfa30f8e110465056af8d2c3cf30b757ae061e9a2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa30f8e110465056af8d2c3cf30b757ae061e9a2_FrenToken.sol
-100.00,100.00,0x8e5361a7DD2bDa339015cDfcd8B6Fa8252AF588C,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8e5361a7DD2bDa339015cDfcd8B6Fa8252AF588C_Token.sol
-100.00,100.00,0xF7Bc0038579B0E452F2E7952BFc9fD0086298DeA,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f7/F7Bc0038579B0E452F2E7952BFc9fD0086298DeA_Token.sol
+100.00,100.00,0x4544c6d225dd5e643f71535c4b7b1f5107d2c043,smart-contract-sanctuary-ethereum/contracts/mainnet/45/4544c6d225dd5e643f71535c4b7b1f5107d2c043_RewardToken.sol
+100.00,100.00,0xb399c0e0A3D8a60921c542227d05b78C1E1FE3fC,smart-contract-sanctuary-ethereum/contracts/mainnet/b3/b399c0e0A3D8a60921c542227d05b78C1E1FE3fC_RewardToken.sol
+100.00,100.00,0xfa30f8e110465056af8d2c3cf30b757ae061e9a2,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa30f8e110465056af8d2c3cf30b757ae061e9a2_FrenToken.sol
+100.00,100.00,0x8e5361a7DD2bDa339015cDfcd8B6Fa8252AF588C,smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8e5361a7DD2bDa339015cDfcd8B6Fa8252AF588C_Token.sol
+100.00,100.00,0xF7Bc0038579B0E452F2E7952BFc9fD0086298DeA,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/F7Bc0038579B0E452F2E7952BFc9fD0086298DeA_Token.sol

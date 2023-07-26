@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-84.31,70.04,0x3dc4BE2B39E929f086aDa8bf956F24c848fbde45,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3dc4BE2B39E929f086aDa8bf956F24c848fbde45_Token.sol
-84.31,70.04,0xa7D81c86F9934b56Dd00FA826C319330D628d31F,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a7D81c86F9934b56Dd00FA826C319330D628d31F_Token.sol
-82.35,73.08,0x15d92e219cfe22b7515dd6d1cf5a6a65a4e2acf1,smart-contract-sanctuary-ethereum/contracts/mainnet/15/15d92e219cfe22b7515dd6d1cf5a6a65a4e2acf1_BinaryOptionV2.sol
-82.35,73.08,0x109f913c33f3b15023b36714caa2be6c0daded01,smart-contract-sanctuary-ethereum/contracts/mainnet/10/109f913c33f3b15023b36714caa2be6c0daded01_BinaryOptionV2.sol
-80.39,73.08,0x6b49586597da3742f4224a13495ca91add35639e,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6b49586597da3742f4224a13495ca91add35639e_NamiTradeDai.sol
-78.43,73.08,0x3e6eb90d362535fb073e5723709a9ea449cdd6cd,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3e6eb90d362535fb073e5723709a9ea449cdd6cd_NamiMarket.sol

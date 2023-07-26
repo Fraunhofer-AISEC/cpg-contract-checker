@@ -1,1 +1,10 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xd75a3e27ce57bb7738d3b0c47b88f76f423eb056,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d75a3e27ce57bb7738d3b0c47b88f76f423eb056_TokenPorter.sol
+100.00,100.00,0x686e5ac50d9236a9b7406791256e47feddb26aba,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/68/686e5ac50d9236a9b7406791256e47feddb26aba_AutonomousConverter.sol
+100.00,100.00,0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a3d58c4e56fedcae3a7c43a725aee9a71f0ece4e_METToken.sol
+100.00,100.00,0x68c4b7d05fae45bcb6192bb93e246c77e98360e1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/68/68c4b7d05fae45bcb6192bb93e246c77e98360e1_Proceeds.sol
+100.00,100.00,0x9d9bcdd249e439aaab545f59a33812e39a8e3072,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d9bcdd249e439aaab545f59a33812e39a8e3072_Auctions.sol
+100.00,100.00,0xa5474b3ee0f86f75528b525c37440d61665f93c4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a5/a5474b3ee0f86f75528b525c37440d61665f93c4_Validator.sol
+100.00,100.00,0x8710e1a2d187f7c7259699642d77ea7aad97be76,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/87/8710e1a2d187f7c7259699642d77ea7aad97be76_TokenLocker.sol
+100.00,100.00,0x3f559999d3cd004dfc23db22c9c24ff24d88afee,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3f559999d3cd004dfc23db22c9c24ff24d88afee_ChainLedger.sol
+100.00,100.00,0xb9a824e6dc289c57fac91c16c77e37666cce20e5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b9a824e6dc289c57fac91c16c77e37666cce20e5_SmartToken.sol

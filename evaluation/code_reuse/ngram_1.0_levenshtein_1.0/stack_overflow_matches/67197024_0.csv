@@ -1,14 +1,14 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x4baa1614c9f57367a9abf63027b9341ea4042a20,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4b/4baa1614c9f57367a9abf63027b9341ea4042a20_DOGEMEX_Token.sol
-100.00,100.00,0xbd055c46d0dcd3787a23b1114137f250ee5de0d1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd055c46d0dcd3787a23b1114137f250ee5de0d1_flashItGen.sol
-100.00,100.00,0x348be36ede74bec12cca1d76167cac5380718124,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/34/348be36ede74bec12cca1d76167cac5380718124_TradeScanner.sol
-100.00,100.00,0x0d7da77d21ef60310218de6d7ddde38403e80941,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d7da77d21ef60310218de6d7ddde38403e80941_UniswapTradeExample.sol
-100.00,100.00,0x86a034a269a99fce1a4d6251096d65f1bd196ff4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/86a034a269a99fce1a4d6251096d65f1bd196ff4_UniswapTradeExample.sol
-100.00,100.00,0x55547e83daf9ccf32762379e2f78677cfd8dcbb9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/55/55547e83daf9ccf32762379e2f78677cfd8dcbb9_UniswapTradeExample.sol
-100.00,100.00,0xaf8ef5de9a54e91d06b1ad9df69e2aa5dbf04ea4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/af/af8ef5de9a54e91d06b1ad9df69e2aa5dbf04ea4_UniswapTradeExample.sol
-100.00,100.00,0x6506d54e825da9cd7921459c17e76864276d8f09,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/65/6506d54e825da9cd7921459c17e76864276d8f09_UniswapTradeExample.sol
-100.00,100.00,0xb292bc29126316e3c230d262ef1c884496b8705a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b292bc29126316e3c230d262ef1c884496b8705a_TokenController.sol
-100.00,100.00,0x9e814db88c3bfc2361313736c914dc84bc1c0537,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e814db88c3bfc2361313736c914dc84bc1c0537_TechHives.sol
-100.00,100.00,0x5Cd0986d202962fe1825d7e13b536AE008E92248,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5Cd0986d202962fe1825d7e13b536AE008E92248_YeahTokenTransferProxy.sol
-100.00,100.00,0x5B932f07fd6E8fEbe913f70C913cD0D1FfD3a0A7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5B932f07fd6E8fEbe913f70C913cD0D1FfD3a0A7_OVOToken.sol
-100.00,100.00,0x8232875761b97a5242a4cffb94828dff5c101950,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/82/8232875761b97a5242a4cffb94828dff5c101950_OVOToken.sol
+100.00,100.00,0x4baa1614c9f57367a9abf63027b9341ea4042a20,smart-contract-sanctuary-ethereum/contracts/mainnet/4b/4baa1614c9f57367a9abf63027b9341ea4042a20_DOGEMEX_Token.sol
+100.00,100.00,0xbd055c46d0dcd3787a23b1114137f250ee5de0d1,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/bd055c46d0dcd3787a23b1114137f250ee5de0d1_flashItGen.sol
+100.00,100.00,0x348be36ede74bec12cca1d76167cac5380718124,smart-contract-sanctuary-ethereum/contracts/mainnet/34/348be36ede74bec12cca1d76167cac5380718124_TradeScanner.sol
+100.00,100.00,0x55547e83daf9ccf32762379e2f78677cfd8dcbb9,smart-contract-sanctuary-ethereum/contracts/mainnet/55/55547e83daf9ccf32762379e2f78677cfd8dcbb9_UniswapTradeExample.sol
+100.00,100.00,0xaf8ef5de9a54e91d06b1ad9df69e2aa5dbf04ea4,smart-contract-sanctuary-ethereum/contracts/mainnet/af/af8ef5de9a54e91d06b1ad9df69e2aa5dbf04ea4_UniswapTradeExample.sol
+100.00,100.00,0x86a034a269a99fce1a4d6251096d65f1bd196ff4,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86a034a269a99fce1a4d6251096d65f1bd196ff4_UniswapTradeExample.sol
+100.00,100.00,0x0d7da77d21ef60310218de6d7ddde38403e80941,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0d7da77d21ef60310218de6d7ddde38403e80941_UniswapTradeExample.sol
+100.00,100.00,0x6506d54e825da9cd7921459c17e76864276d8f09,smart-contract-sanctuary-ethereum/contracts/mainnet/65/6506d54e825da9cd7921459c17e76864276d8f09_UniswapTradeExample.sol
+100.00,100.00,0xb292bc29126316e3c230d262ef1c884496b8705a,smart-contract-sanctuary-ethereum/contracts/mainnet/b2/b292bc29126316e3c230d262ef1c884496b8705a_TokenController.sol
+100.00,100.00,0x5Cd0986d202962fe1825d7e13b536AE008E92248,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5Cd0986d202962fe1825d7e13b536AE008E92248_YeahTokenTransferProxy.sol
+100.00,100.00,0x9e814db88c3bfc2361313736c914dc84bc1c0537,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e814db88c3bfc2361313736c914dc84bc1c0537_TechHives.sol
+100.00,100.00,0x8232875761b97a5242a4cffb94828dff5c101950,smart-contract-sanctuary-ethereum/contracts/mainnet/82/8232875761b97a5242a4cffb94828dff5c101950_OVOToken.sol
+100.00,100.00,0x5B932f07fd6E8fEbe913f70C913cD0D1FfD3a0A7,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5B932f07fd6E8fEbe913f70C913cD0D1FfD3a0A7_OVOToken.sol

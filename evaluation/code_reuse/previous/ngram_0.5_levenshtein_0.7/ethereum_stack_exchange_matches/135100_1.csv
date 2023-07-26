@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-95.73,72.98,0x7cc0851af6dD95814897eBBae29c839101EdE5a3,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7cc0851af6dD95814897eBBae29c839101EdE5a3_VaultProtocol.sol
-95.73,72.98,0x7585d57F9DF2a9DD72eac9A58dACd8A1Cb362118,smart-contract-sanctuary-ethereum/contracts/mainnet/75/7585d57F9DF2a9DD72eac9A58dACd8A1Cb362118_VaultProtocol.sol
-95.73,72.98,0x2039F75baf0FbF1F7710C01AB98eBc6a3Af8529c,smart-contract-sanctuary-ethereum/contracts/mainnet/20/2039F75baf0FbF1F7710C01AB98eBc6a3Af8529c_VaultProtocol.sol
-88.89,73.92,0xfb840fe0857587910cf0ec1bdbdb4f356f3cd566,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fb840fe0857587910cf0ec1bdbdb4f356f3cd566_AltCrowdsalePhaseOne.sol
-88.89,73.92,0xb96f18ad5d26f7b86b969526c30385838dbf91d7,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b96f18ad5d26f7b86b969526c30385838dbf91d7_AltCrowdsalePhaseOne.sol
-81.20,71.15,0xcc6cc2f648686af73d1efbe7f9b7e4ae3566652a,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/cc6cc2f648686af73d1efbe7f9b7e4ae3566652a_ETH10K.sol

@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,92.59,0x25A3962Cf91F94C90FfbA2d0d1cc2217B26c2f22,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/25/25A3962Cf91F94C90FfbA2d0d1cc2217B26c2f22_StrategyProxy.sol
-100.00,92.59,0x4694507Ca1023194eA3Ca4428F99EDEd7Ab2b919,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/46/4694507Ca1023194eA3Ca4428F99EDEd7Ab2b919_StrategyProxy.sol
-100.00,96.30,0x05A7Ebd3b20A2b0742FdFDe8BA79F6D22Ea9C351,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/05/05A7Ebd3b20A2b0742FdFDe8BA79F6D22Ea9C351_PickleVoterProxy.sol
-100.00,96.30,0x13A145D215182924c89F2aBc7D358DCc72F8F788,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/13/13A145D215182924c89F2aBc7D358DCc72F8F788_UnilendFlashLoanCore.sol
-100.00,92.59,0xda18f789a1D9AD33E891253660Fcf1332d236b29,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/da/da18f789a1D9AD33E891253660Fcf1332d236b29_StrategyProxy.sol
-100.00,96.30,0x989aeb4d175e16225e39e87d0d97a3360524ad80,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/98/989aeb4d175e16225e39e87d0d97a3360524ad80_CurveVoterProxy.sol
-100.00,100.00,0xf9dd22dfd54ef9c0885c1c61985cd4e63cbc20b3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f9dd22dfd54ef9c0885c1c61985cd4e63cbc20b3_VoterProxy.sol

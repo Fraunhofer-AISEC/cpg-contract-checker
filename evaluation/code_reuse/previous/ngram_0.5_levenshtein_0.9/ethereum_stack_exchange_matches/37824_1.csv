@@ -1,14 +1,14 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-96.83,94.03,0x4AF36685d35B8889A9d8801576B28b79C7AD8209,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4AF36685d35B8889A9d8801576B28b79C7AD8209_hashCoin.sol
-96.83,94.03,0xc3cd23940a4974eec440282a26b1804a73b28c92,smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c3cd23940a4974eec440282a26b1804a73b28c92_BDP.sol
-96.83,94.03,0xf157f2232909106744caea2c3ddc8f0208be3e16,smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f157f2232909106744caea2c3ddc8f0208be3e16_Hodl.sol
-96.83,94.03,0xd57cf4c4f0d1f600683b45663e309a2f6da5d80b,smart-contract-sanctuary-ethereum/contracts/mainnet/d5/d57cf4c4f0d1f600683b45663e309a2f6da5d80b_Dsteem.sol
-96.83,94.03,0x9c864a909842e91d7f7bb4f369b2fc306ff07d2f,smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9c864a909842e91d7f7bb4f369b2fc306ff07d2f_BDP.sol
-96.83,94.03,0x31EB9d9A2fa971B66f87E594bD6f8A5481b03DE4,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31EB9d9A2fa971B66f87E594bD6f8A5481b03DE4_AmmbrToken.sol
-96.83,94.03,0x4eefc1fc753fc09bf78dc19291372ab5efa23356,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4eefc1fc753fc09bf78dc19291372ab5efa23356_GEM.sol
-96.83,94.03,0xbaea11ee67d559cd9c2be58f16f5cf8a90d9548a,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/baea11ee67d559cd9c2be58f16f5cf8a90d9548a_CopyTokens.sol
-96.83,94.03,0x65391a542942510b10c1689d874b62620de28d3e,smart-contract-sanctuary-ethereum/contracts/mainnet/65/65391a542942510b10c1689d874b62620de28d3e_LamboToken.sol
-96.83,94.03,0x5385bf2a134d2f37eec3a34087dae1314b41069e,smart-contract-sanctuary-ethereum/contracts/mainnet/53/5385bf2a134d2f37eec3a34087dae1314b41069e_CTT.sol
-96.83,94.03,0x8344a773a73d645f82d881616b3c458e685825f5,smart-contract-sanctuary-ethereum/contracts/mainnet/83/8344a773a73d645f82d881616b3c458e685825f5_Ordient.sol
-96.83,94.03,0x9ed3b1520f60d1075c2b9a65ec8a253f9ceb456f,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9ed3b1520f60d1075c2b9a65ec8a253f9ceb456f_CrowdToken.sol
-96.83,94.03,0x8ac77770de6a3b690e9f3ec368fb64ba3c112cdd,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8ac77770de6a3b690e9f3ec368fb64ba3c112cdd_CrowdToken.sol
+96.83,94.03,0x4AF36685d35B8889A9d8801576B28b79C7AD8209,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4AF36685d35B8889A9d8801576B28b79C7AD8209_hashCoin.sol
+96.83,94.03,0x9c864a909842e91d7f7bb4f369b2fc306ff07d2f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9c/9c864a909842e91d7f7bb4f369b2fc306ff07d2f_BDP.sol
+96.83,94.03,0x4eefc1fc753fc09bf78dc19291372ab5efa23356,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4eefc1fc753fc09bf78dc19291372ab5efa23356_GEM.sol
+96.83,94.03,0x65391a542942510b10c1689d874b62620de28d3e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/65/65391a542942510b10c1689d874b62620de28d3e_LamboToken.sol
+96.83,94.03,0xd57cf4c4f0d1f600683b45663e309a2f6da5d80b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d5/d57cf4c4f0d1f600683b45663e309a2f6da5d80b_Dsteem.sol
+96.83,94.03,0xc3cd23940a4974eec440282a26b1804a73b28c92,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c3cd23940a4974eec440282a26b1804a73b28c92_BDP.sol
+96.83,94.03,0xbaea11ee67d559cd9c2be58f16f5cf8a90d9548a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ba/baea11ee67d559cd9c2be58f16f5cf8a90d9548a_CopyTokens.sol
+96.83,94.03,0x31EB9d9A2fa971B66f87E594bD6f8A5481b03DE4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/31/31EB9d9A2fa971B66f87E594bD6f8A5481b03DE4_AmmbrToken.sol
+96.83,94.03,0xf157f2232909106744caea2c3ddc8f0208be3e16,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f157f2232909106744caea2c3ddc8f0208be3e16_Hodl.sol
+96.83,94.03,0x5385bf2a134d2f37eec3a34087dae1314b41069e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/53/5385bf2a134d2f37eec3a34087dae1314b41069e_CTT.sol
+96.83,94.03,0x8344a773a73d645f82d881616b3c458e685825f5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/83/8344a773a73d645f82d881616b3c458e685825f5_Ordient.sol
+96.83,94.03,0x9ed3b1520f60d1075c2b9a65ec8a253f9ceb456f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9ed3b1520f60d1075c2b9a65ec8a253f9ceb456f_CrowdToken.sol
+96.83,94.03,0x8ac77770de6a3b690e9f3ec368fb64ba3c112cdd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8ac77770de6a3b690e9f3ec368fb64ba3c112cdd_CrowdToken.sol

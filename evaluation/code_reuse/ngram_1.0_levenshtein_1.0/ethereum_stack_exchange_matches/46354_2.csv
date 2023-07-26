@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xbb45798ed6e49572dba823b1732d4cd4dc1e7125,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bb45798ed6e49572dba823b1732d4cd4dc1e7125_StupidCoin.sol
-100.00,100.00,0x322171f18100bb20befac066dca9fef34a21d071,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/322171f18100bb20befac066dca9fef34a21d071_InfimonkCoin.sol
-100.00,100.00,0x10485844fe913b7914b0bd8b732c5d57bb615581,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/10/10485844fe913b7914b0bd8b732c5d57bb615581_RYNote.sol
-100.00,100.00,0x4ddf5ad56b75a393b36eb8adf4c45fefe6a35327,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4ddf5ad56b75a393b36eb8adf4c45fefe6a35327_ELEXTROCOIN.sol
-100.00,100.00,0x2b1d75db0217e847f2fcb4b9c3eb20f449a74fad,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b1d75db0217e847f2fcb4b9c3eb20f449a74fad_RYNote.sol
-100.00,100.00,0x22f019040741876f53caffee07c45cbf98beb225,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/22/22f019040741876f53caffee07c45cbf98beb225_BucoTestCoin.sol
-100.00,100.00,0x4842edde5590f1fa2553c240dd7fa3d2d0a457a3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/48/4842edde5590f1fa2553c240dd7fa3d2d0a457a3_InfiCoin.sol
+100.00,100.00,0x322171f18100bb20befac066dca9fef34a21d071,smart-contract-sanctuary-ethereum/contracts/mainnet/32/322171f18100bb20befac066dca9fef34a21d071_InfimonkCoin.sol
+100.00,100.00,0xbb45798ed6e49572dba823b1732d4cd4dc1e7125,smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bb45798ed6e49572dba823b1732d4cd4dc1e7125_StupidCoin.sol
+100.00,100.00,0x2b1d75db0217e847f2fcb4b9c3eb20f449a74fad,smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b1d75db0217e847f2fcb4b9c3eb20f449a74fad_RYNote.sol
+100.00,100.00,0x22f019040741876f53caffee07c45cbf98beb225,smart-contract-sanctuary-ethereum/contracts/mainnet/22/22f019040741876f53caffee07c45cbf98beb225_BucoTestCoin.sol
+100.00,100.00,0x4842edde5590f1fa2553c240dd7fa3d2d0a457a3,smart-contract-sanctuary-ethereum/contracts/mainnet/48/4842edde5590f1fa2553c240dd7fa3d2d0a457a3_InfiCoin.sol
+100.00,100.00,0x4ddf5ad56b75a393b36eb8adf4c45fefe6a35327,smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4ddf5ad56b75a393b36eb8adf4c45fefe6a35327_ELEXTROCOIN.sol
+100.00,100.00,0x10485844fe913b7914b0bd8b732c5d57bb615581,smart-contract-sanctuary-ethereum/contracts/mainnet/10/10485844fe913b7914b0bd8b732c5d57bb615581_RYNote.sol

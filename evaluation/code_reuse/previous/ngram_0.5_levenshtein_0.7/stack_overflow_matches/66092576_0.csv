@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-72.50,75.61,0xB8276651612df04E48DA5f353c969aa1C0076099,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/B8276651612df04E48DA5f353c969aa1C0076099_Borrower.sol
-71.25,75.61,0x85234d517AB2C8AAbBd1f9bcA78d8DFADec4044A,smart-contract-sanctuary-ethereum/contracts/mainnet/85/85234d517AB2C8AAbBd1f9bcA78d8DFADec4044A_CreditLineFactory.sol
-71.25,75.61,0xaae260743E9937D966F2776ba2148186cFFd4B07,smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aae260743E9937D966F2776ba2148186cFFd4B07_Borrower.sol
-71.25,75.61,0x8a6B0E5ae9441141253203D078131668C0adfAfc,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8a6B0E5ae9441141253203D078131668C0adfAfc_CreditDesk.sol

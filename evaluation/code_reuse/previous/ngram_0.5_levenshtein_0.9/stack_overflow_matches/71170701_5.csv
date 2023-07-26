@@ -1,10 +1,10 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-81.82,92.31,0x1d3B48DB95A22718FbA286Bb3CDa92871A970169,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d3B48DB95A22718FbA286Bb3CDa92871A970169_TestContract.sol
-81.82,92.31,0x699f0635379c5026f8ef921ec4a1b05FB1694876,smart-contract-sanctuary-ethereum/contracts/mainnet/69/699f0635379c5026f8ef921ec4a1b05FB1694876_MemoLogs.sol
-81.82,92.31,0xfad31a5672fbd8243e9691e8a5f958699cd0aaa9,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fad31a5672fbd8243e9691e8a5f958699cd0aaa9_UserfeedsClaimWithConfigurableValueMultiTransfer.sol
-81.82,92.31,0xecbed48098c4f25a16195c45ddf5fd736e28b14b,smart-contract-sanctuary-ethereum/contracts/mainnet/ec/ecbed48098c4f25a16195c45ddf5fd736e28b14b_UserfeedsClaimWithConfigurableTokenMultiTransfer.sol
-81.82,92.31,0x1170490264e8c604e0d0861b76768a9e9a300b02,smart-contract-sanctuary-ethereum/contracts/mainnet/11/1170490264e8c604e0d0861b76768a9e9a300b02_MsgSender.sol
-81.82,92.31,0x6663184b3521bf1896ba6e1e776ab94c317204b6,smart-contract-sanctuary-ethereum/contracts/mainnet/66/6663184b3521bf1896ba6e1e776ab94c317204b6_Demo.sol
-81.82,92.31,0xb4fa31dd79e0657728eb02298d98d166850a29e4,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b4fa31dd79e0657728eb02298d98d166850a29e4_Chainsgiving.sol
-81.82,92.31,0xfde90c9Bc193F520d119302a2dB8520D3A4408c8,smart-contract-sanctuary-ethereum/contracts/mainnet/fd/fde90c9Bc193F520d119302a2dB8520D3A4408c8_Value.sol
-81.82,92.31,0xe57519da3a99f7e56f48fbffcb8fb604da3d0c67,smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e57519da3a99f7e56f48fbffcb8fb604da3d0c67_Vorlex.sol
+81.82,92.31,0x1d3B48DB95A22718FbA286Bb3CDa92871A970169,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d3B48DB95A22718FbA286Bb3CDa92871A970169_TestContract.sol
+81.82,92.31,0x699f0635379c5026f8ef921ec4a1b05FB1694876,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/69/699f0635379c5026f8ef921ec4a1b05FB1694876_MemoLogs.sol
+81.82,92.31,0xecbed48098c4f25a16195c45ddf5fd736e28b14b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ec/ecbed48098c4f25a16195c45ddf5fd736e28b14b_UserfeedsClaimWithConfigurableTokenMultiTransfer.sol
+81.82,92.31,0xfad31a5672fbd8243e9691e8a5f958699cd0aaa9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fad31a5672fbd8243e9691e8a5f958699cd0aaa9_UserfeedsClaimWithConfigurableValueMultiTransfer.sol
+81.82,92.31,0xb4fa31dd79e0657728eb02298d98d166850a29e4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b4fa31dd79e0657728eb02298d98d166850a29e4_Chainsgiving.sol
+81.82,92.31,0x6663184b3521bf1896ba6e1e776ab94c317204b6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/66/6663184b3521bf1896ba6e1e776ab94c317204b6_Demo.sol
+81.82,92.31,0x1170490264e8c604e0d0861b76768a9e9a300b02,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/11/1170490264e8c604e0d0861b76768a9e9a300b02_MsgSender.sol
+81.82,92.31,0xfde90c9Bc193F520d119302a2dB8520D3A4408c8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fd/fde90c9Bc193F520d119302a2dB8520D3A4408c8_Value.sol
+81.82,92.31,0xe57519da3a99f7e56f48fbffcb8fb604da3d0c67,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e57519da3a99f7e56f48fbffcb8fb604da3d0c67_Vorlex.sol

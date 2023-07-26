@@ -1,1 +1,9 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.91,100.00,0x222456cf15e2bea5ab9ee078da4f3e5e2a86c98b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/22/222456cf15e2bea5ab9ee078da4f3e5e2a86c98b_LoveLetter.sol
+90.91,91.67,0x59Aa7b926866A7Aa61699a3c6cf7212cdbA09B86,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/59/59Aa7b926866A7Aa61699a3c6cf7212cdbA09B86_TokenDeployer.sol
+90.91,91.67,0x5B647BE2C566C5b1B045070CE07fF96e67a9e5cc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5B647BE2C566C5b1B045070CE07fF96e67a9e5cc_SygnumTokenV1.sol
+90.91,91.67,0x39307fcb423f811e60a92fd7338426d698798e03,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/39/39307fcb423f811e60a92fd7338426d698798e03_TokenDeployer.sol
+90.91,91.67,0x87cb9eb6840c5a8b61D30db7424d7EDEB0d239F3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/87/87cb9eb6840c5a8b61D30db7424d7EDEB0d239F3_SygnumTokenMetadataUpgrade.sol
+90.91,91.67,0x8713451FeAA39b0039062b515098a88569B5c78F,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/87/8713451FeAA39b0039062b515098a88569B5c78F_CaicGrids.sol
+90.91,91.67,0xb742848B5971cE5D0628E351714AF5F1F4e4A8A2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b7/b742848B5971cE5D0628E351714AF5F1F4e4A8A2_Grids.sol
+81.82,91.67,0x56ce91f6e11d6319275f3a4abd2eb2b3df853fdd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/56/56ce91f6e11d6319275f3a4abd2eb2b3df853fdd_FlixToken.sol

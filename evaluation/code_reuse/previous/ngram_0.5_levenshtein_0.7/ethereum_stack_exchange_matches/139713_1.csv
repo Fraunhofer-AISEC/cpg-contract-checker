@@ -1,9 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-90.20,71.99,0x350127d5D0faaDDdeA3aD0c930D98fE66714A312,smart-contract-sanctuary-ethereum/contracts/mainnet/35/350127d5D0faaDDdeA3aD0c930D98fE66714A312_REWardSplitter.sol
-90.20,71.99,0x3e81681cF14D80f894354AA042C5b4a2CaF53770,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3e81681cF14D80f894354AA042C5b4a2CaF53770_REUP.sol
-90.20,71.99,0x94b999fd41069Ffc4bb2f9ef8e6baF9a98602B03,smart-contract-sanctuary-ethereum/contracts/mainnet/94/94b999fd41069Ffc4bb2f9ef8e6baF9a98602B03_REUSD.sol
-82.35,72.02,0xa0b0bf424aa245be8cf602ae479187db85c5a36b,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a0b0bf424aa245be8cf602ae479187db85c5a36b_PRINT.sol
-81.70,70.23,0xBDDC5Ad938faa3C027D434607215Efc6D1cb9A74,smart-contract-sanctuary-ethereum/contracts/mainnet/bd/BDDC5Ad938faa3C027D434607215Efc6D1cb9A74_SeretanERC721v3fix.sol
-79.74,71.37,0xd0ff87cc052b35241d11127b8687d727b7444d3e,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d0ff87cc052b35241d11127b8687d727b7444d3e_WumboPass.sol
-79.74,71.37,0xb89a8e86dfce6de2e7c34a9c7ca9acd728395bce,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/b89a8e86dfce6de2e7c34a9c7ca9acd728395bce_WumboPass.sol
-78.43,74.59,0xFb1e33Ca1F2d213A9Ca2c6e04871a073e0f40387,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/Fb1e33Ca1F2d213A9Ca2c6e04871a073e0f40387_Mine.sol

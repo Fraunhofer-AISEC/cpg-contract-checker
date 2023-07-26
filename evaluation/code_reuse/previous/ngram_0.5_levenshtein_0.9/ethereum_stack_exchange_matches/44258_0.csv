@@ -1,1 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,92.75,0x7fb3ecc2c566ec63ebb370230dcc290332490f42,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7f/7fb3ecc2c566ec63ebb370230dcc290332490f42_yLEAF.sol
+100.00,92.75,0x5011df01895b88f6c52811307e02021f9906c978,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/50/5011df01895b88f6c52811307e02021f9906c978_SolidFactory.sol
+100.00,94.12,0x6b62f8458fbecc2ed07021c823a1ebb537641ffb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6b62f8458fbecc2ed07021c823a1ebb537641ffb_KickSportsManager.sol
+100.00,94.12,0x32a90d93e208596ed2f4bcfcba8249d5e8a64de0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/32a90d93e208596ed2f4bcfcba8249d5e8a64de0_BlueHillMining.sol
+100.00,94.12,0x0cacf6822d036730e112263fe91b6dd1086787d6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0cacf6822d036730e112263fe91b6dd1086787d6_BlueHillMining.sol
+100.00,94.12,0x20bef025e43bfb22cf9a7f4eac5de630ac842720,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/20/20bef025e43bfb22cf9a7f4eac5de630ac842720_BlueHillMining.sol
+100.00,94.12,0x7cd1b0d0b8b52969fa0ea961cec7c6ec5e06ddb6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7cd1b0d0b8b52969fa0ea961cec7c6ec5e06ddb6_BlueHillMining.sol

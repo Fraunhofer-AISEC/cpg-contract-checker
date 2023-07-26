@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-64.71,70.42,0xdac4585b741e5b6625cec460d2a255fb3fbe0d47,smart-contract-sanctuary-ethereum/contracts/mainnet/da/dac4585b741e5b6625cec460d2a255fb3fbe0d47_RariFundController.sol
-63.73,70.42,0x6C85e8101e52ea7B569230f93bC452f291edCBEC,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6C85e8101e52ea7B569230f93bC452f291edCBEC_RariFundManager.sol
-63.73,70.42,0xAe6812D1227EEDcB48D8E75B9130d292Fe3675d8,smart-contract-sanctuary-ethereum/contracts/mainnet/ae/Ae6812D1227EEDcB48D8E75B9130d292Fe3675d8_RariFundManager.sol
-63.73,70.42,0xb42bc0a99a176a16de9af1a490cae0c6832b43b8,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b42bc0a99a176a16de9af1a490cae0c6832b43b8_RariFundController.sol

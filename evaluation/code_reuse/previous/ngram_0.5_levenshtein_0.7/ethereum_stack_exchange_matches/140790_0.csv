@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-92.73,71.93,0x2B80455F56ca8b84E73460aC9b4db2a5e7c6030C,smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2B80455F56ca8b84E73460aC9b4db2a5e7c6030C_IFOFirstRound.sol
-89.09,71.88,0x436af13f7e0aa86970e8a5146b6077c224e326b9,smart-contract-sanctuary-ethereum/contracts/mainnet/43/436af13f7e0aa86970e8a5146b6077c224e326b9_Haymarket.sol
-89.09,71.88,0x990b9fb3fdf7613e4afc527bf3bfd9dff3e2e35f,smart-contract-sanctuary-ethereum/contracts/mainnet/99/990b9fb3fdf7613e4afc527bf3bfd9dff3e2e35f_Haymarket.sol
-89.09,75.81,0xa6444f5234e9c1c688a8eb71273376971be48456,smart-contract-sanctuary-ethereum/contracts/mainnet/a6/a6444f5234e9c1c688a8eb71273376971be48456_Buoy.sol
-85.45,71.93,0x6f9d4749f774e5f547a1c9262e1bc74cf31d9f74,smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6f9d4749f774e5f547a1c9262e1bc74cf31d9f74_EncounterHelper.sol

@@ -1,6 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x2E0fa8bB98D7e93e0dFD3236E3e23eCe38cFE73a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2E0fa8bB98D7e93e0dFD3236E3e23eCe38cFE73a_NFT2022.sol
-100.00,100.00,0x7a14Fc946216368a8949B98014287DdC4e39E478,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7a14Fc946216368a8949B98014287DdC4e39E478_CWS22.sol
-100.00,100.00,0x5928208d0F8EaE701eAa0dB65755B5dcf2dDfab6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/59/5928208d0F8EaE701eAa0dB65755B5dcf2dDfab6_FlyFroogles.sol
-100.00,100.00,0xD923F646cCA9996Be8D95e91D928Be67101d9Fef,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d9/D923F646cCA9996Be8D95e91D928Be67101d9Fef_FlyFroogles.sol
-100.00,100.00,0xA1f97fF8bEd3CD58eeF046442FB07c8A3d0249fd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a1/A1f97fF8bEd3CD58eeF046442FB07c8A3d0249fd_Reflektioner.sol
+100.00,100.00,0x2E0fa8bB98D7e93e0dFD3236E3e23eCe38cFE73a,smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2E0fa8bB98D7e93e0dFD3236E3e23eCe38cFE73a_NFT2022.sol
+100.00,100.00,0x7a14Fc946216368a8949B98014287DdC4e39E478,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7a14Fc946216368a8949B98014287DdC4e39E478_CWS22.sol
+100.00,100.00,0x5928208d0F8EaE701eAa0dB65755B5dcf2dDfab6,smart-contract-sanctuary-ethereum/contracts/mainnet/59/5928208d0F8EaE701eAa0dB65755B5dcf2dDfab6_FlyFroogles.sol
+100.00,100.00,0xD923F646cCA9996Be8D95e91D928Be67101d9Fef,smart-contract-sanctuary-ethereum/contracts/mainnet/d9/D923F646cCA9996Be8D95e91D928Be67101d9Fef_FlyFroogles.sol
+100.00,100.00,0xccb5c1F72e75b623fc194FE4D0f92A3Ec3c24098,smart-contract-sanctuary-ethereum/contracts/mainnet/cc/ccb5c1F72e75b623fc194FE4D0f92A3Ec3c24098_MBTest.sol
+100.00,100.00,0xA1f97fF8bEd3CD58eeF046442FB07c8A3d0249fd,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/A1f97fF8bEd3CD58eeF046442FB07c8A3d0249fd_Reflektioner.sol

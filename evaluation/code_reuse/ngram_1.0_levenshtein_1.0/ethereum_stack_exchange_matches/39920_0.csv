@@ -1,9 +1,9 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xc182CbAa9b194BcAaBc87c468950B859fBa732a1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c1/c182CbAa9b194BcAaBc87c468950B859fBa732a1_MyToken.sol
-100.00,100.00,0xa143981f3ec758296a1575146eab03ef047b7e40,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a143981f3ec758296a1575146eab03ef047b7e40_WTFToken.sol
-100.00,100.00,0x88ae96845e157558ef59e9ff90e766e22e480390,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88ae96845e157558ef59e9ff90e766e22e480390_Klein.sol
-100.00,100.00,0x86585a9f5eb6c781c9b5d185804bdd35fd27d223,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/86585a9f5eb6c781c9b5d185804bdd35fd27d223_WTFToken.sol
-100.00,100.00,0x8d0222d8384357c0770cd8db569785a0dfed49d4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8d/8d0222d8384357c0770cd8db569785a0dfed49d4_HamsterMarketplaceToken.sol
-100.00,100.00,0x39689fE671C01fcE173395f6BC45D4C332026666,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/39/39689fE671C01fcE173395f6BC45D4C332026666_IkuraController.sol
-100.00,100.00,0x8c252e12d5976b95eb692fcafe0dd1bd0c648ff0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c252e12d5976b95eb692fcafe0dd1bd0c648ff0_SmartzToken.sol
-100.00,100.00,0x40ae4acd08e65714b093bf2495fd7941aedfa231,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/40/40ae4acd08e65714b093bf2495fd7941aedfa231_SmartzToken.sol
+100.00,100.00,0xc182CbAa9b194BcAaBc87c468950B859fBa732a1,smart-contract-sanctuary-ethereum/contracts/mainnet/c1/c182CbAa9b194BcAaBc87c468950B859fBa732a1_MyToken.sol
+100.00,100.00,0xa143981f3ec758296a1575146eab03ef047b7e40,smart-contract-sanctuary-ethereum/contracts/mainnet/a1/a143981f3ec758296a1575146eab03ef047b7e40_WTFToken.sol
+100.00,100.00,0x88ae96845e157558ef59e9ff90e766e22e480390,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88ae96845e157558ef59e9ff90e766e22e480390_Klein.sol
+100.00,100.00,0x8d0222d8384357c0770cd8db569785a0dfed49d4,smart-contract-sanctuary-ethereum/contracts/mainnet/8d/8d0222d8384357c0770cd8db569785a0dfed49d4_HamsterMarketplaceToken.sol
+100.00,100.00,0x86585a9f5eb6c781c9b5d185804bdd35fd27d223,smart-contract-sanctuary-ethereum/contracts/mainnet/86/86585a9f5eb6c781c9b5d185804bdd35fd27d223_WTFToken.sol
+100.00,100.00,0x39689fE671C01fcE173395f6BC45D4C332026666,smart-contract-sanctuary-ethereum/contracts/mainnet/39/39689fE671C01fcE173395f6BC45D4C332026666_IkuraController.sol
+100.00,100.00,0x8c252e12d5976b95eb692fcafe0dd1bd0c648ff0,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c252e12d5976b95eb692fcafe0dd1bd0c648ff0_SmartzToken.sol
+100.00,100.00,0x40ae4acd08e65714b093bf2495fd7941aedfa231,smart-contract-sanctuary-ethereum/contracts/mainnet/40/40ae4acd08e65714b093bf2495fd7941aedfa231_SmartzToken.sol

@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-94.47,93.44,0xd77fc35cc9007557dcd18bfe26fe66f1ea3a0e7f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d7/d77fc35cc9007557dcd18bfe26fe66f1ea3a0e7f_Crowdsale.sol
-94.47,93.44,0x9140764f812ee8c8a5e05f946a01174ba7791f4e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/91/9140764f812ee8c8a5e05f946a01174ba7791f4e_Tix.sol
-92.79,90.16,0x9b5F737C26040707921A309ae83976Ad15227FA5,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9b5F737C26040707921A309ae83976Ad15227FA5_Crowdsale.sol
-92.79,90.16,0x84a68f203ded4f2df6d00df42fb90f8f25dbced4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/84/84a68f203ded4f2df6d00df42fb90f8f25dbced4_OrenCoin.sol
-92.60,90.05,0xbbca42657b1aecf77afde117ef095dc7c9d37c3a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bbca42657b1aecf77afde117ef095dc7c9d37c3a_Resilium.sol
-92.60,90.05,0xce5dec547ef1b7444e0b98449acb6058b791002a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce5dec547ef1b7444e0b98449acb6058b791002a_Crowdsale.sol

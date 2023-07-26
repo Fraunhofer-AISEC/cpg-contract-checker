@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,96.67,0x78dd22e93357d6f926fa0f7cb860c5e6e1bcf484,smart-contract-sanctuary-ethereum/contracts/mainnet/78/78dd22e93357d6f926fa0f7cb860c5e6e1bcf484_LETSY.sol
-85.19,72.41,0xf7344abcfcd2667d2a4af8baca2236ef8d749b61,smart-contract-sanctuary-ethereum/contracts/mainnet/f7/f7344abcfcd2667d2a4af8baca2236ef8d749b61_FourLeafClover.sol
-85.19,72.41,0x899de372f5597f1a94fdde9d39ba3114916d5293,smart-contract-sanctuary-ethereum/contracts/mainnet/89/899de372f5597f1a94fdde9d39ba3114916d5293_Owned.sol
-85.19,72.41,0xc4d5d04cf64e949b99239cfb410f6c4d39d4b08a,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/c4d5d04cf64e949b99239cfb410f6c4d39d4b08a_FourLeafClover.sol
-62.96,72.41,0x14fb4c93fe461ec3f9f22b61ab7030f258867969,smart-contract-sanctuary-ethereum/contracts/mainnet/14/14fb4c93fe461ec3f9f22b61ab7030f258867969_Amorcoin.sol
-62.96,72.41,0x712c290551ee48f6b3ccc318bd63989c5c37ead4,smart-contract-sanctuary-ethereum/contracts/mainnet/71/712c290551ee48f6b3ccc318bd63989c5c37ead4_TokenCoinExchanger.sol
-62.96,72.41,0x8788fab9cd91f901be257afeb23e31b873e3849d,smart-contract-sanctuary-ethereum/contracts/mainnet/87/8788fab9cd91f901be257afeb23e31b873e3849d_MarketCoin.sol

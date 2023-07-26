@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-93.55,91.67,0xe5f3c6e105f5ebac07c7ee627988bc6efb389116,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e5/e5f3c6e105f5ebac07c7ee627988bc6efb389116_Sale1.sol
-90.32,90.28,0x869e518d2e725093c2c45feaed5d75142d3d9046,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/869e518d2e725093c2c45feaed5d75142d3d9046_Kills.sol
-90.32,90.28,0x37a66bec4fa12f8c31e26dec83bda3c049dd5deb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/37/37a66bec4fa12f8c31e26dec83bda3c049dd5deb_Kills.sol
-90.32,91.38,0x2736aef2efc7d144edfc4f8db97c625983e38911,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/27/2736aef2efc7d144edfc4f8db97c625983e38911_MoonCatOrderLookup.sol
-90.32,91.38,0xc3f733ca98e0dad0386979eb96fb1722a1a05e69,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c3/c3f733ca98e0dad0386979eb96fb1722a1a05e69_MoonCatAcclimator.sol

@@ -1,1 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.89,90.91,0x4d5e7c27b559f6f7be72dc28a2c16b0f342449aa,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4d/4d5e7c27b559f6f7be72dc28a2c16b0f342449aa_BRFCrowdsale.sol
+91.78,90.00,0xcf8dc49d37659414d09907d8336622f2ae287004,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cf/cf8dc49d37659414d09907d8336622f2ae287004_Showcoin.sol
+91.78,90.00,0xa0df980a587b141bfda8cded13af737d96efb934,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a0df980a587b141bfda8cded13af737d96efb934_PreICO.sol

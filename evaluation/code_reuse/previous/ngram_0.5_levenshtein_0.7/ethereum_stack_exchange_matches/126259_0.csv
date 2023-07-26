@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-89.87,84.54,0x1399A411fE051a075d1Cc56d6ca305D6c159C0f2,smart-contract-sanctuary-ethereum/contracts/mainnet/13/1399A411fE051a075d1Cc56d6ca305D6c159C0f2_positivityOnChain.sol
-88.61,71.85,0xa205d797243126f312ae63bb0a5ea9a32fb14f41,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a205d797243126f312ae63bb0a5ea9a32fb14f41_Launchpad.sol
-88.61,71.85,0x804b4cf2b11c4fa46de83b5000e3a448545f9bf3,smart-contract-sanctuary-ethereum/contracts/mainnet/80/804b4cf2b11c4fa46de83b5000e3a448545f9bf3_Launchpad.sol
-88.61,71.85,0x3ff004f37433137571d080627689e3754dab527a,smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3ff004f37433137571d080627689e3754dab527a_Launchpad.sol
-86.08,70.23,0xebe3cac8ed2435416475aab83dc35dadb590a2c3,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/ebe3cac8ed2435416475aab83dc35dadb590a2c3_BFYCPresale.sol

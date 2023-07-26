@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x33a62B99a802648f504DfB49c9af901b703CDcBC,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/33/33a62B99a802648f504DfB49c9af901b703CDcBC_DonpepeToken.sol
-100.00,100.00,0x2eaa3136ac4ca51526e9704336adb20ed14d06d0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2eaa3136ac4ca51526e9704336adb20ed14d06d0_RCCCToken.sol
-100.00,100.00,0xdee7Dc047dDe8175943dE6A089Fb960B714A0d4C,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/de/dee7Dc047dDe8175943dE6A089Fb960B714A0d4C_WG.sol
-100.00,100.00,0xF9560698dC041486Da6ED64973dea246224C2571,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f9/F9560698dC041486Da6ED64973dea246224C2571_Temgean.sol
-100.00,100.00,0xdce3a5a521d3580b29231d81165351cb38d22fea,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dce3a5a521d3580b29231d81165351cb38d22fea_PPGold.sol
-100.00,100.00,0x866e52643cfc4ac3fc5232a82cd1658c13a89d55,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/86/866e52643cfc4ac3fc5232a82cd1658c13a89d55_ERC20.sol
-100.00,100.00,0x5bb4ba2f2f22b2a347424ac0d96d814b9dafa968,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bb4ba2f2f22b2a347424ac0d96d814b9dafa968_EternalChainToken.sol
+100.00,100.00,0x33a62B99a802648f504DfB49c9af901b703CDcBC,smart-contract-sanctuary-ethereum/contracts/mainnet/33/33a62B99a802648f504DfB49c9af901b703CDcBC_DonpepeToken.sol
+100.00,100.00,0x2eaa3136ac4ca51526e9704336adb20ed14d06d0,smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2eaa3136ac4ca51526e9704336adb20ed14d06d0_RCCCToken.sol
+100.00,100.00,0xdee7Dc047dDe8175943dE6A089Fb960B714A0d4C,smart-contract-sanctuary-ethereum/contracts/mainnet/de/dee7Dc047dDe8175943dE6A089Fb960B714A0d4C_WG.sol
+100.00,100.00,0xF9560698dC041486Da6ED64973dea246224C2571,smart-contract-sanctuary-ethereum/contracts/mainnet/f9/F9560698dC041486Da6ED64973dea246224C2571_Temgean.sol
+100.00,100.00,0xdce3a5a521d3580b29231d81165351cb38d22fea,smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dce3a5a521d3580b29231d81165351cb38d22fea_PPGold.sol
+100.00,100.00,0x866e52643cfc4ac3fc5232a82cd1658c13a89d55,smart-contract-sanctuary-ethereum/contracts/mainnet/86/866e52643cfc4ac3fc5232a82cd1658c13a89d55_ERC20.sol
+100.00,100.00,0x5bb4ba2f2f22b2a347424ac0d96d814b9dafa968,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bb4ba2f2f22b2a347424ac0d96d814b9dafa968_EternalChainToken.sol

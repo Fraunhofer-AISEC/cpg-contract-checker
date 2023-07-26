@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x88a23aabb0eb055b6c5ee5df390b986ad7bf1c99,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88a23aabb0eb055b6c5ee5df390b986ad7bf1c99_contracts_openzeppelin-solidity_contracts_token_ERC721_ERC721.sol
-100.00,100.00,0x65676055E58b02E61272Cedec6E5C6D56BADfb86,smart-contract-sanctuary-ethereum/contracts/mainnet/65/65676055E58b02E61272Cedec6E5C6D56BADfb86_RootERC721.sol
-100.00,100.00,0xafe3ffa430d4eca240e0b52f363dab2f2f99b8ec,smart-contract-sanctuary-ethereum/contracts/mainnet/af/afe3ffa430d4eca240e0b52f363dab2f2f99b8ec_BuidlNFT.sol
-100.00,100.00,0xB99322Ef7f68052101e45F8Ad83706F6fd44AC1A,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/B99322Ef7f68052101e45F8Ad83706F6fd44AC1A_ERCX.sol
-100.00,100.00,0x4e90495f66fb04a5fba401967abd607e2ea0ab46,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e90495f66fb04a5fba401967abd607e2ea0ab46_Poap.sol
-100.00,100.00,0x4e2A87743368484eD798033E8FdC7caE442064b8,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e2A87743368484eD798033E8FdC7caE442064b8_Scammer.sol
-100.00,100.00,0x789A3D6d6C86f4E1eda027F0f3D002E49D1f30ff,smart-contract-sanctuary-ethereum/contracts/mainnet/78/789A3D6d6C86f4E1eda027F0f3D002E49D1f30ff_ScammerController.sol
+100.00,100.00,0x88a23aabb0eb055b6c5ee5df390b986ad7bf1c99,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88a23aabb0eb055b6c5ee5df390b986ad7bf1c99_contracts_openzeppelin-solidity_contracts_token_ERC721_ERC721.sol
+100.00,100.00,0x65676055E58b02E61272Cedec6E5C6D56BADfb86,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/65/65676055E58b02E61272Cedec6E5C6D56BADfb86_RootERC721.sol
+100.00,100.00,0xafe3ffa430d4eca240e0b52f363dab2f2f99b8ec,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/af/afe3ffa430d4eca240e0b52f363dab2f2f99b8ec_BuidlNFT.sol
+100.00,100.00,0xB99322Ef7f68052101e45F8Ad83706F6fd44AC1A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b9/B99322Ef7f68052101e45F8Ad83706F6fd44AC1A_ERCX.sol
+100.00,100.00,0x4e90495f66fb04a5fba401967abd607e2ea0ab46,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e90495f66fb04a5fba401967abd607e2ea0ab46_Poap.sol
+100.00,100.00,0x4e2A87743368484eD798033E8FdC7caE442064b8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e2A87743368484eD798033E8FdC7caE442064b8_Scammer.sol
+100.00,100.00,0x789A3D6d6C86f4E1eda027F0f3D002E49D1f30ff,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/78/789A3D6d6C86f4E1eda027F0f3D002E49D1f30ff_ScammerController.sol

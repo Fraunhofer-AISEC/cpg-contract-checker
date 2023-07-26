@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-99.07,93.89,0xac3932f8b1feba8ebf3a50b16bfb39ef71f1f7d4,smart-contract-sanctuary-ethereum/contracts/mainnet/ac/ac3932f8b1feba8ebf3a50b16bfb39ef71f1f7d4_PreSalePool.sol
-99.07,99.54,0x1b910d3587b1eb43c321b1a0a5572e7b503d2b80,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b910d3587b1eb43c321b1a0a5572e7b503d2b80_PreSalePool.sol
-99.07,99.54,0xa0a0d86cd8eb99d696ef1c8d2b2f959875bcdeff,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a0a0d86cd8eb99d696ef1c8d2b2f959875bcdeff_PreSaleFactory.sol
-99.07,99.54,0xa49102f00c7d76C725235563A65aF4eb7507d0a3,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a49102f00c7d76C725235563A65aF4eb7507d0a3_PreSaleFactory.sol
+99.07,93.89,0xac3932f8b1feba8ebf3a50b16bfb39ef71f1f7d4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ac/ac3932f8b1feba8ebf3a50b16bfb39ef71f1f7d4_PreSalePool.sol
+99.07,99.54,0x1b910d3587b1eb43c321b1a0a5572e7b503d2b80,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1b910d3587b1eb43c321b1a0a5572e7b503d2b80_PreSalePool.sol
+99.07,99.54,0xa0a0d86cd8eb99d696ef1c8d2b2f959875bcdeff,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a0a0d86cd8eb99d696ef1c8d2b2f959875bcdeff_PreSaleFactory.sol
+99.07,99.54,0xa49102f00c7d76C725235563A65aF4eb7507d0a3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a49102f00c7d76C725235563A65aF4eb7507d0a3_PreSaleFactory.sol

@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x4C727a07246A70862e45B2E58fcd82c0eD5Eda85,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4C727a07246A70862e45B2E58fcd82c0eD5Eda85_HolographGeneric.sol
-100.00,100.00,0xb95e8487b8Df34f30e363681242b8d4a0661F785,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b95e8487b8Df34f30e363681242b8d4a0661F785_LeniaMetadata.sol
-100.00,100.00,0x952789e9e98C85a928dCe856Ee3E4D7e72706748,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/95/952789e9e98C85a928dCe856Ee3E4D7e72706748_DomainServer.sol
+100.00,100.00,0x4C727a07246A70862e45B2E58fcd82c0eD5Eda85,smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4C727a07246A70862e45B2E58fcd82c0eD5Eda85_HolographGeneric.sol
+100.00,100.00,0xb95e8487b8Df34f30e363681242b8d4a0661F785,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b95e8487b8Df34f30e363681242b8d4a0661F785_LeniaMetadata.sol
+100.00,100.00,0x952789e9e98C85a928dCe856Ee3E4D7e72706748,smart-contract-sanctuary-ethereum/contracts/mainnet/95/952789e9e98C85a928dCe856Ee3E4D7e72706748_DomainServer.sol

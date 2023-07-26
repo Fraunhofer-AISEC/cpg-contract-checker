@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-91.49,72.21,0x06d6717e8ef0ddd17d144ccd7629bc1a47055877,smart-contract-sanctuary-ethereum/contracts/mainnet/06/06d6717e8ef0ddd17d144ccd7629bc1a47055877_OwnableAccountWhitelistFactory.sol
-91.49,70.60,0x3609C33DEB75ACf9C74c15A26460919FD527a328,smart-contract-sanctuary-ethereum/contracts/mainnet/36/3609C33DEB75ACf9C74c15A26460919FD527a328_OwnableAccountWhitelistFactory.sol
-91.49,70.45,0x7AA23E00283d20976d942c510c0821A04f7010Bc,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7AA23E00283d20976d942c510c0821A04f7010Bc_ERC721GatedCloner.sol

@@ -1,1 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,90.69,0x57507eaE8ff0572469aED6F7e5552D09c36a1CdB,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/57/57507eaE8ff0572469aED6F7e5552D09c36a1CdB_Hello.sol
+100.00,100.00,0x01b6ae6250b84f4e493f8229329c43d4e3d13f41,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/01/01b6ae6250b84f4e493f8229329c43d4e3d13f41_Hello.sol
+93.33,90.89,0x90c28Ea2e10069f5B88D847455195B49F7a984b0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/90/90c28Ea2e10069f5B88D847455195B49F7a984b0_BaseUriMetadataController.sol
+93.33,90.73,0x091a9A8c8e4582802B1A7280091050D2e7fE6c44,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/09/091a9A8c8e4582802B1A7280091050D2e7fE6c44_TronicMiniRacer.sol
+93.33,90.73,0x5537d90A4A2DC9d9b37BAb49B490cF67D4C54E91,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/55/5537d90A4A2DC9d9b37BAb49B490cF67D4C54E91_OneDayPunk.sol
+93.33,90.73,0x51Ae5e2533854495f6c587865Af64119db8F59b4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/51/51Ae5e2533854495f6c587865Af64119db8F59b4_PunkScape.sol

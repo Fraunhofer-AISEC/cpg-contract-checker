@@ -1,3 +1,3 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x1828940291ed3abb5a44f255dd3efa425b797eb6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/18/1828940291ed3abb5a44f255dd3efa425b797eb6_Antler.sol
-100.00,100.00,0x7982a79ee90eb3682dcee66e47ba79c1cba44062,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/79/7982a79ee90eb3682dcee66e47ba79c1cba44062_FlowerCore.sol
+100.00,100.00,0x1828940291ed3abb5a44f255dd3efa425b797eb6,smart-contract-sanctuary-ethereum/contracts/mainnet/18/1828940291ed3abb5a44f255dd3efa425b797eb6_Antler.sol
+100.00,100.00,0x7982a79ee90eb3682dcee66e47ba79c1cba44062,smart-contract-sanctuary-ethereum/contracts/mainnet/79/7982a79ee90eb3682dcee66e47ba79c1cba44062_FlowerCore.sol

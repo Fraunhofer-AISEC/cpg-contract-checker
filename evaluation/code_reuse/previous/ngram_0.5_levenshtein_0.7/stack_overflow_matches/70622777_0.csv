@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-89.05,85.53,0xc53CC8EfD02d95933a3E131e691F4D1b3Ff14a53,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/c53CC8EfD02d95933a3E131e691F4D1b3Ff14a53_SqueezePool.sol
-86.86,72.94,0x78c943Ec432D09DD95FB2AB5a8bb7D7CFA1cf75a,smart-contract-sanctuary-ethereum/contracts/mainnet/78/78c943Ec432D09DD95FB2AB5a8bb7D7CFA1cf75a_SqueezePoolV1.sol
-86.13,74.13,0xcf50ADc9F17e54eE0c26158B99C91A0C5132F5AB,smart-contract-sanctuary-ethereum/contracts/mainnet/cf/cf50ADc9F17e54eE0c26158B99C91A0C5132F5AB_swapper.sol

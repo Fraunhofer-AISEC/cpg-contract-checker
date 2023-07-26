@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xc81136B1f99b4bA4F6c0BddC56AB8D5EFb9E908f,smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c81136B1f99b4bA4F6c0BddC56AB8D5EFb9E908f_DelegatableERC721Controller.sol
-100.00,100.00,0xd547FAEA51355ff716ab5f6A1152af024DB619a1,smart-contract-sanctuary-ethereum/contracts/mainnet/d5/d547FAEA51355ff716ab5f6A1152af024DB619a1_LegitArtRegistry.sol
-100.00,100.00,0xcB3649daB4A2e3AE89E139c1aD1a3eC8ec6f109B,smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cB3649daB4A2e3AE89E139c1aD1a3eC8ec6f109B_MarketPlace.sol
-100.00,100.00,0x3Dc248187C15E0E82611EB40326cF6B24d01B75E,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3Dc248187C15E0E82611EB40326cF6B24d01B75E_LegitArtERC721.sol
+100.00,100.00,0xc81136B1f99b4bA4F6c0BddC56AB8D5EFb9E908f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c81136B1f99b4bA4F6c0BddC56AB8D5EFb9E908f_DelegatableERC721Controller.sol
+100.00,100.00,0x3Dc248187C15E0E82611EB40326cF6B24d01B75E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3Dc248187C15E0E82611EB40326cF6B24d01B75E_LegitArtERC721.sol
+100.00,100.00,0xd547FAEA51355ff716ab5f6A1152af024DB619a1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d5/d547FAEA51355ff716ab5f6A1152af024DB619a1_LegitArtRegistry.sol
+100.00,100.00,0xcB3649daB4A2e3AE89E139c1aD1a3eC8ec6f109B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cB3649daB4A2e3AE89E139c1aD1a3eC8ec6f109B_MarketPlace.sol

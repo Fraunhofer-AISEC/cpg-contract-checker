@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x628F645A5A6D36fDE852b906ef18d38A128ed7d1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/628F645A5A6D36fDE852b906ef18d38A128ed7d1_src_common_Libraries_AddressUtils.sol
-100.00,100.00,0x157372F9d3c94609ADfb967741A0aFc0c1db1BBF,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/15/157372F9d3c94609ADfb967741A0aFc0c1db1BBF_src_common_Libraries_AddressUtils.sol
-100.00,100.00,0xa4E177abEAd6758567eF78FFC150741187838cAc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4E177abEAd6758567eF78FFC150741187838cAc_CatalystMinter.sol
-100.00,100.00,0x59898541cC8B454e22f81Ad21Dfa3F51C8A6Ec66,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/59/59898541cC8B454e22f81Ad21Dfa3F51C8A6Ec66_CatalystMinter.sol
-100.00,100.00,0x3F1eA0b025fC3F4889B8419ac15B5c831774dc8a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3F1eA0b025fC3F4889B8419ac15B5c831774dc8a_CatalystMinter.sol
+100.00,100.00,0x628F645A5A6D36fDE852b906ef18d38A128ed7d1,smart-contract-sanctuary-ethereum/contracts/mainnet/62/628F645A5A6D36fDE852b906ef18d38A128ed7d1_src_common_Libraries_AddressUtils.sol
+100.00,100.00,0x157372F9d3c94609ADfb967741A0aFc0c1db1BBF,smart-contract-sanctuary-ethereum/contracts/mainnet/15/157372F9d3c94609ADfb967741A0aFc0c1db1BBF_src_common_Libraries_AddressUtils.sol
+100.00,100.00,0x59898541cC8B454e22f81Ad21Dfa3F51C8A6Ec66,smart-contract-sanctuary-ethereum/contracts/mainnet/59/59898541cC8B454e22f81Ad21Dfa3F51C8A6Ec66_CatalystMinter.sol
+100.00,100.00,0x3F1eA0b025fC3F4889B8419ac15B5c831774dc8a,smart-contract-sanctuary-ethereum/contracts/mainnet/3f/3F1eA0b025fC3F4889B8419ac15B5c831774dc8a_CatalystMinter.sol
+100.00,100.00,0xa4E177abEAd6758567eF78FFC150741187838cAc,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4E177abEAd6758567eF78FFC150741187838cAc_CatalystMinter.sol

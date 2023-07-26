@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x3e0db8cFaddF44D5AED5F43c108cc10E2f7fF3d8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3e0db8cFaddF44D5AED5F43c108cc10E2f7fF3d8_DemaxBallotFactory.sol
-100.00,100.00,0xc66eeeaab12b12012ea59bae0f88bf6eb6005eb7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c66eeeaab12b12012ea59bae0f88bf6eb6005eb7_DemaxBallotFactory.sol
-100.00,100.00,0x0b3761b97c21a2e6dd9beb2b4c691bee68e8a1fa,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0b3761b97c21a2e6dd9beb2b4c691bee68e8a1fa_DemaxBallotFactory.sol
+100.00,100.00,0x3e0db8cFaddF44D5AED5F43c108cc10E2f7fF3d8,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3e0db8cFaddF44D5AED5F43c108cc10E2f7fF3d8_DemaxBallotFactory.sol
+100.00,100.00,0xc66eeeaab12b12012ea59bae0f88bf6eb6005eb7,smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c66eeeaab12b12012ea59bae0f88bf6eb6005eb7_DemaxBallotFactory.sol
+100.00,100.00,0x0b3761b97c21a2e6dd9beb2b4c691bee68e8a1fa,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0b3761b97c21a2e6dd9beb2b4c691bee68e8a1fa_DemaxBallotFactory.sol

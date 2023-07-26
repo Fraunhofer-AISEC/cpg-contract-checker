@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,79.31,0x57581711420e76D920179C43d0D3b80C4E4D1229,smart-contract-sanctuary-ethereum/contracts/mainnet/57/57581711420e76D920179C43d0D3b80C4E4D1229_BrewlabsTwapOracle.sol
-100.00,79.31,0xf9b5Cd9e8c390E960AA4C6C6E35e94Bd2573e8CB,smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f9b5Cd9e8c390E960AA4C6C6E35e94Bd2573e8CB_BrewlabsTwapOracle.sol
-100.00,100.00,0x47B3318735E474960961a74aEb2b27674193b30a,smart-contract-sanctuary-ethereum/contracts/mainnet/47/47B3318735E474960961a74aEb2b27674193b30a_Oracle.sol
-100.00,100.00,0x52566f66f1561b244AA58A72EBa7573c02cFB11e,smart-contract-sanctuary-ethereum/contracts/mainnet/52/52566f66f1561b244AA58A72EBa7573c02cFB11e_GLDMOracle.sol
-100.00,79.31,0x0f483908fba22435097ad3444ee8400b18de7d55,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0f483908fba22435097ad3444ee8400b18de7d55_Oracle.sol
-100.00,100.00,0xd6085F72fD2C37C06FbA80C63e51b82DEE5089E4,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d6085F72fD2C37C06FbA80C63e51b82DEE5089E4_Oracle.sol
-100.00,79.31,0x9704f7c39bCB397e49A8179A58aEE6ae237C297b,smart-contract-sanctuary-ethereum/contracts/mainnet/97/9704f7c39bCB397e49A8179A58aEE6ae237C297b_Oracle.sol

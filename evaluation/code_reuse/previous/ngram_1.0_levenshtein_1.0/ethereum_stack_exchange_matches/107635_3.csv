@@ -1,1 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x88a23aabb0eb055b6c5ee5df390b986ad7bf1c99,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/88a23aabb0eb055b6c5ee5df390b986ad7bf1c99_contracts_openzeppelin-solidity_contracts_mocks_CrowdsaleMock.sol
+100.00,100.00,0xFcF4Ce2a48c9C62b490789547c3A1F4A4148e13e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fc/FcF4Ce2a48c9C62b490789547c3A1F4A4148e13e_GauCrowdsale.sol
+100.00,100.00,0xFb98Bbaed803BA57d03F05c6Ce26F64d6bE701c2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fb/Fb98Bbaed803BA57d03F05c6Ce26F64d6bE701c2_CapitanCoinCrowdsale.sol

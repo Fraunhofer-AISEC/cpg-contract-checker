@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,71.43,0x175487875F0318EdbAB54BBA442fF53b36e96015,smart-contract-sanctuary-ethereum/contracts/mainnet/17/175487875F0318EdbAB54BBA442fF53b36e96015_MetadataRegistry.sol
-94.74,76.92,0x6609e7828cadf776a554853788043bb5aaa4d692,smart-contract-sanctuary-ethereum/contracts/mainnet/66/6609e7828cadf776a554853788043bb5aaa4d692_SussyBabySharks.sol
-89.47,80.95,0xe9aeced8ed2abfa6ac913259eada8e3603d10e67,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e9aeced8ed2abfa6ac913259eada8e3603d10e67_SkinMinting.sol
-89.47,80.95,0xd5e016a87a39f45b9dd3fc704d8daf212f83c52d,smart-contract-sanctuary-ethereum/contracts/mainnet/d5/d5e016a87a39f45b9dd3fc704d8daf212f83c52d_SkinMinting.sol
-89.47,80.95,0x8ff1c8a8799dd59eca03d9cf52b12ae0ccc21762,smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8ff1c8a8799dd59eca03d9cf52b12ae0ccc21762_SkinMinting.sol

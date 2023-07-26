@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-97.60,77.04,0xe7c79deb6a9b74f691d5f882b7c588bba5db1a20,smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e7c79deb6a9b74f691d5f882b7c588bba5db1a20_MintingContract.sol
-97.60,75.13,0x679e37cc79e3ff5a99bb229eee9af9869ef20762,smart-contract-sanctuary-ethereum/contracts/mainnet/67/679e37cc79e3ff5a99bb229eee9af9869ef20762_GameInvestToken.sol
-97.60,74.81,0x71abbd6b628da7874e9861b6a9e5d67b10eec729,smart-contract-sanctuary-ethereum/contracts/mainnet/71/71abbd6b628da7874e9861b6a9e5d67b10eec729_ERC677BridgeToken.sol
-97.60,74.81,0x8c543aed163909142695f2d2acd0d55791a9edb9,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c543aed163909142695f2d2acd0d55791a9edb9_ERC677BridgeToken.sol

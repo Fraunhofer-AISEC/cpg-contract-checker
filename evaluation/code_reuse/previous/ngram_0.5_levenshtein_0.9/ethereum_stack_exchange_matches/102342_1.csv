@@ -1,1 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.93,90.17,0x0e3BC27A9c450F50536B36e6350226a933193A04,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0e3BC27A9c450F50536B36e6350226a933193A04_WittyPixelsTokenVault.sol
+95.48,90.15,0x11496Ea480Afe2C03780206982f396d96da3943c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/11/11496Ea480Afe2C03780206982f396d96da3943c_WittyPixelsToken.sol
+94.12,91.44,0xae9a070bed8b80050e3b8a26c169496b55c00d94,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ae/ae9a070bed8b80050e3b8a26c169496b55c00d94_HexUtils.sol
+93.67,90.54,0x7799d387ffb6dcbe8b8f6404d811dbaae8f79f54,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/77/7799d387ffb6dcbe8b8f6404d811dbaae8f79f54_HexUtils.sol
+91.86,90.15,0x4ce3f78cDe08806691fe5EB2A3aEE0c2976D3C18,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4ce3f78cDe08806691fe5EB2A3aEE0c2976D3C18_WittyPixelsLib.sol

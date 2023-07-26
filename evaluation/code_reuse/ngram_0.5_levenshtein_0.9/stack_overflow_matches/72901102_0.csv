@@ -1,6 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-93.75,94.12,0x252dDf4F275CD29A1af7fB0Ec69029b2aDb907e4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/25/252dDf4F275CD29A1af7fB0Ec69029b2aDb907e4_SecureRpcProvider.sol
-93.75,94.12,0x3d04cDfC8Bb7775B7ad8825da3BcDe81c168fad0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3d04cDfC8Bb7775B7ad8825da3BcDe81c168fad0_Multicall.sol
-87.50,94.12,0x9d7ce3906e93c80865cd17db306d0813ab0d67c2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9d7ce3906e93c80865cd17db306d0813ab0d67c2_YmUniSwap.sol
-87.50,94.12,0x0ee78a5560d8c820aab2f4227c6a45e879b4d12f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0ee78a5560d8c820aab2f4227c6a45e879b4d12f_YmUniSwap.sol
-87.50,94.12,0x3b288680f46f1b33dc782b85e7e2104c82421ddc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b288680f46f1b33dc782b85e7e2104c82421ddc_YmUniSwap.sol

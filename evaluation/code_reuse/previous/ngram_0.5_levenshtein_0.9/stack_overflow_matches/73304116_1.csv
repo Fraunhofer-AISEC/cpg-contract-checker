@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-78.95,90.48,0xD69249A7Da541d24f6D09e1826f987f64b8D9F2D,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/D69249A7Da541d24f6D09e1826f987f64b8D9F2D_marketplace.sol
-78.95,90.48,0x57f6AE922F76DE406f4ea14Fdc06Bc3E675863e0,smart-contract-sanctuary-ethereum/contracts/mainnet/57/57f6AE922F76DE406f4ea14Fdc06Bc3E675863e0_marketplace.sol
-78.95,90.48,0x19680F7017e6FBf048D31488ffB0dbed7ddb38D6,smart-contract-sanctuary-ethereum/contracts/mainnet/19/19680F7017e6FBf048D31488ffB0dbed7ddb38D6_StakeCall.sol
-78.95,90.48,0x9Aba6E6075ED6cAfec8F11e54A0437BcB98B4306,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9Aba6E6075ED6cAfec8F11e54A0437BcB98B4306_NFTStaking.sol
-78.95,90.48,0x6d88B09805b90dad911E5C5A512eEDd984D6860B,smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d88B09805b90dad911E5C5A512eEDd984D6860B_Staking.sol
+78.95,90.48,0x57f6AE922F76DE406f4ea14Fdc06Bc3E675863e0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/57/57f6AE922F76DE406f4ea14Fdc06Bc3E675863e0_marketplace.sol
+78.95,90.48,0xD69249A7Da541d24f6D09e1826f987f64b8D9F2D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d6/D69249A7Da541d24f6D09e1826f987f64b8D9F2D_marketplace.sol
+78.95,90.48,0x19680F7017e6FBf048D31488ffB0dbed7ddb38D6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/19/19680F7017e6FBf048D31488ffB0dbed7ddb38D6_StakeCall.sol
+78.95,90.48,0x9Aba6E6075ED6cAfec8F11e54A0437BcB98B4306,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9Aba6E6075ED6cAfec8F11e54A0437BcB98B4306_NFTStaking.sol
+78.95,90.48,0x6d88B09805b90dad911E5C5A512eEDd984D6860B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6d88B09805b90dad911E5C5A512eEDd984D6860B_Staking.sol

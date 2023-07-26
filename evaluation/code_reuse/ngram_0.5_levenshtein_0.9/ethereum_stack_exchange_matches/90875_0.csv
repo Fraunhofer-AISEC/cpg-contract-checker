@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-97.73,91.56,0xc87feb09d60ea2241f535aa9b9f5668da6894086,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c8/c87feb09d60ea2241f535aa9b9f5668da6894086_ScalingPriceOracle.sol
-97.73,91.56,0x1d8fD171e6A9e6783B5BC8318A60803290FabBEC,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d8fD171e6A9e6783B5BC8318A60803290FabBEC_MockScalingPriceOracle.sol
-97.73,91.56,0x39c5ac2e8a2f14480d830f6ddb1c3caf2c759236,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/39/39c5ac2e8a2f14480d830f6ddb1c3caf2c759236_MockScalingPriceOracle.sol
-97.73,91.56,0xE85c463e837887c67f945d72A6a16Eaa3b3dEB95,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e8/E85c463e837887c67f945d72A6a16Eaa3b3dEB95_ScalingPriceOracle.sol

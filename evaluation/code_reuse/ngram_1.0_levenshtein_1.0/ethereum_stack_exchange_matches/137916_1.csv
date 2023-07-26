@@ -1,11 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xf586edA308BF91e53aBe80D70A50E2F1B6A1143B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f586edA308BF91e53aBe80D70A50E2F1B6A1143B_MagicAvatar.sol
-100.00,100.00,0xf5CE7885118E8fb96252eA2134A3f391b69BCBcF,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5CE7885118E8fb96252eA2134A3f391b69BCBcF_DaVinci.sol
-100.00,100.00,0x2DC83e75D2c8987cf829a96bB04440c0575cBF14,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2DC83e75D2c8987cf829a96bB04440c0575cBF14_XPTOCollection.sol
-100.00,100.00,0x40fAfa5B50f2253a8E8Ee49E7307Bec4d437a47A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/40/40fAfa5B50f2253a8E8Ee49E7307Bec4d437a47A_TagliaMyselves.sol
-100.00,100.00,0x14e81911dB7d7bE7AA714B85ba2Ba52cBa7A46dC,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/14/14e81911dB7d7bE7AA714B85ba2Ba52cBa7A46dC_FacesByBr33d.sol
-100.00,100.00,0x44804cC7a74129bACEDbD18F1d02b0C3A600c05f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/44/44804cC7a74129bACEDbD18F1d02b0C3A600c05f_Mcdull.sol
-100.00,100.00,0xa8432445e279a27FD861394fF6e62f3D71CeDCd8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a8/a8432445e279a27FD861394fF6e62f3D71CeDCd8_Charity.sol
-100.00,100.00,0x8a61B8501706Bd0f4958d9e3E75A994d411a8f99,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8a61B8501706Bd0f4958d9e3E75A994d411a8f99_CreateSystersNFTContract.sol
-100.00,100.00,0x76474c9cc1df8d3645849b3047b1417728edf852,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/76/76474c9cc1df8d3645849b3047b1417728edf852_Toranekoz.sol
-100.00,100.00,0x976d70f29856679FAd867f700A350Ae701A3b14a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/97/976d70f29856679FAd867f700A350Ae701A3b14a_CryptoPennyBlack.sol
+100.00,100.00,0xf586edA308BF91e53aBe80D70A50E2F1B6A1143B,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f586edA308BF91e53aBe80D70A50E2F1B6A1143B_MagicAvatar.sol
+100.00,100.00,0xf5CE7885118E8fb96252eA2134A3f391b69BCBcF,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5CE7885118E8fb96252eA2134A3f391b69BCBcF_DaVinci.sol
+100.00,100.00,0x2DC83e75D2c8987cf829a96bB04440c0575cBF14,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2DC83e75D2c8987cf829a96bB04440c0575cBF14_XPTOCollection.sol
+100.00,100.00,0x40fAfa5B50f2253a8E8Ee49E7307Bec4d437a47A,smart-contract-sanctuary-ethereum/contracts/mainnet/40/40fAfa5B50f2253a8E8Ee49E7307Bec4d437a47A_TagliaMyselves.sol
+100.00,100.00,0x14e81911dB7d7bE7AA714B85ba2Ba52cBa7A46dC,smart-contract-sanctuary-ethereum/contracts/mainnet/14/14e81911dB7d7bE7AA714B85ba2Ba52cBa7A46dC_FacesByBr33d.sol
+100.00,100.00,0x44804cC7a74129bACEDbD18F1d02b0C3A600c05f,smart-contract-sanctuary-ethereum/contracts/mainnet/44/44804cC7a74129bACEDbD18F1d02b0C3A600c05f_Mcdull.sol
+100.00,100.00,0xa8432445e279a27FD861394fF6e62f3D71CeDCd8,smart-contract-sanctuary-ethereum/contracts/mainnet/a8/a8432445e279a27FD861394fF6e62f3D71CeDCd8_Charity.sol
+100.00,100.00,0x76474c9cc1df8d3645849b3047b1417728edf852,smart-contract-sanctuary-ethereum/contracts/mainnet/76/76474c9cc1df8d3645849b3047b1417728edf852_Toranekoz.sol
+100.00,100.00,0x8a61B8501706Bd0f4958d9e3E75A994d411a8f99,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8a61B8501706Bd0f4958d9e3E75A994d411a8f99_CreateSystersNFTContract.sol
+100.00,100.00,0x976d70f29856679FAd867f700A350Ae701A3b14a,smart-contract-sanctuary-ethereum/contracts/mainnet/97/976d70f29856679FAd867f700A350Ae701A3b14a_CryptoPennyBlack.sol

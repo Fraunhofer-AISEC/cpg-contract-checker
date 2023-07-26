@@ -1,7 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x7A2ed175A958EA84d3300f2356324EC538A32ab9,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7A2ed175A958EA84d3300f2356324EC538A32ab9_Scribe.sol
-100.00,92.98,0x992f6c414a6da6a7470dfb9d61efc6639e9fbb0e,smart-contract-sanctuary-ethereum/contracts/mainnet/99/992f6c414a6da6a7470dfb9d61efc6639e9fbb0e_MerkleTreeTokensVerification.sol
-100.00,100.00,0x2416002d127175bc2d627faefdaa4186c7c49833,smart-contract-sanctuary-ethereum/contracts/mainnet/24/2416002d127175bc2d627faefdaa4186c7c49833_TokenDotFactory.sol
-96.08,92.59,0x9713709d8d544871107860b522c525f4a70011c4,smart-contract-sanctuary-ethereum/contracts/mainnet/97/9713709d8d544871107860b522c525f4a70011c4_lexArtWrapper.sol
-96.08,92.59,0x06f0a0c8d1aa2991894c495d2cfeff7df0e7f6fd,smart-contract-sanctuary-ethereum/contracts/mainnet/06/06f0a0c8d1aa2991894c495d2cfeff7df0e7f6fd_MolScribe.sol
-96.08,92.59,0x55cec84bdbe50bde1cb3572f35cc653e027cc8c1,smart-contract-sanctuary-ethereum/contracts/mainnet/55/55cec84bdbe50bde1cb3572f35cc653e027cc8c1_MolScribe.sol
+100.00,100.00,0x7A2ed175A958EA84d3300f2356324EC538A32ab9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7A2ed175A958EA84d3300f2356324EC538A32ab9_Scribe.sol
+100.00,92.98,0x992f6c414a6da6a7470dfb9d61efc6639e9fbb0e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/99/992f6c414a6da6a7470dfb9d61efc6639e9fbb0e_MerkleTreeTokensVerification.sol
+100.00,100.00,0x2416002d127175bc2d627faefdaa4186c7c49833,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/24/2416002d127175bc2d627faefdaa4186c7c49833_TokenDotFactory.sol
+96.08,92.59,0x9713709d8d544871107860b522c525f4a70011c4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/97/9713709d8d544871107860b522c525f4a70011c4_lexArtWrapper.sol
+96.08,92.59,0x06f0a0c8d1aa2991894c495d2cfeff7df0e7f6fd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/06/06f0a0c8d1aa2991894c495d2cfeff7df0e7f6fd_MolScribe.sol
+96.08,92.59,0x55cec84bdbe50bde1cb3572f35cc653e027cc8c1,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/55/55cec84bdbe50bde1cb3572f35cc653e027cc8c1_MolScribe.sol

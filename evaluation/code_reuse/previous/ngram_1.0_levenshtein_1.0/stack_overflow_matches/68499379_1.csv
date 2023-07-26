@@ -1,8 +1,8 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x9ac63e7a52247b05ac878f1ede7b1e1285a54843,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9ac63e7a52247b05ac878f1ede7b1e1285a54843_BountyHunter.sol
-100.00,100.00,0x99c65c81c15cB84DEEC9809fDF755C286B280087,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99c65c81c15cB84DEEC9809fDF755C286B280087_BountyHunter.sol
-100.00,100.00,0x805d6f1827e35a60c4b6d63fd04281bfbc2c3823,smart-contract-sanctuary-ethereum/contracts/mainnet/80/805d6f1827e35a60c4b6d63fd04281bfbc2c3823_BountyHunter.sol
-100.00,100.00,0x783F552164E5F10a85323C95A2cD602bE114763c,smart-contract-sanctuary-ethereum/contracts/mainnet/78/783F552164E5F10a85323C95A2cD602bE114763c_EtherMemes.sol
-100.00,100.00,0x9F9a8D8e175f6A56359C2075E530e678ef6F575B,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9F9a8D8e175f6A56359C2075E530e678ef6F575B_EtherMemes.sol
-100.00,100.00,0xd884451d0ea759df8573f60ed61285fbffb7f1ae,smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d884451d0ea759df8573f60ed61285fbffb7f1ae_StinkyLinky.sol
-100.00,100.00,0x17fe31d1286e5a280f8e684d4fdb21e21b93d8e3,smart-contract-sanctuary-ethereum/contracts/mainnet/17/17fe31d1286e5a280f8e684d4fdb21e21b93d8e3_CryptoLeaders.sol
+100.00,100.00,0x9ac63e7a52247b05ac878f1ede7b1e1285a54843,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9ac63e7a52247b05ac878f1ede7b1e1285a54843_BountyHunter.sol
+100.00,100.00,0x99c65c81c15cB84DEEC9809fDF755C286B280087,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/99/99c65c81c15cB84DEEC9809fDF755C286B280087_BountyHunter.sol
+100.00,100.00,0x805d6f1827e35a60c4b6d63fd04281bfbc2c3823,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/80/805d6f1827e35a60c4b6d63fd04281bfbc2c3823_BountyHunter.sol
+100.00,100.00,0xd884451d0ea759df8573f60ed61285fbffb7f1ae,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d8/d884451d0ea759df8573f60ed61285fbffb7f1ae_StinkyLinky.sol
+100.00,100.00,0x9F9a8D8e175f6A56359C2075E530e678ef6F575B,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9F9a8D8e175f6A56359C2075E530e678ef6F575B_EtherMemes.sol
+100.00,100.00,0x783F552164E5F10a85323C95A2cD602bE114763c,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/78/783F552164E5F10a85323C95A2cD602bE114763c_EtherMemes.sol
+100.00,100.00,0x17fe31d1286e5a280f8e684d4fdb21e21b93d8e3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/17/17fe31d1286e5a280f8e684d4fdb21e21b93d8e3_CryptoLeaders.sol

@@ -1,13 +1,13 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-96.43,90.00,0xc01D87EfE4Be473c34E83779b560e49F32F0b982,smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c01D87EfE4Be473c34E83779b560e49F32F0b982_ParametersStorage.sol
-96.43,90.00,0xf82f05b89d2432548263E3A01b18d8A5696b9A8E,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f82f05b89d2432548263E3A01b18d8A5696b9A8E_ParametersStorage.sol
-92.86,96.67,0x812dC61A4aD3D6eB47ec92dF712b52c12E6A9B93,smart-contract-sanctuary-ethereum/contracts/mainnet/81/812dC61A4aD3D6eB47ec92dF712b52c12E6A9B93_JBProjectHandles.sol
-92.86,96.67,0xa4CF53d6011855CC52a9917b47af7B7A70aB2F5f,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4CF53d6011855CC52a9917b47af7B7A70aB2F5f_JBProjectHandles.sol
-92.86,90.00,0x2b8d14bf74741d33E814978816E7c36B9802E568,smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b8d14bf74741d33E814978816E7c36B9802E568_DropspaceSale.sol
-89.29,90.00,0x71923a93A1f4837E931D888c90a10de4E3678336,smart-contract-sanctuary-ethereum/contracts/mainnet/71/71923a93A1f4837E931D888c90a10de4E3678336_KYCRegistry.sol
-85.71,93.33,0x774127598a645cb87e723e8d8eb36061acc5e8c3,smart-contract-sanctuary-ethereum/contracts/mainnet/77/774127598a645cb87e723e8d8eb36061acc5e8c3_WhitelistRegistrationRules.sol
-85.71,93.33,0x63b58c3398b5e78d1b87752f2290e3d4f9f32c47,smart-contract-sanctuary-ethereum/contracts/mainnet/63/63b58c3398b5e78d1b87752f2290e3d4f9f32c47_WhitelistRegistrationRules.sol
-85.71,93.33,0x12f389a856af311967b52285b13ff1fa0974a4d4,smart-contract-sanctuary-ethereum/contracts/mainnet/12/12f389a856af311967b52285b13ff1fa0974a4d4_WhitelistRegistrationRules.sol
-85.71,90.00,0x4C7f1b1cE4EB31008B9C493d22477EF0dd54c69b,smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4C7f1b1cE4EB31008B9C493d22477EF0dd54c69b_LxLDAO.sol
-85.71,93.33,0x772e8423e2c90835b85126f67d33e89df792de29,smart-contract-sanctuary-ethereum/contracts/mainnet/77/772e8423e2c90835b85126f67d33e89df792de29_KaliAccessManager.sol
-82.14,90.00,0x7cE91291846502D50D635163135B2d40a602dc70,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7cE91291846502D50D635163135B2d40a602dc70_KYCRegistry.sol
+96.43,90.00,0xc01D87EfE4Be473c34E83779b560e49F32F0b982,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c01D87EfE4Be473c34E83779b560e49F32F0b982_ParametersStorage.sol
+96.43,90.00,0xf82f05b89d2432548263E3A01b18d8A5696b9A8E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f82f05b89d2432548263E3A01b18d8A5696b9A8E_ParametersStorage.sol
+92.86,96.67,0x812dC61A4aD3D6eB47ec92dF712b52c12E6A9B93,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/81/812dC61A4aD3D6eB47ec92dF712b52c12E6A9B93_JBProjectHandles.sol
+92.86,96.67,0xa4CF53d6011855CC52a9917b47af7B7A70aB2F5f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4CF53d6011855CC52a9917b47af7B7A70aB2F5f_JBProjectHandles.sol
+92.86,90.00,0x2b8d14bf74741d33E814978816E7c36B9802E568,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2b/2b8d14bf74741d33E814978816E7c36B9802E568_DropspaceSale.sol
+89.29,90.00,0x71923a93A1f4837E931D888c90a10de4E3678336,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/71/71923a93A1f4837E931D888c90a10de4E3678336_KYCRegistry.sol
+85.71,93.33,0x63b58c3398b5e78d1b87752f2290e3d4f9f32c47,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/63/63b58c3398b5e78d1b87752f2290e3d4f9f32c47_WhitelistRegistrationRules.sol
+85.71,93.33,0x12f389a856af311967b52285b13ff1fa0974a4d4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/12/12f389a856af311967b52285b13ff1fa0974a4d4_WhitelistRegistrationRules.sol
+85.71,93.33,0x774127598a645cb87e723e8d8eb36061acc5e8c3,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/77/774127598a645cb87e723e8d8eb36061acc5e8c3_WhitelistRegistrationRules.sol
+85.71,90.00,0x4C7f1b1cE4EB31008B9C493d22477EF0dd54c69b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4c/4C7f1b1cE4EB31008B9C493d22477EF0dd54c69b_LxLDAO.sol
+85.71,93.33,0x772e8423e2c90835b85126f67d33e89df792de29,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/77/772e8423e2c90835b85126f67d33e89df792de29_KaliAccessManager.sol
+82.14,90.00,0x7cE91291846502D50D635163135B2d40a602dc70,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7cE91291846502D50D635163135B2d40a602dc70_KYCRegistry.sol

@@ -1,2 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xD5F830AAeDdB1505f26E907b7953e505C97Aa837,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d5/D5F830AAeDdB1505f26E907b7953e505C97Aa837_SwapUtils.sol
+100.00,100.00,0xa63fb635A97EcB7C73DBCA1529a821c175c6dE57,smart-contract-sanctuary-ethereum/contracts/mainnet/a6/a63fb635A97EcB7C73DBCA1529a821c175c6dE57_SplitLiquidationCollateral.sol
+100.00,100.00,0xD5F830AAeDdB1505f26E907b7953e505C97Aa837,smart-contract-sanctuary-ethereum/contracts/mainnet/d5/D5F830AAeDdB1505f26E907b7953e505C97Aa837_SwapUtils.sol
+100.00,100.00,0x92bf51A0bFF6C7C56F54DF0EC03552F2F0229222,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92bf51A0bFF6C7C56F54DF0EC03552F2F0229222_ChainlinkPriceOracle.sol
+100.00,100.00,0x6524792d685414b4588d2B6965d1bf1e9Cf8933B,smart-contract-sanctuary-ethereum/contracts/mainnet/65/6524792d685414b4588d2B6965d1bf1e9Cf8933B_ROOTToken.sol

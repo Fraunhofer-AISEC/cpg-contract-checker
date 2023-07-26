@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-87.10,72.54,0x58af4c5a2a0c9b414891da7c3ab73c922acd5fd4,smart-contract-sanctuary-ethereum/contracts/mainnet/58/58af4c5a2a0c9b414891da7c3ab73c922acd5fd4_CrowdsaleMain.sol
-85.48,72.81,0xdad399dfb1807be814af92950702a6eecb156759,smart-contract-sanctuary-ethereum/contracts/mainnet/da/dad399dfb1807be814af92950702a6eecb156759_EnishiCoin.sol
-82.26,77.22,0xD859701C81119aB12A1e62AF6270aD2AE05c7AB3,smart-contract-sanctuary-ethereum/contracts/mainnet/d8/D859701C81119aB12A1e62AF6270aD2AE05c7AB3_ContractRegistry.sol
-82.26,74.13,0x31e43cee5433945dba82c09dffe8ae29edbb27c3,smart-contract-sanctuary-ethereum/contracts/mainnet/31/31e43cee5433945dba82c09dffe8ae29edbb27c3_Keep3rV2OracleFactory.sol

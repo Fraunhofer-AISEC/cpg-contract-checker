@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-93.75,75.74,0x19cbd7eE4E77AC8CFF336eD5a424360bc052e7B9,smart-contract-sanctuary-ethereum/contracts/mainnet/19/19cbd7eE4E77AC8CFF336eD5a424360bc052e7B9_VotingRewards.sol
-93.75,75.74,0x8bB53BcF6d0BD0B044f60a27e022A8aD55F66599,smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8bB53BcF6d0BD0B044f60a27e022A8aD55F66599_VotingRewards.sol
-93.75,75.74,0x88D3dD56Ee01BD5e5ba83D8165505128888e2b02,smart-contract-sanctuary-ethereum/contracts/mainnet/88/88D3dD56Ee01BD5e5ba83D8165505128888e2b02_VotingRewards.sol
-87.50,70.29,0x523630976eB6147621B5c31c781eBe2Ec2a806E0,smart-contract-sanctuary-ethereum/contracts/mainnet/52/523630976eB6147621B5c31c781eBe2Ec2a806E0_EtherNomin.sol
-87.50,70.29,0x971e78e0C92392A4E39099835cF7E6aB535b2227,smart-contract-sanctuary-ethereum/contracts/mainnet/97/971e78e0C92392A4E39099835cF7E6aB535b2227_HavvenEscrow.sol
-87.50,70.29,0xF244176246168F24e3187f7288EdbCA29267739b,smart-contract-sanctuary-ethereum/contracts/mainnet/f2/F244176246168F24e3187f7288EdbCA29267739b_Havven.sol

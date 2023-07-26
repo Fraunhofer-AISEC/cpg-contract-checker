@@ -1,9 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-86.67,70.74,0xA4E35B1d1e8517298f6FEca143DeC4f3814c8BB7,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/A4E35B1d1e8517298f6FEca143DeC4f3814c8BB7_ApeBond.sol
-86.67,85.00,0xba5a1760dbf1dc1be22dd48fe54a028203240a64,smart-contract-sanctuary-ethereum/contracts/mainnet/ba/ba5a1760dbf1dc1be22dd48fe54a028203240a64_NanoLoanEngine.sol
-83.33,70.38,0x1Ac17FFB8456525BfF46870bba7Ed8772ba063a5,smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1Ac17FFB8456525BfF46870bba7Ed8772ba063a5_Metadata.sol
-80.00,72.96,0xCE88C62a0692aF030690abce9513FF6080F2Ced6,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/CE88C62a0692aF030690abce9513FF6080F2Ced6_Csr.sol
-80.00,72.96,0xc2FeB24d4176A5c08612FA340D35F2DdB78cED97,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c2FeB24d4176A5c08612FA340D35F2DdB78cED97_Csr.sol
-76.67,71.90,0xe91DC7FF1d66b63D1277AcEbBc08F4F695FE2C98,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e91DC7FF1d66b63D1277AcEbBc08F4F695FE2C98_SecondSkinMinter.sol
-76.67,71.11,0x96313f2c374f901e3831ea6de67b1165c4f39a54,smart-contract-sanctuary-ethereum/contracts/mainnet/96/96313f2c374f901e3831ea6de67b1165c4f39a54_JoyArt.sol
-76.67,71.11,0x383bf1fd04d0901bbd674a580e0a621fcbb4799b,smart-contract-sanctuary-ethereum/contracts/mainnet/38/383bf1fd04d0901bbd674a580e0a621fcbb4799b_CryptoDoggies.sol

@@ -1,7 +1,7 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x4ed4d0729ccc747da709f392cb137ecfa57c0fe4,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4ed4d0729ccc747da709f392cb137ecfa57c0fe4_REKT.sol
-100.00,100.00,0xEAb9ceDB43F0b9bD88A7B0d254c9C58Ecf2A7284,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ea/EAb9ceDB43F0b9bD88A7B0d254c9C58Ecf2A7284_NifkeyEIP712.sol
-100.00,100.00,0x886CD65110cA02C29D3Ef1a50c6aED3D4fc0c66A,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/88/886CD65110cA02C29D3Ef1a50c6aED3D4fc0c66A_TakuObata.sol
-100.00,100.00,0xf99BA050Fcbd858E971a13821566e876cB0063ca,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f99BA050Fcbd858E971a13821566e876cB0063ca_GalverseKumade.sol
-100.00,100.00,0x99FcB2A42C7cfbBb4d6dad448374a62330e4873D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/99/99FcB2A42C7cfbBb4d6dad448374a62330e4873D_SneakerwolfKumade.sol
-100.00,100.00,0xe7cD2797aC6F08b5721C7e7FCc991251Df5e3884,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e7cD2797aC6F08b5721C7e7FCc991251Df5e3884_Dubiex.sol
+100.00,100.00,0x4ed4d0729ccc747da709f392cb137ecfa57c0fe4,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4ed4d0729ccc747da709f392cb137ecfa57c0fe4_REKT.sol
+100.00,100.00,0xEAb9ceDB43F0b9bD88A7B0d254c9C58Ecf2A7284,smart-contract-sanctuary-ethereum/contracts/mainnet/ea/EAb9ceDB43F0b9bD88A7B0d254c9C58Ecf2A7284_NifkeyEIP712.sol
+100.00,100.00,0x886CD65110cA02C29D3Ef1a50c6aED3D4fc0c66A,smart-contract-sanctuary-ethereum/contracts/mainnet/88/886CD65110cA02C29D3Ef1a50c6aED3D4fc0c66A_TakuObata.sol
+100.00,100.00,0xf99BA050Fcbd858E971a13821566e876cB0063ca,smart-contract-sanctuary-ethereum/contracts/mainnet/f9/f99BA050Fcbd858E971a13821566e876cB0063ca_GalverseKumade.sol
+100.00,100.00,0x99FcB2A42C7cfbBb4d6dad448374a62330e4873D,smart-contract-sanctuary-ethereum/contracts/mainnet/99/99FcB2A42C7cfbBb4d6dad448374a62330e4873D_SneakerwolfKumade.sol
+100.00,100.00,0xe7cD2797aC6F08b5721C7e7FCc991251Df5e3884,smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e7cD2797aC6F08b5721C7e7FCc991251Df5e3884_Dubiex.sol

@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-98.39,90.09,0x8b98f64c83147e498a0f66dc071348d3daeee051,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/8b/8b98f64c83147e498a0f66dc071348d3daeee051_MyAdvancedToken.sol
-98.39,98.42,0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d_AxieCore.sol
-98.39,98.42,0x1bf047a01720f3a6fbc5aea29895c285336aea88,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1bf047a01720f3a6fbc5aea29895c285336aea88_WIN_NFT_HORSE_Core.sol

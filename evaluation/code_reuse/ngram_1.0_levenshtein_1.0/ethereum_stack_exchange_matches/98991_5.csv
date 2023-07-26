@@ -1,10 +1,10 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xc056471f31a8f67b5488028b779e0ae546eb78a7,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c056471f31a8f67b5488028b779e0ae546eb78a7_ArtMuseum.sol
-100.00,100.00,0x1ba0ab6ef2d6fbd773fec0dd7f4633ae360db65e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1ba0ab6ef2d6fbd773fec0dd7f4633ae360db65e_ChoweToken.sol
-100.00,100.00,0x09b943c157ee9d56b0e9168e15eea2c64ea85393,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/09/09b943c157ee9d56b0e9168e15eea2c64ea85393_ArtMuseum.sol
-100.00,100.00,0xB8E068919a254C88ad4F2274D7226204843f22Fb,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b8/B8E068919a254C88ad4F2274D7226204843f22Fb_VXR.sol
-100.00,100.00,0x9dbb6867ceaf0650a00a2ae1aa331eb5d793f1dd,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9dbb6867ceaf0650a00a2ae1aa331eb5d793f1dd_GB.sol
-100.00,100.00,0xaaea45fff047255efab25668e43d242bbbee0b46,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aaea45fff047255efab25668e43d242bbbee0b46_GB.sol
-100.00,100.00,0xff5dacdf6fa5798089066cef41f0ae0a66ea1231,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/ff/ff5dacdf6fa5798089066cef41f0ae0a66ea1231_ArtMuseumV2.sol
-100.00,100.00,0x9167794156d7d370c0056aa1e54b1525190b0147,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/91/9167794156d7d370c0056aa1e54b1525190b0147_ArtMuseumV1.sol
-100.00,100.00,0x10d50c232ea456dbfd53db3f2ed854256e2e69e0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/10/10d50c232ea456dbfd53db3f2ed854256e2e69e0_ArtMuseumV1.sol
+100.00,100.00,0xc056471f31a8f67b5488028b779e0ae546eb78a7,smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c056471f31a8f67b5488028b779e0ae546eb78a7_ArtMuseum.sol
+100.00,100.00,0x1ba0ab6ef2d6fbd773fec0dd7f4633ae360db65e,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1ba0ab6ef2d6fbd773fec0dd7f4633ae360db65e_ChoweToken.sol
+100.00,100.00,0x09b943c157ee9d56b0e9168e15eea2c64ea85393,smart-contract-sanctuary-ethereum/contracts/mainnet/09/09b943c157ee9d56b0e9168e15eea2c64ea85393_ArtMuseum.sol
+100.00,100.00,0xB8E068919a254C88ad4F2274D7226204843f22Fb,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/B8E068919a254C88ad4F2274D7226204843f22Fb_VXR.sol
+100.00,100.00,0xaaea45fff047255efab25668e43d242bbbee0b46,smart-contract-sanctuary-ethereum/contracts/mainnet/aa/aaea45fff047255efab25668e43d242bbbee0b46_GB.sol
+100.00,100.00,0x9dbb6867ceaf0650a00a2ae1aa331eb5d793f1dd,smart-contract-sanctuary-ethereum/contracts/mainnet/9d/9dbb6867ceaf0650a00a2ae1aa331eb5d793f1dd_GB.sol
+100.00,100.00,0xff5dacdf6fa5798089066cef41f0ae0a66ea1231,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/ff5dacdf6fa5798089066cef41f0ae0a66ea1231_ArtMuseumV2.sol
+100.00,100.00,0x9167794156d7d370c0056aa1e54b1525190b0147,smart-contract-sanctuary-ethereum/contracts/mainnet/91/9167794156d7d370c0056aa1e54b1525190b0147_ArtMuseumV1.sol
+100.00,100.00,0x10d50c232ea456dbfd53db3f2ed854256e2e69e0,smart-contract-sanctuary-ethereum/contracts/mainnet/10/10d50c232ea456dbfd53db3f2ed854256e2e69e0_ArtMuseumV1.sol

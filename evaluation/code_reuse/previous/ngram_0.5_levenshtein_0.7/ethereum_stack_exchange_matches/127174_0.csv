@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-85.71,75.50,0x3b771b2bc7edfb475a72d0c9e2c07a653a3c6753,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b771b2bc7edfb475a72d0c9e2c07a653a3c6753_ERC20.sol
-83.33,71.28,0x6f2057f83c05378f22a15b72a424367cb40abc1b,smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6f2057f83c05378f22a15b72a424367cb40abc1b_TokenCSR.sol
-80.95,74.42,0xb4a33f24b059e5f9fec23d64e7ea1b7146ce001e,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/b4a33f24b059e5f9fec23d64e7ea1b7146ce001e_MSDOGE.sol
-80.95,70.16,0xbb6959B0bd7e1fa6578cC72EAf97538a6D446514,smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bb6959B0bd7e1fa6578cC72EAf97538a6D446514_ImagolStandardToken.sol
-78.57,81.40,0x20bAC7E1f662c74Be4234Ec545619470C65e7D7d,smart-contract-sanctuary-ethereum/contracts/mainnet/20/20bAC7E1f662c74Be4234Ec545619470C65e7D7d_Prether.sol
-78.57,71.28,0x92685e93956537c25bb75d5d47fca4266dd628b8,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92685e93956537c25bb75d5d47fca4266dd628b8_Token.sol

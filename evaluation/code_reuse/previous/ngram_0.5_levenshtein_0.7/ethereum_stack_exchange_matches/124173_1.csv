@@ -1,9 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x1a21e876534681Fe5c0Fe4f64661d1B585051244,smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1a21e876534681Fe5c0Fe4f64661d1B585051244_MarketPlace.sol
-98.48,96.29,0x5913509d42862a9110bfd87830fae2fc51077a68,smart-contract-sanctuary-ethereum/contracts/mainnet/59/5913509d42862a9110bfd87830fae2fc51077a68_Marketplace.sol
-95.27,81.55,0x5A83693b77FaFc9D26a540F14656423edBE66C92,smart-contract-sanctuary-ethereum/contracts/mainnet/5a/5A83693b77FaFc9D26a540F14656423edBE66C92_NFTMarket.sol
-95.27,82.24,0x4180334343e6a69aa40d2c180816d7f0af624367,smart-contract-sanctuary-ethereum/contracts/mainnet/41/4180334343e6a69aa40d2c180816d7f0af624367_NFTMarket.sol
-95.08,80.72,0x533C6510AeAbe94867313afe49BEC7cB65FF16FF,smart-contract-sanctuary-ethereum/contracts/mainnet/53/533C6510AeAbe94867313afe49BEC7cB65FF16FF_NFTMarket.sol
-93.56,71.56,0xD6EDFAFFBD5E894554641EC87D0aD5F4D1916de1,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/D6EDFAFFBD5E894554641EC87D0aD5F4D1916de1_NFTMarket.sol
-86.93,80.04,0xd2c419a28d2a6e26c8a94bf620d70a5c013ce68f,smart-contract-sanctuary-ethereum/contracts/mainnet/d2/d2c419a28d2a6e26c8a94bf620d70a5c013ce68f_Wallex.sol
-86.93,80.04,0x8CD6F97b2fcC945D290683E5d4c4b5210507cD87,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8CD6F97b2fcC945D290683E5d4c4b5210507cD87_ERC721.sol

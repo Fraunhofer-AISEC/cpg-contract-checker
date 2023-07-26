@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x968f4bdbe08635d51148b731ef48be2eace5a350,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/96/968f4bdbe08635d51148b731ef48be2eace5a350_Storage.sol
-100.00,100.00,0x627b2c7309e822dfd4e0e1f9cdeb171ee18fe023,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/627b2c7309e822dfd4e0e1f9cdeb171ee18fe023_esoBankVer.sol
-100.00,100.00,0x3b1c6004e43bf49c521eb382dec02e6c3ff5272a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b1c6004e43bf49c521eb382dec02e6c3ff5272a_LINKFund.sol
-100.00,100.00,0x67d061904e6e308c4e01b28b72d7fc15dd0d7dd6,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/67/67d061904e6e308c4e01b28b72d7fc15dd0d7dd6_MonethaBuyerWithdrawHelper.sol
+100.00,100.00,0x968f4bdbe08635d51148b731ef48be2eace5a350,smart-contract-sanctuary-ethereum/contracts/mainnet/96/968f4bdbe08635d51148b731ef48be2eace5a350_Storage.sol
+100.00,100.00,0x627b2c7309e822dfd4e0e1f9cdeb171ee18fe023,smart-contract-sanctuary-ethereum/contracts/mainnet/62/627b2c7309e822dfd4e0e1f9cdeb171ee18fe023_esoBankVer.sol
+100.00,100.00,0x3b1c6004e43bf49c521eb382dec02e6c3ff5272a,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b1c6004e43bf49c521eb382dec02e6c3ff5272a_LINKFund.sol
+100.00,100.00,0x67d061904e6e308c4e01b28b72d7fc15dd0d7dd6,smart-contract-sanctuary-ethereum/contracts/mainnet/67/67d061904e6e308c4e01b28b72d7fc15dd0d7dd6_MonethaBuyerWithdrawHelper.sol

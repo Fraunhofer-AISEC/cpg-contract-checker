@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-71.08,79.12,0xa2651bfa1d613fea0f7a3138e442e4ee865b5ec7,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/a2651bfa1d613fea0f7a3138e442e4ee865b5ec7_AdsVenture.sol
-66.18,70.49,0x4A3943269C581eFCbd0875A7c60Da1C35a7C85c2,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4A3943269C581eFCbd0875A7c60Da1C35a7C85c2_ZeroExV1Adapter.sol
-62.25,76.12,0x27ed7dc072da308fe1f0154d0fac948308e80f66,smart-contract-sanctuary-ethereum/contracts/mainnet/27/27ed7dc072da308fe1f0154d0fac948308e80f66_ModultradeStorage.sol
-59.31,72.59,0x74cebf05e472afb012896a9dafc3ce057233136f,smart-contract-sanctuary-ethereum/contracts/mainnet/74/74cebf05e472afb012896a9dafc3ce057233136f_Modultrade.sol
-59.31,72.59,0xcedfb2cada6cd361a14b66ba4916ca16a364bb4a,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/cedfb2cada6cd361a14b66ba4916ca16a364bb4a_ModultradeProposal.sol
-57.35,74.71,0x432c7180c29a93d1703be41b6171755b72d86321,smart-contract-sanctuary-ethereum/contracts/mainnet/43/432c7180c29a93d1703be41b6171755b72d86321_Aeromart.sol

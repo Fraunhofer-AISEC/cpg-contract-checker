@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-72.73,73.47,0x2AF38e66C97AE8Dfff2D66Fe2e813ea60E60093D,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2AF38e66C97AE8Dfff2D66Fe2e813ea60E60093D_S4Strategy.sol
-72.73,74.71,0xfa4559f6c3f681604bC38f913Cf95B07eB27f317,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa4559f6c3f681604bC38f913Cf95B07eB27f317_S4Strategy.sol
-71.43,72.26,0x1B9D88A4e0f6194715a052180bf89D43f82Be5Dd,smart-contract-sanctuary-ethereum/contracts/mainnet/1b/1B9D88A4e0f6194715a052180bf89D43f82Be5Dd_FxsAllocator.sol
-71.43,71.00,0x219f7496fbd30e1f21a20613f9372d608a279993,smart-contract-sanctuary-ethereum/contracts/mainnet/21/219f7496fbd30e1f21a20613f9372d608a279993_BlackpoolDepositor.sol
-67.53,71.61,0x1ce5181124c33Abc281BF0F07eF4fB8573556aA5,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1ce5181124c33Abc281BF0F07eF4fB8573556aA5_FpisLocker.sol
-67.53,71.61,0xd0BFC3d1c63f3F756998c8c44a6E92910cB37A2d,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d0BFC3d1c63f3F756998c8c44a6E92910cB37A2d_FpisLocker.sol

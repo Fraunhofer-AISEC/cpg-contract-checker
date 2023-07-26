@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-91.26,93.33,0x584ee92eaced80ca000a0e8ded95fe1ba9782bc3,smart-contract-sanctuary-ethereum/contracts/mainnet/58/584ee92eaced80ca000a0e8ded95fe1ba9782bc3_WalletSimple.sol
-74.76,73.64,0xdcd6f2f38823977c2a1e949daadd09947dfc024a,smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dcd6f2f38823977c2a1e949daadd09947dfc024a_WalletSimple.sol
-74.76,73.64,0x3674615294ba0ef41bc456a4bc8d414c21ecf28e,smart-contract-sanctuary-ethereum/contracts/mainnet/36/3674615294ba0ef41bc456a4bc8d414c21ecf28e_WalletFactory.sol

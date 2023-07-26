@@ -1,3 +1,3 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-96.97,95.81,0x42fbfb1d1994a99de3bc52c2172d8370cd3d6671,smart-contract-sanctuary-ethereum/contracts/mainnet/42/42fbfb1d1994a99de3bc52c2172d8370cd3d6671_GeocashToken.sol
-96.97,95.81,0xd9e6c755c7eb0d4df3377b56c9c808e4df2bb4a2,smart-contract-sanctuary-ethereum/contracts/mainnet/d9/d9e6c755c7eb0d4df3377b56c9c808e4df2bb4a2_GeocashToken.sol
+96.97,95.81,0x42fbfb1d1994a99de3bc52c2172d8370cd3d6671,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/42/42fbfb1d1994a99de3bc52c2172d8370cd3d6671_GeocashToken.sol
+96.97,95.81,0xd9e6c755c7eb0d4df3377b56c9c808e4df2bb4a2,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/d9/d9e6c755c7eb0d4df3377b56c9c808e4df2bb4a2_GeocashToken.sol

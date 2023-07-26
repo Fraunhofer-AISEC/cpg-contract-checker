@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x6a8536d38d78b9a4256be0638b18a659c27d3758,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6a8536d38d78b9a4256be0638b18a659c27d3758_BenchmarkOracle.sol
-100.00,100.00,0x1C63759D7Fad3e3A8242EFe1e6B513aaBB1cCA72,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1C63759D7Fad3e3A8242EFe1e6B513aaBB1cCA72_AlluoLockedV4.sol
-100.00,100.00,0x32f6196f028201586dd71956c16a55f65edba3ed,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/32/32f6196f028201586dd71956c16a55f65edba3ed_NFTHoodie.sol
+100.00,100.00,0x6a8536d38d78b9a4256be0638b18a659c27d3758,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6a8536d38d78b9a4256be0638b18a659c27d3758_BenchmarkOracle.sol
+100.00,100.00,0x1C63759D7Fad3e3A8242EFe1e6B513aaBB1cCA72,smart-contract-sanctuary-ethereum/contracts/mainnet/1c/1C63759D7Fad3e3A8242EFe1e6B513aaBB1cCA72_AlluoLockedV4.sol
+100.00,100.00,0x32f6196f028201586dd71956c16a55f65edba3ed,smart-contract-sanctuary-ethereum/contracts/mainnet/32/32f6196f028201586dd71956c16a55f65edba3ed_NFTHoodie.sol

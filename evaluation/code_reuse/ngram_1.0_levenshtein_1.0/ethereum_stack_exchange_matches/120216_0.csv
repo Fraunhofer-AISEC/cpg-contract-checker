@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x0c5cb6c973775b3e9c34a01ca161d7b7ad2104ee,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0c5cb6c973775b3e9c34a01ca161d7b7ad2104ee_ridle_Game.sol
-100.00,100.00,0x5e9b52a9909df76cc846876faee62be72a6d5a7b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e9b52a9909df76cc846876faee62be72a6d5a7b_quest_Xz.sol
-100.00,100.00,0x4bfed6f4fd57a1709b469e1a8918c6921e82a4f9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4b/4bfed6f4fd57a1709b469e1a8918c6921e82a4f9_ALFA_QUIZ.sol
-100.00,100.00,0xfa54ec70654298847c5bed431c941efdeef73df0,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa54ec70654298847c5bed431c941efdeef73df0_Quiz_blitz.sol
+100.00,100.00,0xfa54ec70654298847c5bed431c941efdeef73df0,smart-contract-sanctuary-ethereum/contracts/mainnet/fa/fa54ec70654298847c5bed431c941efdeef73df0_Quiz_blitz.sol
+100.00,100.00,0x0c5cb6c973775b3e9c34a01ca161d7b7ad2104ee,smart-contract-sanctuary-ethereum/contracts/mainnet/0c/0c5cb6c973775b3e9c34a01ca161d7b7ad2104ee_ridle_Game.sol
+100.00,100.00,0x5e9b52a9909df76cc846876faee62be72a6d5a7b,smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5e9b52a9909df76cc846876faee62be72a6d5a7b_quest_Xz.sol
+100.00,100.00,0x4bfed6f4fd57a1709b469e1a8918c6921e82a4f9,smart-contract-sanctuary-ethereum/contracts/mainnet/4b/4bfed6f4fd57a1709b469e1a8918c6921e82a4f9_ALFA_QUIZ.sol

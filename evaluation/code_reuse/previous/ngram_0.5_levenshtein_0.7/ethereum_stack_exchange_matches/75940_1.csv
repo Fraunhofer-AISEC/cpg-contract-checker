@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-94.29,71.20,0x1d3B48DB95A22718FbA286Bb3CDa92871A970169,smart-contract-sanctuary-ethereum/contracts/mainnet/1d/1d3B48DB95A22718FbA286Bb3CDa92871A970169_TestContract.sol
-94.29,73.78,0xdf6d0bcfc83a79c8542a180333173ed613bb80a8,smart-contract-sanctuary-ethereum/contracts/mainnet/df/df6d0bcfc83a79c8542a180333173ed613bb80a8_CountTransferManager.sol
-94.29,73.78,0xa662a05647a8e713be1bed193c094805d20471ff,smart-contract-sanctuary-ethereum/contracts/mainnet/a6/a662a05647a8e713be1bed193c094805d20471ff_CountTransferManagerFactory.sol
-94.29,75.00,0xcbcdbb2d5316bf5997fe8eb523fa303d3367056a,smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cbcdbb2d5316bf5997fe8eb523fa303d3367056a_DMEX_Fee_Contract.sol

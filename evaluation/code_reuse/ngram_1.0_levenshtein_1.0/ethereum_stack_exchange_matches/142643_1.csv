@@ -1,3 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x0bDDE62241E55C01Fc4D33CDC65759aA8Dbd707D,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0bDDE62241E55C01Fc4D33CDC65759aA8Dbd707D_TeritoriNft.sol
-100.00,100.00,0x2Ef3E76eA2470eF7507407634A1C25c9cC531A60,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2Ef3E76eA2470eF7507407634A1C25c9cC531A60_TeritoriNft.sol
+100.00,100.00,0x0bDDE62241E55C01Fc4D33CDC65759aA8Dbd707D,smart-contract-sanctuary-ethereum/contracts/mainnet/0b/0bDDE62241E55C01Fc4D33CDC65759aA8Dbd707D_TeritoriNft.sol
+100.00,100.00,0x2Ef3E76eA2470eF7507407634A1C25c9cC531A60,smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2Ef3E76eA2470eF7507407634A1C25c9cC531A60_TeritoriNft.sol
+100.00,100.00,0x3b6B64fC7179F72b7Ef656D61737d67bf2339457,smart-contract-sanctuary-ethereum/contracts/mainnet/3b/3b6B64fC7179F72b7Ef656D61737d67bf2339457_NTS1Citizen.sol

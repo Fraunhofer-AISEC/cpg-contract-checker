@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,72.00,0x73EA6eA4aC79375300f638765DC1FfebABFAAe60,smart-contract-sanctuary-ethereum/contracts/mainnet/73/73EA6eA4aC79375300f638765DC1FfebABFAAe60_Creature.sol
-85.71,71.11,0xcafea0D1E96416BB7929f5C5357CA4B837910705,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/cafea0D1E96416BB7929f5C5357CA4B837910705_Quotation.sol
-85.71,71.11,0xcafeadA57182b2De3A81b7d8D97A7A223FF9C978,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/cafeadA57182b2De3A81b7d8D97A7A223FF9C978_Claims.sol
-85.71,71.11,0xcafea80F156a860d9Fa7C05AC540f1FaDdaeCf78,smart-contract-sanctuary-ethereum/contracts/mainnet/ca/cafea80F156a860d9Fa7C05AC540f1FaDdaeCf78_ClaimsReward.sol
-80.00,76.32,0x369e7f986383d2c8e7e11b9e9e99097f577d75b5,smart-contract-sanctuary-ethereum/contracts/mainnet/36/369e7f986383d2c8e7e11b9e9e99097f577d75b5_BethsPayout.sol
-80.00,71.79,0x8e3a532f2212d71074fd27bcf570c878d14458fb,smart-contract-sanctuary-ethereum/contracts/mainnet/8e/8e3a532f2212d71074fd27bcf570c878d14458fb_HYFI_Lottery.sol

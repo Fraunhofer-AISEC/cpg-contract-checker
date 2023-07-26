@@ -1,4 +1,4 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xCFe392651859C843253B23683000bcd40edB8e3C,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/cf/CFe392651859C843253B23683000bcd40edB8e3C_MetropyToken.sol
-100.00,100.00,0x85dcd0765cCd53CFf74B701517BEd2b9638E35df,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/85/85dcd0765cCd53CFf74B701517BEd2b9638E35df_HonkToken.sol
-100.00,100.00,0xe228eaa72a915e99a0ee7d0711ca6b936648f2fc,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e2/e228eaa72a915e99a0ee7d0711ca6b936648f2fc_SPNDToken.sol
+100.00,100.00,0xCFe392651859C843253B23683000bcd40edB8e3C,smart-contract-sanctuary-ethereum/contracts/mainnet/cf/CFe392651859C843253B23683000bcd40edB8e3C_MetropyToken.sol
+100.00,100.00,0x85dcd0765cCd53CFf74B701517BEd2b9638E35df,smart-contract-sanctuary-ethereum/contracts/mainnet/85/85dcd0765cCd53CFf74B701517BEd2b9638E35df_HonkToken.sol
+100.00,100.00,0xe228eaa72a915e99a0ee7d0711ca6b936648f2fc,smart-contract-sanctuary-ethereum/contracts/mainnet/e2/e228eaa72a915e99a0ee7d0711ca6b936648f2fc_SPNDToken.sol

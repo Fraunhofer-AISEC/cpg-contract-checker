@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-85.71,72.00,0x5E9907BBC0474B04EAa2b0dB2342ecEAA784eCE5,smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5E9907BBC0474B04EAa2b0dB2342ecEAA784eCE5_VotedValueFactory.sol
-85.71,72.00,0xFf4a6b38749c931B8F376d60515b81135aD5E464,smart-contract-sanctuary-ethereum/contracts/mainnet/ff/Ff4a6b38749c931B8F376d60515b81135aD5E464_VotedValueAddress.sol
-85.71,72.00,0x16f5E8ad38cf676a0a78436ED8F5C8c19dA3be3d,smart-contract-sanctuary-ethereum/contracts/mainnet/16/16f5E8ad38cf676a0a78436ED8F5C8c19dA3be3d_VotedValueUint.sol
-85.71,72.00,0x90c296db743c848ab0749dfcbcfeac6eb50ccda4,smart-contract-sanctuary-ethereum/contracts/mainnet/90/90c296db743c848ab0749dfcbcfeac6eb50ccda4_LobsterFarm.sol
-85.71,72.00,0x3cc45158b6e5e7518fb4cc156a0958a4c1102ba3,smart-contract-sanctuary-ethereum/contracts/mainnet/3c/3cc45158b6e5e7518fb4cc156a0958a4c1102ba3_LobsterFarm.sol
-80.95,76.92,0xdcfbe1f893640f018065fdb820eb68b501f8ec2d,smart-contract-sanctuary-ethereum/contracts/mainnet/dc/dcfbe1f893640f018065fdb820eb68b501f8ec2d_colors.sol

@@ -1,5 +1,5 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x5b2f53f2a2c90cf8b59e6e7a68e378272c78b562,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b2f53f2a2c90cf8b59e6e7a68e378272c78b562_AEDC.sol
-100.00,100.00,0x5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621_Inuyasha.sol
-100.00,100.00,0xe043e3ee3a1c044abc013050356f15bdbbb5ba92,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e043e3ee3a1c044abc013050356f15bdbbb5ba92_Inuyasha.sol
-100.00,100.00,0xf0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701_ShinjaDoge.sol
+100.00,100.00,0x5b2f53f2a2c90cf8b59e6e7a68e378272c78b562,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5b2f53f2a2c90cf8b59e6e7a68e378272c78b562_AEDC.sol
+100.00,100.00,0xf0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701,smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0a3b1dd6b9f96138908a944bbe3a3a0fa6c0701_ShinjaDoge.sol
+100.00,100.00,0x5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bddbfdc228e1bbdb9ef5ca1dc56b54c4d6d6621_Inuyasha.sol
+100.00,100.00,0xe043e3ee3a1c044abc013050356f15bdbbb5ba92,smart-contract-sanctuary-ethereum/contracts/mainnet/e0/e043e3ee3a1c044abc013050356f15bdbbb5ba92_Inuyasha.sol

@@ -1,8 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,92.95,0x09be87473d05d44d2a495855b32d54bc12b1f95f,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/09/09be87473d05d44d2a495855b32d54bc12b1f95f_TRMCrowdsale.sol
-100.00,90.70,0x8956e383dfc40be71208530e50761ced57021e84,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/89/8956e383dfc40be71208530e50761ced57021e84_Offer.sol
-92.59,91.18,0xe9483ead9dbbe43b59efbeb1dcb71d7413b5118d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e9483ead9dbbe43b59efbeb1dcb71d7413b5118d_ADXProxy.sol
-92.59,90.68,0x1aFdbFde88Bd0189cb0479d309b3794e99E3d53F,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/1a/1aFdbFde88Bd0189cb0479d309b3794e99E3d53F_MarginBanc.sol
-90.74,93.01,0x400c73395bbc01d9e757f02f267925e1de0779f8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/40/400c73395bbc01d9e757f02f267925e1de0779f8_TokenDrop.sol
-88.89,93.01,0xaf707fa6a0d5b2070eca8e03e5838233760c8c2b,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/af/af707fa6a0d5b2070eca8e03e5838233760c8c2b_TokenDrop.sol
-88.89,93.01,0x6de8f49a47f4cdcf7cb69cafb1b6a74a4f38d113,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/6d/6de8f49a47f4cdcf7cb69cafb1b6a74a4f38d113_TokenDrop.sol

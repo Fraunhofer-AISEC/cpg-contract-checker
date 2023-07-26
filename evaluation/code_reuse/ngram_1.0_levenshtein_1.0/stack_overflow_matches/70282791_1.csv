@@ -1,11 +1,11 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0xB59146ddD1f6C0F493eF15C89765553B7bA38b0E,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/b5/B59146ddD1f6C0F493eF15C89765553B7bA38b0E_Lotto.sol
-100.00,100.00,0xBc2bB18120d49F469090Be3DA7F51c7Bef4B3716,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/bc/Bc2bB18120d49F469090Be3DA7F51c7Bef4B3716_CryptoShihTzu.sol
-100.00,100.00,0x2e5E060945be911809102A551861959D8605bC6a,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2e5E060945be911809102A551861959D8605bC6a_LootBox.sol
-100.00,100.00,0x7a42930505F8Ada35e5C2A8D5EDb9f8be8395b81,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7a42930505F8Ada35e5C2A8D5EDb9f8be8395b81_LootBoxFactory.sol
-100.00,100.00,0x4e57a7CE50336FA69C25C86d32d541aE0B9fB235,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e57a7CE50336FA69C25C86d32d541aE0B9fB235_ADBoosterPacks.sol
-100.00,100.00,0xeb18AE97E6f7c460E84707da0B08327e13A558ef,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eb18AE97E6f7c460E84707da0B08327e13A558ef_ADTrainers.sol
-100.00,100.00,0x75b4E10cd8d41Bd10fc33F8cB363f278403feef9,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/75/75b4E10cd8d41Bd10fc33F8cB363f278403feef9_ADElementals.sol
-100.00,100.00,0xFc1F55E360E4A7B29346aAef29d841D4b28c9C08,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/fc/Fc1F55E360E4A7B29346aAef29d841D4b28c9C08_PreciousPass.sol
-100.00,100.00,0xc08Dfaa1E9F10D1466846f12e781bAEe06B6A48d,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c08Dfaa1E9F10D1466846f12e781bAEe06B6A48d_AltariusMinter.sol
-100.00,100.00,0x97009A0f83BF42df00a2a25B770A255eD49fF21e,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/97/97009A0f83BF42df00a2a25B770A255eD49fF21e_AltariusMinter.sol
+100.00,100.00,0xB59146ddD1f6C0F493eF15C89765553B7bA38b0E,smart-contract-sanctuary-ethereum/contracts/mainnet/b5/B59146ddD1f6C0F493eF15C89765553B7bA38b0E_Lotto.sol
+100.00,100.00,0xBc2bB18120d49F469090Be3DA7F51c7Bef4B3716,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/Bc2bB18120d49F469090Be3DA7F51c7Bef4B3716_CryptoShihTzu.sol
+100.00,100.00,0x2e5E060945be911809102A551861959D8605bC6a,smart-contract-sanctuary-ethereum/contracts/mainnet/2e/2e5E060945be911809102A551861959D8605bC6a_LootBox.sol
+100.00,100.00,0x7a42930505F8Ada35e5C2A8D5EDb9f8be8395b81,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7a42930505F8Ada35e5C2A8D5EDb9f8be8395b81_LootBoxFactory.sol
+100.00,100.00,0xeb18AE97E6f7c460E84707da0B08327e13A558ef,smart-contract-sanctuary-ethereum/contracts/mainnet/eb/eb18AE97E6f7c460E84707da0B08327e13A558ef_ADTrainers.sol
+100.00,100.00,0x75b4E10cd8d41Bd10fc33F8cB363f278403feef9,smart-contract-sanctuary-ethereum/contracts/mainnet/75/75b4E10cd8d41Bd10fc33F8cB363f278403feef9_ADElementals.sol
+100.00,100.00,0x4e57a7CE50336FA69C25C86d32d541aE0B9fB235,smart-contract-sanctuary-ethereum/contracts/mainnet/4e/4e57a7CE50336FA69C25C86d32d541aE0B9fB235_ADBoosterPacks.sol
+100.00,100.00,0xFc1F55E360E4A7B29346aAef29d841D4b28c9C08,smart-contract-sanctuary-ethereum/contracts/mainnet/fc/Fc1F55E360E4A7B29346aAef29d841D4b28c9C08_PreciousPass.sol
+100.00,100.00,0x97009A0f83BF42df00a2a25B770A255eD49fF21e,smart-contract-sanctuary-ethereum/contracts/mainnet/97/97009A0f83BF42df00a2a25B770A255eD49fF21e_AltariusMinter.sol
+100.00,100.00,0xc08Dfaa1E9F10D1466846f12e781bAEe06B6A48d,smart-contract-sanctuary-ethereum/contracts/mainnet/c0/c08Dfaa1E9F10D1466846f12e781bAEe06B6A48d_AltariusMinter.sol

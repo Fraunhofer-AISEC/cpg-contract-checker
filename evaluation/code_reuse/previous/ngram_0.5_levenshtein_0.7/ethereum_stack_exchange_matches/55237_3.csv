@@ -1,4 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-78.57,75.24,0x0eC2F758717a524346A746e6758aD01f04E57A50,smart-contract-sanctuary-ethereum/contracts/mainnet/0e/0eC2F758717a524346A746e6758aD01f04E57A50_CubePigs.sol
-71.43,71.11,0xa784b252698Ee343d8aa7390D537D9054438A382,smart-contract-sanctuary-ethereum/contracts/mainnet/a7/a784b252698Ee343d8aa7390D537D9054438A382_CpigColor.sol
-64.29,70.48,0x77fa1d1ded3f4bed737e9ae870a6f3605445df9c,smart-contract-sanctuary-ethereum/contracts/mainnet/77/77fa1d1ded3f4bed737e9ae870a6f3605445df9c_CryptoPokemon.sol

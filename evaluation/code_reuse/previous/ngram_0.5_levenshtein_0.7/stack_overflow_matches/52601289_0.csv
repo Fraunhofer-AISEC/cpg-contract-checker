@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-97.62,70.02,0x9f26dfa739791efe3f899efc0bf07bf409cd6543,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9f26dfa739791efe3f899efc0bf07bf409cd6543_Dodo.sol
-92.86,72.35,0x712ee41bfd444e36e3e28c9f8241e8846db2150f,smart-contract-sanctuary-ethereum/contracts/mainnet/71/712ee41bfd444e36e3e28c9f8241e8846db2150f_MedCareCoin.sol
-92.86,72.35,0xfeead860ffa43e5660ca62ea5953a74f695c1d5b,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/feead860ffa43e5660ca62ea5953a74f695c1d5b_MedCareCoin.sol
-92.86,74.12,0xbe4f0c1615be701d11e5c60137dd594bedc2df29,smart-contract-sanctuary-ethereum/contracts/mainnet/be/be4f0c1615be701d11e5c60137dd594bedc2df29_MedCareCoin.sol

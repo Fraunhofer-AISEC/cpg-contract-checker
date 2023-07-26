@@ -1,5 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-85.39,73.48,0xcd1870532f5a70b9701ed4f5030b081aa07eef47,smart-contract-sanctuary-ethereum/contracts/mainnet/cd/cd1870532f5a70b9701ed4f5030b081aa07eef47_MyContract.sol
-82.02,70.64,0xa4AAa9d28fE87a1d6f2FEBA75eE931517671BA47,smart-contract-sanctuary-ethereum/contracts/mainnet/a4/a4AAa9d28fE87a1d6f2FEBA75eE931517671BA47_RevestPublicSaleBatch.sol
-82.02,70.64,0xB807C14E06B18FEF1d09ca7ed5cc9a32c7C083C6,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/B807C14E06B18FEF1d09ca7ed5cc9a32c7C083C6_RevestPublicSaleBatch.sol
-80.90,70.05,0x5799E216Fb6825F21e6f20af22836303edC45dF3,smart-contract-sanctuary-ethereum/contracts/mainnet/57/5799E216Fb6825F21e6f20af22836303edC45dF3_MyContract.sol

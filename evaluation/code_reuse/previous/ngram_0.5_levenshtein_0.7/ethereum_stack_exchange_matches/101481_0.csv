@@ -1,7 +1,0 @@
-N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-81.36,77.17,0xce659de292ad4fa9aafd82b038936cebd9291e77,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce659de292ad4fa9aafd82b038936cebd9291e77_SonicERC777.sol
-80.51,82.90,0x9f685EA4E92aE532F4AA88725488C913475B6AD8,smart-contract-sanctuary-ethereum/contracts/mainnet/9f/9f685EA4E92aE532F4AA88725488C913475B6AD8_ERC20Token.sol
-78.81,82.07,0x64b8123f14d6036f4236e862643497dbcd326810,smart-contract-sanctuary-ethereum/contracts/mainnet/64/64b8123f14d6036f4236e862643497dbcd326810_Fracture.sol
-78.81,82.07,0x78f6959b8927accb4c623d0cb2041b23464daece,smart-contract-sanctuary-ethereum/contracts/mainnet/78/78f6959b8927accb4c623d0cb2041b23464daece_ERC20Token.sol
-78.81,82.07,0x5cd5a1042a9b0656f747e49cd33aad262fa04e7d,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5cd5a1042a9b0656f747e49cd33aad262fa04e7d_ERC20Token.sol
-78.81,74.60,0xefb3ba332129cfc31a84ac96974f5c19fa4a6f10,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/efb3ba332129cfc31a84ac96974f5c19fa4a6f10_POFI.sol

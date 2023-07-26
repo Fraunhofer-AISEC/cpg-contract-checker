@@ -1,6 +1,6 @@
 N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
-100.00,100.00,0x5A70cD937bA3Daec8188E937E243fFa43d6ECbe8,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/5a/5A70cD937bA3Daec8188E937E243fFa43d6ECbe8_VeYfiPositionHelper.sol
-100.00,100.00,0xe7aE69578CFF5BEF873d341F872ea2B64B1Af462,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e7aE69578CFF5BEF873d341F872ea2B64B1Af462_VotingEscrowCallback.sol
-100.00,100.00,0x62305662fa7c4bc442803b940d9192dbdc92d710,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/62/62305662fa7c4bc442803b940d9192dbdc92d710_UniswapV2SwapHelper.sol
-100.00,100.00,0x92af163505c05d63a4f7478c01b9af9be369c143,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/92/92af163505c05d63a4f7478c01b9af9be369c143_CompoundVotingMachine.sol
-100.00,100.00,0x9b09a006a9d9455992ed1bb70d293eba20071a74,../../../../Git/cpg-contract-checker/data-collection/source-code/smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9b09a006a9d9455992ed1bb70d293eba20071a74_CompoundVotingMachine.sol
+100.00,100.00,0x5A70cD937bA3Daec8188E937E243fFa43d6ECbe8,smart-contract-sanctuary-ethereum/contracts/mainnet/5a/5A70cD937bA3Daec8188E937E243fFa43d6ECbe8_VeYfiPositionHelper.sol
+100.00,100.00,0xe7aE69578CFF5BEF873d341F872ea2B64B1Af462,smart-contract-sanctuary-ethereum/contracts/mainnet/e7/e7aE69578CFF5BEF873d341F872ea2B64B1Af462_VotingEscrowCallback.sol
+100.00,100.00,0x62305662fa7c4bc442803b940d9192dbdc92d710,smart-contract-sanctuary-ethereum/contracts/mainnet/62/62305662fa7c4bc442803b940d9192dbdc92d710_UniswapV2SwapHelper.sol
+100.00,100.00,0x92af163505c05d63a4f7478c01b9af9be369c143,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92af163505c05d63a4f7478c01b9af9be369c143_CompoundVotingMachine.sol
+100.00,100.00,0x9b09a006a9d9455992ed1bb70d293eba20071a74,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9b09a006a9d9455992ed1bb70d293eba20071a74_CompoundVotingMachine.sol
