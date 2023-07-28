@@ -168,7 +168,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                         call = if(record != null) {
                             newConstructExpression(frontend.getCodeFromRawNode(ctx))
                         } else {
-                            newCallExpression(null, fqn, frontend.getCodeFromRawNode(ctx), false, ctx)
+                            newCallExpression(ref , fqn, frontend.getCodeFromRawNode(ctx), false, ctx)
                         }
 
                         for(arg in ctx.functionCallArguments()?.expressionList()?.expression() ?: listOf()) {
@@ -191,13 +191,15 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                         }
                     }
                 }
-                var base = expressions.first()
-                while (base.nameValueList() != null) {
-                    base = base.expression().first()
-                }
-                if(base.expression().isNotEmpty()){
-                    call.callee =this.handle(expressions.first().expression()[0])
-                }
+                ref?.let { call.callee = ref }
+                //call.callee
+                //var base = expressions.first()
+                //while (base.nameValueList() != null) {
+                //    base = base.expression().first()
+                //}
+                //if(base.expression().isNotEmpty()){
+                //    call.callee =this.handle(expressions.first().expression()[0])
+                //}
 
                 return call
             }else if(ref is CallExpression){

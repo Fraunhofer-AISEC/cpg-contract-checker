@@ -22,6 +22,8 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
 
     private var tr: TranslationResult? = null
 
+    val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
+
     init {
         map[UncheckedStatement::class.java] = {handleUncheckedStatement(it as UncheckedStatement)}
         map[EmitStatement::class.java] = {handleEmitStatement(it as EmitStatement)}
@@ -98,11 +100,9 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
         createEOG(revert.message)
         pushToEOG(node)
 
-        val solidityLanguageFrontend = node.language!!.frontend as SolidityLanguageFrontend
+        scopeManager.currentFunction?.let {
 
-        solidityLanguageFrontend?.scopeManager?.currentFunction?.let {
-
-            val rollback = solidityLanguageFrontend.rollbackNodes.getOrPut(it) {Rollback()}
+            val rollback = rollbackNodes.getOrPut(it) {Rollback()}
             pushToEOG(rollback)
             tr?.let { it += rollback }
         }
@@ -123,11 +123,9 @@ class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
         val openBranchNodes: List<Node> = ArrayList()
         val openConditionEOGs: List<Node> = ArrayList(currentPredecessors)
         //currentProperties[Properties.BRANCH] = false
+        scopeManager.currentFunction?.let {
 
-        val solidityLanguageFrontend = node.language!!.frontend as SolidityLanguageFrontend
-        solidityLanguageFrontend?.scopeManager?.currentFunction?.let {
-
-            val rollback = solidityLanguageFrontend.rollbackNodes.getOrPut(it) {Rollback()}
+            val rollback = rollbackNodes.getOrPut(it) {Rollback()}
             pushToEOG(rollback)
             tr?.let { it += rollback }
         }

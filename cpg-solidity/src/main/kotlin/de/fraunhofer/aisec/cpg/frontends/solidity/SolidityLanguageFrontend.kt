@@ -50,7 +50,6 @@ class SolidityLanguageFrontend(language: Language<SolidityLanguageFrontend>, ctx
 
     public val declaredTypes = mutableMapOf<String,Node>()
 
-    val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
 
     val pragmas: MutableList<PragmaDeclaration> = mutableListOf()
 
