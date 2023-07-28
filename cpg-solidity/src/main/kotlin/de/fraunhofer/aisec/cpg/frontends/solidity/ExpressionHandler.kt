@@ -115,9 +115,8 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
         // member access
         if(op != null && op.text == ".") {
             val base = this.handle(expressions.first())
-            val name = ctx.identifier().text
             base?.let {
-                return newMemberExpression(name, base, UnknownType.getUnknownType(language), operatorCode = op.text, code = frontend.getCodeFromRawNode(ctx), rawNode = ctx)
+                return newMemberExpression(ctx.text, base, UnknownType.getUnknownType(language), operatorCode = op.text, code = frontend.getCodeFromRawNode(ctx), rawNode = ctx)
             }
 
         }
@@ -176,13 +175,13 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                             this.handle(arg)?.let{call.addArgument(it)}
                         }
 
-                        if(call.name.equals("revert") && call.arguments.size == 1 && call.arguments[0] is Literal<*>){
+                        if(call.name.localName.equals("revert") && call.arguments.size == 1 && call.arguments[0] is Literal<*>){
                             val revertStatement: Revert = Revert()
                             revertStatement.message = call.arguments[0]
                             return revertStatement
                         }
 
-                        if(call.name.equals("require") && call.arguments.size >= 1  && call.arguments.size <= 2){
+                        if(call.name.localName.equals("require") && call.arguments.size >= 1  && call.arguments.size <= 2){
                             val require: Require = Require()
                             require.condition = call.arguments[0]
                             if(call.arguments.size > 2){

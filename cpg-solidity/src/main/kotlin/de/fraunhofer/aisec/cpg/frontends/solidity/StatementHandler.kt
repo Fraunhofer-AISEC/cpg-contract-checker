@@ -45,7 +45,8 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     private fun handleReturnStatement(ctx: SolidityParser.ReturnStatementContext): ReturnStatement {
         val statement = newReturnStatement(this.frontend.getCodeFromRawNode(ctx))
 
-        statement.returnValue = frontend.expressionHandler.handle(ctx.expression())
+        ctx.expression()?.let { statement.returnValue = frontend.expressionHandler.handle(it) }
+
 
         return statement
     }
@@ -112,18 +113,20 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
     }
 
     private fun handleExpressionStatement(ctx: SolidityParser.ExpressionStatementContext): Statement {
-        // unwrap expression
-        var expression: Statement? = frontend.expressionHandler.handle(ctx.expression())
-        if(expression != null && expression is DeclaredReferenceExpression && expression.code == "_" && frontend.modifierStack.isNotEmpty()){ // TODO Is name correct here or do we need local name or code?
-            var modifier = frontend.modifierStack.pop()
-            frontend.currentIdentifierMapStack.push(frontend.modifierIdentifierMap[modifier])
-            expression = frontend.declarationHandler.expandBodyWithModifiers(modifier)
-            frontend.modifierStack.push(modifier)
-            frontend.currentIdentifierMapStack.pop()
+        ctx.expression()?.let {
+            // unwrap expression
+            var expression: Statement? = frontend.expressionHandler.handle(it)
+            if(expression != null && expression is DeclaredReferenceExpression && expression.code == "_" && frontend.modifierStack.isNotEmpty()){ // TODO Is name correct here or do we need local name or code?
+                var modifier = frontend.modifierStack.pop()
+                frontend.currentIdentifierMapStack.push(frontend.modifierIdentifierMap[modifier])
+                expression = frontend.declarationHandler.expandBodyWithModifiers(modifier)
+                frontend.modifierStack.push(modifier)
+                frontend.currentIdentifierMapStack.pop()
 
-        }
-        expression?.let {
-            return it
+            }
+            expression?.let {
+                return it
+            }
         }
         return newProblemExpression("Translation of Expression failed.", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
@@ -274,7 +277,9 @@ class StatementHandler(lang: SolidityLanguageFrontend) : Handler<Statement, Pars
 
     private fun handleEmitStatement(ctx: SolidityParser.EmitStatementContext): Statement {
         val emit = EmitStatement()
-        emit.emits = frontend.expressionHandler.handle(ctx.functionCall())
+        ctx.functionCall()?.let {
+            emit.emits = frontend.expressionHandler.handle(it)
+        }
         return emit
     }
 

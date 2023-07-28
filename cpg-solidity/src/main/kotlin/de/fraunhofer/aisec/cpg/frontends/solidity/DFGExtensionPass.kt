@@ -48,7 +48,7 @@ class DFGExtensionPass(ctx: TranslationContext): TranslationUnitPass(ctx) {
             }
         }
 
-        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("push") }.forEach {
+        nodes.filterIsInstance<CallExpression>().filter { it.name.localName.equals("push") }.forEach {
             val call = it
             val base = getCoarseGrainedTarget(call) as? DeclaredReferenceExpression
             base?.let {
@@ -56,7 +56,7 @@ class DFGExtensionPass(ctx: TranslationContext): TranslationUnitPass(ctx) {
             }
         }
 
-        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("sha3") || it.name.equals("keccak256") || it.name.equals("blockhash")}.forEach {
+        nodes.filterIsInstance<CallExpression>().filter { it.name.localName.equals("sha3") || it.name.localName.equals("keccak256") || it.name.localName.equals("blockhash")}.forEach {
             val call = it
             call.arguments.forEach { call.addPrevDFG(it) }
         }

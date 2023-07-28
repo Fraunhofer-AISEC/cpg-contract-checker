@@ -11,8 +11,10 @@ import de.fraunhofer.aisec.cpg.graph.statements.Statement
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.BinaryOperator
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.DeclaredReferenceExpression
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.Expression
+import de.fraunhofer.aisec.cpg.graph.types.Type
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
+import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.helpers.Util
 import org.antlr.v4.runtime.ParserRuleContext
 import org.slf4j.LoggerFactory
@@ -23,6 +25,8 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
     Supplier { ProblemDeclaration() }, lang) {
 
     private val logger = LoggerFactory.getLogger(DeclarationHandler::class.java)
+
+    var methodId = 0
 
     init {
         map.put(SolidityParser.ContractDefinitionContext::class.java) { handleContractDefinition(it as SolidityParser.ContractDefinitionContext) }
@@ -60,7 +64,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
     }
 
     private fun handleStructDefinition(ctx: SolidityParser.StructDefinitionContext): Declaration {
-        val name = ctx.identifier().text
+        val name = ctx.identifier()?.text?:""
 
         val record = newRecordDeclaration(name, "struct", frontend.getCodeFromRawNode(ctx))
         frontend.declaredTypes.put(name, record)
@@ -80,7 +84,8 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
     private fun handleParameter(ctx: SolidityParser.ParameterContext): ParamVariableDeclaration {
         val name = ctx.identifier()?.text ?: ""
-        val type = frontend.typeHandler.handle(ctx.typeName())?: UnknownType.getUnknownType(language)
+        var type: Type = UnknownType.getUnknownType(language)
+        ctx.typeName()?.let { type = frontend.typeHandler.handle(it)?:UnknownType.getUnknownType(language) }
 
         val param = newParamVariableDeclaration(name,
             type,
@@ -146,19 +151,19 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
             var declaration: Declaration? = null
 
             part.functionDefinition()?.let {
-                declaration = handle(part.functionDefinition())
+                declaration = handle(it)
             }
 
             part.stateVariableDeclaration()?.let {
-                declaration = handle(part.stateVariableDeclaration())
+                declaration = handle(it)
             }
 
             part.structDefinition()?.let {
-                declaration = handle(part.structDefinition())
+                declaration = handle(it)
             }
 
             part.modifierDefinition()?.let{
-                declaration = handle(part.modifierDefinition())
+                declaration = handle(it)
             }
 
             // add the declaration
@@ -242,7 +247,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
         val record = frontend.scopeManager.currentRecord
 
-        val method = if(desc.ConstructorKeyword() != null || record != null && desc.identifier() != null && desc.identifier().text.equals(record.name)) {
+        val method = if(desc.ConstructorKeyword() != null || record != null && desc.identifier() != null && desc.identifier().text.equals(record.name.toString())) {
             newConstructorDeclaration(
                 record?.name ?: "",
                 frontend.getCodeFromRawNode(ctx),
@@ -296,7 +301,7 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
         if(modifierInvocationIdentifiers.isEmpty()){
             // handle body, if the function has modifiers, the handling of the block is done when we for sure know all modifiers
-            method.body = frontend.statementHandler.handle(ctx.block())
+            ctx.block()?.let { method.body = frontend.statementHandler.handle(it) }
         }else{
             (frontend).let {
                 it.functionsWithModifiers[ctx] = method
@@ -384,10 +389,14 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         }
 
         frontend.scopeManager.enterScope(method)
-        method.body = frontend.statementHandler.handle(ctx.block())
+        ctx.block()?.let { method.body = frontend.statementHandler.handle(it) }
         val modifier = frontend.modifierStack.pop()
         frontend.currentIdentifierMapStack.push(frontend.modifierIdentifierMap[modifier])
         method.body = expandBodyWithModifiers(modifier)
+
+        SubgraphWalker.flattenAST(method.body).forEach { it.comment = it.comment?: "" + methodId }
+        methodId++
+
         frontend.modifierStack.push(modifier)
         frontend.currentIdentifierMapStack.pop()
         frontend.scopeManager.leaveScope(method)
@@ -411,7 +420,8 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
     private fun handleStateVariableDeclaration(ctx: SolidityParser.StateVariableDeclarationContext): Declaration {
         val name = ctx.identifier().Identifier()?.text?: ctx.identifier().text
-        val type = frontend.typeHandler.handle(ctx.typeName())?: UnknownType.getUnknownType(language)
+        var type: Type = UnknownType.getUnknownType(language)
+        ctx.typeName()?.let {type =  frontend.typeHandler.handle(it)?: UnknownType.getUnknownType(language) }
 
         var initializer: Expression? = null
         ctx.expression()?.let {
@@ -431,7 +441,8 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
 
     private fun handleVariableDeclaration(ctx: SolidityParser.VariableDeclarationContext): FieldDeclaration {
         val name = ctx.identifier()?.Identifier()?.text ?: ""
-        val type = frontend.typeHandler.handle(ctx.typeName())?: UnknownType.getUnknownType(language)
+        var type: Type = UnknownType.getUnknownType(language)
+        ctx.typeName()?.let {type =  frontend.typeHandler.handle(it)?: UnknownType.getUnknownType(language) }
 
         val field = newFieldDeclaration(name,
             type,

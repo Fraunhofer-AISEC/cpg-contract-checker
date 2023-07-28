@@ -182,7 +182,6 @@ class App : Callable<Int> {
             avChecks.add(AddressPaddingCheck())
             avChecks.add(FrontRunningCheck())
             avChecks.add(LocalWriteToStorageCheck())
-            avChecks.add(DOSThroughExhaustionCheck())
             avChecks.add(BadRandomnessCheck())
             avChecks.add(OverUnderflowCheck())
 
