@@ -36,20 +36,20 @@ class DeclarationHandler(lang: SolidityLanguageFrontend) : Handler<Declaration, 
         map.put(SolidityParser.VariableDeclarationContext::class.java) { handleVariableDeclaration(it as SolidityParser.VariableDeclarationContext) }
         map.put(SolidityParser.StructDefinitionContext::class.java) { handleStructDefinition(it as SolidityParser.StructDefinitionContext) }
         map.put(SolidityParser.ModifierDefinitionContext::class.java) { handleModifierDefinition(it as SolidityParser.ModifierDefinitionContext) }
-        map.put(SolidityParser.PragmaDirectiveContext::class.java) {handlePragmaDirectiveContext(it as SolidityParser.PragmaDirectiveContext)}
+        // map.put(SolidityParser.PragmaDirectiveContext::class.java) {handlePragmaDirectiveContext(it as SolidityParser.PragmaDirectiveContext)}
     }
 
     private fun handlePragmaDirectiveContext(ctx: SolidityParser.PragmaDirectiveContext): Declaration {
         val d:PragmaDeclaration = PragmaDeclaration()
         d.applyMetadata(this, ctx.pragmaName().text, ctx, ctx.text)
-        ctx.pragmaValue().version()?.let {
+        ctx.pragmaValue()?.version()?.let {
 
             for( versionC in it.versionConstraint()){
                 val b = BinaryOperator()
                 b.operatorCode = "="
                 versionC.versionOperator()?.let { b.operatorCode = it.text }
                 // Capture ^ under ==
-                versionC.VersionLiteral()?.let { b.rhs =  newLiteral(it.text, TypeParser.createFrom("string", true, frontend), it.text) }
+                versionC.VersionLiteral()?.let { b.rhs =  newLiteral(it.text, TypeParser.createFrom("string", true, frontend), it.text) } // Todo here there is an issue
                 versionC.DecimalNumber()?.let { b.rhs =  newLiteral(it.text, TypeParser.createFrom("string", true, frontend), it.text) }
                 newDeclaredReferenceExpression("version",
                     UnknownType.getUnknownType(language),

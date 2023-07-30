@@ -53,7 +53,7 @@ class SolidityLanguageFrontend(language: Language<SolidityLanguageFrontend>, ctx
     public val declaredTypes = mutableMapOf<String,Node>()
 
 
-    val pragmas: MutableList<PragmaDeclaration> = mutableListOf()
+    val pragmas: MutableList<Declaration> = mutableListOf()
 
     override fun parse(file: File): TranslationUnitDeclaration {
 
@@ -80,8 +80,8 @@ class SolidityLanguageFrontend(language: Language<SolidityLanguageFrontend>, ctx
         this.scopeManager.lang = this
 
         for(pragma in unit.pragmaDirective()) {
-            var pragmaCPG = this.declarationHandler.handle(pragma) as PragmaDeclaration
-            pragmas.add(pragmaCPG)
+            this.declarationHandler.handle(pragma)?.let { pragmas.add(it) }
+
         }
 
         for(contract in unit.contractDefinition()) {
