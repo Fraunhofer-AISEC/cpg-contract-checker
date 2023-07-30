@@ -56,7 +56,7 @@ class DFGExtensionPass(ctx: TranslationContext): TranslationUnitPass(ctx) {
             }
         }
 
-        nodes.filterIsInstance<CallExpression>().filter { it.name.localName.equals("sha3") || it.name.localName.equals("keccak256") || it.name.localName.equals("blockhash")}.forEach {
+        nodes.filterIsInstance<CallExpression>().filter { it.name.localName.equals("sha3") || it.name.localName.equals("keccak256") || it.name.localName.equals("blockhash") || it.invokes.any { it.isInferred }}.forEach {
             val call = it
             call.arguments.forEach { call.addPrevDFG(it) }
         }
@@ -72,6 +72,8 @@ class DFGExtensionPass(ctx: TranslationContext): TranslationUnitPass(ctx) {
     fun getCoarseGrainedTarget(n: Node): Node {
         if(n is HasBase && n.base != null){
             return getCoarseGrainedTarget(n.base!!)
+        }else if(n is CallExpression && n.callee != null){
+            return getCoarseGrainedTarget(n.callee!!)
         }else if(n is Literal<*>){
             return n
         }else if(n is BinaryOperator){
