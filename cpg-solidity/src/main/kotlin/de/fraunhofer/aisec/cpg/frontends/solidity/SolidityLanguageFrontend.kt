@@ -2,6 +2,7 @@ package de.fraunhofer.aisec.cpg.frontends.solidity;
 
 import SolidityLexer
 import SolidityParser
+import de.fraunhofer.aisec.cpg.ResolveInFrontend
 import de.fraunhofer.aisec.cpg.TranslationConfiguration
 import de.fraunhofer.aisec.cpg.TranslationContext
 import de.fraunhofer.aisec.cpg.frontends.Language
@@ -9,12 +10,10 @@ import de.fraunhofer.aisec.cpg.frontends.LanguageFrontend
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.ModifierDefinition
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.PragmaDeclaration
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Rollback
-import de.fraunhofer.aisec.cpg.graph.Node
-import de.fraunhofer.aisec.cpg.graph.TypeManager
-import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
-import de.fraunhofer.aisec.cpg.graph.declarations.MethodDeclaration
-import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
-import de.fraunhofer.aisec.cpg.graph.newTranslationUnitDeclaration
+import de.fraunhofer.aisec.cpg.graph.*
+import de.fraunhofer.aisec.cpg.graph.declarations.*
+import de.fraunhofer.aisec.cpg.graph.types.Type
+import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
 import de.fraunhofer.aisec.cpg.passes.order.ReplacePass
 import de.fraunhofer.aisec.cpg.sarif.PhysicalLocation
@@ -25,6 +24,9 @@ import org.antlr.v4.runtime.ParserRuleContext
 import org.antlr.v4.runtime.Token
 import org.antlr.v4.runtime.misc.Interval
 import org.checkerframework.checker.nullness.qual.NonNull
+import org.eclipse.cdt.core.dom.ast.*
+import org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTQualifiedName
+import org.eclipse.cdt.internal.core.model.ASTStringUtil
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileInputStream
@@ -135,6 +137,17 @@ class SolidityLanguageFrontend(language: Language<SolidityLanguageFrontend>, ctx
             }
         }
         return null
+    }
+
+    @ResolveInFrontend("getRecordForName")
+    fun typeOf(name: String
+    ): Type {
+
+        var type = TypeParser.createFrom(name, true, this)
+        type = typeManager.registerType(type)
+        // type = this.adjustType(declarator, type)
+
+        return type
     }
 
     override fun <S : Any?, T : Any?> setComment(s: S, ctx: T) {

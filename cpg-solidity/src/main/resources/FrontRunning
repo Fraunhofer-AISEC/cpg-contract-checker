@@ -6,7 +6,7 @@ and (exists{ ({code: 'msg.sender'})-[:DFG*#]->()<-[:LHS]-(interesting:BinaryOper
 (interesting:CallExpression)-[:BASE|CALLEE*]->(target {code: 'msg.sender'})
 where interesting.localName in ['value', 'send', 'transfer', 'call']
 and not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:ARGUMENTS]-(interesting)}
-    or exists {(interesting)-[:BASE|CALLEE*]->(SpecifiedExpression)-[:SPECIFIERS]->(kv:KeyValueExpression)-[:KEY]->({name:'value'})
+    or exists {(interesting)-[:BASE|CALLEE*]->(SpecifiedExpression)-[:SPECIFIERS]->(kv:KeyValueExpression)-[:KEY]->({localName:'value'})
         where not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:VALUE]-(kv)}
     }
 }

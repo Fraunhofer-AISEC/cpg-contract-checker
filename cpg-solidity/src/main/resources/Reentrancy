@@ -19,6 +19,6 @@ or exists {
     and not exists{(sub)-[:DFG]->(array)-[:SUBSCRIPT_EXPRESSION]->(sub) where sub in nodes(dflow) and array in nodes(dflow)}
 }) and (
     exists{((d:DeclaredReferenceExpression)-[:DFG*#]->(base)) where d.code in ['msg.sender', 'tx.origin']}
-    or exists{((t {name: "address"})<-[:TYPE]-(root)-[:DFG*#]->(base)) where t.localName ='address' or t.localName = 'UNKNOWN' and not exists((root)<-[:DFG]-()) }
+    or exists{((t {localName: "address"})<-[:TYPE]-(root)-[:DFG*#]->(base)) where t.localName ='address' or t.localName = 'UNKNOWN' and not exists((root)<-[:DFG]-()) }
 )
 return distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.localName as name

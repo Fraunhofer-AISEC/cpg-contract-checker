@@ -43,7 +43,7 @@ class DFGExtensionPass(ctx: TranslationContext): TranslationUnitPass(ctx) {
             exclude 'length' specifically as it transpots far less information.
          */
         nodes.filterIsInstance<MemberExpression>().map {
-            if(it.refersTo == null && !memberAccessWithoutData.contains(it.name.localName)){
+            if(!memberAccessWithoutData.contains(it.name.localName)){
                 it.addPrevDFG(it.base)
             }
         }

@@ -3,6 +3,7 @@ package de.fraunhofer.aisec.cpg.frontends.solidity
 import de.fraunhofer.aisec.cpg.frontends.Handler
 import de.fraunhofer.aisec.cpg.graph.declarations.Declaration
 import de.fraunhofer.aisec.cpg.graph.newUnknownType
+import de.fraunhofer.aisec.cpg.graph.types.ObjectType
 import de.fraunhofer.aisec.cpg.graph.types.Type
 import de.fraunhofer.aisec.cpg.graph.types.TypeParser
 import de.fraunhofer.aisec.cpg.graph.types.UnknownType
@@ -23,6 +24,22 @@ class TypeHandler(lang: SolidityLanguageFrontend) : Handler<Type, ParserRuleCont
     private fun handleTypeName(ctx: SolidityParser.TypeNameContext): Type {
         if(ctx.elementaryTypeName() != null) {
             return TypeParser.createFrom(ctx.elementaryTypeName().text,language, false, frontend.ctx)
+        }
+
+        ctx.userDefinedTypeName()?.let {
+            return TypeParser.createFrom(it.text,language, false, frontend.ctx)
+        }
+        ctx.mapping()?.let {
+            return ObjectType("mapping", mutableListOf<Type>(), true, frontend.language)
+        }
+        ctx.typeName()?.let {
+            return TypeParser.createFrom(ctx.text,language, false, frontend.ctx)
+        }
+        ctx.functionTypeName()?.let {
+            return TypeParser.createFrom(it.text, language, false, frontend.ctx)
+        }
+        if(ctx.getStart().equals("address")) {
+            return TypeParser.createFrom("address", language, false, frontend.ctx)
         }
 
         logger.warn("Empty type name could not be translated properly")

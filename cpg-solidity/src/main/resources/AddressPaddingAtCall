@@ -1,4 +1,4 @@
-match p=({name: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
+match p=({localName: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
     where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)}) 
         and (toUpper(c.localName) in ['TRANSFER' , 'SEND']
         and exists{
@@ -11,7 +11,7 @@ match p=({name: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclarati
             where exists{(s)<--(c)} and not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
         }
         or toUpper(c.localName) in ['VALUE'] and exists{
-            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*#]->()<-[:ARGUMENTS]-(c)-[:BASE|CALLEE*]->({name:'call'})
+            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*#]->()<-[:ARGUMENTS]-(c)-[:BASE|CALLEE*]->({localName:'call'})
             where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
         })
     and not exists{
