@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.74,91.02,0xa66d83716c7cfe425b44d0f7ef92de263468fb3d,smart-contract-sanctuary-ethereum/contracts/mainnet/a6/a66d83716c7cfe425b44d0f7ef92de263468fb3d_MANACrowdsale.sol
+94.74,91.02,0xd9c7a2ccc6fb89dc0528a98143fc7ae8ddeebc39,smart-contract-sanctuary-ethereum/contracts/mainnet/d9/d9c7a2ccc6fb89dc0528a98143fc7ae8ddeebc39_MANACrowdsale.sol
+94.74,91.02,0x5019066b46ae4b8673085b609be366400f53871b,smart-contract-sanctuary-ethereum/contracts/mainnet/50/5019066b46ae4b8673085b609be366400f53871b_MANACrowdsale.sol
+93.42,94.81,0xbe398944aa0eae437a62f2d66b8eab3ea91f80eb,smart-contract-sanctuary-ethereum/contracts/mainnet/be/be398944aa0eae437a62f2d66b8eab3ea91f80eb_Crowdsale.sol
+86.84,91.02,0x6704e83fac5fc347efbdba61728e62389ab54367,smart-contract-sanctuary-ethereum/contracts/mainnet/67/6704e83fac5fc347efbdba61728e62389ab54367_TrueToken.sol

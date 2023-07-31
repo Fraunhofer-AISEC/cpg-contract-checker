@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,90.08,0xf4d1c3c79bc78f7eca41c01e9476e27a0465914f,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f4d1c3c79bc78f7eca41c01e9476e27a0465914f_Charitable.sol
+100.00,90.91,0x0f7dAa4F733E284a2D5601729d02765e69ACCCb9,smart-contract-sanctuary-ethereum/contracts/mainnet/0f/0f7dAa4F733E284a2D5601729d02765e69ACCCb9_Token.sol
+84.44,90.91,0x3eddacf2c184a302ff17682a7e48a0e47550015d,smart-contract-sanctuary-ethereum/contracts/mainnet/3e/3eddacf2c184a302ff17682a7e48a0e47550015d_Incrementer.sol
+84.44,90.91,0x5ee7cab2e6e21fca8af225c7b93a3842c31a2a5a,smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5ee7cab2e6e21fca8af225c7b93a3842c31a2a5a_Incrementer.sol
+84.44,90.91,0xed175ae20f12ab737b148ce81a3c4229100d2403,smart-contract-sanctuary-ethereum/contracts/mainnet/ed/ed175ae20f12ab737b148ce81a3c4229100d2403_Incrementer.sol
+84.44,92.12,0xa3843c6f47384e3ca951bd0207179f58d2179d3f,smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a3843c6f47384e3ca951bd0207179f58d2179d3f_PonderwareTransferOfAuthority.sol

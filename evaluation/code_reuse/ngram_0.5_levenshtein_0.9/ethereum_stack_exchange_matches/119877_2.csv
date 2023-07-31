@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0xcfE6a3d54d315DD535Fe5DC3Dc27D99D5690Bd61,smart-contract-sanctuary-ethereum/contracts/mainnet/cf/cfE6a3d54d315DD535Fe5DC3Dc27D99D5690Bd61_LaboratoriesStaking.sol
+100.00,100.00,0xDA6895385286fFe0B9e64cA1B0676b8CA4E1de4C,smart-contract-sanctuary-ethereum/contracts/mainnet/da/DA6895385286fFe0B9e64cA1B0676b8CA4E1de4C_Staking.sol
+100.00,95.83,0x6bB38a82E3479f474d2985805B49B04881d8203c,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6bB38a82E3479f474d2985805B49B04881d8203c_GenArtInterfaceV4.sol
+97.83,95.83,0xB8a5465BFC06fc8C82385dCFf949673D7b068D1a,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/B8a5465BFC06fc8C82385dCFf949673D7b068D1a_GenArtLoyaltyVault.sol
+89.13,91.84,0x6aF8B4d6c83f96B4A6630550d96C942b2F4E0368,smart-contract-sanctuary-ethereum/contracts/mainnet/6a/6aF8B4d6c83f96B4A6630550d96C942b2F4E0368_MSPoolNFTBasic.sol
+89.13,91.84,0x0407e161cd00B4C4eaA4187F1Cec0ef78DFBf7Cf,smart-contract-sanctuary-ethereum/contracts/mainnet/04/0407e161cd00B4C4eaA4187F1Cec0ef78DFBf7Cf_MetaFactory.sol

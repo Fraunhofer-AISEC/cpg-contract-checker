@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+96.25,96.43,0x6c0dFEeb57e126d2a66a71A44678Ab51b8a5B1B5,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6c0dFEeb57e126d2a66a71A44678Ab51b8a5B1B5_Integers.sol
+95.00,95.24,0x00d07c53e70338c376cf6ab2a5218d8643115084,smart-contract-sanctuary-ethereum/contracts/mainnet/00/00d07c53e70338c376cf6ab2a5218d8643115084_HPToken.sol
+93.75,96.34,0x41bd2dac002b683de9f69c4961ee3beb39590639,smart-contract-sanctuary-ethereum/contracts/mainnet/41/41bd2dac002b683de9f69c4961ee3beb39590639_EtherBrosMaker.sol
+93.75,93.98,0x70eDa37bF8Ed257dbFe496b26d2b0dAaD19063dD,smart-contract-sanctuary-ethereum/contracts/mainnet/70/70eDa37bF8Ed257dbFe496b26d2b0dAaD19063dD_EthBurnedOracleInstance.sol

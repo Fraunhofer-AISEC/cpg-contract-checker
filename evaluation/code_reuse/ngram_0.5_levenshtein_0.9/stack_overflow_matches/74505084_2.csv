@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.67,91.49,0x6C86b6b726D146b034582b172001567835B7643B,smart-contract-sanctuary-ethereum/contracts/mainnet/6c/6C86b6b726D146b034582b172001567835B7643B_KeltenoNFT.sol
+97.67,91.49,0x2d8d8FaAf6356690997b67CDEa85BCeB00F79fE4,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2d8d8FaAf6356690997b67CDEa85BCeB00F79fE4_gangsterNFT.sol
+97.67,91.49,0x61Cac0f48E7af6a5BA19FFA3f67b33d6889dC616,smart-contract-sanctuary-ethereum/contracts/mainnet/61/61Cac0f48E7af6a5BA19FFA3f67b33d6889dC616_gangsterNFT.sol
+95.35,91.49,0xD771d1839799CB50172c42965Ba2Ca247F84c156,smart-contract-sanctuary-ethereum/contracts/mainnet/d7/D771d1839799CB50172c42965Ba2Ca247F84c156_GoonDoge.sol

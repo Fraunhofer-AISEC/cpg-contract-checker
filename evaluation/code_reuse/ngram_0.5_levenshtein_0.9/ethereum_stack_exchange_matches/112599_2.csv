@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x57507eaE8ff0572469aED6F7e5552D09c36a1CdB,smart-contract-sanctuary-ethereum/contracts/mainnet/57/57507eaE8ff0572469aED6F7e5552D09c36a1CdB_Hello.sol
+100.00,100.00,0x01b6ae6250b84f4e493f8229329c43d4e3d13f41,smart-contract-sanctuary-ethereum/contracts/mainnet/01/01b6ae6250b84f4e493f8229329c43d4e3d13f41_Hello.sol
+100.00,100.00,0x74c560c70b7e4386ec3f7d86b8590e946c03465b,smart-contract-sanctuary-ethereum/contracts/mainnet/74/74c560c70b7e4386ec3f7d86b8590e946c03465b_EarlyReturn.sol
+100.00,100.00,0x4abfd8bc8d43fa086959d64f8132657ccbaa6faf,smart-contract-sanctuary-ethereum/contracts/mainnet/4a/4abfd8bc8d43fa086959d64f8132657ccbaa6faf_HelloWorld.sol
+100.00,100.00,0x92C504d3a6c120716F9BA470952B2498292106A5,smart-contract-sanctuary-ethereum/contracts/mainnet/92/92C504d3a6c120716F9BA470952B2498292106A5_SquiggleOwl.sol
+100.00,100.00,0x08a8Ab0A3220E5c4A1Bb505FbF8af7E286C1a66D,smart-contract-sanctuary-ethereum/contracts/mainnet/08/08a8Ab0A3220E5c4A1Bb505FbF8af7E286C1a66D_HelloWorld.sol
+100.00,91.33,0x13bab10a88fc5f6c77b87878d71c9f1707d2688a,smart-contract-sanctuary-ethereum/contracts/mainnet/13/13bab10a88fc5f6c77b87878d71c9f1707d2688a_SeenNFToken.sol

@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,90.74,0xa3100c90f999454fd6764e39e5893469c520e4b1,smart-contract-sanctuary-ethereum/contracts/mainnet/a3/a3100c90f999454fd6764e39e5893469c520e4b1_EveripediaNFT.sol
+94.44,90.74,0xf0AaB3Fa97964B3ade39AF101a313235B5c5D3ee,smart-contract-sanctuary-ethereum/contracts/mainnet/f0/f0AaB3Fa97964B3ade39AF101a313235B5c5D3ee_Token.sol
+94.44,90.74,0xD0f27dfa54FbF80b823a63470C0e693AE4A626b8,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/D0f27dfa54FbF80b823a63470C0e693AE4A626b8_CryptoKombatCollection.sol
+94.44,90.74,0x782eFfE35AD53a4E3a9Abcc49260e3d58eD9a5D2,smart-contract-sanctuary-ethereum/contracts/mainnet/78/782eFfE35AD53a4E3a9Abcc49260e3d58eD9a5D2_TokenFactory.sol
+88.89,90.74,0x947C8cB6b339799912A93a08127c01A449A979BD,smart-contract-sanctuary-ethereum/contracts/mainnet/94/947C8cB6b339799912A93a08127c01A449A979BD_BadgerERC1155.sol
+88.89,90.74,0x9bcc39477ac146723728af09286712e522bdd69f,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9bcc39477ac146723728af09286712e522bdd69f_MintableERC1155.sol

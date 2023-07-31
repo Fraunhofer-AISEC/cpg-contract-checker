@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+90.36,92.92,0xd07c9908CCe70fB5A26fd6491330a8A0b057DD4C,smart-contract-sanctuary-ethereum/contracts/mainnet/d0/d07c9908CCe70fB5A26fd6491330a8A0b057DD4C_CoinOf1qTokenSale.sol
+90.36,92.92,0x136bbea6c46d0b783b1fb2f3846064465e0750ef,smart-contract-sanctuary-ethereum/contracts/mainnet/13/136bbea6c46d0b783b1fb2f3846064465e0750ef_CoinOf1qTokenSale.sol
+90.36,92.92,0x34AB37cC89Efa5ec8B38f72b50E85749208aa3Cf,smart-contract-sanctuary-ethereum/contracts/mainnet/34/34AB37cC89Efa5ec8B38f72b50E85749208aa3Cf_CoinOf1q.sol

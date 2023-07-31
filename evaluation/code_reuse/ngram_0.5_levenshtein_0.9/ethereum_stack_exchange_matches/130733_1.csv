@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.89,96.30,0xbbc5d03ca758762e16d467cdab38c98cebc19333,smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bbc5d03ca758762e16d467cdab38c98cebc19333_DefiPulseIndexTrade.sol
+95.89,96.30,0x29656f2367cf5317915bd61c51ba2b203e975e11,smart-contract-sanctuary-ethereum/contracts/mainnet/29/29656f2367cf5317915bd61c51ba2b203e975e11_DefiPulseIndexTrade.sol
+94.98,96.30,0x67b775850fe7af229ee904842ce979bbcf439935,smart-contract-sanctuary-ethereum/contracts/mainnet/67/67b775850fe7af229ee904842ce979bbcf439935_FlashloanForTube.sol
+94.98,97.22,0x2d1b8c783646e146312d317e550ef80ec1cb08c3,smart-contract-sanctuary-ethereum/contracts/mainnet/2d/2d1b8c783646e146312d317e550ef80ec1cb08c3_Strategy.sol
+94.52,96.30,0x190e9ee8b350ebdb793755d892e4df5bdefd2564,smart-contract-sanctuary-ethereum/contracts/mainnet/19/190e9ee8b350ebdb793755d892e4df5bdefd2564_FlashloanForTube.sol

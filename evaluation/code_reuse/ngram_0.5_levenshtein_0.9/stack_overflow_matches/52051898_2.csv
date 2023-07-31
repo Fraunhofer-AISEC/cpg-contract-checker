@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+92.03,90.38,0xf5b1a6cea339f2a632d065e7a55ce926022ae58f,smart-contract-sanctuary-ethereum/contracts/mainnet/f5/f5b1a6cea339f2a632d065e7a55ce926022ae58f_ShapeCoin.sol
+92.03,90.38,0xfb15c76e564fcae43c462a07769f199d1ba45a5a,smart-contract-sanctuary-ethereum/contracts/mainnet/fb/fb15c76e564fcae43c462a07769f199d1ba45a5a_ShapeCoin.sol
+91.81,97.61,0xf89e9b45a5cac46e0b99fdb62f6ae4cbb867e687,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f89e9b45a5cac46e0b99fdb62f6ae4cbb867e687_Maya_Coin.sol
+91.38,97.15,0x7cda79830faf07ed696fe220566116951ced36a7,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7cda79830faf07ed696fe220566116951ced36a7_Maya_Preferred.sol
+91.38,97.15,0x3324bc62dce06a5d1373f98ec9ae53d8f8ce6f64,smart-contract-sanctuary-ethereum/contracts/mainnet/33/3324bc62dce06a5d1373f98ec9ae53d8f8ce6f64_AnetCoin.sol
+89.01,93.63,0x08fa47c50bc9c05ec1a16d310d08f9c40beedf94,smart-contract-sanctuary-ethereum/contracts/mainnet/08/08fa47c50bc9c05ec1a16d310d08f9c40beedf94_MyToken.sol
+89.01,93.63,0x48f0f65d7bca70768d13a4b97a25fa0fe91fc4f1,smart-contract-sanctuary-ethereum/contracts/mainnet/48/48f0f65d7bca70768d13a4b97a25fa0fe91fc4f1_MyToken.sol
