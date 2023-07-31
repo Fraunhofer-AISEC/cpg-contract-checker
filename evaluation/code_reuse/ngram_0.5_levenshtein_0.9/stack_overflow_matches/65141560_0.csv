@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.32,97.19,0x0021c5f6bc6647e2b1387464b976db9f78ce3f55,smart-contract-sanctuary-ethereum/contracts/mainnet/00/0021c5f6bc6647e2b1387464b976db9f78ce3f55_ERC20Basic.sol
+96.09,96.07,0x3990340e60e2fe6fcb73955a03ed3fceb1c4428a,smart-contract-sanctuary-ethereum/contracts/mainnet/39/3990340e60e2fe6fcb73955a03ed3fceb1c4428a_SPQR.sol
+96.09,96.07,0xb96a1346a5309c19d6829bc018bda4db6fce529d,smart-contract-sanctuary-ethereum/contracts/mainnet/b9/b96a1346a5309c19d6829bc018bda4db6fce529d_MOONCOIN.sol
+94.97,92.98,0xbbaecd65347871af19c0bf08d99a547c35c3c600,smart-contract-sanctuary-ethereum/contracts/mainnet/bb/bbaecd65347871af19c0bf08d99a547c35c3c600_TechTok.sol
+92.74,92.64,0x2A6Ec2CF72c1221d96EC01161E9bFC719a8055c1,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2A6Ec2CF72c1221d96EC01161E9bFC719a8055c1_DEX.sol

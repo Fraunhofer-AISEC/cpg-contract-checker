@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.83,90.91,0xC4684c01f5a06Ea48c4cB75C8f14C87Ebc4bcD79,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/C4684c01f5a06Ea48c4cB75C8f14C87Ebc4bcD79_HolidayCats.sol
+93.75,90.71,0xC44291af52eDd9158E3A8Dc607e988c405551Ba3,smart-contract-sanctuary-ethereum/contracts/mainnet/c4/C44291af52eDd9158E3A8Dc607e988c405551Ba3_SunshineAndRasielNFT.sol
+91.67,90.05,0x55069Cf38Fb0F13Dea44791eb5A43D92a26dB7A5,smart-contract-sanctuary-ethereum/contracts/mainnet/55/55069Cf38Fb0F13Dea44791eb5A43D92a26dB7A5_TinyNinjaWorld.sol
+91.67,92.58,0xbcbfe0a238e48b6c45a03a1dc8b640704d226d0a,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bcbfe0a238e48b6c45a03a1dc8b640704d226d0a_DR41N3RS.sol
+87.50,91.67,0x381f7e0d9a8026ab124761ed40171484cff82935,smart-contract-sanctuary-ethereum/contracts/mainnet/38/381f7e0d9a8026ab124761ed40171484cff82935_EG.sol

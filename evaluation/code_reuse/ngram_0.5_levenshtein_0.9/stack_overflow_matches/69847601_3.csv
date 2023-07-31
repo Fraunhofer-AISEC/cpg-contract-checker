@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.74,96.36,0xcb693c88f78d346552212adb9a9171889a4c907b,smart-contract-sanctuary-ethereum/contracts/mainnet/cb/cb693c88f78d346552212adb9a9171889a4c907b_TearTokenV2.sol
+94.74,96.36,0x6ba6dca084df430f3a7036c02073fa56e01254b4,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6ba6dca084df430f3a7036c02073fa56e01254b4_TearToken.sol
+94.74,91.36,0x5Ebc779754c94F544596c7706320D7Ce095E4Bea,smart-contract-sanctuary-ethereum/contracts/mainnet/5e/5Ebc779754c94F544596c7706320D7Ce095E4Bea_SurrivativeAuctions.sol
+92.98,95.45,0x6FAB28284Ca4BE91f66791dAeEaD96eb2261a935,smart-contract-sanctuary-ethereum/contracts/mainnet/6f/6FAB28284Ca4BE91f66791dAeEaD96eb2261a935_Token.sol
+87.72,90.12,0xE3708f5E56cc6707bD31582B9C41B190207919cb,smart-contract-sanctuary-ethereum/contracts/mainnet/e3/E3708f5E56cc6707bD31582B9C41B190207919cb_Tosi.sol

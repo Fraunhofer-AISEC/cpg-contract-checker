@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+95.60,90.64,0x8a113a57e74aef531bee8de7e16e604916f053ac,smart-contract-sanctuary-ethereum/contracts/mainnet/8a/8a113a57e74aef531bee8de7e16e604916f053ac_ClipperCoin.sol
+95.60,90.64,0xc2221b777857f4a862a8c528d24b35cc995dd8b1,smart-contract-sanctuary-ethereum/contracts/mainnet/c2/c2221b777857f4a862a8c528d24b35cc995dd8b1_ClipperCoin.sol
+93.41,90.64,0x42D2b05b20565de5f2beF7503ebdaD0754A5d4b4,smart-contract-sanctuary-ethereum/contracts/mainnet/42/42D2b05b20565de5f2beF7503ebdaD0754A5d4b4_SharesChainTokenCrowdFunding.sol
+91.21,90.64,0x740650f830a0aec0f27821174d1b5737f9636017,smart-contract-sanctuary-ethereum/contracts/mainnet/74/740650f830a0aec0f27821174d1b5737f9636017_WanchainContribution.sol
+90.11,90.64,0x1071ba8ada384c2b9b87f808e19dbb9aa4f0f88a,smart-contract-sanctuary-ethereum/contracts/mainnet/10/1071ba8ada384c2b9b87f808e19dbb9aa4f0f88a_SharesChainToken.sol

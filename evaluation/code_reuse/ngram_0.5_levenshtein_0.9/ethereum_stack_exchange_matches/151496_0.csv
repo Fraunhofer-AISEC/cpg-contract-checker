@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+94.74,96.91,0x8c37e2c13406c5353b3c60f00bc5160f4cf36395,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c37e2c13406c5353b3c60f00bc5160f4cf36395_RefundSponsor.sol
+89.47,94.44,0x46dc64ABa177cA298b827840F285f95498ab3ACd,smart-contract-sanctuary-ethereum/contracts/mainnet/46/46dc64ABa177cA298b827840F285f95498ab3ACd_BountyAuction.sol
+89.47,94.44,0x37b4932ECeAE6b07b761F4B86975325Cb36c31aD,smart-contract-sanctuary-ethereum/contracts/mainnet/37/37b4932ECeAE6b07b761F4B86975325Cb36c31aD_PricingSession.sol
+87.72,92.59,0x5165a6cf99F58AA20032AbDf5aaf3F8cD6978617,smart-contract-sanctuary-ethereum/contracts/mainnet/51/5165a6cf99F58AA20032AbDf5aaf3F8cD6978617_BountyAuction.sol
+85.96,93.95,0x162b53d630977d90fca9e0b8bbc165df9598b88a,smart-contract-sanctuary-ethereum/contracts/mainnet/16/162b53d630977d90fca9e0b8bbc165df9598b88a_RefundSponsor.sol
+84.21,94.44,0xA20B4b391Cd5f581Ab17a8d61388e0fe78dde28C,smart-contract-sanctuary-ethereum/contracts/mainnet/a2/A20B4b391Cd5f581Ab17a8d61388e0fe78dde28C_ABCTreasury.sol

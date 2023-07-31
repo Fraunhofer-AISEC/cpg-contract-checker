@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x32Ada295130e744f8C688d6479778ACeBBBC58bF,smart-contract-sanctuary-ethereum/contracts/mainnet/32/32Ada295130e744f8C688d6479778ACeBBBC58bF_TestNftContract.sol
+100.00,100.00,0x82f371b47cc5B9Cf23Af60A9A31A9E7A6bef8A2d,smart-contract-sanctuary-ethereum/contracts/mainnet/82/82f371b47cc5B9Cf23Af60A9A31A9E7A6bef8A2d_SecondSkinERC721.sol
+100.00,92.96,0x3027Fb43Cc4C39988B0395012B4754Cee82dD4d4,smart-contract-sanctuary-ethereum/contracts/mainnet/30/3027Fb43Cc4C39988B0395012B4754Cee82dD4d4_SecondSkinRevealFactory.sol
+100.00,92.96,0x5C0920476Efe00F0a00c40C4c546d228F0C652D0,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5C0920476Efe00F0a00c40C4c546d228F0C652D0_SecondSkinMinter.sol
+87.50,90.61,0xe91DC7FF1d66b63D1277AcEbBc08F4F695FE2C98,smart-contract-sanctuary-ethereum/contracts/mainnet/e9/e91DC7FF1d66b63D1277AcEbBc08F4F695FE2C98_SecondSkinMinter.sol

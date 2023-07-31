@@ -1,0 +1,4 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x3df8f2026d29d0bf9e315cdbe82b91d8df593a95,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3df8f2026d29d0bf9e315cdbe82b91d8df593a95_getKittyInfo.sol
+100.00,100.00,0x3686e7ec62d5694a8ac05f8f39fd5f632e2ff79b,smart-contract-sanctuary-ethereum/contracts/mainnet/36/3686e7ec62d5694a8ac05f8f39fd5f632e2ff79b_KittyArena.sol
+100.00,100.00,0x7e312bdb6ae3bb7ecf2fe2606533a330fbf583e4,smart-contract-sanctuary-ethereum/contracts/mainnet/7e/7e312bdb6ae3bb7ecf2fe2606533a330fbf583e4_Shroom.sol

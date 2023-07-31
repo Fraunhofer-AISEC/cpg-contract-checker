@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.02,92.13,0x7d21288595eb7320dcb859dfe35e1aaa22b291e2,smart-contract-sanctuary-ethereum/contracts/mainnet/7d/7d21288595eb7320dcb859dfe35e1aaa22b291e2_DMC_Exoplanets.sol
+98.02,90.65,0xeF2b573e0Bd62f927c164306ebeAB482191f32AD,smart-contract-sanctuary-ethereum/contracts/mainnet/ef/eF2b573e0Bd62f927c164306ebeAB482191f32AD_OEToken.sol
+94.86,91.69,0x9aeaa9Ed9Ae5a433998e9E674ad836b2790B291B,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9aeaa9Ed9Ae5a433998e9E674ad836b2790B291B_DeepSkyNetwork.sol
+94.47,91.69,0x734a270176876f95e79A21970E6857e425bFA03A,smart-contract-sanctuary-ethereum/contracts/mainnet/73/734a270176876f95e79A21970E6857e425bFA03A_DeepSkyNetwork.sol
+93.28,90.07,0x8c81250d32b04738279e095a0eb655287ac17604,smart-contract-sanctuary-ethereum/contracts/mainnet/8c/8c81250d32b04738279e095a0eb655287ac17604_Twenty4kGames.sol

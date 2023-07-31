@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+98.04,98.38,0x9e563afbd513f89b2f6f33465928d251ca9879cd,smart-contract-sanctuary-ethereum/contracts/mainnet/9e/9e563afbd513f89b2f6f33465928d251ca9879cd_NOVA.sol
+96.08,94.56,0xcd8001abf0b86ebb883bf3a1ce6dd0607c62a6a7,smart-contract-sanctuary-ethereum/contracts/mainnet/cd/cd8001abf0b86ebb883bf3a1ce6dd0607c62a6a7_KYCManager.sol
+96.08,93.20,0xc7D9F5c3E1C09ec851BfA13cB724D9045fE80B6E,smart-contract-sanctuary-ethereum/contracts/mainnet/c7/c7D9F5c3E1C09ec851BfA13cB724D9045fE80B6E_Oxmose.sol
+95.10,96.17,0xD67cfF882066536D134E80b9ad2b16e247b6e438,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/D67cfF882066536D134E80b9ad2b16e247b6e438_MetaDaoNft.sol

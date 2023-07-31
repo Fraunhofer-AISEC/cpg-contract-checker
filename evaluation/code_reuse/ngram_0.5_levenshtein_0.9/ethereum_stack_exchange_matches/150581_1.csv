@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,96.72,0xceEdACe70F46091986CA09Ac834362b74bC211F4,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ceEdACe70F46091986CA09Ac834362b74bC211F4_Create2Deployer.sol
+96.61,93.44,0x56F18Fa143761610A6AC316D9f3F6bBA430F36a6,smart-contract-sanctuary-ethereum/contracts/mainnet/56/56F18Fa143761610A6AC316D9f3F6bBA430F36a6_Ember.sol
+91.53,93.44,0xb65D6aBb4F9D4CC33A3AF41cC85475345Caf39E2,smart-contract-sanctuary-ethereum/contracts/mainnet/b6/b65D6aBb4F9D4CC33A3AF41cC85475345Caf39E2_CasinoBankRoll.sol
+91.53,90.16,0x45540de697d2b3d825778b1f8d5bbf1a247841c1,smart-contract-sanctuary-ethereum/contracts/mainnet/45/45540de697d2b3d825778b1f8d5bbf1a247841c1_WalletsFactory.sol
+86.44,91.80,0x8f559c55172b945a9cbcd5f3a8b58ac98f1bedd4,smart-contract-sanctuary-ethereum/contracts/mainnet/8f/8f559c55172b945a9cbcd5f3a8b58ac98f1bedd4_DiagonalDeployer.sol

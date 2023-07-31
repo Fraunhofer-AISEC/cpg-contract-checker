@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+84.62,93.33,0x0dCb3b757E3aE0af246e897af2C5B158aE9c6007,smart-contract-sanctuary-ethereum/contracts/mainnet/0d/0dCb3b757E3aE0af246e897af2C5B158aE9c6007_HordeCreaturesA.sol
+84.62,93.75,0xf441aAF6a47c8A0e2d6317de6cB20a8f43481544,smart-contract-sanctuary-ethereum/contracts/mainnet/f4/f441aAF6a47c8A0e2d6317de6cB20a8f43481544_LiveMintArtist.sol
+84.62,93.75,0xFeA5d01Fb6C89e99E90336E90f1b713a4cF75b7b,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/FeA5d01Fb6C89e99E90336E90f1b713a4cF75b7b_LiveMintArtist.sol
+84.62,93.75,0x7d9CCd94ba18CdE4FBE93F918018B4A9FAa99893,smart-contract-sanctuary-ethereum/contracts/mainnet/7d/7d9CCd94ba18CdE4FBE93F918018B4A9FAa99893_LiveMintArtist.sol

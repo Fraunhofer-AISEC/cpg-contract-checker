@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+100.00,100.00,0x23e552a194bc16d3a85cc47be61be3b3cccd0fa2,smart-contract-sanctuary-ethereum/contracts/mainnet/23/23e552a194bc16d3a85cc47be61be3b3cccd0fa2_LumiOro.sol
+100.00,100.00,0x5c0deda08fd34620fa35dd7d719c4cac69424ffe,smart-contract-sanctuary-ethereum/contracts/mainnet/5c/5c0deda08fd34620fa35dd7d719c4cac69424ffe_GasFees.sol
+100.00,91.89,0xd67a988032b3f6f06948e68e1dad270ee7e0740f,smart-contract-sanctuary-ethereum/contracts/mainnet/d6/d67a988032b3f6f06948e68e1dad270ee7e0740f_CompatibilityFallbackHandler.sol
+94.44,94.59,0xf804c0cb3ec31275c6c47a54686627e71be6f2fd,smart-contract-sanctuary-ethereum/contracts/mainnet/f8/f804c0cb3ec31275c6c47a54686627e71be6f2fd_AnonX.sol
+94.44,94.59,0xc604ff0c51f14cd5f3ce7e30e8ce69bc2b426292,smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c604ff0c51f14cd5f3ce7e30e8ce69bc2b426292_FictoPrivate.sol

@@ -1,0 +1,8 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+89.74,90.24,0xC5E88b6befe79f3D22AAA4bE052c79051EC371aa,smart-contract-sanctuary-ethereum/contracts/mainnet/c5/C5E88b6befe79f3D22AAA4bE052c79051EC371aa_MonocDIL.sol
+89.74,90.24,0x9a742fa43d50c99b28f8b49ca5c74eebf7d472ad,smart-contract-sanctuary-ethereum/contracts/mainnet/9a/9a742fa43d50c99b28f8b49ca5c74eebf7d472ad_ERC721Template.sol
+89.74,92.68,0xf1e9ae2e5e1b127ee49d6c928b8e562131f67ca5,smart-contract-sanctuary-ethereum/contracts/mainnet/f1/f1e9ae2e5e1b127ee49d6c928b8e562131f67ca5_MyERC721.sol
+89.74,90.24,0x7C87BB61d37e0EAe15e3aDC9cAa09330B78B6e9B,smart-contract-sanctuary-ethereum/contracts/mainnet/7c/7C87BB61d37e0EAe15e3aDC9cAa09330B78B6e9B_ERC4907.sol
+89.74,90.24,0xB4fa9eEe781F6503D4db451DE607D021fAFe2DF6,smart-contract-sanctuary-ethereum/contracts/mainnet/b4/B4fa9eEe781F6503D4db451DE607D021fAFe2DF6_NFTCastle.sol
+89.74,92.68,0xc6bc8053dd92e4814099c7c28c7035aa636d0ba1,smart-contract-sanctuary-ethereum/contracts/mainnet/c6/c6bc8053dd92e4814099c7c28c7035aa636d0ba1_Certificate.sol
+87.18,92.68,0xb802727b58a1be20805a7b61594f2e6c7ee8dfbf,smart-contract-sanctuary-ethereum/contracts/mainnet/b8/b802727b58a1be20805a7b61594f2e6c7ee8dfbf_NFT.sol

@@ -1,0 +1,7 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+92.31,93.18,0x5bec63131bdb80a17f94e29926eef09353c5d03a,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bec63131bdb80a17f94e29926eef09353c5d03a_Crowdsale.sol
+92.31,93.18,0xa85adde33b826f06b9eae491343af46c081ead2f,smart-contract-sanctuary-ethereum/contracts/mainnet/a8/a85adde33b826f06b9eae491343af46c081ead2f_MiniMeToken.sol
+92.31,93.18,0x13a05a752a67c4f9173932f985ff4921ff796975,smart-contract-sanctuary-ethereum/contracts/mainnet/13/13a05a752a67c4f9173932f985ff4921ff796975_MiniMeTokenFactory.sol
+90.38,93.18,0xa07f66bee650f6260fa79130c71901e0f00b863c,smart-contract-sanctuary-ethereum/contracts/mainnet/a0/a07f66bee650f6260fa79130c71901e0f00b863c_Crowdsale.sol
+90.38,90.91,0x09a80172ed7335660327cd664876b5df6fe06108,smart-contract-sanctuary-ethereum/contracts/mainnet/09/09a80172ed7335660327cd664876b5df6fe06108_OMPxContract.sol
+88.46,90.91,0xce9299bd2909e882f0f8731aa8a7ba15397a5e6d,smart-contract-sanctuary-ethereum/contracts/mainnet/ce/ce9299bd2909e882f0f8731aa8a7ba15397a5e6d_LDTCrowdsale.sol

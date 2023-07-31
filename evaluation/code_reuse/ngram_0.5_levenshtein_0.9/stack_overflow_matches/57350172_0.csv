@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+97.37,90.13,0x0ab23af9a571C03e4b23eD919c23f570E95e7FC5,smart-contract-sanctuary-ethereum/contracts/mainnet/0a/0ab23af9a571C03e4b23eD919c23f570E95e7FC5_Epigeon.sol
+94.74,90.13,0x2a5fbd3d5b0320aabf05e11284ac8dcff87c2794,smart-contract-sanctuary-ethereum/contracts/mainnet/2a/2a5fbd3d5b0320aabf05e11284ac8dcff87c2794_HashtagList.sol
+94.74,90.13,0xCf2f795C60a19BE4833B8102d75AFDdB26d824C5,smart-contract-sanctuary-ethereum/contracts/mainnet/cf/Cf2f795C60a19BE4833B8102d75AFDdB26d824C5_AnonymiceBadges.sol
+92.11,90.13,0x6b5705464b9e28d642e953a209be96a0a32fcabd,smart-contract-sanctuary-ethereum/contracts/mainnet/6b/6b5705464b9e28d642e953a209be96a0a32fcabd_BIOBIT.sol

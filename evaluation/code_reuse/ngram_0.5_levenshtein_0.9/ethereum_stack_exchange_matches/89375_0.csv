@@ -1,0 +1,5 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+99.69,94.12,0x5bca6ee0a776cc4f40c7221646f6d3daa2bd19d9,smart-contract-sanctuary-ethereum/contracts/mainnet/5b/5bca6ee0a776cc4f40c7221646f6d3daa2bd19d9_RootCoin.sol
+99.39,99.56,0xbce7e18b8d113b83807b7929f7a0be222c07a034,smart-contract-sanctuary-ethereum/contracts/mainnet/bc/bce7e18b8d113b83807b7929f7a0be222c07a034_RIPAC.sol
+99.08,94.90,0x7a83db2d2737c240c77c7c5d8be8c2ad68f6ff23,smart-contract-sanctuary-ethereum/contracts/mainnet/7a/7a83db2d2737c240c77c7c5d8be8c2ad68f6ff23_UselessReserveBank.sol
+98.17,90.67,0xfe81b2bb25c34dfb2a023d1378a5f41759973067,smart-contract-sanctuary-ethereum/contracts/mainnet/fe/fe81b2bb25c34dfb2a023d1378a5f41759973067_ValueToken.sol

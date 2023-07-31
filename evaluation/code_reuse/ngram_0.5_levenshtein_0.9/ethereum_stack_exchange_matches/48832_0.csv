@@ -1,0 +1,6 @@
+N-gram Similarity,Levenshtein Similarity,Contract Address,File Path
+82.61,93.06,0x70aabb58721cba1cd4b3fbc5b5750f8c1ef81ddd,smart-contract-sanctuary-ethereum/contracts/mainnet/70/70aabb58721cba1cd4b3fbc5b5750f8c1ef81ddd_Multiplexer.sol
+82.61,91.67,0x9BD1C760208BFb99A82cDf3adAc09F4800db78B1,smart-contract-sanctuary-ethereum/contracts/mainnet/9b/9BD1C760208BFb99A82cDf3adAc09F4800db78B1_BitplusToken.sol
+82.61,91.67,0x3dcd01f5632d14f81d467e9439bd8bee47d1a9bb,smart-contract-sanctuary-ethereum/contracts/mainnet/3d/3dcd01f5632d14f81d467e9439bd8bee47d1a9bb_Crowdsale.sol
+82.61,91.67,0x882e6a0b899ea492f9c86336fee0a86c08b47e78,smart-contract-sanctuary-ethereum/contracts/mainnet/88/882e6a0b899ea492f9c86336fee0a86c08b47e78_Crowdsale.sol
+82.61,91.67,0x0927feb960012fbceaac13612300d565ed50ae57,smart-contract-sanctuary-ethereum/contracts/mainnet/09/0927feb960012fbceaac13612300d565ed50ae57_SimpleTokenCoin.sol
