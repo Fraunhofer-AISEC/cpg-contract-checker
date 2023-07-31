@@ -1,20 +1,26 @@
 package de.fraunhofer.aisec.cpg.frontends.solidity
 
+import de.fraunhofer.aisec.cpg.TranslationContext
 import de.fraunhofer.aisec.cpg.TranslationResult
 import de.fraunhofer.aisec.cpg.graph.HasBase
 import de.fraunhofer.aisec.cpg.graph.Node
+import de.fraunhofer.aisec.cpg.graph.declarations.TranslationUnitDeclaration
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.*
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
+import de.fraunhofer.aisec.cpg.passes.ControlFlowSensitiveDFGPass
 import de.fraunhofer.aisec.cpg.passes.Pass
+import de.fraunhofer.aisec.cpg.passes.TranslationUnitPass
+import de.fraunhofer.aisec.cpg.passes.order.DependsOn
 
-class DFGExtensionPass: Pass() {
+@DependsOn(ControlFlowSensitiveDFGPass::class)
+class DFGExtensionPass(ctx: TranslationContext): TranslationUnitPass(ctx) {
 
     val binOp = setOf("=", "|=", "^=", "&=", "<<=",">>=","+=", "-=", "*=", "/=", "%=")
     val unaOp = setOf("++", "--")
     // some member accesses don't transmit direct data
     val memberAccessWithoutData = setOf("length")
 
-    override fun accept(p0: TranslationResult?) {
+    override fun accept(p0: TranslationUnitDeclaration) {
         var nodes = SubgraphWalker.flattenAST(p0)
         val nodesBinary = nodes.filter { it is BinaryOperator && it.operatorCode in binOp || it is UnaryOperator && it.operatorCode in unaOp}
         nodesBinary.map { getSourceTargetExpression(it) }.forEach {
@@ -37,12 +43,12 @@ class DFGExtensionPass: Pass() {
             exclude 'length' specifically as it transpots far less information.
          */
         nodes.filterIsInstance<MemberExpression>().map {
-            if(it.refersTo == null && !memberAccessWithoutData.contains(it.name)){
+            if(!memberAccessWithoutData.contains(it.name.localName)){
                 it.addPrevDFG(it.base)
             }
         }
 
-        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("push") }.forEach {
+        nodes.filterIsInstance<CallExpression>().filter { it.name.localName.equals("push") }.forEach {
             val call = it
             val base = getCoarseGrainedTarget(call) as? DeclaredReferenceExpression
             base?.let {
@@ -50,7 +56,7 @@ class DFGExtensionPass: Pass() {
             }
         }
 
-        nodes.filterIsInstance<CallExpression>().filter { it.name.equals("sha3") || it.name.equals("keccak256") || it.name.equals("blockhash")}.forEach {
+        nodes.filterIsInstance<CallExpression>().filter { it.name.localName.equals("sha3") || it.name.localName.equals("keccak256") || it.name.localName.equals("blockhash") || it.invokes.any { it.isInferred }}.forEach {
             val call = it
             call.arguments.forEach { call.addPrevDFG(it) }
         }
@@ -65,7 +71,9 @@ class DFGExtensionPass: Pass() {
 
     fun getCoarseGrainedTarget(n: Node): Node {
         if(n is HasBase && n.base != null){
-            return getCoarseGrainedTarget(n.base)
+            return getCoarseGrainedTarget(n.base!!)
+        }else if(n is CallExpression && n.callee != null){
+            return getCoarseGrainedTarget(n.callee!!)
         }else if(n is Literal<*>){
             return n
         }else if(n is BinaryOperator){

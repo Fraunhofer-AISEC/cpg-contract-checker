@@ -1,5 +1,6 @@
 package de.fraunhofer.aisec.cpg.frontends.solidity
 
+import de.fraunhofer.aisec.cpg.TranslationContext
 import de.fraunhofer.aisec.cpg.TranslationResult
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Return
 import de.fraunhofer.aisec.cpg.graph.Node
@@ -10,33 +11,37 @@ import de.fraunhofer.aisec.cpg.graph.statements.ReturnStatement
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.Pass
+import de.fraunhofer.aisec.cpg.passes.TranslationResultPass
 
-class GraphExtensionsPass: Pass() {
+class GraphExtensionsPass(ctx: TranslationContext): TranslationResultPass(ctx) {
 
-    override fun accept(result: TranslationResult?) {
+    override fun accept(result: TranslationResult) {
         result?.let {
             addAdditionalEOGEdges(it)
             addReturnNodes(it)
-
-            (lang as SolidityLanguageFrontend).pragmas.forEach { result += it }
+            result.components
+            result.components.map { it.language?.frontend }.filterIsInstance<SolidityLanguageFrontend>().forEach {
+                it.pragmas.forEach { result += it }
+            }
 
         }
+    }
+
+    override fun cleanup() {
     }
 
     private fun addAdditionalEOGEdges(result: TranslationResult) {
         var funcitons = SubgraphWalker.flattenAST(result).filterIsInstance<FunctionDeclaration>()
         funcitons.forEach {
             var body = it.body
-            it.prevDFG.filterIsInstance<ReturnStatement>().forEach {
-                val propertyEdge: PropertyEdge<Node> = PropertyEdge<Node>(it, body)
-                propertyEdge.addProperty(Properties.INDEX, 0)
-                it.addNextEOG(propertyEdge)
-                body.addPrevEOG(propertyEdge)
-
-
-
+            body?.let {
+                it.prevDFG.filterIsInstance<ReturnStatement>().forEach {
+                    val propertyEdge: PropertyEdge<Node> = PropertyEdge<Node>(it, body)
+                    propertyEdge.addProperty(Properties.INDEX, 0)
+                    it.addNextEOG(propertyEdge)
+                    body.addPrevEOG(propertyEdge)
+                }
             }
-
         }
     }
 
@@ -59,6 +64,4 @@ class GraphExtensionsPass: Pass() {
         }
     }
 
-    override fun cleanup() {
-    }
 }

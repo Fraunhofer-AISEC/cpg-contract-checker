@@ -1,4 +1,4 @@
-match p=({name: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(last)
+match p=({localName: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(last)
     where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)}) 
         and exists{
         (f)-[vulna:PARAMETERS]->(vuln)-[:DFG*#]->(m)-[:DFG*#]->(state:FieldDeclaration)

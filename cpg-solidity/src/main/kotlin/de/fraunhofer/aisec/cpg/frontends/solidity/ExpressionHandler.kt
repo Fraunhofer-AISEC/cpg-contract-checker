@@ -5,7 +5,8 @@ import de.fraunhofer.aisec.cpg.frontends.Handler
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Require
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.Revert
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.SpecifiedExpression
-import de.fraunhofer.aisec.cpg.graph.NodeBuilder
+import de.fraunhofer.aisec.cpg.graph.*
+import de.fraunhofer.aisec.cpg.graph.declarations.ProblemDeclaration
 import de.fraunhofer.aisec.cpg.graph.statements.expressions.*
 import de.fraunhofer.aisec.cpg.graph.types.ObjectType
 import de.fraunhofer.aisec.cpg.graph.types.Type
@@ -16,9 +17,10 @@ import org.antlr.v4.runtime.tree.ParseTree
 import org.antlr.v4.runtime.tree.TerminalNode
 import org.parboiled.common.ImmutableList
 import org.slf4j.LoggerFactory
+import java.util.function.Supplier
 
 class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, ParserRuleContext, SolidityLanguageFrontend>(
-    ::Expression, lang) {
+    Supplier { ProblemExpression() }, lang) {
 
     private var replacingReferenceWithExpression: Boolean = false
 
@@ -86,7 +88,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
     }
 
     private fun handleNameValueListExpression(ctx: SolidityParser.NameValueListContext): Expression {
-        val exp = NodeBuilder.newExpressionList(lang.getCodeFromRawNode(ctx))
+        val exp = newExpressionList(frontend.getCodeFromRawNode(ctx), ctx)
 
         for(nameValue in ctx.nameValue()){
             val keyValue = KeyValueExpression()
@@ -102,7 +104,8 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
         // a primary expression, e.g. a reference or a literal
         ctx.primaryExpression()?.let {
-            return this.handle(it)
+            this.handle(it)?.let { return it }
+
         }
 
         // check for an operator
@@ -112,50 +115,47 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
         // member access
         if(op != null && op.text == ".") {
             val base = this.handle(expressions.first())
-            val name = ctx.identifier().text
+            base?.let {
+                return newMemberExpression(ctx.text, base, UnknownType.getUnknownType(language), operatorCode = op.text, code = frontend.getCodeFromRawNode(ctx), rawNode = ctx)
+            }
 
-            val member = NodeBuilder.newMemberExpression(base, UnknownType.getUnknownType(), name, op.text, this.lang.getCodeFromRawNode(ctx))
-
-            return member
         }
 
         if(terminalNodes.size == 2 && "[".equals(terminalNodes[0].text) && "]".equals(terminalNodes[1].text)){
-            val arraySub = NodeBuilder.newArraySubscriptionExpression(lang.getCodeFromRawNode(ctx))
-            arraySub.arrayExpression = this.handle(expressions[0])
-            arraySub.subscriptExpression = this.handle(expressions[1])
-
+            val arraySub = newArraySubscriptionExpression(frontend.getCodeFromRawNode(ctx), ctx)
+            this.handle(expressions[0])?.let { arraySub.arrayExpression = it }
+            this.handle(expressions[1])?.let { arraySub.subscriptExpression = it }
             return arraySub
         }
 
         if(terminalNodes.size == 2 && "?".equals(terminalNodes[0].text) && ":".equals(terminalNodes[1].text)){
-            return NodeBuilder.newConditionalExpression(
-                this.handle(expressions[0]), this.handle(expressions[1]), this.handle(expressions[2]),
-                TypeParser.createFrom(TypeParser.UNKNOWN_TYPE_STRING,false));
+            return newConditionalExpression(
+                this.handle(expressions[0])!!, this.handle(expressions[1]), this.handle(expressions[2]), code = frontend.getCodeFromRawNode(ctx), rawNode = ctx);
         }
 
         if(terminalNodes.size == 3 && "[".equals(terminalNodes[0].text)  && ":".equals(terminalNodes[1].text) && "]".equals(terminalNodes[2])){
-            return NodeBuilder.newArrayRangeExpression(
-                this.handle(expressions[0]),this.handle(expressions[1]),lang.getCodeFromRawNode(ctx))
+            return newRangeExpression(
+                this.handle(expressions[0]),this.handle(expressions[1]),frontend.getCodeFromRawNode(ctx))
         }
 
         // either a function call or a construct expression
         if(ctx.functionCallArguments() != null) {
-            var ref = this.handle(ctx.expression().firstOrNull())
+            var ref = this.handle(expressions.first())
 
 
             if(ref is DeclaredReferenceExpression || ref is SpecifiedExpression){
-                var name: String? = null;
+                var name: Name? = null;
                 var fqn: String? = null;
                 if(ref is DeclaredReferenceExpression){
                     name = ref.name
-                    fqn = name
+                    fqn = name.toString()
                 }else if(ref is SpecifiedExpression){
                     var nameHolder = ref
                     while(nameHolder is SpecifiedExpression){
                         nameHolder = nameHolder.expression
                     }
-                    name = nameHolder.name
-                    fqn = name
+                    name = nameHolder?.name
+                    fqn = name?.toString()
                 }
 
                 var call:CallExpression = CallExpression()
@@ -163,25 +163,25 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                 name?.let {
                     fqn?.let {
                         // TODO: use the scope manager instead
-                        val record = this.lang.scopeManager.currentRecord?.records?.firstOrNull { it.name == name }
+                        val record = frontend.scopeManager.currentRecord?.records?.firstOrNull { it.name == name }
 
                         call = if(record != null) {
-                            NodeBuilder.newConstructExpression(this.lang.getCodeFromRawNode(ctx))
+                            newConstructExpression(frontend.getCodeFromRawNode(ctx))
                         } else {
-                            NodeBuilder.newCallExpression(name, fqn, this.lang.getCodeFromRawNode(ctx), false)
+                            newCallExpression(ref , fqn, frontend.getCodeFromRawNode(ctx), false, ctx)
                         }
 
                         for(arg in ctx.functionCallArguments()?.expressionList()?.expression() ?: listOf()) {
-                            call.addArgument(this.handle(arg))
+                            this.handle(arg)?.let{call.addArgument(it)}
                         }
 
-                        if(call.name.equals("revert") && call.arguments.size == 1 && call.arguments[0] is Literal<*>){
+                        if(call.name.localName.equals("revert") && call.arguments.size == 1 && call.arguments[0] is Literal<*>){
                             val revertStatement: Revert = Revert()
                             revertStatement.message = call.arguments[0]
                             return revertStatement
                         }
 
-                        if(call.name.equals("require") && call.arguments.size >= 1  && call.arguments.size <= 2){
+                        if(call.name.localName.equals("require") && call.arguments.size >= 1  && call.arguments.size <= 2){
                             val require: Require = Require()
                             require.condition = call.arguments[0]
                             if(call.arguments.size > 2){
@@ -191,40 +191,38 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                         }
                     }
                 }
-                var base = expressions.first()
-                while (base.nameValueList() != null) {
-                    base = base.expression().first()
-                }
-                if(base.expression().isNotEmpty()){
-                    call.setBase(this.handle(expressions.first().expression()[0]))
-                }
+                ref?.let { call.callee = ref }
+                //call.callee
+                //var base = expressions.first()
+                //while (base.nameValueList() != null) {
+                //    base = base.expression().first()
+                //}
+                //if(base.expression().isNotEmpty()){
+                //    call.callee =this.handle(expressions.first().expression()[0])
+                //}
 
                 return call
             }else if(ref is CallExpression){
                 return ref
-            }else if(isType(ref.code?:"") || lang.declaredTypes.contains(ref.code?:"")){
-            var cast = NodeBuilder.newCastExpression(this.lang.getCodeFromRawNode(ctx))
+            }else if(isType(ref?.code?:"") || frontend.declaredTypes.contains(ref?.code?:"")){
+            var cast = newCastExpression(frontend.getCodeFromRawNode(ctx))
                 val args =ctx.functionCallArguments()?.expressionList()?.expression() ?: listOf()
                 if(args.size == 1){
-                    cast.expression = this.handle(args[0])
-                    cast.castType = ObjectType(
-                        ref.code,
-                        Type.Storage.AUTO,
-                        Type.Qualifier(false,false,false,false),
-                        listOf(),
-                        ObjectType.Modifier.NOT_APPLICABLE,
-                        !lang.declaredTypes.contains(ref.code?:""))
+                    this.handle(args[0])?.let { cast.expression = it }
+                    cast.castType = TypeParser.createFrom(ref?.code?: "",language,false,frontend.ctx)
+                    //cast.castType = ObjectType(ref.code, Type.Storage.AUTO, Type.Qualifier(false,false,false,false),
+                    // listOf(), ObjectType.Modifier.NOT_APPLICABLE,           !lang.declaredTypes.contains(ref.code?:""))
                     return cast
                 }
             }
 
             logger.warn("Expression {} could not be parsed.", ctx::class.java)
 
-            return Expression()
+            return newProblemExpression("This expression with arguments could not be translated into a CPG-construct", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
         }
 
         if(ctx.nameValueList() != null){
-            val exp = this.handle(ctx.expression().firstOrNull())
+            val exp = this.handle(ctx.expression().first())
 
             val specExpression = SpecifiedExpression()
 
@@ -240,19 +238,22 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
             val postfix = ctx.children.lastOrNull() is TerminalNode
             val prefix = ctx.children.firstOrNull() is TerminalNode
 
-            val unary = NodeBuilder.newUnaryOperator(op.text, postfix, prefix, this.lang.getCodeFromRawNode(ctx))
+            val unary = newUnaryOperator(op.text, postfix, prefix, frontend.getCodeFromRawNode(ctx))
 
-            unary.input = this.handle(expressions[0])
+            handle(expressions[0])?.let {
+                unary.input = it
+                return unary
+            }
 
             return unary
         }
 
         // binary expression
         if(op != null && expressions.size == 2) {
-            val binOp = NodeBuilder.newBinaryOperator(op.text, this.lang.getCodeFromRawNode(ctx))
+            val binOp = newBinaryOperator(op.text, frontend.getCodeFromRawNode(ctx))
 
-            binOp.lhs = this.handle(expressions[0])
-            binOp.rhs = this.handle(expressions[1])
+            handle(expressions[0])?.let { binOp.lhs = it }
+            handle(expressions[1])?.let { binOp.rhs = it }
 
             return binOp
         }
@@ -260,7 +261,7 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
         logger.warn("Expression {} could not be parsed.", ctx::class.java)
 
-        return Expression()
+        return newProblemExpression("This expression was not correctly translated", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
 
     private fun handleFunctionCall(ctx: SolidityParser.FunctionCallContext): CallExpression {
@@ -275,16 +276,16 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                 val fqn = name
 
                 // TODO: use the scope manager instead
-                val record = this.lang.scopeManager.currentRecord?.records?.firstOrNull { it.name == name }
+                val record = frontend.scopeManager.currentRecord?.records?.firstOrNull { it.name == name }
 
                 val call = if (record != null) {
-                    NodeBuilder.newConstructExpression(this.lang.getCodeFromRawNode(ctx))
+                    newConstructExpression(frontend.getCodeFromRawNode(ctx))
                 } else {
-                    NodeBuilder.newCallExpression(ref.name, fqn, this.lang.getCodeFromRawNode(ctx), false)
+                    newCallExpression(ref, fqn, frontend.getCodeFromRawNode(ctx), false)
                 }
 
                 for (arg in ctx.functionCallArguments()?.expressionList()?.expression() ?: listOf()) {
-                    call.addArgument(this.handle(arg))
+                    handle(arg)?.let { call.addArgument(it) }
                 }
 
                 return call
@@ -297,21 +298,21 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
         val name = ctx.text
         // replacing identifier to reference conversion by replacing them with the expression in the modifier invocation
         // != null represents the case where the modifier is the actual base function
-        if(!replacingReferenceWithExpression && lang.currentIdentifierMapStack.isNotEmpty() && lang.currentIdentifierMapStack.peek() != null){
+        if(!replacingReferenceWithExpression && frontend.currentIdentifierMapStack.isNotEmpty() && frontend.currentIdentifierMapStack.peek() != null){
             replacingReferenceWithExpression = true
-            val expression: SolidityParser.ExpressionContext? = getExpressionMatchingIdentifier(lang.currentIdentifierMapStack.peek(), name)
+            val expression: SolidityParser.ExpressionContext? = getExpressionMatchingIdentifier(frontend.currentIdentifierMapStack.peek(), name)
 
             if(expression != null){
                 val cpgExpression = handle(expression)
                 replacingReferenceWithExpression = false
-                return cpgExpression
+                return cpgExpression!!
             }
             replacingReferenceWithExpression = false
         }
 
-        val ref = NodeBuilder.newDeclaredReferenceExpression(name,
-            UnknownType.getUnknownType(),
-            this.lang.getCodeFromRawNode(ctx))
+        val ref = newDeclaredReferenceExpression(name,
+            newUnknownType(),
+            frontend.getCodeFromRawNode(ctx))
         return ref
     }
 
@@ -323,35 +324,29 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
     }
 
     private fun handlePrimaryExpression(ctx: SolidityParser.PrimaryExpressionContext): Expression {
-        ctx.identifier()?.let {
-            //if(it.text == "_" && lang.modifierStack.isNotEmpty()){
-            //    println("Found wildcard in modifier step")
-            //}else {
-            //}
-            return handle(it)
-        }
+        ctx.identifier()?.let { handle(it)?.let { return it } }
 
         ctx.numberLiteral()?.let {
 
             it.DecimalNumber()?.text?.let {
                 val value = it.toIntOrNull() ?: it.toLongOrNull() ?: it.toDoubleOrNull() ?: null
                 val type = when(value){
-                    is Int -> TypeParser.createFrom("int", false)
-                    is Long -> TypeParser.createFrom("long", false)
-                    is Double -> TypeParser.createFrom("double", false)
-                    else -> UnknownType.getUnknownType()
+                    is Int -> TypeParser.createFrom("int",language, false, frontend.ctx)
+                    is Long -> TypeParser.createFrom("long",language, false, frontend.ctx)
+                    is Double -> TypeParser.createFrom("double",language, false, frontend.ctx)
+                    else -> newUnknownType()
                 }
-                return NodeBuilder.newLiteral(value, type, this.lang.getCodeFromRawNode(ctx.numberLiteral()))
+                return newLiteral(value, type, frontend.getCodeFromRawNode(ctx.numberLiteral()))
             }
 
             it.HexNumber()?.text.let {
-                return NodeBuilder.newLiteral(it, TypeParser.createFrom("", true), it)
+                return newLiteral(it, TypeParser.createFrom("bytes",language, false, frontend.ctx), it)
             }
 
             val value = Integer.valueOf(it.DecimalNumber().text)
-            val literal = NodeBuilder.newLiteral(value,
-                TypeParser.createFrom("int", false),
-                this.lang.getCodeFromRawNode(it)
+            val literal = newLiteral(value,
+                TypeParser.createFrom("int",language, false, frontend.ctx),
+                frontend.getCodeFromRawNode(it)
             )
             
             return literal
@@ -362,11 +357,11 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
                 "true" -> true
                 else -> false
             }
-            return NodeBuilder.newLiteral<Boolean>(value, TypeParser.createFrom("bool", true), it.text)
+            return newLiteral<Boolean>(value, TypeParser.createFrom("bool",language, false, frontend.ctx), it.text)
         }
 
         ctx.stringLiteral()?.let {
-            return NodeBuilder.newLiteral(it.text, TypeParser.createFrom("string", true), it.text)
+            return newLiteral(it.text, TypeParser.createFrom("string",language, false, frontend.ctx), it.text)
         }
 
 
@@ -386,6 +381,6 @@ class ExpressionHandler(lang: SolidityLanguageFrontend) : Handler<Expression, Pa
 
         }
 
-        return Expression()
+        return newProblemExpression("No translation for this primary expression was found", ProblemNode.ProblemType.TRANSLATION, frontend.getCodeFromRawNode(ctx),ctx)
     }
 }

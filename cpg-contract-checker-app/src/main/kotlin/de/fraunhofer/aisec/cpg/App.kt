@@ -4,34 +4,52 @@
 package de.fraunhofer.aisec.cpg;
 
 import de.fraunhofer.aisec.cpg.checks.*
-import de.fraunhofer.aisec.cpg.frontends.solidity.DFGExtensionPass
-import de.fraunhofer.aisec.cpg.frontends.solidity.EOGExtensionPass
-import de.fraunhofer.aisec.cpg.frontends.solidity.GraphExtensionsPass
-import de.fraunhofer.aisec.cpg.frontends.solidity.SolidityLanguageFrontend
+import de.fraunhofer.aisec.cpg.frontends.solidity.*
 import de.fraunhofer.aisec.cpg.graph.Node
+import de.fraunhofer.aisec.cpg.graph.statements.expressions.CallExpression
 import de.fraunhofer.aisec.cpg.helpers.Benchmark
 import de.fraunhofer.aisec.cpg.helpers.SubgraphWalker
 import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
 import org.codehaus.jettison.json.JSONObject
 import org.codehaus.jettison.json.JSONTokener
-import org.eclipse.jetty.util.ajax.JSON
 import org.neo4j.driver.AuthTokens
 import org.neo4j.driver.GraphDatabase
 import org.neo4j.driver.Transaction
+import org.neo4j.driver.exceptions.AuthenticationException
 import org.neo4j.ogm.config.Configuration
+import org.neo4j.ogm.exception.ConnectionException
+import org.neo4j.ogm.session.Session
 import org.neo4j.ogm.session.SessionFactory
+import org.neo4j.ogm.session.event.Event
+import org.neo4j.ogm.session.event.EventListenerAdapter
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import picocli.CommandLine
 import java.io.File
+import java.net.ConnectException
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.util.concurrent.Callable
 import java.util.stream.Collectors
 import kotlin.reflect.full.createInstance
+import kotlin.reflect.full.memberProperties
+import kotlin.reflect.jvm.javaField
 import kotlin.system.exitProcess
 import kotlin.system.measureTimeMillis
 
+private const val MAX_COUNT_OF_FAILS = 10
+private const val PROTOCOL = "bolt://"
+private const val AUTO_INDEX = "none"
+private const val VERIFY_CONNECTION = true
+private const val TIME_BETWEEN_CONNECTION_TRIES: Long = 2000
+private const val EXIT_SUCCESS = 0
+private const val EXIT_FAILURE = 1
+
+private const val DEFAULT_HOST = "localhost"
+private const val DEFAULT_PORT = 7687
+private const val DEFAULT_USER_NAME = "neo4j"
+private const val DEFAULT_PASSWORD = "password"
+private const val DEFAULT_SAVE_DEPTH = -1
 
 class App : Callable<Int> {
 
@@ -40,6 +58,13 @@ class App : Callable<Int> {
     private val compDurations: MutableMap<String, Long> = mutableMapOf()
 
     private val PRINT_ON_FIND = true
+
+    private var host: String = DEFAULT_HOST
+
+    private var port: Int = DEFAULT_PORT
+
+    var neo4jUsername: String = DEFAULT_USER_NAME
+    private var depth: Int = DEFAULT_SAVE_DEPTH
 
 
     @CommandLine.Parameters(
@@ -61,6 +86,7 @@ class App : Callable<Int> {
     var avChecks: MutableList<Check> = mutableListOf()
 
     var findings: MutableMap<String, MutableList<String>> = mutableMapOf()
+    private var noPurgeDb: Boolean = false
 
 
 
@@ -86,7 +112,7 @@ class App : Callable<Int> {
                     if(!findings.containsKey("Empty translation")){
                         findings["Empty translation"] = mutableListOf()
                     }
-                    findings["Empty translation"]!!.add(it.name)
+                    findings["Empty translation"]!!.add(it.name.toString())
                 }
             }
             duration = measureTimeMillis {
@@ -130,22 +156,13 @@ class App : Callable<Int> {
                 .topLevel(File(path))
                 .sourceLocations(File(path))
                 .defaultPasses()
-                .registerLanguage(
-                    SolidityLanguageFrontend::class.java,
-                    SolidityLanguageFrontend.SOLIDITY_EXTENSIONS
-                )
-                .registerPass(EOGExtensionPass())
-                .registerPass(DFGExtensionPass())
-                .registerPass(GraphExtensionsPass())
+                .registerLanguage<SolidityLanguage>()
+                //.registerPass<EOGExtensionPass>()
+                .registerPass<DFGExtensionPass>()
+                .registerPass<GraphExtensionsPass>()
                 .debugParser(true)
                 .processAnnotations(true)
                 .build()
-
-        val oldEOGIndex = config.registeredPasses.indexOfFirst {  it is EvaluationOrderGraphPass}
-        val newEOGIndex = config.registeredPasses.indexOfFirst {  it is EOGExtensionPass}
-
-        config.registeredPasses[oldEOGIndex ] = config.registeredPasses[ newEOGIndex ]
-        config.registeredPasses.removeAt(newEOGIndex)
 
         val analyzer = TranslationManager.builder().config(config).build()
         val o = analyzer.analyze()
@@ -165,7 +182,6 @@ class App : Callable<Int> {
             avChecks.add(AddressPaddingCheck())
             avChecks.add(FrontRunningCheck())
             avChecks.add(LocalWriteToStorageCheck())
-            avChecks.add(DOSThroughExhaustionCheck())
             avChecks.add(BadRandomnessCheck())
             avChecks.add(OverUnderflowCheck())
 
@@ -175,65 +191,114 @@ class App : Callable<Int> {
         val filenameMappingNormalized = "smart-contract-sanctuary-ethereum/contracts/mainnet/" + filename.substringAfterLast("/").substring(0,2).lowercase()+ "/" + filename.substringAfterLast("/")
         checks.addAll(avChecks)
         val checkfile =object {}.javaClass.getResourceAsStream("/contract_checks_verify.json")?.bufferedReader()?.readText()
-        var jsonObject = JSONTokener(checkfile).nextValue() as JSONObject
-        if(jsonObject.has(filenameMappingNormalized)){
-            var jsonChecks = jsonObject.getJSONArray(filenameMappingNormalized)
-            jsonChecks?.let {
-                optInChecks = ""
-                for(i in 0 until jsonChecks.length()){
-                    optInChecks =optInChecks +  jsonChecks[i] + ","
+        checkfile?.let {
+            var jsonObject = JSONTokener(checkfile).nextValue() as JSONObject
+            if(jsonObject.has(filenameMappingNormalized)){
+                var jsonChecks = jsonObject.getJSONArray(filenameMappingNormalized)
+                jsonChecks?.let {
+                    optInChecks = ""
+                    for(i in 0 until jsonChecks.length()){
+                        optInChecks =optInChecks +  jsonChecks[i] + ","
+                    }
+                    optInChecks= optInChecks.trim(',')
                 }
-                optInChecks= optInChecks.trim(',')
             }
-        }
-        if(optInChecks.isNotEmpty()){
-            val avChecks = checks.toList()
-            checks.clear()
-            val checkstrings = optInChecks.split(",").map { it.trim()}
-            for ( check in checkstrings){
-                val checkclass = avChecks.filter { it::class.simpleName.equals(check) }.firstOrNull()
-                if(checkclass != null){
-                    checks.add(checkclass)
-                }else{
-                    log.error("Check wit name $check does not exist.")
+            if(optInChecks.isNotEmpty()){
+                val avChecks = checks.toList()
+                checks.clear()
+                val checkstrings = optInChecks.split(",").map { it.trim()}
+                for ( check in checkstrings){
+                    val checkclass = avChecks.filter { it::class.simpleName.equals(check) }.firstOrNull()
+                    if(checkclass != null){
+                        checks.add(checkclass)
+                    }else{
+                        log.error("Check wit name $check does not exist.")
+                    }
                 }
             }
         }
     }
 
-    fun persistGraph(result: TranslationResult){
-        val configuration =
-            Configuration.Builder()
-                .uri("bolt://localhost")
-                .autoIndex("none")
-                .credentials("neo4j", neo4jPassword)
-                .build()
+    fun persistGraph(translationResult: TranslationResult){
+        val bench = Benchmark(this.javaClass, "Push cpg to neo4j", false, translationResult)
+        log.info("Using import depth: $depth")
+        log.info(
+            "Count base nodes to save: " +
+                    translationResult.components.size +
+                    translationResult.additionalNodes.size
+        )
 
-        val sessionFactory =
-            SessionFactory(configuration, "de.fraunhofer.aisec.cpg.graph", "de.fraunhofer.aisec.cpg.frontends.solidity")
-        val session = sessionFactory.openSession()
+        val sessionAndSessionFactoryPair = connect()
+
+        val session = sessionAndSessionFactoryPair.first
 
         session.beginTransaction().use { transaction ->
-            session.purgeDatabase()
-
-            val b = Benchmark(App::class.java, "Saving nodes to database")
-            result.translationUnits.forEach {
-                println("Saving file:" + it.name)
-            }
-
-            val nodes = mutableListOf<Node>()
-            nodes.addAll(result.additionalNodes)
-            nodes.addAll(result.translationUnits)
-
-            session.save(nodes)
-
+            if (!noPurgeDb) session.purgeDatabase()
+            session.save(translationResult.components, depth)
+            session.save(translationResult.additionalNodes, depth)
             transaction.commit()
-            b.stop()
         }
 
         session.clear()
-        sessionFactory.close()
+        sessionAndSessionFactoryPair.second.close()
+        bench.addMeasurement()
+
     }
+
+    /**
+     * Connects to the neo4j db.
+     *
+     * @return a Pair of Optionals of the Session and the SessionFactory, if it is possible to
+     *   connect to neo4j. If it is not possible, the return value is a Pair of empty Optionals.
+     * @throws InterruptedException, if the thread is interrupted while it try´s to connect to the
+     *   neo4j db.
+     * @throws ConnectException, if there is no connection to bolt://localhost:7687 possible
+     */
+    @Throws(InterruptedException::class, ConnectException::class)
+    fun connect(): Pair<Session, SessionFactory> {
+        var fails = 0
+        var sessionFactory: SessionFactory? = null
+        var session: Session? = null
+        while (session == null && fails < MAX_COUNT_OF_FAILS) {
+            try {
+                val configuration =
+                    Configuration.Builder()
+                        .uri("$PROTOCOL$host:$port")
+                        .autoIndex(AUTO_INDEX)
+                        .credentials(neo4jUsername, neo4jPassword)
+                        .verifyConnection(VERIFY_CONNECTION)
+                        .build()
+                sessionFactory =
+                    SessionFactory(
+                        configuration,
+                        "de.fraunhofer.aisec.cpg.graph",
+                        "de.fraunhofer.aisec.cpg.frontends"
+                    )
+                sessionFactory.register(AstChildrenEventListener())
+
+                session = sessionFactory.openSession()
+            } catch (ex: ConnectionException) {
+                sessionFactory = null
+                fails++
+                log.error(
+                    "Unable to connect to localhost:7687, " +
+                            "ensure the database is running and that " +
+                            "there is a working network connection to it."
+                )
+                Thread.sleep(TIME_BETWEEN_CONNECTION_TRIES)
+            } catch (ex: AuthenticationException) {
+                log.error("Unable to connect to localhost:7687, wrong username/password!")
+                exitProcess(EXIT_FAILURE)
+            }
+        }
+        if (session == null || sessionFactory == null) {
+            log.error("Unable to connect to localhost:7687")
+            exitProcess(EXIT_FAILURE)
+        }
+        assert(fails <= MAX_COUNT_OF_FAILS)
+        return Pair(session, sessionFactory)
+    }
+
 
     fun runVulnerabilityChecks(filename: String){
         val printedFiles = mutableListOf<String>()
@@ -272,6 +337,27 @@ class App : Callable<Int> {
                 }
             }
         }
+    }
+}
+
+class AstChildrenEventListener : EventListenerAdapter() {
+    private val nodeNameField =
+        Node::class
+            .memberProperties
+            .first() { it.name == "name" }
+            .javaField
+            .also { it?.isAccessible = true }
+
+    override fun onPreSave(event: Event?) {
+        val node = event?.`object` as? Node ?: return
+        node.astChildren = SubgraphWalker.getAstChildren(node)
+        if (node is CallExpression) fixBackingFields(node)
+    }
+
+    private fun fixBackingFields(node: CallExpression) {
+        // CallExpression overwrites name property and must be copied to JvmField
+        // to be visible by Neo4jOGM
+        nodeNameField?.set(node, node.name)
     }
 }
 

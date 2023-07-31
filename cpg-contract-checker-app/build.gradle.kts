@@ -7,7 +7,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     application
-    kotlin("jvm") version "1.6.21"
+    kotlin("jvm") version "1.9.0"
 }
 
 repositories {
@@ -16,7 +16,7 @@ repositories {
     maven { setUrl("https://jitpack.io") }
 
     ivy {
-        setUrl("https://download.eclipse.org/tools/cdt/releases/10.3/cdt-10.3.2/plugins")
+        setUrl("https://download.eclipse.org/tools/cdt/releases/11.0/cdt-11.0.0/plugins")
         metadataSources {
             artifact()
         }
@@ -35,13 +35,15 @@ dependencies {
     // is needed, but somehow not exported by codyze
     //api("de.fraunhofer.aisec", "cpg", "4.2.1")
 
+    api("org.codehaus.jettison","jettison","1.5.4")
+
     // Command line interface support
     api("info.picocli", "picocli", versions["picocli"])
     annotationProcessor("info.picocli", "picocli-codegen", versions["picocli"])
 
     // logging
-    api("org.slf4j:jul-to-slf4j:1.7.32")
-    implementation("org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0")
+    api("org.slf4j:jul-to-slf4j:2.0.7")
+    implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0")
 }
 
 application {
@@ -59,6 +61,6 @@ distributions {
 
 tasks.withType<KotlinCompile>().configureEach {
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }

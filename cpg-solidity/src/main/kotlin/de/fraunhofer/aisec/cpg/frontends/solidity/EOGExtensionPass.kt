@@ -1,7 +1,7 @@
 package de.fraunhofer.aisec.cpg.frontends.solidity
 
+import de.fraunhofer.aisec.cpg.TranslationContext
 import de.fraunhofer.aisec.cpg.TranslationResult
-import de.fraunhofer.aisec.cpg.frontends.CallableInterface
 import de.fraunhofer.aisec.cpg.frontends.solidity.nodes.*
 import de.fraunhofer.aisec.cpg.graph.Node
 import de.fraunhofer.aisec.cpg.graph.declarations.FunctionDeclaration
@@ -18,45 +18,23 @@ import de.fraunhofer.aisec.cpg.passes.EvaluationOrderGraphPass
 import java.util.function.Consumer
 import java.util.stream.Collectors
 
-class EOGExtensionPass: EvaluationOrderGraphPass() {
+class EOGExtensionPass(ctx: TranslationContext): EvaluationOrderGraphPass(ctx) {
 
     private var tr: TranslationResult? = null
 
+    val rollbackNodes: MutableMap<FunctionDeclaration, Rollback> = mutableMapOf()
+
     init {
-        map[UncheckedStatement::class.java] = CallableInterface(::handleUncheckedStatement)
-        map[EmitStatement::class.java] = CallableInterface(::handleEmitStatement)
-        map[Revert::class.java] = CallableInterface(::handleRevert)
-        map[Require::class.java] = CallableInterface(::handleRequire)
-        map[SpecifiedExpression::class.java] = CallableInterface(::handleSpecifiedExpression)
-        map[CallExpression::class.java] = CallableInterface(::handleCallExpression)
+        map[UncheckedStatement::class.java] = {handleUncheckedStatement(it as UncheckedStatement)}
+        map[EmitStatement::class.java] = {handleEmitStatement(it as EmitStatement)}
+        map[Revert::class.java] = {handleRevert(it as Revert)}
+        map[Require::class.java] = {handleRequire(it as Require)}
+        map[SpecifiedExpression::class.java] = {handleSpecifiedExpression(it as SpecifiedExpression)}
+        map[CallExpression::class.java] = {handleCallExpression(it as CallExpression)}
     }
 
-    override fun accept(result: TranslationResult) {
-        tr = result
-        for (tu in result.translationUnits) {
-            createEOG(tu)
-            // overriddenRemoveUnreachableEOGEdges(tu!!) // Should not be necessary as we have no indirect jumps over gotos
-            // checkEOGInvariant(tu); To insert when trying to check if the invariant holds
-        }
-    }
-
-    /**
-     * We explicitly need to add the base to the eog in all cases as we have calls with call expressions that are more
-     * complex then simple bases
-     */
-    fun handleCallExpression(node: Node) {
-        val callExpression = node as CallExpression
-
-        if (callExpression.base != null) {
-            createEOG(callExpression.base)
-        }
-
-        // first the arguments
-        for (arg in callExpression.arguments) {
-            createEOG(arg)
-        }
-        // then the call itself
-        pushToEOG(callExpression)
+    override fun accept(tu: TranslationUnitDeclaration) {
+        createEOG(tu)
     }
 
     fun overriddenRemoveUnreachableEOGEdges(tu: TranslationUnitDeclaration) {
@@ -122,16 +100,14 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
         createEOG(revert.message)
         pushToEOG(node)
 
-        val solidityLanguageFrontend = lang as SolidityLanguageFrontend
+        scopeManager.currentFunction?.let {
 
-        solidityLanguageFrontend?.scopeManager?.currentFunction?.let {
-
-            val rollback = solidityLanguageFrontend.rollbackNodes.getOrPut(it) {Rollback()}
+            val rollback = rollbackNodes.getOrPut(it) {Rollback()}
             pushToEOG(rollback)
             tr?.let { it += rollback }
         }
 
-        currentEOG.clear()
+        currentPredecessors.clear()
 
 
     }
@@ -145,18 +121,16 @@ class EOGExtensionPass: EvaluationOrderGraphPass() {
 
 
         val openBranchNodes: List<Node> = ArrayList()
-        val openConditionEOGs: List<Node> = ArrayList(currentEOG)
+        val openConditionEOGs: List<Node> = ArrayList(currentPredecessors)
         //currentProperties[Properties.BRANCH] = false
+        scopeManager.currentFunction?.let {
 
-        val solidityLanguageFrontend = lang as SolidityLanguageFrontend
-        solidityLanguageFrontend?.scopeManager?.currentFunction?.let {
-
-            val rollback = solidityLanguageFrontend.rollbackNodes.getOrPut(it) {Rollback()}
+            val rollback = rollbackNodes.getOrPut(it) {Rollback()}
             pushToEOG(rollback)
             tr?.let { it += rollback }
         }
 
-        currentEOG.clear()
+        currentPredecessors.clear()
 
         setCurrentEOGs(openConditionEOGs)
         // currentProperties[Properties.BRANCH] = true

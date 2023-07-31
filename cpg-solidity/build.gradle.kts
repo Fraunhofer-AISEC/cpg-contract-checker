@@ -6,7 +6,7 @@ plugins {
     java
     `java-library`
     antlr
-    kotlin("jvm") version "1.6.21"
+    kotlin("jvm") version "1.9.0"
 }
 
 repositories {
@@ -15,7 +15,7 @@ repositories {
     maven { setUrl("https://jitpack.io") }
 
     ivy {
-        setUrl("https://download.eclipse.org/tools/cdt/releases/10.3/cdt-10.3.2/plugins")
+        setUrl("https://download.eclipse.org/tools/cdt/releases/11.0/cdt-11.0.0/plugins")
         metadataSources {
             artifact()
         }
@@ -26,9 +26,9 @@ repositories {
 }
 
 val versions = mapOf(
-    "cpg" to "4.2.1",
+    "cpg" to "7.1.0",
     "junit5" to "5.8.2",
-    "neo4j" to "3.2.35"
+    "neo4j" to "4.0.2"
 )
 
 dependencies {
@@ -37,15 +37,15 @@ dependencies {
 
 
     // neo4j
-    api("org.neo4j", "neo4j", "4.4.0")
+    api("org.neo4j", "neo4j", versions["neo4j"])
     api("org.neo4j", "neo4j-ogm-core", versions["neo4j"])
     api("org.neo4j", "neo4j-ogm", versions["neo4j"])
     api("org.neo4j", "neo4j-ogm-bolt-driver", versions["neo4j"])
 
     // logging
-    api("org.slf4j:jul-to-slf4j:1.7.32")
-    api("org.slf4j:slf4j-api:1.7.32")
-    implementation("org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0")
+    api("org.slf4j:jul-to-slf4j:2.0.7")
+    api("org.slf4j:slf4j-api:2.0.7")
+    implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0")
 
     // testing
     testImplementation(kotlin("test"))
@@ -57,7 +57,7 @@ dependencies {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 

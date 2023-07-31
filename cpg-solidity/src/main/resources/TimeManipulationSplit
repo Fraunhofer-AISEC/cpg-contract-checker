@@ -1,6 +1,6 @@
 MATCH p=(n:DeclaredReferenceExpression)-[:DFG*]->(m) -[:EOG*]->(l:CallExpression)
-WHERE n.name = "timestamp"
-    AND l.name = "send"
+WHERE n.localName = "timestamp"
+    AND l.localName = "send"
 RETURN distinct n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
 
@@ -29,7 +29,7 @@ RETURN DISTINCT n
 MATCH (n:DeclaredReferenceExpression)-[:DFG*]->(m:IfStatement)-[:THEN_STATEMENT]->(o),
       p2=(m)-[:EOG*]->(transferCall:CallExpression)-[:EOG*]->(o)
 WHERE n.code = "now"
-    AND transferCall.name IN ["transfer", "send"]
+    AND transferCall.localName IN ["transfer", "send"]
 RETURN DISTINCT n as time, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file
 
 

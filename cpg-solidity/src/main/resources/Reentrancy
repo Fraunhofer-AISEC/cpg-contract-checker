@@ -1,24 +1,24 @@
-match p=(base)-[:BASE]-(c:CallExpression)-[e:EOG|INVOKES|RETURNS*]->(n)
+match p=(base)-[:BASE|CALLEE]-(c:CallExpression)-[e:EOG|INVOKES|RETURNS*]->(n)
 where not exists {(c)<--(em:EmitStatement)}
 and (
     exists{
         (n)-[d:DFG*#]->(:FieldDeclaration)
     } or exists {
-        (n)-[d:DFG*#]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(:FieldDeclaration)
+        (n)-[d:DFG*#]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|CALLEE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(:FieldDeclaration)
         where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
     }
     or exists {
-        (n)-[d:DFG*#]->(bin:UnaryOperator)-[:INPUT|BASE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(:FieldDeclaration)
+        (n)-[d:DFG*#]->(bin:UnaryOperator)-[:INPUT|BASE|CALLEE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(:FieldDeclaration)
         where bin.operatorCode in ['++','--']
     }
 )
-and(not exists  {()-[:DFG]->(b1)<-[:BASE*]-(c)}
+and(not exists  {()-[:DFG]->(b1)<-[:BASE|CALLEE*]-(c)}
 or exists {
-    dflow=(s)-[:DFG*#]->(b2)<-[:BASE*]-(c)
-    where not exists (()-[:DFG]->(s)) and  not 'Literal' in labels(s) and not  exists((s)<-[:PARAMETERS]-(:ConstructorDeclaration)) and (not s.isInferred or s.name in ['msg', 'tx'] )
+    dflow=(s)-[:DFG*#]->(b2)<-[:BASE|CALLEE*]-(c)
+    where not exists (()-[:DFG]->(s)) and  not 'Literal' in labels(s) and not  exists((s)<-[:PARAMETERS]-(:ConstructorDeclaration)) and (not s.isInferred or s.localName in ['msg', 'tx'] )
     and not exists{(sub)-[:DFG]->(array)-[:SUBSCRIPT_EXPRESSION]->(sub) where sub in nodes(dflow) and array in nodes(dflow)}
 }) and (
     exists{((d:DeclaredReferenceExpression)-[:DFG*#]->(base)) where d.code in ['msg.sender', 'tx.origin']}
-    or exists{((t {name: "address"})<-[:TYPE]-(root)-[:DFG*#]->(base)) where t.name ='address' or t.name = 'UNKNOWN' and not exists((root)<-[:DFG]-()) }
+    or exists{((t {localName: "address"})<-[:TYPE]-(root)-[:DFG*#]->(base)) where t.localName ='address' or t.localName = 'UNKNOWN' and not exists((root)<-[:DFG]-()) }
 )
-return distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.name as name
+return distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.localName as name
