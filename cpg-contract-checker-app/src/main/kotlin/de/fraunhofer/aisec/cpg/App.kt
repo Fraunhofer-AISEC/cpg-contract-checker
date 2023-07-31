@@ -177,13 +177,13 @@ class App : Callable<Int> {
             avChecks.add(ReentrancyCheck())
             avChecks.add(DefaultProxyDelegateCheck())
             avChecks.add(TXOriginCheck())
-            avChecks.add(DOSCheck())
             avChecks.add(TimeManipulationCheck())
-            avChecks.add(AddressPaddingCheck())
-            avChecks.add(FrontRunningCheck())
             avChecks.add(LocalWriteToStorageCheck())
             avChecks.add(BadRandomnessCheck())
             avChecks.add(OverUnderflowCheck())
+            avChecks.add(DOSCheck())
+            avChecks.add(AddressPaddingCheck())
+            avChecks.add(FrontRunningCheck())
 
     }
 

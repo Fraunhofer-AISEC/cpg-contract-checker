@@ -6,8 +6,9 @@ and (exists {
     ({code: 'msg.data'})<-[:ARGUMENTS]-(c)
 } or exists{({code: 'msg.data'})-[:DFG*#]->()<-[:ARGUMENTS]-(c)})
 and not exists{
-    df=({code: 'msg.data'})-[:DFG*]->(n)-[:EOG]->(apath) where n in nodes(p)
+    df=(source {code: 'msg.data'})-[:DFG*]->(n)-[:EOG]->(apath) where n in nodes(p)
     and not exists { (otherf:FunctionDeclaration|CallExpression) where otherf in nodes(df)}
+    and not exists ((source)<-[:BASE]-({code: 'msg.data.length'}))
     and exists {
     d=(f)-[:EOG|INVOKES*]->(n)-[:EOG|INVOKES*]->(otherpath) where not exists{ (otherpath)-[:EOG|INVOKES]->() } and (not c in nodes(d) or 'Rollback' in labels(otherpath))
     }

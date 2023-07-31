@@ -1,4 +1,4 @@
-match p=(base)-[:BASE|CALLEE]-(c:CallExpression)-[e:EOG|INVOKES|RETURNS*]->(n)
+match p=(base:MemberExpression)-[:BASE|CALLEE]-(c:CallExpression)-[e:EOG|INVOKES|RETURNS*]->(n)
 where not exists {(c)<--(em:EmitStatement)}
 and (
     exists{
