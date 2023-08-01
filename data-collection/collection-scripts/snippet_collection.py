@@ -14,7 +14,7 @@ checkmapping = {
   "BadRandomnessCheck": "A deterministic or predictable value may be used as bad random number.",
   "CallReturnCheck": "Missing Check of Return Value from external Call",
   "DefaultProxyDelegateCheck": "No whitelisting of calls proxied to another contract",
-  "DOSThroughExhaustionCheck": "An expensive operation in a loop with a user controlled or often repeated condition can exhaust gas and deny reliable execution.",
+  "DOSCheck": "Operation may lead to a denial of essential contract function.",
   "FrontRunningCheck": "A miner can use others input to gain a benefit himself.",
   "LocalWriteToStorageCheck": "Write to uninitialized variable might unintentionally write to storage.",
   "OverUnderflowCheck": "Result of expression can be over- or under-flown by external entity",
@@ -30,7 +30,7 @@ validated_checks = {
   "BadRandomnessCheck": [],
   "CallReturnCheck": [],
   "DefaultProxyDelegateCheck": [],
-  "DOSThroughExhaustionCheck": [],
+  "DOSCheck": [],
   "FrontRunningCheck": [],
   "LocalWriteToStorageCheck": [],
   "OverUnderflowCheck": [],
@@ -46,7 +46,7 @@ snippets_by_check = {
   "BadRandomnessCheck": [],
   "CallReturnCheck": [],
   "DefaultProxyDelegateCheck": [],
-  "DOSThroughExhaustionCheck": [],
+  "DOSCheck": [],
   "FrontRunningCheck": [],
   "LocalWriteToStorageCheck": [],
   "OverUnderflowCheck": [],
@@ -99,6 +99,7 @@ def parse_vulnerabillities(dirname, filename):
 def parse_validations(dirname, filename):
     snippet_folder = os.path.basename(os.path.normpath(dirname))
     snippet_name = snippet_folder + ".sol"
+    print("content: " + str(os.path.join(dirname, filename)))
     with open(os.path.join(dirname, filename)) as f:
         findings = []
         content = f.read()
@@ -119,7 +120,7 @@ def collect_timestamps():
             sos = json.loads(line)
             if sos["question_id"] in timestamp_mapping:
                 print("Dublicate snippet entries for: " + str(sos["question_id"]))
-            timestamp_mapping[sos["question_id"]] = sos["creation_date"]
+            timestamp_mapping[str(sos["question_id"])] = sos["creation_date"]
             
             line = f.readline()
     with open("ethereum_stack_exchange_posts.json") as f:
@@ -128,7 +129,7 @@ def collect_timestamps():
             sos = json.loads(line)
             if sos["question_id"] in timestamp_mapping:
                 print("Dublicate snippet entries for: " + str(sos["question_id"]))
-            timestamp_mapping[sos["question_id"]] = sos["creation_date"]
+            timestamp_mapping[str(sos["question_id"])] = sos["creation_date"]
                     
             line = f.readline()
         with open("smart_contract_sanctuary_timestamps.json") as f:
@@ -142,7 +143,7 @@ def collect_timestamps():
                         
                 line = f.readline()
     for k,v in vulnerable_contracts.items():
-        question_id = int(k.split("_")[0])
+        question_id = str(k.split("_")[0])
         if question_id in timestamp_mapping:
             vulnerable_contracts[k]["timestamp"] = timestamp_mapping[question_id]
         else:
