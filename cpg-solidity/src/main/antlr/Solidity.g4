@@ -1,6 +1,13 @@
+// Downloaded from https://github.com/solidity-parser/antlr/blob/master/Solidity.g4
+// https://github.com/solidity-parser/antlr/commit/1f0c0e3fa4d70ac1afa697efcaa78bb8d18ca5c3
 // Copyright 2020 Gonçalo Sá <goncalo.sa@consensys.net>
 // Copyright 2016-2019 Federico Bond <federicobond@gmail.com>
 // Licensed under the MIT license. See LICENSE file in the project root for details.
+
+// Grammar adopted for parsing of Solidity code snippets. 
+// Made fuzzier by allowing
+// - pull up some rules of commonly appearing code fragments in snippets
+// - newlines as statement ending instead of just semicolon
 
 grammar Solidity;
 
@@ -13,11 +20,12 @@ sourceUnit
       | contractDefinition
       | enumDefinition
       | structDefinition
-      | contractPart
+      | functionDefinition
       | fileLevelConstant
       | customErrorDefinition
+      | typeDefinition
+      | usingForDeclaration
       )*
-      | functionDefinition
       | expressionStatement
       | stateVariableDeclaration
       | block
@@ -31,7 +39,7 @@ pragmaName
   : identifier ;
 
 pragmaValue
-  : version | expression ;
+  : '*' NL* | version | expression ;
 
 version
   : versionConstraint (('||' NL*)? versionConstraint)* ;
@@ -69,8 +77,8 @@ contractPart
   | functionDefinition
   | eventDefinition
   | enumDefinition
-  | customErrorDefinition;
-
+  | customErrorDefinition
+  | typeDefinition;
 
 stateVariableDeclaration
   : typeName
@@ -83,8 +91,22 @@ fileLevelConstant
 customErrorDefinition
   : 'error' NL* identifier parameterList eos ;
 
+typeDefinition
+  : 'type' NL* identifier
+    'is' NL* elementaryTypeName eos ;
+
 usingForDeclaration
-  : 'using' NL* identifier 'for' NL* ('*' NL* | typeName) eos ;
+  : 'using' NL* usingForObject 'for' NL* ('*' NL* | typeName) (GlobalKeyword NL*)? eos ;
+
+usingForObject
+  : userDefinedTypeName
+  | '{' NL* usingForObjectDirective ( ',' NL* usingForObjectDirective )* '}' NL*;
+
+usingForObjectDirective
+  : userDefinedTypeName ( 'as' NL* userDefinableOperators )?;
+
+userDefinableOperators
+  : ('|' | '&' | '^' | '~' | '+' | '-' | '*' | '/' | '%' | '==' | '!=' | '<' | '>' | '<=' | '>=') NL* ;
 
 structDefinition
   : 'struct' NL* identifier
@@ -157,7 +179,10 @@ mappingKey
   | userDefinedTypeName ;
 
 mapping
-  : 'mapping' NL* '(' NL* mappingKey '=>' NL* typeName ')' NL* ;
+  : 'mapping' NL* '(' NL* mappingKeyName? '=>' NL* typeName mappingValueName? ')' NL* ;
+
+mappingKeyName : identifier;
+mappingValueName : identifier;
 
 functionTypeName
   : 'function' NL* functionTypeParameterList
@@ -217,10 +242,13 @@ forStatement
   : 'for' NL* '(' NL* ( simpleStatement | ';' NL* ) ( expressionStatement | ';' NL* ) expression? ')' NL* statement ;
 
 inlineAssemblyStatement
-  : 'assembly' NL* (StringLiteralFragment NL*)? assemblyBlock ;
+  : 'assembly' NL* (StringLiteralFragment NL*)? ('(' NL* inlineAssemblyStatementFlag ')' NL* )? assemblyBlock ;
+
+inlineAssemblyStatementFlag
+  : stringLiteral;
 
 doWhileStatement
-  : 'do' NL* statement 'while' NL* '(' NL* expression ')' NL* eos ;
+  : 'do' NL* statement 'while' NL* '(' NL* expression ')' eos ;
 
 continueStatement
   : 'continue' eos ;
@@ -253,19 +281,27 @@ elementaryTypeName
   : ('address' | 'bool' | 'string' | 'var' | Int | Uint | 'byte' | Byte | Fixed | Ufixed) NL* ;
 
 Int
-  : 'int' | 'int8' | 'int16' | 'int24' | 'int32' | 'int40' | 'int48' | 'int56' | 'int64' | 'int72' | 'int80' | 'int88' | 'int96' | 'int104' | 'int112' | 'int120' | 'int128' | 'int136' | 'int144' | 'int152' | 'int160' | 'int168' | 'int176' | 'int184' | 'int192' | 'int200' | 'int208' | 'int216' | 'int224' | 'int232' | 'int240' | 'int248' | 'int256' ;
+  : 'int' (NumberOfBits)? ;
 
 Uint
-  : 'uint' | 'uint8' | 'uint16' | 'uint24' | 'uint32' | 'uint40' | 'uint48' | 'uint56' | 'uint64' | 'uint72' | 'uint80' | 'uint88' | 'uint96' | 'uint104' | 'uint112' | 'uint120' | 'uint128' | 'uint136' | 'uint144' | 'uint152' | 'uint160' | 'uint168' | 'uint176' | 'uint184' | 'uint192' | 'uint200' | 'uint208' | 'uint216' | 'uint224' | 'uint232' | 'uint240' | 'uint248' | 'uint256' ;
+  : 'uint' (NumberOfBits)? ;
 
 Byte
-  : 'bytes' | 'bytes1' | 'bytes2' | 'bytes3' | 'bytes4' | 'bytes5' | 'bytes6' | 'bytes7' | 'bytes8' | 'bytes9' | 'bytes10' | 'bytes11' | 'bytes12' | 'bytes13' | 'bytes14' | 'bytes15' | 'bytes16' | 'bytes17' | 'bytes18' | 'bytes19' | 'bytes20' | 'bytes21' | 'bytes22' | 'bytes23' | 'bytes24' | 'bytes25' | 'bytes26' | 'bytes27' | 'bytes28' | 'bytes29' | 'bytes30' | 'bytes31' | 'bytes32'  ;
+  : 'bytes' (NumberOfBytes)?;
 
 Fixed
-  : 'fixed' | ( 'fixed' [0-9]+ 'x' [0-9]+ ) ;
+  : 'fixed' ( NumberOfBits 'x' [0-9]+ )? ;
 
 Ufixed
-  : 'ufixed' | ( 'ufixed' [0-9]+ 'x' [0-9]+ ) ;
+  : 'ufixed' ( NumberOfBits 'x' [0-9]+ )? ;
+
+fragment
+NumberOfBits
+  : '8' | '16' | '24' | '32' | '40' | '48' | '56' | '64' | '72' | '80' | '88' | '96' | '104' | '112' | '120' | '128' | '136' | '144' | '152' | '160' | '168' | '176' | '184' | '192' | '200' | '208' | '216' | '224' | '232' | '240' | '248' | '256' ;
+
+fragment
+NumberOfBytes
+  : [1-9] | [12] [0-9] | '3' [0-2] ;
 
 expression
   : expression ('++' | '--') NL*
@@ -278,7 +314,7 @@ expression
   | '(' NL* expression ')' NL*
   | ('++' | '--') NL* expression
   | ('+' | '-') NL* expression
-  | ('after' | 'delete') NL* expression
+  | 'delete' NL* expression
   | '!' NL* expression
   | '~' NL* expression
   | expression '**' NL* expression
@@ -301,11 +337,11 @@ primaryExpression
   | numberLiteral
   | hexLiteral
   | stringLiteral
-  | identifier ('[' NL* ']' NL*)?
+  | identifier
   | TypeKeyword NL*
   | PayableKeyword NL*
   | tupleExpression
-  | typeNameExpression ('[' NL* ']' NL*)? ;
+  | typeName;
 
 expressionList
   : expression (',' NL* expression)* ;
@@ -341,7 +377,6 @@ assemblyItem
   | BreakKeyword NL*
   | ContinueKeyword NL*
   | LeaveKeyword NL*
-  | subAssembly
   | numberLiteral
   | stringLiteral
   | hexLiteral ;
@@ -362,13 +397,16 @@ assemblyAssignment
   : assemblyIdentifierOrList ':=' NL* assemblyExpression ;
 
 assemblyIdentifierOrList
-  : identifier | assemblyMember | '(' NL* assemblyIdentifierList ')' NL* ;
+  : identifier
+  | assemblyMember
+  | assemblyIdentifierList
+  | '(' NL* assemblyIdentifierList ')' NL* ;
 
 assemblyIdentifierList
   : identifier ( ',' NL* identifier )* ;
 
 assemblyStackAssignment
-  : '=:' NL* identifier ;
+  : assemblyExpression '=:' NL* identifier ;
 
 labelDefinition
   : identifier ':' NL* ;
@@ -395,18 +433,11 @@ assemblyIf
   : 'if' NL* assemblyExpression assemblyBlock ;
 
 assemblyLiteral
-  : stringLiteral | DecimalNumber NL* | HexNumber NL* | hexLiteral ;
-
-subAssembly
-  : 'assembly' NL* identifier assemblyBlock ;
+  : stringLiteral | DecimalNumber NL* | HexNumber NL* | hexLiteral | BooleanLiteral ;
 
 tupleExpression
   : '(' NL* ( expression? ( ',' NL* expression? )* ) ')' NL*
   | '[' NL* ( expression ( ',' NL* expression )* )? ']' NL* ;
-
-typeNameExpression
-  : elementaryTypeName
-  | userDefinedTypeName ;
 
 numberLiteral
   : (DecimalNumber NL* | HexNumber NL*) (NumberUnit NL*)? ;
@@ -414,13 +445,13 @@ numberLiteral
 // some keywords need to be added here to avoid ambiguities
 // for example, "revert" is a keyword but it can also be a function name
 identifier
-  : ('from' | 'calldata' | 'receive' | 'callback' | 'revert' | 'error' | ConstructorKeyword | PayableKeyword | LeaveKeyword | Identifier) NL* ;
+  : ('from' | 'calldata' | 'receive' | 'callback' | 'revert' | 'error' | 'address' | GlobalKeyword | ConstructorKeyword | PayableKeyword | LeaveKeyword | Identifier) NL* ;
 
 BooleanLiteral
-  : ('true' | 'false') ;
+  : 'true' | 'false' ;
 
 DecimalNumber
-  : ( DecimalDigits | (DecimalDigits? '.' DecimalDigits) ) ( [eE] DecimalDigits )? ;
+  : ( DecimalDigits | (DecimalDigits? '.' DecimalDigits) ) ( [eE] '-'? DecimalDigits )? ;
 
 fragment
 DecimalDigits
@@ -440,10 +471,6 @@ NumberUnit
 hexLiteral : (HexLiteralFragment NL*)+ ;
 
 HexLiteralFragment : 'hex' ('"' HexDigits? '"' | '\'' HexDigits? '\'') ;
-
-fragment
-HexPair
-  : HexCharacter HexCharacter ;
 
 fragment
 HexCharacter
@@ -484,6 +511,7 @@ VirtualKeyword : 'virtual' ;
 PureKeyword : 'pure' ;
 TypeKeyword : 'type' ;
 ViewKeyword : 'view' ;
+GlobalKeyword : 'global' ;
 
 ConstructorKeyword : 'constructor' ;
 FallbackKeyword : 'fallback' ;
@@ -506,8 +534,7 @@ stringLiteral
   : (StringLiteralFragment NL*)+ ;
 
 StringLiteralFragment
-  : 'unicode'? '"' DoubleQuotedStringCharacter* '"'
-  | 'unicode'? '\'' SingleQuotedStringCharacter* '\'' ;
+  : 'unicode'? ( '"' DoubleQuotedStringCharacter* '"' | '\'' SingleQuotedStringCharacter* '\'' ) ;
 
 fragment
 DoubleQuotedStringCharacter
@@ -526,21 +553,22 @@ VersionLiteral
  * code snippets
  */
 eos
-  : ';' NL*
+  : NL* ';' NL*
   | NL+ ;
 
 NL
-  : [\r\n]+ ;
+  : [\r\n\u000C]+ ;
 
 WS
-  : [ \t\u000C]+ -> skip ;
+  : [ \t]+ -> skip ;
 
 COMMENT
-  : '/*' .*? '*/' NL* -> channel(HIDDEN) ;
+  : '/*' .*? '*/' NL? -> channel(HIDDEN) ;
 
 LINE_COMMENT
-  : '//' ~[\r\n]* NL+ -> channel(HIDDEN) ;
+  : '//' ~[\r\n]* NL? -> channel(HIDDEN) ;
 
 // ignore a few characters often occuring near end-of-file
 //IGNORE
+//  : '...' -> skip ;
 //  : [`'] -> skip ;
