@@ -179,7 +179,7 @@ mappingKey
   | userDefinedTypeName ;
 
 mapping
-  : 'mapping' NL* '(' NL* mappingKeyName? '=>' NL* typeName mappingValueName? ')' NL* ;
+  : 'mapping' NL* '(' NL* mappingKey mappingKeyName? '=>' NL* typeName mappingValueName? ')' NL* ;
 
 mappingKeyName : identifier;
 mappingValueName : identifier;
