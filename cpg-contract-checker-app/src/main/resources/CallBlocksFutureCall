@@ -1,0 +1,6 @@
+match (c:CallExpression)-[:EOG*]->(c2:CallExpression)
+where c.localName in ['transfer', 'send', 'call'] and c2.localName in ['transfer','send', 'call']
+and (not c.localName in ['transfer', 'send'] or exists{
+    avoidingpath=(c)-[:DFG]->(branchNeg)-[:EOG]->(next) where not exists ((next)-[:EOG*]->(c2))
+})
+return distinct  c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file, c.localName as name

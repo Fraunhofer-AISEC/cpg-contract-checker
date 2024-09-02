@@ -1,0 +1,25 @@
+match p=({localName: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
+    where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)})
+        and not split(f.code, '{')[0] contains ' internal '
+        and (toUpper(c.localName) in ['TRANSFER' , 'SEND']
+        and exists{
+            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*#]->()<-[:ARGUMENTS]-(c)
+            where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
+            }
+
+        or exists{
+            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*#]->()<-[:VALUE]-(s)-[:KEY]->({value: 'value'})
+            where exists{(s)<--(c)} and not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
+        }
+        or toUpper(c.localName) in ['VALUE'] and exists{
+            (f)-[r:PARAMETERS]->(param:ParamVariableDeclaration)-[:DFG*#]->()<-[:ARGUMENTS]-(c)-[:BASE|CALLEE*]->({localName:'call'})
+            where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > r.INDEX} and adr.INDEX < r.INDEX
+        })
+    and not exists{
+        ({code : 'msg.data.length'})-[:DFG*]->(n)
+        where n in nodes(p)
+        and exists{alt=(n)-[:EOG|INVOKES*]->(t) where 'ROLLBACK' in labels(t) or not c in nodes(alt) and not exists {(t)-[:EOG|INVOKES]->()}}
+    } and exists{
+            (c)-[:BASE|CALLEE*]->()<-[:DFG*#]-(:ParamVariableDeclaration)
+    }
+return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file

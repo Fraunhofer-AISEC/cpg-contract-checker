@@ -1,0 +1,9 @@
+**/build/distributions/
+**/build/install/
+data-collection/
+databases/
+neo4j/
+target/
+
+.git/
+.idea/

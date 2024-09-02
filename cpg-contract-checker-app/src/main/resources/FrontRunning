@@ -1,0 +1,18 @@
+match p=(f:FunctionDeclaration)-[:EOG*]->(interesting)-[:EOG*]->(last) // basic path to interesting node
+where not 'ConstructorDeclaration' in labels(f) and not exists((last)-[:EOG]->())
+and (exists{ (interesting:BinaryOperator {operatorCode: '='})-[:LHS]->()<-[:DFG*#]-(sourcer {code: 'msg.sender'})
+    where not exists{(interesting:BinaryOperator)-[:RHS]->(rhs)<-[:DFG*]-(source) where source.code = "msg.sender" or source.code = "msg.value"}
+} or exists {
+(interesting:CallExpression)-[:BASE|CALLEE*]->(target {code: 'msg.sender'})
+where interesting.localName in ['value', 'send', 'transfer', 'call']
+and not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:ARGUMENTS]-(interesting)}
+    or exists {(interesting)-[:BASE|CALLEE*]->(SpecifiedExpression)-[:SPECIFIERS]->(kv:KeyValueExpression)-[:KEY]->({localName:'value'})
+        where not exists {({code: 'msg.sender'})-[:DFG*]->()<-[:VALUE]-(kv)}
+    }
+}
+) and not exists { // A condition influenced by message sender that avoids the path
+      match alt=(f)-[:EOG*]->(branch)-[:EOG*]->(altlast)
+      match (source {code: 'msg.sender'})-[:DFG*]->(branch)
+      where not exists((altlast)-[:EOG]->()) and branch in nodes(p) and source in nodes(p) and (not interesting in nodes(alt) or altlast:Rollback)
+}
+return distinct  interesting as interesting, interesting.startLine as sline, interesting.endLine as eline, interesting.startColumn as scol, interesting.endColumn as ecol, interesting.artifact as file, interesting.localName as name

@@ -1,0 +1,7 @@
+match p=(b:BinaryOperator {operatorCode: '='})-[:LHS]->()-[:DFG]->(state:FieldDeclaration)-[:TYPE]->(t) // Here we could use DFG* to catch more but also increase runtime and false positives
+where t.code contains '['
+and exists{
+    (c:CallExpression)-[:BASE|CALLEE|ARGUMENTS]->()<-[:DFG*#]-(state) where c.localName in ['transfer', 'send', 'call']
+} and not exists {(f:ConstructorDeclaration)-[:EOG*]->(b)}
+
+return  distinct  b as call, b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file, b.localName as name

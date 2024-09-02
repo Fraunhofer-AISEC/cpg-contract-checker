@@ -1,0 +1,11 @@
+match p=(entry:FunctionDeclaration)-[e:EOG|INVOKES|RETURNS*]->(writingNode)-[:EOG|INVOKES|RETURNS*]->(last)
+where not 'ConstructorDeclaration' in labels(entry) and not split(entry.code, '{')[0] contains ' internal ' and not exists((last)-[:EOG|INVOKES]->())
+    and exists((writingNode)-[:DFG]->(:FieldDeclaration)<-[:REFERS_TO]-()<-[:LHS|RHS]-(:BinaryOperator {operatorCode: '=='})-[:LHS|RHS]->({code: 'msg.sender'}))
+    and not exists{
+        match ({code : 'msg.sender'})-[:DFG*]->(n)<-[:DFG*]-(:FieldDeclaration)
+        match alt=(n)-[:DFG*]->(comp)-[:EOG|INVOKES|RETURNS*]->(t)
+        where comp in nodes(p)
+            and ('Rollback' in labels(t) or not writingNode in nodes(alt))
+
+}
+return distinct entry as write, entry.startLine as sline, entry.endLine as eline, entry.startColumn as scol, entry.endColumn as ecol, entry.artifact as file

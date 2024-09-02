@@ -1,0 +1,5 @@
+match (:FieldDeclaration)<-[:REFERS_TO]-()-[:DFG*]->(n)
+match (:MemberExpression {code : 'tx.origin'})-[:DFG*]->(n)
+match (b1)<-[:EOG]-(n)-[:EOG]->(b2)
+where b1 <> b2
+return distinct n as write, n.startLine as sline, n.endLine as eline, n.startColumn as scol, n.endColumn as ecol, n.artifact as file

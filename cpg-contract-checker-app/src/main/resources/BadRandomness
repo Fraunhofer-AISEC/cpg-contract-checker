@@ -1,0 +1,24 @@
+match (r)
+where ((r:DeclaredReferenceExpression or r:MemberExpression)  and r.code IN ["block.timestamp", "block.number", "block.difficulty", "block.coinbase"]
+or (r:CallExpression and r.localName in ['blockhash']))
+and (
+exists {
+    (r)-[:DFG*#]->(:ReturnStatement)<-[:EOG*]-(containing:FunctionDeclaration) where containing.code contains 'rand' // Value is just returned
+} or exists { // Writing to state
+       (r)-[:DFG|ARGUMENTS*#]->(f:FieldDeclaration)
+       where not exists((f)-[:DFG]->())
+} or exists{ // This should also capture calls to send and transfer any dataflow to a function that is unknown
+    (interesting:CallExpression)
+    where interesting.localName in ['value', 'send', 'transfer', 'call'] and (
+        exists{
+            (r)-[:DFG*#]->()<-[:BASE|CALLEE|ARGUMENTS|SPECIFIERS|VALUE*]-(interesting)
+        } or exists { // Exists a branching point that can reach and avoid the call
+            (r)-[:DFG*#]->(branch)-[:EOG]->(th)-[:EOG*]->(interesting) where exists {(branch)-[:EOG]->(el) where el <> th
+            and (interesting:Rollback or interesting:CallExpression)
+            and not exists ((el)-[:EOG*]->(interesting))}
+        }
+    )
+
+}
+)
+return distinct  r as refference, r.startLine as sline, r.endLine as eline, r.startColumn as scol, r.endColumn as ecol, r.artifact as file, r.localName as name

@@ -1,0 +1,24 @@
+match (v:VariableDeclaration)
+where ('ParamVariableDeclaration' in labels(v) and ' storage ' in v.code
+or not 'ParamVariableDeclaration' in labels(v) and not 'FieldDeclaration' in labels(v) and not exists{(dc)-[:AST]-(v) where dc.code contains ' memory ' or dc.code contains ' calldata '}) and not exists ((v)-[:INITIALIZER]->())
+and ('[' in v.code // Check if it is an array
+    or exists{ // to see if it is of type struct
+        (v)-[:TYPE]->(tv) where exists{
+                (struct:RecordDeclaration {kind: 'struct'}) where struct.kind = 'struct' and struct.localName = tv.localName
+            }
+        }
+) and exists {(f) where not 'ConstructorDeclaration' in labels(f) and (
+    exists{
+        (f)-[:EOG*]->()-[d:DFG]->(v)
+    } or exists {
+        (f)-[:EOG*]->()-[d:DFG]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|CALLEE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(v)
+        where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
+    }
+    or exists {
+        (f)-[:EOG*]->()-[d:DFG]->(bin:UnaryOperator)-[:INPUT|BASE|CALLEE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(v)
+        where bin.operatorCode in ['++','--']
+    }
+)
+
+}
+return distinct  v as call, v.startLine as sline, v.endLine as eline, v.startColumn as scol, v.endColumn as ecol, v.artifact as file, v.localName as name

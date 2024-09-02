@@ -1,0 +1,15 @@
+match p=(c:CallExpression)-[:EOG*]->(last)
+where not exists ((last)-[:EOG]->()) and not 'Rollback' in labels(last)
+    and not exists{(c)-[:DFG*]->(r:ReturnStatement) where r in nodes(p)}
+    and not exists{
+        (c)-[:DFG*]->(n)-[:EOG]->(apath) where n in nodes(p) and exists {
+            (n)-[:EOG]->(otherpath) where apath <> otherpath
+        }
+
+}
+and (c.localName in ['call', 'callcode', 'delegatecall', 'send']
+    or c.localName in ['value','gas'] and exists {
+        (c)-[:BASE|CALLEE*]->({localName: 'call'})
+    }
+)
+return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file

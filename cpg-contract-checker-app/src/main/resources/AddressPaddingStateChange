@@ -1,0 +1,13 @@
+match p=({localName: "address"})<-[:TYPE]-(ad)<-[adr:PARAMETERS]-(f:FunctionDeclaration)-[:EOG|INVOKES*]->(last)
+    where ('ReturnStatement' in labels(last) or exists {(f)-[:BODY]->(last)}) 
+        and exists{
+        (f)-[vulna:PARAMETERS]->(vuln)-[:DFG*#]->(m)-[:DFG*#]->(state:FieldDeclaration)
+            where not exists {(f)-[rp:PARAMETERS]->() where rp.INDEX > vulna.INDEX} and adr.INDEX < vulna.INDEX
+            and not exists{
+                ({code : 'msg.data.length'})-[:DFG*]->(n)
+                where n in nodes(p)
+                and exists{alt=(n)-[:EOG|INVOKES*]->(t) where 'ROLLBACK' in labels(t) or not m in nodes(alt) and not exists {(t)-[:EOG|INVOKES]->()}}
+    }
+    
+                        }
+return distinct ad as call, ad.startLine as sline, ad.endLine as eline, ad.startColumn as scol, ad.endColumn as ecol, ad.artifact as file

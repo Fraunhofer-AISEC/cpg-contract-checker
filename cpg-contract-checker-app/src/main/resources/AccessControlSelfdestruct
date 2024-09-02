@@ -1,0 +1,13 @@
+match p=(f:FunctionDeclaration)-[:EOG|INVOKES*]->(c:CallExpression)-[:EOG|INVOKES*]->(last)
+        where toUpper(c.localName) in ['SELFDESTRUCT' , 'SUICIDE']
+        and not exists ((last)-[:EOG|INVOKES]->())
+        and not 'Rollback' in labels(last)
+        and not exists{
+            ({code : 'msg.sender'})-[:DFG*]->(n)-[:EOG|INVOKES*]->(t)  // Here we might have to consider refers to to Field declarations and not strait data flows
+            // <-[:DFG*10]-(:FieldDeclaration) Considering all DFs from fields is too expensive a comparison with the message optimizes
+            where n in nodes(p) and not exists ((t)-[:EOG|INVOKES]->())
+            and exists{
+                alt=(f)-[:EOG|INVOKES*]->(n)-[:EOG|INVOKES*]->(t) where 'Rollback' in labels(t) or not c in nodes(alt)
+            }
+        }
+return distinct c as call, c.startLine as sline, c.endLine as eline, c.startColumn as scol, c.endColumn as ecol, c.artifact as file

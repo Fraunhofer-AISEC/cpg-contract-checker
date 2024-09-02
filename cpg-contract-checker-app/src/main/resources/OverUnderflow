@@ -1,0 +1,44 @@
+match p=(f:FunctionDeclaration)-[:EOG*]->(b:BinaryOperator)-[:EOG*]->(last)
+where not exists((last)-[:EOG*]->()) and b.operatorCode in ['+','+=','-','-=','*','*=']
+and exists {(b)<-[:DFG*#]-(param:ParamVariableDeclaration)<--(argf:FunctionDeclaration) where not 'ConstructorDeclaration' in labels(f) and not split(argf.code, '{')[0] contains ' internal '}
+and(
+    (
+    exists{
+        (b)-[d:DFG*#]->(:FieldDeclaration)
+    } or exists {
+        (b)-[d:DFG*#]->(bin:BinaryOperator)-[:DFG]->()-[:EOG]->(:Rollback)
+            where bin.operatorCode in ['<', '>', '<=', '>=', '==']
+    } or exists {
+        (b)-[d:DFG*#]->(bin:BinaryOperator)-[:LHS]->()-[:BASE|CALLEE|LHS|ARRAY_EXPRESSION*]->()<-[:DFG*#]-(:FieldDeclaration)
+        where bin.operatorCode in ['=', '|=', '^=', '&=', '<<=','>>=','+=', '-=', '*=', '/=', '%=']
+    }or exists {
+        (b)-[d:DFG*#]->(bin:UnaryOperator)-[:INPUT|BASE|CALLEE|LHS|ARRAY_EXPRESSION]->()<-[:DFG*#]-(:FieldDeclaration)
+        where bin.operatorCode in ['++','--']
+
+    } or exists{
+        (b)-[:DFG*#]->()<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
+    } or exists{
+        (b)<-[:ARGUMENTS]-(c:CallExpression) where not exists((c)-[:INVOKES]->()-[:BODY]->())
+    }or exists {
+        (b)-[:DFG*#]->()<-[:VALUE]-(:SpecifiedExpression)
+    }or exists {
+        (b)<-[:VALUE]-(:SpecifiedExpression)
+    }
+) and not exists {// There is no mitigation
+       match bpath=(f)-[:EOG*]->(cond:BinaryOperator)-[:EOG]->(branch)-[:EOG*]->(l)
+       match (c1)<-[:LHS|RHS]-(cond)-[:LHS|RHS]->(c2)
+       where c1 <> c2 and branch in nodes(p) and not exists((l)-[:EOG]->())
+        and (not b in nodes(bpath) or 'Rollback' in labels(l))
+        and not exists {
+            (dfOrigin)-[:DFG*#]->(b) where not exists(()-[:DFG]->(dfOrigin)) and not exists ((dfOrigin)-[:DFG*]->(branch))
+        } and (
+             not exists{(b)-[:DFG*#]->(branch)} or
+             // Both sides of the comparison need to contain a relevant dfg to avoid constants and overflows on one side
+             exists ((b)<-[:DFG*]-()-[:DFG*]->(c1))
+             and exists ((b)<-[:DFG*]-()-[:DFG*]->(c2))
+             or exists ((:Literal)-[:DFG]->(cond)) and exists ((:Literal)-[:DFG]->(b))
+        )
+}
+
+)
+return distinct b ,b.startLine as sline, b.endLine as eline, b.startColumn as scol, b.endColumn as ecol, b.artifact as file
