@@ -126,7 +126,7 @@ our tool into the [SmartBugs Benchmark](https://github.com/smartbugs/smartbugs) 
 the main project.
 
 The description of how to run our study pipeline, the necessary evaluation scripts, the used data sets, as well
-as intermediate results are available at [Zenodo]().
+as intermediate results are available at [Zenodo](https://zenodo.org/records/13982846).
 
 ## References
 
